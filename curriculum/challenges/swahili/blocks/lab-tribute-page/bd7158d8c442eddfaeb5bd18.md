@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Jenga ukurasa wa heshima
+title: Napravite stranicu posvećenja
 challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
@@ -9,25 +9,25 @@ saveSubmissionToDB: true
 
 # --description--
 
-**Lengo:** Timiza hadithi za mtumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Ispunite priče korisnika ispod i osigurajte da svi testovi prođu kako biste završili laboratoriju.
 
-**Hadithi za mtumizi:**
+**Priče korisnika:**
 
-1. Ukurasa wako wa heshima unapaswa kuwa na kipengele cha `main` chenye `id` inayolingana ya `main`, ambayo ina vipengele vyote vingine.
-1. Unapaswa kuona kipengele chenye `id` ya `title`, kinachojumuisha mfuatano wa herufi (yaani maandishi), kinachoelezea somo la ukurasa wa heshima (mfano "Dr. Norman Borlaug").
-1. Unapaswa kuona kipengele cha `figure` au `div` chenye `id` ya `img-div`.
-1. Ndani ya kipengele cha `#img-div`, unapaswa kuona kipengele cha `img` chenye `id="image"` inayolingana.
-1. Ndani ya kipengele cha `#img-div`, unapaswa kuona kipengele chenye `id="img-caption"` inayolingana kinachojumuisha maelezo ya maandishi yanayoelezea picha iliyoonyeshwa katika `#img-div`.
-1. Unapaswa kuona kipengele chenye `id="tribute-info"` inayolingana, kinachojumuisha maelezo ya maandishi yanayoelezea somo la ukurasa wa heshima.
-1. Unapaswa kuona kipengele cha `a` chenye `id="tribute-link"` inayolingana, kinachounganisha na tovuti ya nje, kinachojumuisha taarifa za ziada kuhusu somo la ukurasa wa heshima. KUNYONYESHA: Lazima upatie kipengele chako sifa ya `target` na uiweke kuwa `_blank` ili kiungo chako kifunguke kwenye kichupo kipya.
-1. `#image` yako inapaswa kutumia mali za `max-width` na `height` kubadilika ukubwa kulingana na upana wa kipengele cha mzazi wake, bila kuzidi ukubwa wake wa awali.
-1. Kipengele chako cha `img` kinapaswa kuwekwa katikati ndani ya kipengele cha mzazi wake.
+1. Vaša stranica posvećenja treba da ima element `main` sa odgovarajućim `id` od `main`, koji sadrži sve ostale elemente.
+1. Trebalo bi da vidite element sa `id` od `title`, koji sadrži niz znakova (tj. tekst) koji opisuje temu stranice posvećenja (npr. "Dr. Norman Borlaug").
+1. Trebalo bi da vidite ili element `figure` ili element `div` sa `id` od `img-div`.
+1. Unutar elementa `#img-div`, trebalo bi da vidite element `img` sa odgovarajućim `id="image"`.
+1. Unutar elementa `#img-div`, trebalo bi da vidite element sa odgovarajućim `id="img-caption"` koji sadrži tekstualni sadržaj koji opisuje sliku prikazanu u `#img-div`.
+1. Trebalo bi da vidite element sa odgovarajućim `id="tribute-info"`, koji sadrži tekstualni sadržaj koji opisuje temu stranice posvećenja.
+1. Trebalo bi da vidite element `a` sa odgovarajućim `id="tribute-link"`, koji vodi do eksternog sajta, i koji sadrži dodatne informacije o temi stranice posvećenja. SAVET: Morate dati svom elementu atribut `target` i postaviti ga na `_blank` kako bi vaš link otvarao u novoj karti.
+1. Vaš `#image` treba da koristi svojstva `max-width` i `height` za responzivno skaliranje, u odnosu na širinu svog roditeljskog elementa, bez prelaska originalne veličine.
+1. Vaš element `img` treba da bude centriran unutar svog roditeljskog elementa.
 
-**Kumbuka:** Hakikisha unaunganisha karatasi yako ya mitindo (stylesheet) katika HTML yako na kutumia CSS yako.
+**Napomena:** Obavezno povežite svoj stilski list u vašem HTML-u i primenite svoj CSS.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `main` chenye `id` ya `main`.
+You should have a `main` element with an `id` of `main`.
 
 ```js
 const el = document.getElementById('main');
@@ -35,7 +35,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-`#img-div`, `#image`, `#img-caption`, `#tribute-info`, na `#tribute-link` zako zinapaswa zote kuwa mzao wa `#main`.
+Your `#img-div`, `#image`, `#img-caption`, `#tribute-info`, and `#tribute-link` should all be descendants of `#main`.
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -50,14 +50,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-Unapaswa kuwa na kipengele chenye `id` ya `title`.
+You should have an element with an `id` of `title`.
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-`#title` yako haipaswi kuwa tupu.
+Your `#title` should not be empty.
 
 ```js
 const el = document.getElementById('title');
@@ -65,7 +65,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-Unapaswa kuwa na kipengele cha `figure` au `div` chenye `id` ya `img-div`.
+You should have a `figure` or `div` element with an `id` of `img-div`.
 
 ```js
 const el = document.getElementById('img-div');
@@ -73,7 +73,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-Unapaswa kuwa na kipengele cha `img` chenye `id` ya `image`.
+You should have an `img` element with an `id` of `image`.
 
 ```js
 const el = document.getElementById('image');
@@ -81,14 +81,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-`#image` yako inapaswa kuwa mzao wa `#img-div`.
+Your `#image` should be a descendant of `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-Unapaswa kuwa na kipengele cha `figcaption` au `div` chenye `id` ya `img-caption`.
+You should have a `figcaption` or `div` element with an `id` of `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -96,14 +96,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-`#img-caption` yako inapaswa kuwa mzao wa `#img-div`.
+Your `#img-caption` should be a descendant of `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-`#img-caption` yako haipaswi kuwa tupu.
+Your `#img-caption` should not be empty.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -111,14 +111,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-Unapaswa kuwa na kipengele chenye `id` ya `tribute-info`.
+You should have an element with an `id` of `tribute-info`.
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-`#tribute-info` yako haipaswi kuwa tupu.
+Your `#tribute-info` should not be empty.
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -126,7 +126,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-Unapaswa kuwa na kipengele cha `a` chenye `id` ya `tribute-link`.
+You should have an `a` element with an `id` of `tribute-link`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -134,7 +134,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-`#tribute-link` yako inapaswa kuwa na sifa ya `href` na thamani yake.
+Your `#tribute-link` should have an `href` attribute and value.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -143,7 +143,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-`#tribute-link` yako inapaswa kuwa na sifa ya `target` iliyowekwa kuwa `_blank`.
+Your `#tribute-link` should have a `target` attribute set to `_blank`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -151,7 +151,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na `display` ya `block`.
+Your `img` element should have a `display` of `block`.
 
 ```js
 const img = document.getElementById('image');
@@ -160,7 +160,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-`#image` yako inapaswa kuwa na `max-width` ya `100%`.
+Your `#image` should have a `max-width` of `100%`.
 
 ```js
 const img = document.getElementById('image');
@@ -169,7 +169,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-`#image` yako inapaswa kuwa na `height` ya `auto`.
+Your `#image` should have a `height` of `auto`.
 
 ```js
 // taken from the testable-projects repo
@@ -183,7 +183,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-`#image` yako inapaswa kuwekwa katikati ndani ya mzazi wake.
+Your `#image` should be centered within its parent.
 
 ```js
 // taken from the testable-projects repo

@@ -1,6 +1,6 @@
 ---
 id: 698dea3f7932b3cc4b19c94b
-title: Utafutaji wa binary
+title: Binary Search
 challengeType: 11
 videoId: VZ1u8vgVJwo
 dashedName: binary-search
@@ -8,29 +8,29 @@ dashedName: binary-search
 
 # --description--
 
-Katika video hii, utarudia algoriti ya utafutaji wa binary na jinsi inavyofanya kazi katika kutafuta kupitia orodha ya majina.
+In this video, you will revisit the binary search algorithm and how it works in searching through a list of names.
 
 # --questions--
 
 ## --text--
 
-Ni lini unaweza kutumia algoriti ya utafutaji wa binary badala ya algoriti ya utafutaji wa mstari?
+When might you use the binary search algorithm over the linear search algorithm?
 
 ## --answers--
 
-Wakati orodha haijapangwa na inabadilika mara kwa mara.
+When the list is unsorted and frequently changing.
 
 ---
 
-Wakati unahitaji kukagua kila kipengele moja baada ya kingine.
+When you need to check every element one by one.
 
 ---
 
-Wakati unajua unatafuta kupitia orodha kubwa ya matokeo yaliyopangwa.
+When you know you are searching through a large list of sorted results.
 
 ---
 
-Wakati seti ya data ni ndogo sana na utendaji hauna umuhimu.
+When the dataset is very small and performance does not matter.
 
 ## --video-solution--
 

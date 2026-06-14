@@ -1,6 +1,6 @@
 ---
 id: 698dd3ea7932b3cc4b19c92e
-title: Kupata Thamani Katika Safu ya Data
+title: Accessing a Value in an Array
 challengeType: 11
 videoId: yN6_wlaNvHo
 dashedName: accessing-a-value-in-an-array
@@ -8,13 +8,13 @@ dashedName: accessing-a-value-in-an-array
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupata vipengele kutoka kwenye safu ya data.
+In this video, you will learn how to access elements from an array.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kupata kipengele cha kwanza kutoka kwenye orodha ya Python?
+Which of the following is the correct way to access the first element from a Python list?
 
 ## --answers--
 

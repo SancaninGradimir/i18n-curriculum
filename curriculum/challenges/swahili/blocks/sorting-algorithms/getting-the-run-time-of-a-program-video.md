@@ -1,6 +1,6 @@
 ---
 id: 698de9fa7932b3cc4b19c942
-title: Kupata Muda wa Kutekeleza Programu
+title: Getting the Run Time of a Program
 challengeType: 11
 videoId: mc0l9RHWjT0
 dashedName: getting-the-run-time-of-a-program
@@ -8,13 +8,13 @@ dashedName: getting-the-run-time-of-a-program
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupima muda wa utekelezaji wa algoriti ya selection sort.
+In this video, you will learn how to measure runtimes for the selection sort algorithm.
 
 # --questions--
 
 ## --text--
 
-Ni amri gani ya unix ambayo mwalimu anaitumia kuendesha programu na kuangalia muda wa utekelezaji wa algoriti ya selection sort?
+What is the unix command the instructor uses to run the program and check the times for the selection sort algorithm?
 
 ## --answers--
 

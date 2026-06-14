@@ -1,6 +1,6 @@
 ---
 id: 5ea8adfab628f68d805bfc5e
-title: Jenga muundo wa msingi
+title: Izgraditi šablon
 challengeType: 12
 url: freeCodeCamp/learn-bash-by-building-a-boilerplate
 dashedName: build-a-boilerplate
@@ -8,7 +8,7 @@ dashedName: build-a-boilerplate
 
 # --description--
 
-Katika warsha hii yenye mafundisho 170, utafundishwa amri za terminal kwa kuunda muundo wa msingi wa tovuti ukitumia tu mstari wa amri.
+U ovom radionici od 170 lekcija, naučićete terminalne komande kreiranjem šablona veb stranice koristeći samo komandnu liniju.
 
 # --instructions--
 

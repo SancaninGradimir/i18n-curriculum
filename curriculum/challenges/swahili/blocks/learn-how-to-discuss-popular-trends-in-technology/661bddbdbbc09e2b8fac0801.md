@@ -1,6 +1,6 @@
 ---
 id: 661bddbdbbc09e2b8fac0801
-title: Zoezi la 76
+title: Task 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-Kiunganishi `at` kinaonyesha mahali kwenye ramani. Kinaelezea eneo maalum au nafasi. Kinakusaidia kuelewa mahali ambapo jambo linafanyika au mtu yuko.
+The preposition `at` indicates a point on a map. It tells you a specific location or position. It helps you understand where something is happening or where someone is.
 
-Mifano:
+Examples:
 
-`We'll meet at the coffee shop.` (katika sentensi hii, `at` inatumika kubainisha mahali ambapo mkutano utafanyika - duka la kahawa).
+`We'll meet at the coffee shop.` (in this sentence, `at` is used to specify the location where the meeting will take place - the coffee shop).
 
-`I'll be waiting for you at the bus stop.` (`at` inatumika hapa kuonyesha mahali ambapo mtu atakuwa akisubiri - kituo cha basi).
+`I'll be waiting for you at the bus stop.` (`at` is used here to indicate the location where someone will be waiting - the bus stop). 
 
-Sikiliza sentensi na jaza nafasi tupu.
+Listen to the sentence and fill in the blank.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Sikiliza sentensi na jaza nafasi tupu.
 
 ### --feedback--
 
-Kiunganishi kinachotumika kusaidia kuelewa mahali jambo liko au linapotokea.
+The preposition used to help you understand where something is or happens.
 
 # --scene--
 

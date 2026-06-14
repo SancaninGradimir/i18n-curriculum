@@ -1,45 +1,45 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: "Ni Nini `useOptimistic` Hook, na Inafanya Kazi Gani?"
+title: Šta je `useOptimistic` hook, i kako funkcioniše?
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
 
-Toleo za hivi karibuni za React zilianzisha sehemu za seva na vitendo vya seva ili kuhamisha baadhi ya majukumu ya kuonyesha na mantiki kwa seva.
+Novije verzije React-a uveli su server komponente i server akcije kako bi prebacile deo odgovornosti za renderovanje i logiku na server.
 
-Pamoja na masasisho hayo, React iliongeza hook mpya iitwayo `useOptimistic` ili kuweka UI zikiwa zinajibadilisha kulingana na kifaa wakati zinaposubiri kitendo cha async kukamilika nyuma ya pazia.
+Uz te ažuriranja, React je dodao novi hook pod nazivom `useOptimistic` da bi održavao korisničke interfejse (UI) reaktivnim dok čekaju da se asinhrona akcija završi u pozadini.
 
-Ingawa mara nyingi hutumika kwa kupata data kutoka seva, haizuiliki kwa hilo tu. Hook hii kwa ujumla ni muhimu kwa kushughulikia operesheni za async, kuhakikisha UI inabaki laini na ya kuingiliana wakati kitendo kinaendelea.
+Iako se ovo često koristi za preuzimanje podataka sa servera, nije ograničeno samo na to. Hook je generalno koristan za rukovanje asinhronim operacijama, osiguravajući da UI ostane glatok i interaktivan dok akcija radi.
 
-Tuchunguze ni nini hook ya `useOptimistic` na jinsi inavyosaidia kutengeneza UI zenye mwendo mzuri na zinazojibadilisha kulingana na kifaa.
+Pogledajmo šta je `useOptimistic` hook i kako doprinosi stvaranju brstih i reaktivnih UI-ja.
 
-Hook ya `useOptimistic` husaidia kusimamia "sasisho za matumaini" katika UI, mbinu ambayo unatoa sasisho za papo hapo kwa UI kulingana na matokeo yanayotarajiwa ya kitendo, kama vile kusubiri jibu kutoka seva.
+`useOptimistic` hook pomaže u upravljanju "optimističkim ažuriranjima" (optimistic updates) u UI-u, strategijom po kojoj pružate trenutna ažuriranja UI-u na osnovu očekivanog ishoda akcije, kao što je čekanje odgovora sa servera.
 
-Hapa kuna sintaksia ya msingi ya hook ya `useOptimistic`:
+Evo osnovne sintakse `useOptimistic` hook-a:
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
 ```
 
-- `optimisticState` ni hali ya muda ambayo husasishwa mara moja kwa ajili ya uzoefu bora wa mtumiaji.
+- `optimisticState` je privremeni stanje koje se ažurira odmah radi boljeg korisničkog iskustva.
 
-- `addOptimistic` ni kitendakazi kinachotekeleza sasisho la matumaini kabla ya hali halisi kubadilika.
+- `addOptimistic` je funkcija koja primenjuje optimističko ažuriranje pre nego što se stvarni stanja promene.
 
-- `actualState` ni thamani halisi ya hali inayotokana na matokeo ya kitendo, kama vile kupata data kutoka seva.
+- `actualState` je stvarna vrednost stanja koja dolazi iz rezultata akcije, kao što je preuzimanje podataka sa servera.
 
-- `updateFunction` ni kitendakazi kinachoamua jinsi hali ya matumaini inavyopaswa kusasishwa inapoitwa.
+- `updateFunction` je funkcija koja određuje kako bi optimistično stanje trebalo da se ažurira kada se pozove.
 
-Kwa mtazamo wa kwanza, inaweza kuonekana kama hook ya `useOptimistic` ni njia nyingine tu ya kushughulikia hali za upakiaji katika React. Lakini ni zaidi ya hapo.
+Na prvi pogled, može delovati da je `useOptimistic` hook samo još jedan način za rukovanje stanjima učitavanja u Reactu. Ali to je više od toga.
 
-Hali ya upakiaji hudhibiti kama utaona spinner, ujumbe, au kiashiria kingine katika UI wakati jambo linaendelea nyuma ya pazia.
+Stanje učitavanja kontroli da li vidite spinner, poruku ili neki drugi indikator u UI-u dok se nešto dešava u pozadini.
 
-Hata hivyo, hook ya `useOptimistic` husasisha UI mara moja kulingana na matokeo yanayotarajiwa, hata kabla hujafanya wito kwa API. Hook hii inakupa nafasi ya kuonyesha kiashiria cha upakiaji au ujumbe, kushughulikia makosa yanayoweza kutokea kwa upole, na kuonyesha mrejesho wa papo hapo ili kufanya UI ihisi kuwa na mwendo mzuri.
+Međutim, `useOptimistic` hook ažurira UI trenutno na osnovu očekivanog ishoda, čak i pre nego što, recimo, napravite poziv ka API-ju. Ovaj hook vam daje šansu da prikažete indikator učitavanja ili poruku, graceful (graciozno) rukujete potencijalnim greškama i pokažete trenutnu povratnu informaciju kako bi se UI osećao brže.
 
-Hii itakuwa wazi zaidi tunapopita kwenye mifano inayonyesha jinsi hook ya `useOptimistic` inavyofanya kazi.
+Ovo će postati jasnije dok prolazimo kroz nekoliko primera koji pokazuju kako radi `useOptimistic` hook.
 
-Hapa kuna kitendo kinachofanana na kuhifadhi zoezi kwa seva. Kinarejesha zoezi baada ya kuchelewa kwa sekunde 1, kama inavyoweza kutokea kwa ombi halisi la API:
+Evo akcije koja simulira čuvanje zadatka na serveru. Vraća zadatak nakon kašnjenja od 1 sekundu, jer se to može desiti sa stvarnim API zahtevom:
 
 ```js
 export async function saveTask(task) {
@@ -49,7 +49,7 @@ export async function saveTask(task) {
 }
 ```
 
-Hapa ni msimbo unaoweka hook ya `useOptimistic` kwa kuleta na kuanzisha, pamoja na kitendakazi cha `handleSubmit` kinachotuma ingizo kwa kitendo:
+Evo koda koji postavlja `useOptimistic` hook uvesti i inicijalizovati, sa funkcijom `handleSubmit` koja šalje unos akciji:
 
 ```jsx
 "use client";
@@ -76,13 +76,13 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-Katika msimbo, hook ya `useOptimistic` inahifadhi orodha ya muda ya mazoezi ambayo husasishwa mara moja unapoongeza zoezi jipya.
+U kodu, `useOptimistic` hook održava privatan spisak zadataka koji se odmah ažurira kada dodate novi zadatak.
 
-Mstari wa `(state, newTask) => [...state, { text: newTask, pending: true }]` unahakikisha kuwa zoezi jipya linaonekana na hali ya kusubiri hata kabla seva kuthibitisha kitu kinatoka kwenye fomu.
+Linija, `(state, newTask) => [...state, { text: newTask, pending: true }]` osigurava da novi zadatak se pojavi sa statusom čekanja čak i pre nego što server potvrdi nešto iz forme.
 
-Wakati fomu inawasilishwa, kitendakazi cha `handleSubmit` huchukua zoezi na kuiongeza "kwa matumaini" kwa kigezo cha `addOptimisticTask`. Kisha `addTask` hupitishwa kama sifa inayotuma zoezi kwa seva. Mwisho, fomu inafutwa kwa kuita `e.target.reset()`.
+Kada se forma pošalje, funkcija `handleSubmit` izvlači zadatak i dodaje ga "optimistički" pomoću parametra `addOptimisticTask`. Zatim je `addTask` prosleđen kao prop koji šalje zadatak na server. Konačno, forma se resetuje pozivom `e.target.reset()`.
 
-Hapa kuna sehemu ya `TaskList`:
+Evo komponente `TaskList`:
 
 ```jsx
 "use client";
@@ -139,9 +139,9 @@ export default function TaskList({ tasks, addTask }) {
 }
 ```
 
-Hapa, tunapitia kigezo cha `optimisticTask` kuonyesha zoezi. Wakati `task.pending` ni `true`, maandishi ya `Adding Task...` yanaonyeshwa kando ya zoezi, kuthibitisha kuwa zoezi limeongezwa kwa matumaini kabla seva kuthibitisha.
+Ovde iteriramo kroz parametar `optimisticTask` da bismo prikazali zadatak. Kada je `task.pending` `true`, pored teksta se prikazuje "Adding Task...", potvrđujući da je zadatak optimistički dodan pre nego što ga server potvrdi.
 
-Hapa kuna sehemu ya `Task` inayosimamia hali ya fomu. Inaita kitendakazi cha `saveTask` kutoka kwa kitendo ili iweze kuongeza zoezi, na kuambatisha zoezi jipya mara linapopokelewa na seva:
+Evo komponente `Task` koja upravlja stanjem za formu. Poziva funkciju `saveTask` iz akcije kako bi mogla dodati zadatak, i spaja novi zadatak kada mu server primi:
 
 ```jsx
 "use client";
@@ -164,13 +164,13 @@ export default function Tasks() {
 }
 ```
 
-Hii inahakikisha sasisho za UI zenye mwendo mzuri kwa kuonyesha mrejesho wa papo hapo badala ya kusubiri jibu. Mara zoezi linapohifadhiwa, sifa ya `pending` huondolewa, na orodha ya mwisho ya mazoezi husasishwa ipasavyo.
+Ovo osigurava brze ažuriranja UI-ja prikazujući trenutnu povratnu informaciju umesto čekanja na odgovor. Kada se zadatak sačuva, svojstvo `pending` se uklanja i konačni spisak zadataka odgovarajuće se ažurira.
 
-Katika UI, kuna mambo mawili yanayotokea ambayo hayapaswi kutokea. Kwanza, huwezi kuona maandishi ya `Adding Task...` kwa sababu yanaonekana na kutoweka haraka sana. Pili, kuna kosa linalotokea baada ya kuongeza zoezi.
+U UI-u, dešavaju se dve stvari koje ne bi trebalo da se dogode. Prvo, ne možete videti tekst "Adding Task..." jer se pojavljuje i nestaje prebrzo. Sledeći, postoji greška koja nastaje nakon dodavanja zadatka.
 
-Kuna mambo mawili tunayohitaji kufanya ili kushughulikia matatizo hayo.
+Dve stvari moramo da uradimo kako bismo rešili te probleme.
 
-Kwanza, tunahitaji kuleta `startTransition` kutoka React na kuitumia kufunika mstari wa `addOptimisticTask(formData.get('task'))`:
+Prvo, moramo uvesti `startTransition` iz React-a i koristiti ga za obmotavanje linije `addOptimisticTask(formData.get('task'))`:
 
 ```js
 startTransition(() => {
@@ -178,9 +178,9 @@ startTransition(() => {
 });
 ```
 
-Pili, tunahitaji kufanya maandishi ya `Adding Task...` yaonekane kwa muda kabla hayatoweke.
+Drugo, moramo učiniti tekst "Adding Task..." vidljivim neko vreme pre nego što nestane.
 
-Ili kufanya hivyo, tunaweza kubadilisha kitendakazi cha `addTask` kwa hali ya kusubiri na kuiga kuchelewa kwa sekunde chache kabla ya kuashiria zoezi limekamilika. `setTimeout()` ni chaguo bora kwa hili:
+Da bismo to uradili, možemo modifikovati funkciju `addTask` sa stanjem čekanja i simulirati kašnjenje od nekoliko sekundi pre označavanja zadatka kao završenog. `setTimeout()` je idealan za ovo:
 
 ```js
 async function addTask(formData) {
@@ -205,85 +205,74 @@ async function addTask(formData) {
 }
 ```
 
-Na mara unafanya hivyo, kila kitu kinafanya kazi vizuri.
-
+I kada to učinite, sve radi kako treba.
 # --questions--
 
 ## --text--
 
-Lengo la hook ya `useOptimistic` ni nini?
-
+Koja je svrha `useOptimistic` hook-a?
 ## --answers--
 
-Inaruhusu sehemu kupata data kutoka seva kabla ya kuonyesha UI.
-
+Omogućava komponentama da dohvate podatke sa servera pre renderovanja korisničkog interfejsa.
 ### --feedback--
 
-Hook hii inahakikisha UI inaonyesha mabadiliko yanayotarajiwa kabla ya operesheni ya async kukamilika.
+Ovaj hak osigurava da se korisnički interfejs (UI) odražaju očekivane promene pre nego što asinhrona operacija završi.
+---
+
+It helps manage optimistic updates by updating the UI immediately while waiting for an async operation, like a server response.
 
 ---
 
-Inasaidia kusimamia sasisho za matumaini kwa kusasisha UI mara moja wakati inasubiri operesheni ya async, kama jibu la seva.
-
----
-
-Inaruhusu kushughulikia makosa moja kwa moja na kurejesha hali kwa maombi ya API yaliyoshindwa katika programu za React.
+It enables automatic error handling and rollback for failed API requests in React applications.
 
 ### --feedback--
 
-Hook hii inahakikisha UI inaonyesha mabadiliko yanayotarajiwa kabla ya operesheni ya async kukamilika.
-
+Ovaj hak osigurava da se korisnički interfejs (UI) odražaju očekivane promene pre nego što asinhrona operacija završi.
 ---
 
-Inaboresha sasisho za hali kwa kuzichanganya pamoja ili kuboresha utendaji.
+It optimizes state updates by batching them together to improve performance.
 
 ### --feedback--
 
-Hook hii inahakikisha UI inaonyesha mabadiliko yanayotarajiwa kabla ya operesheni ya async kukamilika.
-
+Ovaj hak osigurava da se korisnički interfejs (UI) odražaju očekivane promene pre nego što asinhrona operacija završi.
 ## --video-solution--
 
 2
 
 ## --text--
 
-Je, hook ya `useOptimistic` inatofautianaje na hali ya upakiaji?
-
+Kako se kuka ``useOptimistic`` razlikuje od stanja učitavanja?
 ## --answers--
 
-Hali ya upakiaji inaonyesha mrejesho wa UI wakati inasubiri jibu, wakati `useOptimistic` husasisha UI mara moja kulingana na matokeo yanayotarajiwa.
-
+Stanje učitavanja prikazuje povratnu informaciju korisničkog interfejsa dok čeka odgovora, dok ``useOptimistic`` ažurira UI odmah na osnovu očekivanog ishoda.
 ---
 
-Hali ya upakiaji hubadilisha data ya seva mara moja wakati `useOptimistic` husasisha UI ya mteja tu.
+A loading state modifies server data instantly while `useOptimistic` only updates the client UI.
 
 ### --feedback--
 
-Moja husasisha UI kabla seva hata hajajua kuhusu ombi.
-
+Jedinica ažurira korisnički interfejs pre nego što server čak sazna za zahtev.
 ---
 
-Hook ya `useOptimistic` hutumika kushughulikia makosa, wakati hali ya upakiaji ni kwa kuonyesha spinner tu.
+The `useOptimistic` hook is used for handling errors, whereas a loading state is only for showing spinners.
 
 ### --feedback--
 
-Moja husasisha UI kabla seva hata hajajua kuhusu ombi.
-
+Jedinica ažurira korisnički interfejs pre nego što server čak sazna za zahtev.
 ---
 
-Zote ni sawa, lakini `useOptimistic` hutoa jaribio la moja kwa moja kwa maombi yaliyoshindwa.
+Both are the same, but `useOptimistic` provides automatic retries for failed requests.
 
 ### --feedback--
 
-Moja husasisha UI kabla seva hata hajajua kuhusu ombi.
-
+Jedinica ažurira korisnički interfejs pre nego što server čak sazna za zahtev.
 ## --video-solution--
 
 1
 
 ## --text--
 
-`addOptimistic` hufanya nini katika sintaksia ya hook ya `useOptimistic` hapa chini?
+Šta radi ``addOptimistic`` u sintaksi okidača ``useOptimistic`` ispod?
 
 ```js
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
@@ -291,32 +280,28 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 ## --answers--
 
-Inatekeleza sasisho la matumaini kabla hali halisi kubadilika, ikitoa uzoefu laini wa mtumiaji.
-
+Primjenjuje optimističko ažuriranje prije stvarnih promjena stanja, pružajući bolji korisnički doživljaj.
 ---
 
-Inapata hali halisi kutoka seva na kusasisha UI ipasavyo.
+It fetches the real state from the server and updates the UI accordingly.
 
 ### --feedback--
 
-Kitendakazi hiki husasisha UI kabla hali halisi kubadilika.
-
+Ova funkcija ažurira korisnički interfejs pre stvarnih promena stanja.
 ---
 
-Inabadilisha hali halisi na hali ya muda baada ya kupokea jibu kutoka seva.
+It replaces the actual state with a temporary state after receiving a server response.
 
 ### --feedback--
 
-Kitendakazi hiki husasisha UI kabla hali halisi kubadilika.
-
+Ova funkcija ažurira korisnički interfejs pre stvarnih promena stanja.
 ---
 
-Inathibitisha data ya seva kabla ya kutekeleza sasisho la matumaini kwa UI.
+It validates server data before applying the optimistic update to the UI.
 
 ### --feedback--
 
-Kitendakazi hiki husasisha UI kabla hali halisi kubadilika.
-
+Ova funkcija ažurira korisnički interfejs pre stvarnih promena stanja.
 ## --video-solution--
 
 1

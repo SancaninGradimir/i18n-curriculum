@@ -1,6 +1,6 @@
 ---
 id: 680ae6fa6f3bb82a094cffcf
-title: Zoezi la 91
+title: Task 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Maria angeweza kusema nini kuonyesha kwamba ameshangazwa kwa furaha na matokeo?
+What could Maria say to show she is positively surprised by the results?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN342dc19a
 
 ### --feedback--
 
-Hii inaonyesha ukosefu wa kujiamini, si msisimko kuhusu matokeo.
+This shows a lack of confidence, not excitement about the results.
 
 ## --video-solution--
 
@@ -46,9 +46,9 @@ Hii inaonyesha ukosefu wa kujiamini, si msisimko kuhusu matokeo.
 
 # --explanation--
 
-`Impressive` ina maana kwamba kitu ni cha kustahili kuzingatiwa, kupongezwa, au kuheshimiwa kwa sababu ni kizuri sana, kikubwa, au kinafaa kwa kiwango cha kipekee. Kwa mfano:
+`Impressive` means something is worthy of attention, admiration, or respect because it is unusually good, large, or effective. For example:
 
-`Your presentation was really impressive! It covered everything clearly and confidently.` – Hii ina maana kwamba maonyesho yalikuwa ya ubora wa juu na yaliwaacha watu na hisia nzuri kali.
+`Your presentation was really impressive! It covered everything clearly and confidently.` – This means the presentation was high-quality and left a strong positive impact.
 
 # --scene--
 

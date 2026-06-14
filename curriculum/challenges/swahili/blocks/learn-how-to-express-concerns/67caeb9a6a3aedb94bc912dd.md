@@ -1,6 +1,6 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Zoezi la 129
+title: Task 129
 challengeType: 22
 dashedName: task-129
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.  
+Listen to the audio and complete the sentence below.  
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Hii ina maana ya pia au kwa kuongezea.
+This means in addition or as well.
 
 ---  
 
@@ -32,17 +32,17 @@ Hii ina maana ya pia au kwa kuongezea.
 
 ### --feedback--
 
-Hii ina maana ya mara nyingi au mara nyingi sana.
+This means frequently or many times.
 
 # --explanation--
 
-`Also` ina maana ya kuongezea kitu kilichotajwa awali. Kwa mfano:
+`Also` means in addition to something previously mentioned. For example:
 
-`She speaks English and also knows French.` - Hii ina maana anajua Kifaransa pamoja na Kiingereza.  
+`She speaks English and also knows French.` - This means she knows French in addition to English.  
 
-`Often` ina maana ya mara nyingi au kwa kawaida. Kwa mfano:
+`Often` means frequently or regularly. For example:
 
-`He often works late on Fridays.` - Hii ina maana anafanya kazi hadi usiku mara nyingi au kwa kawaida siku za Ijumaa.
+`He often works late on Fridays.` - This means he works late many times or regularly on Fridays.
 
 # --scene--
 

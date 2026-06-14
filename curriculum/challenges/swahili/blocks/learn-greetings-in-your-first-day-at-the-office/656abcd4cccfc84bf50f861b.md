@@ -1,6 +1,6 @@
 ---
 id: 656abcd4cccfc84bf50f861b
-title: Zoezi la 80
+title: Task 80
 challengeType: 19
 dashedName: task-80
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-Katika mazingira ya ofisi, ni kawaida kuonyesha vitu kwa kutumia `these` na `those`. Kumbuka, `these` inaonyesha vitu vilivyo karibu nawe, wakati `those` inaonyesha vitu vilivyo mbali zaidi.
+In an office setting, it's common to point out items using `these` and `those`. Remember, `these` points to items near you, while `those` points to items further away.
 
 # --questions--
 
 ## --text--
 
-Ni sentensi gani inayoelezea tofauti kwa usahihi kati ya `these` na `those`?
+Which sentence correctly differentiates between `these` and `those`?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Ni sentensi gani inayoelezea tofauti kwa usahihi kati ya `these` na `those`?
 
 ### --feedback--
 
-Tafuta sentensi inayotumia `these` kwa vitu vingi vilivyo karibu na `those` kwa vitu vingi vilivyo mbali au visivyoelekezwa moja kwa moja.
+Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
 ---
 
@@ -30,7 +30,7 @@ Tafuta sentensi inayotumia `these` kwa vitu vingi vilivyo karibu na `those` kwa 
 
 ### --feedback--
 
-Tafuta sentensi inayotumia `these` kwa vitu vingi vilivyo karibu na `those` kwa vitu vingi vilivyo mbali au visivyoelekezwa moja kwa moja.
+Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
 ---
 
@@ -42,7 +42,7 @@ Tafuta sentensi inayotumia `these` kwa vitu vingi vilivyo karibu na `those` kwa 
 
 ### --feedback--
 
-Tafuta sentensi inayotumia `these` kwa vitu vingi vilivyo karibu na `those` kwa vitu vingi vilivyo mbali au visivyoelekezwa moja kwa moja.
+Look for a sentence that uses `these` for multiple items nearby and `those` for multiple items at a distance or not being directly addressed.
 
 ## --video-solution--
 

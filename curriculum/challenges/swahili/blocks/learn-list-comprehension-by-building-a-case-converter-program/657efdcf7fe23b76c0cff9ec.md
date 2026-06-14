@@ -1,19 +1,19 @@
 ---
 id: 657efdcf7fe23b76c0cff9ec
-title: Hatua 7
+title: Step 7
 challengeType: 20
 dashedName: step-7
 ---
 
 # --description--
 
-Unahitaji kushughulikia herufi ndogo ambazo tayari zipo kwa kuziongeza kwenye orodha ya herufi zilizobadilishwa.
+You need to handle the characters that are already in lowercase by adding them to the list of converted characters.
 
-Mara moja baada ya tamko la `if` ndani ya mzunguko wa `for`, ongeza kifungu cha `else` na tumia njia ya `.append()` kuongeza `char` kwenye kigezo cha `snake_cased_char_list`.
+Right after the `if` statement within the `for` loop, add an `else` clause and use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
 
 # --hints--
 
-Unapaswa kuongeza kifungu cha `else` ndani ya mzunguko wa `for`. Usisahau alama ya nukta mwishoni.
+You should add an `else` clause inside the `for` loop. Don't forget the colon at the end.
 
 ```js
 ({
@@ -27,7 +27,7 @@ Unapaswa kuongeza kifungu cha `else` ndani ya mzunguko wa `for`. Usisahau alama 
 })
 ```
 
-Unapaswa kutumia njia ya `.append()` kuongeza `char` kwenye kigezo cha `snake_cased_char_list`.
+You should use the `.append()` method to add `char` to the `snake_cased_char_list` variable.
 
 ```js
 ({

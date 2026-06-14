@@ -1,17 +1,17 @@
 ---
 id: 691f7773cddba1caf1bf5ecc
-title: "Zoezi la 133: Saa za mwanga wa mchana"
+title: "Challenge 133: Daylight Hours"
 challengeType: 28
 dashedName: challenge-133
 ---
 
 # --description--
 
-Tarehe 21 Desemba ni solstisi ya baridi kwa nusu ya kaskazini na solstisi ya joto kwa nusu ya kusini. Hii ina maana ni siku yenye mwanga wa mchana mdogo zaidi kaskazini na mwanga wa mchana mwingi zaidi kusini.
+December 21st is the winter solstice for the northern hemisphere and the summer solstice for the southern hemisphere. That means it's the day with the least daylight in the north and the most daylight in the south.
 
-Ukitoa nambari ya latitudo kutoka -90 hadi 90, rudisha makadirio ya karibu ya saa za mwanga wa mchana wakati wa solstisi kwa kutumia jedwali lifuatalo:
+Given a latitude number from -90 to 90, return a rough approximation of daylight hours on the solstice using the following table:
 
-|Latitudo|Saa za mwanga wa mchana|
+|Latitude|Daylight Hours|
 |-|-|
 |-90|24|
 |-75|23|
@@ -27,53 +27,53 @@ Ukitoa nambari ya latitudo kutoka -90 hadi 90, rudisha makadirio ya karibu ya sa
 |75|2|
 |90|0|
 
-- Ikiwa latitudo iliyotolewa haifanani kabisa na kipengele chochote cha jedwali, tumia thamani ya latitudo iliyo karibu zaidi.
+- If the given latitude does not exactly match a table entry, use the value of the closest latitude.
 
 # --hints--
 
-`daylightHours(45)` inapaswa kurudisha `9`.
+`daylightHours(45)` should return `9`.
 
 ```js
 assert.equal(daylightHours(45), 9);
 ```
 
-`daylightHours(0)` inapaswa kurudisha `12`.
+`daylightHours(0)` should return `12`.
 
 ```js
 assert.equal(daylightHours(0), 12);
 ```
 
-`daylightHours(-90)` inapaswa kurudisha `24`.
+`daylightHours(-90)` should return `24`.
 
 ```js
 assert.equal(daylightHours(-90), 24);
 ```
 
-`daylightHours(-10)` inapaswa kurudisha `12`.
+`daylightHours(-10)` should return `12`.
 
 ```js
 assert.equal(daylightHours(-10), 12);
 ```
 
-`daylightHours(23)` inapaswa kurudisha `10`.
+`daylightHours(23)` should return `10`.
 
 ```js
 assert.equal(daylightHours(23), 10);
 ```
 
-`daylightHours(88)` inapaswa kurudisha `0`.
+`daylightHours(88)` should return `0`.
 
 ```js
 assert.equal(daylightHours(88), 0);
 ```
 
-`daylightHours(-33)` inapaswa kurudisha `13`.
+`daylightHours(-33)` should return `13`.
 
 ```js
 assert.equal(daylightHours(-33), 13);
 ```
 
-`daylightHours(70)` inapaswa kurudisha `2`.
+`daylightHours(70)` should return `2`.
 
 ```js
 assert.equal(daylightHours(70), 2);

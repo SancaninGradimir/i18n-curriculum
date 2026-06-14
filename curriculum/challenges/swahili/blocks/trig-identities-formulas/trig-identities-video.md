@@ -1,6 +1,6 @@
 ---
 id: 699e78258f18cf77dfce5c18
-title: Utambulisho wa trigonometri
+title: Trig Identities
 challengeType: 11
 videoId: m4rl9OE5XTY
 dashedName: trig-identities
@@ -8,30 +8,32 @@ dashedName: trig-identities
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu utambulisho wa trigonometri.
+In this video, you will learn about trigonometric identities.
 
 # --questions--
 
 ## --text--
 
-Kwa nini mlinganyo wa pili katika mfano wa kwanza unaitwa utambulisho?
+Why is the second equation in the first example called an identity?
 
 ## --answers--
 
-Kitendakazi chake cha tangent na cotangent ni sawa.
+Its tangent and cotangent functions are equal.
 
 ---
 
-Kitendakazi chake cha cosine na secant ni sawa.
+Its cosine and secant functions are equal.
 
 ---
 
-Inashikilia thamani zote za kigezo.
+It holds all values of the variable.
 
 ---
 
-Hainashikilia thamani yoyote ya kigezo.
+It holds none of the values of the variable.
 
 ## --video-solution--
 
 3
+
+

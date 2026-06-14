@@ -1,19 +1,19 @@
 ---
 id: 65ef1c0a03fcabc04ded7e69
-title: Hatua 12
+title: Step 12
 challengeType: 20
 dashedName: step-12
 ---
 
 # --description--
 
-Ndani ya mzunguko wa for, hesabu nambari ya katikati ya kipindi kinachoanzia `low` hadi `high`. Weka thamani hii katika kigezo `mid`.
+Inside the for loop, calculate the midpoint of the interval ranging from `low` to `high`. Assign this value to a variable `mid`.
 
-Pia, hesabu mraba wa nambari ya katikati (`mid`) na uhifadhi katika kigezo `square_mid`.
+Also, calculate the square of the midpoint (`mid`) and store it in the variable `square_mid`.
     
 # --hints--
 
-Unapaswa kuondoa neno kuu la `pass`.
+You should remove the `pass` keyword.
 
 ```js
 ({
@@ -27,7 +27,7 @@ Unapaswa kuondoa neno kuu la `pass`.
 
 ```
 
-Unapaswa kutangaza kigezo `mid` na kuweka thamani `(low + high) / 2` ndani ya mwili wa mzunguko wa `for`.
+You should declare a variable `mid` and assign it `(low + high) / 2` inside the body of the `for` loop.
 
 ```js
 ({
@@ -44,7 +44,7 @@ Unapaswa kutangaza kigezo `mid` na kuweka thamani `(low + high) / 2` ndani ya mw
 })
 ```
 
-Unapaswa kutangaza kigezo `square_mid` na kuweka thamani `mid**2` ndani ya mwili wa mzunguko wa for.
+You should declare a variable `square_mid` and assign it `mid**2` inside the body of the for loop.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("square_mid").is_equivalent("square_mid = mid**2")`)) })

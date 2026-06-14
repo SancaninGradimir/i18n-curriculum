@@ -1,6 +1,6 @@
 ---
 id: 69ae767ab4a814be6a4f2be7
-title: Kutumia seva za MCP
+title: Using MCP Servers
 challengeType: 11
 videoId: PlILctA_czg
 dashedName: using-mcp-servers
@@ -8,29 +8,29 @@ dashedName: using-mcp-servers
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia seva za MCP.
+In this video, you will learn how to use MCP servers.
 
 # --questions--
 
 ## --text--
 
-Ni mambo gani ya kuzingatia unapotumia seva za MCP za mbali?
+What are some things to consider when working with remote MCP servers?
 
 ## --answers--
 
-Unahitaji kushughulikia imani, usiri wa data, idhini na uthibitisho wa utambulisho.
+You want to handle trust, data privacy, authorization and authentication.
 
 ---
 
-Unahitaji tu kuwa na wasiwasi kuhusu kasi ya usindikaji na matumizi ya kumbukumbu ya seva.
+You only need to worry about the server’s processing speed and memory usage.
 
 ---
 
-Unahitaji kuhakikisha seva inaendesha toleo la hivi karibuni la LLM yako kwa ndani.
+You need to make sure the server runs the latest version of your LLM locally.
 
 ---
 
-Unahitaji kuhakikisha seva ina nafasi ya kutosha ya diski kwa ajili ya kumbukumbu za muda mfupi.
+You need to ensure the server has enough disk space for temporary logs.
 
 ## --video-solution--
 

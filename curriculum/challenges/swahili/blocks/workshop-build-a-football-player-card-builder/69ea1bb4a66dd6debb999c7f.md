@@ -1,28 +1,28 @@
 ---
 id: 69ea1bb4a66dd6debb999c7f
-title: Hatua 49
+title: Korak 49
 challengeType: 0
 dashedName: step-49
 ---
 
 # --description--
 
-Sasa utashughulikia uchaguzi wa nafasi ya mchezaji. Lazima ubadilishe ingizo kuwa chaguo la kuchagua, kisha upitie safu ya data ya nafasi halali za mpira wa miguu kama thamani za chaguo la kuchagua.
+Sada ćete rukovati izborom pozicije igrača. Morate da refaktorišete unos u `select` element, a zatim da mapujete niz validnih fudbalskih pozicija kao vrednost opcija za `select`.
 
-Kuanza, tengeneza safu ya data `POSITIONS` yenye mfuatano wa herufi wa `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST`, na `CF`. Ongeza `as const` mara moja baada ya mabano ya mraba ya kufunga ili Typescript ipunguze aina kutoka `string[]` ya jumla kuwa tuple isiyobadilika ya thamani hizo halisi za mfuatano wa herufi.
+Da biste počeli, kreirajte niz ``POSITIONS`` sa string vrednostima od ``GK``, ``CB``, ``LB``, ``RB``, ``CDM``, ``CM``, ``CAM``, ``LW``, ``RW``, ``ST`` i ``CF``. Dodajte ``as const`` odmah nakon zatvarajućih uglastih zagrada kako bi Typescript suzio tip sa opšteg ``string[]`` na nepromenljivu (readonly) tupelu tih tačnih literalnih vrednosti.
 
-Hii inamaanisha TypeScript inajua kwa usahihi ni mfuatano gani wa herufi unaoruhusiwa, badala ya kujua tu ni safu fulani ya mfuatano wa herufi.
+To znači da TypeScript zna tačno koje su stringove važeće, umesto samo da zna da je to neki niz stringova.
 
 # --hints--
 
-Unapaswa kutangaza thabiti `POSITIONS`.
+You should declare a `POSITIONS` constant.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.exists(explorer.variables.POSITIONS);
 ```
 
-Safu yako ya data `POSITIONS` inapaswa kuwa na mfuatano wote wa mfuatano wa herufi wa nafasi za mpira wa miguu zinazohitajika tumia `as const` kupunguza aina yake kuwa tuple isiyobadilika ya mfuatano wa herufi.
+Your `POSITIONS` array should contain all the required football position strings use `as const` to narrow its type to readonly string literals.
 
 ```js
 const explorer = await __helpers.Explorer(code);

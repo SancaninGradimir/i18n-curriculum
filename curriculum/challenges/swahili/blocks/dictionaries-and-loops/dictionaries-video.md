@@ -1,6 +1,6 @@
 ---
 id: 3625fbc38b9428ae98d98f23
-title: Kamusi
+title: Dictionaries
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries
@@ -8,13 +8,13 @@ dashedName: dictionaries
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na kamusi katika Python kuhifadhi jozi za ufunguo-thamani.
+In this video, you will learn how to work with dictionaries in Python to store key-value pairs.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo itatoa mfuatano wa herufi `"March"` kwa usahihi kwenye konsoli?
+Which of the following will correctly output the string `"March"` to the console?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 0e2f4bd857b1edc70bfcd1f9
-title: Kufanya kazi na mfuatano wa herufi
+title: Working with Strings
 challengeType: 11
 videoId: OrejgL7kP3M
 dashedName: working-with-strings
@@ -8,13 +8,13 @@ dashedName: working-with-strings
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kuunganisha mfuatano wa herufi, kielezo, na njia muhimu za mfuatano wa herufi.
+In this video, you will learn about string concatenation, indexing, and useful string methods.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kupata herufi ya kwanza ya mfuatano wa herufi?
+Which of the following is the correct way to access the first character of a string?
 
 ## --answers--
 

@@ -1,43 +1,43 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Hatua 20
+title: Step 20
 challengeType: 0
 dashedName: step-20
 ---
 
 # --description--
 
-Kipengele cha `div` kinatumiwa hasa kwa madhumuni ya mpangilio wa muundo, tofauti na vipengele vingine vya maudhui ulivyotumia hadi sasa. Ongeza kipengele cha `div` ndani ya kipengele cha `body` kisha hamisha vipengele vyote vingine ndani ya `div` mpya.
+The `div` element is used mainly for design layout purposes, unlike the other content elements you have used so far. Add a `div` element inside the `body` element and then move all the other elements inside the new `div`.
 
-Ndani ya lebo ya kufungua ya `div`, ongeza sifa ya kipengele ya `id` yenye thamani ya `menu`.
+Inside the opening `div` tag, add the `id` attribute with a value of `menu`.
 
 # --hints--
 
-Leboa ya kufungua ya `<div>` inapaswa kuwa na sifa ya kipengele ya `id` iliyowekwa kuwa `menu`.
+Your opening `<div>` tag should have an `id` attribute set to `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-Unapaswa kuwa na lebo ya kufunga ya `</div>`.
+You should have a closing `</div>` tag.
 
 ```js
 assert(code.match(/<\/div>/i));
 ```
 
-Hupaswi kubadilisha kipengele chako cha `body` kilichopo. Hakikisha hujafuta lebo ya kufunga.
+You should not change your existing `body` element. Make sure you did not delete the closing tag.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Kipengele chako cha `div` kinapaswa kupangwa ndani ya `body`.
+Your `div` element should be nested in the `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-Unapaswa kuhamisha vipengele vyote vingine ndani ya `div` mpya.
+You should move all the other elements inside the new `div`.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

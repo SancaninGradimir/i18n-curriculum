@@ -1,6 +1,6 @@
 ---
 id: 698dd14c7932b3cc4b19c92c
-title: Utangulizi wa muundo wa data
+title: Introduction to Data Structures
 challengeType: 11
 videoId: QIZSbUquPdY
 dashedName: introduction-to-data-structures
@@ -8,29 +8,29 @@ dashedName: introduction-to-data-structures
 
 # --description--
 
-Katika video hii, mwalimu wa Treehouse Pasan atazungumzia kile unachotarajia katika sehemu ya muundo wa data ya kozi hii.
+In this video, Treehouse instructor Pasan will talk about what to expect in the data structures portion of this course. 
 
 # --questions--
 
 ## --text--
 
-Ni shughuli gani nne za kawaida zitakazojifunzwa wakati wa kufanya kazi na muundo wa data?
+What are the four common operations that will be studied when working with data structures?
 
 ## --answers--
 
-Kupata thamani, kufuta thamani, kupita, na kupanga.
+Accessing values, deleting values, traversing, and sorting.
 
 ---
 
-Kupata thamani, kutafuta, kuingiza thamani, na kufuta thamani.
+Accessing values, searching, inserting values, and deleting values.
 
 ---
 
-Kutafuta, kuunganisha, kugawanya, na kurudia thamani.
+Searching, merging, splitting, and iterating values.
 
 ---
 
-Kuingiza thamani, kusahihisha thamani, kuchapisha thamani, na kuhesabu vipengele.
+Inserting values, updating values, printing values, and counting elements.
 
 ## --video-solution--
 

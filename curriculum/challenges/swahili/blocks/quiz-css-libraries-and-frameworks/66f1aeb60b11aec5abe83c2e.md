@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: Jaribio fupi la maktaba na mifumo wa kazi ya CSS
+title: CSS Libraries and Frameworks Quiz
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Mfumo wa kazi wa CSS ni nini?
+What is a CSS framework?
 
 #### --distractors--
 
-Chombo cha kurekebisha makosa ya CSS.
+A tool to fix CSS errors.
 
 ---
 
-Chombo cha kuchambua faili za CSS.
+A tool to lint CSS files.
 
 ---
 
-Kipanga muundo cha faili za CSS.
+A formatter for CSS files.
 
 #### --answer--
 
-Maktaba ya mitindo ya CSS.
+A library for CSS styles.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni mfumo maarufu wa kazi wa CSS unaolenga matumizi ya huduma kwanza?
+Which of the following is a popular utility-first CSS framework?
 
 #### --distractors--
 
@@ -61,29 +61,29 @@ Tailwind CSS
 
 #### --text--
 
-Hasara gani ipo kwa mifumo ya kazi ya CSS?
+What is a disadvantage of CSS frameworks?
 
 #### --distractors--
 
-Sehemu chache sana.
+Too few components.
 
 ---
 
-Hakuna chaguzi za kubinafsisha.
+No customization options.
 
 ---
 
-Uboreshaji wa msaada wa kivinjari.
+Improved browser support.
 
 #### --answer--
 
-Inaweza kuongeza ukubwa wa faili za CSS.
+Can bloat CSS files.
 
 ### --question--
 
 #### --text--
 
-SCSS inasimama kwa nini?
+What does SCSS stand for?
 
 #### --distractors--
 
@@ -105,19 +105,19 @@ Sassy CSS.
 
 #### --text--
 
-Ni kipengele gani kati ya zifuatazo ni cha Sass?
+Which of the following is a feature of Sass?
 
 #### --distractors--
 
-Maoni
+Comments
 
 ---
 
-Kuchambua CSS.
+CSS linting.
 
 ---
 
-CSS ndani ya mstari.
+Inline CSS.
 
 #### --answer--
 
@@ -127,7 +127,7 @@ Mixins
 
 #### --text--
 
-Ni njia gani sahihi ya kutumia madarasa ya huduma katika Tailwind CSS?
+Which of the following is the correct way to use utility classes in Tailwind CSS?
 
 #### --distractors--
 
@@ -167,29 +167,29 @@ Ni njia gani sahihi ya kutumia madarasa ya huduma katika Tailwind CSS?
 
 #### --text--
 
-Ni aina gani mbili za mifumo ya kazi ya CSS?
+What are the two types of CSS frameworks?
 
 #### --distractors--
 
-Mifumo ya kazi ya CSS inayolenga kompyuta kibao kwanza na mifumo ya kazi ya CSS inayotegemea sehemu.
+Tablet first CSS frameworks and Component-based CSS frameworks.
 
 ---
 
-Mifumo ya kazi ya CSS inayolenga huduma kwanza na mifumo ya kazi ya CSS inayopakia polepole.
+Utility-first CSS frameworks and Lazy loading CSS frameworks.
 
 ---
 
-Mifumo ya kazi ya CSS midogo na mifumo ya kazi ya CSS inayolenga huduma kwanza.
+Minimal CSS frameworks and Utility-first CSS frameworks.
 
 #### --answer--
 
-Mifumo ya kazi ya CSS inayolenga huduma kwanza na mifumo ya kazi ya CSS inayotegemea sehemu.
+Utility-first CSS frameworks and Component-based CSS frameworks.
 
 ### --question--
 
 #### --text--
 
-Ni kiambatisho gani cha faili kwa SCSS?
+What is the file extension for SCSS?
 
 #### --distractors--
 
@@ -211,7 +211,7 @@ Ni kiambatisho gani cha faili kwa SCSS?
 
 #### --text--
 
-Ni njia gani sahihi ya kufafanua kigezo katika SCSS?
+Which of the following is the correct way to define a variable in SCSS?
 
 #### --distractors--
 
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-Ni njia gani sahihi ya kufafanua mixin?
+Which of the following is the correct way to define a mixin?
 
 #### --distractors--
 
@@ -298,3 +298,4 @@ mixin center-flex {
   align-items: center;
 }
 ```
+

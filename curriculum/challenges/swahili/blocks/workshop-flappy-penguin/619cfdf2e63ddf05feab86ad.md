@@ -1,23 +1,23 @@
 ---
 id: 619cfdf2e63ddf05feab86ad
-title: Step 47
+title: Korak 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Panga vipengele vya `.face` ili viwe `15%` kutoka juu.
+Postavite elemente `.face` tako da su `15%` od vrha.
 
 # --hints--
 
-Unapaswa kumpa `.face` sifa ya `top`.
+You should give `.face` a `top` property.
 
 ```js
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);
 ```
 
-Unapaswa kumpa `.face` sifa ya `top` yenye thamani ya `--fcc-expected--`, lakini nilipata `--fcc-actual--`.
+You should give `.face` a `top` of `--fcc-expected--`, but found `--fcc-actual--`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.face')?.top, '15%');

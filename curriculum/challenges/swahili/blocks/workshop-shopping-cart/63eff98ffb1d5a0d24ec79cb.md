@@ -1,49 +1,49 @@
 ---
 id: 63eff98ffb1d5a0d24ec79cb
-title: Step 27
+title: Korak 27
 challengeType: 0
 dashedName: step-27
 ---
 
 # --description--
 
-Hujajaandika msimbo wa kuzalisha HTML bado, lakini ikiwa bidhaa tayari imeongezwa kwenye kikapu cha mtumizi basi kutakuwa na kipengele kinacholingana ambacho utahitaji.
+Još niste napisali kod za generisanje HTML-a, ali ako je proizvod već dodan u korpu korisnika, biće potreban odgovarajući element.
 
-Tumia `.getElementById()` kupata kipengele kinacholingana - utakuwa unaweka thamani ya `id` kuwa `product-count-for-id${product.id}`, kwa hivyo tumia usemi wa template kutafuta thamani hiyo.
+Koristite `.getElementById()` da dobijete odgovarajući element – postavljate ćete vrednost `id` na `product-count-for-id${product.id}`, pa koristite template literal za upit te vrednosti.
 
-Weka hoja yako ya utafutaji katika kigezo cha `currentProductCountSpan`.
+Dodelite svoj upit promenljivoj `currentProductCountSpan`.
 
 # --hints--
 
-Unapaswa kutangaza kigezo cha `currentProductCountSpan`.
+You should declare a `currentProductCountSpan` variable.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-Unapaswa kutumia `const` kutangaza `currentProductCountSpan`.
+You should use `const` to declare `currentProductCountSpan`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-Unapaswa kutumia `document.getElementById()` kupata kipengele kinacholingana.
+You should use `document.getElementById()` to get the matching element.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-Unapaswa kutumia usemi wa template kutafuta thamani ya `id`.
+You should use a template literal to query the `id` value.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-Unapaswa kuweka thamani ya `document.getElementById()` kuwa `currentProductCountSpan`.
+You should assign the value of `document.getElementById()` to `currentProductCountSpan`.
 
 ```js
 const cart = new ShoppingCart();

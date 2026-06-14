@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb7bdef
-title: Zidisha desimali mbili kwa JavaScript
+title: Multiply Two Decimals with JavaScript
 challengeType: 1
 forumTopicId: 301173
 dashedName: multiply-two-decimals-with-javascript
@@ -8,23 +8,23 @@ dashedName: multiply-two-decimals-with-javascript
 
 # --description--
 
-Katika JavaScript, unaweza pia kufanya mahesabu na nambari za desimali, kama vile nambari kamili.
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
 
-Tuzidishe desimali mbili pamoja kupata bidhaa yao.
+Let's multiply two decimals together to get their product.
 
 # --instructions--
 
-Badilisha `0.0` ili bidhaa iwe sawa na `5.0`.
+Change the `0.0` so that product will equal `5.0`.
 
 # --hints--
 
-Kigezo `product` kinapaswa kuwa sawa na `5.0`.
+The variable `product` should equal `5.0`.
 
 ```js
 assert(product === 5.0);
 ```
 
-Unapaswa kutumia opereta wa `*`
+You should use the `*` operator
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

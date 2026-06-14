@@ -1,6 +1,6 @@
 ---
 id: 698de6a07932b3cc4b19c93b
-title: Hatua ya kugawanya
+title: The Divide Step
 challengeType: 11
 videoId: HW3cLmVfSw0
 dashedName: the-divide-step
@@ -8,29 +8,29 @@ dashedName: the-divide-step
 
 # --description--
 
-Katika video hii, utaendelea kujifunza jinsi ya kutekeleza hatua ya kugawanya katika algoriti ya merge sort kwenye orodha zilizounganishwa.
+In this video, you will continue to learn how to implement the divide step of the merge sort algorithm on linked lists.
 
 # --questions--
 
 ## --text--
 
-Nini maana ya kitendakazi `split`?
+What is the point of the `split` function?
 
 ## --answers--
 
-Kuchagua kipengele cha msingi cha kugawanya orodha.
+To select a pivot element for dividing the list.
 
 ---
 
-Kuuunganisha orodha ndogo mbili zilizopangwa kuwa orodha moja.
+To merge two sorted sublists into one list.
 
 ---
 
-Kugawanya orodha katika nusu mbili bila kuzingatia mpangilio.
+To split the list into two halves without considering order.
 
 ---
 
-Kugawanya orodha isiyopangwa katikati kuwa orodha ndogo ndogo.
+To divide the unsorted list at the midpoint into sublists.
 
 ## --video-solution--
 

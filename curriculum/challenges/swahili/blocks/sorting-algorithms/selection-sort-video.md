@@ -1,6 +1,6 @@
 ---
 id: 698de9f47932b3cc4b19c941
-title: Mpangilio wa kuchagua
+title: Selection Sort
 challengeType: 11
 videoId: 6kIttK2RzoU
 dashedName: selection-sort
@@ -8,29 +8,29 @@ dashedName: selection-sort
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu algoriti ya mpangilio wa kuchagua.
+In this video, you will learn about the selection sort algorithm.
 
 # --questions--
 
 ## --text--
 
-Algoriti ya mpangilio wa kuchagua hufanya kazi vipi?
+How does the selection sort algorithm work?
 
 ## --answers--
 
-Inatafuta mara kwa mara kipengele kidogo kabisa (au kikubwa kabisa) kutoka sehemu isiyopangwa na kuhamisha kwenye sehemu iliyopangwa.
+It repeatedly finds the smallest (or largest) element from the unsorted portion and moves it to the sorted portion.
 
 ---
 
-Inabadilisha mara kwa mara vipengele vilivyo karibu mpaka orodha yote ipangwe.
+It repeatedly swaps adjacent elements until the entire list is sorted.
 
 ---
 
-Inachanganya orodha kwa bahati nasibu mpaka ipangwe.
+It randomly shuffles the list until it becomes sorted.
 
 ---
 
-Inagawanya orodha vipande viwili, inapanga kila kipande kwa kurudia, na kuunganisha vipande hivyo.
+It divides the list into halves, sorts each half recursively, and merges them.
 
 ## --video-solution--
 

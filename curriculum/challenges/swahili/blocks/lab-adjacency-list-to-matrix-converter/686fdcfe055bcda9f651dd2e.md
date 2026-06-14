@@ -1,15 +1,15 @@
 ---
 id: 686fdcfe055bcda9f651dd2e
-title: Jenga Kigeuzi cha Orodha ya Ujirani kwa Matriki ya Ujirani
+title: Izgradite konverter od liste susednosti u matricu
 challengeType: 27
 dashedName: build-an-adjacency-list-to-matrix-converter
 ---
 
 # --description--
 
-Katika maabara hii, u-tajenga kitendakazi kinachobadilisha uwakilishi wa orodha ya ujirani ya grafu kuwa matriki ya ujirani. Orodha ya ujirani ni kamusi ambapo kila ufunguo unawakilisha nodi, na thamani inayolingana ni orodha ya nodi ambazo nodi ya ufunguo imeunganishwa nazo. Matriki ya ujirani ni safu ya data ya pande mbili ambapo kipengee kilichopo katika nafasi `[i][j]` ni `1` ikiwa kuna kiunganishi kutoka nodi `i` kwenda nodi `j`, na `0` vinginevyo.
+U ovom laboratorijumu, kreiraćete funkciju koja konvertuje predstavljanje liste susednosti grafa u matricu susednosti. Lista susednosti je rečnik gde svaki ključ predstavlja čvor, a odgovarajuća vrednost je lista čvorova sa kojima je ključni čvor povezan. Matrica susednosti je 2D niz gde je unos na poziciji `[i][j]` jednak `1` ako postoji ivica od čvora `i` ka čvoru `j`, i `0` u suprotnom.
 
-Kwa mfano, ikitolewa orodha ya ujirani:
+Na primer, dato lista susednosti:
 
 ```py
 {
@@ -20,7 +20,7 @@ Kwa mfano, ikitolewa orodha ya ujirani:
 }
 ```
 
-Matriki ya ujirani inayolingana itakuwa:
+Odgovarajuća matrica susednosti bi bila:
 
 ```py
 [
@@ -31,18 +31,18 @@ Matriki ya ujirani inayolingana itakuwa:
 ]
 ```
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara hii.
+**Cilj:** Ispunite priče korisnika ispod i učinite da svi testovi prođu kako biste završili laboratorijum.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kufafanua kitendakazi kinachoitwa `adjacency_list_to_matrix` kubadilisha orodha ya ujirani kuwa matriki ya ujirani.
-2. Kitendakazi kinapaswa kuchukua kamusi inayowakilisha orodha ya ujirani ya grafu isiyo na uzito (iwe isiyo na mwelekeo au yenye mwelekeo) kama hoja yake.
-3. Kitendakazi kinapaswa:
-   - Badilisha orodha ya ujirani kuwa matriki ya ujirani.
-   - Chapisha kila safu katika matriki ya ujirani.
-   - Rudisha matriki ya ujirani.
+1. Trebalo bi da definišete funkciju pod nazivom `adjacency_list_to_matrix` za konverziju liste susednosti u matricu susednosti.
+2. Funkcija bi trebalo da primi rečnik koji predstavlja listu susednosti neponderisanog (ili nedirektnog ili usmerenog) grafa kao argument.
+3. Funkcija bi trebalo da:
+   - Konvertuje listu susednosti u matricu susednosti.
+   - Ispiše svaki red u matrici susednosti.
+   - Vrati matricu susednosti.
 
-Kwa mfano, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` inapaswa kuchapisha:
+Na primer, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]})` bi trebalo da ispisa:
 
 ```md
 [0, 0, 1, 0]
@@ -51,12 +51,11 @@ Kwa mfano, `adjacency_list_to_matrix({0: [2], 1: [2, 3], 2: [0, 1, 3], 3: [1, 2]
 [0, 1, 1, 0]
 ```
 
-na kurudisha `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
-
+i vrati `[[0, 0, 1, 0], [0, 0, 1, 1], [1, 1, 0, 1], [0, 1, 1, 0]]`.
 
 # --hints--
 
-Unapaswa kufafanua kitendakazi kinachoitwa `adjacency_list_to_matrix`.
+You should define a function named `adjacency_list_to_matrix`.
 
 ```js
 ({ 
@@ -66,7 +65,7 @@ Unapaswa kufafanua kitendakazi kinachoitwa `adjacency_list_to_matrix`.
 })
 ```
 
-Kitendakazi `adjacency_list_to_matrix` kinapaswa kuwa na kigezo kimoja.
+The `adjacency_list_to_matrix` function should have one parameter.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -77,7 +76,7 @@ Kitendakazi `adjacency_list_to_matrix` kinapaswa kuwa na kigezo kimoja.
 })
 ```
 
-Kitendakazi kinapaswa kubaini idadi ya nodi kutoka orodha ya ujirani kwa usahihi.
+The function should correctly determine the number of nodes from the adjacency list.
 
 ```js
 ({ 
@@ -90,7 +89,7 @@ Kitendakazi kinapaswa kubaini idadi ya nodi kutoka orodha ya ujirani kwa usahihi
 })
 ```
 
-Kitendakazi kinapaswa kuweka thamani za matriki kuwa `1` kwa viunganishi vilivyopo kwa usahihi.
+The function should correctly set matrix values to `1` for existing edges.
 
 ```js
 ({ 
@@ -105,7 +104,7 @@ Kitendakazi kinapaswa kuweka thamani za matriki kuwa `1` kwa viunganishi vilivyo
 })
 ```
 
-Kitendakazi kinapaswa kuchapisha kila safu ya matriki.
+The function should print each row of the matrix.
 
 ```js
 ({ 
@@ -128,7 +127,7 @@ Kitendakazi kinapaswa kuchapisha kila safu ya matriki.
 })
 ```
 
-Kitendakazi kinapaswa kurudisha matriki ya ujirani.
+The function should return the adjacency matrix.
 
 ```js
 ({ 
@@ -140,7 +139,7 @@ Kitendakazi kinapaswa kurudisha matriki ya ujirani.
 })
 ```
 
-Ikipewa orodha ya ujirani `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, kitendakazi kinapaswa kurudisha `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
+When given the adjacency list `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, the function should return `[[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]]`.
 
 ```js
 ({ 
@@ -153,7 +152,7 @@ Ikipewa orodha ya ujirani `{0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}`, kitendakazi 
 })
 ```
 
-Ikipewa orodha ya ujirani `{0: [1], 1: [0]}`, kitendakazi kinapaswa kurudisha `[[0, 1], [1, 0]]`.
+When given the adjacency list `{0: [1], 1: [0]}`, the function should return `[[0, 1], [1, 0]]`.
 
 ```js
 ({ 
@@ -166,7 +165,7 @@ Ikipewa orodha ya ujirani `{0: [1], 1: [0]}`, kitendakazi kinapaswa kurudisha `[
 })
 ```
 
-Ikipewa orodha ya ujirani `{0: [], 1: [], 2: []}`, kitendakazi kinapaswa kurudisha `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
+When given the adjacency list `{0: [], 1: [], 2: []}`, the function should return `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`.
 
 ```js
 ({ 

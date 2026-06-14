@@ -7,15 +7,15 @@ dashedName: challenge-135
 
 # --description--
 
-Kutolewa mfuatano wa herufi unaowakilisha mstari wa somo la barua pepe, amua ni mara ngapi barua pepe hiyo imetumwa tena au kujibiwa.
+Given a string representing the subject line of an email, determine how many times the email has been forwarded or replied to.
 
-Kwa urahisi, zingatia barua pepe imetumwa tena au kujibiwa ikiwa mfuatano wa herufi una mojawapo ya alama zifuatazo (bila kujali herufi kubwa au ndogo):
+For simplicity, consider an email forwarded or replied to if the string contains any of the following markers (case-insensitive):
 
 - `"fw:"`
 - `"fwd:"`
 - `"re:"`
 
-Rudisha jumla ya mara alama hizi zilipotokea.
+Return the total number of occurrences of these markers.
 
 # --hints--
 

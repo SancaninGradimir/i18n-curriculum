@@ -1,6 +1,6 @@
 ---
 id: 68fa8b4ecf2cf649ff55f7fd
-title: Zoezi la 2
+title: Task 2
 challengeType: 19
 dashedName: task-2
 lang: es
@@ -8,13 +8,13 @@ lang: es
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Ni herufi gani ya **pili** inayoonyeshwa katika sauti hii?
+What is the **second** letter pronounced in this audio?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Ni herufi gani ya **pili** inayoonyeshwa katika sauti hii?
 
 ### --feedback--
 
-Herufi `b` ina sauti tofauti.
+The letter `b` has a different sound.
 
 ---
 
@@ -34,7 +34,7 @@ Herufi `b` ina sauti tofauti.
 
 ### --feedback--
 
-Herufi `z` ina sauti tofauti.
+The letter `z` has a different sound.
 
 ---
 
@@ -42,7 +42,7 @@ Herufi `z` ina sauti tofauti.
 
 ### --feedback--
 
-Herufi `m` ina sauti tofauti.
+The letter `m` has a different sound.
 
 ## --video-solution--
 
@@ -50,9 +50,9 @@ Herufi `m` ina sauti tofauti.
 
 # --explanation--
 
-Hizi ndizo herufi tatu zinazosemwa katika sauti: `b`, `x`, `z`.
+These are the three letters pronounced in the audio: `b`, `x`, `z`.
 
-Herufi `x` ndiyo ya pili. Kwa hiyo, `x` ni jibu sahihi.
+The letter `x` is the second one. Therefore, `x` is the correct answer.
 
 # --scene--
 

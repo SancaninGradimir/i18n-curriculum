@@ -1,6 +1,6 @@
 ---
 id: cf1231c1c11feddfaeb5bdef
-title: Zidisha nambari mbili kwa JavaScript
+title: Multiply Two Numbers with JavaScript
 challengeType: 1
 forumTopicId: 18243
 dashedName: multiply-two-numbers-with-javascript
@@ -8,31 +8,31 @@ dashedName: multiply-two-numbers-with-javascript
 
 # --description--
 
-Tunaweza pia kuzidisha nambari moja kwa nyingine.
+We can also multiply one number by another.
 
-JavaScript hutumia alama ya `*` kwa ajili ya kuzidisha nambari mbili.
+JavaScript uses the `*` symbol for multiplication of two numbers.
 
-**Mfano**
+**Example**
 
 ```js
 const myVar = 13 * 13;
 ```
 
-`myVar` itakuwa na thamani ya `169`.
+`myVar` would have the value `169`.
 
 # --instructions--
 
-Badilisha `0` ili bidhaa iwe sawa na `80`.
+Change the `0` so that product will equal `80`.
 
 # --hints--
 
-Kigezo `product` kinapaswa kuwa sawa na 80.
+The variable `product` should be equal to 80.
 
 ```js
 assert(product === 80);
 ```
 
-Unapaswa kutumia opereta wa `*`.
+You should use the `*` operator.
 
 ```js
 assert(/\*/.test(__helpers.removeJSComments(code)));

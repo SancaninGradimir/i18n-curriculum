@@ -1,21 +1,21 @@
 ---
 id: 66c748ffdfbe4f2ede268be2
-title: Hatua 20
+title: Korak 20
 challengeType: 1
 dashedName: step-20
 ---
 
 # --description--
 
-Katika hatua hii ya mwisho ya warsha, andika orodha ya mwisho ya vitu vya dukani kwenye konsoli.
+U ovom poslednjem koraku radionice, izpišite konačnu listu namirnica na konzolu.
 
-Ili kufanya hivyo, fanya wito wa kitendakazi cha `getShoppingListMsg` ukiwa na safu ya data ya `shoppingList` kama hoja ndani ya `console.log`.
+Da biste to uradili, pozovite funkciju `getShoppingListMsg` sa nizom `shoppingList` kao argumentom unutar `console.log`.
 
-Na kwa hatua hii ya mwisho, orodha yako ya vitu vya dukani itakuwa imekamilika!
+I ovim poslednjim korakom vaša lista namirnica je kompletirana!
 
 # --hints--
 
-Unapaswa kufanya wito wa `getShoppingListMsg(shoppingList)` ndani ya `console.log`.
+You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

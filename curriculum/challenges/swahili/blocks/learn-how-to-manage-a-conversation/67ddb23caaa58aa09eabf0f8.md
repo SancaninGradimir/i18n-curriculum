@@ -1,6 +1,6 @@
 ---
 id: 67ddb23caaa58aa09eabf0f8
-title: Zoezi la 33
+title: Task 33
 challengeType: 22
 dashedName: task-33
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ina maana kwa sasa na inaonyesha hali inaweza kubadilika baadaye.
+This means at the present time and shows the situation could change later.
 
 # --explanation--
 
-`For now` ina maana kwa wakati huu au kwa sasa. Inaashiria kuwa mambo yamekamilika kwa sasa, lakini huenda yakatokea zaidi baadaye. Kwa mfano:
+`For now` means at this moment or for the time being. It suggests that things are complete at the moment, but more might happen later. For example:
 
-`Let's stop working here for now and continue tomorrow.` - Hii ina maana wanapumzika kwa sasa, lakini wataendelea baadaye.
+`Let's stop working here for now and continue tomorrow.` - This means they are pausing at the moment, but will continue later.
 
 # --scene--
 

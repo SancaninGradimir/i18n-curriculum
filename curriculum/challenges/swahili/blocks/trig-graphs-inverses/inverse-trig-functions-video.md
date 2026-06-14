@@ -1,6 +1,6 @@
 ---
 id: 699e69ea8f18cf77dfce5c15
-title: Kitendakazi cha trig kinachorudisha nyuma
+title: Inverse Trig Functions
 challengeType: 11
 videoId: hlzdIVKJCdA
 dashedName: inverse-trig-functions
@@ -8,30 +8,32 @@ dashedName: inverse-trig-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi cha trig kinachorudisha nyuma.
+In this video, you will learn about inverse trig functions.
 
 # --questions--
 
 ## --text--
 
-Unawezaje kupata mchoro wa kitendakazi kinachorudisha nyuma?
+How can you find the graph of an inverse of a function?
 
 ## --answers--
 
-Kugeuza mchoro wa kitendakazi cha awali kwa mstari $y = 2x$ kisha kwa mstari $y = x$.
+Flipping the graph of the original function across the line $y = 2x$ and then across the line $y = x$.
 
 ---
 
-Kugeuza mchoro wa kitendakazi cha awali kwa mstari $y = x$ kisha kwa mstari $y = -x$.
+Flipping the graph of the original function across the line $y = x$ and then across the line $y = -x$.
 
 ---
 
-Kugeuza mchoro wa kitendakazi cha awali kwa mstari $y = x$.
+Flipping the graph of the original function across the line $y = x$.
 
 ---
 
-Kugeuza mchoro wa kitendakazi cha awali kwa mstari $y = -x$.
+Flipping the graph of the original function across the line $y = -x$.
 
 ## --video-solution--
 
 3
+
+

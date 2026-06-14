@@ -1,35 +1,35 @@
 ---
 id: 5efae16e3cbd2bbdab94e334
-title: Hatua 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-Baada ya kipengele cha mwisho cha `img`, ongeza kipengele cha `figcaption` chenye maandishi ya `Cats hate other cats.`
+After the last `img` element, add a `figcaption` element with the text `Cats hate other cats.`
 
 # --hints--
 
-Kipengele chako cha `figcaption` kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia ifuatayo: `<elementName>`.
+Your `figcaption` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figcaption').length === 2);
 ```
 
-Kipengele chako cha `figcaption` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Your `figcaption` element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert(code.match(/<\/figcaption\>/g).length === 2);
 ```
 
-Kufuatia lebo ya kufunga ya kipengele cha pili cha `figure`, inapaswa kuwepo kipengele cha `section` juu yake.
+There should be a `figure` element right above the second `section` element's closing tag.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-Kipengele cha mwisho cha `img` kinapaswa kupangwa ndani ya kipengele cha `figure`.
+The last `img` element should be nested in the `figure` element.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -39,25 +39,25 @@ assert(
 );
 ```
 
-Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia ifuatayo: `<elementName>`.
+Your `figure` element should have an opening tag. Opening tags have the following syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length === 2);
 ```
 
-Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert(code.match(/<\/figure\>/g).length === 2);
 ```
 
-Kipengele cha `figcaption` kinapaswa kupangwa ndani ya kipengele cha `figure`.
+The `figcaption` element should be nested in the `figure` element.
 
 ```js
 assert(document.querySelectorAll('figure > figcaption').length === 2);
 ```
 
-Kipengele cha `figcaption` kilichopangwa ndani ya kipengele cha `figure` kinapaswa kuwa chini ya kipengele cha `img`. Umeweka kipengele cha `img` na kipengele cha `figcaption` kwa mpangilio usio sahihi.
+The `figcaption` element nested in the `figure` element should be below the `img` element. You have the `img` element and the `figcaption` element in the wrong order.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-Kipengele cha `figcaption` kinapaswa kuwa na maandishi ya `Cats hate other cats.`. Umeacha neno au umefanya makosa ya tahajia.
+The `figcaption` element should have the text `Cats hate other cats.` You have omitted a word or have a typo.
 
 ```js
 assert(
@@ -121,3 +121,4 @@ assert(
   </body>
 </html>
 ```
+

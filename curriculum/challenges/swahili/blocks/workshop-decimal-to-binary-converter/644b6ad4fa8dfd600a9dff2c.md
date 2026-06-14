@@ -1,31 +1,31 @@
 ---
 id: 644b6ad4fa8dfd600a9dff2c
-title: Step 25
+title: Korak 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Ili kugawanya nambari katika JavaScript, tumia kiendeshaji cha kugawanya (`/`). Kwa mfano:
+Da biste podelili brojeve u JavaScriptu, koristite operator za deljenje (`/`). Na primer:
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-Katika mfano hapo juu, `5` ni <dfn>anayegawanywa</dfn>, au nambari inayogawanywa, na `2` ni <dfn>mgawanyiko</dfn>, au nambari ya kugawanya nayo. Matokeo, `2.5`, huitwa <dfn>gawio</dfn>.
+U gornjem primeru, `5` je <dfn>dividend</dfn>, ili broj koji se deli, a `2` je <dfn>divisor</dfn>, ili brojem na koji se deli. Rezultat, `2.5`, naziva se <dfn>quotient</dfn>. 
 
-Ndani ya mzunguko wako wa `while`, tengeneza kigezo kinachoitwa `quotient` na weka thamani ya `input` iliyogawanywa na `2`.
+Unutar vaše `while` petlje, kreirajte varijablu pod imenom `quotient` i dodelite joj vrednost `input` podeljenu sa `2`.
 
 # --hints--
 
-Unapaswa kutengeneza kigezo kinachoitwa `quotient` ndani ya mzunguko wako wa `while`.
+You should create a variable named `quotient` inside your `while` loop.
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-Unapaswa kuweka thamani ya `quotient` kuwa `input` iliyogawanywa na `2`.
+You should assign `quotient` the value of `input` divided by `2`.
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);

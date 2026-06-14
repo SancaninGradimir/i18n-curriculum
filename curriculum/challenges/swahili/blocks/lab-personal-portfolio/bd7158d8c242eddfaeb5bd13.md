@@ -1,6 +1,43 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Jenga portfolio binafsi
+title: # --description--
+
+
+
+# --hints--
+# --questions--
+# --seed--
+# --seed-contents--
+# --before-user-code--
+# --after-user-code--
+
+TEXT:
+
+Engleski na srpski (sr-RS).
+
+VAŽNO:
+
+- Prevodite samo prirodni jezik.
+- Sačuvajte Markdown tačno.
+- Sačuvajte sve prekid linija.
+- Sačuvajte sve prazne linije.
+- Ne menjajte formatiranje.
+- Ne prevodite kod.
+- Ne prevodite imena promenljivih.
+- Ne prevodite identifikatore.
+- Ne prevodite zamenske vrednosti (placeholder-e).
+
+Sačuvajte ove markere tačno:
+
+# --description--
+# --hints--
+# --questions--
+# --seed--
+# --seed-contents--
+# --before-user-code--
+# --after-user-code--
+
+TEXT:
 challengeType: 25
 dashedName: build-a-personal-portfolio
 demoType: onClick
@@ -9,34 +46,34 @@ saveSubmissionToDB: true
 
 # --description--
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili ukamilishe maabara.
+**Objective:** Fulfill the user stories below and get all the tests to pass to complete the lab.
 
-**Hadithi za watumizi:**
+**User Stories:**
 
-1. Portfolio yako inapaswa kuwa na sehemu ya karibu na `id` ya `welcome-section`.
-2. Sehemu ya karibu inapaswa kuwa na kipengele cha `h1` chenye maandishi.
-3. Portfolio yako inapaswa kuwa na sehemu ya miradi yenye `id` ya `project-section`.
-4. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye darasa la `class` la `project-tile` ili kuhifadhi mradi.
-5. Sehemu ya miradi inapaswa kuwa na angalau kiungo kimoja cha mradi.
-6. Portfolio yako inapaswa kuwa na navbar yenye kitambulisho cha `navbar`.
-7. Navbar inapaswa kuwa na angalau kiungo kimoja ambacho unaweza kubofya ili kuunganisha na sehemu tofauti za ukurasa.
-8. Portfolio yako inapaswa kuwa na kiungo chenye kitambulisho cha `profile-link` kinachofungua wasifu wako wa GitHub au freeCodeCamp kwenye kichupo kipya.
-9. Portfolio yako inapaswa kuwa na angalau media query moja.
-10. Urefu wa sehemu ya karibu unapaswa kuwa sawa na urefu wa eneo la kuona.
-11. Navbar inapaswa daima kuwa juu ya eneo la kuona.
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
+2. The welcome section should have an `h1` element that contains text.
+3. Your portfolio should have a projects section with an `id` of `project-section`.
+4. The projects section should contain at least one element with a `class` of `project-tile` to hold a project.
+5. The projects section should contain at least one link to a project.
+6. Your portfolio should have a navbar with an id of `navbar`.
+7. The navbar should contain at least one link that you can click on to navigate to different sections of the page.
+8. Your portfolio should have a link with an id of `profile-link`, which opens your GitHub or freeCodeCamp profile in a new tab.
+9. Your portfolio should have at least one media query.
+10. The height of the welcome section should be equal to the height of the viewport.
+11. The navbar should always be at the top of the viewport.
 
-**Kumbuka:** Hakikisha unaunganisha karatasi yako ya mitindo katika HTML yako na kutumia CSS yako.
+**Note:** Be sure to link your stylesheet in your HTML and apply your CSS.
 
 # --hints--
 
-Portfolio yako inapaswa kuwa na sehemu ya "Karibu" yenye `id` ya `welcome-section`.
+Your portfolio should have a "Welcome" section with an `id` of `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#welcome-section` kinapaswa kuwa na kipengele cha `h1` ndani yake.
+Your `#welcome-section` element should contain an `h1` element.
 
 ```js
 assert.isAbove(
@@ -46,7 +83,7 @@ assert.isAbove(
 );
 ```
 
-Hupaswi kuwa na vipengele vya `h1` vilivyo tupu ndani ya kipengele cha `#welcome-section`.
+You should not have any empty `h1` elements within `#welcome-section` element.
 
 ```js
 assert.isAbove(
@@ -56,14 +93,14 @@ assert.isAbove(
 );
 ```
 
-Unapaswa kuwa na sehemu ya "Miradi" yenye `id` ya `project-section`.
+You should have a "Projects" section with an `id` of `project-section`.
 
 ```js
 const el = document.getElementById('project-section');
 assert.isNotNull(el);
 ```
 
-Portfolio yako inapaswa kuwa na angalau kipengele kimoja chenye darasa la `project-tile`.
+Your portfolio should contain at least one element with a class of `project-tile`.
 
 ```js
 assert.isAbove(
@@ -72,20 +109,20 @@ assert.isAbove(
 );
 ```
 
-Kipengele chako cha `#project-section` kinapaswa kuwa na angalau kipengele kimoja cha `a` ndani yake.
+Your `#project-section` element should contain at least one `a` element.
 
 ```js
 assert.isAbove(document.querySelectorAll('#project-section a').length, 0);
 ```
 
-Portfolio yako inapaswa kuwa na navbar yenye `id` ya `navbar`.
+Your portfolio should have a navbar with an `id` of `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa kuwa na angalau kipengele kimoja cha `a` ambacho sifa ya kipengele `href` inaanza na `#`.
+Your `#navbar` element should contain at least one `a` element whose `href` attribute starts with `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -95,7 +132,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Portfolio yako inapaswa kuwa na kipengele cha `a` chenye `id` ya `profile-link`.
+Your portfolio should have an `a` element with an `id` of `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -103,7 +140,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Kipengele chako cha `#profile-link` kinapaswa kuwa na sifa ya kipengele `target` ya `_blank`.
+Your `#profile-link` element should have a `target` attribute of `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -111,7 +148,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Portfolio yako inapaswa kutumia angalau media query moja.
+Your portfolio should use at least one media query.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -119,7 +156,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa daima kuwa juu ya eneo la kuona.
+Your `#navbar` element should always be at the top of the viewport.
 
 ```js
   const timeout = milliseconds =>

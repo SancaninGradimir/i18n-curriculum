@@ -1,6 +1,6 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Zoezi la 81
+title: Task 81
 challengeType: 22
 dashedName: task-81
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Unapotaka kujua mara ngapi jambo fulani hutokea, unaweza kutumia `every` ikifuatiwa na kipindi cha wakati kama `day`, `week`, au `year`.
+When you want to know how often something happens, you can use `every` followed by a time period like `day`, `week`, or `year`.
 
-Katika mazungumzo, Tom anauliza kuhusu mara ngapi mikutano ya timu hufanyika.
+In the dialogue, Tom is asking about the frequency of the team meetings.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili hutumika kuuliza kama mikutano hufanyika kila wiki.
+This word is used to ask if the meetings happen weekly.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae5c6d8491ca1dcd31440c
-title: Maelezo rahisi ya RAG
+title: Simple Explanation of RAG
 challengeType: 11
 videoId: _KPPqvJ9ig4
 dashedName: simple-explanation-of-rag
@@ -8,13 +8,13 @@ dashedName: simple-explanation-of-rag
 
 # --description--
 
-Katika video hii, utaanzishwa kwa dhana ya RAG.
+In this video, you will be introduced to the concept of RAG.
 
 # --questions--
 
 ## --text--
 
-RAG inasimamia nini?
+What does RAG stand for?
 
 ## --answers--
 
@@ -35,3 +35,4 @@ Response-Action Generation
 ## --video-solution--
 
 1
+

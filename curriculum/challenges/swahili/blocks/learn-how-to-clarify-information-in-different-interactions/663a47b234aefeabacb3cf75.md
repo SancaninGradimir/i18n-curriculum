@@ -1,6 +1,6 @@
 ---
 id: 663a47b234aefeabacb3cf75
-title: Zoezi la 27
+title: Task 27
 challengeType: 22
 dashedName: task-27
 lang: en-US
@@ -10,8 +10,8 @@ lang: en-US
 
 # --description--
 
-Sifa nyingine ya kipekee mtu anaweza kuwa nayo ni urefu wake. Unaweza kusema, kwa mfano, kwamba mtu ni `tall` au `short`.
-Mtu `tall` ni mtu aliye juu ya wastani kwa upande wa urefu wake. Kinyume chake ni mtu `short`, mtu huyu akiwa chini ya wastani.
+Another distinctive characteristic someone has is their height. You can say, for example, that someone is `tall` or `short`.
+A `tall` person is someone above the average in terms of their height. The opposite is when someone is `short`, when this person is below the average.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ Mtu `tall` ni mtu aliye juu ya wastani kwa upande wa urefu wake. Kinyume chake n
 
 ### --feedback--
 
-Juu ya wastani kwa upande wa urefu.
+Above the average in terms of height.
 
 # --scene--
 

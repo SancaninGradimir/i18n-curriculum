@@ -1,6 +1,6 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Zoezi la 21
+title: Task 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Linda anatoa kufanya nini?  
+What does Linda offer to do?  
 
 ## --answers--  
 
-Tayarisha hali za mtumiaji kwa ajili ya majaribio.  
+Prepare user scenarios for testing.  
 
 ---  
 
-Ruka hatua ya majaribio.  
+Skip the testing phase.  
 
 ### --feedback--  
 
-Linda hapendekezi kuruka majaribio; anachangia kikamilifu katika hilo.  
+Linda does not suggest skipping testing; she is actively contributing to it.  
 
 ---  
 
-Muombe mtu mwingine ashughulikie majaribio ya mtumiaji.  
+Ask someone else to handle user testing.  
 
 ### --feedback--  
 
-Linda hahamishi zoezi hilo kwa mtu mwingine.  
+Linda does not delegate the task to someone else.  
 
 ---  
 
-Buni upya kiolesura cha mtumiaji kutoka mwanzo.  
+Redesign the user interface from scratch.  
 
 ### --feedback--  
 
-Linda hasemi kuhusu kubuni upya kiolesura.  
+Linda does not talk about redesigning the interface.  
 
 ## --video-solution--  
 
@@ -52,13 +52,13 @@ Linda hasemi kuhusu kubuni upya kiolesura.
 
 # --explanation--  
 
-Sikiliza maneno muhimu yanayoonyesha anachotaka Linda kufanya.  
+Listen for key words that indicate what Linda is offering to do.  
 
-`I can also` – Hii inaonyesha anajitolea kuchangia.  
+`I can also` – This shows she is volunteering to contribute.  
 
-`Prepare some user scenarios for testing` – Hii inaeleza wazi zoezi analolichukua jukumu la kufanya.  
+`Prepare some user scenarios for testing` – This clearly states the task she is taking responsibility for.  
 
-`Ensure a smooth user experience` – Hii inaeleza kwa nini majaribio ni muhimu na kuimarisha dhamira yake kwa mradi.  
+`Ensure a smooth user experience` – This explains why testing is important and reinforces her commitment to the project.  
 
 # --scene--
 

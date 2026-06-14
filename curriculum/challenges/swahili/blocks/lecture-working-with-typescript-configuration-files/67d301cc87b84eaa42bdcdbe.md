@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: "Faili la tsconfig ni nini, na kwa nini ni muhimu kuingiza katika miradi yako ya TypeScript?"
+title: Šta je `tsconfig` fajl i zašto je važno da ga uključite u svoje TypeScript projekte?
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-Mipangilio ya compiler ya TypeScript inaweza kusanidiwa ili kukidhi mahitaji ya mradi wako. Usanidi huo unaishi katika faili la `tsconfig.json` katika saraka kuu ya mradi wako. Kwa kweli, bila hilo, compiler haitafanya kazi isipokuwa ukipitisha bendera za amri moja kwa moja. Lakini faili hili hasa hufanya nini? Sawa, tuchunguze faili la mfano:
+Podešavanja kompajlera TypeScript-a mogu se konfigurisati da odgovore potrebama vašeg projekta. Ta konfiguracija se nalazi u fajlu `tsconfig.json` u korenom direktorijumu vašeg projekta. Zapravo, bez njega, kompajler neće raditi osim ako mu direktno ne prosledite komandne zastavice (flags). Ali šta tačno radi ovaj fajl? Pa, hajde da pogledamo primer fajla:
 
 ```json
 {
@@ -26,36 +26,33 @@ Mipangilio ya compiler ya TypeScript inaweza kusanidiwa ili kukidhi mahitaji ya 
 }
 ```
 
-Hii inaonekana ni nyingi! Hivyo basi, tuchambue. Sifa ya `compilerOptions` itakuwa na "kiini" cha usanidi wako - hapa ndipo unadhibiti jinsi compiler ya TypeScript inavyotenda. Ukiangalia kwenye kitu kilichopangwa ndani…
+Ovo izgleda kao mnogo! Dakle, hajde da to rastavimo. Svojstvo ``compilerOptions`` će sadržati "srž" vaše konfiguracije – ovde kontrolišete kako se ponaša kompajler TypeScript-a. Gledajući taj ugnježdeni objekat…
 
-`rootDir` na `outDir` zinaambia TypeScript saraka gani ina faili zako za chanzo, na saraka gani inapaswa kuwa na msimbo wa JavaScript uliotafsiriwa.
+`rootDir` i `outDir` govore TypeScriptu koji direktorijum sadrži vaše izvorni fajlove, i koji direktorijum bi trebalo da sadrži transpilovani JavaScript kod.
 
-Sifa ya `lib` inaamua ni aina gani za maelezo ya aina compiler inazitumia, na inakuwezesha kuingiza msaada kwa matoleo maalum ya ES, DOM, na zaidi.
+Atribut ``lib`` određuje koje definicije tipova kompajler koristi, i omogućava vam da uključite podršku za specifične ES verzije, DOM i više.
 
-`module` na `moduleResolution` hufanya kazi pamoja kudhibiti jinsi kifurushi chako kinavyotumia moduli - iwe CommonJS au ECMAScript.
+`module` i `moduleResolution` efikasno rade u sinergiji da upravljaju načinom na koji vaš paket koristi module - bilo CommonJS ili ECMAScript.
 
-`esModuleInterop` hurahisisha ushirikiano kati ya moduli za CommonJS na ES kwa kuunda moja kwa moja vitu vya namespace kwa imports, na kufanya iwe rahisi kutumia moduli kutoka kwa mifumo tofauti pamoja katika miradi yako ya TypeScript, na chaguo la `skipLibCheck` linapita bila kuthibitisha faili za `.d.ts` ambazo hazijatajwa na imports katika msimbo wako.
+`esModuleInterop` omogućava glatku interoperabilnost između CommonJS i ES modula automatskim kreiranjem objekata prostora imena za uvoz, što olakšava korišćenje modula iz različitih sistema zajedno u vašim TypeScript projektima, a `skipLibCheck` opcija preskače validaciju `.d.ts` fajlova koji nisu referencirani uvozima u vašem kodu.
 
-Na hatimaye tunafikia hali ya `strict`. Mtu anaweza kusema kuwa TypeScript haifaidiki kweli bila bendera hii kuwezeshwa, kwani inawasha ukaguzi mwingine mwingi, kama vile kuhitaji kushughulikia aina zinazoweza kuwa na thamani ya null ipasavyo, au kutoa onyo wakati TypeScript haiwezi kubaini aina na inarudi kwa any.
+I na kraju dolazimo do `strict` režima. Neki bi mogli da argumentuju da TypeScript nije zaista koristan bez omogućenog ovog zastavice, jer uključuje prilično mnogo drugih provera, kao što je zahtev pravilnu obradu nullabilnih tipova, ili upozorava kada TypeScript ne može da izvede tip i vraća se na bilo koji.
 
-Kabla hatujamaliza, kumbuka kidogo kuhusu sifa ya ngazi ya juu ya `exclude` - wakati umeeleza saraka ya chanzo, unaweza kuwa na msimbo wa TypeScript nje ya saraka hiyo ambao hutaki uandikwe kama sehemu ya msimbo wako wa uzalishaji. Kwa mfano, msimbo wako wa majaribio. Safu ya `exclude` inaambia compiler kuacha kuzingatia faili hizi za TypeScript wakati wa uandikishaji, lakini bado inaruhusu zana kama Intellisense kuonyesha matatizo yanayoweza kutokea.
+Pre nego što završimo, kratka napomena o top-level svojstvu ``exclude`` - kada definišete direktorijum izvora, možda imate TypeScript kod van tog direktorijuma koji ne želite da se kompajlira kao deo vašeg produkcionog koda. Na primer, vaš test kod. Niz ``exclude`` govori kompajleru da ignoriše ove TypeScript fajlove tokom kompilacije, ali i dalje omogućava alatima kao što je Intellisense da otkriju potencijalne probleme.
 
-Kuna chaguzi nyingi zaidi za compiler unazoweza kuchunguza - zaidi ya 50! Nakuhimiza uchunguze nyaraka na ujaribu kupata usanidi unaofaa kwa mahitaji ya mradi wako.
-
+Postoji mnogo drugih opcija kompajlera koje možete istražiti – preko 50! Podstičem vas da istražite dokumentaciju i eksperimentišete kako biste pronašli konfiguraciju koja odgovara potrebama vašeg projekta.
 # --questions--
 
 ## --text--
 
-Ni sifa gani katika faili la `tsconfig.json` inayogusa jinsi compiler inavyotenda?
-
+Koje svojstvo u fajlu ``tsconfig.json`` utiče na ponašanje kompajlera?
 ## --answers--
 
 `rootDir`
 
 ### --feedback--
 
-Sifa hii ni kitu chenye chaguzi za compiler.
-
+Ovo svojstvo je objekat koji sadrži opcije za kompajler.
 ---
 
 `compilerOptions`
@@ -66,88 +63,76 @@ Sifa hii ni kitu chenye chaguzi za compiler.
 
 ### --feedback--
 
-Sifa hii ni kitu chenye chaguzi za compiler.
-
+Ovo svojstvo je objekat koji sadrži opcije za kompajler.
 ---
 
 `lib`
 
 ### --feedback--
 
-Sifa hii ni kitu chenye chaguzi za compiler.
-
+Ovo svojstvo je objekat koji sadrži opcije za kompajler.
 ## --video-solution--
 
 2
 
 ## --text--
 
-Chaguo la `strict` katika faili la `tsconfig.json` hufanya nini?
-
+Šta radi opcija ``strict`` u fajlu ``tsconfig.json``?
 ## --answers--
 
-Linakagua tu aina zinazoweza kuwa na null.
+Proverava samo nullabilne tipove.
+### --feedback--
+
+Ova opcija omogućava različite provere, uključujući rukovanje nulabilnim tipovima.
+---
+
+It enforces the use of CommonJS modules.
 
 ### --feedback--
 
-Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
+Ova opcija omogućava različite provere, uključujući rukovanje nulabilnim tipovima.
+---
+
+It toggles several type-checking options.
 
 ---
 
-Linahimiza matumizi ya moduli za CommonJS.
+It excludes test files from compilation.
 
 ### --feedback--
 
-Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
-
----
-
-Linabadilisha chaguzi kadhaa za ukaguzi wa aina.
-
----
-
-Linatoa faili za majaribio nje ya uandikishaji.
-
-### --feedback--
-
-Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
-
+Ova opcija omogućava različite provere, uključujući rukovanje nulabilnim tipovima.
 ## --video-solution--
 
 3
 
 ## --text--
 
-Madhumuni ya safu ya `exclude` katika faili la `tsconfig.json` ni yapi?
-
+Koja je svrha niza ``exclude`` u fajlu ``tsconfig.json``?
 ## --answers--
 
-Kueleza ni faili gani zaandikwe.
+Da se navedu fajlovi koje treba kompajlirati.
+### --feedback--
+
+Možete ovo koristiti da biste isključili test kod iz kompilacije.
+---
+
+To list additional libraries to include.
 
 ### --feedback--
 
-Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
+Možete ovo koristiti da biste isključili test kod iz kompilacije.
+---
+
+To ignore certain files during compilation.
 
 ---
 
-Kutoa orodha ya maktaba za ziada za kuingiza.
+To define output directories for compiled files.
 
 ### --feedback--
 
-Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
-
----
-
-Kusahau baadhi ya faili wakati wa uandikishaji.
-
----
-
-Kueleza saraka za matokeo kwa faili zilizotafsiriwa.
-
-### --feedback--
-
-Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
-
+Možete ovo koristiti da biste isključili test kod iz kompilacije.
 ## --video-solution--
 
 3

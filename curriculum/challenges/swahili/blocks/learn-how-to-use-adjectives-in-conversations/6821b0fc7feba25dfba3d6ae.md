@@ -1,6 +1,6 @@
 ---
 id: 6821b0fc7feba25dfba3d6ae
-title: Zoezi la 105
+title: Task 105
 challengeType: 19
 dashedName: task-105
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Soma maandishi na ujibu swali lililopo hapa chini.
+Read the text and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Baada ya kupokea maoni kutoka kwa Alice na kufanya maboresho, Jake alimalizia maelezo yake hivi:
+After receiving Alice's feedback and making improvements, Jake finalized his pitch like this:
 
 `In today's fast-changing world, startups need a robust and secure way to protect their data. GuardianTech is not just helpful, it's an essential and critical solution for your digital environment.`
 
@@ -28,35 +28,35 @@ Baada ya kupokea maoni kutoka kwa Alice na kufanya maboresho, Jake alimalizia ma
 
 `In short, GuardianTech is a unique cybersecurity solution. It gives you everything you need — now and in the future — to stay protected, grow safely, and succeed.`
 
-Kwa nini GuardianTech inafafanuliwa kama `cost-effective`?
+Why is GuardianTech described as `cost-effective`?
 
 ## --answers--
 
-Inapatikana tu kwa makampuni makubwa yenye bajeti kubwa.
+It is only available to large companies with big budgets.
 
 ### --feedback--
 
-Jake anazungumzia startups, si makampuni yenye bajeti kubwa.
+Jake talks about startups, not big-budget corporations.
 
 ---
 
-Inajumuisha matangazo mengi ya bure.
+It includes many free advertisements.
 
 ### --feedback--
 
-Maelezo hayawezi kutaja masoko au matangazo.
+The pitch doesn't mention marketing or ads.
 
 ---
 
-Inatoa ulinzi imara bila gharama kubwa.
+It provides strong protection without a high price.
 
 ---
 
-Inachukua nafasi ya huduma kwa wateja.
+It replaces the need for customer support.
 
 ### --feedback--
 
-Maandishi hayajawahi kusema inachukua nafasi ya huduma.
+The text never says it replaces support.
 
 ## --video-solution--
 
@@ -64,8 +64,8 @@ Maandishi hayajawahi kusema inachukua nafasi ya huduma.
 
 # --explanation--
 
-Ili kupata jibu, angalia sentensi kuhusu GuardianTech kuwa `cost-effective`.
+To find the answer, look at the sentence about GuardianTech being `cost-effective`.
 
-Maelezo yanaeleza inatoa `high-quality protection without a big price tag`, ambayo inamaanisha thamani imara kwa gharama ndogo.
+The pitch explains it gives `high-quality protection without a big price tag`, which means strong value at low cost.
 
-Tafuta chaguo linaloonyesha hili.
+Look for the option that reflects this.

@@ -1,6 +1,6 @@
 ---
 id: 698dea4b7932b3cc4b19c94d
-title: Muda wa utekelezaji wa Big O wa algoriti za utafutaji
+title: Big O Runtime of Search Algorithms
 challengeType: 11
 videoId: V9ID1JG7BpU
 dashedName: big-o-runtime-of-search-algorithms
@@ -8,13 +8,13 @@ dashedName: big-o-runtime-of-search-algorithms
 
 # --description--
 
-Katika video hii, utaangalia muda wa utekelezaji wa Big O kwa utafutaji wa mstari na utafutaji wa binary.
+In this video, you will look at the Big O runtimes for linear and binary search.
 
 # --questions--
 
 ## --text--
 
-Je, muda wa utekelezaji wa big O kwa utafutaji wa mstari ni upi?
+What is the big O runtime for linear search?
 
 ## --answers--
 

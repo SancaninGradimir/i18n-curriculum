@@ -1,6 +1,6 @@
 ---
 id: 699e71f58f18cf77dfce5c16
-title: Kutatua Mlinganyo Msingi wa Trigonometri
+title: Solving Basic Trig Equations
 challengeType: 11
 videoId: JfTpmqwIzzc
 dashedName: solving-basic-trig-equations
@@ -8,30 +8,32 @@ dashedName: solving-basic-trig-equations
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutatua mlinganyo wa msingi wa trigonometri.
+In this video, you will learn how to solve basic trigonometric equations.
 
 # --questions--
 
 ## --text--
 
-Hatua ya kwanza ilikuwa gani katika kutatua mlinganyo wa trig katika mfano wa kwanza?
+What was the first step in solving the trig equation in the first example?
 
 ## --answers--
 
-Kutenganisha kitendakazi cha cosine.
+Isolating the cosine function.
 
 ---
 
-Kuinua kiwango cha kitendakazi cha cosine.
+Maximizing the cosine function.
 
 ---
 
-Kupunguza kiwango cha kitendakazi cha cosine.
+Minimizing the cosine function.
 
 ---
 
-Kubadilisha kitendakazi cha cosine na kitendakazi cha sine.
+Replacing the cosine function with the sine function.
 
 ## --video-solution--
 
 1
+
+

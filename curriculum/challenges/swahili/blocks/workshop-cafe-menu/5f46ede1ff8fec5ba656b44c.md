@@ -1,17 +1,17 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Step 74
+title: Korak 74
 challengeType: 0
 dashedName: step-74
 ---
 
 # --description--
 
-Ifuatayo, utaanza kupamba kipengele cha `footer`. Ili kuweka CSS iwe imepangwa vizuri, ongeza maoni mwishoni mwa `styles.css` yenye maandishi `FOOTER`.
+Zatim ćete stilizovati element `footer`. Kako biste zadržali CSS organizovanim, dodajte komentar na kraj `styles.css` sa tekstom `FOOTER`.
 
 # --hints--
 
-Unapaswa kuwa na maoni ya CSS yenye maandishi `FOOTER`.
+You should have a CSS comment with the text `FOOTER`.
 
 ```js
 assert.match(code, /\/\*\s*FOOTER\s*\*\//i);

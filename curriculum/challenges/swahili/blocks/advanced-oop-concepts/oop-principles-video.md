@@ -1,6 +1,6 @@
 ---
 id: 69ae9f41a9e6da4eb0d5f7fa
-title: Kanuni za OOP
+title: OOP Principles
 challengeType: 11
 videoId: rkOObSk6ApA
 dashedName: oop-principles
@@ -8,13 +8,13 @@ dashedName: oop-principles
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kanuni za kawaida za OOP.
+In this video, you will learn about common OOP principles.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI kanuni kuu ya OOP?
+Which of the following is NOT a core OOP principle?
 
 ## --answers--
 
@@ -35,3 +35,5 @@ Abstraction
 ## --video-solution--
 
 3
+
+

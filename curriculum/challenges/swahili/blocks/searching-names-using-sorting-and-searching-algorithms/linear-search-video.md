@@ -1,6 +1,6 @@
 ---
 id: 698dea367932b3cc4b19c949
-title: Utafutaji wa mstari
+title: Linear Search
 challengeType: 11
 videoId: aC9uj1nYJLI
 dashedName: linear-search
@@ -8,29 +8,29 @@ dashedName: linear-search
 
 # --description--
 
-Katika video hii, utaangalia jinsi utafutaji wa mstari unavyofanya kazi kwenye orodha ya majina.
+In this video, you will examine how linear search works on a list of names.
 
 # --questions--
 
 ## --text--
 
-Ni lini unaweza kutumia utafutaji wa mstari badala ya utafutaji wa binary?
+When might you use linear search over binary search?
 
 ## --answers--
 
-Wakati orodha ni kubwa sana na tayari imepangwa.
+When the list is very large and already sorted.
 
 ---
 
-Ikiwa unahitaji ugumu wa wakati wa logarithmic.
+If you need logarithmic time complexity.
 
 ---
 
-Ikiwa unajua orodha haijapangwa.
+If you know the list is unsorted.
 
 ---
 
-Wakati unaweza kugawanya seti ya data mara kwa mara nusu.
+When you can repeatedly divide the dataset in half.
 
 ## --video-solution--
 

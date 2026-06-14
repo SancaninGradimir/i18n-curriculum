@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Mtatua wa Sudoku
+title: Sudoku Solver
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,64 +8,64 @@ dashedName: sudoku-solver
 
 # --description--
 
-Jenga programu kamili ya JavaScript inayofanya kazi kama hii: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako kwa kutumia mojawapo ya njia zifuatazo:
+Build a full-stack JavaScript app that is functionally similar to this: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Nakili <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
--   Tumia kivinjari cha kutengeneza tovuti unachotaka kukamilisha mradi. Hakikisha umejumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Clone <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-- Mantiq ya fumbo yote inaweza kuwekwa ndani ya `/controllers/sudoku-solver.js`
-  - Kitendakazi cha `validate` kinapaswa kuchukua mfuatano wa herufi wa fumbo uliotolewa na kukagua kama una herufi halali 81 kwa ajili ya ingizo.
-  - Njia za `check` zinapaswa kuthibitisha dhidi ya hali *ya sasa* ya ubao.
-  - Kitendakazi cha `solve` kinapaswa kushughulikia kutatua fumbo lolote halali lililotolewa, si tu ingizo za mtihani na suluhisho. Unatarajiwa kuandika mantiq ya kutatua hili.
-- Mantiq yote ya njia za maelekezo inaweza kuwekwa ndani ya `/routes/api.js`
-- Tazama faili la `puzzle-strings.js` katika `/controllers` kwa fumbo za mfano ambazo programu yako inapaswa kutatua
-- Ili kuendesha mitihani ya changamoto kwenye ukurasa huu, weka `NODE_ENV` kuwa `test` bila nukuu katika faili la `.env`
-- Ili kuendesha mitihani kwenye konsoli, tumia amri `npm run test`.
+- All puzzle logic can go into `/controllers/sudoku-solver.js`
+  - The `validate` function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
+  - The `check` functions should be validating against the *current* state of the board.
+  - The `solve` function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
+- All routing logic can go into `/routes/api.js`
+- See the `puzzle-strings.js` file in `/controllers` for some sample puzzles your application should solve
+- To run the challenge tests on this page, set `NODE_ENV` to `test` without quotes in the `.env` file
+- To run the tests in the console, use the command `npm run test`.
 
-Andika mitihani ifuatayo katika `tests/1_unit-tests.js`:
+Write the following tests in `tests/1_unit-tests.js`:
 
--   Mantiq inashughulikia mfuatano wa fumbo halali wa herufi 81
--   Mantiq inashughulikia mfuatano wa fumbo wenye herufi zisizo halali (si 1-9 au `.`)
--   Mantiq inashughulikia mfuatano wa fumbo usio na urefu wa herufi 81
--   Mantiq inashughulikia kuweka halali kwa safu
--   Mantiq inashughulikia kuweka batili kwa safu
--   Mantiq inashughulikia kuweka halali kwa nguzo
--   Mantiq inashughulikia kuweka batili kwa nguzo
--   Mantiq inashughulikia kuweka halali kwa eneo (gridi 3x3)
--   Mantiq inashughulikia kuweka batili kwa eneo (gridi 3x3)
--   Mfuatano wa fumbo halali hupita mtatua
--   Mfuatano wa fumbo batili haupiti mtatua
--   Mtatua hurudisha suluhisho linalotarajiwa kwa fumbo lisilokamilika
+-   Logic handles a valid puzzle string of 81 characters
+-   Logic handles a puzzle string with invalid characters (not 1-9 or `.`)
+-   Logic handles a puzzle string that is not 81 characters in length
+-   Logic handles a valid row placement
+-   Logic handles an invalid row placement
+-   Logic handles a valid column placement
+-   Logic handles an invalid column placement
+-   Logic handles a valid region (3x3 grid) placement
+-   Logic handles an invalid region (3x3 grid) placement
+-   Valid puzzle strings pass the solver
+-   Invalid puzzle strings fail the solver
+-   Solver returns the expected solution for an incomplete puzzle
 
-Andika mitihani ifuatayo katika `tests/2_functional-tests.js`
+Write the following tests in `tests/2_functional-tests.js`
 
--   Tatua fumbo lenye mfuatano wa fumbo halali: ombi la POST kwa `/api/solve`
--   Tatua fumbo lenye mfuatano wa fumbo uliokosekana: ombi la POST kwa `/api/solve`
--   Tatua fumbo lenye herufi zisizo halali: ombi la POST kwa `/api/solve`
--   Tatua fumbo lenye urefu usio sahihi: ombi la POST kwa `/api/solve`
--   Tatua fumbo lisiloweza kutatuliwa: ombi la POST kwa `/api/solve`
--   Angalia kuweka fumbo kwa sehemu zote: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na mgongano mmoja wa sehemu: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na migongano mingi ya sehemu: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na migongano yote ya sehemu: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na sehemu zinazohitajika zilizokosekana: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na herufi zisizo halali: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na urefu usio sahihi: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na kuratibu batili ya kuweka: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na thamani batili ya kuweka: ombi la POST kwa `/api/check`
+-   Solve a puzzle with valid puzzle string: POST request to `/api/solve`
+-   Solve a puzzle with missing puzzle string: POST request to `/api/solve`
+-   Solve a puzzle with invalid characters: POST request to `/api/solve`
+-   Solve a puzzle with incorrect length: POST request to `/api/solve`
+-   Solve a puzzle that cannot be solved: POST request to `/api/solve`
+-   Check a puzzle placement with all fields: POST request to `/api/check`
+-   Check a puzzle placement with single placement conflict: POST request to `/api/check`
+-   Check a puzzle placement with multiple placement conflicts: POST request to `/api/check`
+-   Check a puzzle placement with all placement conflicts: POST request to `/api/check`
+-   Check a puzzle placement with missing required fields: POST request to `/api/check`
+-   Check a puzzle placement with invalid characters: POST request to `/api/check`
+-   Check a puzzle placement with incorrect length: POST request to `/api/check`
+-   Check a puzzle placement with invalid placement coordinate: POST request to `/api/check`
+-   Check a puzzle placement with invalid placement value: POST request to `/api/check`
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+You should provide your own project, not the example URL.
 
 ```js
   const url = code;
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-Unaweza `POST` `/api/solve` na data ya fomu yenye `puzzle` ambayo itakuwa mfuatano wa herufi unaojumuisha nambari (1-9) na nukta `.` kuwakilisha nafasi tupu. Kitu kilichorejeshwa kitakuwa na sifa ya `solution` yenye fumbo lililotatuliwa.
+You can `POST` `/api/solve` with form data containing `puzzle` which will be a string containing a combination of numbers (1-9) and periods `.` to represent empty spaces. The returned object will contain a `solution` property with the solved puzzle.
 
 ```js
   const input =
@@ -82,7 +82,7 @@ Unaweza `POST` `/api/solve` na data ya fomu yenye `puzzle` ambayo itakuwa mfuata
   assert.equal(parsed.solution, output);
 ```
 
-Ikiwa kitu kilichowasilishwa kwa `/api/solve` kinakosa `puzzle`, thamani iliyorejeshwa itakuwa `{ error: 'Required field missing' }`
+If the object submitted to `/api/solve` is missing `puzzle`, the returned value will be `{ error: 'Required field missing' }`
 
 ```js
   const input =
@@ -98,7 +98,7 @@ Ikiwa kitu kilichowasilishwa kwa `/api/solve` kinakosa `puzzle`, thamani iliyore
   assert.equal(parsed.error, output);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina thamani zisizo nambari au nukta, thamani iliyorejeshwa itakuwa `{ error: 'Invalid characters in puzzle' }`
+If the puzzle submitted to `/api/solve` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -114,7 +114,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina thamani zisizo nambari au nuk
   assert.equal(parsed.error, output);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina urefu zaidi au chini ya herufi 81, thamani iliyorejeshwa itakuwa `{ error: 'Expected puzzle to be 81 characters long' }`
+If the puzzle submitted to `/api/solve` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -134,7 +134,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina urefu zaidi au chini ya heruf
   }
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/solve` ni batili au haliwezi kutatuliwa, thamani iliyorejeshwa itakuwa `{ error: 'Puzzle cannot be solved' }`
+If the puzzle submitted to `/api/solve` is invalid or cannot be solved, the returned value will be `{ error: 'Puzzle cannot be solved' }`
 
 ```js
   const input =
@@ -150,7 +150,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/solve` ni batili au haliwezi kutatuliwa, 
   assert.equal(parsed.error, output);
 ```
 
-Unaweza `POST` kwa `/api/check` kitu chenye `puzzle`, `coordinate`, na `value` ambapo `coordinate` ni herufi A-I inayoashiria safu, ikifuatiwa na nambari 1-9 inayoashiria nguzo, na `value` ni nambari kutoka 1-9.
+You can `POST` to `/api/check` an object containing `puzzle`, `coordinate`, and `value` where the `coordinate` is the letter A-I indicating the row, followed by a number 1-9 indicating the column, and `value` is a number from 1-9.
 
 ```js
   const input =
@@ -167,7 +167,7 @@ Unaweza `POST` kwa `/api/check` kitu chenye `puzzle`, `coordinate`, na `value` a
   assert.isTrue(parsed.valid);
 ```
 
-Thamani ya return kutoka `POST` kwa `/api/check` itakuwa kitu chenye sifa ya `valid`, ambayo ni `true` ikiwa nambari inaweza kuwekwa kwenye kuratibu iliyotolewa na `false` ikiwa haiwezi. Ikiwa ni false, kitu kilichorejeshwa pia kitakuwa na sifa ya `conflict` ambayo ni safu yenye mfuatano wa herufi `"row"`, `"column"`, na/au `"region"` kulingana na sababu za kuweka kuwa batili.
+The return value from the `POST` to `/api/check` will be an object containing a `valid` property, which is `true` if the number may be placed at the provided coordinate and `false` if the number may not. If false, the returned object will also contain a `conflict` property which is an array containing the strings `"row"`, `"column"`, and/or `"region"` depending on which makes the placement invalid.
 
 ```js
   const input =
@@ -188,7 +188,7 @@ Thamani ya return kutoka `POST` kwa `/api/check` itakuwa kitu chenye sifa ya `va
   assert.include(parsed.conflict, 'column');
 ```
 
-Ikiwa `value` iliyowasilishwa kwa `/api/check` tayari imewekwa katika `puzzle` kwenye `coordinate`, thamani iliyorejeshwa itakuwa kitu chenye sifa ya `valid` yenye `true` ikiwa `value` haiko na mgongano.
+If `value` submitted to `/api/check` is already placed in `puzzle` on that `coordinate`, the returned value will be an object containing a `valid` property with `true` if `value` is not conflicting.
 
 ```js
   const input =
@@ -205,7 +205,7 @@ Ikiwa `value` iliyowasilishwa kwa `/api/check` tayari imewekwa katika `puzzle` k
   assert.isTrue(parsed.valid);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/check` lina thamani zisizo nambari au nukta, thamani iliyorejeshwa itakuwa `{ error: 'Invalid characters in puzzle' }`
+If the puzzle submitted to `/api/check` contains values which are not numbers or periods, the returned value will be `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -223,7 +223,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/check` lina thamani zisizo nambari au nuk
   assert.equal(parsed.error, output);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/check` lina urefu zaidi au chini ya herufi 81, thamani iliyorejeshwa itakuwa `{ error: 'Expected puzzle to be 81 characters long' }`
+If the puzzle submitted to `/api/check` is greater or less than 81 characters, the returned value will be `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -245,7 +245,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/check` lina urefu zaidi au chini ya heruf
   }
 ```
 
-Ikiwa kitu kilichowasilishwa kwa `/api/check` kinakosa `puzzle`, `coordinate` au `value`, thamani iliyorejeshwa itakuwa `{ error: 'Required field(s) missing' }`
+If the object submitted to `/api/check` is missing `puzzle`, `coordinate` or `value`, the returned value will be `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [
@@ -275,7 +275,7 @@ Ikiwa kitu kilichowasilishwa kwa `/api/check` kinakosa `puzzle`, `coordinate` au
   }
 ```
 
-Ikiwa kuratibu kilichowasilishwa kwa `api/check` hakielekezi kwenye seli halali ya gridi, thamani iliyorejeshwa itakuwa `{ error: 'Invalid coordinate'}`
+If the coordinate submitted to `api/check` does not point to an existing grid cell, the returned value will be `{ error: 'Invalid coordinate'}`
 
 ```js
   const input =
@@ -295,7 +295,7 @@ Ikiwa kuratibu kilichowasilishwa kwa `api/check` hakielekezi kwenye seli halali 
   }
 ```
 
-Ikiwa `value` iliyowasilishwa kwa `/api/check` si nambari kati ya 1 na 9, thamani iliyorejeshwa itakuwa `{ error: 'Invalid value' }`
+If the `value` submitted to `/api/check` is not a number between 1 and 9, the returned value will be `{ error: 'Invalid value' }`
 
 ```js
   const input =
@@ -315,7 +315,7 @@ Ikiwa `value` iliyowasilishwa kwa `/api/check` si nambari kati ya 1 na 9, thaman
   }
 ```
 
-Mitihani yote 12 ya kitengo imekamilika na kupita.
+All 12 unit tests are complete and passing.
 
 ```js
   try {
@@ -342,7 +342,7 @@ Mitihani yote 12 ya kitengo imekamilika na kupita.
   }
 ```
 
-Mitihani yote 14 ya utendaji imekamilika na kupita.
+All 14 functional tests are complete and passing.
 
 ```js
   try {

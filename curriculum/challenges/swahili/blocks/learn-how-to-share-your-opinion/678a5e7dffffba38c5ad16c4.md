@@ -1,6 +1,6 @@
 ---
 id: 678a5e7dffffba38c5ad16c4
-title: Zoezi la 17
+title: Task 17
 challengeType: 22
 dashedName: task-17
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kitu ni kinachofaa sana au kinachofanya kazi vizuri kwa kusudi fulani.
+This two-word phrase means something is very suitable or effective for a particular purpose.
 
 ---
 
@@ -32,15 +32,15 @@ Usemi huu wa maneno mawili unamaanisha kitu ni kinachofaa sana au kinachofanya k
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kitu kinachofaa au kinachosaidia kwa kazi au hali fulani.
+This two-word phrase means something is suitable or beneficial for a specific task or situation.
 
 # --explanation--
 
-Zote `great for` na `good for` zinamaanisha kitu kinachosaidia sana, kinachofaa au kinachofanya kazi vizuri kwa kusudi fulani. Kwa mfano:
+Both `great for` and `good for` mean something is very helpful, suitable or effective for a specific purpose. For example:
 
-- `This new software is great for managing large projects.` - Hii inamaanisha programu ni inayofaa sana na yenye ufanisi kwa kusimamia miradi mikubwa.
+- `This new software is great for managing large projects.` - This means the software is very suitable and effective for managing large projects.
 
-- `Cloud storage is good for backing up large volumes of data.` - Hii inamaanisha hifadhi ya wingu ni yenye ufanisi mkubwa na inayofaa kuhifadhi salama kiasi kikubwa cha data.
+- `Cloud storage is good for backing up large volumes of data.` - This means cloud storage is highly effective and well-suited for safely storing large amounts of data.
 
 # --scene--
 

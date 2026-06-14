@@ -1,6 +1,6 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Zoezi la 128
+title: Task 128
 challengeType: 19
 dashedName: task-128
 lang: en-US
@@ -10,45 +10,45 @@ lang: en-US
 
 # --description--
 
-Maria anamjulisha Tom kuhusu chaguzi za usafiri wa umma, akitaja hasa usafiri unaoacha kituo karibu. Hii ni muhimu kwa kusafiri ndani ya jiji, hasa kwenda sehemu ambazo si rahisi kufikiwa kwa miguu.
+Maria informs Tom about public transportation options, specifically mentioning a transportation that stops nearby. This is important for getting around the city, especially to places that are not within walking distance.
 
-`Two blocks away` inamaanisha kwamba unahitaji kupita pembezoni mwa mtaa miwili kufika mahali fulani. Ni umbali mfupi wa kutembea ndani ya jiji.
+`Two blocks away` means that you need to walk past two street corners to get to a place. It's a short walk in a city.
 
-`Downtown` ni kitovu cha jiji ambapo kuna maduka mengi, mikahawa, na kawaida majengo marefu.
+`Downtown` is the heart of a city where there are many shops, restaurants, and usually tall buildings.
 
 # --questions--
 
 ## --text--
 
-Maria anasema nini kinaacha kituo cha mtaa miwili mbali?
+What does Maria say stops two blocks away?
 
 ## --answers--
 
-Teksi
+A taxi
 
 ### --feedback--
 
-Maria anataja chaguo la usafiri wa umma, si huduma binafsi.
+Maria mentions a public transportation option, not a private service.
 
 ---
 
-Treni
+A train
 
 ### --feedback--
 
-Treni kawaida haziashi vituo vya mtaa; haziashi vituo vya reli.
+Trains don't typically stop at blocks; they stop at stations.
 
 ---
 
-Basi
+A bus
 
 ---
 
-Kukodisha baiskeli
+A bicycle rental
 
 ### --feedback--
 
-Huduma za kukodisha kawaida ni za mahali pamoja, si kitu kinachoacha kituo.
+Rentals are usually stationary services, not something that stops.
 
 ## --video-solution--
 

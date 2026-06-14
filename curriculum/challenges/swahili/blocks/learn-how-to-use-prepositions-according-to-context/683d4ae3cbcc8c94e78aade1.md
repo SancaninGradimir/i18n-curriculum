@@ -1,6 +1,6 @@
 ---
 id: 683d4ae3cbcc8c94e78aade1
-title: Zoezi la 19
+title: Task 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Bob anafafanua nini?
+What is Bob explaining?
 
 ## --answers--
 
-Kwamba mlango wa dharura umefungwa.
+That the emergency exit is blocked.
 
 ### --feedback--
 
-Bob hasemi mlango umefungwa - anataja tu mahali pake.
+Bob doesn't say the exit is blocked - he just mentions its location.
 
 ---
 
-Kwamba mlango wa nyuma unahitaji kufungwa upya.
+That the back door needs a new lock.
 
 ### --feedback--
 
-Bob hakutaja chochote kuhusu kufungwa au mlango wa nyuma unahitaji matengenezo.
+Bob doesn't mention anything about locks or a back door needing repairs.
 
 ---
 
-Kwamba chumba cha seva kinahitaji kusafishwa.
+That the server room needs to be cleaned.
 
 ### --feedback--
 
-Hakuna mazungumzo kuhusu usafi katika sentensi ya Bob.
+There is no mention of cleaning in Bob's sentence.
 
 ---
 
-Kwamba kitu kipo karibu na mlango wa dharura.
+That something is located near the emergency exit.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Kwamba kitu kipo karibu na mlango wa dharura.
 
 # --explanation--
 
-Bob anasema, `Exactly. It's in the back, next to the emergency exit`. Hii ina maana anathibitisha mahali pa kitu - karibu kabisa na mlango wa dharura.
+Bob says, `Exactly. It's in the back, next to the emergency exit`. This means he is confirming the location of something - right beside the emergency exit.
 
-Hakuzungumzii kuhusu matengenezo, usafi, au matatizo.
+He doesn't talk about repairs, cleaning, or problems.
 
 # --scene--
 

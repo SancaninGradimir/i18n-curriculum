@@ -1,6 +1,6 @@
 ---
 id: 69ae9744a9e6da4eb0d5f7f6
-title: Utangulizi wa programu inayotumia vitu (Object-Oriented Programming)
+title: Introduction to Object-Oriented Programming
 challengeType: 11
 videoId: sQjvwm8P1iY
 dashedName: introduction-to-object-oriented-programming
@@ -8,13 +8,13 @@ dashedName: introduction-to-object-oriented-programming
 
 # --description--
 
-Katika video hii, mwalimu Jim kutoka `JimShapedCoding` ataelezea unachotarajia kutoka katika kozi hii ya programu inayotumia vitu kwa Python.
+In this video, instructor Jim from `JimShapedCoding` will explain what to expect from this course on Object-Oriented Programming with Python.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI dhana ya OOP?
+Which of the following is NOT an OOP concept?
 
 ## --answers--
 
@@ -35,3 +35,5 @@ Abstract Classes
 ## --video-solution--
 
 3
+
+

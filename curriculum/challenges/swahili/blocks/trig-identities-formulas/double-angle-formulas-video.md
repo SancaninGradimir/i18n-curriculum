@@ -1,6 +1,6 @@
 ---
 id: 699e78398f18cf77dfce5c1c
-title: Fomula za pembe mara mbili
+title: Double Angle Formulas
 challengeType: 11
 videoId: QMaQImbBe0M
 dashedName: double-angle-formulas
@@ -8,13 +8,13 @@ dashedName: double-angle-formulas
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu fomula za pembe mara mbili.
+In this video, you will learn about the double angle formulas.
 
 # --questions--
 
 ## --text--
 
-Ni fomula gani ya pembe mara mbili kwa $\sin(2\theta)$?
+What is the double angle formula for $\sin(2\theta)$?
 
 ## --answers--
 
@@ -35,3 +35,5 @@ $\sin(2\theta) = \sin^2(\theta) - \cos^2(\theta)$
 ## --video-solution--
 
 3
+
+

@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Hatua 61
+title: Step 61
 challengeType: 0
 dashedName: step-61
 ---
 
 # --description--
 
-Sasa tumia darasa la `established` kwa maandishi ya `Est. 2020`.
+Now apply the `established` class to the `Est. 2020` text.
 
 # --hints--
 
-Unapaswa kuweka `class` ya kipengele cha `p` kuwa `established`.
+You should set the `class` of the `p` element to `established`.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Darasa lako la `established` linapaswa kuwa kwenye kipengele chenye maandishi ya `Est. 2020`.
+Your `established` class should be on the element with the text `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Kipengele chenye darasa la `established` kinapaswa kuwa na maandishi ya herufi za mviringo.
+Your `established` class element should have italic text.
 
 ```js
 const establishElement = document.querySelector('.established');

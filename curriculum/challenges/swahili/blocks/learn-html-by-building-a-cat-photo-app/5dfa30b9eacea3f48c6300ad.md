@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Hatua 17
+title: Step 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Katika hatua zilizopita ulitumia kipengele cha nanga kubadilisha maandishi kuwa kiungo. Aina nyingine za maudhui pia zinaweza kubadilishwa kuwa kiungo kwa kuzipanga ndani ya lebo za nanga.
+In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags. 
 
-Hapa kuna mfano wa kubadilisha picha kuwa kiungo:
+Here is an example of turning an image into a link:
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Hapa kuna mfano wa kubadilisha picha kuwa kiungo:
 </a>
 ```
 
-Badilisha picha kuwa kiungo kwa kuizunguka na lebo muhimu za kipengele. Tumia `https://freecatphotoapp.com` kama thamani ya sifa ya `href` ya nanga.
+Turn the image into a link by surrounding it with necessary element tags. Use `https://freecatphotoapp.com` as the anchor's `href` attribute value.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `img` chenye thamani ya `src` ya `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Huenda ulifuta kwa bahati mbaya.
+You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
+Your anchor (`a`) element should have an opening tag. Opening tags have this syntax: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-Unakosa lebo ya kufunga (`a`) baada ya picha.
+You are missing a closing (`a`) tag after the image.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Your anchor (`a`) element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-Unapaswa kuongeza lebo moja tu ya kufunga ya nanga (`a`). Tafadhali futa ziingizo zozote ziingine.
+You should only add one closing anchor (`a`) tag. Please remove any extras.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Kipengele chako cha nanga (`a`) hakina sifa ya `href`. Angalia kama kuna nafasi baada ya jina la lebo ya kufungua na/au kama kuna nafasi kabla ya majina yote ya sifa.
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuunganisha na `https://freecatphotoapp.com`. Huenda umesahau URL au kuna makosa ya tahajia.
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Kipengele chako cha nanga (`a`) hakina sifa ya `href`. Angalia kama kuna nafasi baada ya jina la lebo ya kufungua na/au kama kuna nafasi kabla ya majina yote ya sifa.
+Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuunganisha na `https://freecatphotoapp.com`. Huenda umesahau URL au kuna makosa ya tahajia.
+Your anchor (`a`) element should link to `https://freecatphotoapp.com`. You have either omitted the URL or have a typo.
 
 ```js
 assert.equal(
@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Kipengele chako cha `img` kinapaswa kupangwa ndani ya kipengele cha nanga (`a`). Kipengele kizima cha `img` kinapaswa kuwa ndani ya lebo za kufungua na kufunga za kipengele cha nanga (`a`).
+Your `img` element should be nested within the anchor (`a`) element. The entire `img` element should be inside the opening and closing tags of the anchor (`a`) element.
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');
@@ -110,3 +110,4 @@ assert(document.querySelector('img').parentNode.nodeName === 'A');
   </body>
 </html>
 ```
+

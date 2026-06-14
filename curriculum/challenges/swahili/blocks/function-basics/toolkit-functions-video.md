@@ -1,6 +1,6 @@
 ---
 id: 699e0347138be64fa313138d
-title: Kitendakazi za kifaa cha zana
+title: Toolkit Functions
 challengeType: 11
 videoId: 3DbEglxB1HY
 dashedName: toolkit-functions
@@ -8,13 +8,13 @@ dashedName: toolkit-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi za kifaa cha zana.
+In this video, you will learn about toolkit functions.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI mfano wa kitendakazi cha kifaa cha zana?
+Which of the following is NOT an example of a toolkit function?
 
 ## --answers--
 

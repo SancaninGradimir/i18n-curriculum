@@ -1,6 +1,6 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Zoezi la 17
+title: Task 17
 challengeType: 22
 dashedName: task-17
 lang: es
@@ -10,11 +10,11 @@ lang: es
 
 # --description--
 
-Katika zoezi hili, Basti anatamka jina lake la utani herufi kwa herufi.
+In this task, Basti spells out his nickname letter by letter.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ni herufi ya kwanza ambayo Basti anatumia kuanza kutamka jina lake la utani.
+This is the first letter Basti uses to start spelling his nickname.
 
 ---
 
@@ -36,7 +36,7 @@ Hii ni herufi ya kwanza ambayo Basti anatumia kuanza kutamka jina lake la utani.
 
 ### --feedback--
 
-Herufi hii inakuja baada ya "s" katika "Basti".
+This letter comes after the "s" in "Basti".
 
 ---
 
@@ -44,11 +44,11 @@ Herufi hii inakuja baada ya "s" katika "Basti".
 
 ### --feedback--
 
-Hii ni herufi ya mwisho katika "Basti". Sikiliza sauti ya vokali mwishoni.
+This is the final letter in "Basti". Listen for the vowel sound at the end.
 
 # --explanation--
 
-Basti anatamka jina lake la utani kama `B-a-s-t-i`.
+Basti spells his nickname as `B-a-s-t-i`.
 
 # --scene--
 

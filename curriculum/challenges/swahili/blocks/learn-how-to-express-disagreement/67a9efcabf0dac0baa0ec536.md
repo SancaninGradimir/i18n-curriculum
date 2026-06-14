@@ -1,6 +1,6 @@
 ---
 id: 67a9efcabf0dac0baa0ec536
-title: Zoezi la 4
+title: Task 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Fikiria kile watu wanachohitaji kuboresha eneo lao la kazi nyumbani. Hii ni pamoja na meza, viti, na rafu.
+Think about what people need to improve their home workspace. This includes desks, chairs, and shelves.
 
 # --explanation--
 
-`Office furniture` inahusu meza, viti, rafu, na vitu vingine vinavyotumika katika eneo la kazi.
+`Office furniture` refers to desks, chairs, shelves, and other items used in a workspace.
 
-Katika mazungumzo haya, Bob anazungumzia jinsi wafanyakazi wanavyotumia kifurushi chao cha fedha za kazi ya mbali. Kwa kuwa kufanya kazi nyumbani kunahitaji mpangilio mzuri na unaofaa, watu wengi hutumia kifurushi hicho kununua samani za ofisi kama vile viti vya ergonomic au meza kubwa.
+In this dialogue, Bob is talking about how employees are choosing to spend their remote work stipend. Since working from home requires a comfortable and productive setup, many people use the stipend to buy office furniture such as ergonomic chairs or spacious desks.
 
 # --scene--
 

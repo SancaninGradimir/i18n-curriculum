@@ -1,17 +1,17 @@
 ---
 id: 64de79de2fac6b1536ebcfdd
-title: Hatua 37
+title: Step 37
 challengeType: 20
 dashedName: step-37
 ---
 
 # --description--
 
-Suluhisho la kurudia la Tower of Hanoi linaweza kuonekana limekamilika, lakini badilisha idadi ya diski kuwa `4` na tazama matokeo.
+The iterative solution of Tower of Hanoi might seem complete, but change the number of disks to `4` and look at the output.
 
 # --hints--
 
-Unapaswa kuweka `NUMBER_OF_DISKS` kuwa 4.
+You should set `NUMBER_OF_DISKS` to 4.
 
 ```js
 ({ test: () => assert.equal(__userGlobals.get('NUMBER_OF_DISKS'), 4) })

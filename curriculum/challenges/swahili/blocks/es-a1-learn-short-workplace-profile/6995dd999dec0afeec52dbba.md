@@ -1,6 +1,6 @@
 ---
 id: 6995dd999dec0afeec52dbba
-title: Zoezi la 13
+title: Task 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Neno `oficina` linamaanisha "ofisi".
+The word `oficina` means "office".
 
-Luna anatumia neno hili kujibu swali la Sebastián.
+Luna is using this word to reply to Sebastián's question.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -30,15 +30,15 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili linahusu mahali ambapo watu hufanya kazi.
+This word refers to the place where people work.
 
 # --explanation--
 
-Luna anasema kwamba Carlos `trabaja en la oficina de Medellín`.
+Luna says that Carlos `trabaja en la oficina de Medellín`.
 
-Hii ina maana kwamba anafanya kazi katika ofisi ya Medellín.
+This means that he works at the Medellín office.
 
-Unapaswa kuandika neno `oficina` ili ukamilishe sentensi.
+You should write the word `oficina` to complete the sentence.
 
 # --scene--
 

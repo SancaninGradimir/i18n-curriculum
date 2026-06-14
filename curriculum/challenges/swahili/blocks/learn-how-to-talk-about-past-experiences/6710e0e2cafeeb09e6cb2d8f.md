@@ -1,6 +1,6 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Zoezi la 55
+title: Task 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la mtu wa kwanza wingi.
+This is the auxiliary verb used to form the `Past Continuous` in the singular first-person form.
 
 ---
 
@@ -32,7 +32,7 @@ Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la
 
 ### --feedback--
 
-Huu ni kitenzi kikuu katika `Past Continuous`, kinachoelezea tendo la kufanya kazi.
+This is the main verb in the `Past Continuous`, describing the act of laboring.
 
 ---
 
@@ -40,7 +40,7 @@ Huu ni kitenzi kikuu katika `Past Continuous`, kinachoelezea tendo la kufanya ka
 
 ### --feedback--
 
-Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la mtu wa kwanza wingi.
+This is the auxiliary verb used to form the `Past Continuous` in the plural first-person form.
 
 ---
 
@@ -48,15 +48,15 @@ Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la
 
 ### --feedback--
 
-Huu ni kitenzi kikuu katika `Past Continuous`, kinachoelezea tendo linaloendelea la kuboresha au kusasisha kitu.
+This is the main verb in the `Past Continuous`, describing an ongoing action of improving or modernizing something.
 
 # --explanation--
 
-Wakati wa `Past Continuous` hutumika kuelezea matendo yaliyoendelea wakati fulani katika zamani. Wakati sentensi mbili za `Past Continuous` zinapotumika pamoja, mara nyingi huonyesha matendo yanayotokea kwa wakati mmoja au yanayotokea sambamba.
+The `Past Continuous` tense is used to describe actions that were ongoing at a specific time in the past. When two `Past Continuous` sentences are used together, they often describe simultaneous actions or actions happening alongside each other.  
 
-Katika sentensi hii, Linda anaelezea jinsi yeye na timu yake walivyokuwa wakifanya kazi na kusasisha kiolesura cha mtumiaji kwa kuendelea wakati wote wa mradi. Hii inaonyesha matendo mawili yanayotokea kwa wakati mmoja katika zamani, yakitoa muktadha au historia kwa kila mmoja. Kwa mfano:
+In this sentence, Linda is describing how she and her team were both working and updating the user interface continuously throughout the project. This shows two actions happening at the same time in the past, providing context or background for each other. For example: 
 
-`While I was preparing the report, they were testing the new features.` - Hii ina maana kuwa tendo la mimi kuandaa ripoti na kupima vipengele vipya lilitokea kwa wakati mmoja.
+`While I was preparing the report, they were testing the new features.` - This means the action of my preparing the report and the testing of the new features happened at the same time.
 
 # --scene--
 

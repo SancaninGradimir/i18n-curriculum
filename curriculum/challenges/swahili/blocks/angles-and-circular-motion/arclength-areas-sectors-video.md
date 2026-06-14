@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Urefu wa mviringo na maeneo ya sehemu za mviringo
+title: Arclength and Areas of Sectors
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors
@@ -8,30 +8,31 @@ dashedName: arclength-and-areas-of-sectors
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu mviringo, sehemu za mviringo na maeneo ya sehemu za mviringo.
+In this video, you will learn about arcs, sectors and areas of sectors. 
 
 # --questions--
 
 ## --text--
 
-Sehemu ya mviringo ni nini?
+What is a sector?
 
 ## --answers--
 
-Kipande cha pi cha mduara.
+A wedge of pi for a circle.
 
 ---
 
-Mstari unaogawanya mduara kuwa nusu mbili sawa.
+A line that cuts a circle into two equal halves.
 
 ---
 
-Umbali unaozunguka nje ya mduara.
+The distance around the outside of a circle.
 
 ---
 
-Kituo cha mduara.
+The center point of a circle.
 
 ## --video-solution--
 
 1
+

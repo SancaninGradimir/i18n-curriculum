@@ -1,67 +1,67 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Hatua 23
+title: Step 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Ndani ya `tr` ya tatu, ongeza kipengele cha `th` chenye maandishi `Credit The outstanding balance on our credit card.`. Zungusha maandishi hayo, isipokuwa `Credit `, ndani ya kipengele cha `span` chenye sifa ya `class` iliyowekwa kuwa `description`.
+Within the third `tr`, add a `th` element with the text `Credit The outstanding balance on our credit card.`. Wrap that text, except for `Credit `, within a `span` element with the `class` set to `description`.
 
-Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kwa mpangilio: `$50`, `$50`, na `$75`. Toa sifa ya `td` yenye thamani ya `class` kwa kipengele cha tatu cha `current`.
+Add three `td` elements below that, and give them the following text, in order: `$50`, `$50`, and `$75`. Give the third `td` element a `class` set to `current`.
 
 # --hints--
 
-`tr` yako ya tatu inapaswa kuwa na kipengele cha `th`.
+Your third `tr` should have a `th` element.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th'));
 ```
 
-Kipengele chako cha `th` kinapaswa kuwa na maandishi ya `Credit The outstanding balance on our credit card.`.
+Your `th` element should have the text `Credit The outstanding balance on our credit card.`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th')?.innerText === 'Credit The outstanding balance on our credit card.');
 ```
 
-Unapaswa kuzungusha maandishi ya `The outstanding balance on our credit card.` ndani ya kipengele cha `span`.
+You should wrap the text `The outstanding balance on our credit card.` in a `span` element.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.textContent === 'The outstanding balance on our credit card.');
 ```
 
-Kipengele chako cha `span` kinapaswa kuwa na sifa ya `class` iliyowekwa kuwa `description`.
+Your `span` element should have the `class` attribute set to `description`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.classList?.contains('description'));
 ```
 
-Unapaswa kuwa na vipengele vitatu vya `td`.
+You should have three `td` elements.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td').length === 3);
 ```
 
-Kipengele chako cha kwanza cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Your first `td` element should have the text `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[0]?.textContent === '$50');
 ```
 
-Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Your second `td` element should have the text `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[1]?.textContent === '$50');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na maandishi ya `$75`.
+Your third `td` element should have the text `$75`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na sifa ya `class` iliyowekwa kuwa `current`.
+Your third `td` element should have the `class` set to `current`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

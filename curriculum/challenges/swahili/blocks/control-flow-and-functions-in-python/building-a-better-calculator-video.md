@@ -1,6 +1,6 @@
 ---
 id: a9f9c5bf295034800d6c77ad
-title: Kujenga kalkuleta bora zaidi
+title: Building a Better Calculator
 challengeType: 11
 videoId: lOltMrA6kuY
 dashedName: building-a-better-calculator
@@ -8,13 +8,13 @@ dashedName: building-a-better-calculator
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kujenga programu ya kalkuleta iliyoboreshwa kwa kutumia taarifa za if.
+In this video, you will learn how to build an improved calculator program using if statements.
 
 # --questions--
 
 ## --text--
 
-Ni kitendakazi gani kati ya zifuatazo zilizojengwa ndani kinachotumika kubadilisha mfuatano wa herufi kuwa nambari ya float?
+Which of the following built-in functions is used to convert a string to a float?
 
 ## --answers--
 

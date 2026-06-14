@@ -1,23 +1,23 @@
 ---
 id: 63ec1cb59f2a4c0be5b6dfa0
-title: Step 5
+title: Korak 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Gari la ununuzi halina maana kubwa bila bidhaa. Tangaza mabadiliko wa `products` na uweke kuwa safu ya data tupu. Kutumia safu ya data kutakuwezesha kuhifadhi bidhaa nyingi.
+Korpa za kupovinu nije od velike koristi bez proizvoda. Deklarišite varijablu `products` i postavite je na prazan niz. Korišćenje niza će vam omogućiti da sačuvate više proizvoda.
 
 # --hints--
 
-Unapaswa kutangaza mabadiliko wa `products` kwa `const`.
+You should declare a `products` variable with `const`.
 
 ```js
 assert.match(code, /const\s+products\b/);
 ```
 
-Unapaswa kuweka mabadiliko wa `products` kuwa safu ya data tupu.
+You should set the `products` variable to an empty array.
 
 ```js
 assert.match(code, /const\s+products\s*=\s*\[\s*\]/);

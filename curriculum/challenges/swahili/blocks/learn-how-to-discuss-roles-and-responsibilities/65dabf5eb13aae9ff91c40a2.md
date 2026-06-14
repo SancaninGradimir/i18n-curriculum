@@ -1,6 +1,6 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Zoezi la 108
+title: Task 108
 challengeType: 22
 dashedName: task-108
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Usemi `search for` unamaanisha kutafuta kitu au kujaribu kupata kitu kupitia uchunguzi. Kwa mfano, `I need to search for my lost keys` inamaanisha kutafuta funguo.
+The phrase `search for` means to look for something or try to find something through exploration. For example, `I need to search for my lost keys` means looking for the keys.
 
-Neno `expensive` linaelezea kitu kinachogharimu pesa nyingi. Kwa mfano, `That car is too expensive for me` inamaanisha gari linagharimu pesa nyingi.
+The word `expensive` describes something that costs a lot of money. For example, `That car is too expensive for me` means the car costs a lot.
 
-`solution` ni jibu kwa tatizo au njia ya kutatua tatizo.
+A `solution` is an answer to a problem or a way to fix an issue.
 
-`Doesn't/don't have to` hutumika kuonyesha kwamba hakuna haja au sharti la kufanya jambo fulani.
+`Doesn't/don't have to` is used to express that there is no need or requirement to do something.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Neno `expensive` linaelezea kitu kinachogharimu pesa nyingi. Kwa mfano, `That ca
 
 ### --feedback--
 
-Neno hili linamaanisha kutafuta kitu kwa makini.
+This word means to look for something carefully.
 
 ---
 
@@ -38,7 +38,7 @@ Neno hili linamaanisha kutafuta kitu kwa makini.
 
 ### --feedback--
 
-Kiunganishi hiki hutumika pamoja na `search` kuonyesha unachojaribu kutafuta.
+This preposition is used with `search` to indicate what you are trying to find.
 
 ---
 
@@ -46,7 +46,7 @@ Kiunganishi hiki hutumika pamoja na `search` kuonyesha unachojaribu kutafuta.
 
 ### --feedback--
 
-Neno hili linaelezea kitu kinachogharimu pesa nyingi.
+This word describes something that costs a lot of money.
 
 ---
 
@@ -54,7 +54,7 @@ Neno hili linaelezea kitu kinachogharimu pesa nyingi.
 
 ### --feedback--
 
-Hizi ni majibu au njia za kutatua tatizo.
+These are answers or ways to solve a problem.
 
 # --scene--
 

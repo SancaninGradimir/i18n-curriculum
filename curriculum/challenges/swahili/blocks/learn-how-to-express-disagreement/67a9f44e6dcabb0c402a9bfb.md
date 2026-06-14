@@ -1,6 +1,6 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Zoezi la 5
+title: Task 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Bob anataka kujua nini?
+What does Bob want to know?
 
 ## --answers--
 
-Je, wafanyakazi tayari wamekununua samani za ofisi.
+If employees have already bought office furniture.
 
 ### --feedback--
 
-Bob haulizi kuthibitisha ununuzi.
+Bob isn't asking for confirmation of purchases.
 
 ---
 
-Gharama ya samani za ofisi.
+How much office furniture costs.
 
 ### --feedback--
 
-Bob haulizi kuhusu bei.
+Bob does not ask about the price.
 
 ---
 
-Je, kampuni itapandisha kiasi cha ruzuku.
+If the company will increase the stipend.
 
 ### --feedback--
 
-Bob haongei kuhusu mabadiliko ya ruzuku.
+Bob is not discussing changes to the stipend.
 
 ---
 
-Je, Anna anafikiri kutumia ruzuku kwa ajili ya samani za ofisi ni wazo nzuri.
+If Anna thinks using the stipend for office furniture is a good idea.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Je, Anna anafikiri kutumia ruzuku kwa ajili ya samani za ofisi ni wazo nzuri.
 
 # --explanation--
 
-Bob anauliza, `Do you think that's a good idea?` Hii ni njia ya kuuliza maoni ya mtu kuhusu pendekezo au mpango. Hapa kuna njia nyingine za kuuliza maoni:
+Bob asks, `Do you think that's a good idea?` This is a way to ask for someone's opinion about a suggestion or plan. Here's other ways to ask for an opinion:
 
 - `Do you think this will work?`
 
@@ -60,7 +60,7 @@ Bob anauliza, `Do you think that's a good idea?` Hii ni njia ya kuuliza maoni ya
 
 - `How do you feel about this plan?`
 
-Katika mazungumzo haya, Bob anarejelea wafanyakazi kutumia ruzuku ya kazi ya mbali kununua samani za ofisi. Badala ya kutoa maoni yake mwenyewe, anauliza Anna anafikiri nini.
+In this dialogue, Bob is referring to employees using the remote work stipend for office furniture. Instead of stating his own opinion, he is asking Anna what she thinks.
 
 # --scene--
 

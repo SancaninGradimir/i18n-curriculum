@@ -1,6 +1,6 @@
 ---
 id: 698dc0277932b3cc4b19c91e
-title: Kutathmini utafutaji wa mstari
+title: Evaluating Linear Search
 challengeType: 11
 videoId: 0bipiTtnXIA
 dashedName: evaluating-linear-search
@@ -8,29 +8,29 @@ dashedName: evaluating-linear-search
 
 # --description--
 
-Katika video hii, utafundishwa zaidi kuhusu algoriti ya utafutaji wa mstari na jinsi ya kutathmini muda wake wa utekelezaji.
+In this video, you will learn more about the linear search algorithm and how to evaluate its runtime.
 
 # --questions--
 
 ## --text--
 
-Ni vipimo viwili gani vya ufanisi?
+What are the two measures of efficiency?
 
 ## --answers--
 
-Ugumu wa mstari na nafasi
+Linear and Space complexity
 
 ---
 
-Ugumu wa muda na nafasi
+Time and Space complexity
 
 ---
 
-Ugumu wa kurudia na nafasi
+Recursive and Space complexity
 
 ---
 
-Ugumu wa binary na nafasi
+Binary and Space complexity
 
 ## --video-solution--
 

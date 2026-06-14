@@ -1,6 +1,6 @@
 ---
 id: 699e783f8f18cf77dfce5c1d
-title: Fomula za nusu pembe
+title: Half Angle Formulas
 challengeType: 11
 videoId: aJRfi6KrCcM
 dashedName: half-angle-formulas
@@ -8,13 +8,13 @@ dashedName: half-angle-formulas
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu fomula za nusu pembe.
+In this video, you will learn about half angle formulas.
 
 # --questions--
 
 ## --text--
 
-Fomula ya nusu pembe kwa $\cos\left(\frac{\theta}{2}\right)$ ni ipi?
+What is the half angle formula for $\cos\left(\frac{\theta}{2}\right)$?
 
 ## --answers--
 
@@ -35,3 +35,5 @@ $\cos\left(\frac{\theta}{2}\right) = \sqrt{1 - \cos^2(\theta)}$
 ## --video-solution--
 
 2
+
+

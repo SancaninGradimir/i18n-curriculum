@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Zoezi la 117
+title: Task 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Maneno haya matatu pamoja yanamaanisha kupunguza muda unaohitajika kumaliza zoezi.
+These three words together mean to reduce the amount of time needed to complete a task.  
 
 ---
 
@@ -32,17 +32,17 @@ Maneno haya matatu pamoja yanamaanisha kupunguza muda unaohitajika kumaliza zoez
 
 ### --feedback--
 
-Neno hili kwa wingi linahusu ratiba au tarehe za mwisho za kumaliza mradi.
+This word in the plural form refers to schedules or deadlines for completing a project.  
 
 # --explanation--
 
-`Save us time` inamaanisha kupunguza muda unaohitajika kumaliza jambo fulani, na kufanya mchakato kuwa wa ufanisi zaidi. Kwa mfano:
+`Save us time` means to reduce the time required to complete something, making the process more efficient. For example:
 
-`Using automation tools can save us time on repetitive tasks.` – Hii inamaanisha zana za automatisering husaidia kumaliza kazi kwa haraka zaidi.
+`Using automation tools can save us time on repetitive tasks.` – This means automation tools help complete tasks faster.  
 
-`Timelines` zinahusu ratiba au tarehe za mwisho zinazoonyesha lini sehemu tofauti za mradi zinapaswa kumalizika. Kwa mfano:
+`Timelines` refer to schedules or deadlines that show when different parts of a project should be completed. For example:
 
-`We need to adjust our timelines to finish the project on schedule.` – Hii inamaanisha kubadilisha tarehe za mwisho ili kuhakikisha mradi unamalizika kwa wakati. 
+`We need to adjust our timelines to finish the project on schedule.` – This means changing the deadlines to ensure the project is completed on time.
 
 # --scene--
 

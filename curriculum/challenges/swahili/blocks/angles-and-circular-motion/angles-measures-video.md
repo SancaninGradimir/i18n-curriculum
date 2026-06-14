@@ -1,6 +1,6 @@
 ---
 id: 699e54288f18cf77dfce5c0a
-title: Pembe na Vipimo Vyake
+title: Angles and Their Measures
 challengeType: 11
 videoId: Ycu5Xn5rFuc
 dashedName: angles-and-their-measures
@@ -8,30 +8,31 @@ dashedName: angles-and-their-measures
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu njia tofauti za kuelezea pembe.
+In this video, you will learn about the different ways to describe angles.
 
 # --questions--
 
 ## --text--
 
-Pembe hupimwa kwa njia gani kawaida?
+How are angles usually measured?
 
 ## --answers--
 
-Hupimwa kwa mistari au mizunguko.
+They are measured by lines or curves.
 
 ---
 
-Hupimwa kwa digrii au radiani.
+They are measured by degrees or radians.
 
 ---
 
-Hupimwa kwa futi au mita.
+They are measured by feet or meters.
 
 ---
 
-Hupimwa kwa maili au kilomita.
+They are measured by miles or kilometers.
 
 ## --video-solution--
 
 2
+

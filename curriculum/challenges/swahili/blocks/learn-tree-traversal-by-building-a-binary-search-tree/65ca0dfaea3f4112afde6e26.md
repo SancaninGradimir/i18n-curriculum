@@ -1,17 +1,17 @@
 ---
 id: 65ca0dfaea3f4112afde6e26
-title: Hatua 52
+title: Step 52
 challengeType: 20
 dashedName: step-52
 ---
 
 # --description--
 
-Bado ukiwa ndani ya blokki ya `if`, ongeza `key` ya nodi ya sasa kwenye orodha ya `result`.
+Still inside the `if` block, append the `key` of the current node to the `result` list.
 
 # --hints--
 
-Unapaswa kuongeza `node.key` kwenye orodha ya `result`.
+You should append `node.key` to the `result` list.
 
 ```js
 assert.match(code, /result\.append\(\s*node\.key\s*\)/);

@@ -1,6 +1,6 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Zoezi la 51
+title: Task 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Hii inamaanisha jambo la muhimu sana au la dharura. Mara nyingi hutumika wakati jambo linahitaji kuzingatiwa mara moja.
+This means very serious or important. It is often used when something needs immediate attention.
 
 ---
 
@@ -32,17 +32,17 @@ Hii inamaanisha jambo la muhimu sana au la dharura. Mara nyingi hutumika wakati 
 
 ### --feedback--
 
-Hii inamaanisha kubadilisha au kuathiri jambo fulani. Mara nyingi hutumika kuelezea jinsi jambo moja linavyosababisha mabadiliko kwa lingine.
+This means to change or influence something. It often describes how one thing causes a change in another.
 
 # --explanation--
 
-`Critical` inamaanisha jambo la muhimu sana au la dharura. Kwa mfano:
+`Critical` means extremely important or serious. For example:
 
-`We have a critical deadline tomorrow.` – Hii inamaanisha tarehe ya mwisho ni muhimu sana na haiwezi kukosekana.
+`We have a critical deadline tomorrow.` – This means the deadline is very important and cannot be missed.
 
-`To affect` inamaanisha kuwa na ushawishi kwa jambo fulani au kusababisha mabadiliko. Kwa mfano:
+`To affect` means to have an influence on something or cause a change. For example:
 
-`The new policy may affect employee performance.` – Hii inamaanisha sera inaweza kubadilisha jinsi wafanyakazi wanavyofanya kazi.
+`The new policy may affect employee performance.` – This means the policy might change how employees perform.
 
 # --scene--
 

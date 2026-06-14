@@ -1,6 +1,6 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Zoezi la 19
+title: Task 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Ni hitaji gani ambalo Sophie amelitaja?
+What requirement does Sophie mention?
 
 ## --answers--
 
-Mark anapaswaafuta mistari isiyo ya lazima ya msimbo.
+Mark should delete unnecessary lines of code.
 
 ### --feedback--
 
-Sophie hakuzungumzia kuhusu kufuta msimbo.
+Sophie doesn't talk about removing code.
 
 ---
 
-Mark anapaswa kuandika upya msimbo wake kabisa.
+Mark should rewrite his code completely.
 
 ### --feedback--
 
-Sophie hakupendekeza kuandika upya msimbo mzima.
+Sophie doesn't suggest rewriting the entire code.
 
 ---
 
-Mark anapaswa kuepuka kutumia loops.
+Mark should avoid using loops.
 
 ### --feedback--
 
-Sophie hakusema chochote kuhusu kuepuka loops.
+Sophie does not say anything about avoiding loops.
 
 ---
 
-Mark anapaswa kutumia maoni katika msimbo wake.
+Mark should use notes in his code.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Mark anapaswa kutumia maoni katika msimbo wake.
 
 # --explanation--
 
-`comment` ni maoni katika msimbo ambayo husaidia kuelezea kinachofanywa na msimbo huo. Kwa mfano:
+A `comment` is a note in the code that helps explain what it does. For example:
 
-- `I added a comment to explain why this loop is necessary.` - Umeandika maoni kuelezea kwa nini loop fulani imetumika.
+- `I added a comment to explain why this loop is necessary.` - You wrote a comment to describe why certain loop is used.
 
-- `You can use comments to leave notes about issues that need fixing later.` - Maoni yanaweza kuongezwa katika msimbo kama vikumbusho vya mambo yanayohitaji kurekebishwa au kuboreshwa.
+- `You can use comments to leave notes about issues that need fixing later.` - Comments can be added in the code as reminders for things that need to be fixed or improved.
 
-Maoni husaidia wengine kuelewa msimbo na hukukumbusha wewe kuhusu maelezo muhimu wakati wa kukagua msimbo wako baadaye.
+Comments help others understand the code and remind you of important details when reviewing your code later.
 
 # --scene--
 

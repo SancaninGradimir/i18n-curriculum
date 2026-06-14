@@ -1,6 +1,6 @@
 ---
 id: 024ffa91a50a44335be33ee7
-title: Mchezo wa Mad Libs
+title: Mad Libs Game
 challengeType: 11
 videoId: XRmMTKa-xlc
 dashedName: mad-libs-game
@@ -8,13 +8,13 @@ dashedName: mad-libs-game
 
 # --description--
 
-Katika video hii, utaunda mchezo wa Mad Libs unaochukua ingizo kutoka kwa mtumizi na kuunda hadithi za kuchekesha.
+In this video, you will create a Mad Libs game that takes user input and creates funny stories.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kupata ingizo kutoka kwa mtumizi na kuchapisha matokeo kwenye konsoli?
+Which of the following is the correct way to get input from a user and print the result to the console?
 
 ## --answers--
 

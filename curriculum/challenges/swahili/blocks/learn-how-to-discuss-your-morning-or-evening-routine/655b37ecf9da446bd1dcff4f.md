@@ -1,6 +1,6 @@
 ---
 id: 655b37ecf9da446bd1dcff4f
-title: Zoezi la 96
+title: Task 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Kivumishi hiki kinaelezea asili ya kupumzika ya asubuhi ya Jumapili ya Sophie.
+This adjective describes the relaxed nature of Sophie's Sunday morning.
 
 ---
 
@@ -32,7 +32,7 @@ Kivumishi hiki kinaelezea asili ya kupumzika ya asubuhi ya Jumapili ya Sophie.
 
 ### --feedback--
 
-Neno hili linaonyesha wakati ambao Sophie huchagua kwenda kulala jioni ya Jumapili.
+This word indicates the time Sophie chooses to go to sleep on Sunday evening.
 
 # --scene--
 

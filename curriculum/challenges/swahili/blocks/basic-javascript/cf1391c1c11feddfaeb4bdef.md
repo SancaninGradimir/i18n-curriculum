@@ -1,6 +1,6 @@
 ---
 id: cf1391c1c11feddfaeb4bdef
-title: Tengeneza nambari za sehemu za mfululizo na JavaScript
+title: Create Decimal Numbers with JavaScript
 challengeType: 1
 forumTopicId: 16826
 dashedName: create-decimal-numbers-with-javascript
@@ -8,23 +8,23 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-Tunaweza pia kuhifadhi nambari za sehemu za mfululizo katika vigezo. Nambari za sehemu za mfululizo mara nyingine huitwa nambari za <dfn>floating point</dfn> au <dfn>floats</dfn>.
+We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as <dfn>floating point</dfn> numbers or <dfn>floats</dfn>.
 
-**Kumbuka:** unapoendesha hesabu za nambari, hufanywa kwa usahihi wa kikomo. Operesheni zinazotumia floating points zinaweza kusababisha matokeo tofauti na yaliyotarajiwa. Ikiwa unapata mojawapo ya matokeo haya, fungua mada kwenye <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+**Note:** when you compute numbers, they are computed with finite precision. Operations using floating points may lead to different results than the desired outcome. If you are getting one of these results, open a topic on the <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --instructions--
 
-Tengeneza kigezo `myDecimal` na umpe thamani ya sehemu za mfululizo yenye sehemu ya sehemu (mfano `5.7`).
+Create a variable `myDecimal` and give it a decimal value with a fractional part (e.g. `5.7`).
 
 # --hints--
 
-`myDecimal` inapaswa kuwa nambari.
+`myDecimal` should be a number.
 
 ```js
 assert(typeof myDecimal === 'number');
 ```
 
-`myDecimal` inapaswa kuwa na nukta ya sehemu
+`myDecimal` should have a decimal point
 
 ```js
 assert(myDecimal % 1 != 0);

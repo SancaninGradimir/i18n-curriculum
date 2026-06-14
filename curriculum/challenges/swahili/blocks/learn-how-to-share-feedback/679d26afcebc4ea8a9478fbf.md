@@ -1,6 +1,6 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Zoezi la 91
+title: Task 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Je, James ana uhakika kwamba wanahitaji kusahihisha toleo la programu?
+Is James sure that they need to update the software?
 
 ## --answers--
 
-Sio kweli kabisa, kwa sababu anauliza maoni ya Maria.
+Not really, since he is asking for Maria's opinion.
 
 ---
 
-Ndiyo, tayari ameamua kusasisha programu hiyo.
+Yes, he has already decided to update it.
 
 ### --feedback--
 
-James anauliza Maria kuhusu hilo, kwa hivyo huenda bado hajafikia uamuzi.
+James is asking Maria about it, so he probably hasn't decided it yet.
 
 ---
 
-Ndiyo, tayari ameanza kusasisha programu hiyo.
+Yes, he has already started updating the software.
 
 ### --feedback--
 
-James anauliza kama wanapaswa kusasisha programu hiyo au la.
+James is asking whether they should update the software or not.
 
 ---
 
-Kinyume chake, ana uhakika hawapaswi kusasisha programu hiyo.
+On the contrary, he's sure they should not update the software.
 
 ### --feedback--
 
-James hapingi kabisa wazo hilo; kwa kweli anauliza maoni ya Maria kuhusu mada hiyo.
+James is not rejecting the idea altogether; he is actually asking Maria's opinion on the topic.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James hapingi kabisa wazo hilo; kwa kweli anauliza maoni ya Maria kuhusu mada hi
 
 # --explanation--
 
-`To update` inamaanisha kubadilisha au kuboresha programu kwa kutoa toleo jipya. Sasisho linaweza kujumuisha kurekebisha hitilafu, kuongeza vipengele vipya, au kuboresha utendaji. Kwa mfano:
+`To update` means to modify or improve software by releasing a new version. Updates can include bug fixes, new features, or performance improvements. For example:
 
-`The company released an update to fix security vulnerabilities in the app.` - Hii inamaanisha toleo jipya lilizinduliwa ili kushughulikia masuala ya usalama.
+`The company released an update to fix security vulnerabilities in the app.` - This means a new version was launched to address security issues.
 
 # --scene--
 

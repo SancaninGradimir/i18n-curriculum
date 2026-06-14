@@ -1,6 +1,6 @@
 ---
 id: 698dda7a7932b3cc4b19c935
-title: Mpangilio wa Unganisha
+title: Merge Sort
 challengeType: 11
 videoId: oqcS-Jw8JXM
 dashedName: merge-sort
@@ -8,13 +8,13 @@ dashedName: merge-sort
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu algoriti ya mpangilio wa unganisha. 
+In this video, you will learn about the merge sort algorithm. 
 
 # --questions--
 
 ## --text--
 
-Ni mbinu gani ya algoriti inayotumika kwa algoriti ya mpangilio wa unganisha? 
+What algorithmic strategy is used for the merge sort algorithm? 
 
 ## --answers--
 
@@ -26,11 +26,11 @@ Dynamic Programming
 
 ---
 
-Gawanya na shinda
+Divide and Conquer
 
 ---
 
-Kurudi nyuma 
+Backtracking 
 
 ## --video-solution--
 

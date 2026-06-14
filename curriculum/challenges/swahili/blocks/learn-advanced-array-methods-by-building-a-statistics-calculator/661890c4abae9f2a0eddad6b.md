@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Hatua 22
+title: Step 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Katika hatua chache zijazo, utafundishwa jinsi ya kubaini kama urefu wa safu ya data ni wa nambari hata au nambari isiyo hata, pamoja na jinsi ya kupata mediani. Kisha utaweza kutumia ulivyojifunza kwenye kitendakazi cha `getMedian`.
+In the next few steps, you'll learn how to determine if an array's length is even or odd, as well as how to find the median. You will then be able to apply what you learned to the `getMedian` function.
 
-Ili kuangalia kama nambari ni hata au isiyo hata, unaweza kutumia <dfn>opereta wa moduli</dfn> `%`. Opereta wa moduli hurudisha mabaki ya mgawanyo wa nambari mbili.
+To check if a number is even or odd, you can use the <dfn>modulus operator</dfn> `%`. The modulus operator returns the remainder of the division of two numbers. 
 
-Hapa kuna mfano wa kuangalia kama urefu wa safu ya data ni hata au isiyo hata:
+Here is an example checking if an array length is even or odd:
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-Kama mabaki ni `0`, nambari ni hata. Kama mabaki ni `1`, nambari ni isiyo hata.
+If the remainder is `0`, the number is even. If the remainder is `1`, the number is odd.
 
-Tengeneza kigezo kinachoitwa `isEven`. Kisha tumia opereta wa moduli kuangalia kama urefu wa safu ya data ya `testArr2` ni hata. Weka usemi huo wa kihesabu kwenye kigezo cha `isEven`.
+Create a variable called `isEven`. Then use the modulus operator to check if the length of the `testArr2` array is even. Assign that expression to the `isEven` variable.
 
-Chini ya kigezo chako cha `isEven`, andika thamani ya kigezo cha `isEven` kwenye konsoli.
+Below your `isEven` variable, log out the `isEven` variable to the console.
 
-Fungua konsoli kuona matokeo.
+Open up the console to see the result. 
 
 # --hints--
 
-Unapaswa kuwa na kigezo cha `isEven`.
+You should have an `isEven` variable.
 
 ```js
 assert.isDefined(isEven);
 ```
 
-Unapaswa kuangalia kama urefu wa safu ya data ya `testArr2` ni hata. Rejelea mfano uliotolewa kwako: `arr.length % 2 === 0;`
+You should check if the length of the `testArr2` array is even. Refer back to the example provided for you: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-Unapaswa kuwa na tamko la `console.log` linaloandika kigezo cha `isEven`.
+You should have a `console.log` statement that logs the `isEven` variable.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);

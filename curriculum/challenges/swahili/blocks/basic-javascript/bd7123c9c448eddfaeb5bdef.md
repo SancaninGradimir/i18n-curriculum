@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: Tafuta urefu wa mfuatano wa herufi
+title: Find the Length of a String
 challengeType: 1
 forumTopicId: 18182
 dashedName: find-the-length-of-a-string
@@ -8,23 +8,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-Unaweza kupata urefu wa thamani ya `String` kwa kuandika `.length` baada ya mabadiliko ya mfuatano wa herufi au mfuatano wa herufi wa moja kwa moja.
+You can find the length of a `String` value by writing `.length` after the string variable or string literal.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-Thamani ya `10` itaonyeshwa kwenye konsoli. Kumbuka kuwa nafasi kati ya "Alan" na "Peter" pia inahesabiwa.
+The value `10` would be displayed in the console. Note that the space character between "Alan" and "Peter" is also counted.
 
-Kwa mfano, ikiwa tutaunda mabadiliko `const firstName = "Ada"`, tunaweza kugundua urefu wa mfuatano wa herufi `Ada` kwa kutumia sifa ya `firstName.length`.
+For example, if we created a variable `const firstName = "Ada"`, we could find out how long the string `Ada` is by using the `firstName.length` property.
 
 # --instructions--
 
-Tumia sifa ya `.length` kuweka `lastNameLength` kuwa nambari ya herufi katika `lastName`.
+Use the `.length` property to set `lastNameLength` to the number of characters in `lastName`.
 
 # --hints--
 
-Haupaswi kubadilisha tamko za mabadiliko katika sehemu ya `// Setup`.
+You should not change the variable declarations in the `// Setup` section.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-`lastNameLength` inapaswa kuwa sawa na nane.
+`lastNameLength` should be equal to eight.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-Unapaswa kupata urefu wa `lastName` kwa kutumia `.length` kama hii: `lastName.length`.
+You should be getting the length of `lastName` by using `.length` like this: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

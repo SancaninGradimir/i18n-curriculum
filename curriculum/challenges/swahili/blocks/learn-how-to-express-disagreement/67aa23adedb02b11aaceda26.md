@@ -1,6 +1,6 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Zoezi la 8
+title: Task 8
 challengeType: 19
 dashedName: task-8
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Ni nini muhimu zaidi, kulingana na Anna?
+What is more important, according to Anna?
 
 ## --answers--
 
-Kuboresha kompyuta.
+Upgrading computers.
 
 ---
 
-Kununua samani mpya za ofisi.
+Buying new office furniture.
 
 ### --feedback--
 
-Anna anakubali kuwa samani ni muhimu lakini anasema watu wengi walitaja wanahitaji kitu kingine.
+Anna acknowledges that furniture is important but says that many people mentioned needing something else.
 
 ---
 
-Kupata ruzuku kubwa zaidi ya kazi za mbali.
+Getting a bigger remote work stipend.
 
 ### --feedback--
 
-Anna hasemi kuhusu kuongeza ruzuku, bali jinsi watu wanavyotaka kuitumia.
+Anna does not talk about increasing the stipend, only how people want to use it.
 
 ---
 
-Kubadilisha maswali ya utafiti.
+Changing the survey questions.
 
 ### --feedback--
 
-Anna hakutaja chochote kuhusu maswali ya utafiti.
+Anna does not mention anything about the survey questions.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Anna hakutaja chochote kuhusu maswali ya utafiti.
 
 # --explanation--
 
-`computer upgrade` inamaanisha kuboresha kompyuta kwa kuongeza au kubadilisha sehemu kama kumbukumbu zaidi (RAM), processor yenye kasi zaidi, au skrini bora. Kwa mfano:
+A `computer upgrade` means improving a computer by adding or replacing parts like more memory (RAM), a faster processor, or a better screen. For example:
 
-- `I need a computer upgrade to run the latest software.` - Kompyuta ya mzungumzaji kwa sasa haina nguvu ya kutosha, hivyo wanahitaji bora zaidi.
+- `I need a computer upgrade to run the latest software.` - The speaker's current computer is not powerful enough, so they need a better one.
 
-- `After the computer upgrade, everything runs much faster.` - Utendaji wa mfumo uliboreshwa baada ya kusasisha au kubadilisha sehemu.
+- `After the computer upgrade, everything runs much faster.` -  The system's performance improved after updating or replacing components.
 
 # --scene--
 

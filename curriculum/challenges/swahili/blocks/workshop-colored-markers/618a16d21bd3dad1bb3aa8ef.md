@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Step 36
+title: Korak 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Sasa ni wakati wa kuongeza maelezo mengine kwenye alama, kuanzia na ile ya kwanza.
+Sada je vreme da dodamo druge detalje markerima, počevši od prvog.
 
-Katika kipengele cha alama ya kwanza `div`, badilisha darasa la vitu `one` kuwa `red`.
+U prvom markeru elementu `div`, promenite klasu `one` u `red`.
 
 # --hints--
 
-Alama yako ya kwanza `div` haipaswi kuwa na darasa la vitu `one`.
+Your first marker `div` should not have the class `one`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert.isFalse(containerFirstChild?.classList?.contains('one'));
 ```
 
-Alama yako ya kwanza `div` inapaswa kuwa na madarasa ya vitu `marker` na `red`.
+Your first marker `div` should have the classes `marker` and `red`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94daf
-title: Kuelewa soketi na kuunda seva ya TCP
+title: Understanding Sockets and Creating a TCP Server
 challengeType: 11
 videoId: F1QI9tNuDQg
 bilibiliIds:
@@ -14,7 +14,7 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-Ni kitendakazi gani kati ya vifuatavyo kinaunda kitu cha soketi?
+Which of the following functions creates a socket object?
 
 ## --answers--
 
@@ -31,3 +31,4 @@ Ni kitendakazi gani kati ya vifuatavyo kinaunda kitu cha soketi?
 ## --video-solution--
 
 3
+

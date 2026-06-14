@@ -1,6 +1,6 @@
 ---
 id: 5f5904ac738bc2fa9efecf5a
-title: Jenga programu tano
+title: Izgradite pet programa
 challengeType: 12
 url: freeCodeCamp/learn-bash-scripting-by-building-five-programs
 dashedName: build-five-programs
@@ -8,7 +8,7 @@ dashedName: build-five-programs
 
 # --description--
 
-Katika warsha hii yenye mafundisho 220, utafundishwa amri zaidi za terminal na jinsi ya kuzitumia ndani ya skiripti za Bash kwa kuunda programu ndogo tano.
+U ovom radionici od 220 lekcija, naučićete više komandi termina i kako ih koristiti unutar Bash skripti kreiranjem pet malih programa.
 
 # --instructions--
 

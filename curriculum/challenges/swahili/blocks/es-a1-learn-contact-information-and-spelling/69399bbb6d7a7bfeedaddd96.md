@@ -1,6 +1,6 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Zoezi la 13
+title: Task 13
 challengeType: 22
 dashedName: task-13
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-Kitenzi `escribir` kinamaanisha "kuandika". Wazungumzaji wa Kihispania wanapotaka kueleza jinsi neno linaandikwa au kuandikwa herufi kwa herufi, mara nyingi hutumia usemi wa kihesabu `se escribe`.
+The verb `escribir` means "to write". When Spanish speakers want to explain how a word is written or spelled, they often use the expression `se escribe`.
 
-Fomu hii inatokana na kitenzi `escribir` na hutumika sana kabla ya kuandika majina, barua pepe, au maneno mengine herufi kwa herufi. Kwa mfano:
+This form comes from the verb `escribir` and is commonly used before spelling names, emails, or other words letter by letter. For example:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos huandikwa C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos is spelled C-a-r-l-o-s.  
 
-- `Mi apellido se escribe con z.` – Jina langu la mwisho huandikwa kwa herufi z.
+- `Mi apellido se escribe con z.` – My last name is spelled with z.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -38,7 +38,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili dogo ni sehemu ya usemi wa kawaida unaotumika wakati wa kueleza jinsi kitu kinaandikwa.
+This small word is part of a common expression used when explaining how something is written.
 
 ---
 
@@ -46,13 +46,13 @@ Neno hili dogo ni sehemu ya usemi wa kawaida unaotumika wakati wa kueleza jinsi 
 
 ### --feedback--
 
-Fomu hii ya kitenzi inatokana na `escribir` na hutumika wakati wa kuandika neno herufi kwa herufi.
+This verb form comes from `escribir` and is used when spelling a word.
 
 # --explanation--
 
-`Se escribe` hutumika wakati wa kueleza jinsi neno au jina linaandikwa.
+`Se escribe` is used when explaining how a word or name is written.
 
-Inatokana na kitenzi `escribir` na hutumika sana kabla ya kuandika kitu herufi kwa herufi.
+It comes from the verb `escribir` and is commonly used before spelling something letter by letter.
 
 # --scene--
 

@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Hatua 36
+title: Step 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Sasa ni wakati wa kuona mchezaji wako mpya akichorwa kwenye skrini.
+Now it is time to see your new player drawn on the screen.
 
-Anza kwa kuunda kitendakazi cha mshale tupu kinachoitwa `startGame`.
+Start by creating an empty arrow function called `startGame`.
 
 # --hints--
 
 
-`startGame` inapaswa kuwa kitendakazi
+`startGame` should be a function
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` inapaswa kuwa kitendakazi cha mshale
+`startGame` should be an arrow function
 
 
 ```js

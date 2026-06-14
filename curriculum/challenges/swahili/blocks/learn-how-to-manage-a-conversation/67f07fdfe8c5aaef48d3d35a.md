@@ -1,6 +1,6 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Zoezi la 130
+title: Task 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Soma maandishi na ujibu swali lililopo hapa chini.
+Read the text and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Baada ya mazungumzo na Sarah, Brian anaamua kumwandikia Bob, kutoka uongozi, kumjulisha kuhusu hali ilivyo.
+After the check-in with Sarah, Brian decides to write to Bob, from management, to update him on the situation.
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,35 +36,35 @@ Baada ya mazungumzo na Sarah, Brian anaamua kumwandikia Bob, kutoka uongozi, kum
 
 `Brian`
 
-Kulingana na mstari wa `Subject`, kwa nini Brian aliandika barua pepe hii?
+Based on the `Subject` line, why did Brian write this email?
 
 ## --answers--
 
-Kutoa taarifa kuhusu maendeleo ya timu na kuomba taarifa.
+To give an update about the team's progress and ask for information.
 
 ---
 
-Kukumbusha uongozi kuhusu mkutano wao wa mwisho.
+To remind management about their last meeting.
 
 ### --feedback--
 
-Hakuna maelezo kuhusu mkutano uliopita kati ya Brian na uongozi.
+There is no mention of a past meeting between Brian and management.
 
 ---
 
-Kuwaambia uongozi kwamba mradi umekaribia kukamilika.
+To tell management that the project is almost finished.
 
 ### --feedback--
 
-Barua pepe inasema bado kuna changamoto, hivyo mradi bado haujakaribia kukamilika.
+The email says there are still some challenges, so the project is not close to being finished.
 
 ---
 
-Kumuuliza Sarah kuhusu muunganisho mpya wa programu.
+To ask Sarah about the new software integration.
 
 ### --feedback--
 
-Brian tayari alizungumza na Sarah. Sasa anashiriki taarifa hiyo na uongozi.
+Brian already spoke to Sarah. He is now sharing that update with management.
 
 ## --video-solution--
 
@@ -72,4 +72,4 @@ Brian tayari alizungumza na Sarah. Sasa anashiriki taarifa hiyo na uongozi.
 
 # --explanation--
 
-Mstari wa `Subject` kawaida huleta mada ambazo zitatatuliwa katika sehemu kuu ya ujumbe. Soma mstari huu ili kupata jibu sahihi la swali hili.
+The `Subject` line normally brings the topics which are going to be dealt with in the body of the message. Read this line to find out the correct answer for this question.

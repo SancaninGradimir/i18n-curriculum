@@ -1,6 +1,6 @@
 ---
 id: 69ae5c728491ca1dcd31440d
-title: Wakati Usipotumie RAG
+title: When Not To RAG
 challengeType: 11
 videoId: 3HY38scJb54
 dashedName: when-not-to-rag
@@ -8,30 +8,31 @@ dashedName: when-not-to-rag
 
 # --description--
 
-Katika video hii, utafundishwa lini si sahihi kutumia RAG na hatari zinazoweza kutokea kwa kutumia RAG katika hali fulani.
+In this video, you will learn when it is not appropriate to use RAG and the potential pitfalls of using RAG in certain scenarios.
 
 # --questions--
 
 ## --text--
 
-Ni suluhisho gani lingine la kupata AI kutoa majibu mazuri wakati RAG si sahihi?
+What is another solution to get AI to give good responses when RAG is not appropriate?
 
 ## --answers--
 
-Kusawazisha mfano
+Tuning the model
 
 ---
 
-Kuanzisha lint
+Lint prompting
 
 ---
 
-Uhandisi wa maelekezo
+Prompt engineering
 
 ---
 
-Maelekezo yanayofuata mfululizo
+Cascading prompts
 
 ## --video-solution--
 
 3
+

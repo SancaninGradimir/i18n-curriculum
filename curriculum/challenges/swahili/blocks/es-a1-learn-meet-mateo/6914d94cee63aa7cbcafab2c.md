@@ -1,6 +1,6 @@
 ---
 id: 6914d94cee63aa7cbcafab2c
-title: Zoezi la 2
+title: Task 2
 challengeType: 22
 dashedName: task-2
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Mateo anataja jina lake na taaluma yake kwa Kihispania.
+Mateo is mentioning his name and profession in Spanish. 
 
-Hapa, kitenzi `ser` kinatumika kudhihirisha utambulisho wake na taaluma yake.
+Here, the verb `ser` is used to express his identity and profession.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe au unafanya nini.
+This verb form comes from the verb `ser` and is used to describe who you are or what you do.
 
 ---
 
@@ -38,14 +38,14 @@ Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe
 
 ### --feedback--
 
-Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe au unafanya nini.
+This verb form comes from the verb `ser` and is used to describe who you are or what you do.
 
 # --explanation--
 
 
-`Soy` ni kitenzi kinachotumika kuelezea ni nani wewe au unafanya nini. Kwa mfano:
+`Soy` is a verb used to describe who you are or what you do. For example:
 
-`Soy Mateo. Soy ingeniero de software.` - Mimi ni Mateo. Mimi ni mhandisi wa programu.
+`Soy Mateo. Soy ingeniero de software.` - I'm Mateo. I'm a software engineer.
 
 # --scene--
 
@@ -103,3 +103,4 @@ Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe
   ]
 }
 ```
+

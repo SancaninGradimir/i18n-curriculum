@@ -1,15 +1,15 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Hatua 163
+title: Step 163
 challengeType: 0
 dashedName: step-163
 ---
 
 # --description--
 
-Baada ya safu yako ya `numbers`, tengeneza mzunguko wa `while` unaoendelea kazi mradi `numbers.length` iko chini ya `10`.
+After your `numbers` array, create a `while` loop that runs as long as `numbers.length` is less than `10`.
 
-Katika mradi uliopita, ulijifunza jinsi ya kufanya kazi na mizunguko ya `while` kama hii:
+In the previous project, you learned how to work with `while` loops like this:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Kitendakazi chako cha `pick` kinapaswa kuwa na mzunguko wa `while`.
+Your `pick` function should have a `while` loop.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Mzunguko wako wa `while` unapaswa kuendelea mradi `numbers.length < 10`.
+Your `while` loop should run while `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);

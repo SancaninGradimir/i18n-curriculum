@@ -1,26 +1,26 @@
 ---
 id: 647e1f4e8acb466c97ccbedf
-title: Ongeza mantiki ya kurudia msimbo wako kwa kutumia kauli za do-while na while katika C#
+title: Add Looping Logic to Your Code Using the do-while and while Statements in C#
 challengeType: 19
 dashedName: add-looping-logic-to-your-code-using-the-do-while-and-while-statements-in-c-sharp
 ---
 
 # --description--
 
-Changamoto hii itakamilishwa sehemu kwa sehemu kwenye jukwaa la Microsoft Learn. Fuata maelekezo haya kukamilisha changamoto:
+This challenge will be partially completed on the Microsoft Learn platform. Follow these instructions to complete the challenge:
 
-1. Nenda kwenye <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> na kamilisha zoezi zote za moduli ya "Ongeza mantiki ya kurudia msimbo wako kwa kutumia kauli za do-while na while katika C#". Hii ni **lazima** ili upate taji la "Ongeza mantiki kwa programu za konsoli za C#" kwenye Microsoft Learn, na kustahili mtihani wa cheti.
-1. Ukimaliza, rudi hapa na jibu swali hapo chini kwa usahihi.
+1. Go to <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">https://learn.microsoft.com/training/modules/csharp-do-while/</a> and complete all the tasks for the "Add Looping Logic to Your Code Using the do-while and while Statements in C#" module. This is **required** to earn the "Add Logic to C# Console Applications" trophy on Microsoft Learn, and qualify for the certification exam.
+1. When you are finished, come back and correctly answer the question below.
 
 # --assignment--
 
-Kamilisha moduli ya <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Ongeza mantiki ya kurudia msimbo wako kwa kutumia kauli za `do`-`while` na `while` katika C#</a> kwenye Microsoft Learn. Kisha, jibu swali hapo chini.
+Complete the <a href="https://learn.microsoft.com/training/modules/csharp-do-while/" target="_blank" rel="noreferrer">Add Looping Logic to Your Code Using the `do`-`while` and `while` Statements in C#</a> module on Microsoft Learn. Then, answer the question below.
 
 # --questions--
 
 ## --text--
 
-Msanidi programu anahitaji kurudia kupitia safu ya data ya vitu ili kupata moja linalolingana na vigezo fulani. Ni kauli gani bora zaidi ya kurudia kwa madhumuni haya?
+A developer needs to iterate through an array of items to find one that matches a certain criteria. Which is the best iteration statement for this purpose?
 
 ## --answers--
 

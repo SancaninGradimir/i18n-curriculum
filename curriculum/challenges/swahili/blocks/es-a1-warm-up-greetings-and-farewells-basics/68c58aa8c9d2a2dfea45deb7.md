@@ -1,6 +1,6 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Zoezi la 7
+title: Task 7
 challengeType: 19
 dashedName: task-7
 lang: es
@@ -9,17 +9,17 @@ lang: es
 
 # --description--
 
-Elena anasema kwaheri, lakini anatarajia kukuona tena.
+Elena is saying goodbye, but she expects to see you again.
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Ni usemi gani Elena anautumia kusema "tutaonana baadaye"?
+What phrase does Elena use to say "see you later"?
 
 ## --answers--
 
@@ -31,7 +31,7 @@ Ni usemi gani Elena anautumia kusema "tutaonana baadaye"?
 
 ### --feedback--
 
-Hii ni kwaheri, lakini ni ya mwisho zaidi. Msemaji anatumia usemi tofauti.
+This is a goodbye, but it's more final. The speaker uses a different phrase.
 
 ---
 
@@ -39,7 +39,7 @@ Hii ni kwaheri, lakini ni ya mwisho zaidi. Msemaji anatumia usemi tofauti.
 
 ### --feedback--
 
-Hii pia ni njia isiyo rasmi ya kusema kwaheri, lakini si ile iliyo kwenye sauti.
+This is also an informal way to say goodbye, but it's not the one in the audio.
 
 ---
 
@@ -47,7 +47,7 @@ Hii pia ni njia isiyo rasmi ya kusema kwaheri, lakini si ile iliyo kwenye sauti.
 
 ### --feedback--
 
-Hii inamaanisha "Habari", salamu ya kawaida, lakini si kile Elena anasema.
+This means "Hi", a general greeting, but it's not what Elena says.
 
 ## --video-solution--
 
@@ -55,11 +55,11 @@ Hii inamaanisha "Habari", salamu ya kawaida, lakini si kile Elena anasema.
 
 # --explanation--
 
-`Hasta luego` ni njia ya kawaida ya kusema kwaheri kwa Kihispania. Inatafsiriwa kama "Tutaonana baadaye".
+`Hasta luego` is a common way to say goodbye in Spanish. It translates to "See you later".
 
-Inatumika unapotarajia kuona mtu tena, lakini si lazima haraka. Kwa mfano:  
+It's used when you expect to see the person again, but not necessarily soon. For example:  
 
-`Hasta luego, Marta.` – Tutaonana baadaye, Marta.
+`Hasta luego, Marta.` – See you later, Marta.
 
 # --scene--
 

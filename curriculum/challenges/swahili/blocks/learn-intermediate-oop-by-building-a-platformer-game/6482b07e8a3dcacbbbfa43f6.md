@@ -1,26 +1,26 @@
 ---
 id: 6482b07e8a3dcacbbbfa43f6
-title: Hatua 9
+title: Step 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Katika mchezo, mchezaji atapata fursa ya kuvuka vituo tofauti vya ukaguzi. Utahitaji kufuatilia hali ya kugongana na vituo hivyo.
+In the game, the player will have the opportunity to cross different checkpoints. You will need to keep track of the status for the checkpoint collision detection.
 
-Tumia `let` kuunda kigezo kipya kinachoitwa `isCheckpointCollisionDetectionActive` na weka thamani yake kuwa `true`. 
+Use `let` to create a new variable called `isCheckpointCollisionDetectionActive` and assign it the value of `true`. 
 
 # --hints--
 
-Unapaswa kutumia neno kuu la `let` kutangaza kigezo chako cha `isCheckpointCollisionDetectionActive`.
+You should use the `let` keyword to declare your `isCheckpointCollisionDetectionActive` variable.
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive/);
 ```
 
 
-Unapaswa kuweka thamani ya `true` kwa `isCheckpointCollisionDetectionActive` 
+You should assign the value of `true` to `isCheckpointCollisionDetectionActive` 
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive\s*=\s*true/);

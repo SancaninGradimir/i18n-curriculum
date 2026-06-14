@@ -1,6 +1,6 @@
 ---
 id: 69870f1c238ffdbc99eedcda
-title: Zoezi la 2
+title: Task 2
 challengeType: 22
 dashedName: task-2
 lang: zh-CN
@@ -9,11 +9,11 @@ inputType: pinyin-to-hanzi
 
 # --description--
 
-Sasa utafanya mazoezi ya kuandika nambari chache kati ya 20 na 29. Ili kumaliza zoezi hili, kumbuka kwamba katika Kichina, nambari 20 huitwa `二十 (èr shí)`.
+You'll now practice writing a few numbers that are between 20 and 29. To complete this task, keep in mind that in Chinese, the number 20 is called `二十 (èr shí)`.
 
-Pia, nambari kutoka 0 hadi 9 ni:
+Also, the numbers from 0 to 9 are:
 
-| Nambari | Kichina |
+| Number | Chinese |
 | :--- | :--- |
 | 0 | `零 (líng)` |
 | 1 | `一 (yī)` |
@@ -28,7 +28,7 @@ Pia, nambari kutoka 0 hadi 9 ni:
 
 # --instructions--
 
-Zoezi hili halina sauti. Jaza mapengo hapa chini kwa nambari zinazolingana katika Kichina.
+This task doesn't have audio. Complete the blanks below with the corresponding numbers in Chinese.
 
 # --fillInTheBlank--
 
@@ -46,7 +46,7 @@ Zoezi hili halina sauti. Jaza mapengo hapa chini kwa nambari zinazolingana katik
 
 ### --feedback--
 
-Nambari hii katika Kichina huundwa kwa kuongeza `一 (yī)` baada ya `二十 (shí)`.
+This number in Chinese is formed by adding `一 (yī)` after `二十 (shí)`.
 
 ---
 
@@ -54,7 +54,7 @@ Nambari hii katika Kichina huundwa kwa kuongeza `一 (yī)` baada ya `二十 (sh
 
 ### --feedback--
 
-Nambari hii katika Kichina huundwa kwa kuongeza `五 (wǔ)` baada ya `二十 (shí)`.
+This number in Chinese is formed by adding `五 (wǔ)` after `二十 (shí)`.
 
 ---
 
@@ -62,11 +62,11 @@ Nambari hii katika Kichina huundwa kwa kuongeza `五 (wǔ)` baada ya `二十 (sh
 
 ### --feedback--
 
-Nambari hii katika Kichina huundwa kwa kuongeza `九 (jiǔ)` baada ya `二十 (shí)`.
+This number in Chinese is formed by adding `九 (jiǔ)` after `二十 (shí)`.
 
 # --explanation--
 
-Nambari ni:
+The numbers are:
 
 `二十一 (èr shí yī)` - 21
 
@@ -74,4 +74,4 @@ Nambari ni:
 
 `二十九 (èr shí jiǔ)` - 29 
 
-Huiundwa kwa kuongeza Kichina cha 1, 5 na 9 baada ya `二十 (èr shí)` (20).
+They are formed by adding the Chinese for 1, 5 and 9 after `二十 (èr shí)` (20).

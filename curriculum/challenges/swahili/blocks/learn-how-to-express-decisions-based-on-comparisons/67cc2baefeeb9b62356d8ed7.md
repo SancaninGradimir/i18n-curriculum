@@ -1,6 +1,6 @@
 ---
 id: 67cc2baefeeb9b62356d8ed7
-title: Zoezi la 50
+title: Task 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Huu ni ukagua wa mazungumzo yote uliyosoma hivi karibuni.
+This is a review of the entire dialogue you just studied.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:  
+Write the following words or phrases in the correct spot:  
 
-`more`, `easier`, `better`, `as flexible`, `nicer`, `as easily`, na `slightly`.
+`more`, `easier`, `better`, `as flexible`, `nicer`, `as easily`, and `slightly`.
 
 # --fillInTheBlank--
 
@@ -48,7 +48,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--  
 
-Kivumishi hiki cha kulinganisha kinaelezea kitu kinachozidi kingine kwa ubora.
+This comparative adjective describes something that surpasses another in quality.
 
 ---
 
@@ -56,7 +56,7 @@ Kivumishi hiki cha kulinganisha kinaelezea kitu kinachozidi kingine kwa ubora.
 
 ### --feedback--  
 
-Neno hili hutumika kuunda kulinganisha kwa vivumishi. Hujumuishwa kabla ya kivumishi na kuonyesha kiwango cha juu zaidi.  
+This word is used to form the comparative of adjectives. It comes before an adjective and indicates a higher degree.  
 
 ---
 
@@ -64,7 +64,7 @@ Neno hili hutumika kuunda kulinganisha kwa vivumishi. Hujumuishwa kabla ya kivum
 
 ### --feedback--  
 
-Kivumishi hiki cha kulinganisha kinamaanisha kitu kinahitaji juhudi kidogo.
+This comparative adjective means something requires less effort.
 
 ---
 
@@ -72,7 +72,7 @@ Kivumishi hiki cha kulinganisha kinamaanisha kitu kinahitaji juhudi kidogo.
 
 ### --feedback--  
 
-Kivumishi hiki cha kulinganisha kinamaanisha kitu kinachovutia au kufurahisha zaidi.
+This comparative adjective means more pleasant or attractive.
 
 ---
 
@@ -80,7 +80,7 @@ Kivumishi hiki cha kulinganisha kinamaanisha kitu kinachovutia au kufurahisha za
 
 ### --feedback--  
 
-Kitenzi hiki cha kivumishi kina maana kidogo au kwa kiwango kidogo.
+This adverb means a little or to a small degree.
 
 ---
 
@@ -88,7 +88,7 @@ Kitenzi hiki cha kivumishi kina maana kidogo au kwa kiwango kidogo.
 
 ### --feedback--  
 
-Msemo huu hutumika katika kulinganisha kuonyesha uwezo sawa wa kuendana. Neno la kwanza ni kiunganishi, na la pili ni kivumishi.  
+This phrase is used in comparisons to show equal ability to adapt. The first word is a conjunction, and the second is an adjective.  
 
 ---
 
@@ -96,4 +96,4 @@ Msemo huu hutumika katika kulinganisha kuonyesha uwezo sawa wa kuendana. Neno la
 
 ### --feedback--  
 
-Msemo huu hutumika katika kulinganisha kuonyesha urahisi sawa wa kitendo. Neno la kwanza ni kiunganishi, na la pili ni kitenzi cha kivumishi.
+This phrase is used in comparisons to show equal ease of action. The first word is a conjunction, and the second is an adverb.  

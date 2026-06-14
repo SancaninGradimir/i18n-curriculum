@@ -1,21 +1,21 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: Moduli ya mchakato ni nini na inafanya kazi vipi?
+title: Šta je procesni modul i kako radi?
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
 
 # --description--
 
-`process` ni mojawapo ya moduli kuu muhimu zaidi za Node.js. Inakupa upatikanaji wa taarifa kuhusu mchakato wa sasa wa Node.js, na inakuwezesha kuudhibiti wakati programu yako inaendelea kutekelezwa.
+`process` je jedan od najvažnijih modula jezgra Node.js. Daje vam pristup informacijama o trenutnom procesu Node.js, i omogućava vam da ga kontrolišete dok vaša aplikacija radi.
 
-Unapotekeleza amri kama `node script.js` kwenye terminal, Node.js huanzisha mchakato, ambao ni mfano unaoendelea wa programu ya Node inayotekeleza faili la `script.js`. Mchakato huu una kumbukumbu yake, mazingira yake, na muktadha wa utekelezaji.
+Kada izvršite komandu poput `node script.js` u terminalu, Node.js pokreće proces, što je pokrenata instanca programa Node koji izvršava fajl `script.js`. Ovaj proces ima svoju memoriju, okruženje i kontekst izvršenja.
 
-Mchakato wa sasa unawekwa wazi kimataifa kupitia moduli ya `process`, kwa hivyo hata huitaji kuimporti. Kadri tu unavyokuwa na Node.js imewekwa, basi unaweza kuitumia popote.
+Trenutni proces je globalno izložen preko modula `process`, pa ne morate čak ni da ga uvozite. Sve dok imate instaliran Node.js, možete ga pozvati bilo gde.
 
-Moduli ya `process` inaweka wazi vigezo na njia ili upate taarifa fulani kuhusu muktadha wa sasa wa utekelezaji.
+Modul `process` izlaže svojstva i metode da biste dobili određene informacije o trenutnom kontekstu izvršenja.
 
-`process.env` inakupa taarifa kuhusu mazingira ya sasa ambayo Node inaendesha. Hii daima hurudisha kitu kikubwa chenye vigezo vingi, kwa hivyo hivi ndivyo unavyoweza kupata baadhi ya taarifa muhimu moja kwa moja:
+`process.env` daje vam informacije o trenutnom okručenju na kojem Node radi. Ovo uvek vraća ogroman objekat sa mnogo parametara, pa evo kako možete direktno pristupiti nekim od najvažnijih informacija:
 
 ```js
 // Gets all environment variables available to the current Node.js process
@@ -37,7 +37,7 @@ console.log(process.env.PWD); // /Users/johndoe/projects/myapp
 console.log(process.env.USER); // johndoe
 ```
 
-`process.argv` inakuwezesha kusoma hoja za mstari wa amri:
+`process.argv` omogućava vam da pročitate argumente komandne linije:
 
 ```js
 console.log(process.argv);
@@ -52,15 +52,15 @@ Hello world
 */
 ```
 
-Njia ya `cwd()` inaonyesha saraka ya kazi ya sasa:
+Metoda `cwd()` prikazuje trenutni radni direktorijum:
 
 ```js
 console.log(process.cwd());
 ```
 
-Matukio ya mchakato ni kipengele kikuu cha Node.js kinachoruhusu programu yako kujibu wakati muhimu katika mzunguko wake wa maisha, kama vile inapoanza kutoka, kukutana na kosa, au kupokea ishara ya mfumo.
+Događaji procesa su osnovna karakteristika Node.js koja omogućava vašoj aplikaciji da reaguje na ključne trenutke u svom životnom ciklusu, poput kada je pred izlazak, naiđe na grešku ili primi sistemski signal.
 
-Tukio la `exit`, kwa mfano, hufanyika kabla mchakato wa Node.js haujakamilika:
+Događaj `exit`, na primer, pokreće se neposredno pre nego što proces Node.js završi:
 
 ```js
 process.on("exit", (code) => {
@@ -70,7 +70,7 @@ process.on("exit", (code) => {
 // Process exiting with code: 0
 ```
 
-Tukio la `uncaughtException` huchochewa wakati kosa halijakamatwa kwenye msimbo wako, jambo ambalo linaweza kusaidia kuzuia kuanguka kwa programu:
+Događaj `uncaughtException` aktivira se kada greška nije uhvaćena u vašem kodu, što vam može pomoći da sprečite padove:
 
 ```js
 process.on("uncaughtException", (err) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Mwishowe, tukio la `warning` huchochewa wakati Node.js inatoa onyo la mchakato:
+Napokon, događaj `warning` aktivira se kada Node.js emituje upozorenje procesa:
 
 ```js
 process.on("warning", (warning) => {
@@ -87,7 +87,7 @@ process.on("warning", (warning) => {
 });
 ```
 
-Kisha unaweza kutumia njia ya `emitWarning()` kuchochea onyo maalum:
+Zatim možete koristiti metodu `emitWarning()` da biste pokrenuli prilagođeno upozorenje:
 
 ```js
 // Example warning with the emitWarning() method
@@ -98,113 +98,97 @@ process.emitWarning('This is a custom warning message', 'CustomWarning');
   Warning message: This is a custom warning message
 */
 ```
-
 # --questions--
 
 ## --text--
 
-Njia ya `process.emitWarning()` hufanya nini?
-
+Šta radi metoda `process.emitWarning()`?
 ## --answers--
 
-Inasimamisha mchakato wakati onyo maalum linapotokea.
-
+Zaustavlja proces kada se pojavi prilagođeno upozorenje.
 ### --feedback--
 
-Fikiria jinsi Node.js inavyoshughulikia onyo maalum kupitia matukio.
+Razmislite o tome kako Node.js obrađuje prilagođena upozorenja putem događaja.
+---
+
+It triggers a custom warning event that can be handled by the warning listener.
 
 ---
 
-Inachochea tukio la onyo maalum ambalo linaweza kushughulikiwa na msikilizaji wa onyo.
-
----
-
-Inaandika kosa na kuacha mchakato mara moja.
+It logs an error and exits the process immediately.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyoshughulikia onyo maalum kupitia matukio.
-
+Razmislite o tome kako Node.js obrađuje prilagođena upozorenja putem događaja.
 ---
 
-Inaanzisha upya mchakato wa Node.js baada ya kuonyesha onyo.
+It restarts the Node.js process after showing a warning.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyoshughulikia onyo maalum kupitia matukio.
-
+Razmislite o tome kako Node.js obrađuje prilagođena upozorenja putem događaja.
 ## --video-solution--
 
 2
 
 ## --text--
 
-Unatumiaje moduli ya mchakato?
-
+Kako da koristite proces modul?
 ## --answers--
 
-Kwa kuitaja moja kwa moja kwa kuwa ni kitu cha kimataifa.
-
+Pozivanjem ga direktno jer je globalni objekat.
 ---
 
-Kwa kuiwezesha kwenye faili la usanidi la Node.js.
+By enabling it in the Node.js configuration file.
 
 ### --feedback--
 
-Fikiria kwa nini unaweza kupata mchakato popote bila usanidi.
-
+Razmislite o tome zašto možete pristupiti procesu bilo gde, bez podešavanja.
 ---
 
-Kwa kuiweka kwa mkono kwa kutumia npm kabla ya kuitaja.
+By installing it manually using npm before calling it.
 
 ### --feedback--
 
-Fikiria kwa nini unaweza kupata mchakato popote bila usanidi.
-
+Razmislite o tome zašto možete pristupiti procesu bilo gde, bez podešavanja.
 ---
 
-Kwa kuiimporti kwa kutumia require('process') kabla ya kila matumizi.
+By importing it using require('process') before each use.
 
 ### --feedback--
 
-Fikiria kwa nini unaweza kupata mchakato popote bila usanidi.
-
+Razmislite o tome zašto možete pristupiti procesu bilo gde, bez podešavanja.
 ## --video-solution--
 
 1
 
 ## --text--
 
-Matukio ya mchakato hutumika kwa ajili gani?
-
+Za šta se koriste događaji procesa?
 ## --answers--
 
-Kuweka vigezo vya mazingira kwa ajili ya programu.
+Za definisanje varijabli okruženja za aplikaciju.
+### --feedback--
+
+Razmislite o tome kako Node.js reaguje na promene životnog ciklusa tokom izvršavanja.
+---
+
+To create new processes for parallel execution.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyorejea kwa mabadiliko ya mzunguko wa maisha wakati wa utekelezaji.
+Razmislite o tome kako Node.js reaguje na promene životnog ciklusa tokom izvršavanja.
+---
+
+To listen for and respond to important lifecycle moments like exit, errors, or system signals.
 
 ---
 
-Kuunda michakato mipya kwa ajili ya utekelezaji sambamba.
+To manage file paths and extensions in the system.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyorejea kwa mabadiliko ya mzunguko wa maisha wakati wa utekelezaji.
-
----
-
-Kusikiliza na kujibu wakati muhimu wa mzunguko wa maisha kama kutoka, makosa, au ishara za mfumo.
-
----
-
-Kusimamia njia za faili na viambatisho katika mfumo.
-
-### --feedback--
-
-Fikiria jinsi Node.js inavyorejea kwa mabadiliko ya mzunguko wa maisha wakati wa utekelezaji.
-
+Razmislite o tome kako Node.js reaguje na promene životnog ciklusa tokom izvršavanja.
 ## --video-solution--
 
 3

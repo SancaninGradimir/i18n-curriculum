@@ -1,6 +1,6 @@
 ---
 id: 698de9ea7932b3cc4b19c93f
-title: Kupanga na kutafuta
+title: Sorting and Searching
 challengeType: 11
 videoId: j0NR0IDAU-0
 dashedName: sorting-and-searching
@@ -8,13 +8,13 @@ dashedName: sorting-and-searching
 
 # --description--
 
-Katika video hii, mwalimu Jay McGavren atazungumzia kile unachotarajia katika sehemu inayofuata ya kozi kuhusu algoriti za kupanga na kutafuta.
+In this video, instructor Jay McGavren will talk about what to expect in the next portion of the course in regards to sorting and searching algorithms. 
 
 # --questions--
 
 ## --text--
 
-Ni algoriti gani ya kupanga ungetumia ikiwa unataka kutafuta orodha kubwa iliyopangwa ya vitu kwa ufanisi katika muda mfupi?
+Which sorting algorithm would you use if you want to search a large sorted list of items in an efficient amount of time?
 
 ## --answers--
 

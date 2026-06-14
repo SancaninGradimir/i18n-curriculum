@@ -1,6 +1,6 @@
 ---
 id: 698de74b7932b3cc4b19c93c
-title: Hatua ya kushinda
+title: The Conquer Step
 challengeType: 11
 videoId: 4-ycdUhn30U
 dashedName: the-conquer-step
@@ -8,30 +8,29 @@ dashedName: the-conquer-step
 
 # --description--
 
-Katika video hii, utafundishwa kutekeleza algoriti ya merge sort kwenye orodha zilizounganishwa kwa kufanya zoezi la hatua ya kushinda.
+In this video, you will learn to implement the merge sort algorithm on linked lists by practicing the conquer step.
 
 # --questions--
 
 ## --text--
 
-Nini kusudi la kitendakazi cha `merge` katika utekelezaji huu wa merge sort?
+What is the purpose of the `merge` function in this merge sort implementation?
 
 ## --answers--
 
-Kusudi ni kugawanya orodha iliyounganishwa kuwa orodha ndogo ndogo kwa ajili ya kupanga kwa njia ya kurudia.
+The purpose is to split a linked list into smaller sublists for recursive sorting.
 
 ---
 
-Kusudi ni kuchagua nodi kutoka kila orodha bila kupanga na kuziunganisha.
+The purpose is to select nodes from each list without sorting and combine them.
 
 ---
 
-Kusudi ni kuunganisha orodha mbili zilizounganishwa, kupanga kwa data iliyomo kwenye nodi na kurudisha orodha mpya iliyounganishwa.
+The purpose is to merge two linked list, sorting by data in nodes and returning a new merged list.
 
 ---
 
-Kusudi ni kupanga upya nodi katika orodha iliyounganishwa kwa mpangilio wa kinyume na kurudisha matokeo.
-
+The purpose is to rearrange nodes in a linked list in reverse order and return the result.
 
 ## --video-solution--
 

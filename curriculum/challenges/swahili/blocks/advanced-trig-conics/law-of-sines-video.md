@@ -1,6 +1,6 @@
 ---
 id: 699e855a8f18cf77dfce5c21
-title: Sheria ya Sini
+title: Law of Sines
 challengeType: 11
 videoId: Arm0baqLKTo
 dashedName: law-of-sines
@@ -8,30 +8,32 @@ dashedName: law-of-sines
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu Sheria ya Sini.
+In this video, you will learn about the Law of Sines.
 
 # --questions--
 
 ## --text--
 
-Sheria ya Sini inaweza kutumika kupata nini?
+What can the Law of Sines be used to find?
 
 ## --answers--
 
-Kutatua pembetatu ambazo ni pembetatu za kulia.
+To solve triangles that are right triangles.
 
 ---
 
-Kutatua pembetatu ambazo si lazima ziwe pembetatu za kulia.
+To solve triangles that are not necessarily right triangles.
 
 ---
 
-Kutatua pembetatu ambazo ni pembetatu sawa pande zote.
+To solve triangles that are equilateral triangles.
 
 ---
 
-Kutatua pembetatu ambazo ni pembetatu za isosceles.
+To solve triangles that are isosceles triangles.
 
 ## --video-solution--
 
 2
+
+

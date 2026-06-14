@@ -1,6 +1,6 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Zoezi la 149
+title: Task 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Soma maandishi na ujibu swali lililopo hapa chini.
+Read the text and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Jessica alituma barua pepe kwa timu siku iliyofuata, akifupisha mazungumzo yake na James kuhusu toleo jipya la programu.
+Jessica sent an email to the team the next day, summarizing her conversation with James about the new software version.
 
 `Hi team,`
 
@@ -50,35 +50,35 @@ Jessica alituma barua pepe kwa timu siku iliyofuata, akifupisha mazungumzo yake 
 
 `Jessica`
 
-Jessica aliripoti nini kuhusu utulivu wa programu?
+What did Jessica report about the software's stability?
 
 ## --answers--
 
-Sasa inahitaji masasisho zaidi ili kubaki imara.
+It now requires more updates to stay stable.
 
 ### --feedback--
 
-Jessica hakutaja hitaji la masasisho zaidi.
+Jessica does not mention the need for more updates.
 
 ---
 
-Inakosa mara chache na ina hitilafu chache kubwa.
+It crashes less and has fewer serious problems.
 
 ---
 
-Inafanya kazi sawa na toleo la zamani kwa upande wa utulivu.
+It works the same as the old version in terms of stability.
 
 ### --feedback--
 
-Anasema wazi toleo jipya ni `much more stable`.
+She clearly says the new version is `much more stable`.
 
 ---
 
-Bado ina hitilafu nyingi kubwa na mara nyingi haifanyi kazi.
+It still has many large bugs and stops working often.
 
 ### --feedback--
 
-Jessica anaripoti matatizo kidogo na kukosa kazi kidogo, si hitilafu za mara kwa mara.
+Jessica reports fewer problems and less crashing, not frequent bugs.
 
 ## --video-solution--
 
@@ -86,6 +86,6 @@ Jessica anaripoti matatizo kidogo na kukosa kazi kidogo, si hitilafu za mara kwa
 
 # --explanation--
 
-Katika sehemu ya `Stability`, Jessica anasema toleo jipya `doesn't crash as often` na wameona `fewer serious problems`.
+In the `Stability` section, Jessica says the new version `doesn't crash as often` and they've seen `fewer serious problems`.
 
-Hii ina maana ni ya kuaminika zaidi na imara kuliko hapo awali.
+This means it is more reliable and stable than before.

@@ -1,6 +1,6 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Zoezi la 6
+title: Task 6
 challengeType: 22
 dashedName: task-6
 lang: es
@@ -10,15 +10,15 @@ lang: es
 
 # --description--
 
-Herufi `d` huitwa `de`.
+The letter `d` is called `de`.
 
-Mwanzoni mwa neno au baada ya `l` au `n`, sauti yake ni kali zaidi, kama katika neno `dos` ("mbili"). Hata hivyo, ni laini kati ya vokali, kama katika neno `idea` ("wazo").
+At the beginning of a word or after `l` or `n`, its sound is stronger, like in the word `dos` ("two"). However, it's softer between vowels, like in the word `idea` ("idea").
 
-Mfano ni `doctor` ("daktari").
+An example is `doctor` ("doctor").
 
 # --instructions--
 
-Sikiliza sauti na andika herufi katika nafasi tupu hapa chini.
+Listen to the audio and write the letter in the blank space below.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Sikiliza sauti na andika herufi katika nafasi tupu hapa chini.
 
 ### --feedback--
 
-Hii ni herufi ya nne katika alfabeti.
+This is the fourth letter in the alphabet.
 
 # --scene--
 

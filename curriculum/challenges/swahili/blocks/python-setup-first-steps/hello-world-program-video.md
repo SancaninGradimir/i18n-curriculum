@@ -1,6 +1,6 @@
 ---
 id: 8ca3a380a75d00443d9e09bd
-title: Programu ya Hello World
+title: Hello World Program
 challengeType: 11
 videoId: H2WnzGCeydQ
 dashedName: hello-world-program
@@ -8,13 +8,13 @@ dashedName: hello-world-program
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuandika programu yako ya kwanza kwa Python.
+In this video, you will learn how to write your first program in Python.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuchapisha `"Hello World"` kwenye konsoli?
+Which of the following is the correct way to print `"Hello World"` to the console?
 
 ## --answers--
 

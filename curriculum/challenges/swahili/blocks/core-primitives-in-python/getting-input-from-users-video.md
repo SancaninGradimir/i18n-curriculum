@@ -1,6 +1,6 @@
 ---
 id: 155ca30775751b78a860a79b
-title: Kupata ingizo kutoka kwa watumizi
+title: Getting Input from Users
 challengeType: 11
 videoId: C0L4cnqKqDw
 dashedName: getting-input-from-users
@@ -8,13 +8,13 @@ dashedName: getting-input-from-users
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupata ingizo kutoka kwa mtumizi.
+In this video, you will learn how to get input from the user. 
 
 # --questions--
 
 ## --text--
 
-Ni kitendakazi gani kati ya vilivyojengwa ndani kinachotumika kupata ingizo kutoka kwa mtumizi?
+Which of the following built-in functions is used to get input from the user?
 
 ## --answers--
 

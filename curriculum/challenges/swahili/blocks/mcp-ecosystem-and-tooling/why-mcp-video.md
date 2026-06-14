@@ -1,6 +1,6 @@
 ---
 id: 69ae766ab4a814be6a4f2be3
-title: Kwa nini MCP?
+title: Why MCP?
 challengeType: 11
 videoId: G1bjz6QcgRU
 dashedName: why-mcp
@@ -8,13 +8,13 @@ dashedName: why-mcp
 
 # --description--
 
-Katika video hii, utaanzishwa na MCP.
+In this video, you will you will be introduced to MCP.
 
 # --questions--
 
 ## --text--
 
-MCP inasimamia nini?
+What does MCP stand for?
 
 ## --answers--
 

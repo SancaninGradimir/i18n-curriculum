@@ -1,19 +1,19 @@
 ---
 id: 64aced3e88b0a38cec824dea
-title: Hatua 43
+title: Step 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-Hatua inayofuata ni kusahisha nafasi ya mchezaji anapohamia ndani ya mchezo.
+The next step is to update the player's position as it moves throughout the game.
 
-Chini ya `ctx.clearRect()`, fanya wito wa njia ya `update()` kwa mchezaji.
+Below your `ctx.clearRect()`, call the `update()` method on the player.
 
 # --hints--
 
-Unapaswa kufanya wito wa njia ya `update()` kwa mchezaji.
+You should call the `update()` method on the player.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);

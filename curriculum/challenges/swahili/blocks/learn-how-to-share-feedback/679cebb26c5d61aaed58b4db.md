@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Zoezi la 79
+title: Task 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-James anajua nini kuhusu tatizo la sasisho la hivi karibuni?
+What does James know about the issue with the latest update?
 
 ## --answers--
 
-Anajua hasa tatizo ni nini.
+He knows exactly what the issue is.
 
 ### --feedback--
 
-James anasema wazi kwamba hakusikia chochote.
+James clearly says he didn't hear anything.
 
 ---
 
-Hajui chochote kuhusu hilo.
+He doesn't know anything about it.
 
 ---
 
-Tayari amezungumza na mteja.
+He already talked to the client.
 
 ### --feedback--
 
-James hakutaja kuzungumza na mteja.
+James does not mention speaking to the client.
 
 ---
 
-Alipokea barua pepe kuhusu tatizo hilo.
+He received an email about the issue.
 
 ### --feedback--
 
-James anasema kwamba hakusikia chochote.
+James states that he didn't hear anything.
 
 ## --video-solution--
 
@@ -52,15 +52,15 @@ James anasema kwamba hakusikia chochote.
 
 # --explanation--
 
-Majibu mafupi yenye vitenzi vya msaada hurudia kitenzi cha msaada kutoka kwenye swali kuthibitisha au kukataa jambo fulani. Katika kesi hii, Maria anauliza, `Did you hear anything?`, na James anajibu, `No, I didn't.` badala ya kusema tu `No.` Hapa kuna mifano mingine:
+Short answers with auxiliary verbs repeat the auxiliary from the question to confirm or deny something. In this case, Maria asks, `Did you hear anything?`, and James responds, `No, I didn't.` instead of just saying `No.` Here are some other examples: 
 
-- `Are you coming to the meeting?` → `Yes, I am.`
+- `Are you coming to the meeting?` → `Yes, I am.`  
 
-- `Have they finished the report?` → `No, they haven't.`
+- `Have they finished the report?` → `No, they haven't.`  
 
-- `Will she be here on time?` → `Yes, she will.`
+- `Will she be here on time?` → `Yes, she will.`  
 
-Majibu mafupi hufanya majibu yaonekane ya asili na kamili huku yakiepuka kurudia sentensi kamili.
+Short answers make responses sound natural and complete while avoiding repetition of the full sentence.
 
 # --scene--
 

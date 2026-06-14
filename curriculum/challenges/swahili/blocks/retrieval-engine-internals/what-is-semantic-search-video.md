@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: "Je, utaftaji wa maana ni nini?"
+title: What is Semantic Search?
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search
@@ -8,30 +8,31 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu utaftaji wa maana.
+In this video, you will learn about semantic search.
 
 # --questions--
 
 ## --text--
 
-Je, utaftaji wa maana ni nini?
+What is semantic search?
 
 ## --answers--
 
-Kutatua tu kwa ajili ya mafaili yanayojumuisha neno halisi lililoandikwa, bila kuzingatia muktadha au maana.
+Searching only for documents that contain the exact keyword typed, without considering context or meaning.
 
 ---
 
-Mfumo unaobadilisha kila hoja ya utafutaji kuwa lebo za nasibu na kurejesha mafaili yenye lebo nyingi zinazolingana.
+A system that converts every search query into random tags and retrieves documents with the most matching tags.
 
 ---
 
-Njia ya utafutaji inayopanga matokeo kwa mpangilio wa alfabeti kulingana na urefu wa neno na umaarufu badala ya umuhimu.
+A search method that organizes results alphabetically by word length and popularity instead of relevance.
 
 ---
 
-Kutatua mafaili kwa kuzingatia maana ya maneno badala ya kulinganisha tu maneno muhimu.
+Searching documents based on the meaning of the words rather than just keyword matching.
 
 ## --video-solution--
 
 4
+

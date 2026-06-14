@@ -1,6 +1,6 @@
 ---
 id: 698dc6467932b3cc4b19c922
-title: Muda wa mstari na wa mraba
+title: Linear and Quadratic Time
 challengeType: 11
 videoId: jS7vtk-JLZ0
 dashedName: linear-and-quadratic-time
@@ -8,29 +8,29 @@ dashedName: linear-and-quadratic-time
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda wa mstari na wa mraba.
+In this video, you will learn about linear and quadratic times. 
 
 # --questions--
 
 ## --text--
 
-Nini maana ya mraba?
+What does quadratic mean?
 
 ## --answers--
 
-Operesheni iliyoinuliwa kwa nguvu ya kwanza.
+An operation raised to the first power.
 
 ---
 
-Operesheni iliyoinuliwa kwa nguvu ya tatu.
+An operation raised to the third power.
 
 ---
 
-Operesheni iliyoinuliwa kwa nguvu ya pili.
+An operation raised to the second power.
 
 ---
 
-Operesheni iliyoinuliwa kwa nguvu ya kumi.
+An operation raised to the tenth power.
 
 ## --video-solution--
 

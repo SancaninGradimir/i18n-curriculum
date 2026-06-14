@@ -1,6 +1,6 @@
 ---
 id: a4cfb218d22efcfa7cc49d80
-title: Kitendakazi cha nguvu za mwinuko
+title: Exponent Functions
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions
@@ -8,29 +8,29 @@ dashedName: exponent-functions
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuandika kitendakazi kinachohesabu nguvu za mwinuko na madaraja katika Python.
+In this video, you will learn how to write a function that calculates exponents and powers in Python.
 
 # --questions--
 
 ## --text--
 
-Kitendakazi cha `range()` katika Python hufanya nini?
+What does the `range()` function in Python do?
 
 ## --answers--
 
-Hurejesha nambari kutoka kwenye orodha.
+It returns a number from a list.
 
 ---
 
-Hutengeneza orodha ya nambari za bahati nasibu.
+It creates a list of random numbers.
 
 ---
 
-Hutengeneza mfululizo wa nambari kamili kati ya sehemu ya kuanzia na sehemu ya kuisha.
+It generates a sequence of integers between a starting and stopping point.
 
 ---
 
-Hutengeneza mfululizo wa nambari za desimali kati ya sehemu ya kuanzia na sehemu ya kuisha.
+It generates a sequence of floats between a starting and stopping point.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698a5b056fac9afc70ef3cad
-title: Zoezi la 10
+title: Task 10
 challengeType: 22
 dashedName: task-10
 lang: es
@@ -10,9 +10,9 @@ lang: es
 
 # --description--
 
-Tukague baadhi ya nchi ulizojifunza hadi sasa.
+Let's review a few of the countries you've learned so far.
 
-| Nchi | Taifa (Kike) | Taifa (Kiume) |
+| Country | Nationality (Feminine) | Nationality (Masculine) |
 | :--- | :--- | :--- |
 | `Brasil` | `brasileña` | `brasileño` |
 | `Colombia` | `colombiana` | `colombiano` |
@@ -20,15 +20,15 @@ Tukague baadhi ya nchi ulizojifunza hadi sasa.
 | `Panamá` | `panameña` | `panameño` |
 | `República Dominicana` | `dominicana` | `dominicano` |
 
-Katika Kihispania, majina ya nchi ni majina halisi na huanza kila mara kwa herufi kubwa.
+In Spanish, country names are proper nouns and always start with a capital letter.
 
-Kumbuka kuwa taifa `brasileño`/`brasileña` na `panameño`/`panameña` hutumia herufi ya kipekee `eñe` (`ñ`).
+Note that the nationalities `brasileño`/`brasileña` and `panameño`/`panameña` use the unique letter `eñe` (`ñ`).
 
-Camila anazoea baadhi ya nchi hizi. Je, unaweza kuzitambua?
+Camila is practicing a few of these countries. Can you identify them?
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe mfululizo hapa chini.
+Listen to the audio and complete the sequence below.
 
 # --fillInTheBlank--
 
@@ -42,7 +42,7 @@ Sikiliza sauti na ukamilishe mfululizo hapa chini.
 
 ### --feedback--
 
-Nchi hii ni kubwa zaidi Amerika Kusini na huanza kwa herufi kubwa.
+This country is the largest in South America and starts with a capital letter.
 
 ---
 
@@ -50,11 +50,11 @@ Nchi hii ni kubwa zaidi Amerika Kusini na huanza kwa herufi kubwa.
 
 ### --feedback--
 
-Nchi hii inajulikana kwa njia yake maarufu ya maji. Kumbuka kuweka alama ya nukta kwenye herufi ya mwisho `a` na kuandika herufi ya kwanza kwa herufi kubwa.
+This country is known for its famous canal. Remember to include an accent mark on the last letter `a` and to capitalize the first letter.
 
 # --explanation--
 
-Mfululizo ni `Brasil` - `Colombia` - `Panamá`.
+The sequence is `Brasil` - `Colombia` - `Panamá`.
 
 # --scene--
 

@@ -1,23 +1,23 @@
 ---
 id: 62a8efb0e3ce826db8daf80f
-title: Hatua 133
+title: Step 133
 challengeType: 0
 dashedName: step-133
 ---
 
 # --description--
 
-Malizia kitendakazi cha `defeatMonster` kwa kuita kitendakazi cha `update` ukiwa na `locations[4]` kama hoja.
+Finish the `defeatMonster` function by calling the `update` function with `locations[4]` as the argument.
 
 # --hints--
 
-Unapaswa kuita kitendakazi cha `update`.
+You should call the `update` function.
 
 ```js
 assert.match(defeatMonster.toString(), /update/);
 ```
 
-Unapaswa kupitisha `locations[4]` kama hoja.
+You should pass `locations[4]` as the argument.
 
 ```js
 assert.match(defeatMonster.toString(), /update\(\s*locations\s*\[\s*4\s*\]\s*\)/);

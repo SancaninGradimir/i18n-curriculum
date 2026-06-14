@@ -1,6 +1,6 @@
 ---
 id: 693aebb31ed98f7aea7d1a5d
-title: Zoezi la 26
+title: Task 26
 challengeType: 19
 dashedName: task-26
 lang: es
@@ -10,17 +10,17 @@ lang: es
 
 # --description--
 
-Katika zoezi hili, utamsikia Basti akitoa nambari yake kamili ya simu, ikiwa ni pamoja na msimbo wa nchi. Nambari inazungumzwa kwa makundi ya tarakimu.
+In this task, you will hear Basti share his full phone number, including the country code. The number is spoken in grouped digits.
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below. 
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya hizi hapa chini ni nambari ya simu ya Basti?
+Which of the following is Basti's phone number?
 
 ## --answers--
 
@@ -32,7 +32,7 @@ Ni ipi kati ya hizi hapa chini ni nambari ya simu ya Basti?
 
 ### --feedback--
 
-Tarakimu za mwisho si zile Basti anazosema.
+The final digits are not what Basti says.
 
 ---
 
@@ -40,7 +40,7 @@ Tarakimu za mwisho si zile Basti anazosema.
 
 ### --feedback--
 
-Msimbo wa nchi ambao Basti anasema si 520.
+The country code Basti says is not 520.
 
 ---
 
@@ -48,7 +48,7 @@ Msimbo wa nchi ambao Basti anasema si 520.
 
 ### --feedback--
 
-Kuna kosa dogo katika tarakimu nne za katikati.
+There is a small error in the middle four digits.
 
 ## --video-solution--
 
@@ -56,7 +56,7 @@ Kuna kosa dogo katika tarakimu nne za katikati.
 
 # --explanation--
 
-`Y mi número es +502 4489 2201`, inamaanisha "Na nambari yangu ni +502 4489 2201".
+`Y mi número es +502 4489 2201`, means "And my number is +502 4489 2201".
 
 # --scene--
 

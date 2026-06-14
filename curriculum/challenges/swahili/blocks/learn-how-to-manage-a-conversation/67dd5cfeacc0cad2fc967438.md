@@ -1,6 +1,6 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Zoezi la 16
+title: Task 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-James anataka kujua nini?
+What does James want to know?
 
 ## --answers--
 
-Kama walikubaliana kuhusu tarehe ya mwisho ya awamu ya kwanza.
+If they agreed on the deadline for the first phase.
 
 ---
 
-Kama mradi umefutwa.
+If the project has been canceled.
 
 ### --feedback--
 
-James hakutaja kufuta mradi.
+James doesn't mention canceling the project.
 
 ---
 
-Kama Alice ndiye anayehusika na awamu ya kwanza.
+If Alice is responsible for the first phase.
 
 ### --feedback--
 
-James haulizi kuhusu majukumu.
+James is not asking about responsibilities.
 
 ---
 
-Kama timu imekamilisha awamu ya mwisho.
+If the team finished the final phase.
 
 ### --feedback--
 
-James hasemi kuhusu awamu ya mwisho.
+James does not talk about the final phase.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ James hasemi kuhusu awamu ya mwisho.
 
 # --explanation--
 
-`By the way` hutumika kuanzisha mada mpya lakini inayohusiana katika mazungumzo. Mara nyingi huleta jambo ambalo msemaji alilikumbuka tu au anataka kuthibitisha. Kwa mfano:
+`By the way` is used to introduce a new but related topic into the conversation. It often brings up something that the speaker just remembered or wants to check. For example:
 
-`By the way, have you seen the updated report?` – Hii huanzisha swali jipya linalohusiana na kile kilichokuwa kinajadiliwa tayari.
+`By the way, have you seen the updated report?` – This introduces a new question related to what was already being discussed.
 
 # --scene--
 

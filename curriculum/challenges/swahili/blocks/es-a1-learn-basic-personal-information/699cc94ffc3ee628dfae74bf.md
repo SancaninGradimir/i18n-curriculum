@@ -1,6 +1,6 @@
 ---
 id: 699cc94ffc3ee628dfae74bf
-title: Zoezi la 31
+title: Task 31
 challengeType: 22
 dashedName: task-31
 lang: es
@@ -9,25 +9,25 @@ lang: es
 
 # --description--
 
-`Es` hutokana na kitenzi `ser` na hutumika kuonyesha au kuwasilisha kitu. Kwa mfano:
+`Es` comes from the verb `ser` and is used to identify or present something. For example:
 
-- `Es mi número.` - Hii ni nambari yangu.
+- `Es mi número.` - It is my number.
   
-- `Es mi correo.` - Hii ni barua pepe yangu.
+- `Es mi correo.` - It is my email. 
 
-Wakati wa kutamka anwani ya barua pepe, baadhi ya alama husemwa kwa sauti:
+When spelling an email address, certain symbols are said aloud:
 
-`Punto` hutumika kwa alama `.` Kwa mfano:
+`Punto` is used for the symbol `.` For example: 
 
-`ana.lopez` husomwa kama `ana punto lopez`.
+`ana.lopez` is read as `ana punto lopez`.
 
-`Arroba` hutumika kwa alama `@`. Kwa mfano:
+`Arroba` is used for the symbol `@`. For example: 
 
-`ana.lopez@ejemplo.com` husomwa kama `ana punto lopez arroba ejemplo punto com`.
+`ana.lopez@ejemplo.com` is read as `ana punto lopez arroba ejemplo punto com`.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -41,7 +41,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Aina hii ya `ser` hutumika kuwasilisha au kuonyesha kitu.
+This form of `ser` is used to present or identify something.
 
 ---
 
@@ -49,7 +49,7 @@ Aina hii ya `ser` hutumika kuwasilisha au kuonyesha kitu.
 
 ### --feedback--
 
-Neno hili hutumika wakati wa kusema alama `.` katika anwani ya barua pepe.
+This word is used when saying the symbol `.` in an email address.
 
 ---
 
@@ -57,7 +57,7 @@ Neno hili hutumika wakati wa kusema alama `.` katika anwani ya barua pepe.
 
 ### --feedback--
 
-Neno hili hutumika wakati wa kusema alama `@`.
+This word is used when saying the symbol `@`.
 
 ---
 
@@ -65,21 +65,21 @@ Neno hili hutumika wakati wa kusema alama `@`.
 
 ### --feedback--
 
-Neno hili linaonekana tena kabla ya herufi za mwisho `p r`.
+This word appears again before the final letters `p r`.
 
 # --explanation--
 
-Sentensi kamili ni:
+The complete sentence is:
 
 `Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r.`
 
-`Es` huanzisha taarifa.
+`Es` introduces the information.
 
-`Punto` inawakilisha alama `.`
+`Punto` represents the symbol `.`
 
-`Arroba` inawakilisha alama `@`
+`Arroba` represents the symbol `@`
 
-Maneno haya hutumika sana wakati wa kutamka anwani ya barua pepe kwa sauti.
+These words are commonly used when spelling an email address aloud.
 
 # --scene--
 
@@ -128,3 +128,4 @@ Maneno haya hutumika sana wakati wa kutamka anwani ya barua pepe kwa sauti.
   ]
 }
 ```
+

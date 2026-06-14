@@ -1,6 +1,6 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Zoezi la 30
+title: Task 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -10,15 +10,15 @@ lang: en-US
 
 # --description--
 
-Unaposikia kuhusu aina tofauti za gitaa, aina mbili maarufu zinaweza kutajwa: `electric` na `acoustic`.
+When you hear about different types of guitars, two common kinds might come up: `electric` and `acoustic`.
 
-`Electric guitars` kawaida zinahitaji kitu kinachoitwa amplifier ili kusikika kwa sauti kubwa, wakati `acoustic guitars` zinaweza kusikika bila vifaa vya ziada.
+`Electric guitars` usually need something called an amplifier to be loud enough to hear, while `acoustic guitars` can be heard without any extra equipment.
 
 # --questions--
 
 ## --text--
 
-Ni aina gani ya gitaa ambayo Sophie anapendelea?
+What type of guitar does Sophie prefer?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ Acoustic guitar
 
 ### --feedback--
 
-Sophie anafanya wazi kabisa aina gani ya gitaa anayopenda. Ile anayoipendelea inahitaji amplifier ili isikike kwa sauti kubwa.
+Sophie makes it very clear which type of guitar she likes. The one she prefers needs an amplifier to be loud.
 
 ## --video-solution--
 

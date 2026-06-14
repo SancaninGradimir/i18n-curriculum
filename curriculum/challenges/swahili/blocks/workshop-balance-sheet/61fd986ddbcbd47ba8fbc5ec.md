@@ -1,19 +1,19 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Ndani ya `tr` ya tatu, ongeza kipengele cha `th` chenye maandishi `Credit The outstanding balance on our credit card.`. Zungusha maandishi hayo, isipokuwa `Credit `, ndani ya kipengele cha `span` chenye sifa ya `class` iliyowekwa kuwa `description`.
+Unutar trećeg `tr`, dodajte `th` element sa tekstom `Credit The outstanding balance on our credit card.`. Omotajte taj tekst, osim za `Credit `, unutar `span` elementa sa `class` postavljenim na `description`.
 
-Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kwa mpangilio: `$50`, `$50`, na `$75`. Toa sifa ya `td` yenye thamani ya `class` kwa kipengele cha tatu cha `current`.
+Dodajte tri `td` elementa ispod toga, i dajte im sledeći tekst, po redu: `$50`, `$50`, i `$75`. Trećem `td` elementu dodelite `class` postavljen na `current`.
 
 # --hints--
 
-Kipengele chako cha tatu cha `tr` kinapaswa kuwa na kipengele cha `th`.
+Your third `tr` should have a `th` element.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -22,7 +22,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.isNotNull(tableRow?.querySelector('th'));
 ```
 
-Kipengele chako cha `th` kinapaswa kuwa na maandishi ya `Credit The outstanding balance on our credit card.`.
+Your `th` element should have the text `Credit The outstanding balance on our credit card.`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -34,7 +34,7 @@ assert.strictEqual(
 );
 ```
 
-Unapaswa kuzungusha maandishi ya `The outstanding balance on our credit card.` ndani ya kipengele cha `span`.
+You should wrap the text `The outstanding balance on our credit card.` in a `span` element.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -46,7 +46,7 @@ assert.strictEqual(
 );
 ```
 
-Kipengele chako cha `span` kinapaswa kuwa na sifa ya kipengele ya `class` iliyowekwa kuwa `description`.
+Your `span` element should have the `class` attribute set to `description`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -57,7 +57,7 @@ assert.isTrue(
 );
 ```
 
-Unapaswa kuwa na vipengele vitatu vya `td`.
+You should have three `td` elements.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -66,7 +66,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 ```
 
-Kipengele chako cha kwanza cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Your first `td` element should have the text `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -75,7 +75,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
-Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Your second `td` element should have the text `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -84,7 +84,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na maandishi ya `$75`.
+Your third `td` element should have the text `$75`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na `class` iliyowekwa kuwa `current`.
+Your third `td` element should have the `class` set to `current`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

@@ -1,6 +1,6 @@
 ---
 id: bfab38e6a6c1165f7774514d
-title: Kuandika katika mafaili
+title: Writing to Files
 challengeType: 11
 videoId: QR95sRxsehY
 dashedName: writing-to-files
@@ -8,29 +8,29 @@ dashedName: writing-to-files
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuandika data katika mafaili kwa kutumia Python.
+In this video, you will learn how to write data to files in Python.
 
 # --questions--
 
 ## --text--
 
-Jukumu la `"a"` katika kitendakazi cha `open()` ni lipi?
+What is the role of the `"a"` in the `open()` function?
 
 ## --answers--
 
-Inabainisha hali ya kuongeza (append mode).
+It specifies the append mode.
 
 ---
 
-Inabainisha hali mbadala (alternate mode).
+It specifies the alternate mode.
 
 ---
 
-Inabainisha hali ya upatikanaji (access mode).
+It specifies the access mode.
 
 ---
 
-Inabainisha hali ya kutekeleza (apply mode).
+It specifies the apply mode.
 
 ## --video-solution--
 

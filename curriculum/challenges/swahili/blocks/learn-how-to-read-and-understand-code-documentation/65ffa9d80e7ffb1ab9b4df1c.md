@@ -1,6 +1,6 @@
 ---
 id: 65ffa9d80e7ffb1ab9b4df1c
-title: Zoezi la 11
+title: Task 11
 challengeType: 22
 dashedName: task-11
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Sikiliza sauti na ukamilishe sentensi.
+Listen to the audio and complete the sentence.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi.
 
 ### --feedback--
 
-Inaonyesha kuwa kitendo kinachofuata hufanyika mara tu sehemu inapopatikana. Andika neno hili kwa herufi kubwa mwanzoni.
+It indicates that the action to follow happens as soon as the section is found. Capitalize this word. 
 
 ---
 
@@ -32,7 +32,7 @@ Inaonyesha kuwa kitendo kinachofuata hufanyika mara tu sehemu inapopatikana. And
 
 ### --feedback--
 
-Hutumiwa hapa kumaanisha kupata au kugundua sehemu inayohitajika katika nyaraka.
+It's used here to mean locating or discovering the needed section in the documentation.
 
 ---
 
@@ -40,7 +40,7 @@ Hutumiwa hapa kumaanisha kupata au kugundua sehemu inayohitajika katika nyaraka.
 
 ### --feedback--
 
-Neno hili linahusu aya za mwanzo zinazotoa ufahamu wa msingi kuhusu sehemu hiyo.
+This word refers to the beginning paragraphs that provide a basic understanding of the section.
 
 ---
 
@@ -48,7 +48,7 @@ Neno hili linahusu aya za mwanzo zinazotoa ufahamu wa msingi kuhusu sehemu hiyo.
 
 ### --feedback--
 
-Linamaanisha kile nyaraka zinajumuisha au kushughulikia kwa upande wa maudhui.
+It means what the documentation includes or addresses in terms of content.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 679bacd4af7be22f71bb43ee
-title: Zoezi la 65
+title: Task 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Huu ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
+This is a review of the entire dialogue you just studied. 
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Write the following words or phrases in the correct spot:
 
-`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, na `strong opinions`.
+`deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, and `strong opinions`.
 
 # --fillInTheBlank--
 
@@ -45,7 +45,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Usemi huu unahusu imani thabiti au kali kuhusu mada fulani.
+This phrase refers to firm or intense beliefs about a topic.
 
 ---
 
@@ -53,7 +53,7 @@ Usemi huu unahusu imani thabiti au kali kuhusu mada fulani.
 
 ### --feedback--
 
-Usemi huu unamaanisha kusonga mbele au kuboresha hali fulani.
+This phrase means to move forward or improve a situation.
 
 ---
 
@@ -61,7 +61,7 @@ Usemi huu unamaanisha kusonga mbele au kuboresha hali fulani.
 
 ### --feedback--
 
-Neno hili linamaanisha lenye manufaa au zuri kwa hali fulani.
+This word means beneficial or good for a situation.
 
 ---
 
@@ -69,7 +69,7 @@ Neno hili linamaanisha lenye manufaa au zuri kwa hali fulani.
 
 ### --feedback--
 
-Neno hili linahusu kuwa na maoni tofauti au mitazamo tofauti.
+This word refers to having different opinions or viewpoints.
 
 ---
 
@@ -77,7 +77,7 @@ Neno hili linahusu kuwa na maoni tofauti au mitazamo tofauti.
 
 ### --feedback--
 
-Neno hili linahusu tarehe au nyakati maalum ambazo kazi lazima zikamilishwe.
+This word refers to specific dates or times by which tasks must be completed.
 
 ---
 
@@ -85,7 +85,7 @@ Neno hili linahusu tarehe au nyakati maalum ambazo kazi lazima zikamilishwe.
 
 ### --feedback--
 
-Neno hili linahusu mitazamo tofauti au njia tofauti za kufikiria jambo fulani.
+This word refers to different viewpoints or ways of thinking about something.
 
 ---
 
@@ -93,7 +93,7 @@ Neno hili linahusu mitazamo tofauti au njia tofauti za kufikiria jambo fulani.
 
 ### --feedback--
 
-Neno hili linahusu kujadili mitazamo tofauti, mara nyingine kwa kina.
+This word refers to discussing different viewpoints, sometimes extensively.
 
 ---
 
@@ -101,7 +101,7 @@ Neno hili linahusu kujadili mitazamo tofauti, mara nyingine kwa kina.
 
 ### --feedback--
 
-Usemi huu unamaanisha kuacha kuhisi msukumo au shauku kuhusu jambo fulani.
+This phrase means to stop feeling driven or enthusiastic about something.
 
 ---
 
@@ -109,4 +109,4 @@ Usemi huu unamaanisha kuacha kuhisi msukumo au shauku kuhusu jambo fulani.
 
 ### --feedback--
 
-Usemi huu unamaanisha kudumisha makini na kuhakikisha maendeleo yanaendelea.
+This phrase means maintaining focus and ensuring progress continues.

@@ -1,6 +1,6 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Zoezi la 92
+title: Task 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Listen to the audio and answer the question below.  
 
 # --questions--
 
 ## --text--
 
-Maria atafanya nini na maoni aliyopokea kutoka kwa James?  
+What will Maria do with the comments she got from James?  
 
 ## --answers--
 
-Atayapuuza.  
+She will ignore them.  
 
 ### --feedback--
 
-Maria anakubali hoja ya James na anapanga kuchukua hatua.
+Maria acknowledges James's point and plans to take action.
 
 ---
 
-Atawaambia timu kuacha kuwa na wasiwasi kuhusu mawasiliano.
+She will tell the team to stop worrying about communication.
 
 ### --feedback--
 
-Maria anataka kuboresha mawasiliano, si kupuuza wasiwasi. 
+Maria wants to improve communication, not dismiss concerns. 
 
 ---
 
-Atafuta mikutano ya timu.
+She will cancel the team's check-ins.
 
 ### --feedback--
 
-Maria hasemi atafuta mikutano hiyo.
+Maria does not say she will cancel the check-ins.
 
 ---
 
-Atapendekeza kuwa na mikutano zaidi ili kuboresha mawasiliano.
+She will propose having more check-ins to improve communication.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Atapendekeza kuwa na mikutano zaidi ili kuboresha mawasiliano.
 
 # --explanation--
 
-Unapotumia kitenzi `suggest`, tumia kitenzi kinachofuata katika fomu ya `-ing` badala ya infinitive. Kwa mfano:
+When using the verb `suggest`, use the following verb in the `-ing` form instead of the infinitive. For example:
 
-- `She suggested taking a break.` - Hii ina maana wazo lililopendekezwa ni kupumzika.
+- `She suggested taking a break.` - This means the idea proposed is to take a break.
 
-- `He suggested starting the meeting earlier to avoid delays.` - Hii ina maana alipendekeza kuanza mkutano mapema.
+- `He suggested starting the meeting earlier to avoid delays.` - This means he proposed beginning the meeting sooner.
 
 # --scene--
 

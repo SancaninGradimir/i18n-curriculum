@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb3bdef
-title: Ongeza nambari mbili kwa kutumia JavaScript
+title: Add Two Numbers with JavaScript
 challengeType: 1
 forumTopicId: 16650
 dashedName: add-two-numbers-with-javascript
@@ -8,33 +8,33 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` ni aina ya data katika JavaScript inayowakilisha data ya nambari.
+`Number` is a data type in JavaScript which represents numeric data.
 
-Sasa jaribu kuongeza nambari mbili kwa kutumia JavaScript.
+Now let's try to add two numbers using JavaScript.
 
-JavaScript hutumia alama ya `+` kama kiendeshaji cha kuongeza wakati imewekwa kati ya nambari mbili.
+JavaScript uses the `+` symbol as an addition operator when placed between two numbers.
 
-**Mfano:**
+**Example:**
 
 ```js
 const myVar = 5 + 10;
 ```
 
-`myVar` sasa ina thamani ya `15`.
+`myVar` now has the value `15`.
 
 # --instructions--
 
-Badilisha `0` ili jumla iwe sawa na `20`.
+Change the `0` so that sum will equal `20`.
 
 # --hints--
 
-`sum` inapaswa kuwa sawa na `20`.
+`sum` should equal `20`.
 
 ```js
 assert(sum === 20);
 ```
 
-Unapaswa kutumia kiendeshaji cha `+`.
+You should use the `+` operator.
 
 ```js
 assert(/\+/.test(__helpers.removeJSComments(code)));

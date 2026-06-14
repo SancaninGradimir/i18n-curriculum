@@ -1,6 +1,6 @@
 ---
 id: 65fc9c5db0a80e6e3d3cfce5
-title: Zoezi la 37
+title: Task 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --description--
 
-Katika sehemu hii ya mazungumzo, Brian anazungumzia jinsi mazungumzo yalivyomfanya ahisi na anashukuru Maria kwa kushiriki mtazamo wake.
+In this part of the conversation, Brian talks about how the talk made him feel and thanks Maria for sharing her perspective. 
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Katika sehemu hii ya mazungumzo, Brian anazungumzia jinsi mazungumzo yalivyomfan
 
 ### --feedback--
 
-Neno hili linamaanisha kitu kinachokupa nguvu au sababu ya kufanya jambo fulani. Ni kama wakati maneno ya mtu yanakufanya utake kujitahidi zaidi.
+This word means something that gives you energy or a reason to do something. It's like when someone's words make you want to try harder.
 
 ---
 
@@ -32,7 +32,7 @@ Neno hili linamaanisha kitu kinachokupa nguvu au sababu ya kufanya jambo fulani.
 
 ### --feedback--
 
-Neno hili linamaanisha kutoa kitu unachomiliki kwa wengine. Ni kama unapomwambia mtu mawazo au hisia zako.
+This word means giving something that you have to others. It's like when you tell someone your ideas or feelings.
 
 # --scene--
 

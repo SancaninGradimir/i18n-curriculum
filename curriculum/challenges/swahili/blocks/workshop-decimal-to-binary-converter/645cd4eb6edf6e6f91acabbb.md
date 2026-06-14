@@ -1,24 +1,24 @@
 ---
 id: 645cd4eb6edf6e6f91acabbb
-title: Hatua 53
+title: Korak 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Sasa baada ya `b()` kutekelezwa, iondoe kwenye orodha ya wito. Kisha, sasisha wito wako wa kuiga kwa `a()` kuwa ifuatayo: `'a(): returns "freeCodeCamp " + "is awesome!"'`.
+Sada što je `b()` izvršeno, uklonite ga sa steka poziva. Zatim, ažurirajte vaš mock poziv na `a()` na sledeće: `'a(): returns "freeCodeCamp " + "is awesome!"'`.
 
 # --hints--
 
-`callStack` inapaswa kuwa na kipengele kimoja ambacho ni mfuatano wa herufi.
+`callStack` should have one element that is a string.
 
 ```js
 assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-Mfuatano wa herufi katika `callStack` unapaswa kuwa mfuatano wa herufi `'a(): returns "freeCodeCamp " + "is awesome!"'`.
+The string in `callStack` should be the string `'a(): returns "freeCodeCamp " + "is awesome!"'`.
 
 ```js
 assert.match(

@@ -1,6 +1,6 @@
 ---
 id: 66df6aad5cfef4692e2e2a5a
-title: Zoezi la 74
+title: Task 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
@@ -12,7 +12,7 @@ Linda: Not yet, but I anticipate we'll start receiving more detailed reports as 
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno linaloonyesha matendo mawili yanayotokea kwa wakati mmoja au tendo moja linalotegemea tendo jingine.
+A word that shows two actions happening at the same time or one action depending on another.
 
 ---
 
@@ -34,7 +34,7 @@ Neno linaloonyesha matendo mawili yanayotokea kwa wakati mmoja au tendo moja lin
 
 ### --feedback--
 
-Neno linaloashiria kiasi au idadi kubwa zaidi.
+A word that indicates a greater quantity or number.
 
 ---
 
@@ -42,7 +42,7 @@ Neno linaloashiria kiasi au idadi kubwa zaidi.
 
 ### --feedback--
 
-Neno linalorejelea watu wanaotumia na kuvinjari kiolesura kilichosasishwa.
+A word that refers to the people navigating the updated interface.
 
 ---
 
@@ -50,15 +50,15 @@ Neno linalorejelea watu wanaotumia na kuvinjari kiolesura kilichosasishwa.
 
 ### --feedback--
 
-Neno linalomaanisha kuzunguka au kupitia kitu, kama tovuti au programu.
+A word that means to move around or through something, such as a website or an app.
 
 # --explanation--
 
-`As` linaweza kutumika kumaanisha "wakati" au "mara", likionyesha kuwa tendo moja litafanyika wakati tendo jingine linaendelea. Kwa mfano:
+`As` can be used to mean "while" or "when", showing that one action will happen while another action is taking place. For example:
 
-- `As I was walking home, they called me.` - Walikupigia simu wakati ulipokuwa unarudi nyumbani.
+- `As I was walking home, they called me.` - They called you while you were walking home.
 
-- `You will get better at coding as you practice more.` - Utaimarika wakati au mara unapotumia mazoezi zaidi.
+- `You will get better at coding as you practice more.` - You will improve while or when you practice more.
 
 # --scene--
 

@@ -1,25 +1,25 @@
 ---
 id: 6608bee87c43ca194effebdf
-title: Hatua 53
+title: Step 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Baadaye katika mtaala, utaingia kwa undani zaidi kuhusu vitu. Lakini kwa sasa, ni wakati wa kutumia kile ulichojifunza katika mchezo wako wa kuigiza jukumu.
+Later on in the curriculum, you will dive deeper into objects. But for now, it is time to apply what you have learned to your role playing game.
 
-Anza kwa kufuta kitu chako cha `cat` na usemi wa konsoli. 
+Start by deleting your `cat` object and console statement. 
 
 # --hints--
 
-Unapaswa kuondoa kitu chako cha `cat`.
+You should remove your `cat` object.
 
 ```js
 assert.notInclude(code, "const cat = {");
 ```
 
-Unapaswa kuondoa usemi wako wa konsoli.
+You should remove your console statement.
 
 ```js
 assert.notInclude(code, "console.log(cat[\"Number of legs\"]);");

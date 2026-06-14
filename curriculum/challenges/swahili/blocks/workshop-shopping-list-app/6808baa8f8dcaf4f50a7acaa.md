@@ -1,19 +1,19 @@
 ---
 id: 6808baa8f8dcaf4f50a7acaa
-title: Hatua 17
+title: Korak 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Kwa hali ya kweli, ikiwa `prev` inajumuisha `item`, rudisha safu ya data iliyochujwa na `item` imeondolewa.
+Za uslov koji je istinit, ako `prev` uključuje `item`, vratiti filtriran niz sa uklonjenim `item`.
 
-Unganisha njia ya `filter()` kwa `prev` na upitishe kitendakazi kisicho na jina kinachochukua `i` kama hoja. Ndani ya kitendakazi, hakikisha kwamba `i` si sawa kabisa na `item`. Hii itarudisha safu mpya ya data yenye vitu vyote isipokuwa `item`.
+Povežite metod `filter()` sa `prev` i prosledite mu anonimnu funkciju koja prima `i` kao argument. Unutar funkcije, proverite da `i` nije strogo jednak `item`. Ovo će vratiti novi niz sa svim stavkama osim `item`.
 
 # --hints--
 
-Unapaswa kuunganisha njia ya `filter()` kwa `prev` na upitishe kitendakazi kisicho na jina kinachochukua `i` kama hoja.
+You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Ndani ya kitendakazi kisicho na jina cha `filter()`, unapaswa kuhakikisha kwamba `i` si sawa kabisa na `item`. Kumbuka kurudisha matokeo ya ukaguzi huo.
+Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

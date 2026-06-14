@@ -1,6 +1,6 @@
 ---
 id: bd7156d8c242eddfaeb5bd13
-title: Jenga ukurasa wa nyumbani wa jukwaa la freeCodeCamp
+title: Build a freeCodeCamp Forum Homepage
 challengeType: 3
 forumTopicId: 302349
 dashedName: build-a-freecodecamp-forum-homepage
@@ -8,21 +8,21 @@ dashedName: build-a-freecodecamp-forum-homepage
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
+**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/JqdoMV>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-**Hadithi ya mtumiaji:** Naweza kuona orodha ya machapisho ya hivi karibuni zaidi kwenye jukwaa la freeCodeCamp.
+**User Story:** I can see a list of the most recent posts on the freeCodeCamp forum.
 
-**Hadithi ya mtumiaji:** Kwa kila mada, naweza kuona kichwa na orodha ya viungo vya watumiaji walioweka chapisho hivi karibuni ndani yake.
+**User Story:** For each topic, I can see the title and a list of links to users who have recently posted in it.
 
-**Hadithi ya mtumiaji:** Naweza kuona idadi ya majibu na maoni ambayo kila mada imepata, pamoja na alama ya wakati wa mwisho mada ilipokuwa hai.
+**User Story:** I can see the number of replies and views that each topic has had, and a timestamp of when the topic was last active.
 
-**Kidokezo:** Kupata machapisho 30 ya hivi karibuni zaidi kwenye jukwaa: <https://forum-proxy.freecodecamp.rocks/latest>.
+**Hint:** To get the 30 most recent forum posts: <https://forum-proxy.freecodecamp.rocks/latest>.
 
-Ukipomaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --solutions--
 

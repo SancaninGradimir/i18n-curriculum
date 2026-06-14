@@ -1,6 +1,6 @@
 ---
 id: 678e0cbc0d01a2a5aea8dcec
-title: Zoezi la 47
+title: Task 47
 challengeType: 19
 dashedName: task-47
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Kwa nini Jake anapendelea kutumia Visual Studio Code?
+Why does Jake prefer using Visual Studio Code?
 
 ## --answers--
 
-Kwa sababu ni ghali na ina vipengele vingi.
+Because it's expensive and has many features.
 
 ### --feedback--
 
-Jake hakutaja bei au gharama kama sababu ya kupendelea Visual Studio Code.
+Jake doesn't mention price or cost in his reason for preferring Visual Studio Code.
 
 ---
 
-Kwa sababu ni polepole na haina usalama.
+Because it's slow and not secure.
 
 ### --feedback--
 
-Sababu ya Jake kupendelea Visual Studio Code haijumuishi masuala ya kasi au usalama.
+Jake's reason for preferring Visual Studio Code is not related to speed or security issues.
 
 ---
 
-Kwa sababu ni ngumu kutumia na ina vipengele vichache.
+Because it's hard to use and has limited features.
 
 ### --feedback--
 
-Jake anaelezea Visual Studio Code kwa njia chanya, bila kutaja kuwa ni vigumu kutumia au haina vipengele vya kutosha.
+Jake describes Visual Studio Code positively, with no mention of it being difficult to use or lacking features.
 
 ---
 
-Kwa sababu ni nyepesi na ina vipengele bora vya usalama.
+Because it's lightweight and has excellent security features.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Kwa sababu ni nyepesi na ina vipengele bora vya usalama.
 
 # --explanation--
 
-Sikiliza maneno muhimu yanayoelezea upendeleo wa Jake.  
+Listen for key words that explain Jake's preference.  
 
-`Lightweight` – Hii ina maana Visual Studio Code haitumii rasilimali nyingi za mfumo.  
+`Lightweight` – This means Visual Studio Code doesn't use a lot of system resources.  
 
-`Security features` – Hii inaonyesha kuwa Jake anathamini jinsi chombo kinavyosaidia kulinda dhidi ya hatari zinazoweza kutokea.  
+`Security features` – This shows that Jake values how the tool helps protect against potential risks.  
 
-Maneno haya muhimu yanakusaidia kuona kuwa Jake anapendelea Visual Studio Code kwa sababu ni nyepesi na ina vipengele imara vya usalama.
+These key words help you see that Jake prefers Visual Studio Code because it is lightweight and has strong security features.
 
 # --scene--
 

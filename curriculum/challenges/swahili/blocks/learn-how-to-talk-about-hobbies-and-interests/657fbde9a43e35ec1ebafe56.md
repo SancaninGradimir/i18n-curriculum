@@ -1,6 +1,6 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Zoezi la 77
+title: Task 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Usemi `Would you like to come?` unadhihirisha nini katika muktadha huu?
+What does the phrase `Would you like to come?` convey in this context?
 
 ## --answers--
 
-Kupuuza mwaliko.
+Declining an invitation.
 
 ### --feedback--
 
-Usemi huu hauimaanishi kusema "hapana". Ni kuhusu kutoa mwaliko.
+The phrase doesn't mean saying "no". It is about offering an invitation.
 
 ---
 
-Kutoa mwaliko.
+Extending an invitation.
 
 ---
 
-Kuonyesha shukrani.
+Expressing gratitude.
 
 ### --feedback--
 
-Usemi huu hauimaanishi "asante". Ni kuhusu kualika mtu.
+The phrase doesn't mean "thank you". It is about inviting someone.
 
 ---
 
-Kuomba taarifa.
+Asking for information.
 
 ### --feedback--
 
-Usemi huu si swali la kupata taarifa, bali ni mwaliko wa heshima kwa tukio.
+The phrase isn't a question to get information, but a polite invitation to an event.
 
 ## --video-solution--
 

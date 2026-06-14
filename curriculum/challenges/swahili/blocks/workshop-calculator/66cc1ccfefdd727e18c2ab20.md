@@ -1,21 +1,21 @@
 ---
 id: 66cc1ccfefdd727e18c2ab20
-title: Hatua 14
+title: Korak 14
 challengeType: 1
 dashedName: step-14
 ---
 
 # --description--
 
-`calculateQuotient` yako inaonekana inafanya kazi vizuri lakini kuna kesi moja ambayo bado hujajaribu.
+Vaš `calculateQuotient` izgleda da radi ispravno, ali postoji jedan slučaj koji niste još testirali.
 
-Ongeza `console.log` inayofanya wito wa kitendakazi cha `calculateQuotient` kwa hoja `3` na `0`.
+Dodajte `console.log` koji poziva funkciju `calculateQuotient` sa argumentima `3` i `0`.
 
-Hakikisha unatazama kwa makini matokeo ya wito huu.
+Obavezno pogledajte izlaz ovog poziva.
 
 # --hints--
 
-Unapaswa kuwa na `console.log` inayofanya wito wa kitendakazi cha `calculateQuotient` kwa hoja `3` na `0`.
+You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

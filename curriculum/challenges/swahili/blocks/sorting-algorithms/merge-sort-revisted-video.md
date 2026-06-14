@@ -1,6 +1,6 @@
 ---
 id: 698dea107932b3cc4b19c946
-title: Merge sort imeangaziwa tena
+title: Merge Sort Revisited
 challengeType: 11
 videoId: Aj6ikfTns9o
 dashedName: merge-sort-revisited
@@ -8,29 +8,29 @@ dashedName: merge-sort-revisited
 
 # --description--
 
-Katika video hii, utaangazia tena algoriti ya merge sort.
+In this video, you will revisit the merge sort algorithm.
 
 # --questions--
 
 ## --text--
 
-Tofauti kuu kati ya algoriti za merge sort na quicksort ni ipi?
+What is a core difference between the merge sort and quicksort algorithms?
 
 ## --answers--
 
-Merge sort hubadilisha vipengele vilivyo karibu mara kwa mara hadi vipangwe.
+Merge sort swaps adjacent elements repeatedly until sorted.
 
 ---
 
-Quicksort hugawanya orodha karibu na pivot na kupangilia kwa kurudia sehemu ndogo ndogo, wakati merge sort hugawanya orodha nusu na kuunganisha nusu zilizopangwa.
+Quicksort will partition the list around a pivot and recursively sort sublists, while merge sort splits the list in half and merges sorted halves.
 
 ---
 
-Merge sort hutumia jedwali la hash kuhesabu vipengele, wakati quicksort hutumia deque kupanga upya vipengele.
+Merge sort uses a hash table to count elements, whereas quicksort uses a deque to reorder elements.
 
 ---
 
-Quicksort daima hutumia mzunguko wa while kupangilia, wakati merge sort hutumia mzunguko wa for.
+Quicksort always uses a while loop to sort, while merge sort uses a for loop.
 
 ## --video-solution--
 

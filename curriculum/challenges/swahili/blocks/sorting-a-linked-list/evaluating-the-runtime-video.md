@@ -1,6 +1,6 @@
 ---
 id: 698de83d7932b3cc4b19c93d
-title: Kutathmini wakati wa utekelezaji
+title: Evaluating the Runtime
 challengeType: 11
 videoId: 4eQyFkVtkvk
 dashedName: evaluating-the-runtime
@@ -8,13 +8,13 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutathmini wakati wa utekelezaji kwa algoriti ya merge sort kwenye orodha zilizounganishwa.
+In this video, you will learn about how to evaluate runtimes for merge sort on linked lists.
 
 # --questions--
 
 ## --text--
 
-Je, wakati wa utekelezaji wa kitendakazi cha `split` katika utekelezaji wa merge sort ni gani?
+What is the runtime of the `split` function in the implementation of merge sort?
 
 ## --answers--
 

@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: Jaribio fupi la CSS Grid
+title: CSS Grid Quiz
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-CSS Grid ni nini?
+What is CSS Grid?
 
 #### --distractors--
 
-Njia inayotumika kuonyesha majedwali kwenye mtandao.
+A method used for displaying tables on a website.
 
 ---
 
-Njia inayotumika kuweka picha kwa mpangilio wa tiles.
+A method used for tiling images.
 
 ---
 
-Njia ya kuonyesha mipaka kuzunguka vipengele vya HTML.
+A way to display outlines around HTML elements.
 
 #### --answer--
 
-Mpangilio wa pande mbili kwa hati za HTML.
+A two-dimensional layout for HTML documents.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuunda chombo cha gridi?
+Which of the following is the correct way to create a grid container?
 
 #### --distractors--
 
@@ -61,73 +61,73 @@ Ni ipi kati ya zifuatazo njia sahihi ya kuunda chombo cha gridi?
 
 #### --text--
 
-Sifa ya `grid-template-columns` hufanya nini?
+What does the `grid-template-columns` property do?
 
 #### --distractors--
 
-Huweka safu mbili na mistari mitatu kwa chombo cha gridi.
+Defines two columns and three rows for a grid container.
 
 ---
 
-Huweka safu zote za mpangilio wa gridi kuwa na urefu thabiti.
+Sets all columns for the grid layout to a fixed length.
 
 ---
 
-Huunda chombo cha mpangilio wa gridi wa safu mbili.
+Creates a two column grid layout container.
 
 #### --answer--
 
-Huweka idadi ya safu katika mpangilio wa gridi.
+Defines the number of columns in a grid layout.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-template-rows` hufanya nini?
+What does the `grid-template-rows` property do?
 
 #### --distractors--
 
-Hubainisha ukubwa na mahali pa kipande cha gridi katika mpangilio wa gridi.
+Specifies a grid item's size and location in a grid layout.
 
 ---
 
-Huunda kiolezo cha kuunda mistari mipya ya gridi.
+Creates a template for creating new grid rows.
 
 ---
 
-Hubainisha ukubwa wa mstari wa chaguo-msingi katika chombo cha gridi.
+Specifies a default row size in the grid container.
 
 #### --answer--
 
-Hubainisha idadi na urefu wa kila mstari katika mpangilio wa gridi.
+Specifies the number and height for each row in a grid layout.
 
 ### --question--
 
 #### --text--
 
-Kitendakazi cha `minmax()` hufanya nini?
+What does the `minmax()` function do?
 
 #### --distractors--
 
-Hubadilisha kati ya thamani ya kwanza na ya pili, kulingana na nafasi iliyopo.
+Toggles between the first and second value, depending on available space.
 
 ---
 
-Hurudisha wastani wa ingizo mbili.
+Returns the average of the two inputs.
 
 ---
 
-Huweka ukubwa wa chini kabisa wa kipengele kwa kivinjari kinachofanya kazi kwa hali ya skrini kamili.
+Sets the minimal size of the element for browser working in full-screen mode.
 
 #### --answer--
 
-Huweka ukubwa wa chini na juu kwa njia ya mstari.
+Sets the minimum and maximum sizes for a track.
 
 ### --question--
 
 #### --text--
 
-Ni kifupi gani cha sifa za `column-gap` na `row-gap`?
+What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Ni kifupi gani cha sifa za `column-gap` na `row-gap`?
 
 #### --text--
 
-Tofauti gani kati ya gridi ya wazi na gridi ya wazi kabisa?
+What is the difference between an implicit and explicit grid?
 
 #### --distractors--
 
-Gridi za wazi hutumia sifa ya `grid-template-columns` wakati gridi za wazi kabisa hutumia sifa ya `grid-template-rows`.
+Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
 
 ---
 
-Gridi za wazi kabisa hutumia sifa ya `grid-template-columns` wakati gridi za wazi hutumia sifa ya `grid-template-rows`.
+Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
 
 ---
 
-Gridi za wazi hutumia sifa za `grid-template-columns` au `grid-template-rows` kuunda safu wakati mistari na safu huundwa moja kwa moja katika gridi za wazi kabisa.
+Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
 
 #### --answer--
 
-Gridi za wazi kabisa hutumia sifa za `grid-template-columns` au `grid-template-rows` kuunda safu wakati mistari na safu huundwa moja kwa moja katika gridi za wazi.
+Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya vitengo ifuatayo inawakilisha sehemu ya nafasi ndani ya chombo cha gridi?
+Which of the following units represents a fraction of the space within the grid container?
 
 #### --distractors--
 
@@ -193,51 +193,51 @@ Ni ipi kati ya vitengo ifuatayo inawakilisha sehemu ya nafasi ndani ya chombo ch
 
 #### --text--
 
-Mistari ya gridi ni nini?
+What are grid lines?
 
 #### --distractors--
 
-Kifupi cha mistari na safu.
+Shorthand for rows and columns.
 
 ---
 
-Mipaka ya kipengele cha gridi.
+Outlines of a grid element.
 
 ---
 
-Mistari ambayo safu na mistari ya gridi huundwa.
+Lines along which grid columns and rows are created.
 
 #### --answer--
 
-Mistari ambayo kila kipande cha gridi huanza na kumalizika.
+Lines on which each of the grid items begin and end.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-column` hufanya nini?
+What does the `grid-column` property do?
 
 #### --distractors--
 
-Huongeza kipengele kipya cha gridi kama mtoto wa kipengele kinachotumika.
+Adds a new grid element as a child of the element it's applied to.
 
 ---
 
-Hulinganisha maandishi ndani ya kipande cha gridi kwa wima.
+Aligns text in the grid item vertically.
 
 ---
 
-Huweka safu mbili kwa chombo cha gridi.
+Sets two columns for a grid container.
 
 #### --answer--
 
-Huambia kipande cha gridi mstari wa gridi ambamo kinapaswa kuanza na kumalizika.
+Tells the grid item on which grid line it should start and end at.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kuunda safu nne za upana sawa?
+How do you create four columns of equal width?
 
 #### --distractors--
 
@@ -259,51 +259,51 @@ Unawezaje kuunda safu nne za upana sawa?
 
 #### --text--
 
-Sifa ya `grid-template-areas` hufanya nini?
+What does the `grid-template-areas` property do?
 
 #### --distractors--
 
-Inatumika kubainisha mahali kipande kinaanza kwenye mstari katika chombo cha gridi.
+It is used to specify where the item begins on a line in the grid container.
 
 ---
 
-Inatumika kuunda mapengo kati ya njia katika chombo.
+It is used to create gaps between tracks in the container.
 
 ---
 
-Inatumika kurudia sehemu katika orodha ya njia.
+It is used to repeat sections in the track listing. 
 
 #### --answer--
 
-Inatumika kutoa jina kwa vipengele unavyopanga kwenye gridi.
+It is used to provide a name for the items you are going to position on the grid.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-auto-flow` hufanya nini?
+What does the `grid-auto-flow` property do?
 
 #### --distractors--
 
-Hudhibiti mpangilio wa vipengele vya gridi vinavyoonyeshwa.
+Controls the order in which grid items are displayed.
 
 ---
 
-Hubadilisha nafasi kati ya vipengele vya gridi.
+Adjusts the spacing between the grid elements.
 
 ---
 
-Hurekebisha kipengele kiendane na gridi moja kwa moja.
+Automatically adjusts the element to fit in the grid.
 
 #### --answer--
 
-Hudhibiti jinsi vipengele vinavyojiingiza moja kwa moja kwenye gridi.
+Controls how auto-placed elements get inserted to the grid.
 
 ### --question--
 
 #### --text--
 
-Ni ipi njia sahihi ya kutumia sifa ya `grid-template-areas`?
+Which of the following is the correct way to use the `grid-template-areas` property?
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Ni ipi njia sahihi ya kutumia sifa ya `grid-template-areas`?
 
 #### --text--
 
-Ni ipi njia sahihi ya kufanya kazi na sifa ya `grid-auto-flow`?
+Which of the following is the correct way to work with the `grid-auto-flow` property?
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Ni ipi njia sahihi ya kufanya kazi na sifa ya `grid-auto-flow`?
 
 #### --text--
 
-Ni ipi kati ya sifa zifuatazo si sifa halali ya gridi?
+Which of the following is NOT a valid grid property?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Ni ipi kati ya sifa zifuatazo si sifa halali ya gridi?
 
 #### --text--
 
-Ni sifa gani kati ya hizi inaweza kutumika kuweka vipengele katikati ndani ya kipengele cha gridi?
+Which of these properties can be used to center items inside a grid element?
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Ni sifa gani kati ya hizi inaweza kutumika kuweka vipengele katikati ndani ya ki
 
 #### --text--
 
-Ni thamani gani kati ya zifuatazo ni sahihi kutumia na sifa ya `grid-auto-columns`?
+Which of the following is a correct value to use with the `grid-auto-columns` property?
 
 #### --distractors--
 
@@ -484,29 +484,29 @@ Ni thamani gani kati ya zifuatazo ni sahihi kutumia na sifa ya `grid-auto-column
 
 #### --text--
 
-Mistari ya gridi ni nini?
+What are grid tracks?
 
 #### --distractors--
 
-Kifupi cha mistari na safu.
+Shorthand for rows and columns.
 
 ---
 
-Mistari ambayo unaweza kuhuisha harakati za vipengele vya gridi.
+Lines along which you can animate movement of the grid items.
 
 ---
 
-Mistari ambayo kila kipande cha gridi huanza na kumalizika.
+Lines on which each of the grid items begins and ends.
 
 #### --answer--
 
-Nafasi kati ya mistari miwili ya gridi inayopakana.
+Spaces between two adjacent grid lines.
 
 ### --question--
 
 #### --text--
 
-Ni ipi njia sahihi ya kutumia kitendakazi cha `minmax()`?
+Which of the following is the correct way to use the `minmax()` function?
 
 #### --distractors--
 
@@ -554,51 +554,51 @@ Ni ipi njia sahihi ya kutumia kitendakazi cha `minmax()`?
 
 #### --text--
 
-Unawezaje kuweka kipande cha gridi ndani ya mpangilio uliofafanuliwa na `grid-template-areas`?
+How do you position a grid item within a layout defined by `grid-template-areas`?
 
 #### --distractors--
 
-Kwa kubainisha moja kwa moja ukubwa na mahali pa kipande ndani ya gridi kwa kutumia `grid-template-rows` na `grid-template-columns`.
+By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
 
 ---
 
-Kwa kutumia sifa ya `grid-area` na kubainisha nafasi za kuanzia na kumalizika kwa safu na mstari.
+By using the `grid-area` property and specifying both row and column start and end positions.
 
 ---
 
-Kwa kuweka `grid-area` na kuratibu za pikseli waziwazi.
+By setting both `grid-area` and explicit pixel coordinates.
 
 #### --answer--
 
-Kwa kuweka eneo lililopewa jina kwenye sifa ya `grid-area` ya kipande.
+By assigning the named area to the item's `grid-area` property.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-auto-rows` hudhibiti nini?
+What does the `grid-auto-rows` property control?
 
 #### --distractors--
 
-Urefu wa mistari iliyobainishwa waziwazi.
+The height of explicitly defined rows.
 
 ---
 
-Upana wa juu kabisa wa safu za gridi.
+The maximum width of grid columns.
 
 ---
 
-Mapengo kati ya mistari.
+The spacing between rows.
 
 #### --answer--
 
-Ukubwa wa mistari iliyoundwa kwa njia isiyo wazi.
+The size of implicitly created rows.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ungetumia kufanya kipande cha gridi kizunguke mistari mingi?
+Which property would you use to make a grid item span multiple rows?
 
 #### --distractors--
 
@@ -620,29 +620,29 @@ Ni sifa gani ungetumia kufanya kipande cha gridi kizunguke mistari mingi?
 
 #### --text--
 
-Nini huainisha gridi ya wazi kabisa?
+What defines an explicit grid?
 
 #### --distractors--
 
-Mistari inayoundwa moja kwa moja ili kufaa maudhui.
+Tracks created automatically to fit content.
 
 ---
 
-Mistari yaliyobainishwa na kitengo cha `fr`.
+Tracks defined by the `fr` unit.
 
 ---
 
-Mistari yaliyoongezwa kwa `grid-auto-flow`.
+Tracks added with `grid-auto-flow`.
 
 #### --answer--
 
-Mistari iliyowekwa waziwazi na `grid-template-columns` au `grid-template-rows`.
+Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
 
 ### --question--
 
 #### --text--
 
-Ni thamani gani ya `grid-auto-flow` itafanya vipengele vipya kujaza safu kwanza?
+Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --distractors--
 
@@ -664,29 +664,29 @@ Ni thamani gani ya `grid-auto-flow` itafanya vipengele vipya kujaza safu kwanza?
 
 #### --text--
 
-Madhumuni ya `grid-template-areas` ni yapi?
+What is the purpose of `grid-template-areas`?
 
 #### --distractors--
 
-Kuunda mistari isiyo wazi moja kwa moja.
+To auto-generate implicit tracks.
 
 ---
 
-Kubadilisha kitengo cha `fr`.
+To replace the `fr` unit.
 
 ---
 
-Kuweka thamani za `z-index`.
+To set `z-index` values.
 
 #### --answer--
 
-Kuwa ramani ya kuona ya vipengele kwenye maeneo ya gridi yaliyopewa majina.
+To visually map items to named grid areas.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kufanya kipande cha gridi kuanza kwenye mstari wa safu wa 2 na kumalizika kwenye mstari wa safu wa 4?
+How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --distractors--
 
@@ -708,29 +708,29 @@ Unawezaje kufanya kipande cha gridi kuanza kwenye mstari wa safu wa 2 na kumaliz
 
 #### --text--
 
-Athari ya `grid-template-columns: 1fr 2fr 1fr` ni ipi?
+What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
 
 #### --distractors--
 
-Huunda safu tatu za upana sawa.
+Creates three equal-width columns.
 
 ---
 
-Hufanya safu ya katikati kuwa mara tatu pana zaidi kuliko zingine.
+Makes the middle column three times as wide as the others.
 
 ---
 
-Hulazimisha safu zote kuwa na upana wa `1fr` tu.
+Forces all columns to be exactly `1fr` wide.
 
 #### --answer--
 
-Huunda safu tatu ambapo safu ya katikati ni mara mbili pana kuliko zile za pembeni.
+Creates three columns where the middle is twice as wide as the sides.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
+How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --distractors--
 
@@ -773,73 +773,73 @@ Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
 
 #### --text--
 
-`repeat(3, minmax(100px, 1fr))` huunda nini?
+What does `repeat(3, minmax(100px, 1fr))` create?
 
 #### --distractors--
 
-Safu tatu ambazo haziwezi kupungua chini ya `100px`.
+Three columns that can't shrink below `100px`.
 
 ---
 
-Safu tatu za `100px` thabiti.
+Three fixed `100px` columns.
 
 ---
 
-Mistari mitatu yenye urefu wa juu kabisa wa `1fr`.
+Three rows with maximum height of `1fr`.
 
 #### --answer--
 
-Safu tatu zinazokua kwa uwiano lakini hazitapungua chini ya `100px`.
+Three columns that grow proportionally but won't shrink below `100px`.
 
 ### --question--
 
 #### --text--
 
-Ni taarifa gani kuhusu gridi zisizo wazi ni kweli?
+Which statement about implicit grids is true?
 
 #### --distractors--
 
-Gridi zisizo wazi hazizingatii sifa ya `gap`.
+Implicit grids ignore the `gap` property.
 
 ---
 
-Mistari isiyo wazi lazima ibainishwe na `grid-template-areas`.
+Implicit tracks must be defined with `grid-template-areas`.
 
 ---
 
-Mistari isiyo wazi inaweza kuundwa tu kwa kutumia sifa ya `grid-auto-flow`.
+Implicit tracks can only be created using the `grid-auto-flow` property.
 
 #### --answer--
 
-Mistari isiyo wazi huundwa wakati maudhui hayafai mistari iliyobainishwa wazi.
+Implicit tracks are created when content doesn't fit explicit tracks.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `place-items` hufanya nini katika CSS Grid?
+What does the `place-items` property do in CSS Grid?
 
 #### --distractors--
 
-Huweka ukubwa wa vipengele vya gridi moja kwa moja kulingana na nafasi iliyopo.
+It sets the size of grid items automatically based on available space.
 
 ---
 
-Hudhibiti maelezo ya safu na mistari ya kiolezo cha gridi.
+It controls the grid template's column and row definitions.
 
 ---
 
-Hurekebisha mpangilio wa vipengele vya gridi ndani ya kontena.
+It adjusts the order of grid items within the container.
 
 #### --answer--
 
-Ni kifupi cha kuoanisha vipengele vya gridi katika mwelekeo wa mstari na ndani ya mstari.
+It is a shorthand for aligning grid items in both the block and inline axes.
 
 ### --question--
 
 #### --text--
 
-CSS hii inafanikaje?
+What does this CSS accomplish?
 
 ```css
 .container {
@@ -849,69 +849,69 @@ CSS hii inafanikaje?
 
 #### --distractors--
 
-Huunda safu za `150px` thabiti zinazozidi ukubwa wa kontena.
+Creates fixed `150px` columns that overflow the container.
 
 ---
 
-Huunda safu ambazo ni za upana wa `1fr` tu bila kujali maudhui.
+Creates columns that are exactly `1fr` wide regardless of content.
 
 ---
 
-Huunda safu moja kwa kila `150px` ya upana uliopo.
+Creates a maximum of one column per `150px` of available width.
 
 #### --answer--
 
-Huunda safu zinazobadilika ambazo angalau ni `150px` na hupungua wakati nafasi ni ndogo.
+Creates flexible columns that are at least `150px` and collapse when space is limited.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kuunda mipangilio ya gridi isiyo sawa?
+How can you create asymmetric grid layouts?
 
 #### --distractors--
 
-Kwa kutumia vitengo vya `fr` pekee.
+By using only `fr` units.
 
 ---
 
-Kwa kuchanganya vitengo vya urefu tofauti katika `grid-template-columns`.
+By mixing different length units in `grid-template-columns`.
 
 ---
 
-Kwa kuweka `grid-asymmetric: true`.
+By setting `grid-asymmetric: true`.
 
 #### --answer--
 
-Kwa kubainisha ukubwa tofauti kwa kila mstari.
+By defining different sizes for each track.
 
 ### --question--
 
 #### --text--
 
-`grid-column-start: 2` hufanya nini kwa kipande cha gridi?
+What does `grid-column-start: 2` do to a grid item?
 
 #### --distractors--
 
-Hufanya kipande kizunguke safu 2.
+Makes it span 2 columns.
 
 ---
 
-Hukiondoa kwa pikseli 2.
+Offsets it by 2 pixels.
 
 ---
 
-Hukiweka kuanzia mstari wa pili wa gridi wima.
+Positions it starting at the second vertical grid line.
 
 #### --answer--
 
-Hufanya kipande kuanza kwenye mstari wa safu wa pili.
+Makes it start at the second column line.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ungetumia kudhibiti tabia ya kuzidi katika mistari ya gridi?
+Which property would you use to control overflow behavior in grid tracks?
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Ni sifa gani ungetumia kudhibiti tabia ya kuzidi katika mistari ya gridi?
 
 #### --text--
 
-Matokeo ya msimbo ufuatao yatakuwa yapi?
+What will be the result for the following code?
 
 ```css
 .container {
@@ -946,25 +946,25 @@ Matokeo ya msimbo ufuatao yatakuwa yapi?
 
 #### --distractors--
 
-Kontena litakuwa na safu tatu za upana sawa, na mistari miwili yenye urefu wa `150px` kila moja.
+The container will have three columns of equal width, and two rows with `150px` height each.
 
 ---
 
-Kontena litakuwa na safu tatu, zote zikiwa na upana wa `100px`, na mistari miwili yenye urefu wa `150px`.
+The container will have three columns, all with `100px` width, and two rows with `150px` height.
 
 ---
 
-Kontena litakuwa na mistari miwili, kila moja ikiwa na urefu wa `1fr`.
+The container will have two rows, each with a height of `1fr`.
 
 #### --answer--
 
-Kontena litakuwa na safu tatu: 100px, `1fr` na `2fr` upana na mistari miwili: moja auto na moja yenye urefu wa `150px`.
+The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kufanya kipande cha gridi kizunguke mistari yote iliyopo?
+How would you make a grid item span all available rows?
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ Unawezaje kufanya kipande cha gridi kizunguke mistari yote iliyopo?
 
 #### --text--
 
-Ni sifa gani hudhibiti ulinganifu wa vipengele vya gridi kando ya mwelekeo wa mstari?
+Which property controls the alignment of grid items along the block axis?
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Ni sifa gani hudhibiti ulinganifu wa vipengele vya gridi kando ya mwelekeo wa ms
 
 #### --text--
 
-Unawezaje kuhakikisha kipande cha gridi kinabaki kwenye safu ya kwanza bila kujali mabadiliko ya gridi?
+How can you ensure a grid item stays in the first column regardless of grid changes?
 
 #### --distractors--
 

@@ -1,6 +1,6 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Zoezi la 134
+title: Task 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Wapi sasa hivi monitor zimehifadhiwa?
+Where are the monitors stored now?
 
 ## --answers--
 
-Mwisho wa eneo la maegesho.
+At the end of the parking lot.
 
 ### --feedback--
 
-Sarah hakutaja eneo la maegesho.
+Sarah doesn't mention the parking lot.
 
 ---
 
-Ndani ya chumba cha IT.
+Inside the IT room.
 
 ### --feedback--
 
-Zilihamishwa kutoka ndani ya chumba cha IT mapema.
+They were moved out of the IT room earlier.
 
 ---
 
-Kando ya dawati la usalama.
+Next to the security desk.
 
 ### --feedback--
 
-Hakuna maelezo kuhusu dawati la usalama.
+There is no mention of a security desk.
 
 ---
 
-Karibu na mashine ya kahawa.
+Right near the coffee machine.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Karibu na mashine ya kahawa.
 
 # --explanation--
 
-Sarah anatoa maelekezo wazi yanayomalizika na rejea: `the coffee machine`.
+Sarah gives clear directions ending with a reference point: `the coffee machine`.
 
-Anaeleza kwamba baada ya kwenda moja kwa moja kwenye korido na kugeuka kushoto, monitor zinaweza kupatikana zikiwa zimewekwa kinyume na mashine ya kahawa, na kufanya mashine ya kahawa kuwa alama ya karibu na inayoonekana kwa urahisi ya kuzitafuta.
+She explains that after going down the corridor and turning left, the monitors can be found positioned across from it, making the coffee machine the closest visible landmark for finding them.
 
 # --scene--
 

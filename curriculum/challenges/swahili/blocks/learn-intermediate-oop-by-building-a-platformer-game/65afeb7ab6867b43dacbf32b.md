@@ -1,31 +1,31 @@
 ---
 id: 65afeb7ab6867b43dacbf32b
-title: Hatua 10
+title: Step 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Unapobuni mchezo, utahitaji kuhakikisha kuwa ukubwa wa vipengele katika mchezo unajibadilisha kulingana na kifaa na unaendana na ukubwa tofauti wa skrini.
+As you are designing the game, you will need to make sure that the size of the elements in the game are responsive and adapt to different screen sizes.
 
-Anza kwa kuunda kitendakazi cha mshale kinachoitwa `proportionalSize` kinachopokea kigezo cha `size`.
+Start by creating an arrow function called `proportionalSize` that takes in a `size` parameter.
 
 # --hints--
 
-`proportionalSize` inapaswa kuwa kitendakazi.
+`proportionalSize` should be a function.
 
 ```js
 assert.isFunction(proportionalSize);
 ```
 
-Kitendakazi chako cha `proportionalSize` kinapaswa kutumia sintaksia ya mshale.
+Your `proportionalSize` function should use arrow syntax.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*.*\s*\)?\s*=>/);
 ```
 
-Kitendakazi chako cha `proportionalSize` kinapaswa kuwa na kigezo cha `size`.
+Your `proportionalSize` function should have a `size` parameter.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*size\s*\)?\s*=>/);

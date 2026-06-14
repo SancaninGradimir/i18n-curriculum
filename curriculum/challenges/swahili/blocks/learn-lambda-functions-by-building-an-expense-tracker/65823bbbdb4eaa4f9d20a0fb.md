@@ -1,25 +1,25 @@
 ---
 id: 65823bbbdb4eaa4f9d20a0fb
-title: Hatua 25
+title: Step 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Katika kitendakazi cha `total_expenses`, sasa utaunganisha kitendakazi cha lambda. Badilisha `pass` na kitendakazi cha lambda chenye `expense` kama kigezo chake.
+In the `total_expenses` function, you'll now integrate a lambda function. Replace `pass` with a lambda function that has `expense` as its parameter.
 
-`expense` inatarajiwa kuwa kamusi, na kitendakazi chako cha lambda kinapaswa kurudisha thamani ya ufunguo wa `'amount'` katika kamusi ya `expense`.
+`expense` is expected to be a dictionary, and your lambda function should return the value of the `'amount'` key in the `expense` dictionary.
 
 # --hints--
 
-Unapaswa kuunda kitendakazi cha `lambda` kinachotumia kigezo cha `expense` na kurudisha `expense['amount']` katika kitendakazi chako cha `total_expenses`.
+You should create a `lambda` function that uses the parameter `expense` and returns `expense['amount']` in your `total_expenses` function.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("total_expenses").has_stmt("lambda expense: expense['amount']")`)) })
 ```
 
-Haupasi kuwa na `pass` katika kitendakazi chako cha `total_expenses`.
+You should not have `pass` in your `total_expenses` function.
 
 ```js
 ({ test: () => assert.isFalse(runPython(`_Node(_code).find_function("total_expenses").has_pass()`)) })

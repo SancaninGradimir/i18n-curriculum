@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c450eddfaeb5bdef
-title: Tumia uandishi wa mabano kupata herufi ya nambari N katika mfuatano wa herufi
+title: Use Bracket Notation to Find the Nth Character in a String
 challengeType: 1
 forumTopicId: 18343
 dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-nth-character-in-a-string
 
 # --description--
 
-Unaweza pia kutumia <dfn>uandishi wa mabano</dfn> kupata herufi katika nafasi nyingine ndani ya mfuatano wa herufi.
+You can also use <dfn>bracket notation</dfn> to get the character at other positions within a string.
 
-Kumbuka kuwa kompyuta huanza kuhesabu kwa `0`, kwa hivyo herufi ya kwanza ni kweli herufi ya nambari sifuri.
+Remember that computers start counting at `0`, so the first character is actually the zeroth character.
 
-Mfano:
+Example:
 
 ```js
 const firstName = "Ada";
 const secondLetterOfFirstName = firstName[1];
 ```
 
-`secondLetterOfFirstName` itakuwa na thamani ya mfuatano wa herufi `d`.
+`secondLetterOfFirstName` would have a value of the string `d`.
 
 # --instructions--
 
-Tujaribu kuweka `thirdLetterOfLastName` ili iwe sawa na herufi ya tatu ya mabadiliko ya `lastName` kwa kutumia uandishi wa mabano.
+Let's try to set `thirdLetterOfLastName` to equal the third letter of the `lastName` variable using bracket notation.
 
-**Kidokezo:** Jaribu kuangalia mfano ulio juu ikiwa utagongwa na shida.
+**Hint:** Try looking at the example above if you get stuck.
 
 # --hints--
 
-Mabadiliko ya `thirdLetterOfLastName` yanapaswa kuwa na thamani ya `v`.
+The `thirdLetterOfLastName` variable should have the value of `v`.
 
 ```js
 assert(thirdLetterOfLastName === 'v');
 ```
 
-Unapaswa kutumia uandishi wa mabano.
+You should use bracket notation.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/thirdLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

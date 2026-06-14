@@ -1,17 +1,17 @@
 ---
 id: 65ef1afca9a8f6be0d4150ba
-title: Hatua 10
+title: Step 10
 challengeType: 20
 dashedName: step-10
 ---
 
 # --description--
 
-Weka thamani ya `root` kuwa `None` kwa sasa, bado huna thamani ya makadirio.
+Set the value of `root` to `None` as at this point, you don't have an approximate value yet.
 
 # --hints--
 
-Thamani ya `root` inapaswa kuwa `None`.
+The value of `root` should be `None`.
 
 ```js
 ({

@@ -1,6 +1,6 @@
 ---
 id: 657fb5afeeba2de5d01dda0e
-title: Zoezi la 81
+title: Task 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Tom anajibu vipi mwaliko wa Sarah wa mkataba wa sayansi ya kubuni (sci-fi)?
+How does Tom respond to Sarah's invitation to the sci-fi convention?
 
 ## --answers--
 
-Anakubali mara moja.
+Accepts immediately.
 
 ### --feedback--
 
-Tom hakubali mwaliko. Anataja kutokuwepo kwa hamu yake katika sayansi ya kubuni.
+Tom does not accept the invitation. He mentions his lack of interest in sci-fi.
 
 ---
 
-Anakataa kwa heshima.
+Declines politely.
 
 ---
 
-Anaonyesha kutokuwa na hamu.
+Shows disinterest.
 
 ### --feedback--
 
-Ingawa Tom anaonyesha kutokuwepo kwa hamu, jibu lake ni zaidi kuhusu kukataa mwaliko kwa heshima badala ya kuonyesha tu kutokuwa na hamu.
+While Tom expresses a lack of interest, his response is more about declining the invitation politely rather than just showing disinterest.
 
 ---
 
-Anapuuzia mwaliko.
+Ignores the invitation.
 
 ### --feedback--
 
-Tom anakubali mwaliko na kujibu, hivyo haumpuuzii.
+Tom acknowledges the invitation and responds, so he does not ignore it.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 6994ea79a4cface895ccb5ab
-title: Zoezi la 8
+title: Task 8
 challengeType: 22
 dashedName: task-8
 lang: es
@@ -10,13 +10,13 @@ lang: es
 
 # --description--
 
-Majina ya mtumiaji yanaweza kuwa na alama maalum.
+Usernames may have special symbols.
 
-Sasa utamsikia Luna akisema jina la mtumiaji wa Carlos. Utaona kuwa lina alama hii `-`, ambayo huitwa `guión` kwa Kihispania.
+Now you'll hear Luna saying Carlos' username. You'll notice that it has this symbol `-`, which is called `guión` in Spanish.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -30,13 +30,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Luna anataja kuwa hili ni jina la mtumiaji wa Carlos. Kumbuka kujumuisha alama ya mkato (`-`) kati ya majina.
+Luna mentions that this is Carlos' username. Remember to include the hyphen (`-`) between the names.
 
 # --explanation--
 
-Luna anasema: `Su usuario es carlos-velez.`
+Luna says: `Su usuario es carlos-velez.`
 
-Alama `-` inajulikana kama `guión` kwa Kihispania. Kumbuka kuweka alama ya nukta juu ya herufi `o`.
+The symbol `-` is known as `guión` in Spanish. Remember to include the accent mark on the letter `o`.
 
 # --scene--
 

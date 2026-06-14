@@ -1,6 +1,6 @@
 ---
 id: 698dd7f67932b3cc4b19c932
-title: Kutekeleza utaftaji
+title: Implementing Search
 challengeType: 11
 videoId: 2X7ysO7o-Kc
 dashedName: implementing-search
@@ -8,13 +8,13 @@ dashedName: implementing-search
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutekeleza njia ya utaftaji kwa orodha zilizounganishwa katika msimbo kwa kutumia lugha ya programu ya Python.
+In this video, you will learn how to implement a search method for linked lists in code using the Python programming language.
 
 # --questions--
 
 ## --text--
 
-Ni wakati gani mbaya zaidi wa utekelezaji wa utaftaji katika orodha iliyounganishwa?
+What is the worst case runtime for searching a linked list?
 
 ## --answers--
 

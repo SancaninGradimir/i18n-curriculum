@@ -1,6 +1,6 @@
 ---
 id: bd7123c8c441eddfaeb5bdef
-title: Salamu kwa vipengele vya HTML
+title: Say Hello to HTML Elements
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gpt2'
 forumTopicId: 18276
@@ -9,37 +9,37 @@ dashedName: say-hello-to-html-elements
 
 # --description--
 
-Karibu kwenye changamoto za msimbo wa HTML za freeCodeCamp. Hizi zitakuongoza hatua kwa hatua katika ukuzaji wa mtandao.
+Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
 
-Kwanza, utaanza kwa kujenga ukurasa wa mtandao rahisi ukitumia HTML. Unaweza kuhariri msimbo katika mhariri wako wa msimbo, ambao umeingizwa katika ukurasa huu wa mtandao.
+First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
 
-Je, unaona msimbo katika mhariri wako wa msimbo unaosema `<h1>Hello</h1>`? Hiyo ni kipengele cha HTML.
+Do you see the code in your code editor that says `<h1>Hello</h1>`? That's an HTML element.
 
-Vipengele vingi vya HTML vina lebo ya kufungua na lebo ya kufunga.
+Most HTML elements have an opening tag and a closing tag.
 
-Leboa za kufungua zinaonekana hivi:
+Opening tags look like this:
 
 ```html
 <h1>
 ```
 
-Leboa za kufunga zinaonekana hivi:
+Closing tags look like this:
 
 ```html
 </h1>
 ```
 
-Tofauti pekee kati ya lebo za kufungua na lebo za kufunga ni alama ya mstari wa mbele inayofuata mabano ya kufungua katika lebo ya kufunga.
+The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
 
-Kila changamoto ina majaribio ambayo unaweza kuyafanya wakati wowote kwa kubofya kitufe cha "Run tests". Ukipita majaribio yote, utaombwa wasilisha suluhisho lako na uende kwenye changamoto inayofuata ya msimbo.
+Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
 
 # --instructions--
 
-Ili kupita jaribio katika changamoto hii, badilisha maandishi ya kipengele chako cha `h1` kuwa `Hello World`.
+To pass the test on this challenge, change your `h1` element's text to say `Hello World`.
 
 # --hints--
 
-Kipengele chako cha `h1` kinapaswa kuwa na maandishi `Hello World`.
+Your `h1` element should have the text `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);

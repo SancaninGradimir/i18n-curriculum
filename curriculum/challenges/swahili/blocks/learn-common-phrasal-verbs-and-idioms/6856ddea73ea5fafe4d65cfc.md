@@ -1,6 +1,6 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Zoezi la 95
+title: Task 95
 challengeType: 19
 dashedName: task-95
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Linda angeweza kupongeza wazo la Jake vipi?
+How could Linda praise Jake's idea?
 
 ## --answers--
 
@@ -38,7 +38,7 @@ EN13416258
 
 ### --feedback--
 
-Hii inaonekana kuwa na shaka, si ya kuunga mkono.
+This sounds doubtful, not supportive.
 
 ## --video-solution--
 
@@ -46,11 +46,11 @@ Hii inaonekana kuwa na shaka, si ya kuunga mkono.
 
 # --explanation--
 
-`That's an excellent suggestion` ni njia ya heshima na chanya ya kupongeza wazo la mtu kwa kuonyesha makubaliano makubwa na idhini. Kwa mfano:
+`That's an excellent suggestion` is a polite and positive way to praise someone's idea by showing strong agreement and approval. For example:
 
-- **Mbunifu wa picha:** `Let's add more visuals to the report.` – Mtu huyu anapendekeza kuingiza picha na michoro zaidi kwenye ripoti ili kuifanya ionekane wazi zaidi.
+- **Graphic designer:** `Let's add more visuals to the report.` – This person suggests that they incorporate more graphics and images to the report to make it more vivid.
 
-- **Msimamizi wa mradi:** `That's an excellent suggestion.` – Hii ina maana mtu anadhani wazo ni zuri sana na lina msaada.
+- **Project manager:** `That's an excellent suggestion.` – This means the person thinks the idea is very good and helpful.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb6bdef
-title: Gawanya nambari moja kwa nyingine kwa kutumia JavaScript
+title: Divide One Number by Another with JavaScript
 challengeType: 1
 forumTopicId: 17566
 dashedName: divide-one-number-by-another-with-javascript
@@ -8,30 +8,30 @@ dashedName: divide-one-number-by-another-with-javascript
 
 # --description--
 
-Tunaweza pia kugawanya nambari moja kwa nyingine.
+We can also divide one number by another.
 
-JavaScript hutumia alama ya `/` kwa ajili ya mgawanyo.
+JavaScript uses the `/` symbol for division.
 
-**Mfano**
+**Example**
 
 ```js
 const myVar = 16 / 2;
 ```
 
-`myVar` sasa ina thamani ya `8`.
+`myVar` now has the value `8`.
 # --instructions--
 
-Badilisha `0` ili `quotient` iwe sawa na `2`.
+Change the `0` so that the `quotient` is equal to `2`.
 
 # --hints--
 
-Kigezo `quotient` kinapaswa kuwa sawa na 2.
+The variable `quotient` should be equal to 2.
 
 ```js
 assert(quotient === 2);
 ```
 
-Unapaswa kutumia opereta wa `/`.
+You should use the `/` operator.
 
 ```js
 assert(/\d+\s*\/\s*\d+/.test(__helpers.removeJSComments(code)));

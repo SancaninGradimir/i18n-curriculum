@@ -1,6 +1,6 @@
 ---
 id: 65fc9be86f2ae26ddcdf0bb3
-title: Zoezi la 36
+title: Task 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -11,41 +11,41 @@ lang: en-US
 
 # --description--
 
-Sikiliza Maria na jibu swali.
+Listen to Maria and answer the question.
 
 # --questions--
 
 ## --text--
 
-Nini kinaweza kuongeza motisha yao kulingana na Maria?
+What can boost their motivation according to Maria?
 
 ## --answers--
 
-Kuwa na timu kubwa
+Having a big team
 
 ### --feedback--
 
-Fikiria ni nini hasa kinachowafanya timu kuwa na motisha zaidi, si ukubwa wa timu tu.
+Think about what specifically makes the team more motivated, not just the size of the team.
 
 ---
 
-Kupumzika kwa muda mrefu
+Taking a long break
 
 ### --feedback--
 
-Fikiria kama mapumziko yameelezwa kama njia ya kuongeza motisha.
+Consider if breaks are mentioned as a way to increase motivation.
 
 ---
 
-Kuona timu ikiwa na msukumo
+Seeing the team inspired
 
 ---
 
-Kutatua matatizo haraka
+Solving problems quickly
 
 ### --feedback--
 
-Fikiria kama kasi ya kutatua matatizo ndiyo Maria anayoangazia kama chanzo cha motisha.
+Reflect on whether the speed of solving problems is what Maria highlights as motivating.
 
 ## --video-solution--
 

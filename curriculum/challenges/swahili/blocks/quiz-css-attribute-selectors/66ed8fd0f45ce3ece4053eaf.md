@@ -1,13 +1,13 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: Jaribio fupi la wachaguzi wa sifa za kipengele za CSS
+title: CSS Attribute Selectors Quiz
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Wachaguzi wa sifa za kipengele za CSS hutumika kwa ajili gani?
+What are CSS attribute selectors used for?
 
 #### --distractors--
 
-Kuweka mitindo kwa vipengele kulingana na jina la lebo yao.
+To apply styles to elements based on their tag name.
 
 ---
 
-Kuweka mitindo kwa vipengele kulingana na jina la darasa lao la vitu.
+To apply styles to elements based on their class name.
 
 ---
 
-Kuweka mitindo kwa vipengele kulingana na kipengele mzazi wao.
+To apply styles to elements based on their parent element.
 
 #### --answer--
 
-Kuweka mitindo kwa vipengele kulingana na sifa zao za kipengele.
+To apply styles to elements based on their attributes.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo isiyotachaguliwa na kichaguzi hiki cha CSS?
+Which of the following will NOT be selected by this CSS selector?
 
 ```css
 [title~="flower"] {
@@ -75,7 +75,7 @@ Ni ipi kati ya zifuatazo isiyotachaguliwa na kichaguzi hiki cha CSS?
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na vipengele vyote vya `p` vyenye sifa ya `lang` iliyowekwa kuwa `"fr"`?
+Which CSS selector matches all `p` elements with a `lang` attribute set to `"fr"`?
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na vipengele vyote vya `a` vyenye sifa ya `href`?
+Which CSS selector matches all `a` elements with an `href` attribute?
 
 #### --distractors--
 
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na orodha zilizopangwa zenye nambari za Kirumi kubwa?
+Which CSS selector matches all ordered lists with uppercase Roman numerals?
 
 #### --distractors--
 
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-Sifa ya `data-lang` hutumika kwa kawaida kwa ajili gani?
+What is the `data-lang` attribute commonly used for?
 
 #### --distractors--
 
-Kubainisha lugha ya hati.
+To specify the language of the document.
 
 ---
 
-Kufafanua usimbaji wa herufi wa hati.
+To define the character encoding of the document.
 
 ---
 
-Kuweka lugha ya kipengele kulingana na kipengele mzazi wake.
+To set the language of an element based on its parent element.
 
 #### --answer--
 
-Kuhifadhi data maalum kwenye kipengele cha HTML ambacho CSS au JavaScript vinaweza kutumia.
+To store custom data on an HTML element that CSS or JavaScript can then use.
 
 ### --question--
 
 #### --text--
 
-Ni kichaguzi gani cha CSS unapaswa kutumia kuweka mtindo kwa vipengele vya `img` tu ikiwa sifa yao ya `alt` ni sawa na `"code"`?
+Which CSS selector should you use to style `img` elements only if their `alt` attribute is equal to `"code"`?
 
 #### --distractors--
 
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na orodha zilizopangwa zenye aina ya nambari za tarakimu?
+Which CSS selector matches ordered lists with a numerical numbering type?
 
 #### --distractors--
 
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Ni ipi kati ya wachaguzi wa CSS zifuatazo ungetumia kuweka mtindo kwa vipengele vya `a` vyenye sifa za `href` na `title` zote mbili?
+Which of the following CSS selectors would you use to style `a` elements with both `href` and `title` attributes?
 
 #### --distractors--
 
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS ungetumia ikiwa unatengeneza mtandao wa mkahawa na unataka kuweka mtindo kwa vipengele vyote vyenye darasa la vitu la `menu-item` ambavyo vina sifa ya `data-special`?
+Which CSS selector would you use if you are developing a website for a restaurant and want to style all elements with the `menu-item` class that have a `data-special` attribute?
 
 #### --distractors--
 
@@ -302,3 +302,4 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
+

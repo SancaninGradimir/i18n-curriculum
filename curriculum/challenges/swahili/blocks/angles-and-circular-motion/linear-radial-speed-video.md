@@ -1,6 +1,6 @@
 ---
 id: 699e56ba8f18cf77dfce5c0c
-title: Kasi ya mstari na mviringo
+title: Linear and Radial Speed
 challengeType: 11
 videoId: nsZvoNqWCMo
 dashedName: linear-and-radial-speed
@@ -8,30 +8,32 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kasi ya mstari na kasi ya mviringo kwa mizunguko ya duara.
+In this video, you will learn about linear and radial speed for rotating circles.
 
 # --questions--
 
 ## --text--
 
-Kasi ya mstari ni nini?
+What is linear speed?
 
 ## --answers--
 
-Idadi ya mizunguko inayokamilika kwa dakika moja.
+The number of rotations completed in one minute.
 
 ---
 
-Umbali kutoka katikati ya duara hadi kingo yake.
+The distance from the center of a circle to its edge.
 
 ---
 
-Umbali ambao sehemu husafiri katika kipindi cha wakati.
+The distance a point travels in a unit of time.
 
 ---
 
-Nukta ambayo sehemu inazunguka ndani ya kipindi cha wakati.
+The angle a point rotates through in a unit of time.
 
 ## --video-solution--
 
 3
+
+

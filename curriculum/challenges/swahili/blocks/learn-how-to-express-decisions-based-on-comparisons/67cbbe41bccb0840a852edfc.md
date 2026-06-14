@@ -1,6 +1,6 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Zoezi la 44
+title: Task 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Usemi huu wa maneno matatu hutumika kuonyesha kuthamini na kushukuru kwa kupokea taarifa muhimu au yenye msaada. Mara nyingi hutumika unapojifunza kitu chenye manufaa.
+This three-word phrase is used to acknowledge and show appreciation for receiving useful or important information. It's often used when you learn something helpful.
 
 ---
 
@@ -32,7 +32,7 @@ Usemi huu wa maneno matatu hutumika kuonyesha kuthamini na kushukuru kwa kupokea
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kuchagua kitu, hasa baada ya kuzingatia chaguzi tofauti.
+This two-word phrase means to choose or select something, especially after considering different options.
 
 ---
 
@@ -40,21 +40,21 @@ Usemi huu wa maneno mawili unamaanisha kuchagua kitu, hasa baada ya kuzingatia c
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unahusu kitu ambacho ni muhimu zaidi au cha dharura zaidi.
+This two-word phrase refers to something that is the most important or urgent.
 
 # --explanation--
 
-`Good to know` hutumika kuonyesha kwamba taarifa iliyoshirikiwa ni ya msaada au inathaminiwa. Kwa mfano:
+`Good to know` is used to show that the information shared is useful or appreciated. For example:
 
-`It's good to know that the software is easy to use.` - Hii ina maana kwamba msemaji anathamini kujifunza kuwa programu ni rahisi kutumia.
+`It's good to know that the software is easy to use.` - This means the speaker appreciates learning that the software is easy to use.
 
-`Go with` inamaanisha kuchagua kitu, kawaida baada ya kufikiria au kulinganisha. Kwa mfano:
+`Go with` means to choose something, usually after some thought or comparison. For example:
 
-`After much discussion, we went with the cheaper option.` - Hii ina maana umechagua chaguo la bei nafuu zaidi baada ya kuzingatia chaguzi tofauti.
+`After much discussion, we went with the cheaper option.` - This means you chose the less expensive option after considering different choices.
 
-`Top priority` inamaanisha kwamba kitu ni jambo la muhimu zaidi kuzingatia au kulizingatia. Mara nyingi hutumika katika muktadha wa kazi au maamuzi. Kwa mfano:
+`Top priority` means that something is the most important thing to consider or focus on. It's often used in work or decision-making contexts. For example:
 
-`Our top priority right now is improving the website's performance.` - Hii ina maana zoezi la muhimu zaidi kwa sasa ni kuboresha utendaji wa tovuti, na hivyo kuwa kipaumbele kikuu.
+`Our top priority right now is improving the website's performance.` - This means the most important task at the moment is to improve how well the website works, making it a main focus.
 
 # --scene--
 

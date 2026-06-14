@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdff
-title: Microservice ya Kuchambua Kichwa cha Ombi
+title: Request Header Parser Microservice
 challengeType: 4
 forumTopicId: 301507
 dashedName: request-header-parser-microservice
@@ -8,14 +8,14 @@ dashedName: request-header-parser-microservice
 
 # --description--
 
-Jenga programu ya JavaScript ya full-stack ambayo inaendana kiutendaji na hii: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako ukitumia mojawapo ya njia zifuatazo:
+Build a full-stack JavaScript app that is functionally similar to this: <a href="https://request-header-parser-microservice.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://request-header-parser-microservice.freecodecamp.rocks/</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha umejumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-headerparser/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+You should provide your own project, not the example URL.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   );
 ```
 
-Ombi kwa `/api/whoami` linapaswa kurudisha kitu cha JSON chenye anwani yako ya IP katika ufunguo wa `ipaddress`.
+A request to `/api/whoami` should return a JSON object with your IP address in the `ipaddress` key.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -36,7 +36,7 @@ Ombi kwa `/api/whoami` linapaswa kurudisha kitu cha JSON chenye anwani yako ya I
   assert(data.ipaddress && data.ipaddress.length > 0);
 ```
 
-Ombi kwa `/api/whoami` linapaswa kurudisha kitu cha JSON chenye lugha unayopendelea katika ufunguo wa `language`.
+A request to `/api/whoami` should return a JSON object with your preferred language in the `language` key.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -47,7 +47,7 @@ Ombi kwa `/api/whoami` linapaswa kurudisha kitu cha JSON chenye lugha unayopende
   assert(data.language && data.language.length > 0);
 ```
 
-Ombi kwa `/api/whoami` linapaswa kurudisha kitu cha JSON chenye programu yako katika ufunguo wa `software`.
+A request to `/api/whoami` should return a JSON object with your software in the `software` key.
 
 ```js
   const response = await fetch(code + '/api/whoami');
@@ -57,3 +57,4 @@ Ombi kwa `/api/whoami` linapaswa kurudisha kitu cha JSON chenye programu yako ka
   const data = await response.json();
   assert(data.software && data.software.length > 0);
 ```
+

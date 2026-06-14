@@ -1,6 +1,6 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Zoezi la 28
+title: Task 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-`smile` ni kile kinachotokea unapoinua pembe za mdomo wako kuonyesha furaha. Ni kitu unachofanya kwa uso wako unapokuwa na furaha au unapotaka kuwa mzuri.
+A `smile` is what happens when you turn up the corners of your mouth to show happiness. It is something you do with your face when you are happy or want to be nice.
 
-`Friendly` huelezea mtu ambaye ni mkarimu, mzuri, na rahisi kuzungumza naye. Mtu mwenye tabasamu la kirafiki hufanya wengine wajisikie vizuri na wenye furaha.
+`Friendly` describes someone who is kind, nice, and easy to talk to. A friendly person makes others feel comfortable and happy.
 
-`A friendly smile` ni tabasamu linaloonyesha kuwa unakuwa mkarimu na mwenye ukaribisho. Hufanya wengine wajisikie vizuri na kuonyesha unataka kuwa marafiki.
+`A friendly smile` is a smile that shows you are being kind and welcoming. It makes others feel good and shows you want to be friends.
 
-Sikiliza mazungumzo na ujaze mapengo.
+Listen to the dialogue and fill in the blanks.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Sikiliza mazungumzo na ujaze mapengo.
 
 ### --feedback--
 
-Mapengo haya yanaelezea mtu ambaye ni mzuri, rahisi kuzungumza naye na mwenye ukaribisho.
+This blank describes someone who is nice, easy to talk to and welcoming.
 
 ---
 
@@ -38,7 +38,7 @@ Mapengo haya yanaelezea mtu ambaye ni mzuri, rahisi kuzungumza naye na mwenye uk
 
 ### --feedback--
 
-Kitendo unachofanya unapokuwa unataka kuonyesha furaha kwa mdomo wako.
+The action you do when you want to show happiness with your mouth.
 
 # --scene--
 

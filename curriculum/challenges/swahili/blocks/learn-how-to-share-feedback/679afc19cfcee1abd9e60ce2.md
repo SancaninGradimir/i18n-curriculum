@@ -1,6 +1,6 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Zoezi la 61
+title: Task 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Brian anaamini nini kinaweza kutokea ikiwa hatutamsikiliza mtu yeyote katika timu anayekataa?
+What does Brian think might happen if we don't listen to those in the team who disagree?
 
 ## --answers--
 
-Wanaweza kupoteza motisha.
+They might lose motivation.
 
 ---
 
-Wataacha kuwa na mizozo.
+They will stop having disagreements.
 
 ### --feedback--
 
-Kukataa maoni ya watu hakusimamishi mizozo; inaweza tu kuwafanya watu wasihusike.
+Ignoring people's opinions does not stop disagreements; it might just make people less engaged.
 
 ---
 
-Watafanya kazi kwa bidii zaidi kuthibitisha hoja yao.
+They will work harder to prove their point.
 
 ### --feedback--
 
-Brian hapendekezi kwamba kuhisi kutothaminiwa kunawafanya watu kufanya kazi kwa bidii zaidi.
+Brian does not suggest that feeling undervalued makes people work harder.
 
 ---
 
-Watakubali kila kitu moja kwa moja.
+They will automatically agree with everything.
 
 ### --feedback--
 
-Kusikiliza watu si kuwafanya wakubali kila kitu — inaweza kuwafanya wasihusike badala yake.
+Not listening to people doesn't make them agree with everything — it can make them disengage instead.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Kusikiliza watu si kuwafanya wakubali kila kitu — inaweza kuwafanya wasihusike
 
 # --explanation--
 
-`To feel valued` inaelezea hisia unazopata unapohisi kwamba mawazo, jitihada, na michango yako inathaminiwa. Kwa mfano:
+`To feel valued` describes the sensation you have when you believe that your thoughts, efforts, and contributions are appreciated. For example:
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - Hii ina maana mtazamo wa meneja wa mradi unaleta matokeo mazuri kwa timu.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - This means the attitude of the project manager is bringing good results to the team.
 
-Brian anapendekeza kwamba ikiwa maoni ya wanatimu yatakataa, wanaweza kuhisi hawana umuhimu. Ikiwa wanatimu wanahisi wanathaminiwa, wana uwezekano mkubwa wa kuendelea kushiriki na kuchangia mawazo mapya.
+What Brian suggests is that if team members' opinions are ignored, they may feel unimportant. If team members feel valued, they are more likely to stay engaged and contribute new ideas.
 
-Kwa upande mwingine, ikiwa watu wanahisi maoni yao hayana maana, wanaweza kutohusika na kupoteza motisha ya kuchangia, jambo ambalo linaweza kuathiri ushirikiano wa timu na uzalishaji kwa ujumla.
+On the other hand, if people feel like their opinions don't matter, they might become disengaged and lose motivation to contribute, which can harm overall teamwork and productivity.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 08854a2c6f052efa1e5270d2
-title: Taarifa za if
+title: If Statements
 challengeType: 11
 videoId: lruoyNlItfg
 dashedName: if-statements
@@ -8,13 +8,13 @@ dashedName: if-statements
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia taarifa za if kudhibiti mtiririko wa programu zako za Python kulingana na masharti.
+In this video, you will learn how to use if statements to control the flow of your Python programs based on conditions.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+What will be the output for the following code?
 
 ```python
 is_male = True

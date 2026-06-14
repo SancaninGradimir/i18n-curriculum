@@ -1,6 +1,6 @@
 ---
 id: 68feee5abac0c3186f90b3ad
-title: Zoezi la 9
+title: Task 9
 challengeType: 19
 dashedName: task-9
 lang: zh-CN
@@ -10,13 +10,13 @@ lang: zh-CN
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Ni chaguo gani kinachotoa Pinyin sahihi kwa kile anachosema Wang Hua?
+Which option is the correct Pinyin for what Wang Hua says?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Ni chaguo gani kinachotoa Pinyin sahihi kwa kile anachosema Wang Hua?
 
 ### --feedback--
 
-Lahaja ya silabi ya kwanza haifananishi na unavyosikia kwenye sauti.
+The tone of the first syllable doesn't match what you hear in the audio.
 
 ---
 
@@ -36,7 +36,7 @@ Lahaja ya silabi ya kwanza haifananishi na unavyosikia kwenye sauti.
 
 ### --feedback--
 
-Mwisho wa silabi ya kwanza si ule anayeusema.
+The final of the first syllable is not what she says.
 
 ---
 
@@ -44,7 +44,7 @@ Mwisho wa silabi ya kwanza si ule anayeusema.
 
 ### --feedback--
 
-Mwanzo wa silabi ya pili ni tofauti na unavyosikia kwenye sauti.
+The initial of the second syllable is different from what you hear in the audio.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Mwanzo wa silabi ya pili ni tofauti na unavyosikia kwenye sauti.
 
 # --explanation--
 
-Wang Hua anasema `míng zi`. Silabi ya kwanza ina mwisho wa nasal `ing` na lahaja inayoinuka. Silabi ya pili ni silabi kamili yenye lahaja isiyo na nguvu, inatamkwa kwa upole.
+Wang Hua is saying `míng zi`. The first syllable has a nasal final `ing` and a rising tone. The second syllable is a whole syllable with a neutral tone, pronounced lightly.
 
 # --scene--
 

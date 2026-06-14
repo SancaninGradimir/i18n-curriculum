@@ -1,6 +1,6 @@
 ---
 id: 65d86af6cdfed1fcab11abbe
-title: Zoezi la 70
+title: Task 70
 challengeType: 22
 dashedName: task-70
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`Follow security procedures` inamaanisha kutenda kulingana na sheria au hatua zilizoundwa ili kuweka eneo au watu salama. Ni muhimu katika maeneo mengi, hasa mahali pa kazi, kuzuia matatizo au hatari.
+`Follow security procedures` means to act according to rules or steps designed to keep a place or people safe. It's important in many areas, especially in workplaces, to prevent problems or dangers.
 
-Umejifunza kwamba baada ya `everyone`, unapaswa kutumia umbo la mtu wa tatu wa kitenzi kwa sababu `everyone` huchukuliwa kama kila mtu katika kundi, akitendewa kwa mtu mmoja mmoja.
+You learned that after `everyone`, you should use the third-party singular form of the verb because `everyone` is considered as each person in a group, treated individually.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ Umejifunza kwamba baada ya `everyone`, unapaswa kutumia umbo la mtu wa tatu wa k
 
 ### --feedback--
 
-Huu ni umbo la mtu mmoja wa kitenzi linalomaanisha kila mtu anafanya kitendo hicho.
+This is the singular form of the verb meaning each person does the action.
 
 ---
 
@@ -34,7 +34,7 @@ Huu ni umbo la mtu mmoja wa kitenzi linalomaanisha kila mtu anafanya kitendo hic
 
 ### --feedback--
 
-Neno hili linamaanisha kuweka watu, maeneo, au vitu salama dhidi ya hatari au madhara.
+This word means keeping people, places, or things safe from danger or harm. 
 
 ---
 
@@ -42,7 +42,7 @@ Neno hili linamaanisha kuweka watu, maeneo, au vitu salama dhidi ya hatari au ma
 
 ### --feedback--
 
-Hizi ni hatua au sheria zinazohitajika kufuatwa kwa ajili ya usalama.
+These are the steps or rules that need to be followed for safety.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 685a6b1bbaea710fbdf98bc4
-title: Zoezi la 42
+title: Task 42
 challengeType: 22
 dashedName: task-42
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Huu ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
+This is a review of the entire dialogue you just studied.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Write the following words or phrases in the correct spot:
 
-`last month`, `a while since`, `next phase`, `good news`, `yesterday`, na `green light`.
+`last month`, `a while since`, `next phase`, `good news`, `yesterday`, and `green light`.
 
 # --fillInTheBlank--
 
@@ -40,7 +40,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Njia ya kusema imepita muda tangu jambo fulani litokee.
+A way to say it has been some time since something happened.
 
 ---
 
@@ -48,7 +48,7 @@ Njia ya kusema imepita muda tangu jambo fulani litokee.
 
 ### --feedback--
 
-Siku kabla ya leo.
+The day before today.
 
 ---
 
@@ -56,7 +56,7 @@ Siku kabla ya leo.
 
 ### --feedback--
 
-Taarifa chanya au yenye furaha.
+Positive or happy information.
 
 ---
 
@@ -64,7 +64,7 @@ Taarifa chanya au yenye furaha.
 
 ### --feedback--
 
-Mwezi kabla ya mwezi wa sasa.
+The month before the current one.
 
 ---
 
@@ -72,7 +72,7 @@ Mwezi kabla ya mwezi wa sasa.
 
 ### --feedback--
 
-Ruhusa ya kuanza jambo fulani.
+Permission to start something.
 
 ---
 
@@ -80,4 +80,4 @@ Ruhusa ya kuanza jambo fulani.
 
 ### --feedback--
 
-Sehemu au hatua inayofuata katika mpango au mradi.
+The following part or step in a plan or project.

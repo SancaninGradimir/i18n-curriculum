@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: Tumia mantiki ya masharti na taarifa za if
+title: Use Conditional Logic with If Statements
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,15 +8,15 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-Taarifa za `if` hutumiwa kufanya maamuzi katika msimbo. Neno kuu `if` linaambia JavaScript kutekeleza msimbo ulioko ndani ya mabano ya mviringo chini ya masharti fulani, yaliyoainishwa katika mabano ya kawaida. Masharti haya yanajulikana kama masharti ya `Boolean` na yanaweza kuwa tu `true` au `false`.
+`if` statements are used to make decisions in code. The keyword `if` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as `Boolean` conditions and they may only be `true` or `false`.
 
-Wakati sharti linapohesabiwa kuwa `true`, programu hutekeleza taarifa iliyoko ndani ya mabano ya mviringo. Wakati sharti la thamani ya kweli au siyo kweli linapohesabiwa kuwa `false`, taarifa iliyoko ndani ya mabano ya mviringo haitatekelezwa.
+When the condition evaluates to `true`, the program executes the statement inside the curly braces. When the Boolean condition evaluates to `false`, the statement inside the curly braces will not execute.
 
-**Msimbo wa bandia**
+**Pseudocode**
 
-<blockquote>if (<i>sharti ni kweli</i>) {<br>  <i>taarifa hutekelezwa</i><br>}</blockquote>
+<blockquote>if (<i>condition is true</i>) {<br>  <i>statement is executed</i><br>}</blockquote>
 
-**Mfano**
+**Example**
 
 ```js
 function test(myCondition) {
@@ -30,41 +30,41 @@ test(true);
 test(false);
 ```
 
-`test(true)` hurudisha mfuatano wa herufi `It was true`, na `test(false)` hurudisha mfuatano wa herufi `It was false`.
+`test(true)` returns the string `It was true`, and `test(false)` returns the string `It was false`.
 
-Wakati `test` inapoitwa na thamani ya `true`, taarifa ya `if` inahesabu `myCondition` kuona kama ni `true` au la. Kwa kuwa ni `true`, kitendakazi hurudisha `It was true`. Tunapoitisha `test` na thamani ya `false`, `myCondition` si `true` na taarifa ndani ya mabano ya mviringo haitatekelezwa na kitendakazi hurudisha `It was false`.
+When `test` is called with a value of `true`, the `if` statement evaluates `myCondition` to see if it is `true` or not. Since it is `true`, the function returns `It was true`. When we call `test` with a value of `false`, `myCondition` is *not* `true` and the statement in the curly braces is not executed and the function returns `It was false`.
 
 # --instructions--
 
-Tengeneza taarifa ya `if` ndani ya kitendakazi ili kurudisha `Yes, that was true` ikiwa kigezo `wasThatTrue` ni `true` na kurudisha `No, that was false` vinginevyo.
+Create an `if` statement inside the function to return `Yes, that was true` if the parameter `wasThatTrue` is `true` and return `No, that was false` otherwise.
 
 # --hints--
 
-`trueOrFalse` inapaswa kuwa kitendakazi
+`trueOrFalse` should be a function
 
 ```js
 assert(typeof trueOrFalse === 'function');
 ```
 
-`trueOrFalse(true)` inapaswa kurudisha mfuatano wa herufi
+`trueOrFalse(true)` should return a string
 
 ```js
 assert(typeof trueOrFalse(true) === 'string');
 ```
 
-`trueOrFalse(false)` inapaswa kurudisha mfuatano wa herufi
+`trueOrFalse(false)` should return a string
 
 ```js
 assert(typeof trueOrFalse(false) === 'string');
 ```
 
-`trueOrFalse(true)` inapaswa kurudisha mfuatano wa herufi `Yes, that was true`
+`trueOrFalse(true)` should return the string `Yes, that was true`
 
 ```js
 assert(trueOrFalse(true) === 'Yes, that was true');
 ```
 
-`trueOrFalse(false)` inapaswa kurudisha mfuatano wa herufi `No, that was false`
+`trueOrFalse(false)` should return the string `No, that was false`
 
 ```js
 assert(trueOrFalse(false) === 'No, that was false');

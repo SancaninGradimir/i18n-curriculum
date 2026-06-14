@@ -1,6 +1,6 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Zoezi la 79
+title: Task 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,43 +10,43 @@ lang: en-US
 
 # --description--
 
-`Regulations` ni sheria rasmi zinazotolewa na serikali au mamlaka. Zimeundwa kudhibiti jinsi kitu kinavyofanya kazi au jinsi watu wanavyotenda, hasa katika biashara. Kwa mfano:
+`Regulations` are official rules made by a government or authority. They are designed to control how something works or how people act, especially in businesses. For example:
 
-`Health and safety regulations ensure a safe workplace.` - Hii ina maana sheria za afya na usalama husaidia kufanya mahali pa kazi kuwa salama kwa kila mtu.
+`Health and safety regulations ensure a safe workplace.` - This means health and safety rules help make the workplace safe for everyone.
 
 # --questions--
 
 ## --text--
 
-`regulations` kwa kawaida ni nini katika muktadha wa biashara?
+What are `regulations` usually in a business context?
 
 ## --answers--
 
-Mapendeleo binafsi.
+Personal preferences.
 
 ### --feedback--
 
-`Regulations` ni sheria rasmi, si mapendeleo binafsi.
+`Regulations` are formal rules, not personal preferences.
 
 ---
 
-Makubaliano yasiyo rasmi ya timu.
+Informal team agreements.
 
 ### --feedback--
 
-`Regulations` ni rasmi zaidi kuliko makubaliano yasiyo rasmi.
+`Regulations` are more formal than informal agreements.
 
 ---
 
-Sheria rasmi zilizowekwa na mamlaka.
+Official rules set by authorities.
 
 ---
 
-Mapendekezo ya shughuli za burudani.
+Suggestions for leisure activities.
 
 ### --feedback--
 
-`Regulations` ni kuhusu mwenendo wa kitaalamu, si burudani.
+`Regulations` are about professional conduct, not leisure.
 
 ## --video-solution--
 

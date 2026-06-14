@@ -1,23 +1,23 @@
 ---
 id: 655b4bbff1dbf66cb2ed4dac
-title: Hatua 97
+title: Step 97
 challengeType: 0
 dashedName: step-97
 ---
 
 # --description--
 
-Tumia tamko la `if` kuangalia kama `nextSongExists` ipo, kisha fanya wito wa kitendakazi cha `playNextSong()` ndani ya kipande cha `if`. Hii itacheza moja kwa moja wimbo unaofuata wakati wimbo wa sasa unapomalizika.
+Use an `if` statement to check if `nextSongExists` exists, then call the `playNextSong()` function in the `if` block. This will automatically play the next song when the current song ends.
 
 # --hints--
 
-Unapaswa kuunda tamko la `if` lenye sharti la `nextSongExists`.
+You should create an `if` statement with the condition `nextSongExists`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-Unapaswa kuita kitendakazi cha `playNextSong` ndani ya tamko lako la `if`.
+You should call the `playNextSong` function inside your `if` statement.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)

@@ -1,6 +1,6 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Zoezi la 29
+title: Task 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Nini kingine Mark angepaswa kufanya?
+What else should Mark have done?
 
 ## --answers--
 
-Angepaswa kuandika upya msimbo wake wote.
+He should have rewritten his entire code.
 
 ### --feedback--
 
-Mark hakuhitaji kuandika upya kila kitu.
+Mark didn't need to rewrite everything.
 
 ---
 
-Angepaswa kujaribu msimbo wake kwanza.
+He should have tested his code first.
 
 ---
 
-Angepaswa kuondoa maoni yote.
+He should have removed all comments.
 
 ### --feedback--
 
-Maoni ni muhimu na hayapaswi kuondolewa.
+Comments are useful and should not be removed.
 
 ---
 
-Angepaswa kuruka majaribio kwa sababu huchukua muda mrefu sana.
+He should have skipped testing because it takes too long.
 
 ### --feedback--
 
-Kujaribu ni hatua muhimu kabla ya kuwasilisha msimbo.
+Testing is an important step before submitting code.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Kujaribu ni hatua muhimu kabla ya kuwasilisha msimbo.
 
 # --explanation--
 
-`test suite` ni mkusanyiko wa majaribio yanayokagua kama programu inafanya kazi ipasavyo. Kwa mfano:
+A `test suite` is a collection of tests that check if a program works correctly. For example:
 
-- `We ran the test suite to check if the app works properly.` - Timu ilitekeleza majaribio yote kuhakikisha programu inafanya kazi kama inavyotarajiwa.
+- `We ran the test suite to check if the app works properly.` - The team executed all the tests to ensure the app functions as expected.
 
-- `We need to add more tests to the test suite to check for edge cases.` - Timu inapaswa kujumuisha majaribio zaidi kufunika hali zote zinazowezekana.
+- `We need to add more tests to the test suite to check for edge cases.` - The team should include more tests to cover all possible situations.
 
 # --scene--
 

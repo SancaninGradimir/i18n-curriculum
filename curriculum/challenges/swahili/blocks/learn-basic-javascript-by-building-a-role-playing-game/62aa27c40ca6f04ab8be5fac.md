@@ -1,13 +1,13 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Hatua 167
+title: Step 167
 challengeType: 0
 dashedName: step-167
 ---
 
 # --description--
 
-Katika mradi uliopita, ulijifunza jinsi ya kufanya kazi na mizunguko ya `for` kama hii:
+In the previous project, you learned how to work with `for` loops like this:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-Mizunguko ya `for` hutangazwa na usemi wa kihesabu tatu zilizoachwa na alama za nusu nukta: `for (a; b; c)`, ambapo `a` ni usemi wa uanzishaji, `b` ni sharti, na `c` ni usemi wa mwisho.
+`for` loops are declared with three expressions separated by semicolons: `for (a; b; c)`, where `a` is the initialization expression, `b` is the condition, and `c` is the final expression.
 
-Katika hatua hii, tengeneza mzunguko wa `for` ambapo `i` inaanzishwa kwa `0`, mzunguko unaendelea mradi `i` ni mdogo kuliko `10`, na `i` huongezwa kwa `1` baada ya kila mzunguko kwa kutumia opereta ya kuongeza `++`.
+In this step, create a `for` loop where `i` is initialized to `0`, the loop runs as long as `i` is less than `10`, and `i` is incremented by `1` after each iteration using the increment operator `++`.
 
 
 # --hints--
 
-Uanzishaji wa mzunguko wako wa `for` unapaswa kuwa na `i` inaanzishwa kwa `0`.
+Your `for` loop initialization should have `i` initialized to `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Sharti la mzunguko wako linapaswa kuendelea mradi `i` ni mdogo kuliko `10`.
+Your loop condition should run as long as `i` is less than `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Mzunguko wako unapaswa kuongeza `i` kwa `1` baada ya kila mzunguko. Kumbuka kutumia opereta ya kuongeza `++`.
+Your loop should increment `i` by `1` after each iteration. Remember to use the increment operator `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

@@ -1,23 +1,23 @@
 ---
 id: 61fdaf9ff894b6a084ecdc1b
-title: Hatua 33
+title: Step 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-Ili kuzuia maudhui ya maandishi kuzidi, mpe kichaguzi chako cha `span[class~="sr-only"]` sifa ya `overflow` iliyowekwa kuwa `hidden` na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+To prevent the text content from overflowing, give your `span[class~="sr-only"]` selector an `overflow` property set to `hidden` and a `white-space` property set to `nowrap`.
 
 # --hints--
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `overflow` iliyowekwa kuwa `hidden`.
+Your `span[class~="sr-only"]` selector should have an `overflow` property set to `hidden`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('overflow') === 'hidden');
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+Your `span[class~="sr-only"]` selector should have a `white-space` property set to `nowrap`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('white-space') === 'nowrap');

@@ -1,6 +1,6 @@
 ---
 id: c6c9dae4017830e187eeaf42
-title: Taarifa ya return
+title: Return Statement
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement
@@ -8,13 +8,13 @@ dashedName: return-statement
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia taarifa ya return katika makitendakazi.
+In this video, you will learn how to use the return statement in functions.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+What will be the output for the following code?
 
 ```python
 def cube(num):

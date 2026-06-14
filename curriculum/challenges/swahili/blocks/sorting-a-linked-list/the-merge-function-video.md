@@ -1,6 +1,6 @@
 ---
 id: 698de3bb7932b3cc4b19c93a
-title: Kitendakazi cha Unganisha
+title: The Merge Function
 challengeType: 11
 videoId: nXhW8WE8rFU
 dashedName: the-merge-function
@@ -8,29 +8,29 @@ dashedName: the-merge-function
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutekeleza algoriti ya kupanga kwa kutumia unganisho (merge sort) kwenye orodha iliyounganishwa.
+In this video, you will learn how to implement the merge sort algorithm on a linked list.
 
 # --questions--
 
 ## --text--
 
-Ni vitendakazi vitatu gani vitakavyotumika katika utekelezaji huu wa kupanga kwa kutumia unganisho?
+What are the three functions that will be used in this merge sort implementation? 
 
 ## --answers--
 
-`merge_sort`, `split` na `merge`
+`merge_sort`, `split` and `merge`
 
 ---
 
-`merge_sort`, `insert` na `delete`
+`merge_sort`, `insert` and `delete`
 
 ---
 
-`sort`, `combine` na `partition`
+`sort`, `combine` and `partition`
 
 ---
 
-`search`, `split` na `merge`
+`search`, `split` and `merge`
 
 ## --video-solution--
 

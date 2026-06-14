@@ -1,6 +1,6 @@
 ---
 id: 67efebdf734ad521ace8a89e
-title: Zoezi la 57
+title: Task 57
 challengeType: 22
 dashedName: task-57
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,17 +24,17 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unarejelea dosari ya usalama katika mfumo ambayo haijarekebishwa au kusasishwa na inaweza kutumiwa vibaya.
+This two-word phrase refers to a security flaw in a system that lacks a fix or update to address it and can be exploited.
 
 # --explanation--
 
-`Unpatched` ina maana kwamba kitu hakijasasishwa au kurekebishwa.
+`Unpatched` means that something has not been updated or fixed.
 
-`Vulnerability` inarejelea udhaifu katika mfumo ambao unaweza kutumiwa vibaya.
+`Vulnerability` refers to a weakness in a system that can be exploited.
 
-Pamoja, `unpatched vulnerability` ni udhaifu wa usalama ambao haujarekebishwa au kusasishwa. Wadukuzi wanaweza kutumia udhaifu huu kushambulia mfumo. Kwa mfano:
+Together, an `unpatched vulnerability` is a security weakness that has not been fixed or updated. Hackers can exploit these weaknesses to attack a system. For example:
 
-`We need to fix the unpatched vulnerability now.` - Timu inajua kuhusu tatizo la usalama lakini halijarekebishwa bado.
+`We need to fix the unpatched vulnerability now.` - The team knows about a security problem but it hasn't been repaired yet.
 
 # --scene--
 

@@ -1,44 +1,44 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Hatua 32
+title: Korak 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-Ili kuboresha Ufikikaji wa picha uliyoongeza, ongeza sifa ya kipengele ya `alt` yenye maandishi:
+Da poboljšate pristupačnost slike koju ste dodali, dodajte atribut `alt` sa tekstom:
 
 `Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
-Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
+Your `figure` element should have an opening tag. Opening tags have this syntax: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Your `figure` element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-Kipengele cha `figure` kinapaswa kuwepo juu kabisa ya lebo ya kufunga ya kipengele cha `section` cha mwisho.
+There should be a `figure` element right above the last `section` element's closing tag.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-Kipengele cha `img` cha Cats kinapaswa kupangwa ndani ya kipengele cha `figure`.
+The Cats `img` element should be nested in the `figure` element.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-Picha ya tatu inapaswa kuwa na sifa ya kipengele ya `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+The third image should have a `src` attribute set to `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Kipengele cha `img` cha Cats kinapaswa kuwa na sifa ya kipengele ya `alt` yenye thamani ya `Two tabby kittens sleeping together on a couch.`
+The Cats `img` element should have an `alt` attribute with the value `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

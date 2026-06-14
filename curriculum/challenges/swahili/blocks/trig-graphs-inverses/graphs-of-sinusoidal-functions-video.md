@@ -1,6 +1,6 @@
 ---
 id: 699e69db8f18cf77dfce5c12
-title: Michoro ya kazi za sinusoidal
+title: Graphs of Sinusoidal Functions
 challengeType: 11
 videoId: Jif_m8LkyMA
 dashedName: graphs-of-sinusoidal-functions
@@ -8,30 +8,32 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu michoro ya kazi za sinusoidal.
+In this video, you will learn about the graphs of sinusoidal functions.
 
 # --questions--
 
 ## --text--
 
-Kazi za sinusoidal zinahusiana na nini?
+What are sinusoidal functions related to?
 
 ## --answers--
 
-Zinahusiana na tangent na cotangent.
+They are related to tangent and cotangent.
 
 ---
 
-Zinahusiana na secant na cosecant.
+They are related to secant and cosecant.
 
 ---
 
-Zinahusiana na tangent na secant.
+They are related to tangent and secant.
 
 ---
 
-Zinahusiana na sine na cosine.
+They are related to sine and cosine.
 
 ## --video-solution--
 
 4
+
+

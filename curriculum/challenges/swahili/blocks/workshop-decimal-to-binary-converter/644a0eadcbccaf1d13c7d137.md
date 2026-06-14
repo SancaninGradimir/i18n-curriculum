@@ -1,15 +1,15 @@
 ---
 id: 644a0eadcbccaf1d13c7d137
-title: Step 19
+title: Korak 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-Katika mfumo wa nambari wa msingi-2, tarakimu ya kulia kabisa inawakilisha nafasi ya moja, tarakimu inayofuata kushoto inawakilisha nafasi ya mbili, kisha nafasi ya nne, kisha nafasi ya nane, na kadhalika. Katika mfumo huu, thamani ya nafasi ya kila tarakimu ni mara mbili zaidi kuliko tarakimu iliyo upande wake wa kulia.
+U sistemu brojeva sa bazom 2 (binarnom), najdesni broj predstavlja jedinice mesto, sledeći broj na levoj strani predstavlja mesta dvojke, zatim mesta četvorke, pa mesta osmike i tako dalje. U ovom sistemu, vrednost mesta svake cifre je dvostruka od vrednosti cifre desne od nje.
 
-Hapa kuna nambari kutoka sifuri hadi tisa katika mifumo ya nambari ya msingi-10 na msingi-2:
+Evo brojeva od nule do devetke u sistemima sa bazom 10 i bazom 2:
 
 ```md
 | Base-10 | Base-2 |
@@ -26,25 +26,25 @@ Hapa kuna nambari kutoka sifuri hadi tisa katika mifumo ya nambari ya msingi-10 
 |    9    |  1001  |
 ```
 
-Angalia kwamba nambari za binary zinaundwa kutoka kushoto kwenda kulia, kutoka tarakimu yenye thamani kubwa zaidi upande wa kushoto, hadi tarakimu yenye thamani ndogo kabisa upande wa kulia. Kwa mfano, nambari `3` katika binary ni `11`, au `1` katika nafasi ya mbili na `1` katika nafasi ya moja. Kisha kwa nambari `4`, tarakimu ya kuwakilisha nafasi ya nne inaongezwa upande wa kushoto na kuwekwa kuwa `1`, nafasi ya mbili ni `0`, na nafasi ya moja ni `0`.
+Primećuje se da su binarni brojevi formirani od leve ka desni, počevši od cifre sa najvećom vrednošću mesta na levoj strani, do najmanje značajne na desnoj. Na primer, broj `3` u binariku je `11`, ili `1` na mestu dvojke i `1` na mestu jedinice. Zatim za broj `4`, dodaje se cifra koja predstavlja mesto četvorke na levoj strani i postavljena je na `1`, mesto dvojke je `0`, a mesto jedinice je `0`.
 
-Katika kitendakazi chako cha `decimalToBinary`, badilisha nambari `10` kuwa binary na `return` kama mfuatano wa herufi.
+U vašoj funkciji `decimalToBinary`, konvertujte broj `10` u binarni i `return` ga kao string.
 
 # --hints--
 
-Kitendakazi chako cha `decimalToBinary` kinapaswa kurudisha mfuatano wa herufi.
+Your `decimalToBinary` function should return a string.
 
 ```js
 assert.isString(decimalToBinary());
 ```
 
-Kitendakazi chako cha `decimalToBinary` kinapaswa kurudisha mfuatano wa herufi wenye urefu wa `4`.
+Your `decimalToBinary` function should return a string with a length of `4`.
 
 ```js
 assert.strictEqual(decimalToBinary().length, 4);
 ```
 
-Kitendakazi chako cha `decimalToBinary` kinapaswa kurudisha `"1010"` kama mfuatano wa herufi.
+Your `decimalToBinary` function should return `"1010"` as a string.
 
 ```js
 assert.strictEqual(decimalToBinary(), '1010');

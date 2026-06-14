@@ -1,27 +1,27 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Hatua 30
+title: Step 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Kabla hujaingia sana katika mtindo wako, unapaswa kutumia darasa la `sr-only`. Unaweza kutumia CSS kuficha kabisa vipengele vyenye darasa hili kutoka kwenye ukurasa unaoonekana, lakini bado vitatangazwa na visomaji vya skrini.
+Before you get too far into your styling, you should make use of the `sr-only` class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
 
-CSS unayotarajia kuandika ni seti ya kawaida ya sifa zinazotumika kuhakikisha vipengele vimefichwa kabisa kwa mtazamo wa macho.
+The CSS you are about to write is a common set of properties used to ensure elements are completely hidden visually.
 
-Kichaguzi cha `span[class~="sr-only"]` kitachagua kipengele chochote cha `span` ambacho `class` *inajumuisha* `sr-only`. Unda kichaguzi hicho, na kipa sifa ya `border` yenye thamani ya `0`.
+The `span[class~="sr-only"]` selector will select any `span` element whose `class` *includes* `sr-only`. Create that selector, and give it a `border` property set to `0`.
 
 # --hints--
 
-Unapaswa kuwa na kichaguzi cha `span[class~="sr-only"]`.
+You should have an `span[class~="sr-only"]` selector.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]'));
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `border` yenye thamani ya `0`.
+Your `span[class~="sr-only"]` selector should have a `border` property set to `0`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('border-width') === '0px');

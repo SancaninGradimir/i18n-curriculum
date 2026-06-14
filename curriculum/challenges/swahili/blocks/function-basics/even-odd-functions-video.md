@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Kitendakazi cha nambari kamili chanya na hasi
+title: Even and Odd Functions
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi cha nambari kamili chanya na hasi.
+In this video, you will learn about even and odd functions.
 
 # --questions--
 
 ## --text--
 
-Nini hufanya mchoro kuwa na usawa kuhusiana na asili?
+What makes a graph symmetric with respect to the origin?
 
 ## --answers--
 
-Ikiwa kina usawa wa mzunguko wa digrii 30 kuhusu asili.
+If it has a 30 degree rotational symmetry about the origin.
 
 ---
 
-Ikiwa kina usawa wa mzunguko wa digrii 180 kuhusu asili.
+If it has a 180 degree rotational symmetry about the origin.
 
 ---
 
-Ikiwa kina usawa wa mzunguko wa digrii 90 kuhusu asili.
+If it has a 90 degree rotational symmetry about the origin.
 
 ---
 
-Ikiwa kina usawa wa mzunguko wa digrii 360 kuhusu asili.
+If it has a 360 degree rotational symmetry about the origin.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 67c86f54f0b8aa4c3dd5bacd
-title: Zoezi la 108
+title: Task 108
 challengeType: 22
 dashedName: task-108
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Hii ni uhakiki wa mazungumzo yote uliyosoma sasa hivi.
+This is a review of the entire dialogue you just studied.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Write the following words or phrases in the correct spot:
 
-`let's get started`, `She works in`, `He's responsible for`, `I'm responsible for`, `We're excited`, na `She and I`.
+`let's get started`, `She works in`, `He's responsible for`, `I'm responsible for`, `We're excited`, and `She and I`.
 
 # --fillInTheBlank--
 
@@ -42,7 +42,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Hii inaonyesha umiliki wa jukumu au zoezi. Huanza na kitenzi cha mtu, kisha kifupisho cha kitenzi, na baadaye kiambatisho kinachoonyesha jukumu.  
+This expresses ownership of a duty or task. It begins with a pronoun, followed by a contracted verb, then a preposition indicating duty.  
 
 ---
 
@@ -50,7 +50,7 @@ Hii inaonyesha umiliki wa jukumu au zoezi. Huanza na kitenzi cha mtu, kisha kifu
 
 ### --feedback--
 
-Hii inaelezea jukumu la mtu mwingine katika zoezi. Huanza na kitenzi cha mtu, kisha kifupisho cha `is`, na kiambatisho kinachoonyesha jukumu.  
+This describes someone else's role in a task. It begins with a pronoun, followed by the contraction of `is`, then a preposition indicating duty.  
 
 ---
 
@@ -58,7 +58,7 @@ Hii inaelezea jukumu la mtu mwingine katika zoezi. Huanza na kitenzi cha mtu, ki
 
 ### --feedback--
 
-Hii inaanzisha watu wawili kama somo la sentensi. Huanza na kitenzi cha mtu wa tatu wa kike, kisha kiunganishi, na kisha kitenzi kinachorejelea mwenyewe.  
+This introduces two people as the subject of the sentence. It begins with the pronoun for a third person female, followed by a conjunction, and then the pronoun referring to oneself.  
 
 ---
 
@@ -66,7 +66,7 @@ Hii inaanzisha watu wawili kama somo la sentensi. Huanza na kitenzi cha mtu wa t
 
 ### --feedback--
 
-Hii inaonyesha eneo la kitaaluma au taaluma ya mtu. Huanza na kitenzi cha mtu, kisha kitenzi, na kiambatisho kinachoonyesha mahali au utaalamu.  
+This indicates a person's professional field or area. It begins with a pronoun followed by a verb, and then a preposition showing location or specialization.
 
 ---
 
@@ -74,7 +74,7 @@ Hii inaonyesha eneo la kitaaluma au taaluma ya mtu. Huanza na kitenzi cha mtu, k
 
 ### --feedback--
 
-Hii inaonyesha shauku kuhusu jambo fulani. Huanza na kitenzi cha mtu, kisha kifupisho cha `are`, na kivumishi kinachomaanisha "furaha kubwa" au "hamu".  
+This expresses enthusiasm about something. It begins with a pronoun, followed by a contraction of `are`, and then an adjective meaning "thrilled" or "eager".  
 
 ---
 
@@ -82,4 +82,4 @@ Hii inaonyesha shauku kuhusu jambo fulani. Huanza na kitenzi cha mtu, kisha kifu
 
 ### --feedback--
 
-Hii hutumika kuanzisha shughuli. Huanza na kifupisho cha `let us`, kisha kitenzi, na kisha sehemu ya zamani ya `start`.
+This is used to begin an activity. It begins with a contraction of `let us`, followed by a verb, and then the past participle of `start`.

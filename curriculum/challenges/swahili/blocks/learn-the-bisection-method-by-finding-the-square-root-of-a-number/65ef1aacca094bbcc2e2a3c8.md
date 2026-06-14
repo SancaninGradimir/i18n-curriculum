@@ -1,25 +1,25 @@
 ---
 id: 65ef1aacca094bbcc2e2a3c8
-title: Hatua 9
+title: Step 9
 challengeType: 20
 dashedName: step-9
 ---
 
 # --description--
 
-Katika Python, kitendakazi cha `max()` hurejesha thamani kubwa zaidi kati ya thamani za ingizo.
+In Python, the `max()` function returns the largest of the input values.
 
 ```python
 max(1, 2, 3) # Output: 3
 ```
 
-Vigezo `low` na `high` vitatumika kufafanua kipindi cha awali ambacho mzizi wa mraba uko ndani yake.
+The variables `low` and `high` will be used to define the initial interval where the square root lies.
 
-Ndani ya kifungu cha `else`, anzisha kigezo `low` kwa `0` na kigezo `high` kiwe thamani kubwa zaidi kati ya `1` au `square_target` kwani mzizi wa mraba wa nambari huwa mdogo au sawa na nambari yenyewe.
+Inside the `else` clause, initialize the `low` variable to `0` and the `high` variable to be the maximum of either `1` or `square_target` as the square root of a number is always less than or equal to the number itself.
 
 # --hints--
 
-Unapaswa kuondoa neno kuu la `pass`.
+You should remove the `pass` keyword.
 
 ```js
 ({
@@ -30,7 +30,7 @@ Unapaswa kuondoa neno kuu la `pass`.
 })
 ```
 
-Unapaswa kutangaza kigezo `low` na kuweka thamani yake kuwa `0`.
+You should declare a variable `low` and assign it `0`.
 
 ```js
 ({
@@ -41,7 +41,7 @@ Unapaswa kutangaza kigezo `low` na kuweka thamani yake kuwa `0`.
 
 ```
 
-Unapaswa kutangaza kigezo `high` na kutumia kitendakazi cha `max()` kuweka thamani yake kuwa thamani kubwa kati ya `1` na `square_target`.
+You should declare a variable `high` and use the `max()` function to assign it the maximum value between `1` and `square_target`.
 
 ```js
 

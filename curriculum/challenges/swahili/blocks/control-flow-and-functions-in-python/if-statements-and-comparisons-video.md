@@ -1,6 +1,6 @@
 ---
 id: 8314d0bbddb0aa027a144705
-title: Taarifa za if na kulinganisha
+title: If Statements and Comparisons
 challengeType: 11
 videoId: frb0CCrS9X8
 dashedName: if-statements-and-comparisons
@@ -8,13 +8,13 @@ dashedName: if-statements-and-comparisons
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu vigezo vya kulinganisha.
+In this video, you will learn about comparison operators.
 
 # --questions--
 
 ## --text--
 
-Ni kigezo gani kati ya vifuatavyo kinatumika kuangalia kama nambari moja ni kubwa au sawa na nambari nyingine?
+Which of the following operators is used to check if one number is greater than or equal to another number?
 
 ## --answers--
 

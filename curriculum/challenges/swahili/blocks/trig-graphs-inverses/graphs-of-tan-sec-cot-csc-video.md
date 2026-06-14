@@ -1,6 +1,6 @@
 ---
 id: 699e69e18f18cf77dfce5c13
-title: "Michoro ya Tan, Sec, Cot, Csc"
+title: Graphs of Tan, Sec, Cot, Csc
 challengeType: 11
 videoId: -AGLDRcJ4hk
 dashedName: graphs-of-tan-sec-cot-csc
@@ -8,13 +8,13 @@ dashedName: graphs-of-tan-sec-cot-csc
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuchora michoro ya kitendakazi za tangent, secant, cotangent, na cosecant. 
+In this video, you will learn how to graph the tangent, secant, cotangent, and cosecant functions. 
 
 # --questions--
 
 ## --text--
 
-Mwelekeo ungekuwa upi wakati pembe ni sifuri kwa mfano wa kwanza wa mchoro ulioonyeshwa kwenye video?
+What would be the slope when the angle is zero for the first example graph shown in the video?
 
 ## --answers--
 
@@ -35,3 +35,5 @@ Mwelekeo ungekuwa upi wakati pembe ni sifuri kwa mfano wa kwanza wa mchoro ulioo
 ## --video-solution--
 
 3
+
+

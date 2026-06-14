@@ -1,17 +1,17 @@
 ---
 id: 6564d2eeb36ebe7dd9bd1ee9
-title: Hatua 40
+title: Step 40
 challengeType: 20
 dashedName: step-40
 ---
 
 # --description--
 
-Ongeza tuple ya tatu kwenye orodha ya `constraints`. Tumia kigezo cha `uppercase` kama kipengee cha kwanza na muundo wa usemi wa kawaida unaolingana na herufi moja kubwa kama kipengee cha pili.
+Add a third tuple to the `constraints` list. Use the `uppercase` parameter as the first item and a regex pattern that matches a single uppercase letter as the second item.
 
 # --hints--
 
-Unapaswa kuongeza tuple ya tatu kwenye orodha ya `constraints` ukitumia `uppercase` kama kipengee cha kwanza na darasa la herufi linalolingana na herufi moja kubwa kama kipengee cha pili.
+You should add a third tuple to the `constraints` list using `uppercase` as the first item and a character class that matches a single uppercase letter as the second item.
 
 ```js
 ({ test: () => assert.match(code, /constraints\s*=\s*\[\s*\(\s*nums\s*,\s*("|')\[0-9\]\1\s*\)\s*,\s*\(\s*lowercase\s*,\s*("|')\[a-z\]\2\s*\)\s*,\s*\(\s*uppercase\s*,\s*("|')\[A-Z\]\3\s*\)\s*,?\s*\]/) })

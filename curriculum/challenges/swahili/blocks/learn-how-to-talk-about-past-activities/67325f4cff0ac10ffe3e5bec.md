@@ -1,6 +1,6 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Zoezi la 114
+title: Task 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-James anafafanua nini kuhusu mtazamo wake wa kuandika msimbo?
+What is James describing about his approach to coding?
 
 ## --answers--
 
-Tabia aliyokuwa nayo zamani.
+A habit he had in the past.
 
 ---
 
-Kitu anachopanga kufanya siku za usoni.
+Something he plans to do in the future.
 
 ### --feedback--
 
-James hatazungumzii mipango ya baadaye; anatafakari kuhusu kile alichokifanya zamani.
+James isn't talking about future plans; he is reflecting on something he did before.
 
 ---
 
-Tabia anaendelea nayo sasa.
+A habit he continues now.
 
 ### --feedback--
 
-James anatumia usemi `used to`, unaoonyesha anafafanua jambo alilofanya zamani, si sasa hivi.
+James uses the phrase `used to`, which shows he is describing something he did in the past, not currently.
 
 ---
 
-Mchakato ambaye hakuwahi kufuata.
+A process he never followed.
 
 ### --feedback--
 
-James anaelezea tabia aliyokuwa nayo hapo awali, hivyo si jambo ambalo hakuwahi kulifanya.
+James describes a habit he once had, so it is not something he never did.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ James anaelezea tabia aliyokuwa nayo hapo awali, hivyo si jambo ambalo hakuwahi 
 
 # --explanation--
 
-James anasema, `I used to just write code without thinking much about the end user.`
+James says, `I used to just write code without thinking much about the end user.` 
 
-`Used to` inaonyesha tabia au tendo la zamani ambalo si kweli tena.
+`Used to` indicates a past habit or action that is no longer true. 
 
-Sentensi hii inaonyesha kwamba hapo awali aliandika msimbo bila kuzingatia mtumizi wa mwisho lakini tangu wakati huo ameanza kubadilisha mtazamo wake.
+This sentence shows that he previously wrote code without considering the end user but has since changed his approach.
 
 # --scene--
 

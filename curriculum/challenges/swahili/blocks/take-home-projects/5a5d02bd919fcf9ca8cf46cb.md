@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Jenga programu ya light-bright
+title: Build a Light-Bright App
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,27 +8,27 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Lengo:** Jenga programu ambayo inaendeshwa kwa njia sawa na hii: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Objective:** Build an app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**Kanuni #1:** Usitazame msimbo wa mradi wa mfano. Jifunze mwenyewe.
+**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
 
-**Kanuni #2:** Timiza hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+**Rule #2:** Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-**Hadithi ya mtumiaji:** Naweza kubofya au kuvuta kidole cha panya ili kupaka rangi mizunguko.
+**User Story:** I can click or drag the mouse cursor to color the circles.
 
-**Hadithi ya mtumiaji:** Naweza kubofya mara mbili kwenye mduara uliopakwa rangi kuondoa rangi hiyo.
+**User Story:** I can double-click on a colored circle to remove the color.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kwenye mduara uliopakwa rangi kubadilisha rangi yake.
+**User Story:** I can click on a colored circle to change its color.
 
-**Hadithi ya mtumiaji:** Napaswa kupata mduara wenye rangi tofauti kila ninapobofya.
+**User Story:** I should get a circle of different color on each click.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kitufe cha 'Reset' kuondoa rangi ya hivi karibuni.
+**User Story:** I can click on the 'Reset' button to remove the recent color.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kitufe cha 'Reset All' kuondoa rangi zote kutoka kwenye miduara.
+**User Story:** I can click on the 'Reset All' button to remove all the colors from the circles.
 
-Ukipomaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --solutions--
 

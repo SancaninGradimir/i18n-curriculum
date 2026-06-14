@@ -1,6 +1,6 @@
 ---
 id: 2a486e3e521b79b874fb5e9a
-title: Jaribu/Toa
+title: Try/Except
 challengeType: 11
 videoId: 1tkhMom_SZw
 dashedName: try-except
@@ -8,13 +8,13 @@ dashedName: try-except
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kushughulikia makosa kwa kutumia sehemu za jaribu/toa ili kufanya programu zako kuwa imara zaidi.
+In this video, you will learn how to handle exceptions using try/except blocks to make your programs more robust.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao ikiwa mtumizi atatoa mfuatano wa herufi `"random"`?
+What will be the result for the following code if the user provides the string `"random"`?
 
 ```python
 try:
@@ -26,19 +26,19 @@ except:
 
 ## --answers--
 
-Hakutakuwa na kitu kitakachochapishwa kwenye konsoli.
+Nothing will be output to the console.
 
 ---
 
-Mfuatano wa herufi `"random"` utachapishwa kwenye konsoli.
+The string `"random"` will be output to the console.
 
 ---
 
-Mfuatano wa herufi `"Invalid Input"` utachapishwa kwenye konsoli.
+The string `"Invalid Input"` will be output to the console.
 
 ---
 
-Programu itashindwa kufanya kazi. 
+The program will crash.
 
 ## --video-solution--
 

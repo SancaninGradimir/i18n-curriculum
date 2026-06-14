@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb5bdef
-title: Kuelewa thamani za kweli au siyo kweli
+title: Understanding Boolean Values
 challengeType: 1
 forumTopicId: 301176
 dashedName: understanding-boolean-values
@@ -8,23 +8,23 @@ dashedName: understanding-boolean-values
 
 # --description--
 
-Aina nyingine ya data ni <dfn>thamani ya kweli au siyo kweli</dfn>. Thamani za kweli au siyo kweli zinaweza kuwa moja kati ya thamani mbili tu: `true` au `false`. Kwa msingi, ni vitufe vidogo vya kuwasha-kuzima, ambapo `true` ni kuwasha na `false` ni kuzima. Hali hizi mbili ni za kipekee na haziziruhusu kutokea pamoja.
+Another data type is the <dfn>Boolean</dfn>. Booleans may only be one of two values: `true` or `false`. They are basically little on-off switches, where `true` is on and `false` is off. These two states are mutually exclusive.
 
-**Kumbuka:** Thamani za kweli au siyo kweli hazinaandikwa kamwe kwa nukuu. Mfuatano wa herufi `"true"` na `"false"` si thamani za kweli au siyo kweli na hazina maana maalum katika JavaScript.
+**Note:** Boolean values are never written with quotes. The strings `"true"` and `"false"` are not Boolean and have no special meaning in JavaScript.
 
 # --instructions--
 
-Badilisha kitendakazi cha `welcomeToBooleans` ili kirudishe `true` badala ya `false`.
+Modify the `welcomeToBooleans` function so that it returns `true` instead of `false`.
 
 # --hints--
 
-Kitendakazi cha `welcomeToBooleans()` kinapaswa kurudisha thamani ya kweli au siyo kweli (`true` au `false`).
+The `welcomeToBooleans()` function should return a Boolean (`true` or `false`) value.
 
 ```js
 assert(typeof welcomeToBooleans() === 'boolean');
 ```
 
-`welcomeToBooleans()` inapaswa kurudisha `true`.
+`welcomeToBooleans()` should return `true`.
 
 ```js
 assert(welcomeToBooleans() === true);

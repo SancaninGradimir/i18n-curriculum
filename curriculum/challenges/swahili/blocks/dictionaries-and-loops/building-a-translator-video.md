@@ -1,6 +1,6 @@
 ---
 id: 703bcd12c0edae7773eeec64
-title: Kujenga mtafsiri
+title: Building a Translator
 challengeType: 11
 videoId: 3Sa5rwlKdGQ
 dashedName: building-a-translator
@@ -8,13 +8,13 @@ dashedName: building-a-translator
 
 # --description--
 
-Katika video hii, utaweka programu rahisi ya mtafsiri ukitumia kamusi na ingizo la mtumizi.
+In this video, you will build a simple translator program using dictionaries and user input.
 
 # --questions--
 
 ## --text--
 
-Ni njia gani kati ya zifuatazo hutumika kukagua kama herufi zote katika mfuatano wa herufi ni kubwa?
+Which of the following methods is used to check if all characters in a string are uppercase?
 
 ## --answers--
 

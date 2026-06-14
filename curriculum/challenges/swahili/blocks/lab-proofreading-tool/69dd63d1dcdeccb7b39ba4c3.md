@@ -1,124 +1,124 @@
 ---
 id: 69dd63d1dcdeccb7b39ba4c3
-title: Jenga chombo cha ukaguzi wa makosa ya maandishi
+title: Izgradite alat za korekturu teksta
 challengeType: 26
 dashedName: build-a-proofreading-tool
 ---
 
 # --description--
 
-Katika maabara hii, utajenga chombo cha ukaguzi wa makosa ya maandishi kinachochambua safu za maneno kwa ajili ya palindromu na misemo inayojirudia.
+U ovom laboratorijumu, kreiraćete alat za proveru teksta koji analizira niz reči na palindrome i ponavljene fraze.
 
-Palindrome ni neno linalosomwa sawa mbele na nyuma. Kwa mfano, `"racecar"` na `"level"` ni palindromu, lakini `"hello"` siyo.
+Palindrom je reč koja se čita isto napred i nazad. Na primer, `"racecar"` i `"level"` su palindromi, ali `"hello"` nije.
 
-Usemi ni mfululizo wa maneno yanayofuata mfululizo. Kwa mfano, katika `["the", "cat", "sat", "the", "cat"]`, usemi `"the cat"` (mfululizo wa maneno 2) unaonekana katika nafasi za 0 na 3.
+Fraza je sekvenca uzastopnih reči. Na primer, u `["the", "cat", "sat", "the", "cat"]`, fraza `"the cat"` (sekvenca od 2 reči) pojavljuje se na pozicijama 0 i 3.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite mitihani yote ili kumaliza maabara hii.
+**Cilj:** Ispunite korisničke priče ispod i osigurajte da svi testovi prođu kako biste završili laboratorijum.
 
-**Hadithi za watumizi:**
+**Korisničke priče:**
 
-1. Unapaswa kufafanua kitendakazi kinachoitwa `isPalindrome` kinachopokea mfuatano wa herufi wa `word` kama hoja yake. Kitendakazi hicho kinapaswa kurudisha `true` ikiwa neno linasomwa sawa mbele na nyuma (bila kujali herufi kubwa au ndogo), na `false` vinginevyo.
+1. Trebalo bi da definišete funkciju pod nazivom `isPalindrome` koja uzima string `word` kao argument. Trebalo bi da vrati `true` ako se reč čita isto napred i nazad (bez razличиja između velikih i malih slova), i `false` inače.
 
-2. Unapaswa kufafanua kitendakazi kinachoitwa `findPalindromeBreaks` kinachopokea safu ya data ya `words` kama hoja yake. Kitendakazi hicho kinapaswa kurudisha safu ya vielezo vya maneno ambayo si palindromu. Kitapaswa kurudisha safu tupu ikiwa ingizo ni tupu.
+2. Trebalo bi da definišete funkciju pod nazivom `findPalindromeBreaks` koja uzima niz `words` kao argument. Trebalo bi da vrati niz indeksa reči koje nisu palindromi. Trebalo bi da vrati prazan niz ako je ulaz prazan.
 
-3. Unapaswa kufafanua kitendakazi kinachoitwa `findRepeatedPhrases` kinachopokea safu ya data ya `words` na nambari ya `phraseLength` kama hoja zake. Kitendakazi hicho kinapaswa kurudisha safu ya vielezo vyote vya kuanzia ambapo mfululizo wa maneno `phraseLength` unaofuata mfululizo huonekana zaidi ya mara moja katika safu — ikiwa ni pamoja na kielezo cha tukio la kwanza. Kitapaswa kurudisha safu tupu ikiwa `phraseLength` ni kubwa au sawa na urefu wa `words`. Mfululizo unaojirudia unaozunguka pia unapaswa kuhesabiwa.
+3. Trebalo bi da definišete funkciju pod nazivom `findRepeatedPhrases` koja uzima niz `words` i broj `phraseLength` kao argumente. Trebalo bi da vrati niz svih početnih indeksa gde se sekvenca od `phraseLength` uzastopnih reči pojavljuje više puta u nizu — uključujući indeks prvog pojavljivanja. Trebalo bi da vrati prazan niz ako je `phraseLength` veći ili jednak dužini `words`. Preklapajuće sekvence takođe treba računati.
 
-4. Unapaswa kufafanua kitendakazi kinachoitwa `analyzeTexts` kinachopokea safu ya data ya `texts` na nambari ya `phraseLength` kama hoja zake. Kitendakazi hicho kinapaswa kushughulikia kila kipengele cha `texts` (kila kikiwa safu ya maneno) na kurudisha safu ya vitu, kila kikiwa na vigezo vya `repeatedPhrases` na `palindromeBreaks`. Kitapaswa kurudisha safu tupu ikiwa `texts` ni tupu.
+4. Trebalo bi da definišete funkciju pod nazivom `analyzeTexts` koja uzima niz `texts` i broj `phraseLength` kao argumente. Trebalo bi da obradi svaki element `texts` (svaki je niz reči) i vrati niz objekata, od kojih svaki ima svojstva `repeatedPhrases` i `palindromeBreaks`. Trebalo bi da vrati prazan niz ako je `texts` prazan.
 
 # --hints--
 
-`isPalindrome` inapaswa kuwa kitendakazi.
+`isPalindrome` should be a function.
 
 ```js
 assert.isFunction(isPalindrome);
 ```
 
-`isPalindrome` inapaswa kurudisha `true` kwa palindromu.
+`isPalindrome` should return `true` for a palindrome.
 
 ```js
 assert.isTrue(isPalindrome("racecar"));
 assert.isTrue(isPalindrome("a"));
 ```
 
-`isPalindrome` inapaswa kurudisha `true` bila kujali herufi kubwa au ndogo.
+`isPalindrome` should return `true` regardless of case.
 
 ```js
 assert.isTrue(isPalindrome("Level"));
 ```
 
-`isPalindrome` inapaswa kurudisha `false` kwa si palindromu.
+`isPalindrome` should return `false` for a non-palindrome.
 
 ```js
 assert.isFalse(isPalindrome("hello"));
 ```
 
-`findPalindromeBreaks` inapaswa kuwa kitendakazi.
+`findPalindromeBreaks` should be a function.
 
 ```js
 assert.isFunction(findPalindromeBreaks);
 ```
 
-`findPalindromeBreaks` inapaswa kurudisha safu tupu kwa ingizo tupu.
+`findPalindromeBreaks` should return an empty array for empty input.
 
 ```js
 assert.sameDeepOrderedMembers(findPalindromeBreaks([]), []);
 ```
 
-`findPalindromeBreaks` inapaswa kurudisha vielezo vya si palindromu.
+`findPalindromeBreaks` should return the indices of non-palindromes.
 
 ```js
 assert.sameDeepOrderedMembers(findPalindromeBreaks(["racecar", "hello", "level"]), [1]);
 ```
 
-`findPalindromeBreaks` inapaswa kurudisha safu tupu wakati maneno yote ni palindromu.
+`findPalindromeBreaks` should return an empty array when all words are palindromes.
 
 ```js
 assert.sameDeepOrderedMembers(findPalindromeBreaks(["racecar", "level", "aba"]), []);
 ```
 
-`findRepeatedPhrases` inapaswa kuwa kitendakazi.
+`findRepeatedPhrases` should be a function.
 
 ```js
 assert.isFunction(findRepeatedPhrases);
 ```
 
-`findRepeatedPhrases` inapaswa kurudisha safu tupu wakati `phraseLength` ni kubwa au sawa na urefu wa `words`.
+`findRepeatedPhrases` should return an empty array when `phraseLength` is greater than or equal to the length of `words`.
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat"], 2), []);
 ```
 
-`findRepeatedPhrases` inapaswa kurudisha safu tupu wakati `phraseLength` ni kubwa kuliko urefu wa `words`.
+`findRepeatedPhrases` should return an empty array when `phraseLength` is greater than the length of `words`.
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the"], 2), []);
 ```
 
-`findRepeatedPhrases` inapaswa kurudisha vielezo vyote vya kuanzia ambapo usemi unajirudia, ikiwa ni pamoja na tukio la kwanza.
+`findRepeatedPhrases` should return all start indices where the phrase repeats, including the first occurrence.
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["the", "cat", "sat", "the", "cat"], 2), [0, 3]);
 ```
 
-`findRepeatedPhrases` inapaswa kurudisha vielezo vyote vya kuanzia kwa misemo inayojirudia inayozunguka.
+`findRepeatedPhrases` should return all start indices for overlapping repeated phrases.
 
 ```js
 assert.sameDeepOrderedMembers(findRepeatedPhrases(["ba", "ba", "ba"], 2), [0, 1]);
 ```
 
-`analyzeTexts` inapaswa kuwa kitendakazi.
+`analyzeTexts` should be a function.
 
 ```js
 assert.isFunction(analyzeTexts);
 ```
 
-`analyzeTexts` inapaswa kurudisha safu tupu kwa ingizo tupu.
+`analyzeTexts` should return an empty array for empty input.
 
 ```js
 assert.sameDeepOrderedMembers(analyzeTexts([], 2), []);
 ```
 
-`analyzeTexts` vitu vya matokeo vinapaswa kuwa na vigezo vya `repeatedPhrases` na `palindromeBreaks`.
+`analyzeTexts` result objects should have `repeatedPhrases` and `palindromeBreaks` properties.
 
 ```js
 const result = analyzeTexts([["racecar", "hello"]], 2);
@@ -126,7 +126,7 @@ assert.property(result[0], "repeatedPhrases");
 assert.property(result[0], "palindromeBreaks");
 ```
 
-`analyzeTexts` inapaswa kujumlisha matokeo kwa usahihi kwa kila maandishi.
+`analyzeTexts` should correctly aggregate results for each text.
 
 ```js
 const result = analyzeTexts([["racecar", "hello", "level", "hello"]], 1);
@@ -134,7 +134,7 @@ assert.sameDeepOrderedMembers(result[0].repeatedPhrases, [1, 3]);
 assert.sameDeepOrderedMembers(result[0].palindromeBreaks, [1, 3]);
 ```
 
-`analyzeTexts` inapaswa kushughulikia maandishi mengi na kurudisha matokeo kwa kila moja.
+`analyzeTexts` should process multiple texts and return a result for each.
 
 ```js
 const result = analyzeTexts([["racecar", "hello"], ["level", "world", "level"]], 1);

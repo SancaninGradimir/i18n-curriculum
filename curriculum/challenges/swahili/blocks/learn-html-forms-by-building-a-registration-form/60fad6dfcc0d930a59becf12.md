@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Hatua 43
+title: Step 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-HTML ya fomu ya usajili imemalizika. Sasa, unaweza kuiboresha kidogo.
+The HTML for the registration form is finished. Now, you can spruce it up a bit.
 
-Anza kwa kuongeza `Tahoma` kama fonti na ukubwa wa fonti wa `16px` katika kichaguzi cha `body`.
+Start by adding `Tahoma` as the font with a font size of `16px` in the `body` selector.
 
 # --hints--
 
-Unapaswa kutumia sifa ya `font-family` kubadilisha fonti.
+You should use the `font-family` property to change the font.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-Unapaswa kuweka sifa ya `font-family` kuwa `Tahoma`.
+You should set the `font-family` property to `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-Unapaswa kuweka sifa ya `font-size` kuwa `16px`.
+You should set the `font-size` property to `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

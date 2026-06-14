@@ -1,25 +1,25 @@
 ---
 id: 699b58c5abecfda9dc81c4ec
-title: Hatua 3
+title: Korak 3
 challengeType: 1
 dashedName: step-3
 ---
 
 # --description--
 
-Kwa sasa kitu cha `profile` kina sifa tatu tu. Lakini itakuwa vizuri kuwa na sifa zaidi kidogo.
+Trenutno objekat `profile` ima samo tri svojstva. Ali bilo bi lepo imati još nekoliko.
 
-Ongeza sifa iitwayo `mood` kwenye kitu cha `profile`. Thamani yake inapaswa kuwa `null`.
+Dodajte svojstvo nazvano `mood` objektu `profile`. Njegova vrednost bi trebalo da bude `null`.
 
 # --hints--
 
-Kitu chako cha `profile` kinapaswa kuwa na sifa ya `mood`.
+Your `profile` object should have a `mood` property.
 
 ```js
 assert.property(profile, "mood");
 ```
 
-Sifa yako ya `mood` inapaswa kuwa na thamani ya `null`.
+Your `mood` property should have a value of `null`.
 
 ```js
 assert.isNull(profile?.mood);

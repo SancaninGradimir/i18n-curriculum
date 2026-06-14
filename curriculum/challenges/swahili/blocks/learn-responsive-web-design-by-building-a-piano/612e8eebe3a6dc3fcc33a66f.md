@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Hatua 11
+title: Step 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Sasa lenga kipengele chako cha `#piano` kwa kutumia kichaguzi cha `id`. Weka sifa ya `background-color` kuwa `#00471b`, sifa ya `width` kuwa `992px` na sifa ya `height` kuwa `290px`.
+Now target your `#piano` element with an `id` selector. Set `background-color` property to `#00471b`, the `width` property to `992px` and the `height` property to `290px`.
 
 # --hints--
 
-Unapaswa kuwa na kichaguzi cha `#piano`.
+You should have a `#piano` selector.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `background-color` iliyowekwa kuwa `#00471b`.
+Your `#piano` selector should have the `background-color` property set to `#00471b`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor === 'rgb(0, 71, 27)');
 ```
 
-Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `width` iliyowekwa kuwa `992px`.
+Your `#piano` selector should have a `width` property set to `992px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.width === '992px');
 ```
 
-Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `height` iliyowekwa kuwa `290px`.
+Your `#piano` selector should have the `height` set to `290px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.height === '290px');

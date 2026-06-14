@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Step 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Hamisha sikio la kushoto kwa kuweka sifa ya position kuwa `absolute`, sifa ya `top` kuwa `-26px`, na sifa ya `left` kuwa `-31px`.
+Premestite levou uho na poziciju postavljanjem pozicije `absolute`, `top` od `-26px`, i `left` od `-31px`.
 
 # --hints--
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `position` iliyowekwa kuwa `absolute`. Usisahau kuongeza nukta ya nusu.
+Your `.cat-left-ear` selector should have a `position` property set to `absolute`. Don't forget to add a semicolon.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `top` iliyowekwa kuwa `-26px`
+Your `.cat-left-ear` selector should have a `top` property set to `-26px`
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `left` iliyowekwa kuwa `-31px`
+Your `.cat-left-ear` selector should have a `left` property set to `-31px`
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')

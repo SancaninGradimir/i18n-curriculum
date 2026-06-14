@@ -1,6 +1,6 @@
 ---
 id: 661bd3fc29debe22a71eedb5
-title: Zoezi la 69
+title: Task 69
 challengeType: 19
 dashedName: task-69
 lang: en-US
@@ -8,41 +8,41 @@ lang: en-US
 
 # --description--
 
-`Physical or behavioral traits` ni vitu maalum kuhusu mwili wako au jinsi unavyojitawala. Inaweza kuwa uso wako, alama za vidole, au njia unavyosogea. Biometrics hutumia vitu hivi kuhifadhi usalama.
+`Physical or behavioral traits` are special things about your body or how you act. It can be your face, fingerprints, or the way you move. Biometrics uses these things to keep things safe.
 
 # --questions--
 
 ## --text--
 
-`physical or behavioral traits` ni nini kinachojumuishwa katika biometrics?
+What do `physical or behavioral traits` include in biometrics?
 
 ## --answers--
 
-Vitu vya bahati nasibu
+Random objects
 
 ### --feedback--
 
-Vitu vya bahati nasibu havilingani na dhana ya sifa binafsi zinazotumika katika biometrics.
+Random objects don't fit the idea of personal characteristics used in biometrics.
 
 ---
 
-Nguvu za kichawi
+Magical powers
 
 ### --feedback--
 
-Nguvu za kichawi hazihusiani na dhana ya vipengele maalum vya binafsi katika biometrics.
+Magical powers are unrelated to the concept of unique personal features in biometrics.
 
 ---
 
-Mifumo yenye rangi nyingi
+Colorful patterns
 
 ### --feedback--
 
-Mifumo yenye rangi nyingi haikuwakilishi sifa maalum za mwili wako au tabia zako.
+Colorful patterns do not represent the specific traits of your body or behavior.
 
 ---
 
-Sifa maalum za mwili wako au tabia zako
+Special characteristics of your body or behavior
 
 ## --video-solution--
 

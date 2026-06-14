@@ -1,6 +1,6 @@
 ---
 id: 66db5c0fafea6d794c92ccea
-title: Zoezi la 58
+title: Task 58
 challengeType: 19
 dashedName: task-58
 lang: en-US
@@ -12,41 +12,41 @@ Linda: Yes. The navigation bar and footer adjustments have already made a big di
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Je, vipengele vilivyosasishwa vinafanya kazi vipi?
+How are the updated elements performing?
 
 ## --answers--
 
-Havifanyi kazi ipasavyo kwenye vifaa vyote, na hii imeleta tofauti kubwa.
+They are not working correctly across all devices, and this has made a big difference.
 
 ### --feedback--
 
-Linda hakutaja matatizo yoyote kuhusu marekebisho hayo.
+Linda did not mention any issues with the updates. 
 
 ---
 
-Vinahitaji marekebisho zaidi ili kufanya kazi ipasavyo na hii haijaleta tofauti yoyote.
+They need further adjustments to work properly and this has made no difference.
 
 ### --feedback--
 
-Linda hakutaja haja ya marekebisho zaidi.
+Linda did not mention the need for further adjustments. 
 
 ---
 
-Vinazua matatizo mapya kwenye muonekano wa mtumiaji na hii imeleta tofauti kubwa.
+They are causing new problems with the user interface and this has made a big difference.
 
 ### --feedback--
 
-Linda hakusema kuwa marekebisho yalisababisha matatizo mapya.
+Linda did not say that the updates caused new problems. 
 
 ---
 
-Vinafanya kazi vizuri na marekebisho yameleta tofauti kubwa.
+They are performing well and the adjustments have made a big difference.
 
 ## --video-solution--
 
@@ -54,13 +54,13 @@ Vinafanya kazi vizuri na marekebisho yameleta tofauti kubwa.
 
 # --explanation--
 
-Ili kujua kama kitu kinafanya kazi vizuri, tafuta maneno au misemo inayoonyesha matokeo mazuri au maboresho.
+To know if something is performing well, look for words or phrases that indicate a good result or improvement. 
 
-Linda anatumia usemi `have already made a big difference`.
+Linda uses the phrase `have already made a big difference`.
 
-`Made a big difference` inaashiria mabadiliko muhimu au yanayoonekana. Wakati kitu kina `made a big difference` katika muktadha mzuri, kawaida ina maana kuwa mabadiliko hayo ni ya msaada au yenye ufanisi.
+`Made a big difference` suggests an important or noticeable change. When something has `made a big difference` in a positive context, it usually means that the change is helpful or effective.
 
-Hivyo, jibu la Linda linaonyesha kuwa vipengele vilivyosasishwa vinafanya kazi vizuri na vimeboresha hali.
+So, Linda's response indicates that the updated elements are working well and have improved the situation.
 
 # --scene--
 

@@ -8,31 +8,32 @@ dashedName: ellipses
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu ellipses, mlinganyo wao wa kawaida, na jinsi ya kutambua vipengele vyao muhimu.
+In this video, you will learn about ellipses, their standard equations, and how to identify their key features.
 
 # --questions--
 
 ## --text--
 
-Ellipse ni nini?
+What is an ellipse?
 
 ## --answers--
 
-Seti ya pointi ambapo jumla ya umbali kutoka pointi mbili zilizowekwa ni thabiti.
+The set of points such that the sum of the distances from two fixed points is constant.
 
 ---
 
-Seti ya pointi ambapo umbali kutoka pointi moja iliyowekwa ni thabiti.
+The set of points such that the distance from one fixed point is constant.
 
 ---
 
-Seti ya pointi ambapo bidhaa ya umbali kutoka pointi mbili zilizowekwa ni thabiti.
+The set of points such that the product of the distances from two fixed points is constant.
 
 ---
 
-Seti ya pointi zilizo na umbali sawa kutoka mstari na pointi.
-
+The set of points equidistant from a line and a point.
 
 ## --video-solution--
 
 1
+
+

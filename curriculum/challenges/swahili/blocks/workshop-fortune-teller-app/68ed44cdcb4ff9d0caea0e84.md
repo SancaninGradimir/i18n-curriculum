@@ -1,24 +1,24 @@
 ---
 id: 68ed44cdcb4ff9d0caea0e84
-title: Hatua 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Kwa kuwa unafanya wito wa `fetchCardsData` na `initializeEventListeners` ndani ya kijenzi, sasa unahitaji kuvitaja ndani ya darasa la vitu. Unda zote mbili kama njia za `private`. Hakikisha `fetchCardsData` ni isiyo ya wakati mmoja kwa sababu itashughulikia wito za API.
+Pošto pozivate `fetchCardsData` i `initializeEventListeners` unutar konstruktora, sada morate definisati njih unutar klase. Kreirajte oba kao metode `private`. Uverite se da je `fetchCardsData` asinhron jer će rukovati pozivima API-ja.
 
 # --hints--
 
-Unapaswa kuwa na njia ya `private` yenye jina `fetchCardsData`.
+You should have a `private` method named `fetchCardsData`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.isTrue(explorer.classes.Game.methods.fetchCardsData.isPrivate());
 ```
 
-Njia yako ya `fetchCardsData` inapaswa kuwa `async`.
+Your `fetchCardsData` method should be `async`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -26,7 +26,7 @@ const method = explorer.classes.Game.methods.fetchCardsData.toString();
 assert.match(method, /async/);
 ```
 
-Unapaswa kuwa na njia ya `private` yenye jina `initializeEventListeners`.
+You should have a `private` method named `initializeEventListeners`.
 
 ```js
 const explorer = await __helpers.Explorer(code);

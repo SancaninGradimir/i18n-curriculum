@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5e
-title: Ongeza maoni katika JSX
+title: Add Comments in JSX
 challengeType: 6
 forumTopicId: 301376
 dashedName: add-comments-in-jsx
@@ -8,35 +8,35 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX ni sintaksia inayotafsiriwa kuwa JavaScript halali. Wakati mwingine, kwa ajili ya urahisi wa kusoma, unaweza kuhitaji kuongeza maoni katika msimbo wako. Kama lugha nyingi za programu, JSX ina njia yake ya kufanya hivyo.
+JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
 
-Ili kuweka maoni ndani ya JSX, unatumia sintaksia `{/* */}` kuzunguka maandishi ya maoni.
+To put comments inside JSX, you use the syntax `{/* */}` to wrap around the comment text.
 
 # --instructions--
 
-Mhariri wa msimbo una kipengele cha JSX kinachofanana na ulichotengeneza katika changamoto iliyopita. Ongeza maoni mahali popote ndani ya kipengele cha `div` kilichotolewa, bila kubadilisha vipengele vilivyopo vya `h1` au `p`.
+The code editor has a JSX element similar to what you created in the last challenge. Add a comment somewhere within the provided `div` element, without modifying the existing `h1` or `p` elements.
 
 # --hints--
 
-Kipengele cha `JSX` kinapaswa kurudisha kipengele cha `div`.
+The constant `JSX` should return a `div` element.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-Kipengele cha `div` kinapaswa kuwa na lebo ya `h1` kama kipengele cha kwanza.
+The `div` should contain an `h1` tag as the first element.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-Kipengele cha `div` kinapaswa kuwa na lebo ya `p` kama kipengele cha pili.
+The `div` should contain a `p` tag as the second element.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Vipengele vilivyopo vya `h1` na `p` havipaswi kubadilishwa.
+The existing `h1` and `p` elements should not be modified.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Kipengele cha `JSX` kinapaswa kutumia sintaksia halali ya maoni.
+The `JSX` should use valid comment syntax.
 
 ```js
 assert(/<div>[\s\S]*{\s*\/\*[\s\S]*\*\/\s*}[\s\S]*<\/div>/.test(code));

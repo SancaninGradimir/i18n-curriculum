@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd19
-title: Tengeneza mtazamaji wa Wikipedia
+title: Build a Wikipedia Viewer
 challengeType: 3
 forumTopicId: 302360
 dashedName: build-a-wikipedia-viewer
@@ -8,21 +8,21 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Lengo:** Tengeneza programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
-Programu ya MediaWiki inaendesha Wikipedia, na inakusaidia kukusanya na kupanga maarifa na kuyafanya kupatikana kwa watu.
+The MediaWiki software powers Wikipedia, and it helps you collect and organize knowledge and make it available to people.
 
-Kwa kutumia API ya MediaWiki, tengeneza upya kitendakazi cha utafutaji na kitendakazi cha makala za bahati nasibu, kama ilivyo kwenye mfano wa programu hapo juu. Unaweza kutumia Wikipedia kama chanzo chako cha data.
+Using the MediaWiki API, replicate the search function and random article function, similar to the example app above. You can use Wikipedia as your data source.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API zozote unazohitaji. Toa mtindo wako binafsi.
+Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-**Hadithi ya mtumiaji:** Naweza kutafuta maingizo ya Wikipedia kwenye kisanduku cha utafutaji na kuona maingizo yanayotokea ya Wikipedia.
+**User Story:** I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kitufe kuona maingizo ya Wikipedia ya bahati nasibu.
+**User Story:** I can click a button to see a random Wikipedia entry.
 
-Ukipata kazi, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --solutions--
 

@@ -7,14 +7,14 @@ dashedName: challenge-134
 
 # --description--
 
-Ukizingatia kiasi cha pesa ulizonazo, na safu ya data ya vitu unavyotaka kununua, amua ni vingapi unaweza kununua.
+Given an amount of money you have, and an array of items you want to buy, determine how many of them you can afford.
 
-- Kiasi kilichotolewa kitakuwa katika muundo wa `["Amount", "Currency Code"]`. Kwa mfano: `["150.00", "USD"]` au `["6000", "JPY"]`.
-- Kila kipengee cha safu ya data unachotaka kununua kitakuwa katika muundo uleule.
+- The given amount will be in the format `["Amount", "Currency Code"]`. For example: `["150.00", "USD"]` or `["6000", "JPY"]`.
+- Each array item you want to purchase will be in the same format.
 
-Tumia viwango vya kubadilisha fedha vifuatavyo kubadilisha thamani:
+Use the following exchange rates to convert values:
 
-|Sarafu|1 Kifungu Kinamaanisha|
+|Currency|1 Unit Equals|
 |-|-|
 |USD|1.00 USD|
 |EUR|1.10 USD|
@@ -22,8 +22,8 @@ Tumia viwango vya kubadilisha fedha vifuatavyo kubadilisha thamani:
 |JPY|0.0070 USD|
 |CAD|0.75 USD|
 
-- Ikiwa unaweza kumudu vitu vyote vilivyopo kwenye orodha, rudisha `"Buy them all!"`.
-- Vinginevyo, rudisha `"Buy the first X items."`, ambapo `X` ni idadi ya vitu unavyoweza kumudu kununua kwa mpangilio uliopewa.
+- If you can afford all the items in the list, return `"Buy them all!"`.
+- Otherwise, return `"Buy the first X items."`, where `X` is the number of items you can afford when purchased in the order given.
 
 
 # --hints--

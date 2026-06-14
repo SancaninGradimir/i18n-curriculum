@@ -1,6 +1,6 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Zoezi la 144
+title: Task 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Jessica anapanga kufanya nini na taarifa hizo?
+What does Jessica plan to do with the information?
 
 ## --answers--
 
-Zisahau kwa sasa na subiri maoni zaidi.
+Ignore it for now and wait for more feedback.
 
 ### --feedback--
 
-Jessica anasema atapanga taarifa na kuishirikisha, si kuisahau.
+Jessica says she will organize the information and share it, not ignore it.
 
 ---
 
-Panga taarifa hizo katika ripoti na zungumze na wengine.
+Organize it into a report and discuss it with others.
 
 ---
 
-Waombe watumizi kujaribu tena kabla ya kufanya mabadiliko.
+Ask users to test it again before making changes.
 
 ### --feedback--
 
-Hakusema chochote kuhusu kujaribu tena au maoni ya watumizi.
+She does not mention anything about retesting or user feedback.
 
 ---
 
-Tuma moja kwa moja kwa mteja bila kupitia ukaguzi.
+Send it directly to the client without review.
 
 ### --feedback--
 
-Jessica anapanga kuzungumza na timu yake kwanza, si kutuma moja kwa moja kwa mteja.
+Jessica plans to talk with her team first, not send it straight to a client.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Jessica anapanga kuzungumza na timu yake kwanza, si kutuma moja kwa moja kwa mte
 
 # --explanation--
 
-Jessica anasema atakuwa `put all this information into a report` na `talk about it with the team tomorrow`. Hii inaonyesha anapanga kupanga maelezo na kuzungumza na timu yake.
+Jessica says she will `put all this information into a report` and `talk about it with the team tomorrow`. This shows she plans to organize the details and have a discussion with her team.
 
-Anasema pia maoni `should help`, ikimaanisha yatasaidia kuelekeza hatua zao zinazofuata.
+She also says the feedback `should help`, meaning it will guide their next steps.
 
 # --scene--
 

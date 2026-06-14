@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Unda sehemu tata ya JSX
+title: Create a Complex JSX Element
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -8,17 +8,17 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-Changamoto ya mwisho ilikuwa mfano rahisi wa JSX, lakini JSX inaweza pia wakilisha HTML tata zaidi.
+The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
-Jambo muhimu la kujua kuhusu JSX zilizopangwa ndani ni kwamba lazima zirudishe sehemu moja tu.
+One important thing to know about nested JSX is that it must return a single element.
 
-Sehemu hii moja ya mzazi itazunguka ngazi zote nyingine za sehemu zilizopangwa ndani.
+This one parent element would wrap all of the other levels of nested elements.
 
-Kwa mfano, sehemu kadhaa za JSX zilizoandikwa kama ndugu bila sehemu ya mzazi itakayozunguka hazitatafsiriwa.
+For instance, several JSX elements written as siblings with no parent wrapper element will not transpile.
 
-Hapa kuna mfano:
+Here's an example:
 
-**JSX halali:**
+**Valid JSX:**
 
 ```jsx
 <div>
@@ -28,7 +28,7 @@ Hapa kuna mfano:
 </div>
 ```
 
-**JSX isiyo halali:**
+**Invalid JSX:**
 
 ```jsx
 <p>Paragraph One</p>
@@ -38,39 +38,39 @@ Hapa kuna mfano:
 
 # --instructions--
 
-Fafanua constant mpya `JSX` inayonyesha `div` ambayo ina sehemu zifuatazo kwa mpangilio:
+Define a new constant `JSX` that renders a `div` which contains the following elements in order:
 
-`h1`, `p`, na orodha isiyopangwa inayojumuisha vitu vitatu vya `li`. Unaweza kuweka maandishi yoyote unayotaka ndani ya kila sehemu.
+An `h1`, a `p`, and an unordered list that contains three `li` items. You can include any text you want within each element.
 
-**Kumbuka:** Unaponyesha sehemu nyingi kama hizi, unaweza kuzizunguka zote kwa mabano ya kawaida, lakini si sharti kabisa. Pia angalia changamoto hii inatumia lebo ya `div` kuzunguka sehemu zote za watoto ndani ya sehemu moja ya mzazi. Ukiondoa `div`, JSX haitatafsiri tena. Kumbuka hili, kwani litahusiana pia unaporudisha sehemu za JSX katika sehemu za React.
+**Note:** When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required. Also notice this challenge uses a `div` tag to wrap all the child elements within a single parent element. If you remove the `div`, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in React components.
 
 # --hints--
 
-Constant `JSX` inapaswa kurudisha sehemu ya `div`.
+The constant `JSX` should return a `div` element.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-`div` inapaswa kuwa na lebo ya `h1` kama sehemu ya kwanza.
+The `div` should contain an `h1` tag as the first element.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-`div` inapaswa kuwa na lebo ya `p` kama sehemu ya pili.
+The `div` should contain a `p` tag as the second element.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-`div` inapaswa kuwa na lebo ya `ul` kama sehemu ya tatu.
+The `div` should contain a `ul` tag as the third element.
 
 ```js
 assert(JSX.props.children[2].type === 'ul');
 ```
 
-`ul` inapaswa kuwa na sehemu tatu za `li`.
+The `ul` should contain three `li` elements.
 
 ```js
 assert(

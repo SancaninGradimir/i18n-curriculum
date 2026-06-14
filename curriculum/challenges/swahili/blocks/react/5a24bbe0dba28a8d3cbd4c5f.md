@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5f
-title: Onyesha vipengele vya HTML kwenye DOM
+title: Render HTML Elements to the DOM
 challengeType: 6
 forumTopicId: 301406
 dashedName: render-html-elements-to-the-dom
@@ -8,37 +8,37 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-Hadi sasa, umejifunza kwamba JSX ni chombo rahisi cha kuandika HTML inayosomeka ndani ya JavaScript. Kwa kutumia React, tunaweza kuonyesha JSX hii moja kwa moja kwenye HTML DOM kwa kutumia API ya kuonyesha ya React inayojulikana kama ReactDOM.
+So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
-ReactDOM hutoa njia rahisi ya kuonyesha vipengele vya React kwenye DOM ambayo inaonekana hivi: `ReactDOM.render(componentToRender, targetNode)`, ambapo hoja ya kwanza ni kipengele cha React au sehemu unayotaka kuonyesha, na hoja ya pili ni nodi ya DOM unayotaka kuonyesha sehemu hiyo ndani yake.
+ReactDOM offers a simple method to render React elements to the DOM which looks like this: `ReactDOM.render(componentToRender, targetNode)`, where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
 
-Kama unavyotarajia, `ReactDOM.render()` lazima iitwe baada ya tamko la vipengele vya JSX, kama vile unavyotakiwa kutangaza vigezo kabla ya kuvitumia.
+As you would expect, `ReactDOM.render()` must be called after the JSX element declarations, just like how you must declare variables before using them.
 
 # --instructions--
 
-Mhariri wa msimbo una sehemu rahisi ya JSX. Tumia njia ya `ReactDOM.render()` kuonyesha sehemu hii kwenye ukurasa. Unaweza kupitisha vipengele vya JSX vilivyotangazwa moja kwa moja kama hoja ya kwanza na tumia `document.getElementById()` kuchagua nodi ya DOM kuonyesha vipengele hivyo ndani yake. Kuna `div` yenye `id='challenge-node'` inayopatikana kwa ajili yako kutumia. Hakikisha haukubadili thabiti ya `JSX`.
+The code editor has a simple JSX component. Use the `ReactDOM.render()` method to render this component to the page. You can pass defined JSX elements directly in as the first argument and use `document.getElementById()` to select the DOM node to render them to. There is a `div` with `id='challenge-node'` available for you to use. Make sure you don't change the `JSX` constant.
 
 # --hints--
 
-Thabiti `JSX` inapaswa kurudisha kipengele cha `div`.
+The constant `JSX` should return a `div` element.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-`div` inapaswa kuwa na lebo ya `h1` kama kipengele cha kwanza.
+The `div` should contain an `h1` tag as the first element.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-`div` inapaswa kuwa na lebo ya `p` kama kipengele cha pili.
+The `div` should contain a `p` tag as the second element.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Kipengele cha JSX kilichotolewa kinapaswa kuonyeshwa kwenye nodi ya DOM yenye kitambulisho `challenge-node`.
+The provided JSX element should render to the DOM node with id `challenge-node`.
 
 ```js
 assert(

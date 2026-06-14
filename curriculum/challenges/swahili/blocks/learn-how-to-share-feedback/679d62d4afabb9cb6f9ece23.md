@@ -1,6 +1,6 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Zoezi la 106
+title: Task 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Maria anataka kuepuka kufanya nini, na kwa nini?
+What does Maria want to avoid doing, and why?
 
 ## --answers--
 
-Anataka kuepuka kutatua tatizo.
+She wants to avoid fixing the problem.
 
 ### --feedback--
 
-Maria hasemi kwamba wasitatue tatizo.
+Maria is not saying they shouldn't fix the problem.
 
 ---
 
-Anataka kuepuka kuomba msaada.
+She wants to avoid asking for help.
 
 ### --feedback--
 
-Maria hakutaja kuomba msaada.
+Maria does not mention asking for help.
 
 ---
 
-Anataka kuepuka kuharaka kwa sababu inaweza kusababisha matatizo zaidi.
+She wants to avoid rushing because it could cause more problems.
 
 ---
 
-Anataka kuepuka kusasisha programu.
+She wants to avoid updating the software.
 
 ### --feedback--
 
-Maria hasemi kwamba wanapaswa kuepuka kusasisha.
+Maria does not say they should avoid updating.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria hasemi kwamba wanapaswa kuepuka kusasisha.
 
 # --explanation--
 
-`To lead to problems` ina maana kwamba kitendo au uamuzi unaweza kusababisha matatizo au matokeo mabaya. Kwa mfano:
+`To lead to problems` means that an action or decision could result in difficulties or negative consequences. For example:
 
-`Skipping the testing phase can lead to serious problems in the software.` - Hii ina maana kwamba kutofanya majaribio ipasavyo kunaweza kusababisha matatizo makubwa ya kiufundi.
+`Skipping the testing phase can lead to serious problems in the software.` - This means that not testing properly might cause major technical issues.
 
-Katika mazungumzo haya, Maria ana wasiwasi kwamba kuharaka kunaweza kuleta matatizo zaidi.
+In this dialogue, Maria is concerned that rushing could create additional issues.
 
 # --scene--
 

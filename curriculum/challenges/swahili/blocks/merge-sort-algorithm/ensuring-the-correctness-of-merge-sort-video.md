@@ -1,6 +1,6 @@
 ---
 id: 698de0ca7932b3cc4b19c938
-title: Kuhakikisha Usahihi wa Merge Sort
+title: Ensuring the Correctness of Merge Sort
 challengeType: 11
 videoId: UHAYHvqxVKY
 dashedName: ensuring-the-correctness-of-merge-sort
@@ -8,13 +8,13 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutathmini algoriti ya merge sort na kubaini usahihi wake.
+In this video, you will learn how to evaluate the merge sort algorithm and determine its correctness. 
 
 # --questions--
 
 ## --text--
 
-Ni mbinu gani inayotumika katika kitendakazi cha `verify_sorted`?
+What technique is used in the `verify_sorted` function?
 
 ## --answers--
 

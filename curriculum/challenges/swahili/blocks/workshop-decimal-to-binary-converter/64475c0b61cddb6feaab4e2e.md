@@ -1,27 +1,27 @@
 ---
 id: 64475c0b61cddb6feaab4e2e
-title: Step 13
+title: Korak 13
 challengeType: 0
 dashedName: step-13
 ---
 
 # --description--
 
-Sasa unaweza kumjulisha mtumizi ikiwa hawataingiza nambari, au nambari ni batili kabla hujajaribu kuibadilisha kuwa binary.
+Sada možete upozoriti korisnika ako ne unesu broj, ili je broj nevažeći pre nego što pokušate da ga konvertujete u binarni format.
 
-Katika mwili wa taarifa ya `if`, tumia njia ya `alert()` kuonyesha maandishi `"Please provide a decimal number greater than or equal to 0"`.
+U telu izjave `if`, koristite metod `alert()` da prikažete tekst `"Please provide a decimal number greater than or equal to 0"`.
 
-Kumbuka kuwa `alert()` ni njia kwenye kitu cha `window` katika kivinjari, kwa hivyo unaweza kutumia `window.alert()` au `alert()`.
+Napomena da je `alert()` metoda na objektu `window` u pretraživaču, pa možete koristiti ili `window.alert()` ili `alert()`.
 
 # --hints--
 
-Unapaswa kuita njia ya `alert()` ndani ya mwili wa taarifa yako ya `if` ndani ya `checkUserInput`.
+You should call the `alert()` method within the body of your `if` statement within `checkUserInput`.
 
 ```js
 assert.match(String(checkUserInput), /if\s*\(\s*.+\s*\)\s*\{\s*(window\s*.)?\s*alert\(/);
 ```
 
-Wakati kuna thamani ya uongo katika kipengele cha `#number-input` na kitendakazi cha `checkUserInput()` kinapoitwa, njia ya `alert()` inapaswa kuonyesha maandishi `"Please provide a decimal number greater than or equal to 0"`.
+When there is a falsy value in the `#number-input` element and the `checkUserInput()` function is called, the `alert()` method should display the text `"Please provide a decimal number greater than or equal to 0"`.
 
 ```js
 const numberInput = document.getElementById("number-input");

@@ -1,6 +1,6 @@
 ---
 id: 698dd5a27932b3cc4b19c930
-title: Orodha iliyounganishwa ni nini?
+title: What is a Linked List?
 challengeType: 11
 videoId: rnGKSsh97q0
 dashedName: what-is-a-linked-list
@@ -8,13 +8,13 @@ dashedName: what-is-a-linked-list
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu orodha zilizounganishwa.
+In this video, you will learn about linked lists.
 
 # --questions--
 
 ## --text--
 
-Nodi gani huwekwa mwanzoni mwa orodha iliyounganishwa?
+What is the name of the node that is placed at the beginning of a linked list?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 67c70abfeb7c6fb8cbd3fed7
-title: Zoezi la 57
+title: Task 57
 challengeType: 19
 dashedName: task-57
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Listen to the audio and answer the question below.  
 
 # --questions--
 
 ## --text--
 
-Maria anataka kujadili nini na James?  
+What does Maria want to discuss with James?  
 
 ## --answers--
 
-Ratiba ya Bob kwa wiki hii.  
+Bob's schedule for the week.  
 
 ### --feedback--
 
-Maria hakutaja ratiba ya Bob.  
+Maria does not mention Bob's schedule.  
 
 ---
 
-Mkutano wake wa hivi karibuni na Bob.  
+Her most recent meeting with Bob.  
 
 ---
 
-Muda wa mwisho wa mradi ujao.  
+A future project deadline.  
 
 ### --feedback--
 
-Maria hakutaja muda wa mwisho, bali mkutano wake na Bob tu.  
+Maria does not mention a deadline, only her meeting with Bob.  
 
 ---
 
-Ombi la bajeti la mteja.  
+The client's budget request.  
 
 ### --feedback--
 
-Maria hakutaja ombi la mteja katika sentensi hii.  
+Maria does not refer to a client request in this sentence.  
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Maria hakutaja ombi la mteja katika sentensi hii.
 
 # --explanation--
 
-`Can we talk about...` hutumika kuanzisha mada ya majadiliano. Ni njia ya heshima ya kuomba mazungumzo kuhusu jambo muhimu. Kwa mfano:
+`Can we talk about...` is used to introduce a topic for discussion. It is a polite way to request a conversation about something important. For example:
 
-`Can we talk about the changes to the project timeline?` - Hii ina maana msemaji anataka kujadili marekebisho ya ratiba ya mradi.
+`Can we talk about the changes to the project timeline?` - This means the speaker wants to discuss the project timeline adjustments.
 
 # --scene--
 

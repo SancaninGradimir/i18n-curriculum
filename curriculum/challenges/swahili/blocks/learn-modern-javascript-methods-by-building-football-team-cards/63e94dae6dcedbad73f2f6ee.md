@@ -1,15 +1,15 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Hatua 24
+title: Step 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-`arr` ina mfululizo wa vitu ambavyo kila kimoja kina sifa za `name`, `position`, `number`, `isCaptain` na `nickname`. Ili kupata upatikanaji wa kila sifa hizo ndani ya kitendakazi cha mwitiko, utahitaji kutumia ufumbuzi wa muundo wa vitu ili kuzifungua kuwa vigezo.
+`arr` contains a series of objects that each contains a `name`, `position`, `number`, `isCaptain` and `nickname` property. In order to access each of those properties inside the callback function, you will need to use object destructuring to unpack them into variables.
 
-Hapa kuna mfano:
+Here is an example:
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -17,11 +17,11 @@ function myExampleFunction({ name, age, job, city }) {
 }
 ```
 
-Ndani ya orodha ya vigezo katika kitendakazi cha mwitiko kwa njia ya `map`, fungua sifa zote 5 za vitu kutoka kwa vitu vilivyoko `arr` kwa kutumia ufumbuzi wa muundo wa vitu.
+Inside the parameter list in the callback function for the `map` method, unpack all 5 object properties from objects in `arr` using object destructuring.
 
 # --hints--
 
-Unapaswa kufungua sifa zote 5 za vitu kutoka kwa vitu vilivyoko `arr` kwa kutumia ufumbuzi wa muundo wa vitu.
+You should unpack all 5 object properties from objects in `arr` using object destructuring.
 
 ```js
 

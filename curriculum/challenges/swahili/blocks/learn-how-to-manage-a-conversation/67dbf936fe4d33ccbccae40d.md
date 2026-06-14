@@ -1,6 +1,6 @@
 ---
 id: 67dbf936fe4d33ccbccae40d
-title: Zoezi la 1
+title: Task 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Hii hutumika kuomba msamaha kwa jambo lililotokea. Usisahau kuandika herufi kubwa mwanzoni.
+This is used to apologize for something that happened. Don't forget to capitalize.
 
 # --explanation--
 
-`To be sorry for something` hutumika unapokuwa unamuomba msamaha mtu kwa kitendo kilichoweza kusababisha urahisi au madhara. Kwa mfano:
+`To be sorry for something` is used when apologizing for an action that may have caused inconvenience or harm. For example:
 
-`I'm sorry for being late to the meeting.` - Hii ina maana msemaji anasikitika kuchelewa na anaomba msamaha. Angalia kwamba `being` iko katika fomu ya `-ing` kwa sababu iko mara moja baada ya `for` (kitenzi cha awali).
+`I'm sorry for being late to the meeting.` - This means the speaker regrets arriving late and is apologizing. Notice that `being` is in the `-ing` form as it is right after `for` (a preposition).
 
 # --scene--
 

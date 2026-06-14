@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Jenga Kitufe cha Kubadilisha Ikoni ya Kupenda
+title: Izgradite prekidač za ikonu favorita
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-Katika maabara hii utatumia matukio ya bofya ya JavaScript kubadilisha muonekano wa ikoni ya kupenda. Ikoni ya moyo itakapobofyiwa, muonekano wa moyo hubadilika kutoka tupu kwenda imejazwa, na kinyume chake.
+U ovom laboratorijumu ćete koristiti JavaScript događaje klikova za prebacivanje izgleda ikone favorita. Kada se nađe srce (ikona srca) klikne, izgled srca se menja iz praznog u ispunjeno i obrnuto.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Ispunite priče korisnika ispod i prođite sve testove kako biste završili laboratorijum.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kuwa na orodha isiyopangwa yenye vitu vitatu.
-2. Orodha isiyopangwa inapaswa kuwa na darasa la vitu `item-list`.
-3. Vitu vitatu vya orodha vinapaswa kuwa na jina la kipengee kifuatiwa na kipengee cha `button` chenye darasa la vitu `favorite-icon`.
-4. Kipengee cha `button` kinapaswa kuwa na msimbo `&#9825;` mwanzoni kuwakilisha moyo tupu.
-5. Tukio la bofya kwenye kipengee cha `button` chenye moyo linapotokea, unapaswa kuongeza darasa la vitu liitwalo `filled` kwenye `button` iliyobofyiwa ikiwa bado halipo, na kuiondoa ikiwa ipo.
-6. Unapaswa kuwa na kichaguzi cha darasa la vitu kinacholenga darasa la vitu `filled` na kuweka baadhi ya mali za CSS.
-7. Tukio la bofya kwenye kipengee cha `button` chenye moyo linapotokea, alama ya moyo inapaswa kubadilika kati ya `&#9825;` (moyo tupu) na `&#10084;` (moyo umejazwa), kulingana na hali yake ya sasa.
+1. Trebalo bi da imate neuređenu listu sa tri stavke.
+2. Neuređena lista treba da ima klasu `item-list`.
+3. Tri stavke liste treba da sadrže naziv stavke praćen elementom `button` sa klasom `favorite-icon`.
+4. Element `button` treba da sadrži kod `&#9825;` inicijalno kako bi predstavio prazno srce.
+5. Kada se klikne na element `button` koji sadrži srce, trebalo bi dodati klasu nazvanu `filled` na kliknuti `button` ako ona već nije prisutna, i ukloniti je ako jeste.
+6. Trebalo bi da imate selektor klase koji cilja klasu `filled` i postavlja neke CSS svojstva.
+7. Kada se klikne na element `button` koji sadrži srce, simbol srca treba da se prebacuje između `&#9825;` (prazno srce) i `&#10084;` (ispunjeno srce), u zavisnosti od trenutnog stanja.
 
-**Kumbuka:** Hakikisha umeunganisha faili lako la JavaScript kwenye HTML yako. (Mfano `<script src="script.js"></script>`)
+**Napomena:** Obavezno povežite svoj JavaScript fajl u vašem HTML-u. (Npr. `<script src="script.js"></script>`)
 
 # --hints--
 
-Unapaswa kuwa na orodha isiyopangwa.
+You should have an unordered list.
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Orodha yako isiyopangwa inapaswa kuwa na vitu 3.
+Your unordered list should have 3 items.
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Orodha yako isiyopangwa inapaswa kuwa na darasa la vitu `item-list`.
+Your unordered list should have the class `item-list`.
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Vitu vyako vya orodha vinapaswa kuwa na jina la kipengee.
+Your individual list items should contain the item name.
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Kipengee chako cha orodha kinapaswa kuwa na kipengee cha `button` chenye darasa la vitu `favorite-icon`.
+Your individual list item should contain a `button` element with the class `favorite-icon`.
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Mwanzo, vipengee vya `button` vinapaswa kuwa na msimbo `&#9825;` kuwakilisha moyo tupu.
+Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-Unapaswa kuwa na kichaguzi cha `.filled` kinachoweka baadhi ya mali za CSS.
+You should have a `.filled` selector that sets some CSS properties.
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-Tukio la bofya kwenye kipengee cha `button`, na ikiwa kina darasa la vitu `filled`, unapaswa kuondoa darasa la vitu `filled` kutoka kwenye kipengee cha `button` na kubadilisha innerHTML ya kipengee cha `button` kuwa `&#9825;`.
+When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-Tukio la bofya kwenye kipengee cha `button`, na ikiwa hakina darasa la vitu `filled`, unapaswa kuongeza darasa la vitu `filled` kwenye kipengee cha `button` na kubadilisha `innerHTML` ya kipengee cha `button` kuwa `&#10084;`.
+When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');

@@ -1,37 +1,37 @@
 ---
 id: 694afa3fcd55df0cbc49a3cf
-title: Hatua 2
+title: Korak 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-Sasa unganisha faili lako la `styles.css` na hati ya HTML.
+Sada poveži svoj `styles.css` fajl sa HTML dokumentom.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `link` ndani ya kipengele cha `head`.
+You should have a `link` element inside the `head` element.
 
 ```js
 assert.exists(document.querySelector('head > link'));
 ```
 
-Kipengele chako cha `link` kinapaswa kuwa na sifa ya kipengele ya `rel`.
+Your `link` element should have a `rel` attribute.
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.exists(linkEl?.getAttribute('rel'));
 ```
 
-Kipengele chako cha `link` kinapaswa kuwa na sifa ya kipengele ya `rel` iliyowekwa kuwa `stylesheet`.
+Your `link` element should have a `rel` attribute set to `stylesheet`.
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.equal(linkEl?.getAttribute('rel'), 'stylesheet');
 ```
 
-Kipengele chako cha `link` kinapaswa kuwa na sifa ya kipengele ya `href` iliyowekwa kuwa `styles.css`.
+Your `link` element should have an `href` attribute set to `styles.css`.
 
 ```js
 const linkHrefValue = document.querySelector('head > link')?.dataset?.href;

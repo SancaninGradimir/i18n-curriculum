@@ -1,6 +1,6 @@
 ---
 id: 698dc59b7932b3cc4b19c921
-title: Muda wa Kudumu na wa Logarithmic
+title: Constant and Logarithmic Time 
 challengeType: 11
 videoId: KOMvBi-DabE
 dashedName: constant-and-logarithmic-time
@@ -8,13 +8,13 @@ dashedName: constant-and-logarithmic-time
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda wa kudumu na wa logarithmic kwa algoriti.
+In this video, you will learn about constant and logarithmic times for algorithms. 
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kuwakilisha muda wa kudumu katika noti ya Big O?
+Which of the following is the correct way to represent constant time in Big O notation?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdef
-title: Huduma ndogo ya alama ya wakati
+title: Timestamp Microservice
 challengeType: 4
 forumTopicId: 301508
 dashedName: timestamp-microservice
@@ -8,16 +8,16 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Jenga programu ya JavaScript ya full-stack ambayo inaendana kiutendaji na hii: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako ukitumia mojawapo ya njia zifuatazo:
+Build a full-stack JavaScript app that is functionally similar to this: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani ya kompyuta yako.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha unajumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
-**Kumbuka:** Kubadilisha maeneo ya saa si lengo la mradi huu, hivyo chukulia tarehe zote halali zitakazotumwa zitachambuliwa kwa `new Date()` kama tarehe za GMT.
+**Note:** Time zones conversion is not a purpose of this project, so assume all sent valid dates will be parsed with `new Date()` as GMT dates. 
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+You should provide your own project, not the example URL.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   );
 ```
 
-Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON chenye ufunguo wa `unix` ambacho ni alama ya Unix ya tarehe ya ingizo kwa millisekunde (aina Number)
+A request to `/api/:date?` with a valid date should return a JSON object with a `unix` key that is a Unix timestamp of the input date in milliseconds (as type Number)
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -40,7 +40,7 @@ Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON che
   );
 ```
 
-Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON chenye ufunguo wa `utc` ambao ni mfuatano wa herufi wa tarehe ya ingizo kwa muundo: `Thu, 01 Jan 1970 00:00:00 GMT`
+A request to `/api/:date?` with a valid date should return a JSON object with a `utc` key that is a string of the input date in the format: `Thu, 01 Jan 1970 00:00:00 GMT`
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -55,7 +55,7 @@ Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON che
   );
 ```
 
-Ombi kwa `/api/1451001600000` linapaswa kurudisha `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+A request to `/api/1451001600000` should return `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
 
 ```js
   const response = await fetch(code + '/api/1451001600000');
@@ -69,7 +69,7 @@ Ombi kwa `/api/1451001600000` linapaswa kurudisha `{ unix: 1451001600000, utc: "
   );
 ```
 
-Mradi wako unaweza kushughulikia tarehe zinazoweza kuchambuliwa kwa mafanikio na `new Date(date_string)`
+Your project can handle dates that can be successfully parsed by `new Date(date_string)`
 
 ```js
   const response = await fetch(code + '/api/05 October 2011, GMT');
@@ -83,7 +83,7 @@ Mradi wako unaweza kushughulikia tarehe zinazoweza kuchambuliwa kwa mafanikio na
   );
 ```
 
-Kama mfuatano wa herufi wa tarehe ni batili, API inarudisha kitu chenye muundo wa `{ error : "Invalid Date" }`
+If the input date string is invalid, the API returns an object having the structure `{ error : "Invalid Date" }`
 
 ```js
   const response = await fetch(code + '/api/this-is-not-a-date');
@@ -96,7 +96,7 @@ Kama mfuatano wa herufi wa tarehe ni batili, API inarudisha kitu chenye muundo w
   }
 ```
 
-Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika kitu cha JSON chenye ufunguo wa `unix`
+An empty date parameter should return the current time in a JSON object with a `unix` key
 
 ```js
   const response = await fetch(code + '/api');
@@ -108,7 +108,7 @@ Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika k
   assert.approximately(data.unix, now, 20000);
 ```
 
-Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika kitu cha JSON chenye ufunguo wa `utc`
+An empty date parameter should return the current time in a JSON object with a `utc` key
 
 ```js
   const response = await fetch(code + '/api');
@@ -120,3 +120,4 @@ Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika k
   var serverTime = new Date(data.utc).getTime();
   assert.approximately(serverTime, now, 20000);
 ```
+

@@ -1,6 +1,6 @@
 ---
 id: 657ec6ac4de4eac8bab2f2a7
-title: Zoezi la 39
+title: Task 39
 challengeType: 22
 dashedName: task-39
 lang: en-US
@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-Neno `date` linaweza kutumika katika muktadha tofauti. Ingawa mara nyingi linahusu mkutano wa kimapenzi kati ya watu wawili, linaweza pia kumaanisha tu miadi au tukio lililopangwa kati ya marafiki au wenzake kazini. Kwa mfano:
+The word `date` can be used in different contexts. While it often refers to a romantic meeting between two people, it can also simply mean an appointment or a planned event between friends or colleagues. For example:
 
-`Let's set a date for our next meeting.` - Hapa, `date` inatumika kwa njia isiyo ya kimapenzi, ikimaanisha kuchagua siku ya mkutano.
+`Let's set a date for our next meeting.` - Here, `date` is used in a non-romantic way, referring to choosing a day for a meeting.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ Neno `date` linaweza kutumika katika muktadha tofauti. Ingawa mara nyingi linahu
 
 ### --feedback--
 
-Neno hili linaelezea aina ya shughuli iliyopangwa, likionyesha kuwa ni matembezi ya baiskeli.
+This word specifies the type of activity planned, indicating it's an outing involving bicycles.
 
 ---
 
@@ -34,7 +34,7 @@ Neno hili linaelezea aina ya shughuli iliyopangwa, likionyesha kuwa ni matembezi
 
 ### --feedback--
 
-Neno hili linahusu mkutano au tukio lililopangwa.
+This word refers to a scheduled meeting or event.
 
 # --scene--
 

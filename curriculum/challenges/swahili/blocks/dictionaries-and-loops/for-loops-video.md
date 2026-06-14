@@ -1,6 +1,6 @@
 ---
 id: 030401977064585ddd4c7746
-title: Mizunguko ya for
+title: For Loops
 challengeType: 11
 videoId: x13V1UMMQeI
 dashedName: for-loops
@@ -8,13 +8,13 @@ dashedName: for-loops
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia mizunguko ya for kurudia juu ya mfululizo kama vile orodha na anuwai.
+In this video, you will learn how to use for loops to iterate over sequences like lists and ranges.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kurudia juu ya kila herufi katika mfuatano wa herufi `"Giraffe Academy"`?
+Which of the following is the correct way to iterate over each letter in the string `"Giraffe Academy"`?
 
 ## --answers--
 

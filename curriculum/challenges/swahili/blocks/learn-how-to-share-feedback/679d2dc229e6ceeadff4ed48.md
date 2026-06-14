@@ -1,6 +1,6 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Zoezi la 92
+title: Task 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili hutumika kuepuka kurudia kitenzi `update` kutoka kwenye sentensi iliyotangulia.
+This word is used to avoid repeating the verb `update` from the previous sentence.
 
 ---
 
@@ -32,17 +32,17 @@ Neno hili hutumika kuepuka kurudia kitenzi `update` kutoka kwenye sentensi iliyo
 
 ### --feedback--
 
-Neno hili linamaanisha kuchelewesha au kufanya jambo lifanyike baadaye kuliko ilivyopangwa.
+This word means to postpone or make something happen later than planned.
 
 # --explanation--
 
-Badala ya kusema `If we update the software, it might delay other projects.`, James alilifupisha kuwa `If we do`. Neno `do` hutumika mara nyingi kuepuka kurudia kitenzi au usemi kamili ulio tumika kwenye sentensi iliyotangulia. Kwa mfano:
+Instead of saying `If we update the software, it might delay other projects.`, James shortens it to `If we do`. The word `do` is often used to avoid repeating the verb or a complete phrase used in from the previous sentence. For example:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Badala ya kusema `if she joins the meeting`, unaweza kutumia `does` kuibadilisha na kwa njia hii unaweza kuepuka kurudia.
+`She wants to join the meeting, and if she does, she'll need the link.` - Instead of saying `if she joins the meeting`, you can use `does` to replace it and this way you can avoid the repetition.
 
-`To delay` linamaanisha kufanya jambo lifanyike baadaye kuliko ilivyopangwa. Kwa mfano:
+`To delay` means to make something happen later than planned. For example:
 
-`The flight was delayed due to bad weather.` - Hii inamaanisha ndege ilicheleweshwa na haikuondoka kwa wakati.
+`The flight was delayed due to bad weather.` - This means the flight was postponed and did not leave on time.
 
 # --scene--
 

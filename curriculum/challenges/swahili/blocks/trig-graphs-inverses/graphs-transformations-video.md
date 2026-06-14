@@ -1,6 +1,6 @@
 ---
 id: 699e69e58f18cf77dfce5c14
-title: "Michoro ya Mabadiliko ya Tan, Sec, Cot, Csc"
+title: Graphs of Transformations of Tan, Sec, Cot, Csc
 challengeType: 11
 videoId: 07CAThFU14c
 dashedName: graphs-of-transformations-of-tan-sec-cot-csc
@@ -8,30 +8,32 @@ dashedName: graphs-of-transformations-of-tan-sec-cot-csc
 
 # --description--
 
-Katika video hii, utajifunza jinsi ya kuchora michoro ya mabadiliko ya kitendakazi za tangent, secant, cotangent, na cosecant.
+In this video, you will learn how to graph the transformations of tangent, secant, cotangent, and cosecant functions.
 
 # --questions--
 
 ## --text--
 
-Je, umbo la mchoro wa pili unaoonyeshwa kwenye video ni lipi?
+What is the shape of the second graph shown in the video?
 
 ## --answers--
 
-Mchoro wa secant.
+Secant graph.
 
 ---
 
-Mchoro wa tangent.
+Tangent graph.
 
 ---
 
-Mchoro wa sinusoidal.
+Sinusoidal graph.
 
 ---
 
-Mchoro wa cosecant.
+Cosecant graph.
 
 ## --video-solution--
 
 2
+
+

@@ -1,17 +1,17 @@
 ---
 id: 6920dae65fb8bb6949bcdaba
-title: Hatua 4
+title: Korak 4
 challengeType: 1
 dashedName: step-4
 ---
 
 # --description--
 
-Ili kuona jinsi mzunguko ndani ya `printCharacters` unavyotenda, fanya wito wake ukiwa na hoja `"hello"`.
+Da biste videli kako petlja unutar `printCharacters` radi, pozovite je sa argumentom `"hello"`.
 
 # --hints--
 
-Unapaswa kufanya wito wa kitendakazi `printCharacters` ukiwa na `"hello"` kama hoja yake.
+You should call the function `printCharacters` with `"hello"` as its argument.
 
 ```js
 const codeWithoutJSComments = __helpers.removeJSComments(code);

@@ -1,6 +1,6 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Zoezi la 81
+title: Task 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
@@ -12,13 +12,13 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Jessica bado hajakagua hilo, lakini atalifanya. Anapaswa kusema nini?
+Jessica didn't check that yet, but will do. What should she say?
 
 ## --answers--
 
@@ -30,7 +30,7 @@ ENaa826774
 
 ### --feedback--
 
-`Won't` ni kifupisho cha `will not`. Jessica anapanga kukagua.
+`Won't` is the contraction for `will not`. Jessica plans to check it.
 
 ---
 
@@ -46,11 +46,11 @@ EN97950753
 
 # --explanation--
 
-Jessica anajibu swali la Jake, akithibitisha kwamba bado hajakagua lakini atafanya hivyo. Jibu hili linaonyesha kwamba yuko tayari kutekeleza zoezi, ambalo linaendana na kile Jake anachoulizia.
+Jessica is responding to Jake's question, acknowledging that she has not checked yet but will do so. This response shows that she is ready to complete the task, which is in line with what Jake is asking about.
 
-`No, I didn't` inathibitisha kwamba bado hajakagua.
+`No, I didn't` confirms that she hasn't checked yet.
 
-`I'll do that` inaonyesha nia yake ya kutekeleza zoezi hivi karibuni.
+`I'll do that` shows her intention to complete the task soon.
 
 # --scene--
 

@@ -1,35 +1,35 @@
 ---
 id: 5f3cade99dda4e6071a85dfd
-title: Step 42
+title: Korak 42
 challengeType: 0
 dashedName: step-42
 ---
 
 # --description--
 
-Utarudi tena kwenye mtindo wa menyu katika hatua chache zijazo, lakini kwa sasa, endelea na ongeza kipengele cha pili cha `section` chini ya cha kwanza kwa ajili ya kuonyesha vitafunwa vinavyotolewa na kafé.
+Vraćaćete se na stilizovanje menija za nekoliko koraka, ali za sada, dodajte drugi `section` element ispod prvog za prikaz des*ertâ koje kafe nudi.
 
 # --hints--
 
-Unapaswa kuwa na lebo ya ufunguzi ya `section`.
+You should have an opening `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<section>/ig) ,2);
 ```
 
-Unapaswa kuwa na lebo ya kufunga ya `section`.
+You should have a closing `section` tag.
 
 ```js
 assert.lengthOf(code.match(/<\/section>/ig) ,2);
 ```
 
-Hupaswi kubadilisha kipengele kilichopo cha `main`.
+You should not change the existing `main` element.
 
 ```js
 assert.lengthOf(document.querySelectorAll('main'), 1);
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kupangwa ndani ya kipengele cha `main`.
+Your new `section` element should be nested in the `main` element.
 
 ```js
 const main = document.querySelector('main');

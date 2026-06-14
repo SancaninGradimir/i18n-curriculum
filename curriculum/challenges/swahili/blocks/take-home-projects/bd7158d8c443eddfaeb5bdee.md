@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdee
-title: Tengeneza nakala ya Pinterest
+title: Build a Pinterest Clone
 challengeType: 4
 forumTopicId: 302352
 dashedName: build-a-pinterest-clone
@@ -8,27 +8,27 @@ dashedName: build-a-pinterest-clone
 
 # --description--
 
-**Lengo:** Tengeneza programu inayofanya kazi kwa njia sawa na hii: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://build-a-pinterest-clone.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://build-a-pinterest-clone.freecodecamp.rocks/</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji ambaye hajathibitishwa, naweza kuingia kwa kutumia GitHub.
+**User Story:** As an unauthenticated user, I can login with GitHub.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, naweza kuunganisha na picha.
+**User Story:** As an authenticated user, I can link to images.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, naweza kufuta picha ambazo nimeunganisha nazo.
+**User Story:** As an authenticated user, I can delete images that I've linked to.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, naweza kuona ukuta wa picha kwa mtindo wa Pinterest wa picha zote ambazo nimeunganisha nazo.
+**User Story:** As an authenticated user, I can see a Pinterest-style wall of all the images I've linked to.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji ambaye hajathibitishwa, naweza kuvinjari mikuta ya picha ya watumiaji wengine.
+**User Story:** As an unauthenticated user, I can browse other users' walls of images.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, ikiwa nitaweka picha iliyovunjika, itabadilishwa na picha ya kiwakilishi. (inaweza kutumia jQuery kugundua picha zilizovunjika)
+**User Story:** As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)
 
-**Kidokezo:** Masonry.js ni maktaba inayoruhusu mitandao ya picha kwa mtindo wa Pinterest.
+**Hint:** Masonry.js is a library that allows for Pinterest-style image grids.
 
-Mara tu utakapo maliza kutekeleza hadithi hizi za mtumiaji, ingiza URL ya programu yako iliyo hewani na, hiari, hifadhidata yako ya GitHub. Kisha bofya kitufe cha "Nimemaliza changamoto hii".
+Once you've finished implementing these user stories, enter the URL to your live app and, optionally, your GitHub repository. Then click the "I've completed this challenge" button.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --solutions--
 

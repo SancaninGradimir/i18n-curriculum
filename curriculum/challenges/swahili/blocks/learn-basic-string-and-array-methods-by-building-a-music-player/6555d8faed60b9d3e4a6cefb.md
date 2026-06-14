@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Hatua 72
+title: Step 72
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-Ili kufanya programu iwe rahisi kupatikana zaidi, ni muhimu kwamba kitufe cha kucheza kielezee wimbo wa sasa au wimbo wa kwanza kwenye orodha ya nyimbo.
+To make the application more accessible, it is important that the play button describes the current song or the first song in the playlist. 
 
-Anza kwa kuunda kitendakazi cha mshale tupu kinachoitwa `setPlayButtonAccessibleText`.
+Start by creating an empty arrow function called `setPlayButtonAccessibleText`.
 
 # --hints--
 
-Unapaswa kutumia `const` kuunda kitendakazi tupu kinachoitwa `setPlayButtonAccessibleText`.
+You should use `const` to create an empty function named `setPlayButtonAccessibleText`.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` inapaswa kuwa kitendakazi.
+`setPlayButtonAccessibleText` should be a function.
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Kitendakazi chako cha `setPlayButtonAccessibleText` kinapaswa kutumia sintaksia ya mshale.
+Your `setPlayButtonAccessibleText` function should use an arrow syntax.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Kitendakazi chako cha `setPlayButtonAccessibleText` kinapaswa kuwa tupu.
+Your `setPlayButtonAccessibleText` function  should be empty.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)

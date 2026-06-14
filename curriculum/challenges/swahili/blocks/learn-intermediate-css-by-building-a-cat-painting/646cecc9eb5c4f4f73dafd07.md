@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Hatua 25
+title: Step 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Hamisha sikio la kushoto kwa kuweka sifa ya position kuwa `absolute`, sifa ya `top` kuwa `-26px`, na sifa ya `left` kuwa `-31px`.
+Move the left ear into position by setting a position of `absolute`, a `top` of `-26px`, and a `left` of `-31px`.
 
 # --hints--
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `position` iliyowekwa kuwa `absolute`. Usisahau kuongeza nukta ya nusu.
+Your `.cat-left-ear` selector should have a `position` property set to `absolute`. Don't forget to add a semicolon.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `top` iliyowekwa kuwa `-26px`
+Your `.cat-left-ear` selector should have a `top` property set to `-26px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top === '-26px')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `left` iliyowekwa kuwa `-31px`
+Your `.cat-left-ear` selector should have a `left` property set to `-31px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left === '-31px')

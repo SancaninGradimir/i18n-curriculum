@@ -1,6 +1,6 @@
 ---
 id: 67cadf5ea48ca37df972fac6
-title: Zoezi la 124
+title: Task 124
 challengeType: 19
 dashedName: task-124
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Listen to the audio and answer the question below.  
 
 # --questions--
 
 ## --text--
 
-Maria anataja nini kama ombi muhimu zaidi kutoka kwa timu?  
+What does Maria mention as the most important request from the team?  
 
 ## --answers--
 
-Wanahitaji msaada zaidi.  
+They need more help.  
 
 ---
 
-Wanataka muda mrefu zaidi wa mwisho.  
+They want a longer deadline.  
 
 ### --feedback--
 
-Maria hataji kuongeza muda wa mwisho.
+Maria does not mention extending the deadline.
 
 ---
 
-Wangependa kupunguza idadi ya mazoezi.
+They would like to reduce the number of tasks.
 
 ### --feedback--
 
-Maria hataji kupunguza idadi ya mazoezi.  
+Maria does not mention reducing the number of tasks.  
 
 ---
 
-Wanaomba mikutano zaidi.  
+They are asking for more meetings.  
 
 ### --feedback--
 
-Maria hataji mikutano ya ziada.
+Maria does not mention additional meetings.
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Maria hataji mikutano ya ziada.
 
 # --explanation--
 
-`First` hutumika unapohitaji kuorodhesha vitendo kwa mpangilio wa umuhimu au wakati. Katika kesi hii, Maria anataja kile timu inachohitaji, kuanzia na kile kinachoonekana kuwa ombi muhimu zaidi (kupata msaada zaidi). Mfano mwingine:
+`First` is used when you want to number actions in order of importance or time. In this case, Maria is listing what the team needs, starting with what seems to be the most important request (having more support). Another example:
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - Hii ina maana kwamba kuchambua tatizo kunakuja kabla ya mambo mengine yoyote.
+`First, we should analyze the problem. Then, we can discuss solutions.` - This means analyzing the problem comes before anything else.
 
 # --scene--
 

@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: Jaribio fupi la ulinganifu wa CSS
+title: CSS Positioning Quiz
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SI thamani halali ya sifa ya `position`?
+Which of the following is NOT a valid value for the `position` property?
 
 #### --distractors--
 
@@ -39,29 +39,29 @@ Ni ipi kati ya zifuatazo SI thamani halali ya sifa ya `position`?
 
 #### --text--
 
-Lengo kuu la sifa ya `float` katika CSS ni lipi?
+What is the main purpose of the `float` property in CSS?
 
 #### --distractors--
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka moja kwa moja upande wa juu wa kulia wa ukurasa wa mtandao.
+Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
 
 ---
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka juu ya kontena lake.
+Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
 
 ---
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka moja kwa moja upande wa chini wa kulia wa ukurasa wa mtandao.
+Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
 
 #### --answer--
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka upande wa kushoto au kulia wa kontena lake.
+Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaofanya kipengele cha sanduku kuruka upande wa kushoto?
+Which of the following is an example making a box element float to the left?
 
 #### --distractors--
 
@@ -115,29 +115,29 @@ Ni mfano gani kati ya zifuatazo unaofanya kipengele cha sanduku kuruka upande wa
 
 #### --text--
 
-Jukumu la sifa ya `clear` ni lipi?
+What is the role of the `clear` property?
 
 #### --distractors--
 
-Inatumika kuamua kama kipengele kinahitaji kuhamishwa chini ya ukurasa.
+It is used to determine if an element needs to be moved to the bottom of the page.
 
 ---
 
-Inatumika kuamua kama kipengele kinahitaji kufutwa kabisa kutoka kwenye ukurasa.
+It is used to determine if an element needs to be completely cleared from the page.
 
 ---
 
-Inatumika kuamua kama kipengele kinahitaji kufungwa juu ya ukurasa.
+It is used to determine if an element needs to be fixed to the top of the page.
 
 #### --answer--
 
-Inatumika kuamua kama kipengele kinahitaji kuhamishwa chini ya maudhui yaliyopangwa kuruka.
+It is used to determine if an element needs to be moved below the floated content.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS inayotumika kudhibiti mpangilio wa wima wa vipengele vyenye nafasi maalum vinavyokutana kwenye ukurasa?
+Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Ni sifa gani ya CSS inayotumika kudhibiti mpangilio wa wima wa vipengele vyenye 
 
 #### --text--
 
-Sintaksia sahihi ya ulinganifu wa nafasi ni ipi kati ya zifuatazo?
+Which of the following is the correct syntax for relative positioning?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Sintaksia sahihi ya ulinganifu wa nafasi ni ipi kati ya zifuatazo?
 
 #### --text--
 
-Ni sifa gani ya CSS unayotumia kuweka kipengele mahali fulani kwenye ukurasa ili kisihamie wakati wa kusogeza ukurasa?
+Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
 
 #### --distractors--
 
@@ -227,29 +227,29 @@ Ni sifa gani ya CSS unayotumia kuweka kipengele mahali fulani kwenye ukurasa ili
 
 #### --text--
 
-Ulinganifu wa nafasi wa absolute hufanya nini kwa kipengele?
+What does absolute positioning do to an element?
 
 #### --distractors--
 
-Ulinganifu wa absolute hutumika kuamua kama kipengele kinahitaji kuhamishwa chini ya maudhui yaliyopangwa kuruka.
+Absolute positioning is used to determine if an element needs to be moved below the floated content.
 
 ---
 
-Ulinganifu wa absolute hutumika kuweka kipengele ndani ya mtiririko wa kawaida wa hati.
+Absolute positioning is used to position the element within the normal document flow.
 
 ---
 
-Ulinganifu wa absolute hutumika kudhibiti mpangilio wa wima wa vipengele vyenye nafasi maalum vinavyokutana kwenye ukurasa.
+Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
 
 #### --answer--
 
-Ulinganifu wa absolute hukuruhusu kuondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati, na kufanya kitendeke huru kutoka kwa vipengele vingine.
+Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani kati ya zifuatazo SI sifa halali unazoweza kutumia kwa ulinganifu wa absolute?
+Which of the following is NOT a valid property that you can use for absolute positioning?
 
 #### --distractors--
 
@@ -271,29 +271,29 @@ Ni sifa gani kati ya zifuatazo SI sifa halali unazoweza kutumia kwa ulinganifu w
 
 #### --text--
 
-Tofauti kuu kati ya ulinganifu wa relative na absolute ni ipi?
+What is the key difference between relative and absolute positioning?
 
 #### --distractors--
 
-Ulinganifu wa absolute huweka kipengele katika nafasi ya kushikamana wakati ulinganifu wa relative huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
 
 ---
 
-Ulinganifu wa relative huweka kipengele katika nafasi ya kudumu wakati ulinganifu wa absolute huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
 
 ---
 
-Ulinganifu wa absolute huweka kipengele ndani ya mtiririko wa kawaida wa hati wakati ulinganifu wa relative huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
 
 #### --answer--
 
-Ulinganifu wa relative huweka kipengele ndani ya mtiririko wa kawaida wa hati wakati ulinganifu wa absolute huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaonyesha kuweka sanduku upande wa juu kushoto wa ukurasa?
+Which of the following is an example of positioning a box in the upper left hand corner of the page?
 
 #### --distractors--
 
@@ -351,29 +351,29 @@ Ni mfano gani kati ya zifuatazo unaonyesha kuweka sanduku upande wa juu kushoto 
 
 #### --text--
 
-Njia gani ya ulinganifu huruhusu kipengele kushikamana na nafasi maalum tu wakati unaposogeza ukurasa kupita sehemu fulani?
+Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
 
 #### --distractors--
 
-Ulinganifu wa float.
+Float positioning.
 
 ---
 
-Ulinganifu wa fixed.
+Fixed positioning.
 
 ---
 
-Ulinganifu wa absolute.
+Absolute positioning.
 
 #### --answer--
 
-Ulinganifu wa sticky.
+Sticky positioning.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani sahihi wa kutumia ulinganifu wa sticky?
+Which of the following is a correct example of using sticky positioning?
 
 #### --distractors--
 
@@ -430,51 +430,51 @@ Ni mfano gani sahihi wa kutumia ulinganifu wa sticky?
 
 #### --text--
 
-Tofauti kati ya ulinganifu wa sticky na fixed ni ipi?
+What is the difference between sticky and fixed positioning?
 
 #### --distractors--
 
-Vipengele vya sticky vinaweza kutumika tu katika mpangilio wa jedwali wakati vipengele vya fixed vinaweza kutumika katika aina yoyote ya mpangilio wa CSS.
+Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
 
 ---
 
-Vipengele vya sticky vitabaki katika nafasi ile ile wakati vipengele vya fixed vitashikamana na sehemu fulani kisha vitendeke kama vipengele vya relative.
+Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
 
 ---
 
-Vipengele vya fixed vitawekwa kulingana na nafasi yake ya kawaida wakati vipengele vya sticky vitashikamana tu na sehemu fulani kisha vitendeke kama vipengele vya relative.
+Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
 
 #### --answer--
 
-Vipengele vya fixed vitabaki katika nafasi ile ile kwenye skrini wakati vipengele vya sticky vitashikamana tu na sehemu fulani kisha vitendeke kama vipengele vya relative.
+Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
 
 ### --question--
 
 #### --text--
 
-Changamoto gani `clearfix` ilitatua wakati wa kufanya kazi na floats?
+What problem did the `clearfix` hack solve when working with floats?
 
 #### --distractors--
 
-`clearfix` ilisaidia kutatua tatizo la vipengele vilivyopangwa kuruka kuondolewa kutoka kwenye mtiririko wa kawaida wa hati na kuwekwa katika nafasi ya kudumu kwenye ukurasa.
+The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
 
 ---
 
-`clearfix` ilisaidia kutatua tatizo la vipengele vilivyopangwa kuruka kutokuwa vinayojibadilisha kulingana na kifaa katika mpangilio wa simu na kompyuta kibao.
+The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
 
 ---
 
-`clearfix` ilisaidia kutatua tatizo la vipengele vilivyopangwa kuruka kupotea kutoka kwenye ukurasa.
+The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
 
 #### --answer--
 
-`clearfix` ilisaidia kutatua tatizo la kuungana na kushuka kwa vipengele vilivyopangwa kuruka wakati vipengele vingi vilivyopangwa kuruka vilipangwa kando kando.
+The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani sahihi wa kutumia `clearfix` hack?
+Which of the following is a correct example for using the `clearfix` hack?
 
 #### --distractors--
 
@@ -521,29 +521,29 @@ Ni mfano gani sahihi wa kutumia `clearfix` hack?
 
 #### --text--
 
-Ulinganifu wa static ni nini?
+What is static positioning?
 
 #### --distractors--
 
-Huu hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka moja kwa moja upande wa juu wa kulia wa ukurasa wa mtandao.
+This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
 
 ---
 
-Huu hukuruhusu kuondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati, na kufanya kitendeke huru kutoka kwa vipengele vingine.
+This allows you to take an element out of the normal document flow, making it behave independently from other elements.
 
 ---
 
-Huu huruhusu kipengele kushikamana na nafasi maalum tu wakati unaposogeza ukurasa kupita sehemu fulani.
+This allows an element to stick to a defined position only when you scroll past a certain point.
 
 #### --answer--
 
-Huu ni mtiririko wa kawaida wa hati. Vipengele huwekwa kutoka juu hadi chini na kushoto hadi kulia mfululizo.
+This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaoweka navbar juu ya ukurasa kwa kutumia ulinganifu wa fixed?
+Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Ni mfano gani kati ya zifuatazo unaoweka navbar juu ya ukurasa kwa kutumia uling
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni thamani halali ya sifa ya `z-index`?
+Which of the following is a valid value to use for the `z-index` property?
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Ni ipi kati ya zifuatazo ni thamani halali ya sifa ya `z-index`?
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni thamani ya msingi ya sifa ya `position`?
+Which of the following is the default value of the `position` property?
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Ni ipi kati ya zifuatazo ni thamani ya msingi ya sifa ya `position`?
 
 #### --text--
 
-Ni thamani gani ya `position` inayo kuruhusu kurekebisha nafasi ya kipengele kwa `top` na `left` huku ikibaki ndani ya mtiririko wa kawaida wa hati?
+Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
 
 #### --distractors--
 
@@ -656,29 +656,29 @@ Ni thamani gani ya `position` inayo kuruhusu kurekebisha nafasi ya kipengele kwa
 
 #### --text--
 
-Je, kipengele chenye `position: sticky;` hujitendeaje mwanzoni?
+How does an element with `position: sticky;` initially behave?
 
 #### --distractors--
 
-Hutendeka kama kipengele cha `fixed` hadi nafasi ya kusogeza ukurasa itakapofikiwa.
+It behaves like a `fixed` element until a scroll position is reached.
 
 ---
 
-Hutolewa kila mara kutoka kwenye mtiririko wa kawaida wa hati.
+It is always removed from the normal document flow.
 
 ---
 
-Hutendeka kama kipengele cha `absolute` ndani ya mzazi wake.
+It behaves like an `absolute` element within its parent.
 
 #### --answer--
 
-Hutendeka kama kipengele cha `relative` hadi nafasi maalum ya kusogeza ukurasa itakapofikiwa.
+It behaves like a `relative` element until a specified scroll position is met.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaonyesha matumizi sahihi na yenye ufanisi ya sifa ya `z-index` kufanya `.box-two` ionekane juu ya `.box-one`?
+Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
 
 #### --distractors--
 
@@ -736,51 +736,51 @@ Ni mfano gani kati ya zifuatazo unaonyesha matumizi sahihi na yenye ufanisi ya s
 
 #### --text--
 
-Sifa ya `z-index` hutumika kwa nini katika CSS?
+What is the `z-index` property used for in CSS?
 
 #### --distractors--
 
-Huweka kiwango cha kuongezwa ukurasa.
+It sets the zoom level of the page.
 
 ---
 
-Hudhibiti ulinganifu wa usawa wa vipengele ndani ya chombo cha kubadilika.
+It controls the horizontal alignment of elements within a flex container.
 
 ---
 
-Hufafanua nafasi kati ya maudhui ya kipengele na mpaka wake.
+It defines the spacing between an element's content and its border.
 
 #### --answer--
 
-Hudhibiti mpangilio wa wima wa vipengele vyenye nafasi maalum vinavyokutana.
+It controls the vertical stacking order of positioned elements that overlap.
 
 ### --question--
 
 #### --text--
 
-Unapotumia `top: 10%;` kwa kipengele chenye `position: fixed;`, `10%` huhesabiwa kulingana na nini?
+When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
 
 #### --distractors--
 
-Urefu wa kipengele chenyewe.
+The height of the element itself.
 
 ---
 
-Urefu wa kontena la mzazi wake.
+The height of its parent container.
 
 ---
 
-Upana wa eneo la kuona.
+The width of the viewport.
 
 #### --answer--
 
-Urefu wa eneo la kuona.
+The height of the viewport.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani wa msimbo unaotumia sifa ya `z-index` kuweka kipengele cha juu ya maudhui mengine?
+Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Ni mfano gani wa msimbo unaotumia sifa ya `z-index` kuweka kipengele cha juu ya 
 
 #### --text--
 
-Ni sifa gani ya CSS inayotumika kudhibiti kama kipengele kinapaswa kuhamishwa chini ya vipengele vilivyopangwa kuruka?
+Which CSS property is used to control whether an element should be moved below floated elements?
 
 #### --distractors--
 
@@ -847,73 +847,73 @@ Ni sifa gani ya CSS inayotumika kudhibiti kama kipengele kinapaswa kuhamishwa ch
 
 #### --text--
 
-Je, kipengele chenye `position: relative;` na `bottom: 25px;` kitawekwa wapi?
+How will an element with `position: relative;` and `bottom: 25px;` be moved?
 
 #### --distractors--
 
-Kitaelea 25px chini kutoka kwenye nafasi yake ya kawaida.
+It will move 25px down from its normal position.
 
 ---
 
-Kitaelea 25px kulia kutoka kwenye nafasi yake ya kawaida.
+It will move 25px to the right of its normal position.
 
 ---
 
-Kitawekwa 25px kutoka chini ya eneo la kuona.
+It will be positioned 25px from the bottom of the viewport.
 
 #### --answer--
 
-Kitaelea 25px juu kutoka kwenye nafasi yake ya kawaida.
+It will move 25px up from its normal position.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `z-index` itahusu vipengele vyenye sifa gani ya CSS tu?
+The `z-index` property will only affect elements that have what CSS property applied?
 
 #### --distractors--
 
-Thamani ya `float` tofauti na `none`.
+A `float` value other than `none`.
 
 ---
 
-Thamani ya `display` ya `inline-block`.
+A `display` value of `inline-block`.
 
 ---
 
-Seti ya `background-color`.
+A `background-color` set.
 
 #### --answer--
 
-Thamani ya `position` tofauti na `static`.
+A `position` value other than `static`.
 
 ### --question--
 
 #### --text--
 
-Matokeo gani yatakuwa ya kutumia `float: right;` kwa nembo katika kichwa?
+What would be the effect of applying `float: right;` to a logo in a header?
 
 #### --distractors--
 
-Nembo italingana kulia, lakini itabaki katika mtiririko wa kawaida wa hati, kuzuia maudhui mengine kuzunguka.
+The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
 
 ---
 
-Nembo itatolewa kutoka kwenye mtiririko na kuwekwa upande wa kulia wa eneo lote la kivinjari, si kontena lake.
+The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
 
 ---
 
-Nembo itakuwa kipengele cha kiwango cha block kinachochukua upana wote wa kichwa, na kusukuma vipengele vingine chini yake.
+The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
 
 #### --answer--
 
-Nembo itatolewa kutoka kwenye mtiririko wake wa kawaida na kuwekwa upande wa kulia wa kontena lake, na maudhui mengine kuzunguka karibu nayo.
+The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
 
 ### --question--
 
 #### --text--
 
-Ni msimbo gani wa CSS utaweka kipengele kikiwa kimefungwa juu ya eneo la kuona mara tu kinaposogezwa?
+Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
 
 #### --distractors--
 
@@ -955,29 +955,29 @@ Ni msimbo gani wa CSS utaweka kipengele kikiwa kimefungwa juu ya eneo la kuona m
 
 #### --text--
 
-Lengo maalum la `clear: both;` katika CSS ni lipi?
+What is the specific purpose of `clear: both;` in CSS?
 
 #### --distractors--
 
-Inafuta sifa ya `float` kwenye kipengele chenyewe, kurudisha kwenye mtiririko wa kawaida wa hati.
+It cancels out the `float` property on the element itself, returning it to the normal document flow.
 
 ---
 
-Inafuta sifa zote za `clear` zilizopokelewa kutoka kwa mzazi, kurudisha tabia ya kawaida ya kuruka.
+It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
 
 ---
 
-Inafuta tu vipengele vilivyopangwa kuruka upande wa kulia, kuruhusu vipengele vilivyopangwa kuruka upande wa kushoto kubaki kama vilivyo.
+It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
 
 #### --answer--
 
-Inahakikisha kipengele kinawekwa chini ya vipengele vyovyote vilivyopangwa kuruka vinavyoonekana kabla yake upande wa kushoto na kulia.
+It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
 
 ### --question--
 
 #### --text--
 
-Kwa msimbo ufuatao, `.child` itawekwa wapi?
+Given the following code, how will `.child` be positioned?
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Kwa msimbo ufuatao, `.child` itawekwa wapi?
 
 #### --distractors--
 
-Itawekwa 10px kutoka juu ya kipengele cha `.parent`, kwani ulinganifu wa `absolute` daima ni kulingana na mzazi wa moja kwa moja.
+It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
 
 ---
 
-Itabaki katika nafasi yake ya kawaida ya static kwa sababu thamani ya `absolute` si halali bila sifa ya `z-index`.
+It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
 
 ---
 
-Itawekwa 10px kutoka juu ya dirisha la kivinjari, ikibaki imesimama mahali hata wakati mtumizi anaposogeza ukurasa.
+It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
 
 #### --answer--
 
-Itawekwa 10px kutoka juu ya kontena la awali la kuingiza, kama vile `<body>`, kwa sababu mzazi wake hana nafasi maalum.
+It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
 
 ### --question--
 
 #### --text--
 
-Mabadiliko gani yatakuwa na msimbo ufuatao kwa kipengele cha `.box`?
+What effect will the following CSS have on the `.box` element?
 
 ```css
 .box {
@@ -1022,25 +1022,25 @@ Mabadiliko gani yatakuwa na msimbo ufuatao kwa kipengele cha `.box`?
 
 #### --distractors--
 
-Kipengele kitabaki katika mtiririko wake wa kawaida lakini kitawekwa pembeni kwa 50px kutoka juu na kushoto, kusukuma vipengele vingine mbali.
+The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
 
 ---
 
-Kipengele kitawekwa kwa kudumu kwenye eneo la kuona na kitabaki 50px kutoka juu na 50px kutoka kushoto, hata wakati ukurasa unasogezwa.
+The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
 
 ---
 
-Kipengele kitawekwa kulingana na sehemu yake ya kuanzia, kikisogea 50px chini na 50px kulia bila kuondoka kwenye mtiririko wa hati.
+The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
 
 #### --answer--
 
-Kipengele kitaondolewa kutoka kwenye mtiririko wa kawaida na kuwekwa 50px kutoka juu na 50px kutoka kushoto kwa mzazi wake mwenye nafasi maalum wa karibu zaidi.
+The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya thamani za `position` inayoondoa kipengele kabisa kutoka kwenye mtiririko wa kawaida wa hati?
+Which of the following `position` values removes an element entirely from the document's normal flow?
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Ni ipi kati ya thamani za `position` inayoondoa kipengele kabisa kutoka kwenye m
 
 #### --text--
 
-Kwa vipengele vya `.parent` na `.child`, ni msimbo gani wa CSS utaweka `.child` kwa usahihi 20px kutoka kona ya juu kushoto ya kipengele cha `.parent`?
+Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
 
 #### --distractors--
 
@@ -1120,29 +1120,29 @@ Kwa vipengele vya `.parent` na `.child`, ni msimbo gani wa CSS utaweka `.child` 
 
 #### --text--
 
-Tofauti kati ya ulinganifu wa `static` na `relative` ni ipi?
+What is the difference between `static` and `relative` positioning?
 
 #### --distractors--
 
-Ulinganifu wa `static` huondoa kipengele kutoka kwenye mtiririko wa hati, wakati ulinganifu wa `relative` huuweka ndani ya mtiririko.
+`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
 
 ---
 
-Kipengele chenye `position: static;` kinaweza kuhamishwa kwa vigezo vya `top` na `left`, wakati `position: relative;` haiwezi.
+An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
 
 ---
 
-Ulinganifu wa `static` ni kwa vipengele vya kiwango cha block, wakati ulinganifu wa `relative` ni kwa vipengele vya ndani ya mstari tu.
+`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
 
 #### --answer--
 
-Vyote huweka kipengele ndani ya mtiririko wa kawaida wa hati, lakini `relative` huruhusu kipengele kuhamishwa mbali na nafasi yake ya awali.
+Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
 
 ### --question--
 
 #### --text--
 
-Ni msimbo gani wa CSS unaofanya picha kuruka upande wa kushoto, kuruhusu maudhui mengine kuzunguka karibu nayo?
+Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
 
 #### --distractors--
 
@@ -1181,29 +1181,29 @@ Ni msimbo gani wa CSS unaofanya picha kuruka upande wa kushoto, kuruhusu maudhui
 
 #### --text--
 
-Tofauti kati ya ulinganifu wa `absolute` na `fixed` ni ipi?
+What is the difference between `absolute` and `fixed` positioning?
 
 #### --distractors--
 
-Ulinganifu wa `absolute` ni kulingana na eneo la kuona, wakati ulinganifu wa `fixed` ni kulingana na mzazi mwenye nafasi maalum.
+`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
 
 ---
 
-Ulinganifu wa `absolute` huweka kipengele ndani ya mtiririko wa kawaida wa hati, wakati ulinganifu wa `fixed` huondoa kutoka kwenye mtiririko.
+`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
 
 ---
 
-Vyote vimewekwa kulingana na eneo la kuona, lakini vipengele vya `fixed` vitasogeza pamoja na ukurasa wakati vipengele vya `absolute` havitasogeza.
+Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
 
 #### --answer--
 
-Ulinganifu wa `absolute` ni kulingana na mzazi mwenye nafasi maalum wa karibu, wakati ulinganifu wa `fixed` ni kulingana na eneo la kuona la kivinjari.
+`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya thamani za `position` huweka kipengele katika mtiririko wa kawaida wa hati na kuzuia vigezo kama `top` na `left` kuathiri?
+Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
 
 #### --distractors--
 
@@ -1220,3 +1220,4 @@ Ni ipi kati ya thamani za `position` huweka kipengele katika mtiririko wa kawaid
 #### --answer--
 
 `position: static;`
+

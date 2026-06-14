@@ -1,6 +1,6 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Zoezi la 131
+title: Task 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.  
+Listen to the audio and complete the sentence below.  
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii inamaanisha kutoa msaada au kufanya kitu kuwa rahisi zaidi.  
+This means providing assistance or making something easier.  
 
 ---  
 
@@ -32,17 +32,17 @@ Hii inamaanisha kutoa msaada au kufanya kitu kuwa rahisi zaidi.
 
 ### --feedback--
 
-Hii inamaanisha kutokea mara kwa mara au kwa vipindi vilivyowekwa.  
+This means happening consistently or at set intervals.  
 
 # --explanation--
 
-`Helpful` inamaanisha kutoa msaada au kufanya kitu kuwa rahisi zaidi. Kwa mfano:
+`Helpful` means providing assistance or making something easier. For example:
 
-`It was helpful to have clear instructions before starting the task.` - Hii inamaanisha maelekezo yalifanya zoezi kuwa rahisi kukamilika.
+`It was helpful to have clear instructions before starting the task.` - This means the instructions made the task easier to complete.
 
-`Regular` inamaanisha kutokea mara kwa mara au kwa vipindi vilivyowekwa. Kwa mfano:
+`Regular` means happening consistently or at set intervals. For example:
 
-`We have regular meetings every Monday.` - Hii inamaanisha mikutano hutokea mara kwa mara siku za Jumatatu.
+`We have regular meetings every Monday.` - This means the meetings happen consistently on Mondays.
 
 # --scene--
 

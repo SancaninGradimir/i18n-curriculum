@@ -8,29 +8,29 @@ dashedName: bogosort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na algoriti ya bogosort.
+In this video, you will learn how to work with the bogosort algorithm.
 
 # --questions--
 
 ## --text--
 
-Algoriti ya bogosort hufanya kazi vipi?
+How does the bogosort algorithm work?
 
 ## --answers--
 
-Inabadilisha mara kwa mara vipengele vinavyopakana kwa mpangilio wa kutabirika hadi vipangwe.
+It repeatedly swaps adjacent elements in a deterministic pattern until sorted.
 
 ---
 
-Inagawanya orodha vipande viwili, hupanga kila moja kwa njia ya kurudia, kisha huunganisha.
+It splits the list into halves, sorts each recursively, then merges them.
 
 ---
 
-Inachanganya orodha kwa bahati nasibu hadi ipangwe kwa bahati.
+It randomly shuffles the list until it happens to be sorted.
 
 ---
 
-Huchagua kipengele kidogo zaidi na kuviweka kwa mpangilio, kama selection sort.
+It selects the smallest element and places it in order, like selection sort.
 
 ## --video-solution--
 

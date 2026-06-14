@@ -1,6 +1,6 @@
 ---
 id: 69ae7672b4a814be6a4f2be5
-title: Miundo ya MCP
+title: MCP Architecture
 challengeType: 11
 videoId: i0sJXMyGLQY
 dashedName: mcp-architecture
@@ -8,30 +8,32 @@ dashedName: mcp-architecture
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu miundo ya MCP.
+In this video, you will learn about the architecture of MCP.
 
 # --questions--
 
 ## --text--
 
-Sehemu ya rasilimali za seva ya MCP hutumika kwa ajili gani?
+What is the resources portion of an MCP server used for?
 
 ## --answers--
 
-Hii hutumika kuendesha LLMs na kushughulikia maswali ya AI kwa wakati halisi.
+This is used to run the LLMs and process AI queries in real time.
 
 ---
 
-Sehemu hii hushughulikia muunganisho wa mtandao na uthibitisho wa utambulisho wa mtumizi kwa seva.
+This portion handles network connections and user authentication for the server.
 
 ---
 
-Hii hutumika kufuatilia utendaji wa seva na kuzalisha kumbukumbu za mfumo.
+This is used to monitor server performance and generate system logs.
 
 ---
 
-Hii hutumika kuhifadhi na kusimamia mali au data ambazo programu za AI zinaweza kupata upatikanaji. 
+This is used for storing and managing the assets or data that AI applications can access.
 
 ## --video-solution--
 
 4
+
+

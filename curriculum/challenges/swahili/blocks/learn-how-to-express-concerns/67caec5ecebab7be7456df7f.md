@@ -1,6 +1,6 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Zoezi la 130
+title: Task 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Listen to the audio and answer the question below.  
 
 # --questions--
 
 ## --text--
 
-Ni tatizo gani lingine ambalo timu ililileta?
+What other issue did the team raise?
 
 ## --answers--
 
-Kwamba wanapokea masasisho mapema mno.
+That they receive updates too early.
 
 ### --feedback--
 
-Maria anataja kinyume kabisa.
+Maria mentions the exact opposite.
 
 ---
 
-Kwamba hawataki kuwasiliana sana.
+That they don't want to communicate as much.
 
 ### --feedback--
 
-Maria hataji kuhusu utayari wa timu kuwasiliana.  
+Maria doesn't mention the team's willingness to communicate.  
 
 ---
 
-Kwamba mara nyingi hawasikii kuhusu mabadiliko kwa wakati.
+That they often don't hear about changes in time.
 
 ---
 
-Kwamba wanafikiri watu wengi sana wanahusika katika mawasiliano.
+That they think too many people are involved in communication.
 
 ### --feedback--
 
-Maria hataji kuhusu idadi ya watu wanaohusika.
+Maria does not mention the number of people involved.
 
 ## --video-solution--
 
@@ -52,11 +52,11 @@ Maria hataji kuhusu idadi ya watu wanaohusika.
 
 # --explanation--
 
-Unaposema kitu `isn't great`, unalainisha ujumbe hasi (badala ya kusema `it is bad`, kwa mfano). Hii hufanya ukosoaji usikike kwa heshima au kwa njia isiyo ya moja kwa moja. Angalia sentensi zifuatazo:
+When you say something `isn't great`, you are softening a negative message (instead of saying `it is bad`, for instance). It makes criticism sound more polite or indirect. Take a look at the following sentences:
 
-- `The design is bad.` - Hii ni kauli hasi kali, ambayo mara nyingi husikika isiyo na heshima.
+- `The design is bad.` - This is a strong negative statement, which often sounds impolite.
 
-- `The design isn't great. Maybe we can improve it.` - Kusema hivi husikika laini zaidi na kuwa na ujenzi zaidi.
+- `The design isn't great. Maybe we can improve it.` - Saying this sound less harsh and more constructive.
 
 # --scene--
 

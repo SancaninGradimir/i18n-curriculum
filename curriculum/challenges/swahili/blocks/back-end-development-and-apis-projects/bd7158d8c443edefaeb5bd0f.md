@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: Huduma ndogo ya metadata ya faili
+title: File Metadata Microservice
 challengeType: 4
 forumTopicId: 301506
 dashedName: file-metadata-microservice
@@ -8,18 +8,18 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Jenga programu kamili ya JavaScript inayofanya kazi kwa njia inayofanana na hii: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako kwa kutumia mojawapo ya njia zifuatazo:
+Build a full-stack JavaScript app that is functionally similar to this: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Working on this project will involve you writing your code using one of the following methods:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha unajumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Clone <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">this GitHub repo</a> and complete your project locally.
+-   Use a site builder of your choice to complete the project. Be sure to incorporate all the files from our GitHub repo.
 
 # --instructions--
 
-**KUNYONYESHA:** Unaweza kutumia kifurushi cha npm cha `multer` kushughulikia upakiaji wa faili.
+**HINT:** You can use the `multer` npm package to handle file uploading.
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+You should provide your own project, not the example URL.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   );
 ```
 
-Unaweza wasilisha fomu inayojumuisha upakiaji wa faili.
+You can submit a form that includes a file upload.
 
 ```js
   const site = await fetch(code);
@@ -38,7 +38,7 @@ Unaweza wasilisha fomu inayojumuisha upakiaji wa faili.
   assert(doc.querySelector('input[type="file"]'));
 ```
 
-Sehemu ya ingizo ya faili kwenye fomu ina sifa ya kipengele ya `name` iliyowekwa kuwa `upfile`.
+The form file input field has the `name` attribute set to `upfile`.
 
 ```js
   const site = await fetch(code);
@@ -47,7 +47,7 @@ Sehemu ya ingizo ya faili kwenye fomu ina sifa ya kipengele ya `name` iliyowekwa
   assert(doc.querySelector('input[name="upfile"]'));
 ```
 
-Unapowasilisha faili, unapata metadata ya faili `name`, `type`, na `size` kwa baiti ndani ya jibu la JSON.
+When you submit a file, you receive the file `name`, `type`, and `size` in bytes within the JSON response.
 
 ```js
   const formData = new FormData();
@@ -65,3 +65,4 @@ Unapowasilisha faili, unapata metadata ya faili `name`, `type`, na `size` kwa ba
   assert.equal(parsed.name, 'icon');
   assert.equal(parsed.type, 'image/png');
 ```
+

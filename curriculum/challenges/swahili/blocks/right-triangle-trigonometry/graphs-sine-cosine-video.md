@@ -1,6 +1,6 @@
 ---
 id: 699e5bab8f18cf77dfce5c11
-title: Michoro ya sine na cosine
+title: Graphs of Sine and Cosine
 challengeType: 11
 videoId: OoP1Lav_i9A
 dashedName: graphs-sine-cosine
@@ -8,30 +8,32 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu michoro ya kitendakazi za sine na cosine.
+In this video, you will learn about the graphs of sine and cosine functions.
 
 # --questions--
 
 ## --text--
 
-Je, amplitude ya kitendakazi cha sine au cosine ni nini?
+What is the amplitude of a sine or cosine function?
 
 ## --answers--
 
-Umbali wima kati ya kilele cha juu na mstari wa katikati.
+Vertical distance between the maximum point and the midline.
 
 ---
 
-Umbali wa usawa kati ya vilele viwili mfululizo
+Horizontal distance between two consecutive peaks
 
 ---
 
-Mteremko wa mchororo wa sine au cosine kwenye kilele cha juu.
+The slope of the sine or cosine curve at the maximum point.
 
 ---
 
-Umbali wima kati ya vilele viwili vya chini.
+Vertical distance between two minimum points.
 
 ## --video-solution--
 
 1
+
+

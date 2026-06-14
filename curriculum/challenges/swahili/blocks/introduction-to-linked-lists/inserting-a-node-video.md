@@ -1,6 +1,6 @@
 ---
 id: 698dd8b47932b3cc4b19c933
-title: Kuingiza nodi
+title: Inserting a Node
 challengeType: 11
 videoId: HKCIczy-v90
 dashedName: inserting-a-node
@@ -8,29 +8,29 @@ dashedName: inserting-a-node
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuingiza nodi katika orodha iliyounganishwa.
+In this video, you will learn how to insert a node in a linked list.
 
 # --questions--
 
 ## --text--
 
-Ni muda gani wa utekelezaji kwa kuingiza nodi katika nafasi inayojulikana katika orodha iliyounganishwa?
+What is the runtime for inserting a node at a known position in a linked list?
 
 ## --answers--
 
-muda wa kudumu
+constant time
 
 ---
 
-muda wa mstari
+linear time
 
 ---
 
-muda wa mraba
+quadratic time 
 
 ---
 
-muda wa kuongezeka kwa kasi 
+exponential time 
 
 ## --video-solution--
 

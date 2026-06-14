@@ -1,6 +1,6 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Zoezi la 4
+title: Task 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Je, kosa hili dogo ni kubwa?
+Is this small error serious?
 
 ## --answers--
 
-Hapana, na hawahitaji kufanya chochote kuhusu hilo.
+No, and they don't need to do anything about it.
 
 ### --feedback--
 
-Sophie haisemi ni tatizo kubwa, lakini wanapaswa kulirekebisha.
+Sophie doesn't say it's a major issue, but they should fix it.
 
 ---
 
-Ndiyo, litaangamiza mfumo mzima.
+Yes, it will break the whole system.
 
 ### --feedback--
 
-Sophie haisemi ni tatizo kubwa, ni jambo tu wanapaswa kulirekebisha.
+Sophie doesn't say it's a major issue, just something they should fix.
 
 ---
 
-Ndiyo, Sophie ana wasiwasi mkubwa kuhusu hilo.
+Yes, Sophie is very worried about it.
 
 ### --feedback--
 
-Sophie hana wasiwasi mkubwa, lakini bado anadhani wanapaswa kulirekebisha.
+Sophie is not very worried, but she still thinks they should fix it.
 
 ---
 
-Hapana, lakini linapaswa kulirekebishwa bado.
+No, but it should still be fixed.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Hapana, lakini linapaswa kulirekebishwa bado.
 
 # --explanation--
 
-`It's not a big deal` ina maana tatizo si kubwa. Kwa mfano:
+`It's not a big deal` means the problem is not serious. For example:
 
 - **Monica:** `I can't join the meeting today.`
 
-- **Eva:** `It's not a big deal. I'll take notes for you.` - Kukosa mkutano ni sawa, na mtu huyu anaweza kusaidia.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - Missing the meeting is okay, and this person can help.
 
-Sophie pia anasema `we should fix it before it causes problems`, ikimaanisha ni bora kulirekebisha sasa kabla halijawa tatizo kubwa.
+Sophie also says `we should fix it before it causes problems`, meaning it's better to fix it now before it becomes serious.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae6fdbb4a814be6a4f2be2
-title: RAG katika uzalishaji
+title: RAG in Production
 challengeType: 11
 videoId: EVZRatDET7Y
 dashedName: rag-in-production
@@ -8,30 +8,32 @@ dashedName: rag-in-production
 
 # --description--
 
-Katika video hii, utafundishwa jinsi RAG inavyofanya kazi katika mazingira ya uzalishaji.
+In this video, you will learn about how RAG works in a production environment.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI tabaka la mfumo wa RAG katika Kubernetes?
+Which of the following is NOT a layer of a RAG system in Kubernetes?
 
 ## --answers--
 
-Tabaka la Edge
+Edge Layer
 
 ---
 
-Tabaka la Data
+Data Layer
 
 ---
 
-Tabaka la Programu
+Application Layer
 
 ---
 
-Tabaka la Ufuatiliaji
+Monitoring Layer
 
 ## --video-solution--
 
 1
+
+

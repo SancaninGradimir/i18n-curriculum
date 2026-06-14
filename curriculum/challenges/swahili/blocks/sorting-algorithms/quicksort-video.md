@@ -8,13 +8,13 @@ dashedName: quicksort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi algoriti ya quicksort inavyofanya kazi.
+In this video, you will learn how the quicksort algorithm works.
 
 # --questions--
 
 ## --text--
 
-Ni mbinu gani inayotumika katika algoriti ya quicksort?
+Which technique is used in the quicksort algorithm?
 
 ## --answers--
 

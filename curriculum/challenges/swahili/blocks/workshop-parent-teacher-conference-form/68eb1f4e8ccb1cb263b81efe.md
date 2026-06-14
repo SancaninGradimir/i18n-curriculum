@@ -1,23 +1,23 @@
 ---
 id: 68eb1f4e8ccb1cb263b81efe
-title: Hatua 22
+title: Korak 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Maandishi ya maelezo yanahitaji kuwa makubwa kidogo. Chagua kipengele chenye darasa la `description` na weka `font-size` yake kuwa `1.2rem`.
+Tekst opisa treba da bude malo veći. Izaberite element sa klasom `description` i postavite njegovu `font-size` na `1.2rem`.
 
 # --hints--
 
-Unapaswa kulenga kipengele chenye darasa la `description`.
+You should target the element with the class `description`.
 
 ```js
 assert.exists(new __helpers.CSSHelp(document).getStyle('.description'));
 ```
 
-Weka sifa ya `font-size` kuwa `1.2rem`.
+Set the `font-size` property to `1.2rem`.
 
 ```js
 const style = new __helpers.CSSHelp(document).getStyle('.description')
@@ -139,3 +139,4 @@ body {
 
 --fcc-editable-region--
 ```
+

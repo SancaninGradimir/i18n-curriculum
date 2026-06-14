@@ -1,6 +1,6 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Zoezi la 82
+title: Task 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --description--
 
-Kwa `take` inaweza kumaanisha mambo tofauti kulingana na hali. Katika muktadha wa kujifunza, `take` inamaanisha kuhudhuria au kushiriki darasa la vitu au kozi. Kwa mfano:
+To `take` can mean different things depending on the situation. In the context of learning, to `take` means to attend or participate in a class or course. For example:
 
-- `I take online lessons at 7.` - Hapa, `take` inamaanisha kuhudhuria mafundisho.
+- `I take online lessons at 7.` - Here, `take` means to attend the lessons.
 
-- `She is taking a programming course this semester.` - Hapa, `taking` inamaanisha amejiandikisha na kuhudhuria kozi.
+- `She is taking a programming course this semester.` - Here, `taking` means she is enrolled in and attending the course.
 
-Kwa hiyo, unapo sema `take lessons` au `take a course`, unazungumzia kujiunga au kuhudhuria, si kuchukua kitu kimwili.
+So, when you say `take lessons` or `take a course`, you are talking about joining or attending them, not physically taking something.
 
 # --fillInTheBlank--
 
@@ -30,7 +30,7 @@ Kwa hiyo, unapo sema `take lessons` au `take a course`, unazungumzia kujiunga au
 
 ### --feedback--
 
-Kitenzi hiki kinaelezea tendo la kushiriki mafundisho.
+This verb describes the action of participating in the lessons.
 
 ---
 
@@ -38,7 +38,7 @@ Kitenzi hiki kinaelezea tendo la kushiriki mafundisho.
 
 ### --feedback--
 
-Neno hili linahusu mazingira ya mtandao.
+This word refers to a virtual environment.
 
 # --scene--
 

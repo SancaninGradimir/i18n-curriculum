@@ -1,6 +1,6 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Zoezi la 30
+title: Task 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
@@ -11,43 +11,43 @@ Second Candidate: Yes. I have a master's degree in computer science. -->
 
 # --description--
 
-Katika Kiingereza, nomino inayofuatiwa na `'s` ikifuatiwa na muundo wa nomino ya pili hutumika kuonyesha umiliki au uhusiano.
+In English, the noun suffixed with `'s` followed by a second noun structure is used to show possession or belonging.
 
-Ikiwa nomino ya kwanza ni ya umoja, kama ilivyo katika `Sarah's laptop`, inaonyesha kuwa kompyuta mpakato ni ya Sarah. Hata hivyo, ikiwa nomino ya kwanza ni ya wingi, muundo hubadilika kuwa nomino inayofuatiwa na `'`, kama ilivyo katika `teachers' office`, ikionyesha ofisi ya walimu.
+If the first noun is singular, as in `Sarah's laptop`, it indicates that the laptop belongs to Sarah. However, if the first noun is plural, the structure changes to noun suffixed with `'`, as in `teachers' office`, indicating an office for teachers.
 
 # --questions--
 
 ## --text--
 
-`master's degree` katika muktadha wa mazungumzo unarejelea nini?
+What does `master's degree` in the context of the dialogue refer to?
 
 ## --answers--
 
-Digrii kwa walimu wa shule
+A degree for school teachers
 
 ### --feedback--
 
-`Master's degree` inarejelea digrii ya juu ya kitaaluma, si maalum kwa walimu pekee.
+`Master's degree` refers to an advanced academic degree, not specifically for teachers.
 
 ---
 
-Digrii ya elimu ya msingi
+A primary level educational degree
 
 ### --feedback--
 
-`Master's degree` ni sifa ya elimu ya juu, zaidi ya kiwango cha msingi.
+`Master's degree` is a higher education qualification, beyond the primary level.
 
 ---
 
-Digrii ya ujuzi wa kitaalamu
+A degree in mastering skills
 
 ### --feedback--
 
-Ingawa inaashiria utaalamu, `master's degree` inahusu sifa ya kitaaluma hasa.
+While it implies expertise, `master's degree` specifically refers to an academic qualification.
 
 ---
 
-Digrii ya juu ya kitaaluma
+An advanced academic degree
 
 ## --video-solution--
 

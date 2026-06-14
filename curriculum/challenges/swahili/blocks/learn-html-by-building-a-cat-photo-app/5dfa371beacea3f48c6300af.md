@@ -1,21 +1,21 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Hatua 21
+title: Step 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-Unapoongeza kipengele cha kichwa cha sehemu cha daraja la chini kwenye ukurasa, inamaanisha kuwa unaanza sehemu ndogo mpya.
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
-Baada ya kipengele cha `h2` cha pili cha `section`, ongeza kipengele cha `h3` chenye maandishi haya:
+After the last `h2` element of the second `section` element, add an `h3` element with this text:
 
 `Things cats love:`
 
 # --hints--
 
-Kipengele cha `section` cha pili kinaonekana kukosekana au hakina lebo ya kufungua na ya kufunga zote mbili.
+The second `section` element appears to be missing or does not have both an opening and closing tag.
 
 ```js
 assert(
@@ -24,7 +24,7 @@ assert(
 );
 ```
 
-Kipengele cha `h3` kinapaswa kuwepo juu ya lebo ya kufunga ya kipengele cha `section` cha pili.
+There should be an `h3` element right above the second `section` element's closing tag.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-Kipengele chako cha `h3` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Your `h3` element should have a closing tag. Closing tags have a `/` just after the `<` character.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-Kipengele cha `h3` kilicho juu ya lebo ya kufunga ya kipengele cha `section` cha pili kinapaswa kuwa na maandishi ya `Things cats love:`. Hakikisha unajumuisha nukta mwishoni mwa maandishi.
+The `h3` element right above the second `section` element's closing tag should have the text `Things cats love:`. Make sure to include the colon at the end of the text.
 
 ```js
 assert(
@@ -50,7 +50,7 @@ assert(
 );
 ```
 
-Kipengele cha `h2` chenye maandishi ya `Cat Lists` kinapaswa kuwepo juu ya kipengele cha `h3` cha mwisho kilichopangwa ndani ya kipengele cha `section` cha mwisho. Huenda umefuta kipengele cha `h2` kwa bahati mbaya.
+There should be an `h2` element with the text `Cat Lists` above the last `h3` element that is nested in the last `section` element'. You may have accidentally deleted the `h2` element.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]
@@ -88,3 +88,4 @@ assert(
   </body>
 </html>
 ```
+

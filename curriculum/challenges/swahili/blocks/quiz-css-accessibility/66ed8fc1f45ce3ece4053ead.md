@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: Jaribio fupi la ufikikaji wa CSS
+title: CSS Accessibility Quiz
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Kwa nini unahitaji kuwa na uwiano mzuri wa utofauti wa rangi kwenye ukurasa wako wa mtandao?
+Why do you need to have good color contrast on your webpage?
 
 #### --distractors--
 
-Ili kufanya ukurasa kuwa na rangi angavu zaidi.
+To make the page more vibrant.
 
 ---
 
-Ili kukidhi mahitaji ya uboreshaji wa injini za utafutaji (SEO).
+To meet requirements for search engine optimization (SEO).
 
 ---
 
-Ili kufanya vipengele muhimu vya ukurasa vionekane zaidi.
+To make important elements of the page stand out.
 
 #### --answer--
 
-Ili kufanya maudhui ya ukurasa kupatikana na kusomeka.
+To make the page content accessible and readable.
 
 ### --question--
 
 #### --text--
 
-Ni zana gani kati ya zifuatazo inakuwezesha kuingiza rangi za nyuma na mbele na kuangalia uwiano wao wa utofauti wa rangi?
+Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ WebAIM's Color Contrast Checker
 
 #### --text--
 
-Ni zana gani kati ya zifuatazo inakuwezesha kuchagua rangi za nyuma na mbele kutoka kwa maudhui yanayoonyeshwa kwenye skrini yako na kuangalia uwiano wao wa utofauti wa rangi?
+Which of the following tools allows you to pick background and foreground colors from content displayed on your screen and check their contrast ratio?
 
 #### --distractors--
 
@@ -83,51 +83,51 @@ TPGi Colour Contrast Analyzer
 
 #### --text--
 
-Kwa nini haufai kutumia `display: none` na `visibility: hidden` kuficha maudhui kwa njia ya kuona?
+Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
 
 #### --distractors--
 
-Njia hizi hufanya maudhui yaliyofichwa kupatikana tu kwa teknolojia za kusaidia kama kisomaji cha skrini.
+These methods make it so that only assistive technologies like screen readers can access the hidden content.
 
 ---
 
-Njia hizi hufanya maudhui yafichwe tu hadi watumizi wapeleke kipanya chao juu ya maudhui hayo.
+These methods make it so that the content is only hidden until users move their mouse over the content.
 
 ---
 
-Njia hizi hazifanyi kazi na baadhi ya vivinjari.
+These methods do not work with some browsers.
 
 #### --answer--
 
-Njia hizi huondoa maudhui kutoka kwenye mti wa ufikikaji, na kufanya isiwezekane kwa visomaji vya skrini kupata maudhui yaliyofichwa.
+These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
 
 ### --question--
 
 #### --text--
 
-Mti wa ufikikaji ni nini?
+What is an accessibility tree?
 
 #### --distractors--
 
-Uwiano wa kuona wa mpangilio wa ukurasa wa mtandao.
+A visual representation of the layout of a webpage.
 
 ---
 
-Muundo unaotumiwa na visomaji vya skrini kusoma maudhui ya maandishi ya ukurasa wa mtandao.
+A structure used by screen readers to read the text content of a webpage.
 
 ---
 
-Nakili ya mti wa DOM.
+A copy of the DOM tree.
 
 #### --answer--
 
-Muundo unaotumiwa na visomaji vya skrini kufasiri na kuingiliana na maudhui kwenye ukurasa wa mtandao.
+A structure used by screen readers to interpret and interact with the content on a webpage.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo inahakikisha kuwa picha ina upana wa kiwango cha chini cha `400px`, lakini inapanuka zaidi wakati upana wa eneo la kuona ni zaidi ya `1000px`?
+Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Ni ipi kati ya thamani za `scroll-behavior` inayoelekeza tabia ya kuvinjari kwa utulivu?
+Which of the following `scroll-behavior` values allows a smooth scrolling behavior?
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Ni ipi kati ya thamani za `scroll-behavior` inayoelekeza tabia ya kuvinjari kwa 
 
 #### --text--
 
-Ni kipengele gani kati ya zifuatazo kinatumika kugundua upendeleo wa mtumizi kuhusu michoro ya kusogea?
+Which of the following features is used to detect the user's animation preference?
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Ni kipengele gani kati ya zifuatazo kinatumika kugundua upendeleo wa mtumizi kuh
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni tatizo la ufikikaji la sifa ya `placeholder` katika kipengele cha `input`?
+Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
 
 #### --distractors--
 
-Maandishi ya kiwakilishi yanazuia visomaji vya skrini kusoma maandishi ya lebo ya ingizo.
+Placeholder text prevents screen readers from reading the input label text.
 
 ---
 
-Maandishi ya kiwakilishi yanazuia visomaji vya skrini kusoma thamani ya ingizo.
+Placeholder text prevents screen readers from reading the input value.
 
 ---
 
-Maandishi ya kiwakilishi ni madogo mno kusomeka.
+Placeholder text is too small to be readable.
 
 #### --answer--
 
-Maandishi ya kiwakilishi yanaweza kuchanganywa na thamani halisi ya ingizo.
+Placeholder text can be confused with an actual input value.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `hidden` hufanya nini?
+What does the `hidden` attribute do?
 
 #### --distractors--
 
-Huficha maudhui na kuonyesha wakati wa kupeleka kipanya juu.
+It hides content and reveals on hover.
 
 ---
 
-Huficha maudhui tu kutoka kwenye mti wa ufikikaji.
+It hides content only from the accessibility tree.
 
 ---
 
-Huficha maudhui kwa kuona, lakini maudhui yapo kwenye mti wa ufikikaji.
+It hides content visually, but the content is available in the accessibility tree.
 
 #### --answer--
 
-Huficha maudhui kwa kuona na pia kutoka kwenye mti wa ufikikaji.
+It hides content both visually and from the accessibility tree.

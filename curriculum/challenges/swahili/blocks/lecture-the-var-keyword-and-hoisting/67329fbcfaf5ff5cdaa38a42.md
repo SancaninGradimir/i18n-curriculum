@@ -1,17 +1,17 @@
 ---
 id: 67329fbcfaf5ff5cdaa38a42
-title: "Nini maana ya neno muhimu var, na kwa nini haipendekezwi tena kuitumia?"
+title: Šta je ključna reč `var`, i zašto se više ne preporučuje njeno korišćenje?
 challengeType: 19
 dashedName: what-is-the-var-keyword-and-why-is-it-no-longer-suggested-to-use-it
 ---
 
 # --interactive--
 
-Neno muhimu la `var` katika JavaScript ni mojawapo ya njia za awali za kutangaza vigezo. Limekuwa sehemu ya lugha tangu ilipoanzishwa na kwa miaka mingi lilibaki kuwa njia kuu ya kuunda vigezo. Hata hivyo, kadri JavaScript ilivyokua na wasanidi programu kupata uzoefu zaidi na lugha hiyo, mapungufu fulani ya kutumia `var` yalionekana na kusababisha kuanzishwa kwa `let` na `const` mwaka 2015.
+Ključna reč ``var`` u JavaScriptu je jedan od prvobitnih načina za deklarisanje promenljivih. Bila je deo jezika otkako je nastao i godinama je ostala primarni metod za kreiranje promenljivih. Međutim, kako je JavaScript evoluirao i programeri su stekli više iskustva sa jezikom, određeni nedostaci korišćenja ``var`` postali su vidljivi, što je dovelo do uvođenja ``let`` i ``const`` 2015. godine.
 
-Unapotangaza kigezo kwa `var`, kinakuwa na wigo wa kitendakazi au wigo wa kimataifa. Hii ina maana kwamba ukitangaza kigezo ndani ya kitendakazi kwa kutumia `var` kinapatikana tu ndani ya kitendakazi hicho. Hata hivyo, ukikitangaza nje ya kitendakazi chochote, kinakuwa kigezo cha kimataifa kinachopatikana katika msimbo wako mzima. Tabia hii inaweza kusababisha matokeo yasiyotegemewa na kufanya msimbo wako kuwa mgumu kueleweka.
+Kada deklariš varijablu sa `var`, ona postaje funkciono opsežna ili globalno opsežna. To znači da ako deklariš varijablu unutar funkcije koristeći `var`, ona je dostupna samo unutar te funkcije. Međutim, ako je deklariš izvan bilo koje funkcije, postaje globalna varijabla dostupna u celom tvom skriptu. Ovo ponašanje ponekad može dovesti do neočekivanih rezultata i učiniti vaš kod teže razumljivim.
 
-Tatizo la `var` ni kwamba linakuwezesha kutangaza tena kigezo kile kile mara nyingi bila kutoa hitilafu. Hii inaweza kusababisha kufutwa kwa bahati mbaya na kufanya kutafuta makosa kuwa vigumu zaidi.
+Problem sa `var` jeste što vam omogućava da ponovo deklarišete istu varijablu više puta bez bacanja greške. Ovo može dovesti do slučajnog prepisivanja i otežati debagovanje.
 
 :::interactive_editor
 
@@ -26,7 +26,7 @@ console.log(num); // 10
 
 :::
 
-Tatizo kubwa zaidi la `var` ni ukosefu wa wigo wa block. Vigezo vilivyotangazwa kwa `var` ndani ya block kama tamko la `if` au mzunguko wa `for` bado vinapatikana nje ya block hiyo.
+Najznačajniji problem sa `var` je nedostatak blok opsega. Varijable deklarisane sa `var` unutar bloka kao što je izjava `if` ili petlja `for` i dalje su dostupne van tog bloka.
 
 :::interactive_editor
 
@@ -39,55 +39,49 @@ console.log(num); // 5
 
 :::
 
-Tabia hii inaweza kusababisha kuvuja kwa vigezo bila kusudi na kufanya msimbo wako uwe rahisi kuwa na hitilafu.
+Ovo ponašanje može dovesti do neželjenog curenja varijabli i učiniti vaš kod sklonijim greškama.
 
-Kutokana na matatizo haya, ukuzaji wa kisasa wa JavaScript umehamia mbali na `var` na kuipendelea `let` na `const`. Maneno haya muhimu yanatoa wigo wa block unaolingana zaidi na jinsi wigo unavyofanya kazi katika lugha nyingi za programu.
+Zbog ovih problema, moderno JavaScript razvijanje se u velikoj meri udaljilo od `var` umesto `let` i `const`. Ove ključne reči pružaju blok opsega (block scoping) što je u skladu sa načinom na koji funkcioniše opseg u mnogim drugim programskim jezicima.
 
-Pia hayaruhusu kutangaza tena ndani ya wigo uleule, kusaidia kuzuia kufutwa kwa bahati mbaya.
+Takođe ne dozvoljavaju ponovno deklarisanje unutar istog opsega, što pomaže u sprečavanju slučajnih nadjačavanja.
 
-Ingawa `var` bado ni sehemu ya JavaScript na hufanya kazi katika vivinjari vyote, kwa ujumla inashauriwa kutumia `let` na `const` katika ukuzaji wa kisasa wa JavaScript. Hutoa sheria wazi za wigo, husaidia kuzuia makosa ya kawaida, na kufanya tabia ya msimbo wako kuwa ya kutegemewa zaidi.
-
+Iako je `var` i dalje deo JavaScript-a i radi u svim pregledačima, generalno se preporučuje korišćenje `let` i `const` u modernom JavaScript razvoju. Oni pružaju jasna pravila obima (scoping), pomažu sprečavanju uobičajenih zamki i čine ponašanje vašeg koda predvidljivijim.
 # --questions--
 
 ## --text--
 
-Ni wigo gani wa kigezo kilichotangazwa kwa `var` nje ya kitendakazi chochote?
-
+Koji je opseg varijable deklarisane sa `var` izvan bilo koje funkcije?
 ## --answers--
 
-Wigo wa block.
+Blok opseg.
+### --feedback--
+
+Razmislite o tome gde se varijabla `var` deklarisana izvan funkcije može pristupiti.
+---
+
+Function scope.
 
 ### --feedback--
 
-Fikiria wapi kigezo cha `var` kilichotangazwa nje ya kitendakazi kinaweza kufikiliwa.
+Razmislite o tome gde se varijabla `var` deklarisana izvan funkcije može pristupiti.
+---
+
+Global scope.
 
 ---
 
-Wigo wa kitendakazi.
+Module scope.
 
 ### --feedback--
 
-Fikiria wapi kigezo cha `var` kilichotangazwa nje ya kitendakazi kinaweza kufikiliwa.
-
----
-
-Wigo wa kimataifa.
-
----
-
-Wigo wa moduli.
-
-### --feedback--
-
-Fikiria wapi kigezo cha `var` kilichotangazwa nje ya kitendakazi kinaweza kufikiliwa.
-
+Razmislite o tome gde se varijabla `var` deklarisana izvan funkcije može pristupiti.
 ## --video-solution--
 
 3
 
 ## --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Koji će biti izlaz sledećeg koda?
 
 ```js
 var x = 10;
@@ -109,8 +103,7 @@ console.log(x);
 
 ### --feedback--
 
-Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutangaza tena ndani ya wigo uleule.
-
+Zapamtite da ``var`` je funkciono-opsegovan ili globalno-opsegovan, i omogućava ponovno deklarisanje unutar istog opsega.
 ---
 
 ```js
@@ -127,8 +120,7 @@ Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutang
 
 ### --feedback--
 
-Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutangaza tena ndani ya wigo uleule.
-
+Zapamtite da ``var`` je funkciono-opsegovan ili globalno-opsegovan, i omogućava ponovno deklarisanje unutar istog opsega.
 ---
 
 ```js
@@ -138,44 +130,38 @@ Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutang
 
 ### --feedback--
 
-Kumbuka kwamba `var` ni na wigo wa kitendakazi au kimataifa, na inaruhusu kutangaza tena ndani ya wigo uleule.
-
+Zapamtite da ``var`` je funkciono-opsegovan ili globalno-opsegovan, i omogućava ponovno deklarisanje unutar istog opsega.
 ## --video-solution--
 
 2
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI sababu ya kuepuka kutumia `var` katika JavaScript ya kisasa?
-
+Koja od sledećih nije razlog za izbegavanje korišćenja `var` u modernom JavaScript-u?
 ## --answers--
 
-`var` inaruhusu kutangaza tena vigezo katika wigo uleule.
-
+`var` omogućava ponovno deklarisanje promenljivih u istom opsegu.
 ### --feedback--
 
-Fikiria ni tamko gani si kweli kuhusu tabia au msaada wa `var`.
+Razmislite koji je tvrdnja netačna o ponašanju ili podršci '`var`'.
+---
+
+`var` is not supported in modern browsers.
 
 ---
 
-`var` haitegemezwi katika vivinjari vya kisasa.
-
----
-
-Vigezo vya `var` vina wigo wa kitendakazi, si wigo wa block.
+`var` variables are function-scoped, not block-scoped.
 
 ### --feedback--
 
-Fikiria ni tamko gani si kweli kuhusu tabia au msaada wa `var`.
-
+Razmislite koji je tvrdnja netačna o ponašanju ili podršci '`var`'.
 ---
 
-Vigezo vya `var` vinapandishwa juu (hoisted).
+`var` variables are hoisted.
 
 ### --feedback--
 
-Fikiria ni tamko gani si kweli kuhusu tabia au msaada wa `var`.
-
+Razmislite koji je tvrdnja netačna o ponašanju ili podršci '`var`'.
 ## --video-solution--
 
 2

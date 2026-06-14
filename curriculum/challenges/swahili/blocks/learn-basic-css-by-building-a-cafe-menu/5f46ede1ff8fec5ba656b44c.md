@@ -1,17 +1,17 @@
 ---
 id: 5f46ede1ff8fec5ba656b44c
-title: Hatua 77
+title: Step 77
 challengeType: 0
 dashedName: step-77
 ---
 
 # --description--
 
-Ifuatayo, utaanza kupamba kipengele cha `footer`. Ili kuweka CSS iwe imepangwa vizuri, ongeza maoni mwishoni mwa `styles.css` yenye maandishi `FOOTER`.
+Next, you are going to be styling the `footer` element. To keep the CSS organized, add a comment at the end of `styles.css` with the text `FOOTER`.
 
 # --hints--
 
-Unapaswa kuwa na maoni ya CSS yenye maandishi `FOOTER`.
+You should have a CSS comment with the text `FOOTER`.
 
 ```js
 assert(code.match(/\/\*\s*FOOTER\s*\*\//i));
@@ -150,3 +150,4 @@ h1, h2 {
 --fcc-editable-region--
 
 ```
+

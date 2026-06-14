@@ -1,6 +1,6 @@
 ---
 id: 67b9becbb4fd3b0d7fc2411e
-title: Zoezi la 65
+title: Task 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili linahusu mambo kuchukua muda mrefu kuliko ilivyotarajiwa.
+This word refers to things taking longer than expected.
 
 ---
 
@@ -32,13 +32,13 @@ Neno hili linahusu mambo kuchukua muda mrefu kuliko ilivyotarajiwa.
 
 ### --feedback--
 
-Neno hili linahusu kutoelewana kunakosababishwa na taarifa zisizo wazi au zisizo sahihi.
+This word refers to misunderstandings caused by unclear or incorrect information.
 
 # --explanation--
 
-David ana wasiwasi kwamba kazi ya mbali isiyo ya wakati mmoja inaweza kusababisha `delays` (majibu na maendeleo ya polepole) na `miscommunication` (watu kutoelewana).
+David is concerned that asynchronous remote work might cause `delays` (slower responses and progress) and `miscommunication` (people misunderstanding each other).
 
-Kwa kuwa wafanyakazi hufanya kazi kwa nyakati tofauti, ujumbe unaweza kuchukua muda mrefu kujibiwa, na kutoelewana kunaweza kutokea ikiwa mawasiliano hayako wazi.
+Since employees work at different times, messages may take longer to be answered, and misunderstandings may happen if communication isn't clear.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Zoezi la 41
+title: Task 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Usemi `by the end of it` hutumika sana kwa Kiingereza kurejelea hitimisho au sehemu ya mwisho ya mchakato au kipindi cha muda. Ina maana kwamba mwishoni mwa shughuli fulani, matokeo maalum au uelewa utafanikiwa.
+The phrase `by the end of it` is commonly used in English to refer to the conclusion or final part of a process or period of time. It implies that at the completion of a certain activity, a specific result or understanding will be achieved.
 
 # --questions--
 
 ## --text--
 
-Katika mazungumzo, Brian anamaanisha nini kwa `by the end of it`?
+In the dialogue, what does Brian mean by `by the end of it`?
 
 ## --answers--
 
-Watakomesha uchunguzi.
+They will stop the investigation.
 
 ### --feedback--
 
-Usemi huu unahusu kufikia hitimisho, si lazima kusitisha shughuli.
+This phrase is about reaching a conclusion, not necessarily stopping the activity.
 
 ---
 
-Watakianza shughuli nyingine.
+They will start another activity.
 
 ### --feedback--
 
-Brian anarejelea mwisho wa uchunguzi wa sasa, si kuanza kitu kipya.
+Brian is referring to the end of the current investigation, not starting something new.
 
 ---
 
-Watapumzika.
+They will take a break.
 
 ### --feedback--
 
-Usemi unazingatia kufikia uelewa mwishoni mwa mchakato, si kupumzika.
+The phrase focuses on reaching an understanding at the end of the process, not taking a break.
 
 ---
 
-Watakuwa na uelewa wazi zaidi wa hali hiyo baada ya uchunguzi.
+They will have a clearer understanding of the situation after the investigation.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dbf2b7932b3cc4b19c91d
-title: Kueleza algoriti
+title: Defining an Algorithm
 challengeType: 11
 videoId: qH-e5VMAYwQ
 dashedName: defining-an-algorithm
@@ -8,13 +8,13 @@ dashedName: defining-an-algorithm
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu algoriti ya utafutaji inayotumika sana.
+In this video, you will learn about a commonly used search algorithm.
 
 # --questions--
 
 ## --text--
 
-Jina la algoriti inayozungumziwa katika video ni lipi?
+What is the name of the algorithm talked about in the video?
 
 ## --answers--
 

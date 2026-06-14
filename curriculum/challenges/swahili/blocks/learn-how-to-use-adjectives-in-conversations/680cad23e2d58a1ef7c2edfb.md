@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Zoezi la 19
+title: Task 19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili hutumika kuonyesha vitu maalum vilivyo karibu na msemaji.
+This word is used to point to specific items that are close to the speaker.
 
 ---
 
@@ -32,13 +32,13 @@ Neno hili hutumika kuonyesha vitu maalum vilivyo karibu na msemaji.
 
 ### --feedback--
 
-Neno hili mchanganyiko lina maana ya kitu kinachoweza kushughulikia kazi, hifadhi, au nishati nyingi. Kumbuka kutumia `-`.
+This compound word means something that can handle a large amount of work, storage, or energy. Remember to use `-`.
 
 # --explanation--
 
-`High-capacity` linaelezea kitu kilichoundwa kushughulikia au kuhifadhi kiasi kikubwa ikilinganishwa na matoleo ya kawaida. Kwa mfano:
+`High-capacity` describes something designed to manage or hold a large amount compared to standard versions. For example:
 
-`We installed high-capacity batteries in the new devices.` – Hii ina maana betri zinaweza kuhifadhi nguvu zaidi na kudumu kwa muda mrefu, jambo ambalo ni muhimu katika vifaa vya teknolojia.
+`We installed high-capacity batteries in the new devices.` – This means the batteries can store more power and last longer, which is useful in tech equipment.
 
 # --scene--
 

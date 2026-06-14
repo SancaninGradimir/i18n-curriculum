@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: Jaribio fupi la mfuatano wa herufi za JavaScript
+title: JavaScript Strings Quiz
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Thamani ya return kwa njia ya `includes()` ni ipi?
+What is the return value for the `includes()` method?
 
 #### --distractors--
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha mfuatano huo. Vinginevyo, hurudisha `undefined`.
+If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
 
 ---
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha `true`. Vinginevyo, hurudisha mfuatano tupu.
+If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
 
 ---
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha mfuatano huo. Vinginevyo, hurudisha `null`.
+If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
 
 #### --answer--
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha `true`. Vinginevyo, hurudisha `false`.
+If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
 
 ### --question--
 
 #### --text--
 
-Ni chaguo gani linaonyesha uingizaji wa thamani wa mfuatano wa herufi?
+Which option demonstrates string interpolation?
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Ni chaguo gani linaonyesha uingizaji wa thamani wa mfuatano wa herufi?
 
 #### --text--
 
-Ni ipi kati ya hizi ni tabia ya kuanzisha mstari mpya (newline character)?
+Which of the following options is the newline character?
 
 #### --distractors--
 
@@ -83,29 +83,29 @@ Ni ipi kati ya hizi ni tabia ya kuanzisha mstari mpya (newline character)?
 
 #### --text--
 
-Ni taarifa gani kati ya hizi ni sahihi kuhusu mfuatano wa herufi?
+Which of the following statements is correct about strings?
 
 #### --distractors--
 
-Mfuatano wa herufi ni wa kubadilika na unaweza kubadilishwa baada ya kuundwa.
+Strings are mutable and can be changed after they are created.
 
 ---
 
-Mfuatano wa herufi ni aina zisizo za msingi (non primitive data types).
+Strings are non primitive data types.
 
 ---
 
-Mfuatano wa herufi unaweza kuundwa kwa kutumia nukuu moja tu.
+Strings can only be created using single quotes.
 
 #### --answer--
 
-Mfuatano wa herufi ni wa kutobadilika (immutable).
+Strings are immutable.
 
 ### --question--
 
 #### --text--
 
-ASCII inasimamia nini?
+What does ASCII stand for?
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ American Standard Code for Information Interchange
 
 #### --text--
 
-Ni njia gani kati ya hizi huchukua sehemu ya mfuatano wa herufi na kurudisha mfuatano mpya?
+Which of the following methods extracts a portion of a string and returns a new string?
 
 #### --distractors--
 
@@ -149,29 +149,29 @@ Ni njia gani kati ya hizi huchukua sehemu ya mfuatano wa herufi na kurudisha mfu
 
 #### --text--
 
-Kusudi la njia ya `prompt()` ni lipi?
+What is the purpose of the `prompt()` method?
 
 #### --distractors--
 
-Inaonyesha ujumbe kwenye konsoli.
+It displays a message in the console.
 
 ---
 
-Inaonyesha kisanduku cha tahadhari chenye ujumbe.
+It displays an alert box with a message.
 
 ---
 
-Inaonyesha kisanduku cha uthibitisho chenye ujumbe.
+It displays a confirmation box with a message.
 
 #### --answer--
 
-Inaonyesha kisanduku cha mazungumzo kinachosubiri ingizo la mtumizi.
+It displays a dialog box that waits for the user input.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani sahihi ya kupata herufi ya tatu ya mfuatano wa herufi?
+Which of the following is the correct way to access the third character of a string?
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ developer[2];
 
 #### --text--
 
-Unawezaje kupata thamani ya ASCII ya herufi ya kwanza katika mfuatano wa herufi `"hello"`?
+How can you obtain the ASCII value of the first character in the string `"hello"`?
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ Unawezaje kupata thamani ya ASCII ya herufi ya kwanza katika mfuatano wa herufi 
 
 #### --text--
 
-Ni njia gani unaweza kutumia kupata herufi inayolingana na thamani ya ASCII?
+Which method can you use to obtain the character corresponding to an ASCII value?
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Ni njia gani unaweza kutumia kupata herufi inayolingana na thamani ya ASCII?
 
 #### --text--
 
-Ni mfano gani kati ya `indexOf` utaandika `-1` kwenye konsoli?
+Which of the following `indexOf` examples will log `-1` to the console?
 
 #### --distractors--
 
@@ -283,7 +283,7 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-Unawezaje kuangalia kama mfuatano wa herufi `"JavaScript"` una `"Script"`?
+How can you check if the string `"JavaScript"` contains `"Script"`?
 
 #### --distractors--
 
@@ -305,7 +305,7 @@ Unawezaje kuangalia kama mfuatano wa herufi `"JavaScript"` una `"Script"`?
 
 #### --text--
 
-Ni ipi kati ya hizi huchukua sehemu ndogo ya mfuatano wa herufi `"Script"` kutoka kwa mfuatano wa herufi `"JavaScript"`?
+Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
 
 #### --distractors--
 
@@ -327,7 +327,7 @@ Ni ipi kati ya hizi huchukua sehemu ndogo ya mfuatano wa herufi `"Script"` kutok
 
 #### --text--
 
-Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi kubwa?
+How do you convert the string `"JavaScript"` to uppercase?
 
 #### --distractors--
 
@@ -349,7 +349,7 @@ Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi kubwa?
 
 #### --text--
 
-Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi ndogo?
+How do you convert the string `"JavaScript"` to lowercase?
 
 #### --distractors--
 
@@ -371,7 +371,7 @@ Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi ndogo?
 
 #### --text--
 
-Ni ipi kati ya hizi itabadilisha `"dogs"` kuwa `"cats"` katika mfuatano wa herufi `"I love dogs"`.
+Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
 
 #### --distractors--
 
@@ -393,7 +393,7 @@ Ni ipi kati ya hizi itabadilisha `"dogs"` kuwa `"cats"` katika mfuatano wa heruf
 
 #### --text--
 
-Ni njia gani hutumika kurudia mfuatano wa herufi mara nambari fulani?
+Which method is used to repeat a string a specified number of times?
 
 #### --distractors--
 
@@ -415,7 +415,7 @@ Ni njia gani hutumika kurudia mfuatano wa herufi mara nambari fulani?
 
 #### --text--
 
-Nini msimbo ufuatao utarudisha: `"abc".repeat(3)`?
+What will the following code return: `"abc".repeat(3)`?
 
 #### --distractors--
 
@@ -437,7 +437,7 @@ It will throw an error.
 
 #### --text--
 
-Ni njia gani itafuta nafasi tupu mwanzoni na mwishoni mwa mfuatano wa herufi?
+Which method will remove whitespace from the beginning and end of a string?
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Ni njia gani itafuta nafasi tupu mwanzoni na mwishoni mwa mfuatano wa herufi?
 
 #### --text--
 
-Ni sintaksia gani sahihi ya kuepuka nukuu?
+Which of the following is the correct syntax for escaping quotes?
 
 #### --distractors--
 
@@ -484,3 +484,4 @@ Ni sintaksia gani sahihi ya kuepuka nukuu?
 ```js
 "She said, \"Hello!\""
 ```
+

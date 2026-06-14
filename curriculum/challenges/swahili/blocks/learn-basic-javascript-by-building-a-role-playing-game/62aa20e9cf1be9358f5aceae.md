@@ -1,23 +1,23 @@
 ---
 id: 62aa20e9cf1be9358f5aceae
-title: Hatua 151
+title: Step 151
 challengeType: 0
 dashedName: step-151
 ---
 
 # --description--
 
-Ongeza tamko la `else` kwenye tamko la kwanza la `if` ndani ya kitendakazi chako cha `attack()`. Katika tamko la `else`, tumia opereta wa `+=` kuongeza maandishi `" You miss."` mwishoni mwa `text.innerText`.
+Add an `else` statement to the first `if` statement inside your `attack()` function. In the `else` statement, use the `+=` operator to add the text `" You miss."` to the end of `text.innerText`.
 
 # --hints--
 
-Unapaswa kuongeza kipande cha `else` baada ya kipande chako cha `if (isMonsterHit())`.
+You should add an `else` block after your `if (isMonsterHit())` block.
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else/)
 ```
 
-Unapaswa kuongeza maandishi `" You miss."` mwishoni mwa `text.innerText`. Kumbuka kutumia mgawo mchanganyiko na hakikisha kuna nafasi kabla ya neno `You`.
+You should add the text `" You miss."` to the end of `text.innerText`. Remember to use compound assignment and make sure there is a space before the word `You`.
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else\s*\{\s*text\.innerText\s*\+=\s*('|")\sYou miss\.\1/)

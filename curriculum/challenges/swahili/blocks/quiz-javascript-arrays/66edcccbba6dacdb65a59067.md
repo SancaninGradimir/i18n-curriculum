@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: Jaribio fupi la safu za data za JavaScript
+title: JavaScript Arrays Quiz
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+What will be the output for the following code?
 
 ```js
 const numbers = [1, 2, 3];
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Ni njia gani kati ya zifuatazo ndiyo sahihi ya kupata mfuatano wa herufi `"Jessica"` kutoka kwenye safu ya data `developers`?
+Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
 
 #### --distractors--
 
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-Ni thamani gani itapewa kwa kigezo `index`?
+What value will be assigned to the `index` variable?
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-Sintaksia ya REST hufanya nini?
+What does the rest syntax do?
 
 #### --distractors--
 
-Inatumika kugawanya mfuatano wa herufi kuwa safu ya sehemu ndogo ndogo.
+It is used to divide a string into an array of substrings.
 
 ---
 
-Inatumika kuongeza au kuondoa vipengele kutoka sehemu yoyote katika safu ya data.
+It is used to add or remove elements from any position in an array.
 
 ---
 
-Inatumika kuongeza vipengele mwishoni mwa safu ya data na itarudisha urefu mpya.
+It is used to add elements to the end of the array and will return the new length.
 
 #### --answer--
 
-Inakamata vipengele vilivyobaki vya safu ya data na kuviweka katika safu mpya.
+It captures the remaining elements of an array into a new array.
 
 ### --question--
 
 #### --text--
 
-Ufumbuzi wa muundo wa safu ya data ni nini?
+What is array destructuring?
 
 #### --distractors--
 
-Inatumika kuunganisha vipengele vyote vya safu ya data kuwa mfuatano wa herufi mmoja.
+It is used to concatenate all of the elements of an array into a single string.
 
 ---
 
-Inatumika kuangalia kama safu ya data ina thamani fulani.
+It is used to check if an array contains a specific value.
 
 ---
 
-Inatumika kuondoa kipengele cha mwisho kutoka kwenye safu ya data na kurudisha kipengele hicho kilichoondolewa.
+It is used to remove the last element from an array and will return that removed element.
 
 #### --answer--
 
-Inatumika kutoa thamani kutoka kwenye safu za data na kuziweka katika vigezo kwa njia fupi na inayosomeka zaidi.
+It is used to extract values from arrays and assign them to variables in a more concise and readable way.
 
 ### --question--
 
 #### --text--
 
-Ni thamani gani itapewa kwa kigezo `arr2`?
+What value will be assigned to the `arr2` variable?
 
 ```js
 const arr1 = [1, 2, 3];
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-Msimbo huu utaandika nini kwenye konsoli?
+What will this code log to the console?
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-Ni thamani gani itapewa kwa kigezo `slicedArr`?
+What value will be assigned to the `slicedArr` variable?
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -234,7 +234,7 @@ console.log(slicedArr);
 
 #### --text--
 
-Njia gani hurejesha kielezo cha kwanza cha kipengele fulani katika safu ya data?
+Which method returns the first index of a given element in an array?
 
 #### --distractors--
 
@@ -256,7 +256,7 @@ Njia gani hurejesha kielezo cha kwanza cha kipengele fulani katika safu ya data?
 
 #### --text--
 
-Njia gani hutumika kuondoa kipengele cha kwanza kutoka kwenye safu ya data na kurudisha kipengele hicho kilichoondolewa?
+Which method is used to remove the first element from an array and returns that removed element?
 
 #### --distractors--
 
@@ -278,29 +278,29 @@ Njia gani hutumika kuondoa kipengele cha kwanza kutoka kwenye safu ya data na ku
 
 #### --text--
 
-Njia ya `concat()` hufanya nini?
+What does the `concat()` method do?
 
 #### --distractors--
 
-Inajiunga vipengele vya safu ya data kuwa mfuatano wa herufi.
+Joins array elements into a string.
 
 ---
 
-Inaongeza kipengele mwanzoni mwa safu ya data.
+Adds an element to the beginning of an array.
 
 ---
 
-Inaondoa kipengele kutoka kwenye safu ya data.
+Removes an element from the array.
 
 #### --answer--
 
-Inunganisha safu mbili za data kuwa safu mpya.
+Merges two arrays into a new array.
 
 ### --question--
 
 #### --text--
 
-Matokeo ya msimbo huu yatakuwa nini?
+What will be the output of this code?
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -330,29 +330,29 @@ console.log(fruits);
 
 #### --text--
 
-Njia ya `includes()` hufanya nini?
+What does the `includes()` method do?
 
 #### --distractors--
 
-Inatumika kugawanya mfuatano wa herufi kuwa safu ya sehemu ndogo ndogo.
+It is used to divide a string into an array of substrings.
 
 ---
 
-Inatumika kuunganisha vipengele vyote vya safu ya data kuwa mfuatano wa herufi mmoja.
+It is used to concatenate all of the elements of an array into a single string.
 
 ---
 
-Inatumika kuongeza au kuondoa vipengele kutoka sehemu yoyote katika safu ya data.
+It is used to add or remove elements from any position in an array.
 
 #### --answer--
 
-Inatumika kuangalia kama safu ya data ina thamani fulani.
+It is used to check if an array contains a specific value.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani kati ya zifuatazo hutumika kugeuza safu ya data mahali pake?
+Which of the following methods is used to reverse an array in place?
 
 #### --distractors--
 
@@ -374,51 +374,51 @@ Ni njia gani kati ya zifuatazo hutumika kugeuza safu ya data mahali pake?
 
 #### --text--
 
-Safu ya data ya vipimo viwili ni nini?
+What is a two dimensional array?
 
 #### --distractors--
 
-Safu ya data inayojumuisha tu vitu vya aina ya object literals.
+An array that only contains object literals.
 
 ---
 
-Safu ya data yenye urefu wa kudumu.
+An array of fixed length.
 
 ---
 
-Safu ya data ya nambari za desimali.
+An array of floating point numbers.
 
 #### --answer--
 
-Safu ya data ya safu za data.
+An array of arrays.
 
 ### --question--
 
 #### --text--
 
-Ni kweli gani kuhusu njia ya `indexOf()` katika safu za data?
+Which of the following is true about the `indexOf()` method in arrays?
 
 #### --distractors--
 
-Daima hurejesha tukio la mwisho la kipengele.
+It always returns the last occurrence of the element.
 
 ---
 
-Hutupa kosa ikiwa kipengele hakipatikani.
+It throws an error if the element is not found.
 
 ---
 
-Inahitaji safu ya data iwe imepangwa.
+It requires the array to be sorted.
 
 #### --answer--
 
-Hurejesha `-1` ikiwa kipengele hakipatikani.
+It returns `-1` if the element is not found.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani kati ya zifuatazo SI njia ya safu ya data?
+Which of the following is NOT an array method?
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Ni njia gani kati ya zifuatazo SI njia ya safu ya data?
 
 #### --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+What will be the output for the following code?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -467,7 +467,8 @@ console.log(arr.join(""));
 
 #### --text--
 
-Matokeo ya kutumia njia ya `shift()` kwenye safu tupu yatakuwa yapi?
+What will be the result of using the `shift()` method on an empty array?
+
 
 #### --distractors--
 
@@ -489,7 +490,7 @@ Matokeo ya kutumia njia ya `shift()` kwenye safu tupu yatakuwa yapi?
 
 #### --text--
 
-Njia gani itarudisha safu mpya bila kubadilisha safu ya awali?
+Which method will return a new array without changing the original array?
 
 #### --distractors--
 

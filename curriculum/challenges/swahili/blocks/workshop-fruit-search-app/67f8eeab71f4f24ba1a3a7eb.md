@@ -1,17 +1,17 @@
 ---
 id: 67f8eeab71f4f24ba1a3a7eb
-title: Hatua 11
+title: Korak 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Baada ya fomu, ongeza kipengele cha `div` chenye `id` ya `results` itakayowonyesha matokeo ya utafutaji.
+Nakon forme, dodajte `div` element sa `id` od `results` koji će prikazati rezultate pretrage.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `div` chenye `id` ya `results` baada ya fomu.
+You should have a `div` element with the `id` of `results` after the form.
 
 ```js
 const searchContainer = document.getElementById("search-container");

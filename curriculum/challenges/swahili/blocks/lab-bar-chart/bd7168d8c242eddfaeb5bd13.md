@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: Jenga chati ya mstari
+title: Izgradite bar grafikon
 challengeType: 25
 dashedName: build-a-bar-chart
 demoType: onClick
@@ -8,27 +8,27 @@ demoType: onClick
 
 # --description--
 
-Katika mradi huu utatumia data kutoka `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` kujenga chati ya mstari.
+U ovom projektu ćete koristiti podatke iz `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` za izgradnju bar grafikona.
 
-Vipimo vinahitaji mhimili kuundwa kwa kutumia sifa ya mhimili ya D3, ambayo huunda alama za kupigia moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika ili kupitisha vipimo vya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vipengele vilivyo kwenye chati.
+Testovi zahtevaju da se ose generišu korišćenjem D3 `axis` svojstva, koje automatski generiše oznake duž ose. Ove oznake su neophodne za prolazak D3 testova jer se njihove pozicije koriste za određivanje poravnanja grafikovane elemenata.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Ispunite priče korisnika ispod i učinite da svi testovi prođu kako biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Chati yako inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `g` mhimili wa x chenye `id="x-axis"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `g` mhimili wa y chenye `id="y-axis"` inayolingana.
-1. Mhimili yote miwili inapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `rect` kwa kila nukta ya data chenye `class="bar"` inayonyesha data.
-1. Kila `.bar` inapaswa kuwa na sifa za `data-date` na `data-gdp` zenye thamani za `date` na `GDP`.
-1. Sifa za `.bar` za vipengele vya `data-date` zinapaswa kuendana na mpangilio wa data iliyotolewa.
-1. Sifa za `.bar` za vipengele vya `data-gdp` zinapaswa kuendana na mpangilio wa data iliyotolewa.
-1. Kila urefu wa kipengele cha `.bar` unapaswa kuwakilisha kwa usahihi `GDP` inayolingana ya data.
-1. Sifa ya `data-date` na kipengele chake cha `.bar` vinapaswa kuendana na thamani inayolingana kwenye mhimili wa x.
-1. Sifa ya `data-gdp` na kipengele chake cha `.bar` vinapaswa kuendana na thamani inayolingana kwenye mhimili wa y.
-1. Unapaswa kuweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
-1. Kidokezo chako cha muda kinapaswa kuwa na sifa ya `data-date` inayolingana na `data-date` ya eneo linalofanya kazi.
+1. Vaš grafikon treba da ima naslov sa odgovarajućim `id="title"`.
+1. Vaš grafikon treba da ima element x-ose sa odgovarajućim `id="x-axis"`.
+1. Vaš grafikon treba da ima element y-ose sa odgovarajućim `id="y-axis"`.
+1. Obje ose bi trebalo da sadrže više oznaka (tick labels), svaka sa odgovarajućim `class="tick"`.
+1. Vaš grafikon treba da ima element za svaki tačka podataka sa odgovarajućim `class="bar"` koji prikazuje podatke.
+1. Svaki `.bar` bi trebalo da ima atribute `data-date` i `data-gdp` koji sadrže vrednosti `date` i `GDP`.
+1. Atributi elemenata `.bar` treba da odgovaraju redosledu dostavljenih podataka.
+1. Atributi elemenata `.bar` treba da odgovaraju redosledu dostavljenih podataka.
+1. Visina svakog elementa `.bar` bi trebalo tačno da predstavlja odgovarajući `GDP` podatka.
+1. Atribut `data-date` i njegov odgovarajući element bi trebalo da se poravnaju sa odgovarajućom vrednošću na x-osi.
+1. Atribut `data-gdp` i njegov odgovarajući element bi trebalo da se poravnaju sa odgovarajućom vrednošću na y-osi.
+1. Trebalo bi da možete preći mišem preko područja i videti alatku za uokviravanje (tooltip) sa odgovarajućim `id="tooltip"` koja prikazuje više informacija o tom području.
+1. Vaša alatka za uokviravanje treba da ima atribut `data-date`, koji odgovara `data-date` aktivnog područja.
 
 # --before-all--
 
@@ -1401,43 +1401,43 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-Chati inapaswa kuwa na kipengele chenye `id` ya `title` ili kuhusisha kichwa.
+The chart should have an element with the `id` of `title` to contain the title.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-Chati inapaswa kuwa na kipengele cha `g` mhimili wa x chenye id inayolingana ya `x-axis`.
+The chart should have a `g` element x-axis with a corresponding id `x-axis`.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-Chati inapaswa kuwa na kipengele cha `g` mhimili wa y chenye id inayolingana ya `y-axis`.
+The chart should have a `g` element y-axis with a corresponding id `y-axis`.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))
 ```
 
-Mhimili wa x unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+The x axis should contain multiple tick labels, each with the corresponding `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-Mhimili wa y unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+The y axis should contain multiple tick labels, each with the corresponding `class="tick"`.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Chati yako inapaswa kuwa na kipengele cha `rect` kwa kila nukta ya data chenye `class="bar"` kinachoonyesha data.
+Your chart should have a `rect` element for each data point with a corresponding `class="bar"` displaying the data.
 
 ```js
 assert.lengthOf(document.querySelectorAll('rect.bar'), GDPDataJson.data.length);
 ```
 
-Kila mstari unapaswa kuwa na sifa za `data-date` na `data-gdp` zenye thamani za tarehe na GDP.
+Each bar should have the attributes `data-date` and `data-gdp` containing date and GDP values.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1449,7 +1449,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-Sifa za `data-date` za vipengele vya mstari zinapaswa kuendana na mpangilio wa data iliyotolewa.
+The bar elements' `data-date` attributes should match the order of the provided data.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1464,7 +1464,7 @@ const currentBarDate = bar.getAttribute('data-date');
 
 ```
 
-Sifa za `data-gdp` za vipengele vya mstari zinapaswa kuendana na mpangilio wa data iliyotolewa.
+The bar elements' `data-gdp` attributes should match the order of the provided data.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1478,7 +1478,7 @@ bars.forEach(function (bar, i) {
 });
 ```
 
-Kila urefu wa kipengele cha mstari unapaswa kuwakilisha kwa usahihi GDP inayolingana ya data.
+Each bar element's height should accurately represent the data's corresponding GDP
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1501,7 +1501,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-Sifa ya `data-date` na kipengele chake cha mstari vinapaswa kuendana na thamani inayolingana kwenye mhimili wa x. Unaweza kutumia `d3.scaleTime()` kuunda kipimo cha wakati kwa mhimili wa x.
+The `data-date` attribute and its corresponding bar element should align with the corresponding value on the x-axis. You can use `d3.scaleTime()` to create a time scale for the x-axis.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -1531,7 +1531,7 @@ assert.isTrue(
 );
 ```
 
-Sifa ya `data-gdp` na kipengele chake cha mstari vinapaswa kuendana na thamani inayolingana kwenye mhimili wa y. Unaweza kutumia `d3.scaleLinear()` kuunda kipimo cha mstari kwa mhimili wa y.
+The `data-gdp` attribute and its corresponding bar element should align with the corresponding value on the y-axis. You can use `d3.scaleLinear()` to create a linear scale for the y-axis.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -1558,7 +1558,7 @@ assert.isTrue(
 );
 ```
 
-Unapobofya juu ya eneo, chati yako ya mstari inapaswa kuwa na kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+When hovering over an area your bar chart should have a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
 
 ```js
 const areas = document.querySelectorAll('.bar');
@@ -1604,7 +1604,7 @@ assert.isTrue(
 );
 ```
 
-Kidokezo cha muda kinapaswa kuwa na sifa ya `data-date` inayolingana na `data-date` ya eneo linalofanya kazi.
+The tooltip should have a `data-date` attribute that corresponds to the `data-date` of the active area.
 
 ```js
 const areas = document.querySelectorAll('.bar');

@@ -1,6 +1,6 @@
 ---
 id: 699e85718f18cf77dfce5c26
-title: Misingi ya mlinganyo wa parametric
+title: Parametric Equations
 challengeType: 11
 videoId: VP5KJr2giwI
 dashedName: parametric-equations
@@ -8,30 +8,32 @@ dashedName: parametric-equations
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu misingi ya mlinganyo wa parametric.
+In this video, you will learn about parametric equations.
 
 # --questions--
 
 ## --text--
 
-Mlinganyo wa Cartesian kwa mviringo ni upi?
+What is a cartesian equation for a curve? 
 
 ## --answers--
 
-Mlinganyo unaotumia r na θ kuelezea mviringo.
+An equation in terms of r and θ that describes a curve.
 
 ---
 
-Mlinganyo unaotumia x na y kuelezea mviringo.
+An equation in terms of x and y that describes a curve.
 
 ---
 
-Mlinganyo unaotoa mwelekeo wa mviringo kwa kila sehemu tu.
+An equation that only gives the slope of a curve at each point.
 
 ---
 
-Mlinganyo unaotumia umbali kutoka sehemu iliyowekwa tu.
+An equation in terms of distance from a fixed point only.
 
 ## --video-solution--
 
 2
+
+

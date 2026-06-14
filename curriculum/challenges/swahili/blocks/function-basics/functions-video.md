@@ -1,6 +1,6 @@
 ---
 id: 699dfa14138be64fa3131389
-title: Kitendakazi
+title: Functions
 challengeType: 11
 videoId: qyuFN2AKCBw
 dashedName: functions
@@ -8,29 +8,29 @@ dashedName: functions
 
 # --description--
 
-Mwalimu Dr. Linda Green, mhadhiri katika Chuo Kikuu cha North Carolina huko Chapel Hill, atakufundisha misingi ya vitendakazi.
+Instructor Dr. Linda Green, a lecturer at the University of North Carolina at Chapel Hill, will teach you the basics of functions.
 
 # --questions--
 
 ## --text--
 
-Nini ni uwanja wa kitendakazi?
+What is the domain of a function?
 
 ## --answers--
 
-Thamani zote zinazowezekana za a.
+All possible a-values.
 
 ---
 
-Thamani zote zinazowezekana za y.
+All possible y-values.
 
 ---
 
-Thamani zote zinazowezekana za x.
+All possible x-values.
 
 ---
 
-Thamani zote zinazowezekana za z.
+All possible z-values.
 
 ## --video-solution--
 

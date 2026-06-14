@@ -1,6 +1,6 @@
 ---
 id: 699e0359138be64fa3131390
-title: Kitendakazi cha kinyume
+title: Inverse Functions
 challengeType: 11
 videoId: f9ph7m0zgD0
 dashedName: inverse-functions
@@ -8,29 +8,29 @@ dashedName: inverse-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu vitendakazi vya kinyume.
+In this video, you will learn about inverse functions.
 
 # --questions--
 
 ## --text--
 
-Je, vitendakazi vyote vina vitendakazi vya kinyume?
+Do all functions have inverse functions?
 
 ## --answers--
 
-Hapana
+No
 
 ---
 
-Ndiyo
+Yes
 
 ---
 
-Ni kwa vitendakazi vyenye uwanja wa thamani wa kikomo tu.
+Only for functions with a finite domain.
 
 ---
 
-Ni kwa vitendakazi vinavyoongezeka au kupungua kila mahali tu.
+Only for functions that are increasing or decreasing everywhere.
 
 ## --video-solution--
 

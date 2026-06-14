@@ -1,6 +1,6 @@
 ---
 id: 698dd3547932b3cc4b19c92d
-title: Misingi ya safu ya data
+title: Array Basics
 challengeType: 11
 videoId: G_kHMzPOwG8
 dashedName: array-basics
@@ -8,29 +8,29 @@ dashedName: array-basics
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu safu za data.
+In this video, you will learn about arrays.
 
 # --questions--
 
 ## --text--
 
-Safu ya data ni nini?
+What is an array?
 
 ## --answers--
 
-Mkusanyiko wa data zisizohusiana zilizohifadhiwa kwa mpangilio usiofuata katika kumbukumbu.
+A collection of unrelated data stored randomly in memory.
 
 ---
 
-Kitendakazi kinachohifadhi nambari kwa muda mfupi.
+A function that stores numbers temporarily.
 
 ---
 
-Mkusanyiko uliopangwa wa thamani ambapo kila kipengele kinaweza kurejea kwa kutumia kielezo.
+An ordered collection of values where each element can be referenced by an index.
 
 ---
 
-Aina ya mzunguko inayotumika kurudia juu ya nambari.
+A type of loop used to iterate over numbers.
 
 ## --video-solution--
 

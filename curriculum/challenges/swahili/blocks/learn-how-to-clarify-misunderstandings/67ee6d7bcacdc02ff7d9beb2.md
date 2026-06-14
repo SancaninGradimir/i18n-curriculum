@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Zoezi la 69
+title: Task 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili hutumika kuzungumzia uwepo wa kitu au kusema kwamba kitu kipo au kinaendelea kutokea. Ni kifupisho cha `there is`.
+This word is used to talk about the existence of something or to say that something is present or happening. It's the contraction of `there is`.
 
 ---
 
@@ -32,7 +32,7 @@ Neno hili hutumika kuzungumzia uwepo wa kitu au kusema kwamba kitu kipo au kinae
 
 ### --feedback--
 
-Neno hili linahusu tatizo au ugumu unaohitaji kutatuliwa au kurekebishwa.
+This word refers to an issue or difficulty that needs to be solved or fixed.
 
 ---
 
@@ -40,7 +40,7 @@ Neno hili linahusu tatizo au ugumu unaohitaji kutatuliwa au kurekebishwa.
 
 ### --feedback--
 
-Kitenzi hiki kinaonyesha uhusiano au muunganiko kati ya vitu viwili.
+This preposition shows the relationship or connection between two things.
 
 ---
 
@@ -48,17 +48,17 @@ Kitenzi hiki kinaonyesha uhusiano au muunganiko kati ya vitu viwili.
 
 ### --feedback--
 
-Msemo huu wa maneno mawili unahusu jinsi programu au tovuti zinavyotenda kwa matendo kama kubofya au kubonyeza funguo, yanayofanywa na mtumizi. Neno la pili linaishia na `-ing`.
+This two-word phrase refers to the way software or websites respond to actions, like clicks or keystrokes, performed by the user. The second word ends with `-ing`.
 
 # --explanation--
 
-`There's a problem with` hutumika kuelezea kwamba kitu hakifanyi kazi ipasavyo. Inamaanisha kuna tatizo au ugumu unaohusiana na jambo fulani. Kwa mfano:
+`There's a problem with` is used to describe that something is not working correctly. It means there is an issue or difficulty related to a specific thing. For example:
 
-`There's a problem with the network.` – Hii inamaanisha mtandao haufanyi kazi ipasavyo.
+`There's a problem with the network.` – This means the network is not functioning properly.
 
-`Event handling` inahusu jinsi programu au tovuti zinavyosimamia matendo ya mtumizi kama kubofya, kubonyeza funguo za kibodi, au kusogeza panya. Kwa mfano:
+`Event handling` refers to how a program or website manages user actions like clicks, keyboard presses, or mouse movements. For example:
 
-`There's an issue with event handling.` - Hii inamaanisha programu haijibu ipasavyo matendo ya mtumizi.
+`There's an issue with event handling.` - This mean the software isn't responding properly to user actions.
 
 # --scene--
 

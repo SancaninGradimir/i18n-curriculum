@@ -1,32 +1,32 @@
 ---
 id: 60f85a62fb30c80bcea0cedb
-title: Hatua 20
+title: Korak 20
 challengeType: 0
 dashedName: step-20
 ---
 
 # --description--
 
-Watumiaji wataweza kuchagua kama akaunti yao ni kwa madhumuni ya `Personal` au `Business`.
+Korisnici će moći da izaberu da li je njihov nalog namenjen za svrhe `Personal` ili `Business`.
 
-Ili kufanya hivyo, ndani ya kila mojawapo ya vipengele viwili vya kwanza vya `label`, ongeza kipengele kimoja cha `input` chenye `type="radio"`.
+Da biste to uradili, u svaki od prvih dva `label` elementa, dodajte jedan `input` element sa `type="radio"`.
 
 # --hints--
 
-Unapaswa kuongeza vipengele viwili vya `input`.
+You should add two `input` elements.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input'), 2);
 ```
 
-Unapaswa kuongeza kipengele kimoja cha `input` kwa kila mojawapo ya vipengele viwili vya kwanza vya `label`.
+You should add one `input` to each of the first two `label` elements.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-Unapaswa kuwapa vipengele vyote vya `input` `type` ya `radio`.
+You should give both `input` elements a `type` of `radio`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]'), 2);

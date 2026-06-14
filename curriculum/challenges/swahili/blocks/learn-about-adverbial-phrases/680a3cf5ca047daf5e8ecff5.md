@@ -1,6 +1,6 @@
 ---
 id: 680a3cf5ca047daf5e8ecff5
-title: Zoezi la 66
+title: Task 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -24,15 +24,15 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii hutumika kuonyesha kuwa jambo fulani hutokea mapema zaidi kuliko lingine.
+This is used to show that something happens earlier in time than something else.
 
 # --explanation--
 
-`Before` hutumika kuonyesha kuwa kitendo kimoja hutokea mapema kuliko kingine. Kwa mfano:
+`Before` is used to show that one action happens earlier than another. For example:
 
-- `Please save your work before you close the program.` – Hii ina maana kuwa kuhifadhi kunapaswa kutokea mapema kabla ya kufunga programu.
+- `Please save your work before you close the program.` – This means saving should happen earlier than closing the program.
 
-- `He always checks his code carefully before submitting it.` – Hii ina maana kuwa ukaguzi hufanyika kwanza, kabla ya kitendo cha kuwasilisha.
+- `He always checks his code carefully before submitting it.` – This means checking happens first, before the action of submitting.
 
 # --scene--
 

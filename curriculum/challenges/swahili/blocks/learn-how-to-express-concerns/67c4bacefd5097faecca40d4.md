@@ -1,6 +1,6 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Zoezi la 22
+title: Task 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Bob anataka kujua nini?  
+What does Bob want to know?  
 
 ## --answers--
 
-Je, wanapaswa kufuta mradi?  
+If they should cancel the project.  
 
 ### --feedback--
 
-Bob haulizi kuhusu kufuta mradi.  
+Bob is not asking about canceling the project.  
 
 ---
 
-Je, kufanya kazi masaa machache kutakuwa bora?  
+If working fewer hours would be better.  
 
 ### --feedback--
 
-Bob anapendekeza kufanya kazi masaa zaidi, si machache.  
+Bob is suggesting working more hours, not fewer.  
 
 ---
 
-Je, timu tayari imetatua tatizo?  
+If the team has already solved the issue.  
 
 ### --feedback--
 
-Bob anauliza kama pendekezo lake litausaidia, si kama tatizo tayari limetatuliwa.  
+Bob is asking if his suggestion will help, not if the issue is already solved.  
 
 ---
 
-Je, kufanya kazi masaa ya ziada kutaboresha hali?  
+If working extra hours will improve the situation.  
 
 ## --video-solution--
 
@@ -52,9 +52,9 @@ Je, kufanya kazi masaa ya ziada kutaboresha hali?
 
 # --explanation--
 
-Kutumia maneno hasi katika maswali yenye vitenzi vya msaada au modal (kama `wouldn't`, `isn't`, `doesn't`), ambavyo vinahitaji majibu ya moja kwa moja ya `yes`/`no`, inaonyesha kwamba msemaji anatarajia jibu liwe chanya — Bob anadhani, katika kesi hii, kwamba kufanya kazi masaa ya ziada kutasaidia. Mfano mwingine:
+Using negatives in questions with auxiliary or modal verbs (such as `wouldn't`, `isn't`, `doesn't`), which require direct `yes`/`no` answers, suggests that the speaker expects the answer to be positive — Bob assumes, in this case, that working extra hours will help. Another example:
 
-`Doesn't this plan seem like a good idea?` - Msemaji anatarajia msikilizaji anakubaliana kwamba mpango ni mzuri.
+`Doesn't this plan seem like a good idea?` - The speaker expects the listener to agree that the plan is good.
 
 # --scene--
 

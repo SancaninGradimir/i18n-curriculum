@@ -1,45 +1,45 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Hatua 22
+title: Step 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Tumia njia ya `.forEach()` kupita kwenye safu ya data ya `items`. Pitia kitendakazi cha mwitiko tupu kinachochukua kigezo kimoja `dessert`.
+Use the `.forEach()` method to loop through the `items` array. Pass an empty callback function that takes a single parameter `dessert`.
 
 # --hints--
 
-Unapaswa kutumia njia ya `.forEach()` kwenye safu ya data yako ya `items`.
+You should use the `.forEach()` method on your `items` array.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Kumbuka kutumia neno kuu la `this` kupata upatikanaji wa safu ya data ya `items`.
+Remember to use the `this` keyword to access the `items` array.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-Unapaswa kupitisha kitendakazi cha mwitiko kwa njia ya `.forEach()`.
+You should pass a callback function to the `.forEach()` method.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Kitendakazi chako cha mwitiko kinapaswa kuchukua kigezo kimoja.
+Your callback function should take a single parameter.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Kitendakazi chako cha mwitiko kinapaswa kuwa tupu.
+Your callback function should be empty.
 
 ```js
 const cart = new ShoppingCart();

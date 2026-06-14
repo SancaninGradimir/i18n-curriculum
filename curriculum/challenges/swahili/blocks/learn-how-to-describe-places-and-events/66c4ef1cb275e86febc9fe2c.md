@@ -1,6 +1,6 @@
 ---
 id: 66c4ef1cb275e86febc9fe2c
-title: Zoezi la 113
+title: Task 113
 challengeType: 22
 dashedName: task-113
 lang: en-US
@@ -14,7 +14,7 @@ Sarah: It should, but it's not displaying because the live server extension migh
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Listen to the audio and complete the sentence below.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Kitendo cha kuonyesha au kuonyesha kitu. Neno hili linaishia `-ing`.
+The action of showing or rendering something. This word ends in `-ing`.
 
 ---
 
@@ -36,15 +36,15 @@ Kitendo cha kuonyesha au kuonyesha kitu. Neno hili linaishia `-ing`.
 
 ### --feedback--
 
-Inaonyesha kuwa ugani umewezeshwa na unafanya kazi. Neno hili linaishia `-ing`.
+Indicates the extension is active and functioning. This word ends in `-ing`.
 
 # --explanation--
 
-Gerundi ni aina ya kitenzi inayomalizika kwa `-ing` na hufanya kazi kama nomino. Katika sentensi hii, `displaying` na `running` ni gerundi zinazobainisha vitendo vinavyoendelea. Kwa mfano:
+A gerund is a verb form ending in `-ing` that functions as a noun. In this sentence, `displaying` and `running` are gerunds that describe ongoing actions. For example:
 
-- `Updating the software is essential.` - Hapa, `Updating` ni gerundi inayobainisha kitendo.
+- `Updating the software is essential.` - Here, `Updating` is a gerund describing an action.
 
-Katika sentensi ya Sarah, `displaying` na `running` zinaelezea vitendo vinavyohusiana na ugani wa seva hai na jinsi unavyofanya kazi.
+In Sarah's sentence, `displaying` and `running` describe actions related to the live server extension and how it functions.
 
 # --scene--
 

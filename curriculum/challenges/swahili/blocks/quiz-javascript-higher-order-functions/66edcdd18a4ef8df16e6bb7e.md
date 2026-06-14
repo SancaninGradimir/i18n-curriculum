@@ -1,13 +1,13 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: Jaribio fupi la JavaScript ya kitendakazi ya daraja la juu
+title: JavaScript Higher Order Functions Quiz
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Ni taarifa gani kati ya zifuatazo kuhusu kitendakazi za daraja la juu za JavaScript SI za kweli?
+Which of the following statements about JavaScript higher-order functions is NOT true?
 
 #### --distractors--
 
-Kitendakazi za daraja la juu zinaweza kuongeza sana usomaji na utunzaji wa msimbo kwa kuwezesha mbinu za programu utendaji.
+Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
 
 ---
 
-Kitendakazi za daraja la juu kama map, filter, na reduce ni zana zenye nguvu za usimamizi wa safu ya data, lakini si za kipekee kwa programu utendaji.
+Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
 
 ---
 
-Kitendakazi za daraja la juu zinaweza kuleta ugumu katika kuelewa msimbo, lakini pia zinaweza kusababisha suluhisho zenye dhihirisho na ufupi zaidi.
+Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
 
 #### --answer--
 
-Vitendakazi vyote katika JavaScript, ikiwa ni pamoja na vile ambavyo havichukui au kurudisha vitendakazi vingine, vinaweza kuainishwa kama vitendakazi vya daraja la juu.
+All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
 
 ### --question--
 
 #### --text--
 
-Kitendakazi cha kiwanda ni nini katika muktadha wa vitendakazi vya daraja la juu?
+What is a factory function in the context of higher order functions?
 
 #### --distractors--
 
-Kitendakazi kinachotengeneza vigezo vipya.
+A function that creates new variables.
 
 ---
 
-Kitendakazi kinachofanya kazi tu na mfuatano wa herufi.
+A function that only works with strings.
 
 ---
 
-Kitendakazi kinachotengeneza maoni ya msimbo moja kwa moja.
+A function that automatically generates code comments.
 
 #### --answer--
 
-Kitendakazi kinachorudisha kitendakazi kipya kulingana na vigezo maalum
+A function that returns a new function based on specific parameters
 
 ### --question--
 
 #### --text--
 
-Baada ya utekelezaji wa msimbo, thamani ya `forEachRes` na `mapRes` itakuwa nini?
+After code execution, what will be the value of `forEachRes` and `mapRes`?
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -76,25 +76,25 @@ const mapRes = numbers.map(num => {
 
 #### --distractors--
 
-`forEachRes` ni `undefined` na `mapRes` ni `[1,2,3,4,5]`
+`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` ni `0` na `mapRes` ni `[1,2,3,4,5]`
+`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` ni `5` na `mapRes` ni `[1,2,3,4,5]`
+`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
 
 #### --answer--
 
-`forEachRes` ni `undefined` na `mapRes` ni `[6,7,8,9,10]`
+`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
 
 ### --question--
 
 #### --text--
 
-Matokeo ya msimbo huu ni yapi?
+What is the result of this code?
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,11 +102,11 @@ Matokeo ya msimbo huu ni yapi?
 
 #### --distractors--
 
-Vipengele visivyotegemezwa kwa safu ya data kupanga, hivyo hitilafu.
+Unsupported elements for an array to be sorted, hence error.
 
 ---
 
-Wito wa kurudisha haujatolewa, hivyo hitilafu.
+Callback not supplied, hence error.
 
 ---
 
@@ -124,95 +124,95 @@ Wito wa kurudisha haujatolewa, hivyo hitilafu.
 
 #### --text--
 
-Ni ipi kati ya zifuatazo inayoelezea kitendakazi cha mwitiko katika JavaScript?
+Which of the following describes a callback function in JavaScript?
 
 #### --distractors--
 
-Kitendakazi kinachoitwa mara moja baada ya tamko.
+A function that is called immediately upon declaration.
 
 ---
 
-Kitendakazi kinachoitwa kwa muktadha maalum.
+A function that is invoked with a specific context.
 
 ---
 
-Kitendakazi kinachorudisha kitendakazi kingine.
+A function that returns another function.
 
 #### --answer--
 
-Kitendakazi kinachopitishwa kama hoja kwa kitendakazi kingine, ili kitekekelezwe na mantiki ya kitendakazi hicho.
+A function passed as an argument to another function, to be executed by that function's logic.
 
 ### --question--
 
 #### --text--
 
-Matokeo ya kutumia `reduce()` kwenye safu ya data ni yapi?
+What is the result of using `reduce()` on an array?
 
 #### --distractors--
 
-Thamani ya kweli au siyo kweli inayoonyesha kama kuna vipengele vinavyokidhi sharti.
+A boolean indicating whether any elements meet a condition.
 
 ---
 
-Safu ya data yenye vipengele vyote vimepunguzwa kwa kitendakazi cha mwitiko kilichobainishwa.
+An array with all elements reduced by specified callback function.
 
 ---
 
-Safu ya thamani za kweli au siyo kweli.
+An array of booleans.
 
 #### --answer--
 
-Inatofautiana kulingana na thamani ya mwanzo ya mkusanyaji na kitendakazi cha mwitiko.
+It varies depending on the accumulator's initial value and the callback function.
 
 ### --question--
 
 #### --text--
 
-Njia ya `sort()` hufanya nini ikiwa hakuna kitendakazi cha kulinganisha kilichotolewa katika upangaji wa nambari?
+How does the `sort()` method behave if no compare function is provided in numerical sorting?
 
 #### --distractors--
 
-Inajaza nafasi tupu na `null`.
+It fills the empty slots with `null`.
 
 ---
 
-Inarudisha safu ya herufi maalum.
+It returns an array of special characters.
 
 ---
 
-Inapanga safu kwa mpangilio wa kinyume.
+It sorts the array in reverse order.
 
 #### --answer--
 
-Inapanga safu kama mfuatano wa herufi kulingana na vitengo vya msimbo wa UTF-16.
+It sorts the array as strings based on UTF-16 code units.
 
 ### --question--
 
 #### --text--
 
-Madhumuni ya njia ya `some()` katika JavaScript ni yapi?
+What is the purpose of the `some()` method in JavaScript?
 
 #### --distractors--
 
-Kutengeneza safu mpya yenye matokeo ya kitendakazi kilichotumika kwa kila kipengele.
+To create a new array with the results of a function applied to each element.
 
 ---
 
-Kupitia safu ya data bila kutoa matokeo.
+To iterate through an array without producing a result.
 
 ---
 
-Kupunguza safu ya data kuwa thamani moja kulingana na kitendakazi cha mwitiko.
+To reduce an array to a single value based on a callback function.
 
 #### --answer--
 
-Kuhakikisha kama kuna vipengele vyovyote katika safu vinavyopitisha jaribio lililobainishwa.
+To determine if any elements in an array pass a specified test.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni mfano halali wa uunganishaji wa mfululizo wa njia?
+Which of the following is a valid example of method chaining?
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-Matokeo ya msimbo ufuatao ni yapi?
+What is the output of the following code?
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -272,95 +272,95 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Ni faida gani ya uunganishaji wa mfululizo wa njia?
+Which of the following is a benefit of method chaining?
 
 #### --distractors--
 
-Huboresha utendaji kwa kupunguza muda wa utekelezaji wa vitendakazi.
+It inherently optimizes performance by reducing the execution time of functions.
 
 ---
 
-Hutoa kuondoa haja ya vigezo vya muda mfupi, lakini inaweza kuongeza matumizi ya kumbukumbu katika baadhi ya matukio.
+It eliminates the need for temporary variables, but may increase memory usage in some cases.
 
 ---
 
-Huruhusu usimamizi wa makosa na kurekebisha makosa kwa urahisi zaidi.
+It allows for error handling and debugging to be more straightforward.
 
 #### --answer--
 
-Hutoa sintaksia rahisi na msimbo unaosomeka kwa kuruhusu shughuli nyingi katika usemi mmoja.
+It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kupanga safu ya vitu kwa sifa maalum kwa kutumia njia ya `sort`?
+How can you sort an array of objects by a specific property using the `sort` method?
 
 #### --distractors--
 
-Njia ya `sort` haiwezi kupanga vitu.
+The `sort` method cannot sort objects.
 
 ---
 
-Tumia njia ya `reverse` baada ya kupanga.
+Use the `reverse` method after sorting.
 
 ---
 
-Badilisha vitu kuwa mfuatano wa herufi na upange.
+Convert the objects to strings and sort them.
 
 #### --answer--
 
-Tumia kitendakazi cha kulinganisha kinacholinganishwa thamani za sifa.
+Use a compare function that compares the property values.
 
 ### --question--
 
 #### --text--
 
-Katika uunganishaji wa mfululizo wa njia, ni tabia gani ya kawaida ya kuboresha uwazi na kurekebisha makosa?
+In method chaining, what is a common practice to enhance clarity and debugging?
 
 #### --distractors--
 
-Tumia njia chache katika mfululizo.
+Use fewer methods in the chain.
 
 ---
 
-Epuka kuunganisha njia zinazorudisha thamani za msingi tu.
+Avoid chaining methods that return only primitive values.
 
 ---
 
-Tumia njia zilizojengwa ndani pekee.
+Use only built-in methods.
 
 #### --answer--
 
-Gawanya mfululizo mrefu katika hatua nyingi.
+Break long chains into multiple steps.
 
 ### --question--
 
 #### --text--
 
-Ni hasara gani inayoweza kutokea kwa kutumia uunganishaji wa mfululizo wa njia kupita kiasi katika msimbo wako?
+What is a potential downside of using method chaining excessively in your code?
 
 #### --distractors--
 
-Hufanya msimbo uendeshwe polepole.
+It makes the code run slower.
 
 ---
 
-Huzuia matumizi ya maoni.
+It prevents the use of comments.
 
 ---
 
-Hufanya faili kuwa kubwa zaidi.
+It makes the file size larger.
 
 #### --answer--
 
-Inaweza kufanya msimbo kuwa mgumu zaidi kutafuta makosa.
+It can make the code harder to debug.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani utatumia kuhakikisha kama vipengele vyote katika safu ni mfuatano wa herufi?
+Which method would you use to determine if all elements in an array are strings?
 
 #### --distractors--
 
@@ -382,7 +382,7 @@ Ni njia gani utatumia kuhakikisha kama vipengele vyote katika safu ni mfuatano w
 
 #### --text--
 
-Thamani ya `originalArray` itakuwa nini baada ya msimbo ufuatao kutekelezwa?
+What will be the value of `originalArray` after the following code is run?
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -409,7 +409,7 @@ filteredArray[0].id = 4;
 
 #### --text--
 
-Thamani ya `shortWords` itakuwa nini baada ya msimbo ufuatao kutekelezwa?
+What will be the value of `shortWords` after the following code is run?
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -436,64 +436,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-Madhumuni ya kutoa thamani ya mwanzo kama hoja kwa njia ya `reduce()` ni yapi?
+What is the purpose of providing an initial value as an argument to the `reduce()` method?
 
 #### --distractors--
 
-Kuweka urefu wa safu ya data.
+To set the length of the array.
 
 ---
 
-Kudhibiti idadi ya marudio.
+To limit the number of iterations.
 
 ---
 
-Kubainisha aina ya thamani inayorudishwa na kitendakazi.
+To specify the return type of the function.
 
 #### --answer--
 
-Kufafanua thamani ya kuanzia kwa mkusanyaji.
+To define the starting value for the accumulator.
 
 ### --question--
 
 #### --text--
 
-Je, njia ya `map` inaweza kutumika kwa vitu ambavyo si safu ya data?
+Can the `map` method be used on objects that are not arrays?
 
 #### --distractors--
 
-Ndiyo, inaweza kutumika kwa kitu chochote.
+Yes, it can be used on any object.
 
 ---
 
-Ndiyo, lakini tu kwa vitu vyenye sifa za nambari.
+Yes, but only on objects with numeric properties.
 
 ---
 
-Inategemea toleo la JavaScript.
+It depends on the JavaScript version.
 
 #### --answer--
 
-Hapana, imeundwa mahsusi kwa safu ya data.
+No, it is specifically designed for arrays.
 
 ### --question--
 
 #### --text--
 
-Madhumuni kuu ya njia ya `map` katika JavaScript ni yapi?
+What is the primary purpose of the `map` method in JavaScript?
 
 #### --distractors--
 
-Kupanga safu na kurudisha safu mpya huku ikidumisha mpangilio wa awali.
+To sort an array and return a new array while maintaining the original order. 
 
 ---
 
-Kuchuja vipengele kutoka safu na kuondoa au kuongeza vipengele kulingana na sharti.
+To filter elements from an array and remove or add elements based on a condition.
 
 ---
 
-Kutafuta kipengele maalum katika safu na kurudisha kielezo chake pamoja na kipengele.
+To find a specific element in an array and return its index along with the element.
 
 #### --answer--
 
-Kutengeneza safu mpya yenye matokeo ya wito wa kitendakazi kilichotolewa kwa kila kipengele katika safu ya kuanzia.
+To create a new array containing the results of calling a provided function on each element in the starting array.

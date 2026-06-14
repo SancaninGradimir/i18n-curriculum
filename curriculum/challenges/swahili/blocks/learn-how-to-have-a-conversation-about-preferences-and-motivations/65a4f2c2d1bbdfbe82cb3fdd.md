@@ -1,6 +1,6 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Zoezi la 94
+title: Task 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
@@ -10,11 +10,11 @@ lang: en-US
 
 # --description--
 
-`gadget` ni chombo kidogo au kifaa, mara nyingi chenye werevu au kipya, kinachofanya kitendakazi fulani au kurahisisha jambo fulani.
+A `gadget` is a small tool or device, often clever or novel, that performs a specific function or makes something easier. 
 
-Katika teknolojia, vifaa vidogo vinaweza kujumuisha vitu kama simu za mkononi, saa za mkononi za kisasa, au kifaa chochote cha kielektroniki chenye ubunifu na kizuri.
+In tech, gadgets can include things like smartphones, smartwatches, or any cool, innovative electronic device. 
 
-Kwa mfano, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+For example, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Kwa mfano, `My new fitness tracker gadget helps me keep track of my steps and ex
 
 ### --feedback--
 
-Neno hili linamaanisha kitu kinachosababisha hisia au mwitikio. Hapa, linatumika kuelezea kile kinachomfurahisha Bob kuhusu teknolojia. Limeunganishwa kwa mtu wa tatu wingi.
+This word means something causes a feeling or a reaction. Here, it's used to talk about what excites Bob about tech. It's conjugated in the third person singular.
 
 ---
 
@@ -36,7 +36,7 @@ Neno hili linamaanisha kitu kinachosababisha hisia au mwitikio. Hapa, linatumika
 
 ### --feedback--
 
-Neno hili linatumika kuonyesha vitu maalum vinavyotajwa, katika kesi hii, vifaa vidogo. Ni wingi wa `that`.
+This word is used to point out specific things that are being talked about, in this case, the gadgets. Plural of `that`.
 
 ---
 
@@ -44,7 +44,7 @@ Neno hili linatumika kuonyesha vitu maalum vinavyotajwa, katika kesi hii, vifaa 
 
 ### --feedback--
 
-Neno hili linahusu vifaa vidogo vya kielektroniki au zana ambazo ni muhimu au za kuvutia. Mara nyingi hutumika kuzungumzia vitu vya teknolojia vinavyovutia. Lipo katika wingi.
+This word refers to small electronic devices or tools that are useful or interesting. It's often used to talk about cool tech items. It is in plural.
 
 # --scene--
 

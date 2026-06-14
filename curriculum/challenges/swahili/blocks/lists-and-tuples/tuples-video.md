@@ -1,6 +1,6 @@
 ---
 id: 5ed596ba3306cf2c1a94bb92
-title: Tuple
+title: Tuples
 challengeType: 11
 videoId: g6fwjiEFG-Y
 dashedName: tuples
@@ -8,13 +8,13 @@ dashedName: tuples
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu tuple katika Python na jinsi zinavyotofautiana na orodha.
+In this video, you will learn about tuples in Python and how they differ from lists.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuunda tuple?
+Which of the following is the correct way to create a tuple?
 
 ## --answers--
 

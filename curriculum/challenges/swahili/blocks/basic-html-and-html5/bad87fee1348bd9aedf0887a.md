@@ -1,6 +1,6 @@
 ---
 id: bad87fee1348bd9aedf0887a
-title: Kichwa cha sehemu na kipengele cha h2
+title: Headline with the h2 Element
 challengeType: 0
 videoUrl: 'https://scrimba.com/p/pVMPUv/cE8Gqf3'
 forumTopicId: 18196
@@ -9,44 +9,44 @@ dashedName: headline-with-the-h2-element
 
 # --description--
 
-Katika mafundisho yajayo machache, tutajenga programu ya picha za paka ya HTML5 hatua kwa hatua.
+Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
 
-Kipengele cha `h2` utakachoongeza katika hatua hii kitaongeza kichwa cha sehemu cha ngazi ya pili kwenye ukurasa wa mtandao.
+The `h2` element you will be adding in this step will add a level two heading to the web page.
 
-Kipengele hiki kinaambia kivinjari kuhusu muundo wa tovuti yako. Vipengele vya `h1` mara nyingi hutumika kwa vichwa vikuu, wakati vipengele vya `h2` kwa kawaida hutumika kwa vichwa vidogo. Pia kuna vipengele vya `h3`, `h4`, `h5` na `h6` kuonyesha ngazi tofauti za vichwa vidogo.
+This element tells the browser about the structure of your website. `h1` elements are often used for main headings, while `h2` elements are generally used for subheadings. There are also `h3`, `h4`, `h5` and `h6` elements to indicate different levels of subheadings.
 
 # --instructions--
 
-Ongeza lebo ya `h2` inayosema "CatPhotoApp" ili kuunda kipengele cha pili cha HTML chini ya kipengele chako cha `h1` cha "Hello World".
+Add an `h2` tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" `h1` element.
 
 # --hints--
 
-Unapaswa kuunda kipengele cha `h2`.
+You should create an `h2` element.
 
 ```js
 assert.lengthOf(document.querySelectorAll('h2'),1);
 ```
 
-Kipengele chako cha `h2` kinapaswa kuwa na lebo ya kufunga.
+Your `h2` element should have a closing tag.
 
 ```js
 assert.match(code,/<\/h2>/g);
 assert.strictEqual(code.match(/<\/h2>/g).length,code.match(/<h2>/g).length);
 ```
 
-Kipengele chako cha `h2` kinapaswa kuwa na maandishi `CatPhotoApp`.
+Your `h2` element should have the text `CatPhotoApp`.
 
 ```js
 assert.match(document.querySelector('h2').textContent,/cat(\s)?photo(\s)?app/gi);
 ```
 
-Kipengele chako cha `h1` kinapaswa kuwa na maandishi `Hello World`.
+Your `h1` element should have the text `Hello World`.
 
 ```js
 assert.match(document.querySelector('h1').textContent,/hello(\s)+world/gi);
 ```
 
-Kipengele chako cha `h1` kinapaswa kuwa kabla ya kipengele chako cha `h2`.
+Your `h1` element should be before your `h2` element.
 
 ```js
 assert.match(code,/<h1>\s*?.*?\s*?<\/h1>\s*<h2>\s*?.*?\s*?<\/h2>/gi);

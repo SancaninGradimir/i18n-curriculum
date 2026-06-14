@@ -1,6 +1,6 @@
 ---
 id: 657e1fd7b5ffaebc0ff4bd9f
-title: Zoezi la 26
+title: Task 26
 challengeType: 19
 dashedName: task-26
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Listen to the audio and answer the question below.
 
 # --questions--
 
 ## --text--
 
-Kwa nini Tom anamsifu Sophie?
+Why is Tom thanking Sophie?
 
 ## --answers--
 
-Kwa kumpa programu ya usimamizi wa muda.
+For giving him a time management app.
 
 ### --feedback--
 
-Tom anamsifu Sophie kwa vidokezo, si kwa kumpa programu.
+Tom is thanking Sophie for tips, not for giving him an app.
 
 ---
 
-Kwa sababu anapata vidokezo vya Sophie kuwa msaada.
+Because he finds Sophie's tips helpful.
 
 ---
 
-Kwa kumualika chakula cha mchana.
+For inviting him to lunch.
 
 ### --feedback--
 
-Anamshukuru kwa ushauri, si kwa mwaliko wa chakula cha mchana.
+He is thanking her for the advice, not for a lunch invitation.
 
 ---
 
-Kwa kumsaidia na mradi.
+For helping him with a project.
 
 ### --feedback--
 
-Shukrani za Tom zinahusiana na vidokezo kuhusu upangaji, si msaada wa mradi maalum.
+Tom's gratitude is related to the tips about organization, not specific project help.
 
 ## --video-solution--
 

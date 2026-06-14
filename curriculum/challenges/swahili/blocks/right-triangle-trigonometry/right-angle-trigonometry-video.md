@@ -1,6 +1,6 @@
 ---
 id: 699e5b998f18cf77dfce5c0d
-title: Trigonometri ya pembe ya haki
+title: Right Angle Trigonometry
 challengeType: 11
 videoId: j81PeMJaju0
 dashedName: right-angle-trigonometry
@@ -8,30 +8,32 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi za kawaida za trigonometri ikiwa ni pamoja na sine, cosine, na tangent na jinsi ya kuzipima kwa pembe za haki.
+In this video, you will learn about common trig functions including sine, cosine, and tangent and how to calculate them for right triangles.
 
 # --questions--
 
 ## --text--
 
-Sine ya theta kwa pembetatu ya haki ni nini?
+What is the sine of theta for a right triangle?
 
 ## --answers--
 
-Kando juu ya kinyume
+Adjacent over opposite
 
 ---
 
-Kinyume juu ya hypotenuse
+Opposite over hypotenuse
 
 ---
 
-Hypotenuse juu ya kinyume
+Hypotenuse over opposite
 
 ---
 
-Kando juu ya hypotenuse
+Adjacent over hypotenuse
 
 ## --video-solution--
 
 2
+
+

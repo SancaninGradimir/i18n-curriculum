@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: Jenga mchezo wa Tic Tac Toe
+title: Build a Tic Tac Toe Game
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
+**Objective:** Build an app that is functionally similar to this: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
-**Hadithi ya mtumiaji:** Naweza kucheza mchezo wa Tic Tac Toe na kompyuta.
+**User Story:** I can play a game of Tic Tac Toe with the computer.
 
-**Hadithi ya mtumiaji:** Mchezo wangu utaanzishwa upya mara tu utakapoisha ili niweze kucheza tena.
+**User Story:** My game will reset as soon as it's over so I can play again.
 
-**Hadithi ya mtumiaji:** Naweza kuchagua kama nataka kucheza kama X au O.
+**User Story:** I can choose whether I want to play as X or O.
 
-Ukipata kazi, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+When you are finished, include a link to your project on CodePen and click the "I've completed this challenge" button.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+You can get feedback on your project by sharing it on the <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forum</a>.
 
 # --solutions--
 

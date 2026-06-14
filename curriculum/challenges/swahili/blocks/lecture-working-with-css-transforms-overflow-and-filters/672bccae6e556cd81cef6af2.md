@@ -1,19 +1,19 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: "Je, Margin Collapsing ni Nini, na Inafanya Kazi Vipi?"
+title: Šta je kolapsiranje margina i kako funkcioniše?
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
 
 # --interactive--
 
-Margin collapsing ni dhana msingi katika CSS ambayo mara nyingi huwatatiza wanaoanza katika ukuzaji wa mtandao.
+Kolaps margina je fundamentalni koncept u CSS-u koji često zbunjuje početnike u razvoju veb sadržaja.
 
-Tabia hii hutokea wakati kingo za wima za vipengele vinavyopakana zinaposhirikiana, na kusababisha kando moja tu sawa na kubwa zaidi kati ya hizo mbili.
+Ovo ponašanje nastaje kada se vertikalne margine susednih elemenata preklapaju, što rezultira jednom maržom koja je jednaka većoj od dve.
 
-Kuelewa margin collapsing ni muhimu kwa udhibiti sahihi wa nafasi na mpangilio katika muundo wa mtandao. Hivyo, tuangalie jinsi margin collapsing inavyofanya kazi na kuchunguza baadhi ya hali za kawaida ambapo hutokea.
+Razumevanje kolapsiranja margina je važno za preciznu kontrolu nad razmakom i rasporedom u web dizajnu. Stoga, hajde da saznamo kako funkcioniše kolapsiranje margina i istražimo neke uobičajene scenarije gde se to dešava.
 
-Katika CSS, wakati kingo mbili za wima zinapokutana, zitagongana, hii inamaanisha badala ya kujumlishwa, kando kubwa ndilo linalotawala na kuamua nafasi kati ya vipengele. Tabia hii inahusu tu kingo za wima (juu na chini) na si za usawa (kushoto na kulia). Hapa kuna mfano wa kuelezea dhana hii:
+U CSS-u kada se dva vertikalna margina dodirnu međusobno, one će kolapsirati, što znači da umesto da se sabere, veća margina pobeđuje i određuje razmak između elemenata. Ovo ponašanje važi samo za vertikalne margine (gore i dole), a ne za horizontalne margine (levo i desno). Dakle, evo primera koji ilustruje ovaj koncept:
 
 :::interactive_editor
 
@@ -35,11 +35,11 @@ Katika CSS, wakati kingo mbili za wima zinapokutana, zitagongana, hii inamaanish
 
 :::
 
-Katika mfano huu, unaweza kutegemea nafasi jumla kati ya `.box1` na `.box2` iwe pikseli 50 (pikseli 20 pamoja na 30). Hata hivyo, kutokana na margin collapsing nafasi halisi itakuwa pikseli 30, ambayo ni kando kubwa zaidi kati ya hizo mbili.
+U ovom primeru, možda očekujete da je ukupni prostor između `.box1` i `.box2` od 50 piksela (20 piksela plus 30 piksela). Međutim, zbog kolapsiranja margina stvarni prostor će biti 30 piksela, što je veći od dve margine.
 
-Kama tulivyoona katika mfano uliopita, kingo za vipengele vinavyopakana zitagongana. Hii ni kesi rahisi kabisa ya margin collapsing. Tuchunguze zaidi hali ambapo margin collapsing inaweza kutokea.
+Kao što smo videli u prethodnom primeru, margine susednih elemenata braće će se kolapsirati. Ovo je najjednostavniji slučaj kolapsiranja margina. Istražićemo više slučajeva gde može doći do kolapsiranja margina.
 
-Kingo pia zinaweza kugongana kati ya kipengele mzazi na mtoto wake wa kwanza au wa mwisho. Ikiwa hakuna mpaka, nafasi ya ndani, maudhui ndani ya mstari, au utulivu wa kuwatenganisha kingo za mzazi na mtoto, zitagongana.
+Margine se mogu kolapsirati i između roditeljskog elementa i njegovog prvog ili poslednjeg deteta. Ako ne postoji ivica, padding, ugrađeni sadržaj ili razmak za razdvajanje margine roditelja od margine deteta, one će se kolapsirati.
 
 :::interactive_editor
 
@@ -62,9 +62,9 @@ Kingo pia zinaweza kugongana kati ya kipengele mzazi na mtoto wake wa kwanza au 
 
 :::
 
-Katika kesi hii, unaweza kutegemea mtoto awe na nafasi ya pikseli 70 kutoka juu (pikseli 40 pamoja na 30). Hata hivyo, kingo zinagongana na kando kubwa ya pikseli 40 ndilo linalotumika.
+U ovom slučaju, možda očekujete da je dete na visini od 70 piksela od vrha (40 piksela plus 30 piksela). Međutim, margine se kolabiraju i koristi se veća margina od 40 piksela.
 
-Kama kipengele hakina maudhui, nafasi ya ndani, au mpaka, kingo zake za juu na chini zinaweza kugongana na kuwa kando moja.
+Ako element nema sadržaj, padding ili granicu, njegove gornje i donje margine mogu se srušiti u jednu marginu.
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ Kama kipengele hakina maudhui, nafasi ya ndani, au mpaka, kingo zake za juu na c
 
 :::
 
-Katika mfano huu, kingo za juu na chini za `empty-block` zinagongana na kuwa kando moja ya pikseli 20, kubwa zaidi kati ya hizo mbili.
+U ovom primeru, gornje i donje margine za ``empty-block`` se kolapsiraju u jedan margina od 20 piksela, veći od ta dva.
 
-Hapa kuna mfano wa kuzuia mgongano kwa kutumia nafasi ya ndani:
+Evo primera sprečavanja kolapsa korišćenjem padding-a:
 
 :::interactive_editor
 
@@ -112,115 +112,99 @@ Hapa kuna mfano wa kuzuia mgongano kwa kutumia nafasi ya ndani:
 
 :::
 
-Katika kesi hii, nafasi ya ndani ya pikseli moja kwenye mzazi inazuia mgongano wa kingo na kusababisha nafasi jumla ya pikseli 71 kutoka juu ya mzazi hadi juu ya maudhui ya mtoto.
+U ovom slučaju, padding od jednog piksela na roditelju sprečava kolaps margine, što rezultira ukupnim prostorom od 71 piksela od vrha roditelja do vrha sadržaja deteta.
 
-Kuelewa margin collapsing ni muhimu kwa udhibiti sahihi wa mpangilio na nafasi katika CSS. Ingawa inaweza kusababisha matokeo yasiyotegemewa wakati mwingine, ni kipengele kilichoundwa kuleta nafasi nzuri na thabiti zaidi katika hati. Kwa kujua lini margin collapsing hutokea na jinsi ya kuizuia inapohitajika, unaweza kuunda mipangilio inayotarajiwa na rahisi kudumisha katika miundo yako ya mtandao.
-
+Razumevanje kolapsiranja margina važno je za preciznu kontrolu nad rasporedom i razmakom u CSS-u. Iako ponekad može dovesti do neočekivanih rezultata, to je funkcija dizajnirana da stvori estetski prijatniji i konzistentan razmak u dokumentima. Znanjem kada se kolapsiranje margina dešava i kako ga sprečiti kada je potrebno, možete kreirati predvidljivije i održivije rasporede u vašim web dizajnovima.
 # --questions--
 
 ## --text--
 
-Mgongano wa kingo hutokea katika mwelekeo gani?
-
+U kom smeru se dešava kolaps margina?
 ## --answers--
 
-Kingo za usawa tu.
-
+Samo horizontalne margine.
 ### --feedback--
 
-Fikiria ni kingo gani (juu, chini, kushoto, kulia) zinazoathiriwa na tabia hii.
+Razmislite o tome koje margine (gore, dole, levo, desno) su pogođene ovim ponašanjem.
+---
+
+Vertical margins only.
 
 ---
 
-Kingo za wima tu.
-
----
-
-Kingo za usawa na wima zote.
+Both horizontal and vertical margins.
 
 ### --feedback--
 
-Fikiria ni kingo gani (juu, chini, kushoto, kulia) zinazoathiriwa na tabia hii.
-
+Razmislite o tome koje margine (gore, dole, levo, desno) su pogođene ovim ponašanjem.
 ---
 
-Kingo za mwinuko.
+Diagonal margins.
 
 ### --feedback--
 
-Fikiria ni kingo gani (juu, chini, kushoto, kulia) zinazoathiriwa na tabia hii.
-
+Razmislite o tome koje margine (gore, dole, levo, desno) su pogođene ovim ponašanjem.
 ## --video-solution--
 
 2
 
 ## --text--
 
-Nini hutokea wakati vipengele viwili vinavyopakana vina thamani tofauti za kingo?
-
+Šta se dešava kada dva susedna elementa imaju različite vrednosti margina?
 ## --answers--
 
-Kingo hujumlishwa.
+Margine se sabiraju.
+### --feedback--
+
+Razmislite koji margina "pobedi" kada dođe do kolapsa.
+---
+
+The smaller margin is used.
 
 ### --feedback--
 
-Fikiria ni kando gani "inayoshinda" wakati mgongano unapotokea.
+Razmislite koji margina "pobedi" kada dođe do kolapsa.
+---
+
+The larger margin is used.
 
 ---
 
-Kando ndogo hutumika.
+The average of the two margins is used.
 
 ### --feedback--
 
-Fikiria ni kando gani "inayoshinda" wakati mgongano unapotokea.
-
----
-
-Kando kubwa hutumika.
-
----
-
-Kando ya wastani ya kingo zote mbili hutumika.
-
-### --feedback--
-
-Fikiria ni kando gani "inayoshinda" wakati mgongano unapotokea.
-
+Razmislite koji margina "pobedi" kada dođe do kolapsa.
 ## --video-solution--
 
 3
 
 ## --text--
 
-Ni ipi kati ya zifuatazo HAIZUZI kuzuia mgongano wa kingo kati ya mzazi na mtoto wake wa kwanza?
-
+Која од следећих НЕЋЕ спречити колапс марине између родитеља и његовог првог детета?
 ## --answers--
 
-Kuongeza `border` kwa mzazi.
+Dodavanje ``border`` roditelju.
+### --feedback--
+
+Razmislite o tome koja svojstva stvaraju razmak između margina roditelja i deteta.
+---
+
+Setting `padding-top: 1px;` on the parent.
 
 ### --feedback--
 
-Fikiria ni vigezo gani vinavyounda utengano kati ya kingo za mzazi na mtoto.
-
+Razmislite o tome koja svojstva stvaraju razmak između margina roditelja i deteta.
 ---
 
-Kuweka `padding-top: 1px;` kwa mzazi.
+Using `display: inline-block;` on the child.
 
 ### --feedback--
 
-Fikiria ni vigezo gani vinavyounda utengano kati ya kingo za mzazi na mtoto.
-
+Razmislite o tome koja svojstva stvaraju razmak između margina roditelja i deteta.
 ---
 
-Kutumia `display: inline-block;` kwa mtoto.
-
-### --feedback--
-
-Fikiria ni vigezo gani vinavyounda utengano kati ya kingo za mzazi na mtoto.
-
----
-
-Kuweka `margin-top: 0;` kwa mtoto.
+Setting `margin-top: 0;` on the child.
 
 ## --video-solution--
 

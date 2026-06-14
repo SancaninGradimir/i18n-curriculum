@@ -7,10 +7,10 @@ dashedName: challenge-50
 
 # --description--
 
-Ukitoa sentensi, rudisha neno refu zaidi katika sentensi hiyo.
+Given a sentence, return the longest word in the sentence.
 
-- Puuza alama za nukta (`.`) wakati wa kubaini urefu wa neno.
-- Ikiwa maneno mengi yana urefu sawa wa neno refu zaidi, rudisha neno la kwanza lililotokea.
+- Ignore periods (`.`) when determining word length.
+- If multiple words are ties for the longest, return the first one that occurs.
 
 # --hints--
 
