@@ -1,14 +1,12 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: JavaScript Strings Quiz
+title: JavaScript Stringovi Quiz
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,31 +14,23 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What is the return value for the `includes()` method?
-
+Koja je povratna vrednost za metodu `includes()`?
 #### --distractors--
-
-If the substring is found within the string, the method returns the string. Otherwise, it returns `undefined`.
-
----
-
-If the substring is found within the string, the method returns `true`. Otherwise, it returns an empty string.
+Ako se podstring pronađe unutar stringa, metoda vraća taj string. U suprotnom, vraća `undefined`.
 
 ---
 
-If the substring is found within the string, the method returns the string. Otherwise, it returns `null`.
+Ako se podstring pronađe unutar stringa, metoda vraća ``true``. U suprotnom, vraća prazan string.
 
+---
+
+Ako se podstring pronađe unutar stringa, metoda vraća taj string. Inače, vraća `null`.
 #### --answer--
-
-If the substring is found within the string, the method returns `true`. Otherwise, it returns `false`.
-
+Ukoliko se podstring pronađe unutar stringa, metoda vraća ``true``. Inače, vraća ``false``.
 ### --question--
 
 #### --text--
-
-Which option demonstrates string interpolation?
-
+Koja opcija demonstrira interpolaciju stringa?
 #### --distractors--
 
 `"Hello, " + user + "!"`
@@ -51,18 +41,13 @@ Which option demonstrates string interpolation?
 
 ---
 
-`` `Hello, {user}!` ``
-
+`` `Zdravo, {user}!` ``
 #### --answer--
-
-`` `Hello, ${user}!` ``
-
+`` `Zdravo, ${user}!` ``
 ### --question--
 
 #### --text--
-
-Which of the following options is the newline character?
-
+Koji od sledećih opcija predstavlja karakter znaka novog reda?
 #### --distractors--
 
 `\newline`
@@ -82,53 +67,39 @@ Which of the following options is the newline character?
 ### --question--
 
 #### --text--
-
-Which of the following statements is correct about strings?
-
+Koji od sledećih tvrdnji je tačan za stringove?
 #### --distractors--
-
-Strings are mutable and can be changed after they are created.
-
----
-
-Strings are non primitive data types.
+Stringovi su mutabilni i mogu se promeniti nakon kreiranja.
 
 ---
 
-Strings can only be created using single quotes.
+Stringovi su neprimitivni tipovi podataka.
 
+---
+
+Stringove se mogu kreirati samo korišćenjem jednolinečnih navodnika.
 #### --answer--
-
-Strings are immutable.
-
+Stringovi su nepromenljivi.
 ### --question--
 
 #### --text--
-
-What does ASCII stand for?
-
+Šta predstavlja ASCII?
 #### --distractors--
-
-American Standard Code for Internet Information
-
----
-
-Advanced Systematic Code for Internal Interchange
+Američki standardni kod za internet informacije
 
 ---
 
-Automatic Standard Code for Internal Information
+Napredni Sistematski Kod za Internu Razmenu
 
+---
+
+Automatski standardni kod za interne informacije
 #### --answer--
-
-American Standard Code for Information Interchange
-
+Kod američkog standarda za razmenu informacija
 ### --question--
 
 #### --text--
-
-Which of the following methods extracts a portion of a string and returns a new string?
-
+Koja od sledećih metoda ekstrahuje deo niza karaktera (string) i vraća novi niz karaktera?
 #### --distractors--
 
 `trim()`
@@ -148,31 +119,23 @@ Which of the following methods extracts a portion of a string and returns a new 
 ### --question--
 
 #### --text--
-
-What is the purpose of the `prompt()` method?
-
+Koja je svrha metode `prompt()`?
 #### --distractors--
-
-It displays a message in the console.
-
----
-
-It displays an alert box with a message.
+Prikazuje poruku u konzoli.
 
 ---
 
-It displays a confirmation box with a message.
+Prikazuje dijalog kutiju sa porukom.
 
+---
+
+Prikazuje prozor za potvrdu sa porukom.
 #### --answer--
-
-It displays a dialog box that waits for the user input.
-
+Prikazuje dijalog okvir koji čeka na unos korisnika.
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to access the third character of a string?
-
+Koji od sledećih je tačan način za pristup trećem karakteru niza?
 #### --distractors--
 
 ```js
@@ -204,9 +167,7 @@ developer[2];
 ### --question--
 
 #### --text--
-
-How can you obtain the ASCII value of the first character in the string `"hello"`?
-
+Kako možete dobiti ASCII vrednost prvog karaktera u stringu `"hello"`?
 #### --distractors--
 
 `"hello".charCode(0)`
@@ -226,9 +187,7 @@ How can you obtain the ASCII value of the first character in the string `"hello"
 ### --question--
 
 #### --text--
-
-Which method can you use to obtain the character corresponding to an ASCII value?
-
+Koja metoda se koristi za dobijanje karaktera koji odgovara ASCII vrednosti?
 #### --distractors--
 
 `toASCII()`
@@ -248,9 +207,7 @@ Which method can you use to obtain the character corresponding to an ASCII value
 ### --question--
 
 #### --text--
-
-Which of the following `indexOf` examples will log `-1` to the console?
-
+Koji od sledećih primera `indexOf` će logovati `-1` u konzolu?
 #### --distractors--
 
 ```js
@@ -282,9 +239,7 @@ console.log(organization.indexOf("c"));
 ### --question--
 
 #### --text--
-
-How can you check if the string `"JavaScript"` contains `"Script"`?
-
+Kako možete proveriti da li string ``"JavaScript"`` sadrži ``"Script"``?
 #### --distractors--
 
 `"JavaScript".has("Script")`
@@ -304,9 +259,7 @@ How can you check if the string `"JavaScript"` contains `"Script"`?
 ### --question--
 
 #### --text--
-
-Which of the following extracts the substring `"Script"` from the string `"JavaScript"`?
-
+Koji od sledećih izvlači podstring `"Script"` iz stringa `"JavaScript"`?
 #### --distractors--
 
 `"JavaScript".find(5)`
@@ -326,9 +279,7 @@ Which of the following extracts the substring `"Script"` from the string `"JavaS
 ### --question--
 
 #### --text--
-
-How do you convert the string `"JavaScript"` to uppercase?
-
+Kako konvertujete string `"JavaScript"` u veliko slovo?
 #### --distractors--
 
 `"JavaScript".upper()`
@@ -348,9 +299,7 @@ How do you convert the string `"JavaScript"` to uppercase?
 ### --question--
 
 #### --text--
-
-How do you convert the string `"JavaScript"` to lowercase?
-
+Kako konvertujete string `"JavaScript"` u mala slova?
 #### --distractors--
 
 `"JavaScript".lower()`
@@ -370,9 +319,7 @@ How do you convert the string `"JavaScript"` to lowercase?
 ### --question--
 
 #### --text--
-
-Which of the following will replace `"dogs"` with `"cats"` in the string `"I love dogs"`.
-
+Koji od sledećih će zameniti `"dogs"` sa `"cats"` u stringu `"I love dogs"`.
 #### --distractors--
 
 `"I love dogs".slice("dogs", "cats")`
@@ -392,9 +339,7 @@ Which of the following will replace `"dogs"` with `"cats"` in the string `"I lov
 ### --question--
 
 #### --text--
-
-Which method is used to repeat a string a specified number of times?
-
+Koji metod se koristi za ponavljanje string-a određeni broj puta?
 #### --distractors--
 
 `times()`
@@ -414,9 +359,7 @@ Which method is used to repeat a string a specified number of times?
 ### --question--
 
 #### --text--
-
-What will the following code return: `"abc".repeat(3)`?
-
+Šta će sledeći kod vratiti: `"abc".repeat(3)`?
 #### --distractors--
 
 `"abcabc"`
@@ -427,8 +370,7 @@ What will the following code return: `"abc".repeat(3)`?
 
 ---
 
-It will throw an error.
-
+Izbacće grešku.
 #### --answer--
 
 `"abcabcabc"`
@@ -436,9 +378,7 @@ It will throw an error.
 ### --question--
 
 #### --text--
-
-Which method will remove whitespace from the beginning and end of a string?
-
+Koji metod će ukloniti razmake sa početka i kraja stringa?
 #### --distractors--
 
 `strip()`
@@ -458,9 +398,7 @@ Which method will remove whitespace from the beginning and end of a string?
 ### --question--
 
 #### --text--
-
-Which of the following is the correct syntax for escaping quotes?
-
+Koja od sledećih opcija predstavlja ispravnu sintaksu za bekovanje navodnika?
 #### --distractors--
 
 ```js

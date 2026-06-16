@@ -1,14 +1,12 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: JavaScript Arrays Quiz
+title: Kviz o JavaScript nizovima
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,8 +14,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What will be the output for the following code?
+Koji će biti izlaz za sledeći kod?
 
 ```js
 const numbers = [1, 2, 3];
@@ -43,9 +40,7 @@ console.log(numbers[10]);
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to access the string `"Jessica"` from the `developers` array?
-
+Koji od sledećih načina je ispravan za pristup stringu `"Jessica"` iz niza `developers`?
 #### --distractors--
 
 ```js
@@ -77,8 +72,7 @@ developers[0]
 ### --question--
 
 #### --text--
-
-What value will be assigned to the `index` variable?
+Koja vrednost će biti dodeljena promenljivoj `index`?
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -87,7 +81,6 @@ console.log(index);
 ```
 
 #### --distractors--
-
 2
 
 ---
@@ -97,60 +90,44 @@ console.log(index);
 ---
 
 -1
-
 #### --answer--
-
 1
-
 ### --question--
 
 #### --text--
-
-What does the rest syntax do?
-
+Šta radi rest sintaksa?
 #### --distractors--
-
-It is used to divide a string into an array of substrings.
-
----
-
-It is used to add or remove elements from any position in an array.
+Služi za razdvajanje stringa u niz podnizaka.
 
 ---
 
-It is used to add elements to the end of the array and will return the new length.
+Koristi se za dodavanje ili uklanjanje elemenata sa bilo koje pozicije u nizu (array).
 
+---
+
+Koristi se za dodavanje elemenata na kraj niza i vraća novu dužinu.
 #### --answer--
-
-It captures the remaining elements of an array into a new array.
-
+Uzima preostale elemente iz niza i stavlja ih u novi niz.
 ### --question--
 
 #### --text--
-
-What is array destructuring?
-
+Šta je dekonstrukcija nizova?
 #### --distractors--
-
-It is used to concatenate all of the elements of an array into a single string.
-
----
-
-It is used to check if an array contains a specific value.
+Služi za spajanje svih elemenata niza u jedan string.
 
 ---
 
-It is used to remove the last element from an array and will return that removed element.
+Koristi se za proveru da li niz sadrži određenu vrednost.
 
+---
+
+Služi za uklanjanje poslednjeg elementa iz niza i vraća taj uklonjeni element.
 #### --answer--
-
-It is used to extract values from arrays and assign them to variables in a more concise and readable way.
-
+Koristi se za izvlačenje vrednosti iz nizova i dodeljivanje ih promenljivama na koncizniji i čitljiviji način.
 ### --question--
 
 #### --text--
-
-What value will be assigned to the `arr2` variable?
+Koja vrednost će biti dodeljena promenljivoj `arr2`?
 
 ```js
 const arr1 = [1, 2, 3];
@@ -177,8 +154,7 @@ console.log(arr2);
 ### --question--
 
 #### --text--
-
-What will this code log to the console?
+Šta će ovaj kod da ispisa u konzolu?
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -205,8 +181,7 @@ console.log(colors);
 ### --question--
 
 #### --text--
-
-What value will be assigned to the `slicedArr` variable?
+Koja vrednost će biti dodeljena promenljivoj `slicedArr`?
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -233,9 +208,7 @@ console.log(slicedArr);
 ### --question--
 
 #### --text--
-
-Which method returns the first index of a given element in an array?
-
+Koji metod vraća prvi indeks određenog elementa u nizu?
 #### --distractors--
 
 `firstIndex()`
@@ -255,9 +228,7 @@ Which method returns the first index of a given element in an array?
 ### --question--
 
 #### --text--
-
-Which method is used to remove the first element from an array and returns that removed element?
-
+Koji metod se koristi za uklanjanje prvog elementa iz niza i vraćanje tog uklonjenog elementa?
 #### --distractors--
 
 `pop()`
@@ -277,30 +248,23 @@ Which method is used to remove the first element from an array and returns that 
 ### --question--
 
 #### --text--
-
-What does the `concat()` method do?
-
+Šta radi metoda `concat()`?
 #### --distractors--
-
-Joins array elements into a string.
-
----
-
-Adds an element to the beginning of an array.
+Spaja elemente niza u string.
 
 ---
 
-Removes an element from the array.
+Dodaje element na početak niza.
 
+---
+
+Uklanja element iz niza.
 #### --answer--
-
-Merges two arrays into a new array.
-
+Spaja dva niza u novi niz.
 ### --question--
 
 #### --text--
-
-What will be the output of this code?
+Koji će biti rezultat izvršavanja ovog koda?
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -329,31 +293,23 @@ console.log(fruits);
 ### --question--
 
 #### --text--
-
-What does the `includes()` method do?
-
+Šta radi metoda `includes()`?
 #### --distractors--
-
-It is used to divide a string into an array of substrings.
-
----
-
-It is used to concatenate all of the elements of an array into a single string.
+Služi za razdvajanje stringa u niz podnizaka.
 
 ---
 
-It is used to add or remove elements from any position in an array.
+Koristi se za konkatenisanje svih elemenata niza u jedan string.
 
+---
+
+Koristi se za dodavanje ili uklanjanje elemenata sa bilo koje pozicije u nizu (array).
 #### --answer--
-
-It is used to check if an array contains a specific value.
-
+Koristi se za proveru da li niz sadrži određenu vrednost.
 ### --question--
 
 #### --text--
-
-Which of the following methods is used to reverse an array in place?
-
+Koji od sledećih metoda se koristi za obrnjavanje niza na mestu?
 #### --distractors--
 
 `reversed()`
@@ -373,53 +329,39 @@ Which of the following methods is used to reverse an array in place?
 ### --question--
 
 #### --text--
-
-What is a two dimensional array?
-
+Šta je dvodimenzionalni niz?
 #### --distractors--
-
-An array that only contains object literals.
-
----
-
-An array of fixed length.
+Niz koji sadrži samo literalne objekte.
 
 ---
 
-An array of floating point numbers.
+Niz fiksne dužine.
 
+---
+
+Niz od brojeva sa fiksnim zarezom (float).
 #### --answer--
-
-An array of arrays.
-
+Niz nizova.
 ### --question--
 
 #### --text--
-
-Which of the following is true about the `indexOf()` method in arrays?
-
+Koja od sledećih tvrdnji je tačna o metodi `indexOf()` u nizovima?
 #### --distractors--
-
-It always returns the last occurrence of the element.
-
----
-
-It throws an error if the element is not found.
+Uvek vraća poslednju pojavu elementa.
 
 ---
 
-It requires the array to be sorted.
+Izbacuje grešku ako element nije pronađen.
 
+---
+
+Niz mora biti sortirano.
 #### --answer--
-
-It returns `-1` if the element is not found.
-
+Vraća `-1` ako element nije pronađen.
 ### --question--
 
 #### --text--
-
-Which of the following is NOT an array method?
-
+Koji od sledećih nije metoda niza (array method)?
 #### --distractors--
 
 `includes()`
@@ -439,8 +381,7 @@ Which of the following is NOT an array method?
 ### --question--
 
 #### --text--
-
-What will be the output for the following code?
+Koji će biti izlaz za sledeći kod?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -466,8 +407,7 @@ console.log(arr.join(""));
 ### --question--
 
 #### --text--
-
-What will be the result of using the `shift()` method on an empty array?
+Koji će biti rezultat korišćenja metode `shift()` na praznom nizu?
 
 
 #### --distractors--
@@ -489,9 +429,7 @@ What will be the result of using the `shift()` method on an empty array?
 ### --question--
 
 #### --text--
-
-Which method will return a new array without changing the original array?
-
+Koja metoda će vratiti novi niz bez menjanja originalnog niza?
 #### --distractors--
 
 `shift()`

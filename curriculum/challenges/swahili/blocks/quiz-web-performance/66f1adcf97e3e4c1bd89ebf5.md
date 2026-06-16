@@ -1,14 +1,12 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Web Performance Quiz
+title: Web Performanse Kviz
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,121 +14,88 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What is the key difference between real performance and perceived performance in web development?
-
+Koja je ključna razlika između stvarne performanse i percipirane performanse u web razvoju?
 #### --distractors--
-
-Real performance focuses on the number of HTTP requests made by the browser, while perceived performance is based on CSS rendering speed.
-
----
-
-Real performance is only about load times, while perceived performance relates to visual elements like animations and loading indicators.
+Stvarna performansa se fokusira na broj HTTP zahteva koje pravi pretraživač, dok je percipirana performansa zasnovana na brzini renderovanja CSS-a.
 
 ---
 
-Real performance only includes server-side processing times, while perceived performance is entirely client-side.
+Stvarna performansa se tiču samo vremena učitavanja, dok se percipirana performansa odnosi na vizuelne elemente kao što su animacije i indikatori učitavanja.
 
+---
+
+Stvarna performansa obuhvata samo vreme obrade na strani servera, dok je percipirana performansa u potpunosti na strani klijenta.
 #### --answer--
-
-Real performance is how fast content is loaded, while perceived performance is how quickly users believe the page loads.
-
+Stvarna performansa je brzina učitavanja sadržaja, dok su percipirane performanse to kako korisnici veruju da se stranica učitava.
 ### --question--
 
 #### --text--
-
-Which metric best indicates how quickly content appears on a web page?
-
+Koja metrika najbolje ukazuje koliko brzo sadržaj stiže na web stranicu?
 #### --distractors--
-
-Time to Interactive (TTI)
-
----
-
-Page Load Time (PLT)
+Vreme do interaktivnosti (TTI)
 
 ---
 
-Last Contentful Paint (LCP)
+Vreme učitavanja stranice (PLT)
 
+---
+
+Poslednji sadržajni render (LCP)
 #### --answer--
-
-First Contentful Paint (FCP)
-
+Prvi sadržajni prikaz (FCP)
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a way to reduce page loading times?
-
+Koji od sledećih nije način za smanjenje vremena učitavanja stranice?
 #### --distractors--
-
-Optimizing Media Assets.
-
----
-
-Leveraging Browser Caching.
+Optimizacija medijskih resursa.
 
 ---
 
-Minifying and Compress Files.
+Iskorišćavanje keširanja u pregledaču.
 
+---
+
+Minifikovanje i komprimovanje fajlova.
 #### --answer--
-
-Using only JPEG files.
-
+Korišćenje samo JPEG fajlova.
 ### --question--
 
 #### --text--
-
-What is "time to usable"?
-
+Šta je „vreme do upotrebljivosti“?
 #### --distractors--
-
-It is the interval from when a user requests a page to when they can interact with forms on the page.
-
----
-
-It is the time it takes for all images and animations to become available and usable. 
+Ovo je interval od trenutka kada korisnik zahteva stranicu do trenutka kada može da interaguje sa formularima na toj stranici.
 
 ---
 
-This is the time it takes for all CSS and JavaScript animations to load on the screen.
+To je vreme koje je potrebno da se sve slike i animacije učitaju i postanu dostupne za korišćenje.
 
+---
+
+Ovo je vreme potrebno za učitavanje svih CSS i JavaScript animacija na ekranu.
 #### --answer--
-
-It is the interval from when a user requests a page to when they can meaningfully interact with it.
-
+To je interval od trenutka kada korisnik traži stranicu do trenutka kada može sa njom smisleno da interaguje.
 ### --question--
 
 #### --text--
-
-What does First Contentful Paint (FCP) measure?
-
+Šta meri First Contentful Paint (FCP)?
 #### --distractors--
-
-The overall load time for all JavaScript files on the page.
-
----
-
-The delay before a user can interact with any elements on the page.
+Ukupno vreme učitavanja svih JavaScript datoteka na stranici.
 
 ---
 
-The time taken for all stylesheets to fully load and apply.
+Kašnjenje pre nego što korisnik može da interaguje sa bilo kojim elementima na stranici.
 
+---
+
+Vreme potrebno da se svi stilovi u potpunosti učitaju i primene.
 #### --answer--
-
-The time it takes for the first piece of text or image to render.
-
+Vreme potrebno da se prvi deo teksta ili slike prikaže.
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a commonly used performance measurement tool?
-
+Koji od sledećih NIJE uobičajeno korišćen alat za merenje performansi?
 #### --distractors--
-
 Chrome DevTools
 
 ---
@@ -140,64 +105,46 @@ Lighthouse
 ---
 
 WebPageTest
-
 #### --answer--
-
-WebMeasure
-
+WebMerenje
 ### --question--
 
 #### --text--
-
-What are Performance Web APIs used for?
-
+Za šta se koriste Performance Web APIs?
 #### --distractors--
-
-It is used to measure the performance for CSS animations only.
-
----
-
-It is used to automatically speed up the performance for a web page.
+Ovo se koristi isključivo za merenje performansi CSS animacija.
 
 ---
 
-It provides a detailed table of performance metrics for the user.
+Koristi se za automatsko ubrzanje performansi veb stranice.
 
+---
+
+Pruža detaljnu tabelu metrika performansi za korisnika.
 #### --answer--
-
-It lets developers track how efficiently a webpage loads and responds directly from code.
-
+Omogućava programerima da prate koliko efikasno se web stranica učitava i odgovara direktno iz koda.
 ### --question--
 
 #### --text--
-
-Which strategy can effectively enhance perceived performance?
-
+Koja strategija može efikasno da poboljša percipiranu performansu?
 #### --distractors--
-
-Using large images to improve the overall visual quality.
-
----
-
-Loading CSS styles last to prioritize content rendering.
+Korišćenje velikih slika za poboljšanje ukupnog vizuelnog kvaliteta.
 
 ---
 
-Preloading all scripts to ensure they are ready when needed.
+Učitavanje CSS stilova poslednje radi prioritizacije prikaza sadržaja.
 
+---
+
+Unapred preuzimanje svih skripti kako bi se osigurala njihova spremnost kada su potrebne.
 #### --answer--
-
-Displaying a loading skeleton while content is being fetched.
-
+Prikazivanje skeleta učitavanja dok se sadržaj preuzima.
 ### --question--
 
 #### --text--
-
-Which of the following refers to the time it takes for a request to travel between the browser and the server?
-
+Koji od sledećih se odnosi na vreme koje je potrebno da zahtev putuje između pretraživača i servera?
 #### --distractors--
-
-rendering
+renderovanje
 
 ---
 
@@ -206,83 +153,60 @@ INP
 ---
 
 CDN
-
 #### --answer--
-
-latency
-
+latencija
 ### --question--
 
 #### --text--
-
-How does optimizing CSS impact page performance?
-
+Kako optimizovanje CSS-a utiče na performanse stranice?
 #### --distractors--
-
-It prevents the browser from executing unnecessary JavaScript.
-
----
-
-It reduces the overall file size of images.
+To sprečava pretraživač od izvršavanja nepotrebnog JavaScript-a.
 
 ---
 
-It eliminates the need for lazy loading images.
+Smanjuje ukupnu veličinu fajlova slika.
 
+---
+
+Uklanja potrebu za opuštenim učitavanjem slika.
 #### --answer--
-
-It speeds up the parsing of HTML.
-
+Ubrzava parsiranje HTML-a.
 ### --question--
 
 #### --text--
-
-Which of the following shows how long the main thread is blocked by heavy JavaScript tasks?
-
+Koji od sledećih pokazuje koliko dugo je glavni konac blokiran teškim JavaScript zadacima?
 #### --distractors--
-
-Source order
+Izvorni redosled
 
 ---
 
-Bounce rate
+Stopa odbijanja
 
 ---
 
 WebPageTest
-
 #### --answer--
-
-Total Blocking Time
-
+Ukupno vreme blokiranja
 ### --question--
 
 #### --text--
-
-When measuring Interaction to Next Paint (INP), what is being evaluated?
-
+Prilikom merenja Interaction to Next Paint (INP), šta se procenjuje?
 #### --distractors--
-
-The time it takes for the page to fully load all styles and images after a user interaction.
-
----
-
-The delay between a user's interaction and the browser's ability to register the next user input.
+Vreme potrebno da stranica u potpunosti učita sve stilove i slike nakon interakcije korisnika.
 
 ---
 
-The interval between JavaScript execution and the browser refreshing the page content.
+Kašnjenje između interakcije korisnika i sposobnosti pregledača da registruje sledeći unos korisnika.
 
+---
+
+Interval između izvršavanja JavaScript-a i osvežavanja sadržaja stranice u pretraživaču.
 #### --answer--
-
-The time between a user's interaction and the browser responding by rendering the next frame.
-
+Vreme koje teče između interakcije korisnika i odgovora pretraživača, koji renderuje sledeći kadar.
 ### --question--
 
 #### --text--
-
-Which of the following APIs gives you high-precision timestamps (in milliseconds) to measure how long different parts of your site take to load?
-
+Koji od sledećih API-ja pruža vremenske oznake visoke preciznosti (u milisekundama) za merenje koliko dugo različiti delovi vašeg sajta traže za učitavanje?
 #### --distractors--
 
 `performance.delay()`
@@ -302,31 +226,23 @@ Which of the following APIs gives you high-precision timestamps (in milliseconds
 ### --question--
 
 #### --text--
-
-Which of the following APIs gives you a breakdown of every stage of page loading from DNS lookup to `DOMContentLoaded`?
-
+Koji od sledećih API-ja pruža detaljan pregled svakog koraka učitavanja stranice, od DNS upita do `DOMContentLoaded`?
 #### --distractors--
-
-Permit Timing API
-
----
-
-Performance Text API
+API za dozvolu određivanja vremena
 
 ---
 
-Perform Timing API
+Performanse Tekst API
 
+---
+
+Izvršite Timing API
 #### --answer--
-
-Performance Timing API
-
+**API za merenje vremena performansi**
 ### --question--
 
 #### --text--
-
-Which of the following listens for performance events such as layout shifts, long tasks, and user interactions?
-
+Koji od sledećih prati performansne događaje, kao što su pomeranja rasporeda (layout shifts), dugi zadaci i interakcije korisnika?
 #### --distractors--
 
 ```js
@@ -378,53 +294,39 @@ observer.observe({ type: "longtask", buffered: true });
 ### --question--
 
 #### --text--
-
-How does lazy loading images enhance page performance?
-
+Kako leno učitavanje slika poboljšava performanse stranice?
 #### --distractors--
-
-It ensures all images load immediately for a better user experience.
-
----
-
-It reduces the size of image files to speed up loading.
+Obezbeđuje da se sve slike učitaju odmah za bolje korisničko iskustvo.
 
 ---
 
-It preloads images to prevent any loading delays.
+Smanjuje veličinu slika radi bržeg učitavanja.
 
+---
+
+Predmemorira slike kako bi sprečio bilo kakva kašnjenja prilikom učitavanja.
 #### --answer--
-
-It delays loading non-essential images until they are in view.
-
+Odlaže učitavanje nebitnih slika sve dok ih korisnik ne vidi (ili: dok dođu u vidokrug).
 ### --question--
 
 #### --text--
-
-What is code splitting?
-
+Šta je *code splitting*?
 #### --distractors--
-
-It involves splitting your React code into modules that perform only critical tasks
-
----
-
-It involves splitting your HTML code into modules that perform only non-critical tasks.
+Uključuje podelu vašeg React koda na module koji obavljaju samo ključne zadatke.
 
 ---
 
-It involves splitting your CSS code into modules that perform critical and non-critical tasks.
+Uključuje razdvajanje vašeg HTML koda na module koji obavljaju samo nekritične zadatke.
 
+---
+
+Uključuje razdvajanje vašeg CSS koda u module koji obavljaju kritične i nekritične zadatke/funkcije.
 #### --answer--
-
-It involves splitting your JavaScript code into modules that perform critical and non-critical tasks.
-
+Uključuje podelu vašeg JavaScript koda na module koji obavljaju kritične i nekritične zadatke.
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to lazy load an image?
-
+Koji od sledećih načina je ispravan za opušteno učitavanje slike?
 #### --distractors--
 
 ```html
@@ -452,44 +354,33 @@ Which of the following is the correct way to lazy load an image?
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a way to improve INP?
-
+Koja od sledećih NIJE način za poboljšanje INP?
 #### --distractors--
-
-Reducing the main thread work by breaking up long JavaScript tasks.
-
----
-
-Optimizing event handlers.
+Smanjenje opterećenja glavnog niti tako što se dugački JavaScript zadaci dele na manje delove.
 
 ---
 
-Deferring or lazy-loading heavy assets.
+Optimizacija rukovaoca događaja.
 
+---
+
+Odlaganje ili lenjo učitavanje teških resursa.
 #### --answer--
-
-Using only PNG and JPEG images.
-
+Korišćenje samo PNG i JPEG slika.
 ### --question--
 
 #### --text--
-
-Why is energy efficiency a crucial aspect of web performance?
-
+Zašto je energetska efikasnost ključni aspekt web performansi?
 #### --distractors--
-
-It enhances the overall visual appeal of the webpage.
-
----
-
-It minimizes the amount of JavaScript used on a webpage.
+Ono poboljšava opšti vizuelni izgled web stranice.
 
 ---
 
-It decreases the number of CSS files needed and makes your CSS run faster.
+Minimizira količinu JavaScripta korišćenog na web stranici.
 
+---
+
+Smanjuje broj potrebnih CSS fajlova i čini da vaš CSS radi brže.
 #### --answer--
-
-It reduces the load on hardware, conserving energy and improving sustainability.
+Smanjuje opterećenje hardvera, štedeći energiju i poboljšavajući održivost.
 

@@ -1,14 +1,12 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS Grid Kviz
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,31 +14,23 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What is CSS Grid?
-
+Šta je CSS Grid?
 #### --distractors--
-
-A method used for displaying tables on a website.
-
----
-
-A method used for tiling images.
+Metoda korišćena za prikaz tabela na veb-sajtu.
 
 ---
 
-A way to display outlines around HTML elements.
+Metoda koja se koristi za mozaično postavljanje slika.
 
+---
+
+Način za prikaz kontura oko HTML elemenata.
 #### --answer--
-
-A two-dimensional layout for HTML documents.
-
+Dvodimenzionalni raspored za HTML dokumente.
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to create a grid container?
-
+Koja od sledećih metoda predstavlja ispravan način za kreiranje mrežnog kontejnera (grid container)?
 #### --distractors--
 
 `display: grid-area;`
@@ -60,75 +50,55 @@ Which of the following is the correct way to create a grid container?
 ### --question--
 
 #### --text--
-
-What does the `grid-template-columns` property do?
-
+Šta radi svojstvo `grid-template-columns`?
 #### --distractors--
-
-Defines two columns and three rows for a grid container.
-
----
-
-Sets all columns for the grid layout to a fixed length.
+Definiše dve kolone i tri reda za kontejner mreže.
 
 ---
 
-Creates a two column grid layout container.
+Postavlja sve kolone za mrežni raspored na fiksnu širinu.
 
+---
+
+Kreira kontejner za dvokolonski grid raspored.
 #### --answer--
-
-Defines the number of columns in a grid layout.
-
+Definiše broj kolona u mrežnom rasporedu.
 ### --question--
 
 #### --text--
-
-What does the `grid-template-rows` property do?
-
+Šta radi svojstvo `grid-template-rows`?
 #### --distractors--
-
-Specifies a grid item's size and location in a grid layout.
-
----
-
-Creates a template for creating new grid rows.
+Definiše dimenzije i poziciju elementa u rasporedu mrežnog sistema (grid).
 
 ---
 
-Specifies a default row size in the grid container.
+Kreira šablon za kreiranje novih redova u mrežici.
 
+---
+
+Definiše podrazumevanu veličinu reda u kontejneru mreže.
 #### --answer--
-
-Specifies the number and height for each row in a grid layout.
-
+Definiše broj i visinu za svaki red u mrežnom rasporedu.
 ### --question--
 
 #### --text--
-
-What does the `minmax()` function do?
-
+Šta radi funkcija `minmax()`?
 #### --distractors--
-
-Toggles between the first and second value, depending on available space.
-
----
-
-Returns the average of the two inputs.
+Prebacuje između prve i druge vrednosti, u zavisnosti od raspoloživog prostora.
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+Vraća prosek dva ulaza.
 
+---
+
+Postavlja minimalnu veličinu elementa za pretraživače koji rade u režimu punog ekrana.
 #### --answer--
-
-Sets the minimum and maximum sizes for a track.
-
+Postavlja minimalne i maksimalne dimenzije za traku.
 ### --question--
 
 #### --text--
-
-What is the shorthand for the `column-gap` and `row-gap` properties?
-
+Koja je skraćenica za svojstva `column-gap` i `row-gap`?
 #### --distractors--
 
 `gap-column-row`
@@ -148,31 +118,23 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 ### --question--
 
 #### --text--
-
-What is the difference between an implicit and explicit grid?
-
+Koja je razlika između implicitnog i eksplicitnog grida?
 #### --distractors--
-
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
-
----
-
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+Implicitne mreže koriste ``grid-template-columns`` svojstvo, dok eksplicitne mreže koriste ``grid-template-rows`` svojstvo.
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+Eksplicitne mreže koriste svojstvo `grid-template-columns` dok implicitne mreže koriste svojstvo `grid-template-rows`.
 
+---
+
+Implicitne mreže koriste svojstva ``grid-template-columns`` ili ``grid-template-rows`` za kreiranje kolona, dok se redovi i kolone automatski kreiraju u eksplicitnim mrežama.
 #### --answer--
-
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
-
+Eksplicitne mreže koriste svojstva ``grid-template-columns`` ili ``grid-template-rows`` za kreiranje kolona, dok se redovi i kolone u implicitnim mrežama automatski kreiraju.
 ### --question--
 
 #### --text--
-
-Which of the following units represents a fraction of the space within the grid container?
-
+Koja od sledećih jedinica predstavlja frakciju prostora unutar grid kontejnera?
 #### --distractors--
 
 `fractional`
@@ -192,53 +154,39 @@ Which of the following units represents a fraction of the space within the grid 
 ### --question--
 
 #### --text--
-
-What are grid lines?
-
+Šta su mrežne linije?
 #### --distractors--
-
-Shorthand for rows and columns.
-
----
-
-Outlines of a grid element.
+Skraćeni oblik za redove i kolone.
 
 ---
 
-Lines along which grid columns and rows are created.
+Kontura mrežnog elementa.
 
+---
+
+Linije duž kojih se kreiraju kolone i redovi mreže.
 #### --answer--
-
-Lines on which each of the grid items begin and end.
-
+Linije na kojima počinju i završavaju se svi elementi mrežice.
 ### --question--
 
 #### --text--
-
-What does the `grid-column` property do?
-
+Šta radi svojstvo `grid-column`?
 #### --distractors--
-
-Adds a new grid element as a child of the element it's applied to.
-
----
-
-Aligns text in the grid item vertically.
+Dodaje novi gridi element kao dete elementa na koji je primenjen.
 
 ---
 
-Sets two columns for a grid container.
+Vertikalno poravnava tekst unutar elementa mreže.
 
+---
+
+Postavlja dve kolone za kontejner mreže.
 #### --answer--
-
-Tells the grid item on which grid line it should start and end at.
-
+Definiše elementu u mrežici na kojoj liniji mreže bi trebalo da počne i gde treba da se završi.
 ### --question--
 
 #### --text--
-
-How do you create four columns of equal width?
-
+Kako kreirati četiri kolone jednakih širina?
 #### --distractors--
 
 `grid-template-columns: repeat(4);`
@@ -258,53 +206,39 @@ How do you create four columns of equal width?
 ### --question--
 
 #### --text--
-
-What does the `grid-template-areas` property do?
-
+Šta radi svojstvo `grid-template-areas`?
 #### --distractors--
-
-It is used to specify where the item begins on a line in the grid container.
-
----
-
-It is used to create gaps between tracks in the container.
+Koristi se za određivanje gde element počinje na liniji unutar mrežnog kontejnera.
 
 ---
 
-It is used to repeat sections in the track listing. 
+Služi za kreiranje razmaka između traka unutar kontejnera.
 
+---
+
+Koristi se za ponavljanje sekcija u spisku pesama.
 #### --answer--
-
-It is used to provide a name for the items you are going to position on the grid.
-
+Koristi se za definisanje imena stavkama koje ćete pozicionirati na mreži.
 ### --question--
 
 #### --text--
-
-What does the `grid-auto-flow` property do?
-
+Šta radi svojstvo `grid-auto-flow`?
 #### --distractors--
-
-Controls the order in which grid items are displayed.
-
----
-
-Adjusts the spacing between the grid elements.
+Upravlja redosledom kojim se elementi mreže prikazuju.
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+Podešava razmak između elemenata mrežice.
 
+---
+
+Automatski prilagođava element kako bi odgovarao mreži.
 #### --answer--
-
-Controls how auto-placed elements get inserted to the grid.
-
+Kontroliše način na koji se elementi postavljeni automatski ubacuju u mrežu.
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to use the `grid-template-areas` property?
-
+Koji od sledećih predstavlja ispravan način korišćenja svojstva `grid-template-areas`?
 #### --distractors--
 
 ```css
@@ -367,9 +301,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to work with the `grid-auto-flow` property?
-
+Koji od sledećih načina je ispravan za rad sa svojstvom `grid-auto-flow`?
 #### --distractors--
 
 ```css
@@ -417,9 +349,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a valid grid property?
-
+Koje od sledećih NIJE važeće svojstvo mreže (grid)?
 #### --distractors--
 
 `gap`
@@ -439,9 +369,7 @@ Which of the following is NOT a valid grid property?
 ### --question--
 
 #### --text--
-
-Which of these properties can be used to center items inside a grid element?
-
+Koje od ovih svojstava se mogu koristiti za centriranje elemenata unutar grid elementa?
 #### --distractors--
 
 `allow-items`
@@ -461,9 +389,7 @@ Which of these properties can be used to center items inside a grid element?
 ### --question--
 
 #### --text--
-
-Which of the following is a correct value to use with the `grid-auto-columns` property?
-
+Koja od sledećih predstavlja ispravnu vrednost za upotrebu sa svojstvom ``grid-auto-columns``?
 #### --distractors--
 
 `grid-auto-columns: unset-grid;`
@@ -483,31 +409,23 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 ### --question--
 
 #### --text--
-
-What are grid tracks?
-
+Šta su mrežne trake?
 #### --distractors--
-
-Shorthand for rows and columns.
-
----
-
-Lines along which you can animate movement of the grid items.
+Skraćena notacija za redove i kolone.
 
 ---
 
-Lines on which each of the grid items begins and ends.
+Linije po kojima možete animirati kretanje elemenata mreže.
 
+---
+
+Linije na kojima počinje i završava se svaki element mreže.
 #### --answer--
-
-Spaces between two adjacent grid lines.
-
+Razmaci između dve susedne mrežne linije.
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to use the `minmax()` function?
-
+Koji je ispravan način korišćenja funkcije `minmax()`?
 #### --distractors--
 
 ```css
@@ -553,53 +471,39 @@ Which of the following is the correct way to use the `minmax()` function?
 ### --question--
 
 #### --text--
-
-How do you position a grid item within a layout defined by `grid-template-areas`?
-
+Kako pozicionirati element mreže unutar rasporeda definisanog sa `grid-template-areas`?
 #### --distractors--
-
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
-
----
-
-By using the `grid-area` property and specifying both row and column start and end positions.
+Direktnim definisanjem veličine i lokacije elementa unutar mreže korišćenjem `grid-template-rows` i `grid-template-columns`.
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+Korišćenjem svojstva ``grid-area`` i navođenjem početnih i krajnjih pozicija za red i kolonu.
 
+---
+
+Postavljanjem kako `grid-area` tako i eksplicitnih koordinata piksela.
 #### --answer--
-
-By assigning the named area to the item's `grid-area` property.
-
+Dodeljivanjem imenovanog područja na svojstvo stavke `grid-area`.
 ### --question--
 
 #### --text--
-
-What does the `grid-auto-rows` property control?
-
+Šta svojstvo ``grid-auto-rows`` kontroliše?
 #### --distractors--
-
-The height of explicitly defined rows.
-
----
-
-The maximum width of grid columns.
+Visina eksplicitno definisanih redova.
 
 ---
 
-The spacing between rows.
+Maksimalna širina kolona mreže.
 
+---
+
+Razmak između redova.
 #### --answer--
-
-The size of implicitly created rows.
-
+Veličina redova koji su implicitno kreirani.
 ### --question--
 
 #### --text--
-
-Which property would you use to make a grid item span multiple rows?
-
+Koje svojstvo biste koristili da biste učinili da element mrežice pokriva više redova?
 #### --distractors--
 
 `grid-row-span`
@@ -619,31 +523,23 @@ Which property would you use to make a grid item span multiple rows?
 ### --question--
 
 #### --text--
-
-What defines an explicit grid?
-
+Šta definiše eksplicitnu mrežu?
 #### --distractors--
-
-Tracks created automatically to fit content.
-
----
-
-Tracks defined by the `fr` unit.
+Automatski kreirane trake za prilagođavanje sadržaju.
 
 ---
 
-Tracks added with `grid-auto-flow`.
+Trase definisane od jedinice `fr`.
 
+---
+
+Staze dodate sa `grid-auto-flow`.
 #### --answer--
-
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
-
+Trase koje su eksplicitno definisane putem `grid-template-columns` ili `grid-template-rows`.
 ### --question--
 
 #### --text--
-
-Which value for `grid-auto-flow` would make new items fill columns first?
-
+Koja vrednost za `grid-auto-flow` bi omogućila da se novi elementi popune kolona po redosledu?
 #### --distractors--
 
 `row`
@@ -663,31 +559,23 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 ### --question--
 
 #### --text--
-
-What is the purpose of `grid-template-areas`?
-
+Koja je svrha `grid-template-areas`?
 #### --distractors--
-
-To auto-generate implicit tracks.
-
----
-
-To replace the `fr` unit.
+Za automatsko generisanje implicitnih traga.
 
 ---
 
-To set `z-index` values.
+Za zamenu jedinice `fr`.
 
+---
+
+Za postavljanje vrednosti `z-index`.
 #### --answer--
-
-To visually map items to named grid areas.
-
+Za vizuelno mapiranje stavki na nazvane mrežne oblasti.
 ### --question--
 
 #### --text--
-
-How can you make a grid item start at column line 2 and end at column line 4?
-
+Kako možete nater element da počne na liniji kolone 2 i završi na liniji kolone 4?
 #### --distractors--
 
 `grid-column: 2 / span 4;`
@@ -707,31 +595,23 @@ How can you make a grid item start at column line 2 and end at column line 4?
 ### --question--
 
 #### --text--
-
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
-
+Koji je efekat `grid-template-columns: 1fr 2fr 1fr`?
 #### --distractors--
-
-Creates three equal-width columns.
-
----
-
-Makes the middle column three times as wide as the others.
+Kreira tri kolone jednakih širina.
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+Čini srednju kolonu tri puta širem nego ostale.
 
+---
+
+Nateruje sve kolone da budu tačno `1fr` širine.
 #### --answer--
-
-Creates three columns where the middle is twice as wide as the sides.
-
+Kreira tri kolone gde je sredina dvostruko šira od bočnih strana.
 ### --question--
 
 #### --text--
-
-How would you create a grid with 3 equal columns and a `20px` gap between them?
-
+Kako biste kreirali mrežu sa 3 jednake kolone i razmakom od `20px` između njih?
 #### --distractors--
 
 ```css
@@ -772,74 +652,55 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 ### --question--
 
 #### --text--
-
-What does `repeat(3, minmax(100px, 1fr))` create?
-
+Šta kreira `repeat(3, minmax(100px, 1fr))`?
 #### --distractors--
-
-Three columns that can't shrink below `100px`.
-
----
-
-Three fixed `100px` columns.
+Tri kolone koje ne mogu da se smanje ispod `100px`.
 
 ---
 
-Three rows with maximum height of `1fr`.
+Tri fiksne `100px` kolone.
 
+---
+
+Tri reda sa maksimalnom visinom od `1fr`.
 #### --answer--
-
-Three columns that grow proportionally but won't shrink below `100px`.
-
+Tri kolone koje rastu proporcionalno, ali neće se smanjiti ispod `100px`.
 ### --question--
 
 #### --text--
-
-Which statement about implicit grids is true?
-
+Koja izjava o implicitnim mrežama je tačna?
 #### --distractors--
-
-Implicit grids ignore the `gap` property.
-
----
-
-Implicit tracks must be defined with `grid-template-areas`.
+Implicitne mreže ignoriraju svojstvo `gap`.
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+Implicitne traske moraju biti definisane sa `grid-template-areas`.
 
+---
+
+Implicitni traci se mogu kreirati samo korišćenjem ``grid-auto-flow`` property-ja.
 #### --answer--
-
-Implicit tracks are created when content doesn't fit explicit tracks.
-
+Implicitni kanali se kreiraju kada sadržaj ne odgovara eksplicitnim kanalima.
 ### --question--
 
 #### --text--
-
-What does the `place-items` property do in CSS Grid?
-
+Šta svojstvo `place-items` radi u CSS Gridu?
 #### --distractors--
-
-It sets the size of grid items automatically based on available space.
-
----
-
-It controls the grid template's column and row definitions.
+Automatski određuje veličinu elemenata mreže na osnovu dostupnog prostora.
 
 ---
 
-It adjusts the order of grid items within the container.
+Kontroliše definicije kolona i redova šablonu mreže (grid template).
 
+---
+
+Prilagođava redosled elemenata mrežne strukture unutar kontejnera.
 #### --answer--
-
-It is a shorthand for aligning grid items in both the block and inline axes.
-
+To je skraćeni način za poravnavanje elemenata mreže u obe ose: blok i inline osa.
 ### --question--
 
 #### --text--
-
-What does this CSS accomplish?
+Šta radi ovaj CSS?
 
 ```css
 .container {
@@ -848,71 +709,53 @@ What does this CSS accomplish?
 ```
 
 #### --distractors--
-
-Creates fixed `150px` columns that overflow the container.
-
----
-
-Creates columns that are exactly `1fr` wide regardless of content.
+Kreira fiksne `150px` kolone koje prelivaju kontejner.
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+Kreira kolone koje su tačno `1fr` široke, bez obzira na sadržaj.
 
+---
+
+Kreira maksimalno jednu kolonu za svaku `150px` raspoložive širine.
 #### --answer--
-
-Creates flexible columns that are at least `150px` and collapse when space is limited.
-
+Kreira fleksibilne kolone koje su najmanje `150px` i koje se skupljaju kada je prostor ograničen.
 ### --question--
 
 #### --text--
-
-How can you create asymmetric grid layouts?
-
+Kako možete kreirati asimetrične rasporede mreže?
 #### --distractors--
-
-By using only `fr` units.
-
----
-
-By mixing different length units in `grid-template-columns`.
+Korišćenjem samo `fr` jedinica.
 
 ---
 
-By setting `grid-asymmetric: true`.
+Mešanjem različitih jedinica dužine u `grid-template-columns`.
 
+---
+
+Postavljanjem `grid-asymmetric: true`.
 #### --answer--
-
-By defining different sizes for each track.
-
+Definisanjem različitih veličina za svaku traku.
 ### --question--
 
 #### --text--
-
-What does `grid-column-start: 2` do to a grid item?
-
+Šta `grid-column-start: 2` radi sa elementom mrežice?
 #### --distractors--
-
-Makes it span 2 columns.
-
----
-
-Offsets it by 2 pixels.
+Razvlači ga tako da pokrije 2 kolone.
 
 ---
 
-Positions it starting at the second vertical grid line.
+Pomereno je za 2 piksela.
 
+---
+
+Postavlja ga počevši od druge vertikalne linije mreže.
 #### --answer--
-
-Makes it start at the second column line.
-
+Natera ga da počne na drugoj liniji kolone.
 ### --question--
 
 #### --text--
-
-Which property would you use to control overflow behavior in grid tracks?
-
+Koji svojstvo biste koristili za kontrolu ponašanja prelivanja u mrežnim trakama?
 #### --distractors--
 
 `grid-overflow`
@@ -932,8 +775,7 @@ Which property would you use to control overflow behavior in grid tracks?
 ### --question--
 
 #### --text--
-
-What will be the result for the following code?
+Šta će biti rezultat za sledeći kod?
 
 ```css
 .container {
@@ -945,27 +787,21 @@ What will be the result for the following code?
 ```
 
 #### --distractors--
-
-The container will have three columns of equal width, and two rows with `150px` height each.
-
----
-
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+Kontejner će imati tri kolone jednakih širina i dva reda, pri čemu svaki red ima visinu od `150px`.
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+Kontejner će imati tri kolone, sve sa širinom `100px`, i dve redove visine `150px`.
 
+---
+
+Kontejner će imati dva reda, svaki sa visinom od `1fr`.
 #### --answer--
-
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
-
+Kontejner će imati tri kolone: 100px, `1fr` i `2fr` široke i dva reda: jedan sa `auto` visinom i jedan sa visinom od `150px`.
 ### --question--
 
 #### --text--
-
-How would you make a grid item span all available rows?
-
+Kako biste učinili da stavka u mrežici pokrije sve dostupne redove?
 #### --distractors--
 
 `grid-row: full;`
@@ -985,9 +821,7 @@ How would you make a grid item span all available rows?
 ### --question--
 
 #### --text--
-
-Which property controls the alignment of grid items along the block axis?
-
+Koje svojstvo kontroliše poravnanje elemenata mreže duž blok osi?
 #### --distractors--
 
 `justify-items`
@@ -1007,9 +841,7 @@ Which property controls the alignment of grid items along the block axis?
 ### --question--
 
 #### --text--
-
-How can you ensure a grid item stays in the first column regardless of grid changes?
-
+Kako možete osigurati da element u mrežici ostane u prvoj koloni bez obzira na promene mreže?
 #### --distractors--
 
 `grid-column: fixed;`

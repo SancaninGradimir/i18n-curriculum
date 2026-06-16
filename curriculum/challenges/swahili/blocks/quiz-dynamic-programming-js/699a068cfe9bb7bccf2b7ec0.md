@@ -1,14 +1,12 @@
 ---
 id: 699a068cfe9bb7bccf2b7ec0
-title: Dynamic Programming Quiz
+title: Test iz dinamičkog programiranja
 challengeType: 8
 dashedName: quiz-dynamic-programming-js
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 9 od 10 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,219 +14,160 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 ### --question--
 
 #### --text--
-
-What are the two essential properties that must be present in a problem for dynamic programming to be an effective solution approach?
-
+Koje su dve ključne osobine koje moraju biti prisutne u problemu da bi dinamičko programiranje bilo efikasan pristup rešavanju?
 #### --distractors--
-
-Fast execution time and minimal memory usage
-
----
-
-Recursion capability and iterative loops
+Brzo vreme izvršavanja i minimalna potrošnja memorije
 
 ---
 
-Sequential processing and parallel computation
+Rekurzivna sposobnost i iterativne petlje
 
+---
+
+Sekvencijalna obrada i paralelno računanje
 #### --answer--
-
-Overlapping subproblems and optimal substructure
-
+Preklapajući podproblemi i optimalna podstruktura
 ### --question--
 
 #### --text--
-
-What is the primary difference between the memoization and tabulation approaches in dynamic programming?
-
+Koja je glavna razlika između pristupa memoizaciji i tabulaciji u dinamičkom programiranju?
 #### --distractors--
-
-Memoization uses hash tables while tabulation uses arrays, making it more efficient.
-
----
-
-Memoization is faster but uses more memory and CPU cycles than tabulation.
+Memoizacija koristi hash tabele, dok tabulacija koristi nizove, što je efikasnije.
 
 ---
 
-Memoization can only solve simpler problems than tabulation.
+Memoizacija je brža, ali koristi više memorije i CPU ciklusa od tabulacije.
 
+---
+
+Memoizacija može da reši samo jednostavnije probleme od tabulacije.
 #### --answer--
-
-Memoization is a top-down approach using recursion, while tabulation is a bottom-up approach using iteration.
-
+Memoizacija je pristup odozgo prema dole koji koristi rekurziju, dok tabulacija predstavlja pristup od dole ka gore koji koristi iteraciju.
 ### --question--
 
 #### --text--
-
-Why do naive recursive solutions to dynamic programming problems typically have exponential time complexity?
-
+Zašto naivni rekursivni rešenja za probleme dinamičkog programiranja tipično imaju eksponencijalnu vremensku složenost?
 #### --distractors--
-
-Because they use exponential amounts of memory to store variables.
-
----
-
-Because they require sorting data in exponential time.
+Zato što koriste eksponencijalno mnogo memorijskog prostora za skladištenje varijabli.
 
 ---
 
-Because they must check all possible permutations of the input.
+Zato što zahtevaju sortiranje podataka u eksponencijalnom vremenu.
 
+---
+
+Zato što moraju da provere sve moguće permutacije unosa.
 #### --answer--
-
-Because each recursive call branches multiple times, causing the same subproblems to be recalculated repeatedly.
-
+Zato što svaki rekurzivni poziv se razdvaja na više granki, što uzrokuje ponovno izračunavanje istih podproblema.
 ### --question--
 
 #### --text--
-
-What does optimal substructure mean in the context of dynamic programming?
-
+Šta znači optimalna podstruktura u kontekstu dinamičkog programiranja?
 #### --distractors--
-
-The algorithm must use the most efficient data structure available.
-
----
-
-The solution must minimize both time and space complexity simultaneously.
+Algoritam mora da koristi najefikasniju dostupnu strukturu podataka.
 
 ---
 
-The problem must have a unique, single optimal solution.
+Rešenje mora da minimizira i vremensku i prostornu kompleksnost istovremeno.
 
+---
+
+Problem mora imati jedinstveno i optimalno rešenje.
 #### --answer--
-
-The optimal solution can be constructed from optimal solutions to its subproblems.
-
+Optimalno rešenje se može konstruisati iz optimalnih rešenja njegovih podproblema.
 ### --question--
 
 #### --text--
-
-When implementing memoization, what happens when a function is called with arguments that have already been computed?
-
+Prilikom implementacije memoizacije, šta se dešava kada se funkcija pozove sa argumentima koji su već izračunati?
 #### --distractors--
-
-The function recalculates the result to ensure accuracy.
-
----
-
-The function averages the old and new results for better precision.
+Funkcija ponovo izračunava rezultat kako bi osigurala tačnost.
 
 ---
 
-An error is thrown because duplicate calculations are not allowed.
+Funkcija prosekuje stare i nove rezultate radi bolje preciznosti.
 
+---
+
+Greška je izbačena jer nisu dozvoljene duplikovane kalkulacije.
 #### --answer--
-
-The cached result is returned immediately without recomputation.
-
+Keširani rezultat se vraća odmah bez ponovnog izračunavanja.
 ### --question--
 
 #### --text--
-
-What is a key advantage of using tabulation instead of memoization?
-
+Koja je ključna prednost korišćenja tabulacije umesto memoizacije?
 #### --distractors--
-
-Tabulation always requires less memory than memoization.
-
----
-
-Tabulation can solve a broader class of problems.
+Tabulacija uvek zahteva manje memorije nego memoizacija.
 
 ---
 
-Tabulation is always easier to implement and understand.
+Tabulacija može da razreši širi spektar problema.
 
+---
+
+Tabulisiranje je uvek lakše za implementaciju i razumevanje.
 #### --answer--
-
-Tabulation avoids recursion overhead and provides predictable sequential execution.
-
+Tabulacija izbegava režijski trošak rekurzije i pruža predvidljivo sekvencijalno izvršavanje.
 ### --question--
 
 #### --text--
-
-In a bottom-up dynamic programming solution, why are base cases initialized first?
-
+U rešenju dinamičkog programiranja od dna ka vrhu, zašto se osnovni slučajevi inicijalizuju prvi?
 #### --distractors--
-
-To allocate memory for the data structure efficiently.
-
----
-
-To prevent infinite loops in the algorithm.
+Za efikasnu alokaciju memorije za strukturu podataka.
 
 ---
 
-To improve the time complexity of the algorithm.
+Za sprečavanje beskonačnih petlji u algoritmu.
 
+---
+
+Radi poboljšanja vremenske složenosti algoritma.
 #### --answer--
-
-To provide foundational values upon which all larger subproblems are built.
-
+Pružiti osnovne vrednosti na kojima su izgrađeni svi veći podproblemi.
 ### --question--
 
 #### --text--
-
-How does dynamic programming transform the time complexity of problems that exhibit overlapping subproblems?
-
+Kako dinamičko programiranje transformiše vremensku složenost problema koji pokazuju preklapajuće podprobleme?
 #### --distractors--
-
-From polynomial to logarithmic by dividing the problem efficiently.
-
----
-
-From quadratic to linear by optimizing loop structures.
+Od polinomialne do logaritamske složenosti efikasnom podelom problema.
 
 ---
 
-From linear to constant by using hash tables.
+Od kvadratične do linearne složenosti optimizacijom struktura petlji.
 
+---
+
+Smanjenje složenosti vremena sa linearnog na konstantno pomoću hash tabela.
 #### --answer--
-
-From exponential to polynomial by storing and reusing subproblem solutions.
-
+Od eksponencijalnog do polinomialnog, skladištanjem i ponovnim korišćenjem rešenja podproblema.
 ### --question--
 
 #### --text--
-
-What trade-off does dynamic programming typically make to achieve better time complexity?
-
+Koji kompromis dinamičko programiranje obično pravi kako bi postiglo bolju složenost vremena?
 #### --distractors--
-
-It sacrifices code readability for faster execution.
-
----
-
-It requires more complex algorithms that are harder to maintain.
+Žrtvuje čitljivost koda radi bržeg izvršavanja.
 
 ---
 
-It limits the size of problems that can be solved.
+Zahteva kompleksnije algoritme koje je teže održavati.
 
+---
+
+Ograničava veličinu problema koje je moguće rešiti.
 #### --answer--
-
-It uses additional space to store intermediate results.
-
+Koristi dodatni prostor za skladištenje međurezultata.
 ### --question--
 
 #### --text--
-
-In which scenario would dynamic programming NOT be the appropriate algorithmic approach?
-
+U kojem scenariju dinamičko programiranje NEBIJE odgovarajući algoritamski pristup?
 #### --distractors--
-
-When the problem requires finding an optimal solution.
-
----
-
-When the problem can be broken into smaller subproblems.
+Kada problem zahteva pronalaženje optimalnog rešenja.
 
 ---
 
-When space complexity must be minimized.
+Kada se problem može razložiti na manje podprobleme.
 
+---
+
+Kada je potrebno minimalizovati složenost prostora.
 #### --answer--
-
-When subproblems are independent and don't overlap.
+Kada su podproblemi nezavisni i ne preklapaju se.

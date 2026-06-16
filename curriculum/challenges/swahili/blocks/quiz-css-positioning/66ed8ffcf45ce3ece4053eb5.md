@@ -6,9 +6,7 @@ dashedName: quiz-css-positioning
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,9 +14,7 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a valid value for the `position` property?
-
+Koji od sledećih nije važeća vrednost za svojstvo `position`?
 #### --distractors--
 
 `fixed`
@@ -38,31 +34,23 @@ Which of the following is NOT a valid value for the `position` property?
 ### --question--
 
 #### --text--
-
-What is the main purpose of the `float` property in CSS?
-
+Koja je glavna svrha svojstva ``float`` u CSS-u?
 #### --distractors--
-
-Floats are used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
-
----
-
-Floats are used to remove an element from its normal flow on the page and position it to the top of its container.
+Floatovi se koriste da uklone element iz normalnog protoka na stranici i automatski ga pozicioniraju u gornji desni ugao web stranice.
 
 ---
 
-Floats are used to remove an element from its normal flow on the page and automatically position it to the bottom right hand side of webpage.
+`Floatovi se koriste za uklanjanje elementa iz njegovog normalnog protoka na stranici i pozicioniranje ga na vrh njegovog kontejnera.`
 
+---
+
+`Floats se koriste za uklanjanje elementa iz njegovog normalnog protoka na stranici i automatsko pozicioniranje ga u donji desni deo web stranice.`
 #### --answer--
-
-Floats are used to remove an element from its normal flow on the page and position it either on the left or right side of its container.
-
+Floatovi se koriste za uklanjanje elementa iz normalnog protoka na stranici i pozicioniranje ga bilo sa leve ili desne strane njegovog kontejnera.
 ### --question--
 
 #### --text--
-
-Which of the following is an example making a box element float to the left?
-
+Koji od sledećih je primer koji uzrokuje da se kutni element "pliva" (float) ulevo?
 #### --distractors--
 
 ```css
@@ -114,31 +102,23 @@ Which of the following is an example making a box element float to the left?
 ### --question--
 
 #### --text--
-
-What is the role of the `clear` property?
-
+Koja je uloga svojstva `clear`?
 #### --distractors--
-
-It is used to determine if an element needs to be moved to the bottom of the page.
-
----
-
-It is used to determine if an element needs to be completely cleared from the page.
+Koristi se za određivanje da li je potrebno pomeriti element na dno stranice.
 
 ---
 
-It is used to determine if an element needs to be fixed to the top of the page.
+Koristi se za određivanje da li je element potrebno potpuno ukloniti sa stranice.
 
+---
+
+Koristi se za određivanje da li je potrebno fiksirati element na vrh stranice.
 #### --answer--
-
-It is used to determine if an element needs to be moved below the floated content.
-
+Koristi se za određivanje da li je potrebno pomeriti element ispod plutajućeg sadržaja.
 ### --question--
 
 #### --text--
-
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
-
+Koji CSS atribut se koristi za kontrolisanje vertikalnog redosleda složene pozicioniranih elemenata koji se preklapaju na stranici?
 #### --distractors--
 
 `position`
@@ -158,9 +138,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 ### --question--
 
 #### --text--
-
-Which of the following is the correct syntax for relative positioning?
-
+Koji od sledećih je tačna sintaksa za relativno pozicioniranje?
 #### --distractors--
 
 ```css
@@ -204,9 +182,7 @@ Which of the following is the correct syntax for relative positioning?
 ### --question--
 
 #### --text--
-
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
-
+Koje CSS svojstvo biste koristili da element učinite fiksiranim na određenoj poziciji na stranici, tako da se ne pomera prilikom skrolovanja?
 #### --distractors--
 
 `position: no-scroll;`
@@ -226,31 +202,23 @@ Which CSS property would you use to fix an element at a certain position on the 
 ### --question--
 
 #### --text--
-
-What does absolute positioning do to an element?
-
+Šta radi apsolutno pozicioniranje elementu?
 #### --distractors--
-
-Absolute positioning is used to determine if an element needs to be moved below the floated content.
-
----
-
-Absolute positioning is used to position the element within the normal document flow.
+Apsolutno pozicioniranje se koristi za određivanje da li je element potreban da bude pomeren ispod flotujućeg sadržaja.
 
 ---
 
-Absolute positioning is used to control the vertical stacking order of positioned elements that overlap on the page.
+Apsolutno pozicioniranje se koristi za pozicioniranje elementa unutar normalnog protoka dokumenta.
 
+---
+
+Apsolutno pozicioniranje se koristi za kontrolu vertikalnog redosleda složene pozicioniranih elemenata koji se preklapaju na stranici.
 #### --answer--
-
-Absolute positioning allows you to take an element out of the normal document flow, making it behave independently from other elements.
-
+Apsolutno pozicioniranje vam omogućava da izvučete element iz normalnog protoka dokumenta, čime ga čini nezavisnim u odnosu na druge elemente.
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a valid property that you can use for absolute positioning?
-
+Koji od sledećih NIJE validno svojstvo koje možete koristiti za apsolutno pozicioniranje?
 #### --distractors--
 
 `right`
@@ -270,31 +238,23 @@ Which of the following is NOT a valid property that you can use for absolute pos
 ### --question--
 
 #### --text--
-
-What is the key difference between relative and absolute positioning?
-
+Koja je ključna razlika između relativnog i apsolutnog pozicioniranja?
 #### --distractors--
-
-Absolute positioning sets the element in a sticky position while relative positioning takes an element out of the normal document flow.
-
----
-
-Relative positioning sets the element in a fixed position while absolute positioning takes an element out of the normal document flow.
+Apsolutno pozicioniranje postavlja element u lepljiv položaj, dok relativno pozicioniranje izvlači element iz normalnog protoka dokumenta.
 
 ---
 
-Absolute positioning positions the element within the normal document flow while relative positioning takes an element out of the normal document flow.
+Relativno pozicioniranje postavlja element u fiksnu poziciju, dok apsolutno pozicioniranje izvlači element iz normalnog toka dokumenta.
 
+---
+
+Apsolutno pozicioniranje postavlja element unutar normalnog protoka dokumenta, dok relativno pozicioniranje izvlači taj element iz tog normalnog protoka.
 #### --answer--
-
-Relative positioning positions the element within the normal document flow while absolute positioning takes an element out of the normal document flow.
-
+Relativno pozicioniranje postavlja element unutar normalnog protoka dokumenta, dok apsolutno pozicioniranje izvlači element iz tog normalnog protoka.
 ### --question--
 
 #### --text--
-
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
-
+Koji od sledećih primera prikazuje pozicioniranje boksa u gornjem levom uglu stranice?
 #### --distractors--
 
 ```css
@@ -350,31 +310,23 @@ Which of the following is an example of positioning a box in the upper left hand
 ### --question--
 
 #### --text--
-
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
-
+Koja metoda pozicioniranja omogućava elementu da ostane na definisanoj poziciji samo kada se skroluje preko određene tačke?
 #### --distractors--
-
-Float positioning.
-
----
-
-Fixed positioning.
+Float pozicioniranje.
 
 ---
 
-Absolute positioning.
+Fiksno pozicioniranje.
 
+---
+
+Apsolutno pozicioniranje.
 #### --answer--
-
-Sticky positioning.
-
+Lepljivo pozicioniranje.
 ### --question--
 
 #### --text--
-
-Which of the following is a correct example of using sticky positioning?
-
+Koji od sledećih predstavlja tačan primer korišćenja *sticky positioning*-a?
 #### --distractors--
 
 ```css
@@ -429,53 +381,39 @@ Which of the following is a correct example of using sticky positioning?
 ### --question--
 
 #### --text--
-
-What is the difference between sticky and fixed positioning?
-
+Koja je razlika između `sticky` i `fixed` pozicioniranja?
 #### --distractors--
-
-Sticky elements can only be used in table layouts while fixed elements can be used in any type of CSS layout.
-
----
-
-Sticky elements will always remain in the same position while fixed elements will stick to a certain point then behave like relative elements.
+Elementi koji se lepe mogu se koristiti samo u tabelarnim rasporedima, dok fiksni elementi mogu se koristiti u bilo kom tipu CSS rasporeda.
 
 ---
 
-Fixed elements will be positioned relative to its normal position while sticky elements will only stick to a certain point then behave like relative elements.
+Elementi tipa "sticky" uvek će ostati na istoj poziciji, dok fiksirani elementi privremeno pričvršćuju za određenu tačku, nakon čega se ponašaju kao relativni elementi.
 
+---
+
+Elementi fiksne pozicije biće pozicionirani u odnosu na svoju normalnu poziciju, dok će elementi lepljive pozicije ostati samo na određenoj tački, a zatim se ponašati kao elementi relativne pozicije.
 #### --answer--
-
-Fixed elements will remain in the same position on the screen while sticky elements will only stick to a certain point then behave like relative elements.
-
+Fiksirani elementi će ostati na istoj poziciji na ekranu, dok se *sticky* elementi vezuju samo za određenu tačku, a zatim se ponašaju kao relativni elementi.
 ### --question--
 
 #### --text--
-
-What problem did the `clearfix` hack solve when working with floats?
-
+Koji problem je `clearfix` rešio prilikom rada sa plutajućim tačkama?
 #### --distractors--
-
-The `clearfix` hack helped solve the issue of floated elements being removed from the normal document flow and being placed in a fixed position on the page.
-
----
-
-The `clearfix` hack helped solve the issue of floated elements not being responsive in mobile and tablet layouts.
+Trikovi ``clearfix`` pomogao su da se reši problem elemenata sa plutanjem koji se uklanjaju iz normalnog protoka dokumenta i postavljaju na fiksnu poziciju na stranici.
 
 ---
 
-The `clearfix` hack helped solve the issue of floated elements disappearing from the page.
+The `clearfix` hack je pomogao da se razreši problem plutajućih elemenata koji nisu responsivni u mobilnim i tablet rasporedima.
 
+---
+
+Trikovi ``clearfix`` su pomogli da reše problem nestajanja floatovanih elemenata sa stranice.
 #### --answer--
-
-The `clearfix` hack helped solve the issue of overlaps and collapsing in the layouts when multiple floated elements were stacked next to each other.
-
+Trik `clearfix` je pomogao da reši problem preklapanja i kolapsa u rasporedima kada su više elemenata sa `float` svojstvom postavljeno jedan pored drugog.
 ### --question--
 
 #### --text--
-
-Which of the following is a correct example for using the `clearfix` hack?
-
+Koji od sledećih predstavlja tačan primer korišćenja `clearfix` haka?
 #### --distractors--
 
 ```css
@@ -520,31 +458,23 @@ Which of the following is a correct example for using the `clearfix` hack?
 ### --question--
 
 #### --text--
-
-What is static positioning?
-
+Šta je statičko pozicioniranje?
 #### --distractors--
-
-This is used to remove an element from its normal flow on the page and automatically position it in the upper right hand side of the webpage.
-
----
-
-This allows you to take an element out of the normal document flow, making it behave independently from other elements.
+Ovo se koristi za uklanjanje elementa iz njegovog normalnog protoka na stranici i automatsko pozicioniranje ga u gornjem desnom uglu web stranice.
 
 ---
 
-This allows an element to stick to a defined position only when you scroll past a certain point.
+To vam omogućava da izvučete element iz normalnog protoka dokumenta, čime se on ponaša nezavisno od drugih elemenata.
 
+---
+
+Ovo omogućava elementu da ostane fiksiran na definisanoj poziciji samo kada skrolujete preko određene tačke.
 #### --answer--
-
-This is the normal flow for the document. Elements are positioned from top to bottom and left to right one after another.
-
+Ovo je standardni tok za dokument. Elementi se postavljaju od vrha do dna i sa leve na desno, jedan za drugim.
 ### --question--
 
 #### --text--
-
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
-
+Koji od sledećih je primer postavljanja navigacionog bara (navbar) na vrh stranice korišćenjem fiksnog pozicioniranja?
 #### --distractors--
 
 ```css
@@ -587,9 +517,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 ### --question--
 
 #### --text--
-
-Which of the following is a valid value to use for the `z-index` property?
-
+Koji od sledećih je važeća vrednost za svojstvo `z-index`?
 #### --distractors--
 
 `12.0`
@@ -609,9 +537,7 @@ Which of the following is a valid value to use for the `z-index` property?
 ### --question--
 
 #### --text--
-
-Which of the following is the default value of the `position` property?
-
+Koju od sledećih je podrazumevana vrednost svojstva `position`?
 #### --distractors--
 
 `inherit`
@@ -633,9 +559,7 @@ Which of the following is the default value of the `position` property?
 ### --question--
 
 #### --text--
-
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
-
+Koja `position` vrednost vam omogućava da prilagodite poziciju elementa sa `top` i `left` dok ga zadržavate u normalnom protoku dokumenta?
 #### --distractors--
 
 `position: absolute;`
@@ -655,31 +579,23 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 ### --question--
 
 #### --text--
-
-How does an element with `position: sticky;` initially behave?
-
+Kako se element sa `position: sticky;` inicijalno ponaša?
 #### --distractors--
-
-It behaves like a `fixed` element until a scroll position is reached.
-
----
-
-It is always removed from the normal document flow.
+Deluje kao element `fixed` sve dok dođe do pozicije skrolovanja.
 
 ---
 
-It behaves like an `absolute` element within its parent.
+Uvek je uklonjeno iz normalnog protoka dokumenta.
 
+---
+
+Ono se ponaša kao element `absolute` unutar svog roditelja.
 #### --answer--
-
-It behaves like a `relative` element until a specified scroll position is met.
-
+Ponaša se kao element `relative` sve do nego što se dostigne određena pozicija skrolovanja.
 ### --question--
 
 #### --text--
-
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
-
+Koja od sledećih demonstrira validnu i efikasnu upotrebu svojstva ``z-index`` da učini da ``.box-two`` bude prikazan preko ``.box-one``?
 #### --distractors--
 
 ```css
@@ -735,53 +651,39 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 ### --question--
 
 #### --text--
-
-What is the `z-index` property used for in CSS?
-
+Za šta se ``z-index`` svojstvo koristi u CSS-u?
 #### --distractors--
-
-It sets the zoom level of the page.
-
----
-
-It controls the horizontal alignment of elements within a flex container.
+Postavlja nivo zumiranja stranice.
 
 ---
 
-It defines the spacing between an element's content and its border.
+Kontroliše horizontalno poravnanje elemenata unutar flex kontejnera.
 
+---
+
+Definiše razmak između sadržaja elementa i njegove ivice.
 #### --answer--
-
-It controls the vertical stacking order of positioned elements that overlap.
-
+Kontroliše vertikalni redosled složenih pozicioniranih elemenata koji se preklapaju.
 ### --question--
 
 #### --text--
-
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
-
+Kada se `top: 10%;` primeni na element sa `position: fixed;`, u odnosu na šta je izračunano `10%`?
 #### --distractors--
-
-The height of the element itself.
-
----
-
-The height of its parent container.
+Visina samog elementa.
 
 ---
 
-The width of the viewport.
+Visina njegovog roditeljskog kontejnera.
 
+---
+
+Širina vidokruga (viewport)
 #### --answer--
-
-The height of the viewport.
-
+Visina prozora gledišta.
 ### --question--
 
 #### --text--
-
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
-
+Koji od kod primera predstavlja pravilnu upotrebu svojstva ``z-index`` za postavljanje prekrivanja iznad drugog sadržaja?
 #### --distractors--
 
 ```css
@@ -824,9 +726,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 ### --question--
 
 #### --text--
-
-Which CSS property is used to control whether an element should be moved below floated elements?
-
+Koje CSS svojstvo se koristi za kontrolisanje da li treba elementu da bude pozicioniran ispod plutajućih elemenata?
 #### --distractors--
 
 `float`
@@ -846,75 +746,55 @@ Which CSS property is used to control whether an element should be moved below f
 ### --question--
 
 #### --text--
-
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
-
+Kako će se element sa `position: relative;` i `bottom: 25px;` pomeriti?
 #### --distractors--
-
-It will move 25px down from its normal position.
-
----
-
-It will move 25px to the right of its normal position.
+Ono će se pomeriti za 25px nadole od svoje normalne pozicije.
 
 ---
 
-It will be positioned 25px from the bottom of the viewport.
+Pomeriće se za 25px u odnosu na svoju normalnu poziciju.
 
+---
+
+Pozicioniraće se 25 piksela od dna prozora (viewport-a).
 #### --answer--
-
-It will move 25px up from its normal position.
-
+Ono će se pomeriti za 25px više od svoje normalne pozicije.
 ### --question--
 
 #### --text--
-
-The `z-index` property will only affect elements that have what CSS property applied?
-
+Svojstvo ``z-index`` će uticati samo na elemente koji imaju koje CSS svojstvo primenjeno?
 #### --distractors--
-
-A `float` value other than `none`.
-
----
-
-A `display` value of `inline-block`.
+Vrednost `float` različita od `none`.
 
 ---
 
-A `background-color` set.
+Vrednost `display` od `inline-block`.
 
+---
+
+Jedan ``background-color`` skup.
 #### --answer--
-
-A `position` value other than `static`.
-
+Vrednost `position` različita od `static`.
 ### --question--
 
 #### --text--
-
-What would be the effect of applying `float: right;` to a logo in a header?
-
+Koji bi bio efekat primene `float: right;` na logo u zaglavlju?
 #### --distractors--
-
-The logo would be aligned to the right, but would remain in the normal document flow, preventing other content from wrapping.
-
----
-
-The logo would be taken out of the flow and positioned on the right side of the entire browser viewport, not its container.
+Logo bi bio poravnat desno, ali bi ostao u normalnom protoku dokumenta, sprečavajući da se drugi sadržaj prelapa.
 
 ---
 
-The logo would become a block-level element that takes up the full width of the header, pushing other elements below it.
+Logo bi trebalo da bude izvučen iz protoka i pozicioniran sa desne strane celog vidljivog dela pregledača (viewport), a ne njegovog kontejnera.
 
+---
+
+Logotip bi postao blokelement koji zauzima punu širinu zaglavlja, guranje drugih elemenata ispod sebe.
 #### --answer--
-
-The logo would be removed from its normal flow and placed on the right side of its container, with other content wrapping around it.
-
+Logo bi bilo uklonjeno iz svog normalnog toka i postavljeno na desnu stranu svog kontejnera, pri čemu će drugi sadržaj okruživati njega.
 ### --question--
 
 #### --text--
-
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
-
+Koji CSS kod će zadržati element fiksiran na vrhu vidokruga (viewport) nakon skrolovanja?
 #### --distractors--
 
 ```css
@@ -954,30 +834,23 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 ### --question--
 
 #### --text--
-
-What is the specific purpose of `clear: both;` in CSS?
-
+Koja je specifična svrha `clear: both;` u CSS-u?
 #### --distractors--
-
-It cancels out the `float` property on the element itself, returning it to the normal document flow.
-
----
-
-It removes any `clear` properties that were inherited from a parent element, restoring the default floating behavior.
+Poništava svojstvo `float` na samom elementu, vraćajući ga u normalan tok dokumenta.
 
 ---
 
-It only clears floated elements that are on the right side, allowing left-floated elements to remain as they are.
+Uklanja sve `clear` svojstva koja su nasleđena od roditeljskog elementa, obnavljajući podrazumevano ponašanje float-ovanja.
 
+---
+
+Čisti samo plovene elemente koji su desno postavljeni, omogućavajući da elementi sa levog dela ostanu nepromenjeni.
 #### --answer--
-
-It ensures the element is moved below any floated elements that appear before it on both the left and right sides.
-
+Ovo osigurava da je element pomeren ispod svih plutajućih elemenata koji se pojavljuju pre njega, kako sa leve, tako i sa desne strane.
 ### --question--
 
 #### --text--
-
-Given the following code, how will `.child` be positioned?
+S obziма na sledeći kod, kako će biti pozicioniran `.child`?
 
 ```css
 .parent {
@@ -991,26 +864,21 @@ Given the following code, how will `.child` be positioned?
 ```
 
 #### --distractors--
-
-It will be positioned 10px from the top of the `.parent` element, as `absolute` positioning is always relative to the direct parent.
-
----
-
-It will remain in its default static position because the `absolute` value is invalid without a `z-index` property.
+Biće pozicionirano 10px od vrha elementa `.parent`, jer je pozicioniranje `absolute` uvek relativno u odnosu na direktnog roditelja.
 
 ---
 
-It will be positioned 10px from the top of the browser window, remaining fixed in place even when the user scrolls the page.
+Ostaće na svojoj podrazumevanoj statičkoj poziciji jer vrednost `absolute` je nevažeća bez svojstva `z-index`.
 
+---
+
+Biće pozicionirano 10px od vrha prozora pregledača, ostajući fiksirano na mestu čak i kada korisnik skroluje stranicu.
 #### --answer--
-
-It will be positioned 10px from the top of the initial containing block, such as the `<body>`, because its parent is not positioned.
-
+Biće pozicionirano 10px od vrha početnog sadržajnog bloka, kao što je `<body>`, jer njegov roditelj nije pozicioniran.
 ### --question--
 
 #### --text--
-
-What effect will the following CSS have on the `.box` element?
+Koji će uticaj sledeći CSS imati na element `.box`?
 
 ```css
 .box {
@@ -1021,27 +889,21 @@ What effect will the following CSS have on the `.box` element?
 ```
 
 #### --distractors--
-
-The element will remain in its normal flow but will be indented by 50px from the top and left, pushing other elements away.
-
----
-
-The element will be fixed to the viewport and will stay 50px from the top and 50px from the left, even when the page is scrolled.
+Element će ostati u svom normalnom protoku, ali će biti uvuknut za 50px od vrha i sa leve strane, guranje druge elemente dalje.
 
 ---
 
-The element will be positioned relative to its own starting point, moving 50px down and 50px to the right without leaving the document flow.
+Element će biti fiksiran na *viewport* i ostati 50px od vrha i 50px od leve strane, čak i kada se stranica skroluje.
 
+---
+
+Element će biti pozicioniran relativno u odnosu na svoju početnu tačku, pomerajući se za 50px nadole i 50px udesno bez uticaja na tok dokumenta.
 #### --answer--
-
-The element will be taken out of the normal flow and placed 50px from the top and 50px from the left of its nearest positioned ancestor.
-
+Element će biti izvučen iz normalnog protoka i pozicioniran 50px od vrha i 50px od leve strane svog najbližeg predaka sa definisanom pozicijom.
 ### --question--
 
 #### --text--
-
-Which of the following `position` values removes an element entirely from the document's normal flow?
-
+Koja od sledećih vrednosti `position` potpuno uklanja element iz normalnog toka dokumenta?
 #### --distractors--
 
 `position: static;`
@@ -1061,9 +923,7 @@ Which of the following `position` values removes an element entirely from the do
 ### --question--
 
 #### --text--
-
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
-
+S obziма da imate element `.parent` i element `.child`, koji će CSS isječak pravilno pozicionirati `.child` na 20px od gornjeg levog ugla elementa `.parent`?
 #### --distractors--
 
 ```css
@@ -1119,31 +979,23 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 ### --question--
 
 #### --text--
-
-What is the difference between `static` and `relative` positioning?
-
+Koja je razlika između `static` i `relative` pozicioniranja?
 #### --distractors--
-
-`static` positioning removes an element from the document flow, while `relative` positioning keeps it in the flow.
-
----
-
-An element with `position: static;` can be offset with the `top` and `left` properties, while `position: relative;` cannot.
+``static`` pozicioniranje uklanja element iz protoka dokumenta, dok ``relative`` pozicioniranje zadržava element u toku.
 
 ---
 
-`static` positioning is for block-level elements, while `relative` positioning is only intended for inline elements.
+Element sa `position: static;` može biti pomeren pomoću svojstava `top` i `left`, dok to za `position: relative;` nije moguće.
 
+---
+
+``static` positioning je za elemente na nivou bloka, dok je ``relative`` pozicioniranje namenjeno samo ugradnim elementima.`
 #### --answer--
-
-Both keep an element in the normal document flow, but `relative` allows the element to be offset from its original position.
-
+Oboje zadržavaju element u normalnom protoku dokumenta, ali `relative` omogućava da se element pomeri sa svoje originalne pozicije.
 ### --question--
 
 #### --text--
-
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
-
+Koji CSS kodčić pravilno postavlja (float-uje) sliku na lijevo, omogućavajući ostalom sadržaju da se oko nje savija?
 #### --distractors--
 
 ```css
@@ -1180,31 +1032,23 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 ### --question--
 
 #### --text--
-
-What is the difference between `absolute` and `fixed` positioning?
-
+Koja je razlika između `absolute` i `fixed` pozicioniranja?
 #### --distractors--
-
-`absolute` positioning is relative to the viewport, while `fixed` positioning is relative to the nearest positioned ancestor.
-
----
-
-`absolute` positioning keeps the element in the normal document flow, while `fixed` positioning removes it from the flow.
+``absolute`` pozicioniranje je relativno u odnosu na viewport, dok je ``fixed`` pozicioniranje relativno u odnosu na najbližeg pozicioniranog predaka.
 
 ---
 
-Both are positioned relative to the viewport, but `fixed` elements will scroll with the page while `absolute` elements will not.
+Pozicioniranje ``absolute`` zadržava element u normalnom protoku dokumenta, dok pozicioniranje ``fixed`` ga uklanja iz tog protoka.
 
+---
+
+Oba su pozicionirana relativno na *viewport*, ali elementi sa ``fixed`` će se pomerati zajedno sa stranicom, dok elementi sa ``absolute`` neće.
 #### --answer--
-
-`absolute` positioning is relative to the nearest positioned ancestor, while `fixed` positioning is relative to the browser viewport.
-
+`absolute` pozicioniranje je relativno u odnosu na najbližeg pozicioniranog predaka, dok `fixed` pozicioniranje je relativno u odnosu na prozor pregledača.
 ### --question--
 
 #### --text--
-
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
-
+Koja `position` vrednost postavlja element u normalan tok dokumenta i sprečava da svojstva pomaka, kao što su `top` i `left`, imaju bilo kakav uticaj?
 #### --distractors--
 
 `position: relative;`

@@ -1,14 +1,12 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: Test iz osnova CSS-a
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,31 +14,23 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What does CSS stand for?
-
+Šta znači CSS?
 #### --distractors--
-
-Cascading Style Script
-
----
-
-Concatenating Style Script
+Kaskadna skripta stila
 
 ---
 
-Castor Sage Style
+Konkatenacija Stilskih Skripti
 
+---
+
+Castor Sage Stil
 #### --answer--
-
-Cascading Style Sheets
-
+Kasadni listovi stilova
 ### --question--
 
 #### --text--
-
-Which of the following is a correct CSS rule?
-
+Koja od sledećih je ispravno CSS pravilo?
 #### --distractors--
 
 `p=red`
@@ -60,31 +50,23 @@ Which of the following is a correct CSS rule?
 ### --question--
 
 #### --text--
-
-What does `<meta name="viewport">` do?
-
+Šta radi `<meta name="viewport">`?
 #### --distractors--
-
-It links external stylesheets to a webpage for responsive design.
-
----
-
-It specifies the metadata used by search engines to index a webpage.
+Povezuje eksterne stilove sa web stranicom radi responsivnog dizajna.
 
 ---
 
-It specifies the character encoding used on the webpage.
+On određuje metadata koje koriste pretraživači za indeksiranje web stranice.
 
+---
+
+Definiše kodiranje znakova korišćeno na veb stranici.
 #### --answer--
-
-It controls the shape and size of a web page on different screen sizes.
-
+Upravlja oblikom i veličinom web stranice na različitim veličinama ekrana.
 ### --question--
 
 #### --text--
-
-Which syntax is correct to use inline CSS?
-
+Koja sintaksa je ispravna za korišćenje inline CSS-a?
 #### --distractors--
 
 `<p color =  blue></p>`
@@ -104,31 +86,23 @@ Which syntax is correct to use inline CSS?
 ### --question--
 
 #### --text--
-
-When using internal CSS, where is the `style` element placed within the HTML?
-
+Kada se koristi interni CSS, gde je element ``style`` postavljen unutar HTML-a?
 #### --distractors--
-
-In the `meta` element.
-
----
-
-In the `script` element.
+U `meta` elementu.
 
 ---
 
-In the `body` element.
+U elementu `script`.
 
+---
+
+U elementu `body`.
 #### --answer--
-
-In the `head` element.
-
+U `head` elementu.
 ### --question--
 
 #### --text--
-
-Which rule is correct for setting the width and height in CSS?
-
+Koji pravilo je tačno za određivanje širine i visine u CSS-u?
 #### --distractors--
 
 `height-width: 50px;`
@@ -148,9 +122,7 @@ Which rule is correct for setting the width and height in CSS?
 ### --question--
 
 #### --text--
-
-Which selector correctly targets `h1` elements only when inside a `div`?
-
+Koji selektor pravilno cilja elemente `h1` samo kada su unutar `div`?
 #### --distractors--
 
 `div, h1 {}`
@@ -170,9 +142,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 ### --question--
 
 #### --text--
-
-Which selector is correct to target direct children of a `footer`?
-
+Koji selektor je tačan za ciljanje direktnih potomaka elementa `footer`?
 #### --distractors--
 
 `footer ~ ul {}`
@@ -192,9 +162,7 @@ Which selector is correct to target direct children of a `footer`?
 ### --question--
 
 #### --text--
-
-Which selector is correct to target the next sibling of an `img`?
-
+Koji selektor je tačan za ciljanje sledećeg brata od `img`?
 #### --distractors--
 
 `img h1 {}`
@@ -214,9 +182,7 @@ Which selector is correct to target the next sibling of an `img`?
 ### --question--
 
 #### --text--
-
-Which selector is correct to target all siblings preceded by an `img` element?
-
+Koji selektor je ispravan za ciljanje svih suseda koji nastaju nakon `img` elementa?
 #### --distractors--
 
 `img > caption {}`
@@ -236,53 +202,39 @@ Which selector is correct to target all siblings preceded by an `img` element?
 ### --question--
 
 #### --text--
-
-What statement is TRUE about block-level elements?
-
+Koja tvrdnja je TAČNA za blok elemente?
 #### --distractors--
-
-Block-level elements stack horizontally by default.
-
----
-
-`width` and `height` properties usually do not apply to block-level elements unless you set their `display` property to `inline-block`.
+Elementi na nivou bloka podrazumevano se slažu horizontalno.
 
 ---
 
-Block-level elements cannot contain inline elements inside them.
+``width` i `height` svojstva obično ne važe za elemente nivoa bloka, osim ako ne postavite njihovo `display` svojstvo na `inline-block`.`
 
+---
+
+Blok elementi ne smeju sadržati inline elemente unutar sebe.
 #### --answer--
-
-Block-level elements start on a new line and take up the full width of their container.
-
+Elementi na nivou bloka počinju sa nove linije i zauzimaju punu širinu svog kontejnera.
 ### --question--
 
 #### --text--
-
-What statement is TRUE when using the `inline-block` value?
-
+Koja izjava je TAČNA kada se koristi vrednost `inline-block`?
 #### --distractors--
-
-Elements stack vertically, always taking up the full width of their container.
-
----
-
-Elements align horizontally but cannot apply vertical padding or margin.
+Elementi se slažu vertikalno, uvek zauzimajući punu širinu svog kontejnera.
 
 ---
 
-Elements respect width and height settings but cannot contain other elements inside them.
+Elementi se poravnaju horizontalno, ali ne dozvoljavaju primenu vertikalnog paddinga ili margine.
 
+---
+
+Elementi poštuju podešavanja širine i visine, ali ne mogu da sadrže druge elemente unutar sebe.
 #### --answer--
-
-Elements retain inline flow but allow setting width and height.
-
+Elementi zadržavaju protok na nivou linije (inline flow), ali omogućavaju postavljanje širine i visine.
 ### --question--
 
 #### --text--
-
-Given the following selectors, which has the highest specificity?
-
+Iz navedenih selektora, koji ima najveću specifičnost?
 #### --distractors--
 
 `div`
@@ -302,9 +254,7 @@ Given the following selectors, which has the highest specificity?
 ### --question--
 
 #### --text--
-
-Given the following selectors, which has the lowest specificity?
-
+Iz navedenih selektora, koji ima najmanju specifičnost?
 #### --distractors--
 
 `#id`
@@ -324,75 +274,55 @@ Given the following selectors, which has the lowest specificity?
 ### --question--
 
 #### --text--
-
-What does the `*` selector do?
-
+Šta radi selektor `*`?
 #### --distractors--
-
-Targets some elements on the page.
-
----
-
-Targets elements that have children on the page.
+Cilja na neke elemente na stranici.
 
 ---
 
-Targets all `p` elements on the page.
+Cilja elemente koji imaju potomke na stranici.
 
+---
+
+Cilja na sve `p` elemente na stranici.
 #### --answer--
-
-Targets all elements on the page.
-
+Cilja na sve elemente na stranici.
 ### --question--
 
 #### --text--
-
-What does `!important` do in CSS?
-
+Šta radi `!important` u CSS-u?
 #### --distractors--
-
-It makes the CSS rule work exclusively for inline styles and ignores styles defined in external or internal stylesheets.
-
----
-
-It disables all other CSS properties applied to the same element, effectively making it the only rule that affects the element's styling.
+CSS pravilo funkcioniše isključivo za inline stilove i ignoriše stilove definisane u eksternim ili internim listovima stilova.
 
 ---
 
-It applies only to a certain selector or group of elements.
+On onemogućava sva druga CSS svojstva primenjena na isti element, efektivno ga čineći jedinim pravilom koje utiče na stilizovanje tog elementa.
 
+---
+
+To se primenjuje samo na određeni selektor ili grupu elemenata.
 #### --answer--
-
-It overrides any other values applied to the property for that selector.
-
+Nadjačava bilo koje druge vrednosti primenjene na svojstvo za taj selektor.
 ### --question--
 
 #### --text--
-
-How does the CSS Cascade algorithm work?
-
+Kako funkcioniše algoritam CSS kaskade?
 #### --distractors--
-
-It determines styles of the element based on order of declaration, regardless of other factors.
-
----
-
-It applies styles based solely on the order they are written, ignoring specificity.
+Određuje stilove elementa na osnovu reda deklaracije, bez obzira na druge faktore.
 
 ---
 
-It applies styles prioritizing specificity, ignoring origin and relevance.
+Primjenjuje stilove isključivo na osnovu redosleda u kojem su napisani, ignorisanjem specifičnosti.
 
+---
+
+Primjenjuje stilove prioritetizujući specifičnost, ignorisanjem porekla i relevantnosti.
 #### --answer--
-
-It determines styles of the element based on specificity and order of declaration.
-
+Određuje stilove elementa na osnovu specifičnosti i redosleda deklaracije.
 ### --question--
 
 #### --text--
-
-Which rule applies `32px` of margin to all sides?
-
+Koje pravilo se primenjuje za marginu na sve strane?
 #### --distractors--
 
 `margin-top: 32px;`
@@ -412,9 +342,7 @@ Which rule applies `32px` of margin to all sides?
 ### --question--
 
 #### --text--
-
-Which rule applies `24px` padding to the top and bottom?
-
+Koje pravilo primenjuje `24px` padding za vrh i dno?
 #### --distractors--
 
 `padding: 24px;`
@@ -434,55 +362,43 @@ Which rule applies `24px` padding to the top and bottom?
 ### --question--
 
 #### --text--
-
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
-
+Za `padding: 10px 20px 30px 40px`, koji je tačan redosled vrednosti?
 #### --distractors--
-
-Right, Top, Left, Bottom.
-
----
-
-Top, Left, Bottom, Right.
+Desno, Gore, Levo, Dole.
 
 ---
 
-Top, Bottom, Right, Left.
+Gornji, Levi, Donji, Desni.
 
+---
+
+Gornji, Donji, Desni, Levi.
 #### --answer--
-
-Top, Right, Bottom, Left.
+Gornji, Desni, Donji, Levi.
 
 ## --quiz--
 
 ### --question--
 
 #### --text--
-
-What are the main parts of a CSS rule?
-
+Koji su glavni delovi CSS pravila?
 #### --distractors--
-
-Elements and attributes
-
----
-
-Style and sheets
+Elementi i atributi
 
 ---
 
-Scripts and values
+Stil i listovi
 
+---
+
+Skripte i vrednosti
 #### --answer--
-
 Selectors and declaration blocks
-
+Selektori i blokovi deklaracija
 ### --question--
 
 #### --text--
-
-Which of the following is the correct syntax for a CSS rule?
-
+Koji od sledećih je ispravna sintaksa za CSS pravilo?
 #### --distractors--
 
 ```css
@@ -518,31 +434,23 @@ body {
 ### --question--
 
 #### --text--
-
-What are default browser styles?
-
+Šta su podrazumevani stilovi pregledača?
 #### --distractors--
-
-HTML elements that have the same styling properties regardless of the browser.
-
----
-
-They are mandatory styles that you must use for specific HTML elements.
+HTML elementi koji poseduju iste stilizacione karakteristike bez obzira na pretraživač.
 
 ---
 
-They are the color themes for the various browsers.
+To su obavezni stilovi koje morate koristiti za specifične HTML elemente.
 
+---
+
+To su teme boja za razne pretraživače.
 #### --answer--
-
-The CSS rules that browsers apply automatically.
-
+Pravila CSS-a koja pregledači automatski primenjuju.
 ### --question--
 
 #### --text--
-
-What is the default value for the `width` property?
-
+Koja je podrazumevana vrednost za svojstvo `width`?
 #### --distractors--
 
 `none`
@@ -562,53 +470,39 @@ What is the default value for the `width` property?
 ### --question--
 
 #### --text--
-
-What does the `min-height` property specify?
-
+Šta svojstvo `min-height` definiše?
 #### --distractors--
-
-The starting height for an element.
-
----
-
-The height for an element.
+Početna visina za element.
 
 ---
 
-The maximum height for an element.
+Visina za element.
 
+---
+
+Maksimalna visina za element.
 #### --answer--
-
-The minimum height for an element.
-
+Minimalna visina za element.
 ### --question--
 
 #### --text--
-
-Which of the following is TRUE about the universal selector `*`?
-
+Koje od sledećih je TAČNO za univerzalni selektor `*`?
 #### --distractors--
-
-It has the highest specificity because it can style all the elements on a page.
-
----
-
-It contributes 1 to all parts of the specificity value.
+Ima najvišu specifičnost jer može stilizovati sve elemente na stranici.
 
 ---
 
-It cannot reset styles across different browsers.
+Doprinosi 1 svim delovima vrednosti specifičnosti.
 
+---
+
+Ne može da resetuje stilove u različitim pregledačima.
 #### --answer--
-
-It has the lowest specificity value of any selector.
-
+Ima najnižu vrednost specifičnosti među svim selektorima.
 ### --question--
 
 #### --text--
-
-Which selector correctly targets `li` elements for an ordered list?
-
+Koji selektor pravilno cilja elemente `li` za ukrasnu listu?
 #### --distractors--
 
 `li {}`
@@ -628,9 +522,7 @@ Which selector correctly targets `li` elements for an ordered list?
 ### --question--
 
 #### --text--
-
-Which selector targets the paragraph elements of a `div` element?
-
+Koji selektor cilja na paragraf elemente elementa `div`?
 #### --distractors--
 
 `p div {}`
@@ -650,119 +542,87 @@ Which selector targets the paragraph elements of a `div` element?
 ### --question--
 
 #### --text--
-
-Where does the `margin` apply styling properties?
-
+Gde ``margin`` primenjuje svojstva stila?
 #### --distractors--
-
-The space inside the element.
-
----
-
-Between the content and the border.
+Prostor unutar elementa.
 
 ---
 
-On the border of the element.
+Između sadržaja i granice.
 
+---
+
+Na obodu elementa.
 #### --answer--
-
-The space outside the element.
-
+Prostor izvan elementa.
 ### --question--
 
 #### --text--
-
-Where does the `padding` property apply styling?
-
+Gde svojstvo ``padding`` primenjuje stilizovanje?
 #### --distractors--
-
-Between the element's border and the surrounding elements.
-
----
-
-The space outside the element.
+Između granice elementa i okolnih elemenata.
 
 ---
 
-On the border of the element.
+Prostor izvan elementa.
 
+---
+
+Na obodu elementa.
 #### --answer--
-
-The space inside the element.
-
+Prostor unutar elementa.
 ### --question--
 
 #### --text--
-
-Which statement is FALSE about block-level elements?
-
+Koja tvrdnja je NETAČNA o elementima na nivou bloka?
 #### --distractors--
-
-They can stretch to fit the width of their container.
-
----
-
-Common block-level elements include `div`, `p`, and `section`.
+Mogu se proširiti da odgovore širini svog kontejnera.
 
 ---
 
-Block-level elements start on a new line and take up the full width of their container.
+Uobičajeni elementi na nivou bloka uključuju `div`, `p`, i `section`.
 
+---
+
+Elementi na nivou bloka počinju sa nove linije i zauzimaju punu širinu svog kontejnera.
 #### --answer--
-
-They cannot take up the full width available as they are blocked from doing so.
-
+Ne mogu zauzeti punu dostupnu širinu jer im je to onemogućeno/blokirano.
 ### --question--
 
 #### --text--
-
-Which statement is FALSE when using the `inline-block` value?
-
+Koja izjava je NETAČNA kada se koristi vrednost `inline-block`?
 #### --distractors--
-
-`inline-block` elements behave like inline elements.
-
----
-
-They can have `width` and `height` properties.
+`inline-block` elementi se ponašaju kao ulinjani elementi.
 
 ---
 
-Elements retain inline flow but allow setting `width` and `height`.
+Mogu imati svojstva `width` i `height`.
 
+---
+
+Elementi zadržavaju inline protok, ali omogućavaju podešavanje `width` i `height`.
 #### --answer--
-
-They do not share properties with inline or block-level elements.
-
+Oni ne dele svojstva sa inline ili blok nivo elementima.
 ### --question--
 
 #### --text--
-
-Which is TRUE about the `!important` keyword?
-
+Šta je TAČNO o ključnoj reči `!important`?
 #### --distractors--
-
-They are used to make comments for an important CSS property.
-
----
-
-They make sure a CSS property has the correct syntax.
+Koriste se za pravljenje komentara za važno CSS svojstvo.
 
 ---
 
-They make CSS rules easier to maintain.
+Obezbeđuju da CSS svojstvo ima ispravnu sintaksu.
 
+---
+
+Olakšavaju održavanje CSS pravila.
 #### --answer--
-
-They override the specificity of other selectors.
-
+Nadjačavaju specifičnost drugih selektora.
 ### --question--
 
 #### --text--
-
-What character precedes a class selector name?
-
+Koji znak prethodi imenu selektora klase?
 #### --distractors--
 
 `#`
@@ -782,55 +642,40 @@ What character precedes a class selector name?
 ### --question--
 
 #### --text--
-
-Which is FALSE about inline-level elements?
-
+Šta je NETAČNO za inline elemente?
 #### --distractors--
-
-They take up only as much space as they need.
-
----
-
-They do not start on a new line.
+Zauzimaju samo onoliko prostora koliko je potrebno.
 
 ---
 
-Common inline elements include `span` and `img`.
+Ne počinju na novoj liniji.
 
+---
+
+Uobičajeni inline elementi uključuju `span` i `img`.
 #### --answer--
-
-They always start on a new line.
-
+Uvek počinju na novoj liniji.
 ### --question--
 
 #### --text--
-
-Where are internal CSS styles accessed?
-
+Gde su dostupni interni CSS stilovi?
 #### --distractors--
-
-They are styles that are important to the project, so are not shared externally.
-
----
-
-Since they form the core styling of the project, they are saved in the `styles.css` file so other web pages can access them.
+Ovo su stilovi koji su važni za projekat, pa se ne dele spolja.
 
 ---
 
-They are stored inside the `body` element when there is only one web page to style.
+Budući da čine osnovni stil projekta, sačuvani su u fajlu ``styles.css`` kako bi druge veb stranice mogle da im pristupe.
 
+---
+
+Oni su skladišteni unutar elementa `body` kada postoji samo jedna veb stranica za stilizovanje.
 #### --answer--
-
-They are written within the `style` section within the `head` element.
-
+Napisani su unutar sekcije `style` unutar elementa `head`.
 ### --question--
 
 #### --text--
-
-What is the order for applying the `padding` property when using the shorthand syntax?
-
+Koji je redosled za primenu svojstva ``padding`` kada se koristi skraćena sintaksa?
 #### --distractors--
-
 `top`, `bottom`, `left`, `right`
 
 ---
@@ -840,19 +685,13 @@ What is the order for applying the `padding` property when using the shorthand s
 ---
 
 `right`, `top`, `left`, `bottom`
-
 #### --answer--
-
 `top`, `right`, `bottom`, `left`
-
 ### --question--
 
 #### --text--
-
-What is the order for applying the `margin` property when using the shorthand syntax?
-
+Koji je redosled za primenu svojstva ``margin`` kada se koristi skraćena sintaksa?
 #### --distractors--
-
 `left`, `right`, `top`, `bottom`
 
 ---
@@ -862,39 +701,28 @@ What is the order for applying the `margin` property when using the shorthand sy
 ---
 
 `top`, `bottom`, `left`, `right`
-
 #### --answer--
-
 `top`, `right`, `bottom`, `left`
-
 ### --question--
 
 #### --text--
-
-What are inline CSS styles used for?
-
+Za šta se koriste inline CSS stilovi?
 #### --distractors--
-
-They are used to style inline elements only.
-
----
-
-They are used to style elements only when they all appear on the same line of the browser viewport.
+Koriste se samo za stilizovanje uline elemenata.
 
 ---
 
-They are used to resolve the issue with separation of concerns.
+Koriste se za stilizovanje elemenata samo kada su svi prikazani na istoj liniji viewporta pregledača.
 
+---
+
+Koriste se za rešavanje problema sa razdvajanjem odgovornosti.
 #### --answer--
-
-They are used to directly style within the element, instead of using internal or external CSS.
-
+Koriste se za direktno stilizovanje unutar elementa, umesto korišćenja internog ili eksternog CSS-a.
 ### --question--
 
 #### --text--
-
-What symbol precedes the ID selector?
-
+Koji simbol prethodi ID selektoru?
 #### --distractors--
 
 `.`

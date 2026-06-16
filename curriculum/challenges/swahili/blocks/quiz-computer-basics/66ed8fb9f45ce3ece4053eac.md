@@ -1,14 +1,12 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: Test iz Osnova Računarstva
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,99 +14,72 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What part of a computer is used to connect the other internal components together?
-
+Koji deo računara se koristi za povezivanje ostalih internih komponenti?
 #### --distractors--
-
-Processor
-
----
-
-Graphics card
+Procesor
 
 ---
 
-Memory
+Grafička kartica
 
+---
+
+Memorija
 #### --answer--
-
-Motherboard
-
+Matična ploča
 ### --question--
 
 #### --text--
-
-What are browser developer tools?
-
+Šta su alati za razvoj u pregledaču?
 #### --distractors--
-
-Tools for editing browser settings and managing user profiles.
-
----
-
-Utilities for blocking ads and improving web page performance.
+Alati za uređivanje podešavanja pretraživača i upravljanje profilima korisnika.
 
 ---
 
-Software for managing browser extensions and plug-ins.
+Alati za blokiranje oglasa i poboljšanje performansi web stranica.
 
+---
+
+Softver za upravljanje ekstenzijama i dodacima pregledača.
 #### --answer--
-
-Built-in features in browsers that help developers debug and inspect websites.
-
+Ugrađeni alati u pregledačima koji pomažu programerima da debaguju i inspekcionišu veb sajtove.
 ### --question--
 
 #### --text--
-
-Which of the following ISP connections are typically the fastest?
-
+Koja od sledećih ISP konekcija je obično najbrža?
 #### --distractors--
-
 DSL
 
 ---
 
-Satellite
+Satelit
 
 ---
 
-Cable
-
+Kablo
 #### --answer--
-
-Fiber optic
-
+Optično vlakno
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a safe practice when signing in?
-
+Koju od sledećih praksi NIKAKO nije sigurna prilikom prijave?
 #### --distractors--
-
-Using a fingerprint or face scanner.
-
----
-
-Making a long and complex password like `@ppl3_+B@nana34823`.
+Korišćenje otiska prsta ili skenera lica.
 
 ---
 
-Setting up two-factor authentication (2FA).
+Kreiranje duge i složene lozinke kao `@ppl3_+B@nana34823`.
 
+---
+
+Postavljanje dvofaktorične autentifikacije (2FA).
 #### --answer--
-
-Using passwords based on personal information like your birthday.
-
+Korišćenje lozinki baziranih na ličnim podacima, kao što je vaš rođendan.
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a web browser?
-
+Koja od sledećih nije veb pregledač?
 #### --distractors--
-
 Safari
 
 ---
@@ -118,19 +89,13 @@ Opera
 ---
 
 Microsoft Edge
-
 #### --answer--
-
 Google Drive
-
 ### --question--
 
 #### --text--
-
-When you need to edit a piece of code, which of the following are you most likely going to use?
-
+Kada treba da uredite deo koda, koji od sledećih je najverovatnije da ćete koristiti?
 #### --distractors--
-
 Node Package Manager
 
 ---
@@ -140,19 +105,13 @@ Microsoft Edge
 ---
 
 GitHub
-
 #### --answer--
-
 Visual Studio Code
-
 ### --question--
 
 #### --text--
-
-Which of the following is used primarily for managing files stored on a local hard drive?
-
+Koji od sledećih se koristi prvenstveno za upravljanje fajlovima sačuvanim na lokalnom tvrdom disku?
 #### --distractors--
-
 Dropbox
 
 ---
@@ -162,105 +121,76 @@ Microsoft OneDrive
 ---
 
 Google Drive
-
 #### --answer--
-
-Windows File Explorer
-
+Windows Pregledač fajlova
 ### --question--
 
 #### --text--
-
-What is NOT a good practice when naming files?
-
+Koja NIJE dobra praksa prilikom imenovanja fajlova?
 #### --distractors--
-
-Putting an underscore or hyphen between words.
-
----
-
-Using a consistent casing style such as camelCase.
+Stavljanje podvlači ili kraće crte između reči.
 
 ---
 
-Putting a version number at the end of a document like `summaryReport_v2.docx`.
+Upotreba doslednog stila imenovanja, kao što je camelCase.
 
+---
+
+Dodavanje broja verzije na kraj dokumenta, poput `summaryReport_v2.docx`.
 #### --answer--
-
-Using non-descriptive names like `file1.txt`.
-
+Korišćenje imena koja nisu opisna, kao što je `file1.txt`.
 ### --question--
 
 #### --text--
-
-What does the term "domain name" refer to?
-
+Na šta se odnosi termin "domenično ime"?
 #### --distractors--
-
-A type of software that manages website files and databases.
-
----
-
-The physical location of a web server in a data center.
+Vrsta softvera koja upravlja fajlovima veb-sajta i bazama podataka.
 
 ---
 
-None of the other choices.
+Fizička lokacija web servera u centru za podatke.
 
+---
+
+Nijedan od ostalih izbora.
 #### --answer--
-
-The address used to identify websites on the internet.
-
+Adresa koja se koristi za identifikovanje veb-sajtova na internetu.
 ### --question--
 
 #### --text--
-
-Which of the following is a way to send a file to the Recycle Bin/Trash?
-
+Koji od sledećih načina služi za slanje fajla u Korpu za smeće/Košaricu?
 #### --distractors--
-
-All of the other choices.
-
----
-
-Pressing the `Backspace` key on the keyboard.
+Ostale opcije.
 
 ---
 
-Moving it to an Archived folder.
+Pritiskanjem tastera `Backspace` na tastaturi.
 
+---
+
+Premeštanje u arhivsku fasciklu.
 #### --answer--
-
-Right-click on it and select the Delete/Move to trash option.
-
+Desnim klikom ga označite i izaberite opciju Brisanje/Premestiti u smeće.
 ### --question--
 
 #### --text--
-
-What is RAM?
-
+Šta je RAM?
 #### --distractors--
-
-A network protocol used for transferring files between devices.
-
----
-
-A permanent storage device used for saving files and applications.
+Mrežni protokol koji se koristi za prenos fajlova između uređaja.
 
 ---
 
-A component in a computer responsible for generating graphics and rendering images.
+Uređaj za trajno skladištenje koji se koristi za čuvanje fajlova i aplikacija.
 
+---
+
+Komponenta računara koja je odgovorna za generisanje grafike i renderovanje slika.
 #### --answer--
-
-A temporary memory for fast data access by the processor.
-
+Privremena memorija za brzi pristup podacima od strane procesora.
 ### --question--
 
 #### --text--
-
-What file type will be best suited for writing a `README` file?
-
+Koji je najbolji tip fajla za pisanje fajla `README`?
 #### --distractors--
 
 `.php`
@@ -280,275 +210,208 @@ What file type will be best suited for writing a `README` file?
 ### --question--
 
 #### --text--
-
-What is an Integrated Development Environment (IDE)?
-
+Šta je integrisano razvojno okruženje (IDE)?
 #### --distractors--
-
-A platform designed for deploying and hosting web applications.
-
----
-
-A type of hardware device used for testing and debugging electronic circuits.
+Platforma dizajnirana za deplojaovanje i hostovanje veb aplikacija.
 
 ---
 
-A version control system that helps developers track changes in source code during software development.
+Vrsta hardverskog uređaja koji se koristi za testiranje i debagovanje elektronskih kola.
 
+---
+
+Sistem za kontrolu verzija koji pomaže programerima da prate promene u izvornom kodu tokom razvoja softvera.
 #### --answer--
-
-A program that integrates tools for writing, debugging, and running code.
-
+Program koji integriše alate za pisanje, debugovanje i pokretanje koda.
 ### --question--
 
 #### --text--
-
-What is a piece of software that allows you to look at online content called?
-
+Kako se naziva softver koji vam omogućava da pregledate onlajn sadržaj?
 #### --distractors--
-
-Internet content displayer
-
----
-
-Search engine
+Prikazivač sadržaja Interneta
 
 ---
 
-Website
+Tražilica
 
+---
+
+Sajt
 #### --answer--
-
-Web browser
-
+Pretraživač veb stranica
 ### --question--
 
 #### --text--
-
-What is a piece of software that lists web pages related to a user's query called?
-
+Kako se zove softver koji navodi web stranice povezane sa upitom korisnika?
 #### --distractors--
-
 Page finder
 
 ---
 
-Web browser
+Web pregledač
 
 ---
 
-Website
-
+Sajt
 #### --answer--
-
-Search engine
-
+Pretraživač
 ### --question--
 
 #### --text--
-
-What is a set of one or more web pages under one domain name called?
-
+Šta se naziva skup od jednog ili više veb stranica koji spadaju pod jedan domen?
 #### --distractors--
-
-Web browser
-
----
-
-Hyperlink
+Pretraživač veb stranica
 
 ---
 
-Search engine
+Hiperlink
 
+---
+
+Pretraživač
 #### --answer--
-
-Website
-
+Sajt
 ### --question--
 
 #### --text--
-
-To search for an exact phrase, what should you enclose your search query with?
-
+Da biste pretražili tačnu frazu, sa čim trebate okviriti svoj upit za pretragu?
 #### --distractors--
-
-Backticks
-
----
-
-Parentheses
+Backtickovi
 
 ---
 
-Brackets
+Zagrade
 
+---
+
+Zagrade
 #### --answer--
-
-Quotation marks
-
+Navodnici
 ### --question--
 
 #### --text--
-
-Which is NOT a way to install a web browser?
-
+Koji NIJE način za instaliranje web pretraživača?
 #### --distractors--
-
-Using a package manager.
-
----
-
-Directly downloading from the website.
+Upotreba menadžera paketa.
 
 ---
 
-Using an App Store like Microsoft Store.
+Preuzimanje direktno sa veb sajta.
 
+---
+
+Upotreba App Store-a poput Microsoft Store-a.
 #### --answer--
-
-Pressing the Network/Internet button in Settings.
-
+Pritiskanjem dugmeta Mreža/Internet u Podešavanjima.
 ### --question--
 
 #### --text--
-
-Which of the following formats does NOT preserve image quality after compression?
-
+Koji od sledećih formata NE zadržava kvalitet slike nakon kompresije?
 #### --distractors--
-
-All of the other choices.
+Ostale opcije.
 
 ---
 
+```
 PNG
+```
 
 ---
 
+```
 SVG
-
+```
 #### --answer--
-
+```
 JPEG
-
+```
 ### --question--
 
 #### --text--
-
-Which of the following parts is located in a socket on the motherboard?
-
+Koji od navedenih delova se nalazi u soketu na matičnoj ploči?
 #### --distractors--
-
-The router
-
----
-
-The keyboard
+Ruter
 
 ---
 
-The hard drive (HDD)
+Tastatura
 
+---
+
+Hard disk (HDD)
 #### --answer--
-
-The CPU
+Procesor
 
 ## --quiz--
 
 ### --question--
 
 #### --text--
-
-Which of the following is a basic part of the computer?
-
+Koja od sledećih je osnovni deo računara?
 #### --distractors--
-
-The word processor
-
----
-
-The task manager
+Tekstarni procesor
 
 ---
 
-The memory manager
+Menadžer zadataka
 
+---
+
+Upravljač memorijom
 #### --answer--
-
-The central processing unit
-
+Jedinica za centralnu obradu
 ### --question--
 
 #### --text--
-
-What is a pointing device for a computer?
-
+Šta je uređaj za pokazivanje za računar?
 #### --distractors--
-
-A stick for pointing at computers
-
----
-
-A retractable device used in PowerPoint presentations
+Šapica/Pointer za pokazivanje na računare
 
 ---
 
-A laser pointer
+Povlačni uređaj koji se koristi u prezentacijama PowerPoint-a
 
+---
+
+Laser pokazivač
 #### --answer--
-
-A mouse or touchpad
-
+Miš ili touchpad
 ### --question--
 
 #### --text--
-
-What is a type of ISP?
-
+Koja je vrsta ISP-a?
 #### --distractors--
-
-Satellite
+Satelit
 
 ---
 
-Fiber optic
+Optično vlakno
 
 ---
 
 Dial-up
-
 #### --answer--
-
-Tier 1
-
+Nivo 1
 ### --question--
 
 #### --text--
-
-What is a best practice when naming files for a web application?
-
+Koja je najbolja praksa prilikom imenovanja fajlova za web aplikaciju?
 #### --distractors--
-
-Using special characters.
-
----
-
-Using spaces to separate the words.
+Korišćenje specijalnih znakova.
 
 ---
 
-Using generic words.
+Korišćenje razmaka za razdvajanje reči.
 
+---
+
+Korišćenje opštih reči.
 #### --answer--
-
-Using hyphens instead of spaces.
-
+Korišćenje crtica umesto razmaka.
 ### --question--
 
 #### --text--
-
-Which of the following is a common file type when working with web applications?
-
+Koji od sledećih je uobičajen tip fajla kada radite sa veb aplikacijama?
 #### --distractors--
 
 `.xls`
@@ -568,9 +431,7 @@ Which of the following is a common file type when working with web applications?
 ### --question--
 
 #### --text--
-
-What is a common file type for a video file?
-
+Koja je uobičajena ekstenzija fajla za video snimak?
 #### --distractors--
 
 `.vid`
@@ -590,9 +451,7 @@ What is a common file type for a video file?
 ### --question--
 
 #### --text--
-
-Which of the following types is commonly used for image files?
-
+Koji od sledećih tipova se najčešće koristi za fajlove slika?
 #### --distractors--
 
 `.pix`
@@ -612,11 +471,8 @@ Which of the following types is commonly used for image files?
 ### --question--
 
 #### --text--
-
-Microsoft Edge is the default web browser of which operating system?
-
+Koji je operativni sistem čiji je podrazumevani veb pregledač Microsoft Edge?
 #### --distractors--
-
 Linux
 
 ---
@@ -626,41 +482,29 @@ macOS
 ---
 
 Unix
-
 #### --answer--
-
 Windows
-
 ### --question--
 
 #### --text--
-
-What is a search engine?
-
+Šta je pretražni sistem?
 #### --distractors--
-
-A part of the hard drive of a computer.
-
----
-
-Advanced software that is only used by academic researchers.
+Deo tvrdog diska računara.
 
 ---
 
-A tool for finding web components.
+Napredni softver koji se koristi isključivo od strane akademskih istraživača.
 
+---
+
+Alat za pronalaženje web komponenti.
 #### --answer--
-
-A web-based tool for searching information on the internet.
-
+Web alat za pretraživanje informacija na internetu.
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a type of browser?
-
+Koji od sledećih nije tip pregledača?
 #### --distractors--
-
 Google Chrome
 
 ---
@@ -670,19 +514,13 @@ Mozilla Firefox
 ---
 
 Microsoft Edge
-
 #### --answer--
-
 GitHub
-
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a cloud-based hosting service for repositories?
-
+Koja od sledećih NIJE usluga za hostovanje u oblaku (cloud) za repozitorijume?
 #### --distractors--
-
 GitHub
 
 ---
@@ -692,83 +530,60 @@ GitLab
 ---
 
 Bitbucket
-
 #### --answer--
-
 Ona
-
 ### --question--
 
 #### --text--
-
-Which of the following is NOT primarily a part of an integrated development environment?
-
+Koji od sledećih nije primarno deo integrisanog razvojnog okruženja?
 #### --distractors--
-
-A tool for writing.
-
----
-
-A tool for testing code.
+Alat za pisanje.
 
 ---
 
-A tool for debugging code.
+Alat za testiranje koda.
 
+---
+
+Alat za debugovanje koda.
 #### --answer--
-
-A tool for storing code.
-
+Alat za skladištenje koda.
 ### --question--
 
 #### --text--
-
-What is a best practice for naming files?
-
+Koja je najbolja praksa za imenovanje fajlova?
 #### --distractors--
-
-Creating a script that uses the same file names for all your projects.
-
----
-
-Naming the main file with the same name as the folder it is in.
+Kreiranje skripte koja koristi iste imena fajlova za sve vaše projekte.
 
 ---
 
-Using a unique sequence of numbers at the end of the file name.
+Nazivanje glavnog fajla sa istim imenom kao i folder u kojem se nalazi.
 
+---
+
+Korišćenje jedinstvene sekvence brojeva na kraju imena fajla.
 #### --answer--
-
-Using a descriptive name for each file.
-
+Upotreba opisnog imena za svaki fajl.
 ### --question--
 
 #### --text--
-
-What is the built-in way you can use to search for files on your computer?
-
+Koji je ugrađeni način koji možete koristiti za pretraživanje fajlova na vašem računaru?
 #### --distractors--
-
-Google or Firefox
+Google ili Firefox
 
 ---
 
-A search engine
+Pretraživač
 
 ---
 
 GitHub
-
 #### --answer--
-
-The file explorer
-
+Pregledač fajlova
 ### --question--
 
 #### --text--
-
-What is a common search strategy to search for file types?
-
+Koja je uobičajena strategija pretrage za traženje tipova fajlova?
 #### --distractors--
 
 `site:`
@@ -788,9 +603,7 @@ What is a common search strategy to search for file types?
 ### --question--
 
 #### --text--
-
-What is the default page for a website?
-
+Šta je podrazumevana stranica za veb sajt?
 #### --distractors--
 
 `styles.css`
@@ -810,75 +623,55 @@ What is the default page for a website?
 ### --question--
 
 #### --text--
-
-Which file managers can you use to create, move, and delete files?
-
+Koje menadžere fajlova možete koristiti za kreiranje, premeštanje i brisanje fajlova?
 #### --distractors--
-
-Google or Bing
-
----
-
-Windows or macOS
+Google ili Bing
 
 ---
 
-Findex or Firefox
+Windows ili macOS
 
+---
+
+Findex ili Firefox
 #### --answer--
-
-Explorer or Finder
-
+Istraživač ili Pronalazač
 ### --question--
 
 #### --text--
-
-What is Git?
-
+Šta je Git?
 #### --distractors--
-
-A centralized storage location for code repositories.
-
----
-
-A tool for adding, updating, and removing libraries and project dependencies.
+Centralizovano mesto za skladištenje kodnih repozitorijuma.
 
 ---
 
-A cloud-based hosting service for repositories.
+Alat za dodavanje, ažuriranje i uklanjanje biblioteka i zavisnosti projekta.
 
+---
+
+Cloud-bazirana hosting usluga za repozitorijume.
 #### --answer--
-
-A version control system for tracking changes and collaborating with others.
-
+Sistem kontrole verzija za praćenje promena i saradnju sa drugima.
 ### --question--
 
 #### --text--
-
-What is random access memory?
-
+Šta je memorija nasumičnog pristupa?
 #### --distractors--
-
-A permanent storage location that is used to store data.
-
----
-
-A volatile way to access data in a sequential manner.
+Lokacija koja se koristi za trajno skladištenje podataka.
 
 ---
 
-A processor used for generating passwords.
+Volatilni način pristupa podacima sekvencijalnim putem.
 
+---
+
+Procesor namenjen za generisanje lozinki.
 #### --answer--
-
-A temporary storage location for the computer's central processing unit.
-
+Privremeno skladišni prostor za centralnu procesorsku jedinicu računara.
 ### --question--
 
 #### --text--
-
-Which file format is used to compress files?
-
+Koji format fajla se koristi za kompresovanje fajlova?
 #### --distractors--
 
 `TTF`

@@ -1,14 +1,12 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: Kviz o funkcijama višeg reda u JavaScriptu
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,52 +14,39 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-Which of the following statements about JavaScript higher-order functions is NOT true?
-
+Koja od sledećih tvrdnji o funkcijama višeg reda u JavaScriptu nije tačna?
 #### --distractors--
-
-Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
-
----
-
-Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+Funkcije višeg reda mogu značajno poboljšati čitljivost i održivost koda omogućavanjem tehnika funkcionalnog programiranja.
 
 ---
 
-Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+Funkcije višeg reda, kao što su `map`, `filter` i `reduce`, su moćni alati za manipulaciju nizovima, ali nisu jedinstveni samo za funkcionalno programiranje.
 
+---
+
+Funkcije višeg reda mogu uvesti složenost u razumevanje koda, ali takođe mogu dovesti do ekspresivnijih i konciznijih rešenja.
 #### --answer--
-
-All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
-
+Sve funkcije u JavaScriptu, uključujući one koje ne uzimaju niti vraćaju druge funkcije, mogu se klasifikovati kao funkcije višeg reda.
 ### --question--
 
 #### --text--
-
-What is a factory function in the context of higher order functions?
-
+Šta je factory funkcija u kontekstu funkcija višeg reda?
 #### --distractors--
-
-A function that creates new variables.
-
----
-
-A function that only works with strings.
+Funkcija koja stvara nove varijable.
 
 ---
 
-A function that automatically generates code comments.
+Funkcija koja radi isključivo sa stringovima.
 
+---
+
+Funkcija koja automatski generiše komentare koda.
 #### --answer--
-
-A function that returns a new function based on specific parameters
-
+Funkcija koja vraća novu funkciju na osnovu specifičnih parametara
 ### --question--
 
 #### --text--
-
-After code execution, what will be the value of `forEachRes` and `mapRes`?
+Nakon izvršavanja koda, koja će biti vrednost za `forEachRes` i `mapRes`?
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -75,34 +60,28 @@ const mapRes = numbers.map(num => {
 ```
 
 #### --distractors--
-
-`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
-
----
-
-`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` je `undefined` i `mapRes` je `[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes` je `0` i `mapRes` je `[1,2,3,4,5]`
 
+---
+
+`forEachRes` je `5` i `mapRes` je `[1,2,3,4,5]`
 #### --answer--
-
-`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
-
+`forEachRes` je `undefined` i `mapRes` je `[6,7,8,9,10]`
 ### --question--
 
 #### --text--
-
-What is the result of this code?
+Koji je rezultat ovog koda?
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
 ```
 
 #### --distractors--
-
-Unsupported elements for an array to be sorted, hence error.
+Nisu podržani elementi za sortiranje niza, zbog čega je nastala greška.
 
 ---
 
@@ -123,97 +102,71 @@ Callback not supplied, hence error.
 ### --question--
 
 #### --text--
-
-Which of the following describes a callback function in JavaScript?
-
+Koja od sledećih opisa callback funkciju u JavaScript-u?
 #### --distractors--
-
-A function that is called immediately upon declaration.
-
----
-
-A function that is invoked with a specific context.
+Funkcija koja se poziva odmah nakon deklaracije.
 
 ---
 
-A function that returns another function.
+Funkcija koja se poziva sa specifičnim kontekstom.
 
+---
+
+Funkcija koja vraća drugu funkciju.
 #### --answer--
-
-A function passed as an argument to another function, to be executed by that function's logic.
-
+Funkcija koja se prosleđuje kao argument drugoj funkciji i koja će biti izvršena logikom te funkcije.
 ### --question--
 
 #### --text--
-
-What is the result of using `reduce()` on an array?
-
+Koji je rezultat korišćenjem `reduce()` na nizu?
 #### --distractors--
-
-A boolean indicating whether any elements meet a condition.
-
----
-
-An array with all elements reduced by specified callback function.
+Booleanski tip podataka koji ukazuje da li bilo koji element zadovoljava određeni uslov.
 
 ---
 
-An array of booleans.
+Niz sa svim elementima redukovanim pomoću zadane funkcije povratne pozive.
 
+---
+
+Niz boolean vrednosti.
 #### --answer--
-
-It varies depending on the accumulator's initial value and the callback function.
-
+To zavisi od početne vrednosti akumulatora i funkcije povratnog poziva.
 ### --question--
 
 #### --text--
-
-How does the `sort()` method behave if no compare function is provided in numerical sorting?
-
+Kako se metoda `sort()` ponaša ako nije dostavljena funkcija za poređenje pri numeričkom sortiranju?
 #### --distractors--
-
-It fills the empty slots with `null`.
-
----
-
-It returns an array of special characters.
+Popunjava prazne utičnice sa `null`.
 
 ---
 
-It sorts the array in reverse order.
+Vraća niz specijalnih znakova.
 
+---
+
+Sortira niz u opadajućem redosledu.
 #### --answer--
-
-It sorts the array as strings based on UTF-16 code units.
-
+Sortira niz kao stringove na osnovu UTF-16 kodnih jedinica.
 ### --question--
 
 #### --text--
-
-What is the purpose of the `some()` method in JavaScript?
-
+Koja je svrha metode `some()` u JavaScript-u?
 #### --distractors--
-
-To create a new array with the results of a function applied to each element.
-
----
-
-To iterate through an array without producing a result.
+Kreiranje novog niza sa rezultatima funkcije primenjene na svaki element.
 
 ---
 
-To reduce an array to a single value based on a callback function.
+Iterirati kroz niz bez proizvodnje rezultata.
 
+---
+
+Redukuje niz na jednu vrednost zasnovano na funkciji povratne pozive.
 #### --answer--
-
-To determine if any elements in an array pass a specified test.
-
+Za određivanje da li bilo koji elementi u nizu zadovoljavaju određeni uslov/test.
 ### --question--
 
 #### --text--
-
-Which of the following is a valid example of method chaining?
-
+Koji od sledećih predstavlja validan primer metodskog lančevanja?
 #### --distractors--
 
 ```js
@@ -241,8 +194,7 @@ str.toLowerCase().trim().replace(' ', '_');
 ### --question--
 
 #### --text--
-
-What is the output of the following code?
+Koji je izlaz sledećeg koda?
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -271,97 +223,71 @@ numbers.forEach(function(number) {
 ### --question--
 
 #### --text--
-
-Which of the following is a benefit of method chaining?
-
+Koja od sledećih predstavlja prednost metodnog lančanja?
 #### --distractors--
-
-It inherently optimizes performance by reducing the execution time of functions.
-
----
-
-It eliminates the need for temporary variables, but may increase memory usage in some cases.
+Inherentno optimizuje performanse smanjenjem vremena izvršavanja funkcija.
 
 ---
 
-It allows for error handling and debugging to be more straightforward.
+Uklanja potrebu za privremenim varijablama, ali može povećati korišćenje memorije u nekim slučajevima.
 
+---
+
+Omogućava da je rukovanje greškama i debagiranje jednostavnije.
 #### --answer--
-
-It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
-
+Pomaže u pojednostavljanju sintakse i kreiranju čitljivijeg koda tako što omogućava više operacija unutar jednog izraza.
 ### --question--
 
 #### --text--
-
-How can you sort an array of objects by a specific property using the `sort` method?
-
+Kako možete sortirati niz objekata po specifičnom svojstvu koristeći metod ``sort``?
 #### --distractors--
-
-The `sort` method cannot sort objects.
-
----
-
-Use the `reverse` method after sorting.
+Metoda ``sort`` ne može da sortira objekte.
 
 ---
 
-Convert the objects to strings and sort them.
+Koristite metodu `reverse` nakon sortiranja.
 
+---
+
+Konvertujte objekte u stringove i sortirajte ih.
 #### --answer--
-
-Use a compare function that compares the property values.
-
+Koristite funkciju za poređenje koja poredi vrednosti svojstava.
 ### --question--
 
 #### --text--
-
-In method chaining, what is a common practice to enhance clarity and debugging?
-
+Kod lančovanja metoda, koja je uobičajena praksa za poboljšanje jasnoće i debagovanja?
 #### --distractors--
-
-Use fewer methods in the chain.
-
----
-
-Avoid chaining methods that return only primitive values.
+Koristite manje metoda u lancu.
 
 ---
 
-Use only built-in methods.
+Izbegavajte lančanje metoda koje vraćaju samo primitivne vrednosti.
 
+---
+
+Koristite samo ugrađene metode.
 #### --answer--
-
-Break long chains into multiple steps.
-
+Podeliti dugačke lance u više koraka.
 ### --question--
 
 #### --text--
-
-What is a potential downside of using method chaining excessively in your code?
-
+Koja je potencijalna mana prekomernog korišćenja metodnog lančanja u vašem kodu?
 #### --distractors--
-
-It makes the code run slower.
-
----
-
-It prevents the use of comments.
+To usporava izvršavanje koda.
 
 ---
 
-It makes the file size larger.
+Sprečava korišćenje komentara.
 
+---
+
+Povećava veličinu fajla.
 #### --answer--
-
-It can make the code harder to debug.
-
+Ovo može otežati debagovanje koda.
 ### --question--
 
 #### --text--
-
-Which method would you use to determine if all elements in an array are strings?
-
+Koja metoda biste koristili da utvrdite da li su svi elementi u nizu stringovi?
 #### --distractors--
 
 `some()`
@@ -381,8 +307,7 @@ Which method would you use to determine if all elements in an array are strings?
 ### --question--
 
 #### --text--
-
-What will be the value of `originalArray` after the following code is run?
+Koja će biti vrednost `originalArray` nakon izvršavanja sledećeg koda?
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -408,8 +333,7 @@ filteredArray[0].id = 4;
 ### --question--
 
 #### --text--
-
-What will be the value of `shortWords` after the following code is run?
+Koja će biti vrednost `shortWords` nakon izvršavanja sledećeg koda?
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -435,65 +359,48 @@ const shortWords = words.filter(word => word.length <= 5);
 ### --question--
 
 #### --text--
-
-What is the purpose of providing an initial value as an argument to the `reduce()` method?
-
+Koja je svrha prosleđivanja inicijalne vrednosti kao argumenta metodi `reduce()`?
 #### --distractors--
-
-To set the length of the array.
-
----
-
-To limit the number of iterations.
+Za postavljanje dužine niza.
 
 ---
 
-To specify the return type of the function.
+Da ograniči broj iteracija.
 
+---
+
+Za određivanje tipa povratne vrednosti funkcije.
 #### --answer--
-
-To define the starting value for the accumulator.
-
+Za definisanje početne vrednosti akumulatora.
 ### --question--
 
 #### --text--
-
-Can the `map` method be used on objects that are not arrays?
-
+Da li se metoda `map` može koristiti na objektima koji nisu nizovi?
 #### --distractors--
-
-Yes, it can be used on any object.
-
----
-
-Yes, but only on objects with numeric properties.
+Da, može se koristiti na bilo kom objektu.
 
 ---
 
-It depends on the JavaScript version.
+Da, ali samo na objekatima sa numeričkim svojstvima.
 
+---
+
+To zavisi od verzije JavaScripta.
 #### --answer--
-
-No, it is specifically designed for arrays.
-
+Ne, specifično je dizajnirano za nizove (arrays).
 ### --question--
 
 #### --text--
-
-What is the primary purpose of the `map` method in JavaScript?
-
+Koja je primarna svrha metode ``map`` u JavaScript-u?
 #### --distractors--
-
-To sort an array and return a new array while maintaining the original order. 
-
----
-
-To filter elements from an array and remove or add elements based on a condition.
+Da se sortira niz i vrati novi niz, pri čemu se očuvava originalni redosled.
 
 ---
 
-To find a specific element in an array and return its index along with the element.
+Za filtriranje elemenata iz niza i uklanjanje ili dodavanje elemenata na osnovu uslova.
 
+---
+
+Pronalaženje specifičnog elementa u nizu i vraćanje njegovog indeksa zajedno sa samim elementom.
 #### --answer--
-
-To create a new array containing the results of calling a provided function on each element in the starting array.
+Da kreira novi niz koji sadrži rezultate pozivanja priložene funkcije na svaki element u početnom nizu.

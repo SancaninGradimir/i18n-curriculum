@@ -6,9 +6,7 @@ dashedName: quiz-css-animations
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 18 of the 20 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 18 od 20 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,53 +14,39 @@ To pass the quiz, you must correctly answer at least 18 of the 20 questions belo
 ### --question--
 
 #### --text--
-
-What is the purpose of the `transform` property in CSS?
-
+Koja je svrha svojstva ``transform`` u CSS?
 #### --distractors--
-
-To change the visibility of an element.
-
----
-
-To apply a visual effect to text.
+Promena vidljivosti elementa.
 
 ---
 
-To set the dimensions of an element.
+Primena vizuelnog efekta na tekst.
 
+---
+
+Postavljanje dimenzija elementa.
 #### --answer--
-
-To modify the position, size, and shape of an element.
-
+Modifikovanje pozicije, veličine i oblika elementa.
 ### --question--
 
 #### --text--
-
-How does the CSS `animation-direction` property affect an animation?
-
+Kako CSS svojstvo ``animation-direction`` utiče na animaciju?
 #### --distractors--
-
-It specifies if an animation should be repeated.
-
----
-
-It sets the duration of the animation.
+Određuje da li će animacija biti ponovljena.
 
 ---
 
-It defines the speed of the animation.
+Ono određuje trajanje animacije.
 
+---
+
+Definiše brzinu animacije.
 #### --answer--
-
-It defines how an animation should play.
-
+Određuje kako animacija treba da radi.
 ### --question--
 
 #### --text--
-
-Which CSS property makes an animation run 3 times?
-
+Koje CSS svojstvo čini da se animacija pokrene 3 puta?
 #### --distractors--
 
 `animation-repeat: 3`
@@ -82,9 +66,7 @@ Which CSS property makes an animation run 3 times?
 ### --question--
 
 #### --text--
-
-Which CSS timing function makes an animation run at a consistent speed from start to end?
-
+Koja CSS timing funkcija omogućava da se animacija izvrši konstantnom brzinom od početka do kraja?
 #### --distractors--
 
 `ease`
@@ -104,97 +86,71 @@ Which CSS timing function makes an animation run at a consistent speed from star
 ### --question--
 
 #### --text--
-
-What does the `@keyframes` at-rule define in CSS?
-
+Šta at-pravilo ``@keyframes`` definiše u CSS?
 #### --distractors--
-
-The colors of a CSS gradient.
-
----
-
-The angles of a CSS rotation.
+Boje CSS gradijenta.
 
 ---
 
-The dimensions of an element.
+Ugle za CSS rotaciju.
 
+---
+
+Dimenzije elementa.
 #### --answer--
-
-The stages of a CSS animation.
-
+Faze CSS animacije.
 ### --question--
 
 #### --text--
-
-What is the purpose of the `translateX()` function in CSS?
-
+Koja je svrha funkcije `translateX()` u CSS-u?
 #### --distractors--
-
-It changes the opacity of the element.
-
----
-
-It rotates the element.
+Menja opacitet elementa.
 
 ---
 
-It repositions the element vertically.
+Rotira element.
 
+---
+
+Ponovno pozicionira element vertikalno.
 #### --answer--
-
-It repositions the element horizontally.
-
+Ponovo pozicionira element horizontalno.
 ### --question--
 
 #### --text--
-
-Which of the following is NOT a potential concern with CSS animations?
-
+Koja od sledećih NIJE potencijalna briga kod CSS animacija?
 #### --distractors--
-
-They may cause discomfort or physical harm to certain users.
-
----
-
-Users may find them distracting.
+Mogu izazvati nelagodu ili fizičku štetu kod određenih korisnika.
 
 ---
 
-Overuse can lead to poor performance.
+Korisnici ih mogu smatrati ometajućim.
 
+---
+
+Prekomerna upotreba može dovesti do loših performansi.
 #### --answer--
-
-They can enhance user experience.
-
+Mogu poboljšati korisničko iskustvo.
 ### --question--
 
 #### --text--
-
-Where is the `@keyframes` at-rule defined?
-
+Gde je definisan at-regel `@keyframes`?
 #### --distractors--
-
-Within the `body` element of an HTML file.
-
----
-
-Within the `head` element of an HTML file.
+Unutar elementa `body` u HTML fajlu.
 
 ---
 
-Within a CSS class definition.
+Unutar elementa ``head`` u HTML fajlu.
 
+---
+
+Unutar definicije CSS klase.
 #### --answer--
-
-At the top level, outside of any CSS selectors.
-
+Na najvišem nivou, izvan bilo kojeg CSS selektora.
 ### --question--
 
 #### --text--
-
-Which CSS property allows you to pause and resume an animation?
-
+Koji CSS atribut vam omogućava da pauzirate i ponovite animaciju?
 #### --distractors--
 
 `animation-timing-function`
@@ -214,30 +170,23 @@ Which CSS property allows you to pause and resume an animation?
 ### --question--
 
 #### --text--
-
-What value should be assigned to the `animation-name` property in CSS?
-
+Koja vrednost bi trebalo dodeliti svojstvu `animation-name` u CSS-u?
 #### --distractors--
-
-The duration of the animation in seconds.
-
----
-
-The timing function used for the animation.
+Trajanje animacije u sekundama.
 
 ---
 
-The delay before the animation starts in seconds.
+Funkcija za određivanje vremena koja se koristi za animaciju.
 
+---
+
+Kašnjenje pre nego što animacija počne, u sekundama.
 #### --answer--
-
-The name of the animation defined by the `@keyframes`.
-
+Ime animacije koje je definisano pomoću `@keyframes`.
 ### --question--
 
 #### --text--
-
-What does this `@keyframe` at-rule do to the animated element?
+Šta ova ``@keyframe`` direktiva čini animiranom elementu?
 
 ```css
 @keyframes animation {
@@ -251,27 +200,21 @@ What does this `@keyframe` at-rule do to the animated element?
 ```
 
 #### --distractors--
-
-It rotates the element 90 degrees clockwise.
-
----
-
-It changes the color of the element to blue.
+Rotira element za 90 stepeni u smeru kazaljke na satu.
 
 ---
 
-It scales the element to 50% of its initial size and then to 100% of its initial size.
+Menja boju elementa u plavu.
 
+---
+
+Skalira element na 50% njegove početne veličine, a zatim i na 100% njegove početne veličine.
 #### --answer--
-
-It moves the element horizontally from -50px to 100px, relative to its starting point.
-
+Element se horizontalno pomera od -50px do 100px, relativno na svoju početnu tačku.
 ### --question--
 
 #### --text--
-
-Which CSS property defines how an animation progresses over time?
-
+Koje CSS svojstvo definiše kako animacija napreduje tokom vremena?
 #### --distractors--
 
 `animation-delay`
@@ -291,9 +234,7 @@ Which CSS property defines how an animation progresses over time?
 ### --question--
 
 #### --text--
-
-Which CSS property is used to specify that an animation should take 5 seconds to complete?
-
+Koje CSS svojstvo se koristi za određivanje da animacija treba da traje 5 sekundi?
 #### --distractors--
 
 ```css
@@ -321,8 +262,7 @@ animation-duration: 5s;
 ### --question--
 
 #### --text--
-
-What does `50%` represent in the following CSS `@keyframe` at-rule?
+Šta predstavlja `50%` u sledećoj CSS direktivi `@keyframe`?
 
 ```css
 @keyframes animation {
@@ -339,71 +279,53 @@ What does `50%` represent in the following CSS `@keyframe` at-rule?
 ```
 
 #### --distractors--
-
-The starting point of the animation.
-
----
-
-The ending point of the animation.
+Početna tačka animacije.
 
 ---
 
-The speed of the animation.
+Tačka završetka animacije.
 
+---
+
+Brzina animacije.
 #### --answer--
-
-The halfway point of the animation.
-
+Sredina animacije.
 ### --question--
 
 #### --text--
-
-What will happen when the property `transform: translateX(200px);` is applied?
-
+Šta će se desiti kada se svojstvo ``transform: translateX(200px);`` primeni?
 #### --distractors--
-
-The element will move 200px to the left.
-
----
-
-The element will move 200px to the bottom.
+Element će se pomeriti za 200px ulevo.
 
 ---
 
-The element will rotate 200 degrees clockwise.
+Element će se pomeriti za 200px nadole.
 
+---
+
+Element će se rotirati za 200 stepeni u smeru po godini kazaljke.
 #### --answer--
-
-The element will move 200px to the right.
-
+Element će se pomeriti za 200px udesno.
 ### --question--
 
 #### --text--
-
-How will the animation behave if `animation-iteration-count` is set to `infinite`?
-
+Kako će animacija se ponašati ako `animation-iteration-count` je podešen na `infinite`?
 #### --distractors--
-
-It will run once and stop.
-
----
-
-It will pause after the first iteration.
+Radiće samo jednom i zaustaviće se.
 
 ---
 
-It will stop after three iterations.
+Pauzirati će se nakon prve iteracije.
 
+---
+
+Zaustaviće se nakon tri iteracije.
 #### --answer--
-
-It will repeat indefinitely.
-
+Ponovo će se ponavljati neograničeno.
 ### --question--
 
 #### --text--
-
-Which `@keyframes` selector specifies the starting point of an animation?
-
+Koji `@keyframes` selektor određuje početnu tačku animacije?
 #### --distractors--
 
 `50%`
@@ -423,31 +345,23 @@ Which `@keyframes` selector specifies the starting point of an animation?
 ### --question--
 
 #### --text--
-
-What properties can be specified using the `animation` shorthand CSS property?
-
+Koja svojstva mogu se definisati korišćenjem skraćenog CSS svojstva `animation`?
 #### --distractors--
-
-Only the name of the animation.
-
----
-
-The name and duration of the animation.
+Samo ime animacije.
 
 ---
 
-The name, duration, and delay of the animation.
+Ime i trajanje animacije.
 
+---
+
+Ime, trajanje i kašnjenje animacije.
 #### --answer--
-
-All animation properties.
-
+Sve svojstva animacije.
 ### --question--
 
 #### --text--
-
-Which CSS property is used to apply an animation defined by an `@keyframes` at-rule?
-
+Koje CSS svojstvo se koristi za primenu animacije definisane sa ``@keyframes`` at-pravilom?
 #### --distractors--
 
 `animation-duration`
@@ -467,9 +381,7 @@ Which CSS property is used to apply an animation defined by an `@keyframes` at-r
 ### --question--
 
 #### --text--
-
-Which CSS property allows you to set a time before the animation begins?
-
+Koji CSS atribut vam omogućava da postavite vreme pre nego što animacija počne?
 #### --distractors--
 
 `animation-fill-mode`
@@ -491,31 +403,23 @@ Which CSS property allows you to set a time before the animation begins?
 ### --question--
 
 #### --text--
-
-What does the CSS `animation-delay` property do?
-
+Šta radi svojstvo CSS `animation-delay`?
 #### --distractors--
-
-Sets how long the animation lasts.
-
----
-
-Specifies the timing function.
+Postavlja koliko dugo animacija traje.
 
 ---
 
-Defines animation direction.
+Definiše funkciju za određivanje vremena.
 
+---
+
+Definiše pravac animacije.
 #### --answer--
-
-Delays the start of the animation.
-
+Odlaže početak animacije.
 ### --question--
 
 #### --text--
-
-Which animation property specifies how the element should be styled before and after the animation?
-
+Koje svojstvo animacije određuje kako će se element stilizovati pre i posle animacije?
 #### --distractors--
 
 `animation-delay`
@@ -535,31 +439,23 @@ Which animation property specifies how the element should be styled before and a
 ### --question--
 
 #### --text--
-
-Why should CSS animations be used in moderation?
-
+Zašto bi se CSS animacije trebalo koristiti umereno?
 #### --distractors--
-
-Too many CSS animations can lead to styles breaking as well as inconsistent styles across different browsers. 
-
----
-
-Too many CSS animations can lead to lower or non existent rankings in search engine results.
+Previše CSS animacija može dovesti do toga da se stili pokvare, kao i da budu nekonzistentni u različitim pretraživačima.
 
 ---
 
-Too many CSS animations will automatically crash the server and increase the likelihood for security risks. 
+Previše CSS animacija može dovesti do nižeg ili nepostojećeg rangiranja u rezultatima pretrage.
 
+---
+
+Previše CSS animacija može automatski da sruši server i povećati rizik od sigurnosnih problema.
 #### --answer--
-
-Too many CSS animations can lead to poor performance and may be distracting or problematic for users with certain accessibility needs.
-
+Previše CSS animacija može dovesti do loših performansi i može biti odvraćajuće ili problematično za korisnike sa određenim potrebama pristupačnosti.
 ### --question--
 
 #### --text--
-
-Which animation property determines whether the animation should play forwards, backwards, or alternate?
-
+Koje svojstvo animacije određuje da li će animacija biti reprodukovana napred, unazad ili alternativno?
 #### --distractors--
 
 `animation-fill-mode`
@@ -579,9 +475,7 @@ Which animation property determines whether the animation should play forwards, 
 ### --question--
 
 #### --text--
-
-Which CSS media query detects if the user has requested minimal animations or motion effects?
-
+Koja CSS media query utvrđuje da li je korisnik zahtevao minimalne animacije ili efekte kretanja?
 #### --distractors--
 
 `reduce-motion`
@@ -601,9 +495,7 @@ Which CSS media query detects if the user has requested minimal animations or mo
 ### --question--
 
 #### --text--
-
-Which property sets how many times an `animation` repeats?
-
+Koje svojstvo određuje koliko puta se `animation` ponavlja?
 #### --distractors--
 
 `animation-duration`
@@ -623,9 +515,7 @@ Which property sets how many times an `animation` repeats?
 ### --question--
 
 #### --text--
-
-Which CSS rule is used to define the stages and styles of an animation at various points during its duration?
-
+Koje CSS pravilo se koristi za definisanje faza i stilova animacije na različitim tačkama tokom njenog trajanja?
 #### --distractors--
 
 `@style`
@@ -645,9 +535,7 @@ Which CSS rule is used to define the stages and styles of an animation at variou
 ### --question--
 
 #### --text--
-
-Inside the `reduced‑motion` media query, which declaration disables transitions?
-
+Unutar ``reduced‑motion`` media query-ja, koja deklaracija onemogućava tranzicije?
 #### --distractors--
 
 `animation: none;`
@@ -667,97 +555,71 @@ Inside the `reduced‑motion` media query, which declaration disables transition
 ### --question--
 
 #### --text--
-
-What does the `animation-play-state` property allow you to do?
-
+Šta vam omogućava svojstvo ``animation-play-state``?
 #### --distractors--
-
-Set how many times the animation repeats.
-
----
-
-Specify how long the animation takes to complete.
+Postavite koliko puta se animacija ponavlja.
 
 ---
 
-Determine the direction in which the animation plays.
+Odredite koliko dugo će animacija trajati do završetka.
 
+---
+
+Utvrdite smer u kojem se animacija reprodukuje.
 #### --answer--
-
-Pause and resume the animation.
-
+Pauzirajte i nastavite animaciju.
 ### --question--
 
 #### --text--
-
-Which of the following is a good practice when working with animations?
-
+Koja je dobra praksa prilikom rada sa animacijama?
 #### --distractors--
-
-Use as many flashing colors and rapid movements as possible to grab attention.
-
----
-
-Avoid testing animations on different devices or screen sizes.
+Koristite što je moguće više treperajućih boja i brzih pokreta da biste privukli pažnju.
 
 ---
 
-Make animations last as long as possible to ensure users notice them.
+Izbegavajte testiranje animacija na različitim uređajima ili veličinama ekrana.
 
+---
+
+Povećajte trajanje animacija koliko god je moguće kako biste osigurali da ih korisnici primețe.
 #### --answer--
-
-Avoid content that flashes more than three times per second to prevent triggering seizures or causing discomfort.
-
+Izbegavajte sadržaj koji treperi više od tri puta u sekundi kako biste sprečili izazivanje napada ili nelagodnosti.
 ### --question--
 
 #### --text--
-
-Why is the `!important` declaration used in the CSS rules?
-
+Zašto je deklaracija ``!important`` korišćena u CSS pravilima?
 #### --distractors--
-
-To prevent other media queries from loading.
-
----
-
-To limit styles to the first child element.
+Da bi se sprečilo učitavanje drugih medijskih upita (media queries).
 
 ---
 
-To debug CSS more easily.
+Da se stili ograniče na prvi element deteta.
 
+---
+
+Za lakše debagovanje CSS-a.
 #### --answer--
-
-To ensure these rules take precedence over other styles.
-
+Da bi se osiguralo da ova pravila imaju prioritet nad drugim stilovima.
 ### --question--
 
 #### --text--
-
-What does `animation-iteration-count: 1 !important;` ensure in CSS?
-
+Šta `animation-iteration-count: 1 !important;` osigurava u CSS?
 #### --distractors--
-
-That animations are paused.
-
----
-
-That animations run infinitely.
+Animacije su pauzirane.
 
 ---
 
-That animations reverse direction each cycle.
+Te animacije se izvršavaju beskonačno.
 
+---
+
+Animacije menjaju smer tokom svakog ciklusa.
 #### --answer--
-
-That any looping animations only play once.
-
+Da sve animacije koje se ponavljaju (looping) prođu samo jednom.
 ### --question--
 
 #### --text--
-
-What CSS property is used to specify how long an animation should take to complete?
-
+Koje CSS svojstvo se koristi za određivanje trajanja animacije?
 #### --distractors--
 
 `animation-delay`
@@ -777,9 +639,7 @@ What CSS property is used to specify how long an animation should take to comple
 ### --question--
 
 #### --text--
-
-Which property is NOT part of the `animation` shorthand?
-
+Koji atribut NIJE deo skraćenice za `animation`?
 #### --distractors--
 
 `animation-delay`
@@ -799,30 +659,23 @@ Which property is NOT part of the `animation` shorthand?
 ### --question--
 
 #### --text--
-
-What does the `@keyframes` rule define?
-
+Šta definiše pravilo `@keyframes`?
 #### --distractors--
-
-The timing function of an animation.
-
----
-
-The default state of an element.
+Funkcija vremena animacije.
 
 ---
 
-The media queries for animations.
+Podrazumevano stanje elementa.
 
+---
+
+Upiti medija za animacije.
 #### --answer--
-
-The sequence of styles at different points in an animation.
-
+Sekvenca stilova u različitim tačkama animacije.
 ### --question--
 
 #### --text--
-
-What does this `@keyframe` at-rule do to the animated element?
+Šta ova ``@keyframe`` direktiva čini animiranom elementu?
 
 ```css
 @keyframes fade-in {
@@ -836,49 +689,37 @@ What does this `@keyframe` at-rule do to the animated element?
 ```
 
 #### --distractors--
-
-It scales the element up from 0% to 100%.
-
----
-
-It moves the element from left to right.
+Skalira element sa 0% do 100%.
 
 ---
 
-It changes the text color to black.
+Element se kreće iz levog udesnoga pravca.
 
+---
+
+Menja boju teksta u crnu.
 #### --answer--
-
-It makes the element fade in by gradually decreasing its transparency.
-
+Element postaje vidljiv postupnim smanjenjem njegove prozirnosti.
 ### --question--
 
 #### --text--
-
-In a keyframes rule, what does `100%` represent?
-
+U pravilu keyframes-a, šta predstavlja `100%`?
 #### --distractors--
-
-The start of the animation.
-
----
-
-The halfway point.
+Početak animacije.
 
 ---
 
-The easing function.
+Poluputna tačka.
 
+---
+
+Funkcija za ublažavanje (Easing function)
 #### --answer--
-
-The end of the animation.
-
+Kraj animacije.
 ### --question--
 
 #### --text--
-
-Which property controls the pace of an `animation` over its duration?
-
+Koje svojstvo kontroliše tempo `animation` tokom njegovog trajanja?
 #### --distractors--
 
 `animation-duration`
@@ -898,31 +739,23 @@ Which property controls the pace of an `animation` over its duration?
 ### --question--
 
 #### --text--
-
-What should developers consider when implementing animations to maintain accessibility?
-
+Šta bi razvojnici trebalo da razmotre prilikom implementacije animacija kako bi održali pristupačnost?
 #### --distractors--
-
-Rely entirely on JavaScript for all animations.
-
----
-
-Add frequent and intense animations for impact.
+Koristite isključivo JavaScript za sve animacije.
 
 ---
 
-Include only bold, fast, and surprising effects.
+Dodajte česte i intenzivne animacije radi veće snage/uticaja.
 
+---
+
+Uključite samo podebljane, brze i iznenađujuće efekte.
 #### --answer--
-
-Use subtle, intentional effects, honor preferences, and offer user control.
-
+Koristite suptilne, namerne efekte, poštujte preferencije i ponudite korisničku kontrolu.
 ### --question--
 
 #### --text--
-
-Which of the following is the correct syntax to slide an element in from the left?
-
+Koja je ispravna sintaksa za klizanje elementa sa leve strane?
 #### --distractors--
 
 ```css

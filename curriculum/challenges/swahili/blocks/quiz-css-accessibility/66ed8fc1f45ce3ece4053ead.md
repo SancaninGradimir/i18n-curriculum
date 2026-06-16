@@ -1,14 +1,12 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: CSS Pristupačnost Test
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 9 od 10 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,34 +14,25 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 ### --question--
 
 #### --text--
-
-Why do you need to have good color contrast on your webpage?
-
+Zašto je potrebno imati dobar kontrast boja na vašoj veb stranici?
 #### --distractors--
-
-To make the page more vibrant.
-
----
-
-To meet requirements for search engine optimization (SEO).
+Kako bi se stranica učinila življom.
 
 ---
 
-To make important elements of the page stand out.
+Radi ispunjavanja zahteva za optimizaciju pretraživačkih mesinica (SEO).
 
+---
+
+Za isticanje važnih elemenata stranice.
 #### --answer--
-
-To make the page content accessible and readable.
-
+Da bi sadržaj stranice bio pristupačan i čitljiv.
 ### --question--
 
 #### --text--
-
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
-
+Koji od sledećih alata vam omogućava da unesete pozadinske i prednje boje i proverite njihov odnos kontrasta?
 #### --distractors--
-
-TPGi Colour Contrast Analyzer
+TPGi Analizator bojarne kontraste
 
 ---
 
@@ -52,19 +41,13 @@ Figma
 ---
 
 Canva
-
 #### --answer--
-
-WebAIM's Color Contrast Checker
-
+WebAIM-ov Prover Kontrasta Boja
 ### --question--
 
 #### --text--
-
-Which of the following tools allows you to pick background and foreground colors from content displayed on your screen and check their contrast ratio?
-
+Koji od sledećih alata vam omogućava da izaberete boje pozadine i prednjeg plana iz sadržaja prikazanog na vašem ekranu i proverite njihov kontrastni odnos?
 #### --distractors--
-
 Figma
 
 ---
@@ -73,62 +56,45 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
-
+WebAIM-ov Proverivač Kontrasta Boja
 #### --answer--
-
-TPGi Colour Contrast Analyzer
-
+TPGi Analizator bojarne kontraste
 ### --question--
 
 #### --text--
-
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
-
+Zašto ne biste trebali koristiti `display: none` i `visibility: hidden` za vizuelno skrivanje sadržaja?
 #### --distractors--
-
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
-
----
-
-These methods make it so that the content is only hidden until users move their mouse over the content.
+Ovi metodi osiguravaju da samo asistivne tehnologije, poput čitača ekrana, mogu pristupiti skrivenom sadržaju.
 
 ---
 
-These methods do not work with some browsers.
+Ovi metodi omogućavaju da je sadržaj skriven samo sve dok korisnik mišem ne pređe preko njega.
 
+---
+
+Ovi metodi ne funkcionišu u nekim pregledačima.
 #### --answer--
-
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
-
+Ovi metodi uklanjaju sadržaj iz stabla pristupačnosti, što čini nemogućim da čitači ekrana pristupe skrivenom sadržaju.
 ### --question--
 
 #### --text--
-
-What is an accessibility tree?
-
+Šta je stabak pristupačnosti?
 #### --distractors--
-
-A visual representation of the layout of a webpage.
-
----
-
-A structure used by screen readers to read the text content of a webpage.
+Vizuelni prikaz rasporeda web stranice.
 
 ---
 
-A copy of the DOM tree.
+Struktura koju koriste čitači ekrana kako bi pročitali tekstualni sadržaj veb stranice.
 
+---
+
+Kopija stabla DOM-a.
 #### --answer--
-
-A structure used by screen readers to interpret and interact with the content on a webpage.
-
+Struktura koju čitači ekrana koriste da tumače i interaguju sa sadržajem na veb stranici.
 ### --question--
 
 #### --text--
-
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
-
+Koja od sledećih osigurava da slika ima minimalnu širinu od `400px`, ali postaje šira kada je širina vidokruga veća od `1000px`?
 #### --distractors--
 
 ```css
@@ -164,9 +130,7 @@ img {
 ### --question--
 
 #### --text--
-
-Which of the following `scroll-behavior` values allows a smooth scrolling behavior?
-
+Koju od sledećih `scroll-behavior` vrednosti omogućava glatko skrolovanje?
 #### --distractors--
 
 `auto`
@@ -186,9 +150,7 @@ Which of the following `scroll-behavior` values allows a smooth scrolling behavi
 ### --question--
 
 #### --text--
-
-Which of the following features is used to detect the user's animation preference?
-
+Koja od sledećih karakteristika se koristi za detekciju preferencija animacija korisnika?
 #### --distractors--
 
 `prefers-contrast`
@@ -208,43 +170,32 @@ Which of the following features is used to detect the user's animation preferenc
 ### --question--
 
 #### --text--
-
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
-
+Koji od sledećih predstavlja problem pristupačnosti atributa `placeholder` u elementu `input`?
 #### --distractors--
-
-Placeholder text prevents screen readers from reading the input label text.
-
----
-
-Placeholder text prevents screen readers from reading the input value.
+Placeholder tekst sprečava čitače ekrana da pročitaju tekst oznake polja za unos.
 
 ---
 
-Placeholder text is too small to be readable.
+Placeholder tekst sprečava čitače ekrana da čitaju vrednost unosa.
 
+---
+
+Tekst za zamenu je premali/premalen da bi bio čitljiv.
 #### --answer--
-
-Placeholder text can be confused with an actual input value.
-
+Placeholder tekst se može pomešati sa stvarnom vrednošću unosa.
 ### --question--
 
 #### --text--
-
-What does the `hidden` attribute do?
-
+Šta atribut `hidden` radi?
 #### --distractors--
-
-It hides content and reveals on hover.
-
----
-
-It hides content only from the accessibility tree.
+Skriva sadržaj i otkriva ga pri prelizanju mišem.
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+Skriva sadržaj samo od stabla pristupačnosti.
 
+---
+
+Skriva sadržaj vizuelno, ali je sadržaj dostupan u drvetu pristupačnosti.
 #### --answer--
-
-It hides content both visually and from the accessibility tree.
+Skriva sadržaj kako vizuelno, tako i iz stabla pristupačnosti.

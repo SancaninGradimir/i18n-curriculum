@@ -1,14 +1,12 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: CSS Biblioteke i Frameworkovi Kviz
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
-
-To pass the quiz, you must correctly answer at least 9 of the 10 questions below.
-
+Da biste položili kviz, morate tačno odgovoriti na najmanje 9 od 10 pitanja ispod.
 # --quizzes--
 
 ## --quiz--
@@ -16,119 +14,87 @@ To pass the quiz, you must correctly answer at least 9 of the 10 questions below
 ### --question--
 
 #### --text--
-
-What is a CSS framework?
-
+Šta je CSS framework?
 #### --distractors--
-
-A tool to fix CSS errors.
-
----
-
-A tool to lint CSS files.
+Alat za popravljanje CSS grešaka.
 
 ---
 
-A formatter for CSS files.
+Alat za lintovanje CSS fajlova.
 
+---
+
+Formatator za CSS fajlove.
 #### --answer--
-
-A library for CSS styles.
-
+Biblioteka za CSS stilove.
 ### --question--
 
 #### --text--
-
-Which of the following is a popular utility-first CSS framework?
-
+Koji od sledećih predstavlja popularan utility-first CSS framework?
 #### --distractors--
-
-Template CSS
-
----
-
-Loading CSS
+CSS Šablon
 
 ---
 
-Minimal CSS
+Učitavanje CSS-a
 
+---
+
+Minimalni CSS
 #### --answer--
-
 Tailwind CSS
-
 ### --question--
 
 #### --text--
-
-What is a disadvantage of CSS frameworks?
-
+Koji je nedostatak CSS framework-ova?
 #### --distractors--
-
-Too few components.
-
----
-
-No customization options.
+Previše je komponenti.
 
 ---
 
-Improved browser support.
+Nema opcija za prilagođavanje.
 
+---
+
+Poboljšana podrška u pregledačima.
 #### --answer--
-
-Can bloat CSS files.
-
+Može povećati veličinu CSS fajlova.
 ### --question--
 
 #### --text--
-
-What does SCSS stand for?
-
+Šta znači SCSS?
 #### --distractors--
-
 Super Cascading Style Sheets.
 
 ---
 
-Structured CSS.
+Strukturirani CSS.
 
 ---
 
-Simple CSS.
-
+Jednostavan CSS.
 #### --answer--
-
-Sassy CSS.
-
+Seksi CSS.
 ### --question--
 
 #### --text--
-
-Which of the following is a feature of Sass?
-
+Koja od sledećih je karakteristika Sass-a?
 #### --distractors--
-
-Comments
+Komentari
 
 ---
 
-CSS linting.
+CSS linovanje.
 
 ---
 
 Inline CSS.
-
 #### --answer--
-
-Mixins
-
+Miksinovi
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to use utility classes in Tailwind CSS?
-
+Koji je ispravan način korišćenja utiliti klasa u Tailwind CSS-u?
 #### --distractors--
 
 ```html
@@ -166,31 +132,23 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 ### --question--
 
 #### --text--
-
-What are the two types of CSS frameworks?
-
+Koje su dve vrste CSS framework-a?
 #### --distractors--
-
-Tablet first CSS frameworks and Component-based CSS frameworks.
-
----
-
-Utility-first CSS frameworks and Lazy loading CSS frameworks.
+CSS frameworkovi sa pristupom 'tablet-first' i komponentno bazirani CSS frameworkovi.
 
 ---
 
-Minimal CSS frameworks and Utility-first CSS frameworks.
+Utility-first CSS okviri i okviri za CSS sa opterećenjem po potrebi (Lazy loading)
 
+---
+
+Minimalni CSS okvirci i Utility-first CSS okvirci.
 #### --answer--
-
-Utility-first CSS frameworks and Component-based CSS frameworks.
-
+Utility-first CSS frameworkovi i Component-based CSS frameworkovi.
 ### --question--
 
 #### --text--
-
-What is the file extension for SCSS?
-
+Koja je ekstenzija fajla za SCSS?
 #### --distractors--
 
 `.sass`
@@ -210,9 +168,7 @@ What is the file extension for SCSS?
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to define a variable in SCSS?
-
+Koji od sledećih načina je ispravan način za definisanje varijable u SCSS?
 #### --distractors--
 
 ```css
@@ -256,9 +212,7 @@ header {
 ### --question--
 
 #### --text--
-
-Which of the following is the correct way to define a mixin?
-
+Koja od sledećih je ispravna metoda za definisanje miksina?
 #### --distractors--
 
 ```css
