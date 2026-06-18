@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Jenga ukurasa wa mtandao wa portfolio binafsi
+title: Napravi licnu portfolio veb stranicu
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,25 +9,25 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Lengo:** Jenga programu inayofanana kiutendaji na <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Usikopi mradi huu wa maonyesho**.
+**Cilj:** Napravi aplikaciju koja funkcionalno odgovara ovoj: <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Nemoj kopirati ovaj demo projekat**.
 
-**Hadithi za mtumizi:**
+**Korisnicke price:**
 
-1. Portfolio yako inapaswa kuwa na sehemu ya kukaribisha yenye `id` ya `welcome-section`
-1. Sehemu ya kukaribisha inapaswa kuwa na kipengele cha `h1` chenye maandishi
-1. Portfolio yako inapaswa kuwa na sehemu ya miradi yenye `id` ya `projects`
-1. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye `class` ya `project-tile` kushikilia mradi
-1. Sehemu ya miradi inapaswa kuwa na angalau kiungo kimoja cha mradi
-1. Portfolio yako inapaswa kuwa na navbar yenye kitambulisho cha `navbar`
-1. Navbar inapaswa kuwa na angalau kiungo kimoja ambacho unaweza kubofya kuunganisha na sehemu tofauti za ukurasa
-1. Portfolio yako inapaswa kuwa na kiungo chenye kitambulisho cha `profile-link`, ambacho hufungua wasifu wako wa GitHub au freeCodeCamp kwenye kichupo kipya
-1. Portfolio yako inapaswa kuwa na angalau media query moja
-1. Urefu wa sehemu ya kukaribisha unapaswa kuwa sawa na urefu wa eneo la kuona
-1. Navbar inapaswa kuwa kila wakati juu ya eneo la kuona
+1. Tvoj portfolio treba da ima sekciju dobrodoslice sa `id` vrednoscu `welcome-section`
+1. Sekcija dobrodoslice treba da ima `h1` element sa tekstom
+1. Tvoj portfolio treba da ima sekciju projekata sa `id` vrednoscu `projects`
+1. Sekcija projekata treba da ima bar jedan element sa `class` vrednoscu `project-tile` koji predstavlja projekat
+1. Sekcija projekata treba da ima bar jedan link ka projektu
+1. Tvoj portfolio treba da ima navbar sa identifikatorom `navbar`
+1. Navbar treba da ima bar jedan link koji vodi ka razlicitim sekcijama stranice
+1. Tvoj portfolio treba da ima link sa identifikatorom `profile-link`, koji otvara tvoj GitHub ili freeCodeCamp profil u novom tabu
+1. Tvoj portfolio treba da ima bar jedan media query
+1. Visina sekcije dobrodoslice treba da bude jednaka visini viewport-a
+1. Navbar treba uvek da bude na vrhu viewport-a
 
-Kamilisha hadithi za mtumizi na pita vipimo vyote hapa chini ili kumaliza mradi huu. Toa mtindo wako binafsi. Furahia kuandika msimbo!
+Ispuni korisnicke price i prodji sve testove ispod da zavrsis projekat. Dodaj svoj licni stil. Uzivaj u kodiranju!
 
-**Kumbuka:** Hakikisha unaongeza `<link rel="stylesheet" href="styles.css">` katika HTML yako kuunganisha na karatasi yako ya mtindo na kutumia CSS yako
+**Napomena:** Obavezno dodaj `<link rel="stylesheet" href="styles.css">` u svoj HTML da povezes stylesheet i primenis CSS.
 
 # --hints--
 
