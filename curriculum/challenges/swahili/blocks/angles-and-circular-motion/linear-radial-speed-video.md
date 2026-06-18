@@ -1,6 +1,6 @@
 ---
 id: 699e56ba8f18cf77dfce5c0c
-title: Kasi ya mstari na mviringo
+title: Linearna i radijalna brzina
 challengeType: 11
 videoId: nsZvoNqWCMo
 dashedName: linear-and-radial-speed
@@ -8,29 +8,29 @@ dashedName: linear-and-radial-speed
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kasi ya mstari na kasi ya mviringo kwa mizunguko ya duara.
+U ovom videu, naučićete o linearnoj brzini i radijalnoj brzini pri kružnom kretanju.
 
 # --questions--
 
 ## --text--
 
-Kasi ya mstari ni nini?
+Šta je linearna brzina?
 
 ## --answers--
 
-Idadi ya mizunguko inayokamilika kwa dakika moja.
+Broj okretaja koji se završe za jedan minut.
 
 ---
 
-Umbali kutoka katikati ya duara hadi kingo yake.
+Udaljenost od centra kruga do njegovog oboda.
 
 ---
 
-Umbali ambao sehemu husafiri katika kipindi cha wakati.
+Udaljenost koju objekat pređe u određenom vremenskom intervalu.
 
 ---
 
-Nukta ambayo sehemu inazunguka ndani ya kipindi cha wakati.
+Tačka koju objekat okruži u određenom vremenskom intervalu.
 
 ## --video-solution--
 

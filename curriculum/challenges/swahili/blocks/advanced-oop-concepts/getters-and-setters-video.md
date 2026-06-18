@@ -1,6 +1,6 @@
 ---
 id: 69ae9f3ca9e6da4eb0d5f7f9
-title: Vipata na Wapezaji
+title: Getter-i i Setter-i
 challengeType: 11
 videoId: o8zKHbpd87s
 dashedName: getters-and-setters
@@ -8,29 +8,29 @@ dashedName: getters-and-setters
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu vipata na wapezaji.
+U ovom videu, naučićete o getter-ima i setter-ima.
 
 # --questions--
 
 ## --text--
 
-Je, mapezaji ni nini?
+Šta su setter-i?
 
 ## --answers--
 
-Kitendakazi kinachofuta moja kwa moja kitu wakati kinapotoka katika wigo.
+Funkcija koja neposredno briše objekat kada izađe iz dosega.
 
 ---
 
-Njia inayopata au kusoma thamani ya sifa ya kipengele.
+Metoda koja hvata ili čita vrednost svojstva elementa.
 
 ---
 
-Njia katika darasa la vitu inayotumika kuweka au kusahihisha thamani ya sifa ya kipengele binafsi au iliyo na ulinzi.
+Metoda u klasi objekata koja se koristi za postavljanje ili ispravljanje vrednosti privatnog ili zaštićenog svojstva elementa.
 
 ---
 
-Njia inayounda mfano mpya wa darasa la vitu bila kubadilisha sifa yoyote ya kipengele.
+Metoda koja kreira novi primerak klase objekata bez menjanja svojstava elementa.
 
 ## --video-solution--
 

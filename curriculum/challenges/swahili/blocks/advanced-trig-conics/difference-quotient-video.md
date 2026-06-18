@@ -1,6 +1,6 @@
 ---
 id: 699e8ca68f18cf77dfce5c27
-title: Gawio la Tofauti
+title: Količnik razlike
 challengeType: 11
 videoId: D5ajV73gC1k
 dashedName: difference-quotient
@@ -8,29 +8,29 @@ dashedName: difference-quotient
 
 # --description--
 
-Katika video hii, utajifunza kuhusu gawio la tofauti.
+U ovom videu, naučićete o količniku razlike.
 
 # --questions--
 
 ## --text--
 
-Mstari wa sekanti ni nini?
+Šta je sekantna linija?
 
 ## --answers--
 
-Mstari ambao daima uko sambamba na mhimili wa x.
+Linija koja je uvek paralelna sa x osom.
 
 ---
 
-Mstari wima unaokatiza mhimili wa y.
+Uspravna linija koja preseca y osu.
 
 ---
 
-Mstari unaotambaa kati ya pointi mbili kwenye mchoro wa kitendakazi.
+Linija koja prolazi kroz dve tačke na grafiku funkcije.
 
 ---
 
-Mstari unaogusa mchoro wa kitendakazi kwa pointi moja tu.
+Linija koja dodiruje grafik funkcije u samo jednoj tački.
 
 ## --video-solution--
 

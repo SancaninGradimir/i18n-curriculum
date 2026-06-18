@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb1bdef
-title: Tengeneza nambari kamili za bahati nasibu kwa JavaScript
+title: Generisanje Slucajnih Celih Brojeva u JavaScript-u
 challengeType: 1
 forumTopicId: 18186
 dashedName: generate-random-whole-numbers-with-javascript
@@ -8,29 +8,29 @@ dashedName: generate-random-whole-numbers-with-javascript
 
 # --description--
 
-Unaweza kutengeneza nambari za desimali za bahati nasibu kwa `Math.random()`, lakini wakati mwingine unahitaji kutengeneza nambari kamili za bahati nasibu. Mchakato ufuatao utakupa nambari kamili ya bahati nasibu isiyozidi `20`:
+Mozete generisati slucajne decimalne brojeve pomocu `Math.random()`, ali ponekad vam trebaju slucajni celi brojevi. Sledeci postupak ce vam dati slucajan ceo broj koji nije veci od `20`:
 
-1. Tumia `Math.random()` kutengeneza nambari ya desimali ya bahati nasibu.
-2. Zidisha nambari hiyo ya desimali ya bahati nasibu kwa `20`.
-3. Tumia `Math.floor()` kuzungusha nambari hii chini hadi nambari kamili iliyo karibu nayo.
+1. Koristite `Math.random()` da generisete slucajan decimalni broj.
+2. Pomnozte taj slucajni decimalni broj sa `20`.
+3. Koristite `Math.floor()` da zaokruzite taj broj nadole do najblizeg celog broja.
 
-Kumbuka kwamba `Math.random()` haiwezi kamwe kurudisha `1`, kwa hivyo haiwezekani kupata `20` kwa sababu unazungusha chini kwa `Math.floor()`. Mchakato huu utakupa nambari kamili ya bahati nasibu katika anuwai kutoka `0` hadi `19`.
+Impajte na umu da `Math.random()` nikada ne moze da vrati `1`, pa je nemoguce dobiti `20` jer zaokruzujete nadole sa `Math.floor()`. Ovaj postupak ce vam dati slucajan ceo broj u opsegu od `0` do `19`.
 
-Ukichanganya yote pamoja, msimbo wako utaonekana hivi:
+Ako sve to spojite, vas kod ce izgledati ovako:
 
 ```js
 Math.floor(Math.random() * 20);
 ```
 
-Unafanya wito wa `Math.random()`, ukizidisha matokeo kwa 20, kisha kupitisha thamani kwa `Math.floor()` kuzungusha thamani chini hadi nambari kamili iliyo karibu.
+Pozivate `Math.random()`, mnozite rezultat sa 20, pa tu vrednost prosledjujete u `Math.floor()` da je zaokruzite nadole do najblizeg celog broja.
 
 # --instructions--
 
-Tumia mbinu hii kutengeneza na kurudisha nambari kamili ya bahati nasibu katika anuwai kutoka `0` hadi `9`.
+Koristite ovaj pristup da generisete i vratite slucajan ceo broj u opsegu od `0` do `9`.
 
 # --hints--
 
-Matokeo ya `randomWholeNum` yanapaswa kuwa nambari kamili.
+Rezultat `randomWholeNum` treba da bude ceo broj.
 
 ```js
 assert(
@@ -42,13 +42,13 @@ assert(
 );
 ```
 
-Unapaswa kutumia `Math.random` kutengeneza nambari ya bahati nasibu.
+Treba da koristite `Math.random` za generisanje slucajnog broja.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.random/g).length >= 1);
 ```
 
-Unapaswa kuwa umezidisha matokeo ya `Math.random` kwa 10 ili kuifanya kuwa nambari katika anuwai kutoka sifuri hadi tisa.
+Treba da pomnozbite rezultat `Math.random` sa 10 da dobijete broj u opsegu od nula do devet.
 
 ```js
 assert(
@@ -57,7 +57,7 @@ assert(
 );
 ```
 
-Unapaswa kutumia `Math.floor` kuondoa sehemu ya desimali ya nambari.
+Treba da koristite `Math.floor` da uklonite decimalni deo broja.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/Math.floor/g).length >= 1);

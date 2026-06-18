@@ -1,6 +1,6 @@
 ---
 id: cf1391c1c11feddfaeb4bdef
-title: Tengeneza nambari za sehemu za mfululizo na JavaScript
+title: Kreiranje Decimalnih Brojeva u JavaScript-u
 challengeType: 1
 forumTopicId: 16826
 dashedName: create-decimal-numbers-with-javascript
@@ -8,23 +8,23 @@ dashedName: create-decimal-numbers-with-javascript
 
 # --description--
 
-Tunaweza pia kuhifadhi nambari za sehemu za mfululizo katika vigezo. Nambari za sehemu za mfululizo mara nyingine huitwa nambari za <dfn>floating point</dfn> au <dfn>floats</dfn>.
+Mozemo cuvati decimalne brojeve i u promenljivima. Decimalni brojevi ponekad se nazivaju <dfn>floating point</dfn> brojevi ili <dfn>float</dfn>-ovi.
 
-**Kumbuka:** unapoendesha hesabu za nambari, hufanywa kwa usahihi wa kikomo. Operesheni zinazotumia floating points zinaweza kusababisha matokeo tofauti na yaliyotarajiwa. Ikiwa unapata mojawapo ya matokeo haya, fungua mada kwenye <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+**Napomena:** kada radite racunanja sa brojevima, izvrsavaju se sa ogranicenom tacnoscu. Operacije sa decimalnim brojevima mogu dati neocekivane rezultate. Ako dodjete do takvog slucaja, otvorite temu na <a href="https://forum.freecodecamp.org/" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forumu</a>.
 
 # --instructions--
 
-Tengeneza kigezo `myDecimal` na umpe thamani ya sehemu za mfululizo yenye sehemu ya sehemu (mfano `5.7`).
+Napravite promenljivu `myDecimal` i dodelite joj decimalnu vrednost sa decimalnim delom (na primer `5.7`).
 
 # --hints--
 
-`myDecimal` inapaswa kuwa nambari.
+`myDecimal` treba da bude broj.
 
 ```js
 assert(typeof myDecimal === 'number');
 ```
 
-`myDecimal` inapaswa kuwa na nukta ya sehemu
+`myDecimal` treba da ima decimalnu tacku
 
 ```js
 assert(myDecimal % 1 != 0);

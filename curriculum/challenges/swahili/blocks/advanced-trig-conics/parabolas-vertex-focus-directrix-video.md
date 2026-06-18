@@ -1,6 +1,6 @@
 ---
 id: 699e855e8f18cf77dfce5c22
-title: "Parabolas - kilele, makini, mstari wa mwelekeo"
+title: "Parabole - teme, žiža, direktan"
 challengeType: 11
 videoId: fAXpgprNFq0
 dashedName: parabolas-vertex-focus-directrix
@@ -8,13 +8,13 @@ dashedName: parabolas-vertex-focus-directrix
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu aina maalum za mlinganyo wa parabolas, na jinsi ya kupata kilele, makini, na mstari wa mwelekeo wa parabola.
+U ovom videu, naučićete o specifičnim oblicima jednačina parabola, i kako da pronađete teme, žižu, i direktan parabole.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya hizi ifuatayo ni aina halali ya mlinganyo wa parabola?
+Koji od sledećih je važeći oblik jednačine parabole?
 
 ## --answers--
 

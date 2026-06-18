@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0e
-title: Huduma ndogo ya kufupisha URL
+title: Mikroservis za skraćivanje URL-ova
 challengeType: 4
 forumTopicId: 301509
 dashedName: url-shortener-microservice
@@ -8,18 +8,18 @@ dashedName: url-shortener-microservice
 
 # --description--
 
-Jenga programu ya JavaScript ya upande wa mteja na seva inayofanana kiutendaji na hii: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako kwa kutumia mojawapo ya njia zifuatazo:
+Napravite klijentski i serverski JavaScript program koji funkcionalno odgovara ovom: <a href="https://url-shortener-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://url-shortener-microservice.freecodecamp.rocks</a>. Rad na ovom projektu će zahtevati pisanje vašeg koda koristeći jedan od sledećih načina:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani ya kompyuta yako.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha unajumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Kopirajte <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener/" target="_blank" rel="noopener noreferrer nofollow">ovaj GitHub repozitorijum</a> i završite svoj projekat lokalno na vašem računaru.
+-   Koristite svoj omiljeni web okvir da biste završili projekat. Obavezno uključite sve fajlove iz našeg GitHub repozitorijuma.
 
 # --instructions--
 
-**KUNYONYESHA:** Usisahau kutumia programu ya kati ya kuchambua mwili wa ombi ili kushughulikia maombi ya POST. Pia, unaweza kutumia kitendakazi `dns.lookup(host, cb)` kutoka kwenye moduli kuu ya `dns` kuthibitisha URL iliyowasilishwa.
+**NAPOMENA:** Ne zaboravite da koristite middleware za parsiranje tela zahteva za obradu POST zahteva. Takođe, možete koristiti funkciju `dns.lookup(host, cb)` iz osnovnog `dns` modula za validaciju prosleđenog URL-a.
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+Trebate da dostavite sopstveni projekat, ne URL sa primera.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   );
 ```
 
-Unaweza kutuma URL kwa `/api/shorturl` kwa njia ya POST na upate jibu la JSON lenye vigezo `original_url` na `short_url`. Hapa kuna mfano: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
+Možete poslati URL na `/api/shorturl` pomoću POST metode i dobiti JSON odgovor sa parametrima `original_url` i `short_url`. Evo primera: `{ original_url : 'https://freeCodeCamp.org', short_url : 1}`
 
 ```js
   const url = code;
@@ -49,7 +49,7 @@ Unaweza kutuma URL kwa `/api/shorturl` kwa njia ya POST na upate jibu la JSON le
   }
 ```
 
-Unapotembelea `/api/shorturl/<short_url>`, utaelekezwa upya kwa URL halisi.
+Kada posetite `/api/shorturl/<short_url>`, bićete preusmereni na pravi URL.
 
 ```js
   const url = code;
@@ -91,7 +91,7 @@ Unapotembelea `/api/shorturl/<short_url>`, utaelekezwa upya kwa URL halisi.
 
 ```
 
-Ikiwa utapita URL isiyo halali ambayo haifuati muundo halali wa `http://www.example.com`, jibu la JSON litakuwa na `{ error: 'invalid url' }`
+Ako prosledite nevažeći URL koji ne prati ispravan format `http://www.example.com`, JSON odgovor će sadržati `{ error: 'invalid url' }`
 
 ```js
   const url = code;

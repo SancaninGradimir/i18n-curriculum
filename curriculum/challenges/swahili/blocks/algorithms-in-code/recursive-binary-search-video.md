@@ -1,6 +1,6 @@
 ---
 id: 698dce727932b3cc4b19c928
-title: Utafutaji wa Binary wa Kurudia
+title: Rekurzivno binarno pretraživanje
 challengeType: 11
 videoId: RQNBzDoG_gA
 dashedName: recursive-binary-search
@@ -8,29 +8,29 @@ dashedName: recursive-binary-search
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuunda suluhisho la kurudia kwa ajili ya utafutaji wa binary.
+U ovom videu, naučićete kako da napravite rekurzivno rešenje za binarno pretraživanje.
 
 # --questions--
 
 ## --text--
 
-Kitendakazi cha kurudia ni nini?
+Šta je rekurzivna funkcija?
 
 ## --answers--
 
-Kitendakazi kinachofanya hesabu mara moja tu.
+Funkcija koja izvršava kalkulaciju samo jednom.
 
 ---
 
-Kitendakazi kinachojita wito.
+Funkcija koja poziva samu sebe.
 
 ---
 
-Kitendakazi ambacho hakirudishi thamani yoyote.
+Funkcija koja ne vraća nikakvu vrednost.
 
 ---
 
-Kitendakazi kinachoweza kuendeshwa tu katika mzunguko.
+Funkcija koja se može izvršavati samo unutar petlje.
 
 ## --video-solution--
 

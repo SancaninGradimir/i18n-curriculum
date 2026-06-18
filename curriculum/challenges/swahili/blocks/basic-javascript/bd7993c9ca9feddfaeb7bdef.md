@@ -1,6 +1,6 @@
 ---
 id: bd7993c9ca9feddfaeb7bdef
-title: Gawanya desimali moja kwa nyingine kwa kutumia JavaScript
+title: Podelite Jedan Decimalni Broj Drugim u JavaScript-u
 challengeType: 1
 forumTopicId: 18255
 dashedName: divide-one-decimal-by-another-with-javascript
@@ -8,27 +8,27 @@ dashedName: divide-one-decimal-by-another-with-javascript
 
 # --description--
 
-Sasa tugawanye desimali moja kwa nyingine.
+Sada podelimo jedan decimalni broj drugim.
 
 # --instructions--
 
-Badilisha `0.0` ili `quotient` iwe sawa na `2.2`.
+Promenite `0.0` tako da `quotient` bude jednako `2.2`.
 
 # --hints--
 
-Kigezo `quotient` kinapaswa kuwa sawa na `2.2`
+Promenljiva `quotient` treba da bude jednaka `2.2`
 
 ```js
 assert(quotient === 2.2);
 ```
 
-Unapaswa kutumia kiendeshaji `/` kugawanya 4.4 kwa 2
+Treba da koristite operator `/` da podelite 4.4 sa 2
 
 ```js
 assert(/4\.40*\s*\/\s*2\.*0*/.test(__helpers.removeJSComments(code)));
 ```
 
-Kigezo cha gawio kinapaswa kupewa thamani mara moja tu
+Promenljivoj sa kolicnikom treba dodeliti vrednost samo jednom
 
 ```js
 assert(__helpers.removeJSComments(code).match(/quotient\s*=/g).length === 1);

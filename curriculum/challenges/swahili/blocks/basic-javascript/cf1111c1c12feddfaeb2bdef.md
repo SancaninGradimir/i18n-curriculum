@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb2bdef
-title: Tengeneza nambari kamili za bahati nasibu ndani ya anuwai
+title: Generisanje Slucajnih Celih Brojeva Unutar Opsega
 challengeType: 1
 forumTopicId: 18187
 dashedName: generate-random-whole-numbers-within-a-range
@@ -8,11 +8,11 @@ dashedName: generate-random-whole-numbers-within-a-range
 
 # --description--
 
-Unaweza kutengeneza nambari kamili ya bahati nasibu katika anuwai kutoka sifuri hadi nambari fulani. Pia unaweza kuchagua nambari ya chini tofauti kwa anuwai hii.
+Mozete generisati slucajan ceo broj u opsegu od nule do nekog broja. Takodje mozete izabrati drugacije minimalne vrednosti za taj opseg.
 
-Utaweka nambari yako ya kiwango cha chini `min` na nambari yako ya kiwango cha juu `max`.
+Postavljate minimalnu vrednost `min` i maksimalnu vrednost `max`.
 
-Fomula hii inatoa nambari kamili ya bahati nasibu katika anuwai kutoka `min` hadi `max`. Chukua muda kusoma na jaribu kuelewa msimbo huu unafanya nini:
+Ova formula daje slucajan ceo broj u opsegu od `min` do `max`. Odvojite malo vremena da procitate i pokusate da razumete sta ovaj kod radi:
 
 ```js
 Math.floor(Math.random() * (max - min + 1)) + min
@@ -20,11 +20,11 @@ Math.floor(Math.random() * (max - min + 1)) + min
 
 # --instructions--
 
-Tengeneza kitendakazi kinachoitwa `randomRange` kinachopokea anuwai `myMin` na `myMax` na kurudisha nambari kamili ya bahati nasibu ambayo ni kubwa au sawa na `myMin` na ndogo au sawa na `myMax`.
+Napravite funkciju `randomRange` koja prima opseg `myMin` i `myMax` i vraca slucajan ceo broj koji je veci ili jednak `myMin`, a manji ili jednak `myMax`.
 
 # --hints--
 
-Nambari ya chini kabisa ya bahati nasibu inayoweza kutengenezwa na `randomRange` inapaswa kuwa sawa na nambari yako ya kiwango cha chini, `myMin`.
+Najmanji slucajni broj koji `randomRange` moze da generiuse treba da bude jednak minimalnoj vrednosti, `myMin`.
 
 ```js
 assert(
@@ -44,7 +44,7 @@ assert(
 );
 ```
 
-Nambari ya juu kabisa ya bahati nasibu inayoweza kutengenezwa na `randomRange` inapaswa kuwa sawa na nambari yako ya kiwango cha juu, `myMax`.
+Najveci slucajni broj koji `randomRange` moze da generiuse treba da bude jednak maksimalnoj vrednosti, `myMax`.
 
 ```js
 assert(
@@ -64,13 +64,13 @@ assert(
 );
 ```
 
-Nambari ya bahati nasibu inayotengenezwa na `randomRange` inapaswa kuwa nambari kamili, si desimali.
+Slucajni broj koji generiuse `randomRange` treba da bude ceo broj, a ne decimalni.
 
 ```js
 assert(randomRange(0, 1) % 1 === 0);
 ```
 
-`randomRange` inapaswa kutumia `myMax` na `myMin` na kurudisha nambari ya bahati nasibu katika anuwai yako.
+`randomRange` treba da koristi `myMax` i `myMin` i vraca slucajan broj unutar vaseg opsega.
 
 ```js
 assert(

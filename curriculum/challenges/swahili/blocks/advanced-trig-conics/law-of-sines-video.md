@@ -1,6 +1,6 @@
 ---
 id: 699e855a8f18cf77dfce5c21
-title: Sheria ya Sini
+title: Sinusno pravilo
 challengeType: 11
 videoId: Arm0baqLKTo
 dashedName: law-of-sines
@@ -8,29 +8,29 @@ dashedName: law-of-sines
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu Sheria ya Sini.
+U ovom videu, naučićete o sinusnom pravilu.
 
 # --questions--
 
 ## --text--
 
-Sheria ya Sini inaweza kutumika kupata nini?
+Za šta se sinusno pravilo može koristiti?
 
 ## --answers--
 
-Kutatua pembetatu ambazo ni pembetatu za kulia.
+Za rešavanje trougaoa koji su pravi trougaoi.
 
 ---
 
-Kutatua pembetatu ambazo si lazima ziwe pembetatu za kulia.
+Za rešavanje trougaoa koji ne moraju biti pravi trougaoi.
 
 ---
 
-Kutatua pembetatu ambazo ni pembetatu sawa pande zote.
+Za rešavanje trougaoa koji su jednakostranični trougaoi.
 
 ---
 
-Kutatua pembetatu ambazo ni pembetatu za isosceles.
+Za rešavanje trougaoa koji su jednokraki trougaoi.
 
 ## --video-solution--
 

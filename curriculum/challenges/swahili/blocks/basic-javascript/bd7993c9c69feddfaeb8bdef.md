@@ -1,6 +1,6 @@
 ---
 id: bd7993c9c69feddfaeb8bdef
-title: Hifadhi maadili mengi katika kigezo kimoja kwa kutumia safu za data za JavaScript
+title: Sacuvajte Vise Vrednosti u Jednoj Promenljivoj Koristeci JavaScript Nizove
 challengeType: 1
 forumTopicId: 18309
 dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
@@ -8,9 +8,9 @@ dashedName: store-multiple-values-in-one-variable-using-javascript-arrays
 
 # --description--
 
-Kwa kutumia vigezo vya JavaScript `array`, tunaweza kuhifadhi vipande vingi vya data mahali pamoja.
+Koristeci JavaScript `array` promenljive, mozemo cuvati vise delova podataka na jednom mestu.
 
-Unaanza tamko la safu ya data kwa mabano ya mraba ya kufungua, unaimaliza kwa mabano ya mraba ya kufunga, na unaweka koma kati ya kila kipengee, kama hivi:
+Deklaraciju niza zapocinjete otvorenom uglastom zagradom, zavrsavate zatvorenom uglastom zagradom i stavljate zarez izmedju svake stavke, ovako:
 
 ```js
 const sandwich = ["peanut butter", "jelly", "bread"];
@@ -18,23 +18,23 @@ const sandwich = ["peanut butter", "jelly", "bread"];
 
 # --instructions--
 
-Badilisha safu mpya `myArray` ili iwe na mfuatano wa herufi na nambari (kwa mpangilio huo).
+Izmenite novi niz `myArray` tako da sadrzi string i broj (tim redosledom).
 
 # --hints--
 
-`myArray` inapaswa kuwa safu ya data.
+`myArray` treba da bude niz.
 
 ```js
 assert(typeof myArray == 'object');
 ```
 
-Kipengee cha kwanza katika `myArray` kinapaswa kuwa mfuatano wa herufi.
+Prvi element u `myArray` treba da bude string.
 
 ```js
 assert(typeof myArray[0] !== 'undefined' && typeof myArray[0] == 'string');
 ```
 
-Kipengee cha pili katika `myArray` kinapaswa kuwa nambari.
+Drugi element u `myArray` treba da bude broj.
 
 ```js
 assert(typeof myArray[1] !== 'undefined' && typeof myArray[1] == 'number');

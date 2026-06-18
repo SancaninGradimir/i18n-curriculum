@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb8bdef
-title: Badilisha data ya safu ya data kwa kutumia vielezo
+title: Menjanje Podataka u Nizu Pomocu Indeksa
 challengeType: 1
 forumTopicId: 18241
 dashedName: modify-array-data-with-indexes
@@ -8,26 +8,26 @@ dashedName: modify-array-data-with-indexes
 
 # --description--
 
-Tofauti na mfuatano wa herufi, maingizo ya safu ya data ni <dfn>yanayobadilika</dfn> na yanaweza kubadilishwa kwa uhuru, hata kama safu ya data ilitangazwa na `const`.
+Za razliku od stringova, unosi u nizu su <dfn>promenljivi</dfn> i mogu slobodno da se menjaju, cak i ako je niz deklarisan pomocu `const`.
 
-**Mfano**
+**Primer**
 
 ```js
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 ```
 
-`ourArray` sasa ina thamani ya `[15, 40, 30]`.
+`ourArray` sada ima vrednost `[15, 40, 30]`.
 
-**Kumbuka:** Hakuna nafasi zinapaswa kuwepo kati ya jina la safu ya data na mabano ya mraba, kama `array [0]`. Ingawa JavaScript inaweza kushughulikia hili kwa usahihi, hii inaweza kuwachanganya programu wengine wanaosoma msimbo wako.
+**Napomena:** Izmedju naziva niza i uglastih zagrada ne sme biti razmaka, kao u `array [0]`. Iako JavaScript moze da obradi ovo ispravno, to moze zbuniti druge programere koji citaju vas kod.
 
 # --instructions--
 
-Badilisha data iliyohifadhiwa katika kielezo `0` cha `myArray` kuwa thamani ya `45`.
+Promenite podatke sacuvane na indeksu `0` niza `myArray` u vrednost `45`.
 
 # --hints--
 
-`myArray` inapaswa sasa kuwa `[45, 64, 99]`.
+`myArray` sada treba da bude `[45, 64, 99]`.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-Unapaswa kutumia kielezo sahihi kubadilisha thamani katika `myArray`.
+Treba da koristite ispravan indeks da promenite vrednost u `myArray`.
 
 ```js
 assert(

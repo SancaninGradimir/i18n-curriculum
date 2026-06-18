@@ -1,6 +1,6 @@
 ---
 id: 699e85718f18cf77dfce5c26
-title: Misingi ya mlinganyo wa parametric
+title: Osnove parametarskih jednačina
 challengeType: 11
 videoId: VP5KJr2giwI
 dashedName: parametric-equations
@@ -8,29 +8,29 @@ dashedName: parametric-equations
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu misingi ya mlinganyo wa parametric.
+U ovom videu, naučićete o osnovama parametarskih jednačina.
 
 # --questions--
 
 ## --text--
 
-Mlinganyo wa Cartesian kwa mviringo ni upi?
+Koja je Kartezijska jednačina za krug?
 
 ## --answers--
 
-Mlinganyo unaotumia r na θ kuelezea mviringo.
+Jednačina koja koristi r i θ za opisivanje kruga.
 
 ---
 
-Mlinganyo unaotumia x na y kuelezea mviringo.
+Jednačina koja koristi x i y za opisivanje kruga.
 
 ---
 
-Mlinganyo unaotoa mwelekeo wa mviringo kwa kila sehemu tu.
+Jednačina koja daje smer kruga samo za svaki deo.
 
 ---
 
-Mlinganyo unaotumia umbali kutoka sehemu iliyowekwa tu.
+Jednačina koja koristi samo udaljenost od zadate tačke.
 
 ## --video-solution--
 

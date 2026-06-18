@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb3bdef
-title: Ongeza nambari mbili kwa kutumia JavaScript
+title: Saberite Dva Broja Pomocu JavaScript-a
 challengeType: 1
 forumTopicId: 16650
 dashedName: add-two-numbers-with-javascript
@@ -8,33 +8,33 @@ dashedName: add-two-numbers-with-javascript
 
 # --description--
 
-`Number` ni aina ya data katika JavaScript inayowakilisha data ya nambari.
+`Number` je tip podataka u JavaScript-u koji predstavlja numericke podatke.
 
-Sasa jaribu kuongeza nambari mbili kwa kutumia JavaScript.
+Sada pokusajte da saberete dva broja koristeci JavaScript.
 
-JavaScript hutumia alama ya `+` kama kiendeshaji cha kuongeza wakati imewekwa kati ya nambari mbili.
+JavaScript koristi simbol `+` kao operator sabiranja kada se postavi izmedju dva broja.
 
-**Mfano:**
+**Primer:**
 
 ```js
 const myVar = 5 + 10;
 ```
 
-`myVar` sasa ina thamani ya `15`.
+`myVar` sada ima vrednost `15`.
 
 # --instructions--
 
-Badilisha `0` ili jumla iwe sawa na `20`.
+Promenite `0` tako da zbir bude `20`.
 
 # --hints--
 
-`sum` inapaswa kuwa sawa na `20`.
+`sum` treba da bude jednako `20`.
 
 ```js
 assert(sum === 20);
 ```
 
-Unapaswa kutumia kiendeshaji cha `+`.
+Treba da koristite operator `+`.
 
 ```js
 assert(/\+/.test(__helpers.removeJSComments(code)));

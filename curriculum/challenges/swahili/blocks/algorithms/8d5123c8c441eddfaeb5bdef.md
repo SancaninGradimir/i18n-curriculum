@@ -1,6 +1,6 @@
 ---
 id: 8d5123c8c441eddfaeb5bdef
-title: Tekeleza bubble sort
+title: Implementirajte bubble sort
 challengeType: 1
 forumTopicId: 301612
 dashedName: implement-bubble-sort
@@ -8,23 +8,23 @@ dashedName: implement-bubble-sort
 
 # --description--
 
-Hii ni changamoto ya kwanza kati ya changamoto kadhaa kuhusu algoriti za kupanga (sorting). Ikiwa umetolewa safu ya data isiyo pangwa, tunataka kuwa na uwezo wa kurudisha safu ya data iliyopangwa. Tutaona njia kadhaa tofauti za kufanya hivi na kujifunza baadhi ya mabadiliko kati ya mbinu hizi tofauti. Ingawa lugha nyingi za kisasa zina njia zilizojengwa ndani za kupanga kwa shughuli kama hizi, bado ni muhimu kuelewa baadhi ya mbinu za msingi zinazotumika na kujifunza jinsi zinavyoweza kutekelezwa.
+Ovo je prvi od nekoliko izazova o sortirnim algoritmima. Ako vam je dat nesortiran niz podataka, želimo da budemo u mogućnosti da vratimo sortiran niz. Pogledaćemo nekoliko različitih načina da to uradimo i naučiti neke razlike između ovih različitih pristupa. Iako mnogi savremeni jezici imaju ugrađene funkcije za sortiranje za ovakve operacije, i dalje je važno razumeti neke osnovne tehnike koje se koriste i naučiti kako se mogu implementirati.
 
-Hapa tutaangalia bubble sort. Njia ya bubble sort huanza mwanzoni mwa safu ya data isiyo pangwa na 'huinua' thamani zisizopangwa kuelekea mwisho, ikirudia kupitia safu ya data hadi ipangwe kabisa. Hii hufanyika kwa kulinganisha vitu viwili vinavyopakana na kubadilishana nafasi ikiwa viko katika mpangilio usio sahihi. Njia hii inaendelea kurudia kupitia safu ya data hadi hakuna kubadilishana tena, wakati huo safu ya data imeshapangwa.
+Ovde ćemo pogledati bubble sort. Bubble sort počinje na početku nesortiranog niza i "podiže" nesortirane vrednosti ka kraju, prolazeći kroz niz sve dok ne bude potpuno sortiran. To se postiže upoređivanjem dva susedna elementa i njihovom zamenom ako su u netačnom redosledu. Ovaj postupak se ponavlja kroz niz sve dok više nema zamena, u kom trenutku je niz sortiran.
 
-Njia hii inahitaji kurudia mara nyingi kupitia safu ya data na kwa hali za wastani na mbaya ina ugumu wa wakati wa mduara wa mraba (quadratic time complexity). Ingawa ni rahisi, kawaida haifai katika hali nyingi.
+Ovaj pristup zahteva višestruko ponavljanje kroz niz i u prosečnom i u najgorem slučaju ima vremensku složenost kvadratnog reda (quadratic time complexity). Iako je jednostavan, obično nije efikasan u mnogim situacijama.
 
-**Maelekezo:** Andika kitendakazi `bubbleSort` kinachopokea safu ya data ya nambari kamili kama ingizo na kurudisha safu ya data ya nambari hizi kamili zikiwa zimepangwa kutoka ndogo hadi kubwa.
+**Uputstva:** Napišite funkciju `bubbleSort` koja prima niz celih brojeva kao ulaz i vraća niz ovih celih brojeva sortiranih od najmanjeg do najvećeg.
 
 # --hints--
 
-`bubbleSort` inapaswa kuwa kitendakazi.
+`bubbleSort` treba da bude funkcija.
 
 ```js
 assert.isFunction(bubbleSort);
 ```
 
-`bubbleSort` inapaswa kurudisha safu ya data iliyopangwa (kutoka ndogo hadi kubwa).
+`bubbleSort` treba da vrati sortiran niz (od najmanjeg do najvećeg).
 
 ```js
 function isSorted(a){
@@ -58,7 +58,7 @@ assert.isTrue(
 );
 ```
 
-`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` inapaswa kurudisha safu ya data isiyobadilika isipokuwa kwa mpangilio.
+`bubbleSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])` treba da vrati niz koji se ne menja osim redosleda.
 
 ```js
 assert.sameMembers(
@@ -85,7 +85,7 @@ assert.sameMembers(
 );
 ```
 
-`bubbleSort` haipaswi kutumia njia iliyo ndani ya `.sort()`.
+`bubbleSort` ne treba da koristi ugrađenu `.sort()` metodu.
 
 ```js
 function isBuiltInSortUsed(){

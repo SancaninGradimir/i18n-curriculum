@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c441eddfaeb4bdef
-title: Maoni katika msimbo wako wa JavaScript
+title: Komentari U Vasem JavaScript Kodu
 challengeType: 1
 forumTopicId: 16783
 dashedName: comment-your-javascript-code
@@ -8,38 +8,38 @@ dashedName: comment-your-javascript-code
 
 # --description--
 
-Maoni ni mistari ya msimbo ambayo JavaScript itapuuzia kwa makusudi. Maoni ni njia nzuri ya kuacha vidokezo kwa ajili yako mwenyewe na kwa watu wengine ambao baadaye watahitaji kuelewa msimbo huo unafanya nini.
+Komentari su linije koda koje JavaScript namerno ignorise. Komentari su odlican nacin da ostavite belezke sebi i drugim ljudima koji ce kasnije morati da razumeju sta kod radi.
 
-Kuna njia mbili za kuandika maoni katika JavaScript:
+Postoje dva nacina za pisanje komentara u JavaScript-u:
 
-Kutumia `//` kutaambia JavaScript kupuuza mabaki ya maandishi kwenye mstari huo wa sasa. Hii ni maoni ya mstari mmoja:
+Koriscenje `//` govori JavaScript-u da ignorise ostatak teksta u trenutnoj liniji. Ovo je jednolinijski komentar:
 
 ```js
 // This is an in-line comment.
 ```
 
-Unaweza kutengeneza maoni ya mistari mingi kuanzia na `/*` na kumalizika na `*/`. Hii ni maoni ya mistari mingi:
+Viselinijski komentar mozete napisati tako sto pocinje sa `/*`, a zavrsava se sa `*/`. Ovo je viselinijski komentar:
 
 ```js
 /* This is a
 multi-line comment */
 ```
 
-**KUMBUKA:** Unapoandika msimbo, unapaswa mara kwa mara kuongeza maoni ili kufafanua kitendo cha sehemu za msimbo wako. Kuandika maoni vizuri kunaweza kusaidia kuwasilisha nia ya msimbo wako—kwa wengine *na* kwa wewe mwenyewe baadaye.
+**NAPOMENA:** Kada pisete kod, trebalo bi redovno da dodajete komentare kako biste objasnili sta pojedini delovi rade. Dobro napisani komentari pomazu da se razume namera koda - i drugima i vama kasnije.
 
 # --instructions--
 
-Jaribu kutengeneza aina moja ya kila aina ya maoni.
+Pokusajte da napravite po jedan primer svakog tipa komentara.
 
 # --hints--
 
-Unapaswa kutengeneza maoni ya mtindo wa `//` ambayo yana herufi tano au zaidi.
+Treba da napravite komentar stila `//` sa pet ili vise karaktera.
 
 ```js
 assert(code.match(/(\/\/)...../g));
 ```
 
-Unapaswa kutengeneza maoni ya mtindo wa `/* */` ambayo yana herufi tano au zaidi.
+Treba da napravite komentar stila `/* */` sa pet ili vise karaktera.
 
 ```js
 assert(code.match(/(\/\*)([^\/]{5,})(?=\*\/)/gm));

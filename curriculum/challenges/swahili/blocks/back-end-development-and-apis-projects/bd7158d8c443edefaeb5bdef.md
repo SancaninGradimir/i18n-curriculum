@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdef
-title: Huduma ndogo ya alama ya wakati
+title: Mikroservis vremenske oznake
 challengeType: 4
 forumTopicId: 301508
 dashedName: timestamp-microservice
@@ -8,16 +8,16 @@ dashedName: timestamp-microservice
 
 # --description--
 
-Jenga programu ya JavaScript ya full-stack ambayo inaendana kiutendaji na hii: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako ukitumia mojawapo ya njia zifuatazo:
+Napravite full-stack JavaScript aplikaciju koja funkcionalno odgovara ovoj: <a href="https://timestamp-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://timestamp-microservice.freecodecamp.rocks</a>. Rad na ovom projektu će zahtevati pisanje vašeg koda koristeći jedan od sledećih načina:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani ya kompyuta yako.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha unajumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Kopirajte <a href="https://github.com/freeCodeCamp/boilerplate-project-timestamp/"  target="_blank" rel="noopener noreferrer nofollow">ovaj GitHub repozitorijum</a> i završite svoj projekat lokalno na vašem računaru.
+-   Koristite svoj omiljeni web okvir da biste završili projekat. Obavezno uključite sve fajlove iz našeg GitHub repozitorijuma.
 
-**Kumbuka:** Kubadilisha maeneo ya saa si lengo la mradi huu, hivyo chukulia tarehe zote halali zitakazotumwa zitachambuliwa kwa `new Date()` kama tarehe za GMT.
+**Napomena:** Menjanje vremenskih zona nije cilj ovog projekta, pa pretpostavite da će svi važeći datumi poslati biti analizirani pomoću `new Date()` kao GMT datumi.
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+Trebate da dostavite sopstveni projekat, ne URL sa primera.
 
 ```js
   assert(
@@ -25,7 +25,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   );
 ```
 
-Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON chenye ufunguo wa `unix` ambacho ni alama ya Unix ya tarehe ya ingizo kwa millisekunde (aina Number)
+Zahtev na `/api/:date?` sa važećim datumom treba da vrati JSON objekat sa ključem `unix` koji predstavlja Unix vremensku oznaku unetog datuma u milisekundama (tip Number)
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -40,7 +40,7 @@ Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON che
   );
 ```
 
-Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON chenye ufunguo wa `utc` ambao ni mfuatano wa herufi wa tarehe ya ingizo kwa muundo: `Thu, 01 Jan 1970 00:00:00 GMT`
+Zahtev na `/api/:date?` sa važećim datumom treba da vrati JSON objekat sa ključem `utc` koji je niz karaktera unetog datuma u formatu: `Thu, 01 Jan 1970 00:00:00 GMT`
 
 ```js
   const response = await fetch(code + '/api/2016-12-25');
@@ -55,7 +55,7 @@ Ombi kwa `/api/:date?` lenye tarehe halali linapaswa kurudisha kitu cha JSON che
   );
 ```
 
-Ombi kwa `/api/1451001600000` linapaswa kurudisha `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
+Zahtev na `/api/1451001600000` treba da vrati `{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }`
 
 ```js
   const response = await fetch(code + '/api/1451001600000');
@@ -69,7 +69,7 @@ Ombi kwa `/api/1451001600000` linapaswa kurudisha `{ unix: 1451001600000, utc: "
   );
 ```
 
-Mradi wako unaweza kushughulikia tarehe zinazoweza kuchambuliwa kwa mafanikio na `new Date(date_string)`
+Vaš projekat treba da obrađuje datume koji se uspešno parsiraju pomoću `new Date(date_string)`
 
 ```js
   const response = await fetch(code + '/api/05 October 2011, GMT');
@@ -83,7 +83,7 @@ Mradi wako unaweza kushughulikia tarehe zinazoweza kuchambuliwa kwa mafanikio na
   );
 ```
 
-Kama mfuatano wa herufi wa tarehe ni batili, API inarudisha kitu chenye muundo wa `{ error : "Invalid Date" }`
+Ako je niz karaktera datuma nevažeći, API vraća objekat u formatu `{ error : "Invalid Date" }`
 
 ```js
   const response = await fetch(code + '/api/this-is-not-a-date');
@@ -96,7 +96,7 @@ Kama mfuatano wa herufi wa tarehe ni batili, API inarudisha kitu chenye muundo w
   }
 ```
 
-Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika kitu cha JSON chenye ufunguo wa `unix`
+Parametar datuma bez sadržaja treba da vrati trenutno vreme u JSON objektu sa ključem `unix`
 
 ```js
   const response = await fetch(code + '/api');
@@ -108,7 +108,7 @@ Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika k
   assert.approximately(data.unix, now, 20000);
 ```
 
-Kigezo cha tarehe kisicho na maudhui kinapaswa kurudisha wakati wa sasa katika kitu cha JSON chenye ufunguo wa `utc`
+Parametar datuma bez sadržaja treba da vrati trenutno vreme u JSON objektu sa ključem `utc`
 
 ```js
   const response = await fetch(code + '/api');

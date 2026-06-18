@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c12feddfaeb3bdef
-title: Tumia mantiki ya masharti na taarifa za if
+title: Koristite Uslovnu Logiku sa if Iskazima
 challengeType: 1
 forumTopicId: 18348
 dashedName: use-conditional-logic-with-if-statements
@@ -8,15 +8,15 @@ dashedName: use-conditional-logic-with-if-statements
 
 # --description--
 
-Taarifa za `if` hutumiwa kufanya maamuzi katika msimbo. Neno kuu `if` linaambia JavaScript kutekeleza msimbo ulioko ndani ya mabano ya mviringo chini ya masharti fulani, yaliyoainishwa katika mabano ya kawaida. Masharti haya yanajulikana kama masharti ya `Boolean` na yanaweza kuwa tu `true` au `false`.
+`if` iskazi se koriste za donoszenje odluka u kodu. Kljucna rec `if` govori JavaScript-u da izvrsi kod unutar viticastih zagrada pod odredjenim uslovima, definisanim u obicnim zagradama. Ti uslovi se zovu `Boolean` uslovi i mogu biti samo `true` ili `false`.
 
-Wakati sharti linapohesabiwa kuwa `true`, programu hutekeleza taarifa iliyoko ndani ya mabano ya mviringo. Wakati sharti la thamani ya kweli au siyo kweli linapohesabiwa kuwa `false`, taarifa iliyoko ndani ya mabano ya mviringo haitatekelezwa.
+Kada se uslov evaluira kao `true`, program izvrsava iskaz unutar viticastih zagrada. Kada se boolean uslov evaluira kao `false`, iskaz unutar viticastih zagrada se nece izvrsiti.
 
-**Msimbo wa bandia**
+**Pseudokod**
 
-<blockquote>if (<i>sharti ni kweli</i>) {<br>  <i>taarifa hutekelezwa</i><br>}</blockquote>
+<blockquote>if (<i>uslov je tacan</i>) {<br>  <i>iskaz se izvrsava</i><br>}</blockquote>
 
-**Mfano**
+**Primer**
 
 ```js
 function test(myCondition) {
@@ -30,17 +30,17 @@ test(true);
 test(false);
 ```
 
-`test(true)` hurudisha mfuatano wa herufi `It was true`, na `test(false)` hurudisha mfuatano wa herufi `It was false`.
+`test(true)` vraca string `It was true`, a `test(false)` vraca string `It was false`.
 
-Wakati `test` inapoitwa na thamani ya `true`, taarifa ya `if` inahesabu `myCondition` kuona kama ni `true` au la. Kwa kuwa ni `true`, kitendakazi hurudisha `It was true`. Tunapoitisha `test` na thamani ya `false`, `myCondition` si `true` na taarifa ndani ya mabano ya mviringo haitatekelezwa na kitendakazi hurudisha `It was false`.
+Kada se `test` pozove sa vrednoscu `true`, `if` iskaz evaluira `myCondition` da vidi da li je `true` ili ne. Posto jeste, funkcija vraca `It was true`. Kada pozvamo `test` sa vrednoscu `false`, `myCondition` nije `true` i iskaz unutar viticastih zagrada se ne izvrsava, pa funkcija vraca `It was false`.
 
 # --instructions--
 
-Tengeneza taarifa ya `if` ndani ya kitendakazi ili kurudisha `Yes, that was true` ikiwa kigezo `wasThatTrue` ni `true` na kurudisha `No, that was false` vinginevyo.
+Napravite `if` iskaz unutar funkcije koji vraca `Yes, that was true` ako je promenljiva `wasThatTrue` `true`, a `No, that was false` u suprotnom.
 
 # --hints--
 
-`trueOrFalse` inapaswa kuwa kitendakazi
+`trueOrFalse` treba da bude funkcija
 
 ```js
 assert(typeof trueOrFalse === 'function');
@@ -58,13 +58,13 @@ assert(typeof trueOrFalse(true) === 'string');
 assert(typeof trueOrFalse(false) === 'string');
 ```
 
-`trueOrFalse(true)` inapaswa kurudisha mfuatano wa herufi `Yes, that was true`
+`trueOrFalse(true)` treba da vrati string `Yes, that was true`
 
 ```js
 assert(trueOrFalse(true) === 'Yes, that was true');
 ```
 
-`trueOrFalse(false)` inapaswa kurudisha mfuatano wa herufi `No, that was false`
+`trueOrFalse(false)` treba da vrati string `No, that was false`
 
 ```js
 assert(trueOrFalse(false) === 'No, that was false');

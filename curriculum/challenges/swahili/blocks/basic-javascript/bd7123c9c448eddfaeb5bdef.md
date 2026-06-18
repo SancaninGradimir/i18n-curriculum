@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c448eddfaeb5bdef
-title: Tafuta urefu wa mfuatano wa herufi
+title: Pronadjite Duzinu Stringa
 challengeType: 1
 forumTopicId: 18182
 dashedName: find-the-length-of-a-string
@@ -8,23 +8,23 @@ dashedName: find-the-length-of-a-string
 
 # --description--
 
-Unaweza kupata urefu wa thamani ya `String` kwa kuandika `.length` baada ya mabadiliko ya mfuatano wa herufi au mfuatano wa herufi wa moja kwa moja.
+Duzinu `String` vrednosti mozete dobiti tako sto napisete `.length` iza string promenljive ili iza samog string literala.
 
 ```js
 console.log("Alan Peter".length);
 ```
 
-Thamani ya `10` itaonyeshwa kwenye konsoli. Kumbuka kuwa nafasi kati ya "Alan" na "Peter" pia inahesabiwa.
+U konzoli ce biti prikazana vrednost `10`. Obratite paznju da se i razmak izmedju "Alan" i "Peter" racuna.
 
-Kwa mfano, ikiwa tutaunda mabadiliko `const firstName = "Ada"`, tunaweza kugundua urefu wa mfuatano wa herufi `Ada` kwa kutumia sifa ya `firstName.length`.
+Na primer, ako napravimo promenljivu `const firstName = "Ada"`, duzinu stringa `Ada` mozemo dobiti pomocu svojstva `firstName.length`.
 
 # --instructions--
 
-Tumia sifa ya `.length` kuweka `lastNameLength` kuwa nambari ya herufi katika `lastName`.
+Koristite svojstvo `.length` da postavite `lastNameLength` na broj karaktera u `lastName`.
 
 # --hints--
 
-Haupaswi kubadilisha tamko za mabadiliko katika sehemu ya `// Setup`.
+Ne treba da menjate deklaracije promenljivih u delu `// Setup`.
 
 ```js
 assert(
@@ -33,13 +33,13 @@ assert(
 );
 ```
 
-`lastNameLength` inapaswa kuwa sawa na nane.
+`lastNameLength` treba da bude jednako osam.
 
 ```js
 assert(typeof lastNameLength !== 'undefined' && lastNameLength === 8);
 ```
 
-Unapaswa kupata urefu wa `lastName` kwa kutumia `.length` kama hii: `lastName.length`.
+Treba da uzmete duzinu od `lastName` koristeci `.length`, ovako: `lastName.length`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/=\s*lastName\.length/g) && !__helpers.removeJSComments(code).match(/lastName\s*=\s*8/));

@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb4bdef
-title: Punguza nambari moja kutoka kwa nyingine kwa kutumia JavaScript
+title: Oduzimanje Jednog Broja od Drugog Pomocu JavaScript-a
 challengeType: 1
 forumTopicId: 18314
 dashedName: subtract-one-number-from-another-with-javascript
@@ -8,30 +8,30 @@ dashedName: subtract-one-number-from-another-with-javascript
 
 # --description--
 
-Tunaweza pia kupunguza nambari moja kutoka kwa nyingine.
+Mozemo i oduzimati jedan broj od drugog.
 
-JavaScript hutumia alama ya `-` kwa ajili ya upunguzaji.
+JavaScript koristi simbol `-` za oduzimanje.
 
-**Mfano**
+**Primer**
 
 ```js
 const myVar = 12 - 6;
 ```
 
-`myVar` itakuwa na thamani ya `6`.
+`myVar` ce imati vrednost `6`.
 # --instructions--
 
-Badilisha `0` ili tofauti iwe `12`.
+Promenite `0` tako da razlika bude `12`.
 
 # --hints--
 
-Kigezo `difference` kinapaswa kuwa sawa na `12`.
+Promenljiva `difference` treba da bude jednaka `12`.
 
 ```js
 assert(difference === 12);
 ```
 
-Unapaswa kupunguza nambari moja tu kutoka `45`.
+Treba da oduzmete samo jedan broj od `45`.
 
 ```js
 assert(/difference=45-33;?/.test(__helpers.removeWhiteSpace(__helpers.removeJSComments(code))));

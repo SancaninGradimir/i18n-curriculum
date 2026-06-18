@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c444eddfaeb5bdef
-title: Tangaza vigezo vya mfuatano wa herufi
+title: Deklarisite String Promenljive
 challengeType: 1
 forumTopicId: 17557
 dashedName: declare-string-variables
@@ -8,27 +8,27 @@ dashedName: declare-string-variables
 
 # --description--
 
-Hapo awali ulitumia msimbo ufuatao kutangaza kigezo:
+Ranije ste koristili sledeci kod da deklarisete promenljivu:
 
 ```js
 var myName;
 ```
 
-Lakini pia unaweza kutangaza kigezo cha mfuatano wa herufi kama hii:
+Ali mozete deklarisati i string promenljivu ovako:
 
 ```js
 var myName = "your name";
 ```
 
-`"your name"` huitwa <dfn>mfuatano wa herufi</dfn> <dfn>literal</dfn>. Mfuatano wa herufi literal, au mfuatano wa herufi, ni mfululizo wa herufi sifuri au zaidi uliofungwa ndani ya alama za nukuu moja au alama za nukuu maradufu.
+`"your name"` se naziva <dfn>string literal</dfn>. String literal, odnosno string, je niz od nula ili vise karaktera zatvoren jednostrukim ili dvostrukim navodnicima.
 
 # --instructions--
 
-Tengeneza vigezo viwili vipya vya mfuatano wa herufi: `myFirstName` na `myLastName` na weka thamani zao kuwa majina yako ya kwanza na ya mwisho, mtawalia.
+Napravite dve nove string promenljive: `myFirstName` i `myLastName`, i postavite njihove vrednosti na vase ime i prezime, redom.
 
 # --hints--
 
-`myFirstName` inapaswa kuwa mfuatano wa herufi wenye angalau herufi moja ndani yake.
+`myFirstName` treba da bude string sa najmanje jednim karakterom.
 
 ```js
 assert(
@@ -46,7 +46,7 @@ assert(
 );
 ```
 
-`myLastName` inapaswa kuwa mfuatano wa herufi wenye angalau herufi moja ndani yake.
+`myLastName` treba da bude string sa najmanje jednim karakterom.
 
 ```js
 assert(

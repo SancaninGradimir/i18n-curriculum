@@ -1,6 +1,6 @@
 ---
 id: 699e56b58f18cf77dfce5c0b
-title: Urefu wa mviringo na maeneo ya sehemu za mviringo
+title: Dužina luka i površine sektora kruga
 challengeType: 11
 videoId: hNtpuLx5i6Y
 dashedName: arclength-and-areas-of-sectors
@@ -8,29 +8,29 @@ dashedName: arclength-and-areas-of-sectors
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu mviringo, sehemu za mviringo na maeneo ya sehemu za mviringo.
+U ovom videu, naučićete o lukovima, sektorima kruga i površinama sektora kruga.
 
 # --questions--
 
 ## --text--
 
-Sehemu ya mviringo ni nini?
+Šta je sektor kruga?
 
 ## --answers--
 
-Kipande cha pi cha mduara.
+Komad kruga u obliku parčeta pite.
 
 ---
 
-Mstari unaogawanya mduara kuwa nusu mbili sawa.
+Linija koja deli krug na dva jednaka dela.
 
 ---
 
-Umbali unaozunguka nje ya mduara.
+Udaljenost koja okružuje spoljašnjost kruga.
 
 ---
 
-Kituo cha mduara.
+Centar kruga.
 
 ## --video-solution--
 

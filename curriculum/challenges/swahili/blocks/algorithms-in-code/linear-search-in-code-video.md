@@ -1,6 +1,6 @@
 ---
 id: 698dca057932b3cc4b19c926
-title: Utafutaji wa mstari katika msimbo
+title: Linearno pretraživanje u kodu
 challengeType: 11
 videoId: bKkgjdPkL3A
 dashedName: linear-search-in-code
@@ -8,13 +8,13 @@ dashedName: linear-search-in-code
 
 # --description--
 
-Katika video hii, utaandika msimbo wa algoriti ya utafutaji wa mstari kwa kutumia Python.
+U ovom videu, napisaćete kod algoritma linearnog pretraživanja koristeći Python.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kuandika kitendakazi cha utafutaji wa mstari?
+Koji od sledećih je ispravan način pisanja funkcije linearnog pretraživanja?
 
 ## --answers--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e54288f18cf77dfce5c0a
-title: Pembe na Vipimo Vyake
+title: Uglovi i njihova mera
 challengeType: 11
 videoId: Ycu5Xn5rFuc
 dashedName: angles-and-their-measures
@@ -8,29 +8,29 @@ dashedName: angles-and-their-measures
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu njia tofauti za kuelezea pembe.
+U ovom videu, naučićete o različitim načinima za izražavanje uglova.
 
 # --questions--
 
 ## --text--
 
-Pembe hupimwa kwa njia gani kawaida?
+Kako se obično mere uglovi?
 
 ## --answers--
 
-Hupimwa kwa mistari au mizunguko.
+Mere se linijama ili krugovima.
 
 ---
 
-Hupimwa kwa digrii au radiani.
+Mere se stepenima ili radijanima.
 
 ---
 
-Hupimwa kwa futi au mita.
+Mere se stopama ili metrima.
 
 ---
 
-Hupimwa kwa maili au kilomita.
+Mere se miljama ili kilometrima.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae9f41a9e6da4eb0d5f7fa
-title: Kanuni za OOP
+title: Principi OOP-a
 challengeType: 11
 videoId: rkOObSk6ApA
 dashedName: oop-principles
@@ -8,13 +8,13 @@ dashedName: oop-principles
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kanuni za kawaida za OOP.
+U ovom videu, naučićete o osnovnim principima OOP-a.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI kanuni kuu ya OOP?
+Koji od sledećih NIJE glavni princip OOP-a?
 
 ## --answers--
 

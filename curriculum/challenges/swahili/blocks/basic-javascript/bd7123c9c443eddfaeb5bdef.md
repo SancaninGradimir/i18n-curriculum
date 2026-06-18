@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c443eddfaeb5bdef
-title: Tangaza vigezo vya JavaScript
+title: Deklarisanje JavaScript Promenljivih
 challengeType: 1
 forumTopicId: 17556
 dashedName: declare-javascript-variables
@@ -8,32 +8,32 @@ dashedName: declare-javascript-variables
 
 # --description--
 
-Katika sayansi ya kompyuta, <dfn>data</dfn> ni chochote chenye maana kwa kompyuta. JavaScript hutoa aina nane tofauti za <dfn>data</dfn> ambazo ni `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, na `object`.
+U racunarstvu, <dfn>podaci</dfn> su sve sto ima znacenje za racunar. JavaScript ima osam razlicitih tipova <dfn>podataka</dfn>: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number` i `object`.
 
-Kwa mfano, kompyuta hutofautisha kati ya nambari, kama nambari `12`, na `strings`, kama `"12"`, `"dog"`, au `"123 cats"`, ambazo ni makusanyo ya herufi. Kompyuta zinaweza kufanya operesheni za kihesabu kwa nambari, lakini si kwa mfuatano wa herufi.
+Na primer, racunar razlikuje brojeve, kao sto je `12`, i `strings`, kao sto su `"12"`, `"dog"` ili `"123 cats"`, koji predstavljaju nizove karaktera. Racunari mogu da rade matematicke operacije sa brojevima, ali ne i sa stringovima.
 
-<dfn>Vigezo</dfn> huruhusu kompyuta kuhifadhi na kushughulikia data kwa njia inayobadilika. Hufanya hivi kwa kutumia "lebo" kuonyesha data badala ya kutumia data yenyewe. Aina yoyote kati ya aina nane za data inaweza kuhifadhiwa katika kigezo.
+<dfn>Promenljive</dfn> omogucavaju racunaru da cuva i upravlja podacima na dinamican nacin. One koriste "etikete" za pokazivanje na podatke umesto samih podataka. Bilo koji od osam tipova podataka moze biti sacuvan u promenljivoj.
 
-Vigezo ni sawa na vigezo x na y unavyotumia katika hisabati, ambayo ina maana ni jina rahisi la kuwakilisha data tunayotaka kurejelea. Vigezo vya kompyuta hutofautiana na vigezo vya hisabati kwa kuwa vinaweza kuhifadhi thamani tofauti wakati tofauti.
+Promenljive su slicne promenljivama x i y koje koristite u matematici, sto znaci da su jednostavna imena za podatke na koje zelimo da se pozivamo. Racunarske promenljive se razlikuju od matematickih jer mogu cuvati razlicite vrednosti u razlicitim trenucima.
 
-Tunaambia JavaScript kuunda au <dfn>kutangaza</dfn> kigezo kwa kuweka neno kuu `var` mbele yake, kama ifuatavyo:
+JavaScript-u kazemo da napravi ili <dfn>deklarise</dfn> promenljivu tako sto ispred imena stavimo kljucnu rec `var`, ovako:
 
 ```js
 var ourName;
 ```
 
-huunda kigezo kinachoitwa `ourName`. Katika JavaScript tunamaliza sentensi kwa alama ya nukta mbili. Majina ya vigezo yanaweza kujumuisha nambari, herufi, na `$` au `_`, lakini hayawezi kuwa na nafasi au kuanza na nambari.
+Ovo pravi promenljivu pod nazivom `ourName`. U JavaScript-u naredbe zavrsavamo tacka-zarezom. Imena promenljivih mogu da sadrze brojeve, slova i `$` ili `_`, ali ne smeju imati razmake niti pocinjati brojem.
 
 # --instructions--
 
-Tumia neno kuu la `var` kuunda kigezo kinachoitwa `myName`.
+Koristite kljucnu rec `var` da napravite promenljivu pod nazivom `myName`.
 
-**Kibali**  
-Tazama mfano wa `ourName` hapo juu ikiwa utakumbwa na shida.
+**Pomoc**  
+Pogledajte primer `ourName` iznad ako zapnete.
 
 # --hints--
 
-Unapaswa kutangaza `myName` kwa neno kuu la `var`, ukimaliza kwa alama ya nukta mbili
+Treba da deklarisete `myName` kljucnom recju `var` i zavrsite izraz tacka-zarezom
 
 ```js
 assert(/var\s+myName\s*;/.test(__helpers.removeJSComments(code)));

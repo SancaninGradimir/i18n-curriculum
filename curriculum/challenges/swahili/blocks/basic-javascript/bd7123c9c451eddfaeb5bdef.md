@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c451eddfaeb5bdef
-title: Tumia uandishi wa mabano kupata herufi ya mwisho katika mfuatano wa herufi
+title: Koristite Uglastu Notaciju za Poslednji Karakter u Stringu
 challengeType: 1
 forumTopicId: 18342
 dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
@@ -8,34 +8,34 @@ dashedName: use-bracket-notation-to-find-the-last-character-in-a-string
 
 # --description--
 
-Ili kupata herufi ya mwisho ya mfuatano wa herufi, unaweza kutoa moja kutoka kwa urefu wa mfuatano huo.
+Da biste dobili poslednji karakter stringa, mozete oduzeti jedan od duzine stringa.
 
-Kwa mfano, ikiwa `const firstName = "Ada"`, unaweza kupata thamani ya herufi ya mwisho ya mfuatano kwa kutumia `firstName[firstName.length - 1]`.
+Na primer, ako je `const firstName = "Ada"`, vrednost poslednjeg karaktera stringa mozete dobiti pomocu `firstName[firstName.length - 1]`.
 
-Mfano:
+Primer:
 
 ```js
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
 ```
 
-`lastLetter` ingekuwa na thamani ya mfuatano `a`.
+`lastLetter` bi imao vrednost stringa `a`.
 
 # --instructions--
 
-Tumia <dfn>uandishi wa mabano</dfn> kupata herufi ya mwisho katika mabadiliko ya `lastName`.
+Koristite <dfn>uglaste zagrade</dfn> da pronadjete poslednji karakter u promenljivoj `lastName`.
 
-**Kidokezo:** Jaribu kuangalia mfano ulio juu ikiwa unashindwa.
+**Savet:** Pogledajte primer iznad ako zapnete.
 
 # --hints--
 
-`lastLetterOfLastName` inapaswa kuwa herufi `e`.
+`lastLetterOfLastName` treba da bude karakter `e`.
 
 ```js
 assert(lastLetterOfLastName === 'e');
 ```
 
-Unapaswa kutumia `.length` kupata herufi ya mwisho.
+Treba da koristite `.length` da biste dobili poslednji karakter.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.length/g).length > 0);

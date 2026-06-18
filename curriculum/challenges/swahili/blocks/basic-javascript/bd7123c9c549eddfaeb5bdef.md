@@ -1,6 +1,6 @@
 ---
 id: bd7123c9c549eddfaeb5bdef
-title: Tumia uandishi wa mabano kupata herufi ya kwanza katika mfuatano wa herufi
+title: Koristite Uglastu Notaciju za Prvi Karakter u Stringu
 challengeType: 1
 forumTopicId: 18341
 dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
@@ -8,36 +8,36 @@ dashedName: use-bracket-notation-to-find-the-first-character-in-a-string
 
 # --description--
 
-<dfn>Uandishi wa mabano</dfn> ni njia ya kupata herufi katika kielezo maalum ndani ya mfuatano wa herufi.
+<dfn>Uglasta notacija</dfn> je nacin da pristupite karakteru na odredjenom indeksu u stringu.
 
-Lugha nyingi za kisasa za programu, kama JavaScript, hazianzi kuhesabu kwa 1 kama wanadamu wanavyofanya. Huanza kwa 0. Hii inajulikana kama <dfn>kielezo kuanzia sufuri</dfn>.
+Mnogi moderni programski jezici, kao JavaScript, ne pocinju brojanje od 1 kao ljudi. Pocinju od 0. To je poznato kao <dfn>indeksiranje od nule</dfn>.
 
-Kwa mfano, herufi katika kielezo 0 katika neno `Charles` ni `C`. Hivyo kama `const firstName = "Charles"`, unaweza kupata thamani ya herufi ya kwanza ya mfuatano kwa kutumia `firstName[0]`.
+Na primer, karakter na indeksu 0 u reci `Charles` je `C`. Dakle, ako je `const firstName = "Charles"`, vrednost prvog karaktera stringa mozete dobiti pomocu `firstName[0]`.
 
-Mfano:
+Primer:
 
 ```js
 const firstName = "Charles";
 const firstLetter = firstName[0];
 ```
 
-`firstLetter` itakuwa na thamani ya mfuatano wa herufi `C`.
+`firstLetter` ce imati vrednost stringa `C`.
 
 # --instructions--
 
-Tumia uandishi wa mabano kupata herufi ya kwanza katika mabadiliko ya `lastName` na weka thamani yake katika `firstLetterOfLastName`.
+Koristite uglastu notaciju da pronadjete prvi karakter u promenljivoj `lastName` i dodelite ga promenljivoj `firstLetterOfLastName`.
 
-**Kidokezo:** Jaribu kuangalia mfano ulio juu ikiwa unashindwa.
+**Savet:** Pogledajte primer iznad ako zapnete.
 
 # --hints--
 
-Mabadiliko ya `firstLetterOfLastName` yanapaswa kuwa na thamani ya `L`.
+Promenljiva `firstLetterOfLastName` treba da ima vrednost `L`.
 
 ```js
 assert(firstLetterOfLastName === 'L');
 ```
 
-Unapaswa kutumia uandishi wa mabano.
+Treba da koristite uglastu notaciju.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/firstLetterOfLastName\s*=\s*lastName\s*\[\s*\d\s*\]/));

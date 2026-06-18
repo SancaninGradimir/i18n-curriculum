@@ -1,6 +1,6 @@
 ---
 id: 699e85648f18cf77dfce5c23
-title: Ellipses
+title: Elipse
 challengeType: 11
 videoId: AwBM2AMwfu8
 dashedName: ellipses
@@ -8,29 +8,29 @@ dashedName: ellipses
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu ellipses, mlinganyo wao wa kawaida, na jinsi ya kutambua vipengele vyao muhimu.
+U ovom videu, naučićete o elipsama, njihovim standardnim jednačinama, i kako da prepoznate njihove važne elemente.
 
 # --questions--
 
 ## --text--
 
-Ellipse ni nini?
+Šta je elipsa?
 
 ## --answers--
 
-Seti ya pointi ambapo jumla ya umbali kutoka pointi mbili zilizowekwa ni thabiti.
+Skup tačaka čija je zbir udaljenosti od dve zadate fiksne tačke konstantna.
 
 ---
 
-Seti ya pointi ambapo umbali kutoka pointi moja iliyowekwa ni thabiti.
+Skup tačaka čija je udaljenost od jedne zadate fiksne tačke konstantna.
 
 ---
 
-Seti ya pointi ambapo bidhaa ya umbali kutoka pointi mbili zilizowekwa ni thabiti.
+Skup tačaka čiji je proizvod udaljenosti od dve zadate fiksne tačke konstantan.
 
 ---
 
-Seti ya pointi zilizo na umbali sawa kutoka mstari na pointi.
+Skup tačaka koje su jednako udaljene od linije i tačke.
 
 
 ## --video-solution--

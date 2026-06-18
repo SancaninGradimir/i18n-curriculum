@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bd0f
-title: Huduma ndogo ya metadata ya faili
+title: Mikroservis meta-podataka fajla
 challengeType: 4
 forumTopicId: 301506
 dashedName: file-metadata-microservice
@@ -8,18 +8,18 @@ dashedName: file-metadata-microservice
 
 # --description--
 
-Jenga programu kamili ya JavaScript inayofanya kazi kwa njia inayofanana na hii: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako kwa kutumia mojawapo ya njia zifuatazo:
+Napravite kompletnu JavaScript aplikaciju koja funkcionalno odgovara ovoj: <a href="https://file-metadata-microservice.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://file-metadata-microservice.freecodecamp.rocks</a>. Rad na ovom projektu će zahtevati pisanje vašeg koda koristeći jedan od sledećih načina:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha unajumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Kopirajte <a href="https://github.com/freeCodeCamp/boilerplate-project-filemetadata/" target="_blank" rel="noopener noreferrer nofollow">ovaj GitHub repozitorijum</a> i završite svoj projekat lokalno.
+-   Koristite svoj omiljeni web okvir da biste završili projekat. Obavezno uključite sve fajlove iz našeg GitHub repozitorijuma.
 
 # --instructions--
 
-**KUNYONYESHA:** Unaweza kutumia kifurushi cha npm cha `multer` kushughulikia upakiaji wa faili.
+**NAPOMENA:** Možete koristiti `multer` npm paket za obradu otpremanja fajlova.
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+Trebate da dostavite sopstveni projekat, ne URL sa primera.
 
 ```js
   assert(
@@ -29,7 +29,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   );
 ```
 
-Unaweza wasilisha fomu inayojumuisha upakiaji wa faili.
+Možete poslati formular koji uključuje otpremanje fajlova.
 
 ```js
   const site = await fetch(code);
@@ -38,7 +38,7 @@ Unaweza wasilisha fomu inayojumuisha upakiaji wa faili.
   assert(doc.querySelector('input[type="file"]'));
 ```
 
-Sehemu ya ingizo ya faili kwenye fomu ina sifa ya kipengele ya `name` iliyowekwa kuwa `upfile`.
+Polje za unos fajla u formularu ima atribut `name` postavljen na `upfile`.
 
 ```js
   const site = await fetch(code);
@@ -47,7 +47,7 @@ Sehemu ya ingizo ya faili kwenye fomu ina sifa ya kipengele ya `name` iliyowekwa
   assert(doc.querySelector('input[name="upfile"]'));
 ```
 
-Unapowasilisha faili, unapata metadata ya faili `name`, `type`, na `size` kwa baiti ndani ya jibu la JSON.
+Kada pošaljete fajl, dobijate meta-podatke fajla `name`, `type` i `size` u bajtovima u JSON odgovoru.
 
 ```js
   const formData = new FormData();

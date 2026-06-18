@@ -1,6 +1,6 @@
 ---
 id: 699e85568f18cf77dfce5c20
-title: Sheria ya Kosaini - Toleo la Kale
+title: Kosinusno pravilo - Stara verzija
 challengeType: 11
 videoId: 3BMPsNLtcmA
 dashedName: law-of-cosines-old-version
@@ -8,13 +8,13 @@ dashedName: law-of-cosines-old-version
 
 # --description--
 
-Katika video hii, utaendelea kujifunza kuhusu Sheria ya Kosaini.
+U ovom videu, nastavićete da učite o kosinusnom pravilu.
 
 # --questions--
 
 ## --text--
 
-Sheria ya Kosaini inaweza kuandikwa katika aina ngapi?
+Koliko različitih oblika kosinusno pravilo može da ima?
 
 ## --answers--
 

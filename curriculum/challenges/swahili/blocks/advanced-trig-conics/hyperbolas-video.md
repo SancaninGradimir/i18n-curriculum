@@ -1,6 +1,6 @@
 ---
 id: 699e85688f18cf77dfce5c24
-title: Hyperbolas
+title: Hiperbola
 challengeType: 11
 videoId: rQnuydK6bBE
 dashedName: hyperbolas
@@ -8,29 +8,29 @@ dashedName: hyperbolas
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu hyperbolas.
+U ovom videu, naučićete o hiperbolama.
 
 # --questions--
 
 ## --text--
 
-Hyperbola ni nini?
+Šta je hiperbola?
 
 ## --answers--
 
-Seti ya pointi ambapo umbali kutoka kwa pointi moja iliyowekwa ni thabiti.
+Skup tačaka čija je udaljenost od jedne zadate fiksne tačke konstantna.
 
 ---
 
-Seti ya pointi ambapo tofauti ya umbali kutoka kwa pointi mbili zilizowekwa ni thabiti.
+Skup tačaka čija je razlika udaljenosti od dve zadate fiksne tačke konstantna.
 
 ---
 
-Seti ya pointi ambapo jumla ya umbali kutoka kwa pointi mbili zilizowekwa ni thabiti.
+Skup tačaka čija je zbir udaljenosti od dve zadate fiksne tačke konstantna.
 
 ---
 
-Seti ya pointi zilizo na umbali sawa kutoka kwa mstari na pointi.
+Skup tačaka koje su jednako udaljene od linije i tačke.
 
 
 ## --video-solution--

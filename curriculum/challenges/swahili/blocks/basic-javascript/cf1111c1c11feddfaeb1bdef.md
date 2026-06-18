@@ -1,6 +1,6 @@
 ---
 id: cf1111c1c11feddfaeb1bdef
-title: Rudia kwa kutumia mizunguko ya while ya JavaScript
+title: Iterirajte Uz JavaScript while Petlje
 challengeType: 1
 forumTopicId: 18220
 dashedName: iterate-with-javascript-while-loops
@@ -8,9 +8,9 @@ dashedName: iterate-with-javascript-while-loops
 
 # --description--
 
-Unaweza kuendesha msimbo uleule mara nyingi kwa kutumia mzunguko.
+Isti kod mozete pokrenuti vise puta koristeci petlju.
 
-Aina ya kwanza ya mzunguko tutakayojifunza huitwa mzunguko wa `while` kwa sababu unaendesha wakati hali fulani ni kweli na unasimama mara hali hiyo haipo tena.
+Prvi tip petlje koji cemo nauciti zove se `while` petlja, jer se izvrsava dok je odredjeni uslov tacan i zaustavlja se kada taj uslov vise nije tacan.
 
 ```js
 const ourArray = [];
@@ -22,23 +22,23 @@ while (i < 5) {
 }
 ```
 
-Katika mfano wa msimbo hapo juu, mzunguko wa `while` utaendesha mara 5 na kuongeza nambari 0 hadi 4 kwenye `ourArray`.
+U gornjem primeru, `while` petlja ce se izvrsiti 5 puta i dodati brojeve od 0 do 4 u `ourArray`.
 
-Tujaribu kufanya mzunguko wa while ufanye kazi kwa kusukuma thamani kwenye safu ya data.
+Hajde da napravimo while petlju koja ubacuje vrednosti u niz.
 
 # --instructions--
 
-Ongeza nambari 5 hadi 0 (ikiwa ni pamoja na) kwa mpangilio wa kushuka kwenye `myArray` kwa kutumia mzunguko wa `while`.
+Dodajte brojeve od 5 do 0 (ukljucivo), opadajucim redosledom, u `myArray` koristeci `while` petlju.
 
 # --hints--
 
-Unapaswa kutumia mzunguko wa `while` kwa hili.
+Za ovo treba da koristite `while` petlju.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/while/g));
 ```
 
-`myArray` inapaswa kuwa sawa na `[5, 4, 3, 2, 1, 0]`.
+`myArray` treba da bude jednako `[5, 4, 3, 2, 1, 0]`.
 
 ```js
 assert.deepEqual(myArray, [5, 4, 3, 2, 1, 0]);
