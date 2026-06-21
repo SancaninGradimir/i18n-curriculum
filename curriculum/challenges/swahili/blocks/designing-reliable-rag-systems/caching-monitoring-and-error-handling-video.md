@@ -1,6 +1,5 @@
----
 id: 69ae6fd7b4a814be6a4f2be1
-title: "Kuhifadhi, Kufuatilia, na Kushughulikia Makosa"
+title: "Keširanje, praćenje i rukovanje greškama"
 challengeType: 11
 videoId: J0D7kfBORL8
 dashedName: caching-monitoring-and-error-handling
@@ -8,13 +7,13 @@ dashedName: caching-monitoring-and-error-handling
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu umuhimu wa kuhifadhi, kufuatilia, na kushughulikia makosa katika mifumo ya RAG.
+U ovom videu, naučićete o važnosti keširanja, praćenja i rukovanja greškama u sistemima RAG.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SIyo kipimo cha kawaida kinachotumika kufuatilia mifumo ya RAG?
+Koja od sledećih nije uobičajena metrika korišćena za praćenje sistema RAG?
 
 ## --answers--
 

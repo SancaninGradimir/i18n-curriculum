@@ -1,6 +1,5 @@
----
 id: 0e2f4bd857b1edc70bfcd1f9
-title: Kufanya kazi na mfuatano wa herufi
+title: Rad sa stringovima
 challengeType: 11
 videoId: OrejgL7kP3M
 dashedName: working-with-strings
@@ -8,13 +7,13 @@ dashedName: working-with-strings
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kuunganisha mfuatano wa herufi, kielezo, na njia muhimu za mfuatano wa herufi.
+U ovom videu, naučićete o spajanju stringova, indeksiranju i važnim metodama za stringove.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kupata herufi ya kwanza ya mfuatano wa herufi?
+Koja od sledećih metoda je ispravan način za dobijanje prvog znaka iz stringa?
 
 ## --answers--
 

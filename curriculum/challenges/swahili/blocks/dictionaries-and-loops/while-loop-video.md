@@ -1,6 +1,5 @@
----
 id: 474c23ec0df6e7af920e0526
-title: Mzunguko wa while
+title: While petlja
 challengeType: 11
 videoId: s6yz4Ew8dwQ
 dashedName: while-loop
@@ -8,13 +7,13 @@ dashedName: while-loop
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na mizunguko ya while kurudia sehemu za msimbo mradi tu hali ni `True`.
+U ovom videu ćete naučiti kako da radite sa while petljama koje ponavljaju delove koda sve dok je uslov `True`.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+Koja će biti rezultata za sledeći kod?
 
 ```python
 i = 1

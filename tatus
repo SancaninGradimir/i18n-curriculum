@@ -1,0 +1,487 @@
+[1mdiff --git a/curriculum/challenges/swahili/blocks/en-a2-quiz-collaborating-in-meetings/696034677ef27f3b81184b44.md b/curriculum/challenges/swahili/blocks/en-a2-quiz-collaborating-in-meetings/696034677ef27f3b81184b44.md[m
+[1mindex a5b5d030cf..a40d62ff85 100644[m
+[1m--- a/curriculum/challenges/swahili/blocks/en-a2-quiz-collaborating-in-meetings/696034677ef27f3b81184b44.md[m
+[1m+++ b/curriculum/challenges/swahili/blocks/en-a2-quiz-collaborating-in-meetings/696034677ef27f3b81184b44.md[m
+[36m@@ -1,241 +1,240 @@[m
+[31m----[m
+[31m-id: 696034677ef27f3b81184b44[m
+[31m-title: Jaribio fupi la maendeleo ya mkutano wa kila wiki[m
+[31m-challengeType: 8[m
+[31m-dashedName: en-a2-quiz-collaborating-in-meetings[m
+[31m-lang: en-US[m
+[31m----[m
+[31m-[m
+[31m-# --description--[m
+[31m-[m
+[31m-Jaribio hili linakagua uelewa wako wa usemi wa kawaida na msamiati unaotumika wakati wa mikutano ya kila wiki.[m
+[31m-[m
+[31m-Ili kupita jaribio, lazima ujibu maswali 9 kati ya 10 kwa usahihi.[m
+[31m-[m
+[31m-Soma kila swali na chagua jibu sahihi. Kila swali lina jibu moja tu sahihi.[m
+[31m-[m
+[31m-Kwa ajili ya Ufikikaji, nakala za maandishi zinapatikana kwa wanafunzi wenye ulemavu wa kusikia; tunapendekeza kuzitumia tu ikiwa ni lazima.[m
+[31m-[m
+[31m-# --quizzes--[m
+[31m-[m
+[31m-## --quiz--[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-`a fresh pair of eyes` inamaanisha nini?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-Mtu mwenye uwezo mzuri wa kuona[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Mtu aliyefanya msimbo[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Mtu anayefanya kazi kwa kasi sana[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-Mtu mpya anayetoa mtazamo tofauti[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-Tofauti kati ya `can` na `could` ni ipi?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-`Can` ni ya heshima zaidi kuliko `could`.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`Can` ni kwa ajili ya zamani tu.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`Could` ni kwa amri tu.[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-`Could` ni ya heshima zaidi kuliko `can`.[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-`session` ni nini?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-Swali la haraka[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Mapumziko mafupi[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Matokeo ya mwisho[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-Shughuli iliyopangwa[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-Ni swali gani linauliza kuhusu mzigo wa kazi wa mtu kwa sasa?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-`Mind if I call you later?`[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`Can you begin now?`[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`Could you take a look?`[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-`What's on your plate?`[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-Ungeweza kusema nini ikiwa huwezi kuendelea mbele?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-`I've been stuck of this task for a while.`[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`I've been stuck for this task for a while.`[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`I've been stuck in this task for a while.`[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-`I've been stuck on this task for a while.`[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-Mfano wa `exchange` ni upi?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-Mfanyakazi mmoja anakamilisha mradi peke yake.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Mfanyakazi mwenzake anamsaidia mtu na ripoti yake.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Mfanyakazi anaomba msaada kwa zoezi.[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-Wafanyakazi wawili wanasaidiana katika kazi.[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-`coding guidelines` hutumika kwa ajili gani?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-Kukimbia msimbo kwa usahihi[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Kujaribu msimbo kwa makini[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Kuhifadhi msimbo kwa usalama[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-Kuandika msimbo kwa usahihi[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-Ni ufafanuzi gani si sahihi?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-`To lead` inamaanisha kuongoza wengine.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`To provide` inamaanisha kutoa kitu.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-`To gain` inamaanisha kupata kitu muhimu.[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-`To advise` inamaanisha kuendelea polepole kwa muda.[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-`valuable insight` ni nini?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-Wazo binafsi[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Uamuzi wa mwisho[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Fikra ya kwanza[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-Taarifa muhimu[m
+[31m-[m
+[31m-### --question--[m
+[31m-[m
+[31m-#### --text--[m
+[31m-[m
+[31m-`definitely` inamaanisha nini katika sentensi hii: `I can definitely finish this task today`?[m
+[31m-[m
+[31m-#### --distractors--[m
+[31m-[m
+[31m-Kuna nafasi ya kumaliza, lakini huna uhakika.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Unaweza kumaliza tu ikiwa mtu anakusaidia.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-Huna uhakika kabisa kuwa utamaliza.[m
+[31m-[m
+[31m-#### --answer--[m
+[31m-[m
+[31m-Una uhakika na kujiamini kuwa utamaliza leo.[m
+[32m+[m[32mid: 696034677ef27f3b81184b44[m[41m[m
+[32m+[m[32mtitle: Kratak test napredovanja na sastancima po sedmično[m[41m[m
+[32m+[m[32mchallengeType: 8[m[41m[m
+[32m+[m[32mdashedName: en-a2-quiz-collaborating-in-meetings[m[41m[m
+[32m+[m[32mlang: en-US[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# --description--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mOvaj test proverava vaše razumevanje kolokvijalnog govora i vokabulara korišćenog tokom sedmičnih sastanaka.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDa biste položili test, morate tačno odgovoriti na 9 od 10 pitanja.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPročitajte svako pitanje i izaberite ispravan odgovor. Svako pitanje ima samo jedan tačan odgovor.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mZa pristupačnost, dostupni su tekstovi učenicima sa smanjenom čujućim sposobnošću; preporučujemo da ih koristite samo ako je neophodno.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# --quizzes--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## --quiz--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mŠta znači `a fresh pair of eyes`?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mOsoba koja dobro vidi[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mOsoba koja je pisala kod[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mOsoba koja radi veoma brzo[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mNova osoba koja daje drugačija perspektiva[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKoja je razlika između `can` i `could`?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Can` je formalnije od `could`.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Can` je samo za prošlost.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Could` je samo za naredbu.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Could` je formalnije od `can`.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mŠta znači `session`?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mBrzo pitanje[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKratka pauza[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKonačan rezultat[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPlanirana aktivnost[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKoje pitanje pita o trenutnom radnom opterećenju nekoga?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Mind if I call you later?`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Can you begin now?`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`Could you take a look?`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`What's on your plate?`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mŠta biste mogli reći ako ne možete nastaviti dalje?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`I've been stuck of this task for a while.`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`I've been stuck for this task for a while.`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`I've been stuck in this task for a while.`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`I've been stuck on this task for a while.`[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKoji je primer za `exchange`?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mJedan zaposleni završava projekat sam.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKolega pomaže nekome sa njegovim izveštajem.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mZaposleni traži pomoć za vežbu.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDva zaposlena pomažu jed drugom u poslu.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mZa šta se koriste `coding guidelines` (pravilnici za kodiranje)?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPokretanje koda sa preciznošću[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPažljivo testiranje koda[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mSigurno skladištenje koda[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPravilno pisanje koda[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKoji je neispravan opis?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`To lead` znači voditi druge.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`To provide` znači pružiti nešto.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`To gain` znači dobiti nešto važno.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m`To advise` znači nastaviti polako tokom vremena.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mŠta je `valuable insight` (vredan uvid)?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mLično mišljenje[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mKonačna odluka[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mPrva misao[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mVažna informacija[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m### --question--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --text--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mŠta znači `definitely` u ovoj rečenici: `I can definitely finish this task today`?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --distractors--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mIma šansu da završiš, ali nisi siguran.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mMožeš završiti samo ako ti neko pomogne.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mNisi u potpunosti siguran da ćeš završiti.[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m#### --answer--[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mSiguran i samouveren da ćeš završiti danas.[m
+\ No newline at end of file[m

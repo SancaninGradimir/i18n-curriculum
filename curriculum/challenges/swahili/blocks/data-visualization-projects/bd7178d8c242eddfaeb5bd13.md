@@ -1,6 +1,5 @@
----
 id: bd7178d8c242eddfaeb5bd13
-title: Onyesha data kwa kutumia chati ya kutawanyika
+title: Prikazivanje podataka pomoću scatter plot grafikona
 challengeType: 3
 forumTopicId: 301467
 dashedName: visualize-data-with-a-scatterplot-graph
@@ -8,47 +7,47 @@ dashedName: visualize-data-with-a-scatterplot-graph
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
+**Cilj:** Napravite aplikaciju koja funkcioniše kao ovo: <a href="https://scatterplot-graph.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://scatterplot-graph.freecodecamp.rocks</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Popunite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API koji vam je potreban. Dajte svoj lični stil.
 
-Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uonyesaji wa svg. Vipimo vinahitaji mihimili (axes) itengenezwe kwa kutumia sifa ya D3 axis, ambayo huunda alama za kupigia (ticks) moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika kwa kupita vipimo vya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vipengele vilivyo kwenye chati. Utapata taarifa kuhusu jinsi ya kutengeneza mihimili kwenye <https://d3js.org/d3-axis>. Vipengele vinavyohitajika vya DOM vinatafutwa wakati wa kila kipimo. Ikiwa utatumia mfumo wa kazi wa mbele (mfano Vue), matokeo ya vipimo yanaweza kuwa si sahihi kwa maudhui yanayobadilika. Tunatarajia kuweza kuunga mkono hivi karibuni, lakini mifumo hii haijaungwa mkono kwa miradi ya D3 kwa sasa.
+Možete koristiti HTML, JavaScript, CSS i SVG biblioteku za vizualizaciju D3. Testovi zahtevaju da se osi (axes) kreiraju korišćenjem D3 axis svojstva, što automatski stvara oznake (ticks) duž ose. Ove oznake su potrebne za prolazak D3 testova jer se njihove pozicije koriste za određivanje usklađenosti elemenata na grafikonu. Pronađićete informacije o tome kako napraviti ose na <https://d3js.org/d3-axis>. Potrebni DOM elementi se traže tokom svakog testa. Ako koristite framework za prednji deo (npr. Vue), rezultati testova mogu biti netačni za dinamički sadržaj. Očekujemo da ćemo ovo uskoro podržavati, ali ovi sistemi trenutno ne podržavaju D3 projekte.
 
-**Hadithi ya mtumiaji #1:** Naona kipengele cha kichwa chenye `id="title"` inayolingana.
+**Korisnička priča #1:** Vidim element naslova sa `id="title"` koji odgovara.
 
-**Hadithi ya mtumiaji #2:** Naona mhimili wa x wenye `id="x-axis"` inayolingana.
+**Korisnička priča #2:** Vidim x osu sa `id="x-axis"` koja odgovara.
 
-**Hadithi ya mtumiaji #3:** Naona mhimili wa y wenye `id="y-axis"` inayolingana.
+**Korisnička priča #3:** Vidim y osu sa `id="y-axis"` koja odgovara.
 
-**Hadithi ya mtumiaji #4:** Naona alama za mviringo, kila moja ikiwa na darasa la `dot`, zinazowakilisha data inayochorwa.
+**Korisnička priča #4:** Vidim tačke, svaka sa klasom `dot`, koje predstavljaju prikazane podatke.
 
-**Hadithi ya mtumiaji #5:** Kila alama ya mviringo inapaswa kuwa na sifa za `data-xvalue` na `data-yvalue` zenye thamani zao za `x` na `y` zinazolingana.
+**Korisnička priča #5:** Svaka tačka mora imati atribute `data-xvalue` i `data-yvalue` koji odgovaraju njenim vrednostima x i y.
 
-**Hadithi ya mtumiaji #6:** `data-xvalue` na `data-yvalue` za kila alama ya mviringo zinapaswa kuwa ndani ya anuwai ya data halisi na katika muundo sahihi wa data. Kwa `data-xvalue`, nambari kamili (miaka kamili) au vitu vya `Date` vinakubalika kwa tathmini ya kipimo. Kwa `data-yvalue` (dakika), tumia vitu vya `Date`.
+**Korisnička priča #6:** `data-xvalue` i `data-yvalue` svake tačke moraju biti unutar opsega stvarnih podataka i u ispravnom formatu podataka. Za `data-xvalue`, prihvatljivi su celobrojni brojevi (pune godine) ili `Date` objekti za evaluaciju testa. Za `data-yvalue` (minute), koristite `Date` objekte.
 
-**Hadithi ya mtumiaji #7:** `data-xvalue` na alama yake ya mviringo inapaswa kuendana na sehemu/thamani inayolingana kwenye mhimili wa x.
+**Korisnička priča #7:** `data-xvalue` i njegova tačka moraju odgovarati odgovarajućoj poziciji/vrednosti na x osi.
 
-**Hadithi ya mtumiaji #8:** `data-yvalue` na alama yake ya mviringo inapaswa kuendana na sehemu/thamani inayolingana kwenye mhimili wa y.
+**Korisnička priča #8:** `data-yvalue` i njegova tačka moraju odgovarati odgovarajućoj poziciji/vrednosti na y osi.
 
-**Hadithi ya mtumiaji #9:** Naona lebo nyingi za alama za kupigia kwenye mhimili wa y zenye muundo wa wakati wa `%M:%S`.
+**Korisnička priča #9:** Vidim više oznaka za ticke na y osi u formatu vremena `%M:%S`.
 
-**Hadithi ya mtumiaji #10:** Naona lebo nyingi za alama za kupigia kwenye mhimili wa x zinazoonyesha mwaka.
+**Korisnička priča #10:** Vidim više oznaka za ticke na x osi koje prikazuju godinu.
 
-**Hadithi ya mtumiaji #11:** Naona kuwa anuwai ya lebo za mhimili wa x iko ndani ya anuwai ya data halisi ya mhimili wa x.
+**Korisnička priča #11:** Vidim da je opseg oznaka x ose unutar opsega stvarnih podataka x ose.
 
-**Hadithi ya mtumiaji #12:** Naona kuwa anuwai ya lebo za mhimili wa y iko ndani ya anuwai ya data halisi ya mhimili wa y.
+**Korisnička priča #12:** Vidim da je opseg oznaka y ose unutar opsega stvarnih podataka y ose.
 
-**Hadithi ya mtumiaji #13:** Naona hadithi yenye maandishi ya maelezo yenye `id="legend"`.
+**Korisnička priča #13:** Vidim legendu sa tekstualnim opisom sa `id="legend"`.
 
-**Hadithi ya mtumiaji #14:** Naweza kuweka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+**Korisnička priča #14:** Mogu preći mišem preko područja i videti tooltip sa `id="tooltip"` koji prikazuje više informacija o tom području.
 
-**Hadithi ya mtumiaji #15:** Kidokezo changu cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-xvalue` ya eneo linalofanya kazi.
+**Korisnička priča #15:** Moj tooltip mora imati atribut `data-year` koji odgovara `data-xvalue` radnog područja.
 
-Huu ndio seti ya data utakayohitaji kukamilisha mradi huu: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
+Ovo je set podataka koji ćete želeti za završetak ovog projekta: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json`
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Au unaweza kutumia kiungo hiki cha CDN kuendesha vipimo katika mazingira yoyote unayopendelea: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Možete izgraditi svoj projekat koristeći <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">ovu CodePen šablon</a> i kliknuti na `Save` da kreirate sopstvenu Pen. Ili možete koristiti ovaj CDN link za pokretanje testova u bilo kom okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Kada završite, dostavite URL vašeg funkcionalnog projekta sa svim prođene testovima.
 
 # --solutions--
 

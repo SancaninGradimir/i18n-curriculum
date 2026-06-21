@@ -1,6 +1,5 @@
----
 id: 08854a2c6f052efa1e5270d2
-title: Taarifa za if
+title: If naredbe
 challengeType: 11
 videoId: lruoyNlItfg
 dashedName: if-statements
@@ -8,13 +7,13 @@ dashedName: if-statements
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia taarifa za if kudhibiti mtiririko wa programu zako za Python kulingana na masharti.
+U ovom videu, naučićete kako da koristite `if` naredbe za kontrolisanje protoka vaših Python programa u zavisnosti od uslova.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+Koji će biti rezultat za sledeći kod?
 
 ```python
 is_male = True

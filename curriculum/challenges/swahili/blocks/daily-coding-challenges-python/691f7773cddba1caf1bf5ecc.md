@@ -1,4 +1,3 @@
----
 id: 691f7773cddba1caf1bf5ecc
 title: "Challenge 133: Daylight Hours"
 challengeType: 29
@@ -7,12 +6,11 @@ dashedName: challenge-133
 
 # --description--
 
-Tarehe 21 Desemba ni solstisi ya baridi kwa nusu ya kaskazini na solstisi ya joto kwa nusu ya kusini. Hii ina maana ni siku yenye mwanga wa mchana mdogo zaidi kaskazini na mwanga wa mchana mwingi zaidi kusini.
+21. decembar je zimska solstic na severnom polu i letnja solstic na južnom polu. To znači da je dan sa najmanje dnevnog svetla na severu i najviše dnevnog svetla na jugu.
 
-Ukitoa nambari ya latitudo kutoka -90 hadi 90, rudisha makadirio ya karibu ya saa za mwanga wa mchana wakati wa solstisi kwa kutumia jedwali lifuatalo:
+Datovanjem geografske širine od -90 do 90, vratite približnu procenu sati dnevnog svetla tokom solsticija koristeći sledeću tabelu:
 
-|Latitudo|Saa za mwanga wa mchana|
-|-|-|
+|Latituda|Sati dnevnog svetla|
 |-90|24|
 |-75|23|
 |-60|21|
@@ -27,7 +25,7 @@ Ukitoa nambari ya latitudo kutoka -90 hadi 90, rudisha makadirio ya karibu ya sa
 |75|2|
 |90|0|
 
-- Ikiwa latitudo iliyotolewa haifanani kabisa na kipengele chochote cha jedwali, tumia thamani ya latitudo iliyo karibu zaidi.
+- Ako data širina nije tačno odgovarajuć elementu u tabeli, koristite najbližu vrednost širine.
 
 # --hints--
 

@@ -1,6 +1,5 @@
----
 id: c6c9dae4017830e187eeaf42
-title: Taarifa ya return
+title: Statement za povratak
 challengeType: 11
 videoId: Gx3VTsaMCHU
 dashedName: return-statement
@@ -8,13 +7,13 @@ dashedName: return-statement
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia taarifa ya return katika makitendakazi.
+U ovom videu ćete naučiti kako koristiti `return` naredbu u funkcijama.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+Koji će biti rezultat za sledeći kod?
 
 ```python
 def cube(num):

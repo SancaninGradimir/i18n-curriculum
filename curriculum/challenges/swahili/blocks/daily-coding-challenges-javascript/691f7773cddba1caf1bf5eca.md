@@ -1,42 +1,41 @@
----
 id: 691f7773cddba1caf1bf5eca
-title: "Zoezi la 131: Kwa jozi"
+title: "Vežba 131: Parovi"
 challengeType: 28
 dashedName: challenge-131
 ---
 
 # --description--
 
-Ikiwa umepewa safu ya data ya nambari kamili na nambari lengwa, tafuta jozi zote za vipengele katika safu ya data ambavyo thamani zao zinajumuika kuwa nambari lengwa na rudisha jumla ya nambari za viashiria vyao.
+Ako vam je dat niz celih brojeva i ciljna brojka, pronađite sve parove elemenata u nizu čije vrednosti sabiraju na ciljni broj i vratite zbir njihovih indeksa.
 
-Kwa mfano, ukipata `[2, 3, 4, 6, 8]` na `10`, utapata jozi mbili halali:
+Na primer, ako dobijete `[2, 3, 4, 6, 8]` i `10`, pronaći ćete dva validna para:
 
-- `2` na `8` (2 + 8 = 10), viashiria vyake ni `0` na `4`
-- `4` na `6` (4 + 6 = 10), viashiria vyake ni `2` na `3`
+- `2` i `8` (2 + 8 = 10), njihovi indeksi su `0` i `4`
+- `4` i `6` (4 + 6 = 10), njihovi indeksi su `2` i `3`
 
-Jumlisha viashiria vyote kupata thamani ya return ya `9`.
+Saberi sve indekse da biste dobili povratnu vrednost od `9`.
 
 # --hints--
 
-`pairwise([2, 3, 4, 6, 8], 10)` inapaswa kurudisha `9`.
+`pairwise([2, 3, 4, 6, 8], 10)` treba da vrati `9`.
 
 ```js
 assert.equal(pairwise([2, 3, 4, 6, 8], 10), 9);
 ```
 
-`pairwise([4, 1, 5, 2, 6, 3], 7)` inapaswa kurudisha `15`.
+`pairwise([4, 1, 5, 2, 6, 3], 7)` treba da vrati `15`.
 
 ```js
 assert.equal(pairwise([4, 1, 5, 2, 6, 3], 7), 15);
 ```
 
-`pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20)` inapaswa kurudisha `22`.
+`pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20)` treba da vrati `22`.
 
 ```js
 assert.equal(pairwise([-30, -15, 5, 10, 15, -5, 20, -40], -20), 22);
 ```
 
-`pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24)` inapaswa kurudisha `10`.
+`pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24)` treba da vrati `10`.
 
 ```js
 assert.equal(pairwise([7, 9, 13, 19, 21, 6, 3, 1, 4, 8, 12, 22], 24), 10);

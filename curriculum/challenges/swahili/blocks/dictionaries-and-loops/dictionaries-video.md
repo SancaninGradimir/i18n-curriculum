@@ -1,6 +1,5 @@
----
 id: 3625fbc38b9428ae98d98f23
-title: Kamusi
+title: Rečnik
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries
@@ -8,13 +7,13 @@ dashedName: dictionaries
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na kamusi katika Python kuhifadhi jozi za ufunguo-thamani.
+U ovom videu naučićete kako da radite sa rečnicima (dictionaries) u Pythonu za skladištenje parova ključ-vrednost.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo itatoa mfuatano wa herufi `"March"` kwa usahihi kwenye konsoli?
+Koja od sledećih opcija će ispisati niz karaktera `"March"` tačno u konzolu?
 
 ## --answers--
 

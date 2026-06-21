@@ -1,6 +1,5 @@
----
 id: a4cfb218d22efcfa7cc49d80
-title: Kitendakazi cha nguvu za mwinuko
+title: Funkcije eksponenata
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions
@@ -8,29 +7,29 @@ dashedName: exponent-functions
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuandika kitendakazi kinachohesabu nguvu za mwinuko na madaraja katika Python.
+U ovom videu, naučićete kako da napišete funkciju koja računa eksponencijalne funkcije i logaritme u Python-u.
 
 # --questions--
 
 ## --text--
 
-Kitendakazi cha `range()` katika Python hufanya nini?
+Šta radi funkcija `range()` u Pythonu?
 
 ## --answers--
 
-Hurejesha nambari kutoka kwenye orodha.
+Vraća brojeve iz liste.
 
 ---
 
-Hutengeneza orodha ya nambari za bahati nasibu.
+Kreira listu slučajnih brojeva.
 
 ---
 
-Hutengeneza mfululizo wa nambari kamili kati ya sehemu ya kuanzia na sehemu ya kuisha.
+Kreira sekvencu celih brojeva između početne i krajnje tačke.
 
 ---
 
-Hutengeneza mfululizo wa nambari za desimali kati ya sehemu ya kuanzia na sehemu ya kuisha.
+Kreira sekvencu decimalnih brojeva između početne i krajnje tačke.
 
 ## --video-solution--
 

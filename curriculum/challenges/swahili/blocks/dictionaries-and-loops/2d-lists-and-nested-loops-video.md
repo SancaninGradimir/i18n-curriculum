@@ -1,6 +1,5 @@
----
 id: 28119f9dc5f93e3ac5d7c58a
-title: Orodha za 2D na Mizunguko Zilizopangwa Ndani
+title: Liste 2D i Ugnježdeni petlje
 challengeType: 11
 videoId: 2lKgjX3gzmM
 dashedName: 2d-lists-and-nested-loops
@@ -8,13 +7,13 @@ dashedName: 2d-lists-and-nested-loops
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuunda orodha za 2D na kutumia mizunguko zilizopangwa ndani kufanya kazi na miundo ya data yenye vipimo vingi.
+U ovom videu, naučićete kako da kreirate 2D liste i koristite ugnježđene petlje za rad sa višedimenzionalnim strukturalima podataka.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+Koji će biti rezultat sledećeg koda?
 
 ```python
 number_grid = [

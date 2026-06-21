@@ -1,6 +1,5 @@
----
 id: 8314d0bbddb0aa027a144705
-title: Taarifa za if na kulinganisha
+title: Izjave If i Poređenja
 challengeType: 11
 videoId: frb0CCrS9X8
 dashedName: if-statements-and-comparisons
@@ -8,13 +7,13 @@ dashedName: if-statements-and-comparisons
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu vigezo vya kulinganisha.
+U ovom videu, naučićete o uslovima poređenja.
 
 # --questions--
 
 ## --text--
 
-Ni kigezo gani kati ya vifuatavyo kinatumika kuangalia kama nambari moja ni kubwa au sawa na nambari nyingine?
+Koji operator iz sljedećih se koristi za provjeru da li je jedan broj veći ili jednak drugom broju?
 
 ## --answers--
 
