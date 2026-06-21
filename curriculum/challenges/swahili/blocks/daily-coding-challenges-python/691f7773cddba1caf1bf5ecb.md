@@ -1,4 +1,3 @@
----
 id: 691f7773cddba1caf1bf5ecb
 title: "Challenge 132: Purge Most Frequent"
 challengeType: 29
@@ -7,10 +6,10 @@ dashedName: challenge-132
 
 # --description--
 
-Ukitoa safu ya data yenye thamani mbalimbali, ondoa matukio yote ya kipengele kinachojirudia mara nyingi zaidi na urudishe safu ya data iliyobaki.
+Datoj niz niz array podataka sa različitim vrijednostima, uklonite sve pojavljivanja elementa koji se najčešće ponavljaju i vratite preostali niz podataka.
 
-- Ikiwa thamani nyingi zimefanana kuwa zinajirudia mara nyingi zaidi, ziondoe zote.
-- Usibadilishe vipengele vingine au mpangilio wake.
+- Ako više vrijednosti izgleda da se najčešće ponavljaju, uklonite sve njih.
+- Ne mijenjajte druge elemente niti njihov redoslijed.
 
 # --hints--
 

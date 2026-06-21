@@ -1,20 +1,19 @@
----
 id: 691f7773cddba1caf1bf5eca
-title: "Challenge 131: Pairwise"
+title: "Challenge 131: Parovi"
 challengeType: 29
 dashedName: challenge-131
 ---
 
 # --description--
 
-Ikiwa umepewa safu ya data ya nambari kamili na nambari lengwa, tafuta jozi zote za vipengele katika safu ya data ambavyo thamani zao zinajumuika kuwa nambari lengwa na rudisha jumla ya nambari za viashiria vyao.
+Ako vam je dat niz podataka celih brojeva i ciljna brojka, pronađite sve parove elemenata u nizu čije vrednosti se sabiraju do ciljne brojke i vratite zbir njihovih indeksa.
 
-Kwa mfano, ukipata `[2, 3, 4, 6, 8]` na `10`, utapata jozi mbili halali:
+Na primer, ako dobijete `[2, 3, 4, 6, 8]` i `10`, naći ćete dva validna para:
 
-- `2` na `8` (2 + 8 = 10), viashiria vyake ni `0` na `4`
-- `4` na `6` (4 + 6 = 10), viashiria vyake ni `2` na `3`
+- `2` i `8` (2 + 8 = 10), njihovi indeksi su `0` i `4`
+- `4` i `6` (4 + 6 = 10), njihovi indeksi su `2` i `3`
 
-Jumlisha viashiria vyote kupata thamani ya return ya `9`.
+Saberi sve indekse da biste dobili vrednost povrata od `9`.
 
 # --hints--
 

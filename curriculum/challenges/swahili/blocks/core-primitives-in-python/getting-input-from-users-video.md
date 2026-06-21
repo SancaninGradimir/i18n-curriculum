@@ -1,6 +1,5 @@
----
 id: 155ca30775751b78a860a79b
-title: Kupata ingizo kutoka kwa watumizi
+title: Dobijanje unosa od korisnika
 challengeType: 11
 videoId: C0L4cnqKqDw
 dashedName: getting-input-from-users
@@ -8,13 +7,13 @@ dashedName: getting-input-from-users
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupata ingizo kutoka kwa mtumizi.
+U ovom videu ćete naučiti kako dobiti unos od korisnika.
 
 # --questions--
 
 ## --text--
 
-Ni kitendakazi gani kati ya vilivyojengwa ndani kinachotumika kupata ingizo kutoka kwa mtumizi?
+Koja je ugrađena funkcija koja se koristi za dohvaćanje unosa od korisnika?
 
 ## --answers--
 

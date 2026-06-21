@@ -1,6 +1,5 @@
----
 id: 62baa9d28e8723f635a0093e
-title: Kuchora umbo
+title: Crtež oblika
 challengeType: 11
 videoId: vcNZZSeyZkY
 dashedName: drawing-a-shape
@@ -8,13 +7,13 @@ dashedName: drawing-a-shape
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuchapisha umbo la msingi kwenye konsoli kwa kutumia `print` statements.
+U ovom videu, naučićete kako da ispišete osnovni oblik u konzolu koristeći `print` naredbe.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kuchapisha pembetatu kwenye konsoli?
+Koja od sledećih opcija je ispravan način za ispisivanje trougla u konzolu?
 
 ## --answers--
 

@@ -1,6 +1,5 @@
----
 id: 315017f4457c19d45c2be034
-title: Mabadiliko na aina za data
+title: Promene i tipovi podataka
 challengeType: 11
 videoId: sIw317W39X0
 dashedName: variables-and-data-types
@@ -8,29 +7,29 @@ dashedName: variables-and-data-types
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu aina tofauti za data katika Python ikiwa ni pamoja na nambari kamili, mfuatano wa herufi na thamani ya kweli au siyo kweli.
+U ovom videu ćete naučiti o različitim tipovima podataka u Pythonu, uključujući cele brojeve, nizove karaktera i vrednosti istina ili laž.
 
 # --questions--
 
 ## --text--
 
-Thamani ya kweli au siyo kweli ni nini?
+Šta su vrednost istine ili laži (boolean)?
 
 ## --answers--
 
-Ni aina ya data inayowakilisha thamani ya `undefined`.
+To je tip podataka koji predstavlja vrednost `undefined`.
 
 ---
 
-Ni aina ya data inayowakilisha mfuatano wa herufi.
+Koji je tip podataka koji predstavlja niz karaktera?
 
 ---
 
-Ni aina ya data inayowakilisha `True` au `False`.
+Koji je tip podataka koji predstavlja `True` ili `False`?
 
 ---
 
-Ni aina ya data inayowakilisha nambari ya desimali.
+Koji je tip podataka koji predstavlja decimalni broj?
 
 ## --video-solution--
 

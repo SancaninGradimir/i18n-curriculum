@@ -1,6 +1,5 @@
----
 id: bd7188d8c242eddfaeb5bd13
-title: Onyesha data kwa ramani ya joto
+title: Prikazivanje podataka na termičkoj mapi
 challengeType: 3
 forumTopicId: 301466
 dashedName: visualize-data-with-a-heat-map
@@ -8,51 +7,51 @@ dashedName: visualize-data-with-a-heat-map
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
+**Cilj:** Napravite aplikaciju koja radi kao ovo: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Završite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API koji vam je potreban. Kreirajte svoj jedinstveni stil.
 
-Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uchoraji wa svg. Vipengele vinavyotakiwa vya DOM vinatafutwa wakati wa kila mtihani. Ikiwa utatumia mfumo wa kazi wa mbele (mfano Vue), matokeo ya mtihani yanaweza kuwa si sahihi kwa maudhui yanayobadilika. Tunatarajia kuunga mkono hivi karibuni, lakini mifumo hii haijaungwa mkono kwa miradi ya D3 kwa sasa.
+Možete koristiti HTML, JavaScript, CSS i biblioteku D3 za crtanje SVG-a. Potrebni DOM elementi se traže tokom svakog testa. Ako koristite frontend framework (npr. Vue), rezultati testova mogu biti netačni za dinamički sadržaj. Očekujemo podršku uskoro, ali ovi sistemi trenutno ne podržavaju projekte sa D3.
 
-**Hadithi ya mtumiaji #1:** Ramani yangu ya joto inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
+**Korisnička priča #1:** Moja termička mapa mora imati naslov sa `id="title"` koji odgovara.
 
-**Hadithi ya mtumiaji #2:** Ramani yangu ya joto inapaswa kuwa na maelezo yenye `id="description"` inayolingana.
+**Korisnička priča #2:** Moja termička mapa mora imati opis sa `id="description"` koji odgovara.
 
-**Hadithi ya mtumiaji #3:** Ramani yangu ya joto inapaswa kuwa na mhimili wa x wenye `id="x-axis"` inayolingana.
+**Korisnička priča #3:** Moja termička mapa mora imati x-osu sa `id="x-axis"` koja odgovara.
 
-**Hadithi ya mtumiaji #4:** Ramani yangu ya joto inapaswa kuwa na mhimili wa y wenye `id="y-axis"` inayolingana.
+**Korisnička priča #4:** Moja termička mapa mora imati y-osu sa `id="y-axis"` koja odgovara.
 
-**Hadithi ya mtumiaji #5:** Ramani yangu ya joto inapaswa kuwa na vipengele vya `rect` vyenye `class="cell"` vinavyowakilisha data.
+**Korisnička priča #5:** Moja termička mapa mora imati elemente `rect` sa `class="cell"` koji predstavljaju podatke.
 
-**Hadithi ya mtumiaji #6:** Inapaswa kuwepo na angalau rangi 4 tofauti za kujaza kwa seli.
+**Korisnička priča #6:** Mora postojati najmanje 4 različite boje popunjanja za ćelije.
 
-**Hadithi ya mtumiaji #7:** Kila seli itakuwa na sifa za `data-month`, `data-year`, `data-temp` zenye thamani zao za `month`, `year`, na `temperature` zinazolingana.
+**Korisnička priča #7:** Svaka ćelija mora imati atribute `data-month`, `data-year`, `data-temp` sa odgovarajućim vrednostima `month`, `year` i `temperature`.
 
-**Hadithi ya mtumiaji #8:** `data-month`, `data-year` za kila seli zinapaswa kuwa ndani ya wigo wa data.
+**Korisnička priča #8:** `data-month`, `data-year` svake ćelije moraju biti unutar opsega podataka.
 
-**Hadithi ya mtumiaji #9:** Ramani yangu ya joto inapaswa kuwa na seli zinazolingana na mwezi husika kwenye mhimili wa y.
+**Korisnička priča #9:** Moja termička mapa mora imati ćelije koje odgovaraju određenom mesecu na y-osi.
 
-**Hadithi ya mtumiaji #10:** Ramani yangu ya joto inapaswa kuwa na seli zinazolingana na mwaka husika kwenye mhimili wa x.
+**Korisnička priča #10:** Moja termička mapa mora imati ćelije koje odgovaraju određenoj godini na x-osi.
 
-**Hadithi ya mtumiaji #11:** Ramani yangu ya joto inapaswa kuwa na lebo nyingi za alama kwenye mhimili wa y zenye majina kamili ya miezi.
+**Korisnička priča #11:** Moja termička mapa mora imati više oznaka na y-osi sa punim nazivima meseci.
 
-**Hadithi ya mtumiaji #12:** Ramani yangu ya joto inapaswa kuwa na lebo nyingi za alama kwenye mhimili wa x zenye miaka kati ya 1754 na 2015.
+**Korisnička priča #12:** Moja termička mapa mora imati više oznaka na x-osi za godine između 1754 i 2015.
 
-**Hadithi ya mtumiaji #13:** Ramani yangu ya joto inapaswa kuwa na lebo yenye `id="legend"` inayolingana.
+**Korisnička priča #13:** Moja termička mapa mora imati legende sa `id="legend"` koji odgovara.
 
-**Hadithi ya mtumiaji #14:** Lebo yangu inapaswa kuwa na vipengele vya `rect`.
+**Korisnička priča #14:** Moja legenda mora imati elemente `rect`.
 
-**Hadithi ya mtumiaji #15:** Vipengele vya `rect` kwenye lebo vinapaswa kutumia angalau rangi 4 tofauti za kujaza.
+**Korisnička priča #15:** Elementi `rect` u legendi moraju koristiti najmanje 4 različite boje popunjanja.
 
-**Hadithi ya mtumiaji #16:** Naweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+**Korisnička priča #16:** Mogu preći mišem preko područja i videti tooltip sa `id="tooltip"` koji prikazuje više informacija o tom području.
 
-**Hadithi ya mtumiaji #17:** Kidokezo changu cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-year` ya eneo linalofanya kazi.
+**Korisnička priča #17:** Moj tooltip mora imati atribut `data-year` koji odgovara `data-year` aktivnog područja.
 
-Hapa kuna seti ya data utakayohitaji kukamilisha mradi huu: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
+Evo skupa podataka koje ćete želeti za završetak ovog projekta: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Au unaweza kutumia kiungo hiki cha CDN kuendesha vipimo katika mazingira yoyote unayopendelea: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Možete izgraditi svoj projekat korišćenjem ovog CodePen šablona <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow"></a> i kliknuti na `Save` da kreirate sopstveni Pen. Ili možete koristiti ovaj CDN link za pokretanje testova u bilo okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Ukiisha kumaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Kada završite, dostavite URL vašeg funkcionalnog projekta sa svim prođene testovima.
 
 # --solutions--
 

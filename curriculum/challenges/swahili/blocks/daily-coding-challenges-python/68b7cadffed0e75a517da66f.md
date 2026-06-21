@@ -1,4 +1,3 @@
----
 id: 68b7cadffed0e75a517da66f
 title: "Challenge 50: Longest Word"
 challengeType: 29
@@ -7,10 +6,10 @@ dashedName: challenge-50
 
 # --description--
 
-Ukitoa sentensi, rudisha neno refu zaidi katika sentensi hiyo.
+Kada dobiješ rečenicu, vrati najduže reč iz te rečenice.
 
-- Puuza alama za nukta (`.`) wakati wa kubaini urefu wa neno.
-- Ikiwa maneno mengi yana urefu sawa wa neno refu zaidi, rudisha neno la kwanza lililotokea.
+- Ignoriši tačke (`.`) prilikom određivanja dužine reči.
+- Ako više reči ima iste dužine kao najduža reč, vrati prvu pojavljenu reč.
 
 # --hints--
 

@@ -1,6 +1,5 @@
----
 id: 69ae6fd0b4a814be6a4f2be0
-title: Mimarisha ya RAG
+title: Arhitektura RAG
 challengeType: 11
 videoId: OVn_ykvG4LE
 dashedName: rag-architecture
@@ -8,13 +7,13 @@ dashedName: rag-architecture
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu mimarisha ya mfumo wa RAG.
+U ovom videu ćete naučiti o arhitekturi sistema RAG.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo mtiririko sahihi wa mchakato kwa mfumo wa RAG?
+Koja je tačna sekvenca procesa za sistem RAG?
 
 ## --answers--
 

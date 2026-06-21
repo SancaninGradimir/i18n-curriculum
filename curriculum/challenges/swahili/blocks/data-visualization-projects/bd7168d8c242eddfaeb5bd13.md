@@ -1,6 +1,5 @@
----
 id: bd7168d8c242eddfaeb5bd13
-title: Onyesha data kwa kutumia chati ya mstari
+title: Prikazivanje podataka pomoću bar grafikona
 challengeType: 3
 forumTopicId: 301464
 dashedName: visualize-data-with-a-bar-chart
@@ -8,43 +7,43 @@ dashedName: visualize-data-with-a-bar-chart
 
 # --description--
 
-**Lengo:** Jenga programu inayofanana kiutendaji na hii: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
+**Cilj:** Izgradite aplikaciju koja funkcionalno odgovara ovom: <a href="https://bar-chart.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://bar-chart.freecodecamp.rocks</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Popunite korisničke priče ispod i prođite sve testove. Možete koristiti bilo koju biblioteku ili API koji vam je potreban. Dodajte svoj lični stil.
 
-Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uonyesho wa svg. Mitihani inahitaji mhimili kuundwa kwa kutumia sifa ya mhimili ya D3, ambayo huunda alama za kupigia (ticks) moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika kwa kupita mitihani ya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vipengele vilivyo kwenye chati. Utapata taarifa kuhusu kuunda mihimili kwenye <https://d3js.org/d3-axis>. Vipengele vinavyohitajika vya DOM vinatafutwa wakati wa kila mtihani. Ikiwa utatumia mfumo wa kazi wa mbele (mfano Vue), matokeo ya mtihani yanaweza kuwa si sahihi kwa maudhui yanayobadilika. Tunatarajia kuweza kuunga mkono hivi karibuni, lakini mifumo hii haijaungwa mkono kwa miradi ya D3 kwa sasa.
+Možete koristiti HTML, JavaScript, CSS i D3 SVG vizualizacijsku biblioteku. Testovi zahtevaju da se osa kreira korišćenjem D3 axis atributa, što automatski generiše tačke (ticks) duž ose. Ove tačke su neophodne za prolaz testova D3 jer se njihove pozicije koriste za određivanje skalarnosti elemenata na grafikonu. Informacije o kreiranju osa možete pronaći na <https://d3js.org/d3-axis>. DOM elementi koji su potrebni traže se tokom svakog testa. Ako koristite framework funkcionisanja (kao što je Vue), rezultati testova mogu biti nepouzdani za dinamički sadržaj. Nadamo se da ćemo ovo uskoro podržati, ali ovi sistemi trenutno ne podržavaju D3 projekte.
 
-**Hadithi ya mtumiaji #1:** Chati yangu inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
+**Korisnička priča #1:** Moj grafikon treba da ima naslov sa `id="title"` koji odgovara.
 
-**Hadithi ya mtumiaji #2:** Chati yangu inapaswa kuwa na kipengele cha `g` kwa mhimili wa x chenye `id="x-axis"` inayolingana.
+**Korisnička priča #2:** Moj grafikon treba da ima element `g` za x-osu sa `id="x-axis"` koji odgovara.
 
-**Hadithi ya mtumiaji #3:** Chati yangu inapaswa kuwa na kipengele cha `g` kwa mhimili wa y chenye `id="y-axis"` inayolingana.
+**Korisnička priča #3:** Moj grafikon treba da ima element `g` za y-osu sa `id="y-axis"` koji odgovara.
 
-**Hadithi ya mtumiaji #4:** Mihimili yote miwili inapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+**Korisnička priča #4:** Obje ose moraju imati više tačaka (ticks), svaka sa odgovarajućim `class="tick"`.
 
-**Hadithi ya mtumiaji #5:** Chati yangu inapaswa kuwa na kipengele cha `rect` kwa kila nukta ya data chenye `class="bar"` inayonyesha data hiyo.
+**Korisnička priča #5:** Moj grafikon treba da ima element `rect` za svaku tačku podataka sa `class="bar"` koja prikazuje te podatke.
 
-**Hadithi ya mtumiaji #6:** Kila `.bar` inapaswa kuwa na sifa `data-date` na `data-gdp` zenye thamani za `date` na `GDP`.
+**Korisnička priča #6:** Svaki `.bar` mora imati atribute `data-date` i `data-gdp` sa vrednostima datuma i BDP-a.
 
-**Hadithi ya mtumiaji #7:** Sifa za `.bar` za vipengele vya `data-date` zinapaswa kufanana na mpangilio wa data iliyotolewa.
+**Korisnička priča #7:** Atributi `.bar` za elemente `data-date` moraju odgovarati redosledu podataka koji se izvlače.
 
-**Hadithi ya mtumiaji #8:** Sifa za `.bar` za vipengele vya `data-gdp` zinapaswa kufanana na mpangilio wa data iliyotolewa.
+**Korisnička priča #8:** Atributi `.bar` za elemente `data-gdp` moraju odgovarati redosledu podataka koji se izvlače.
 
-**Hadithi ya mtumiaji #9:** Kila kipengele cha `.bar` kina urefu unaowakilisha kwa usahihi `GDP` inayolingana na data.
+**Korisnička priča #9:** Svaki element `.bar` mora imati visinu koja tačno predstavlja BDP podatke.
 
-**Hadithi ya mtumiaji #10:** Sifa ya `data-date` na kipengele chake cha `.bar` kinapaswa kuunganishwa na thamani inayolingana kwenye mhimili wa x.
+**Korisnička priča #10:** Atribut `data-date` i njegov element `.bar` moraju biti povezani sa odgovarajućom vrednošću na x-osi.
 
-**Hadithi ya mtumiaji #11:** Sifa ya `data-gdp` na kipengele chake cha `.bar` kinapaswa kuunganishwa na thamani inayolingana kwenye mhimili wa y.
+**Korisnička priča #11:** Atribut `data-gdp` i njegov element `.bar` moraju biti povezani sa odgovarajućom vrednošću na y-osi.
 
-**Hadithi ya mtumiaji #12:** Naweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+**Korisnička priča #12:** Treba mi da pređem mišem preko područja i vidim tooltip vremenske oznake sa `id="tooltip"` koji prikazuje više informacija o tom području.
 
-**Hadithi ya mtumiaji #13:** Kidokezo changu cha muda kinapaswa kuwa na sifa ya `data-date` inayolingana na `data-date` ya eneo linalofanya kazi.
+**Korisnička priča #13:** Moj tooltip mora imati atribut `data-date` koji odgovara `data-date` aktivnog područja.
 
-Huu ndio seti ya data utakayohitaji kukamilisha mradi huu: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
+Ovo je set podataka koji ćete trebati za završetak ovog projekta: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json`
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Au unaweza kutumia kiungo hiki cha CDN kuendesha mitihani katika mazingira yoyote unayopendelea: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
+Možete izgraditi svoj projekat korišćenjem ovog CodePen šablona <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow"></a> i kliknuti na `Save` da kreirate svoj Pen. Ili možete koristiti ovaj CDN link za pokretanje testova u bilo okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
 
-Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na mitihani yote imepitwa.
+Kada završite, dostavite URL vašeg funkcionalnog projekta sa prođetim svim testovima.
 
 # --solutions--
 

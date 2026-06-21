@@ -1,6 +1,5 @@
----
 id: 69ae6fdbb4a814be6a4f2be2
-title: RAG katika uzalishaji
+title: RAG u produkciji
 challengeType: 11
 videoId: EVZRatDET7Y
 dashedName: rag-in-production
@@ -8,29 +7,29 @@ dashedName: rag-in-production
 
 # --description--
 
-Katika video hii, utafundishwa jinsi RAG inavyofanya kazi katika mazingira ya uzalishaji.
+U ovom videu ćete naučiti kako RAG funkcioniše u produkcionom okruženju.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI tabaka la mfumo wa RAG katika Kubernetes?
+Koji od sledećih NIJE sloj RAG sistema u Kubernetes-u?
 
 ## --answers--
 
-Tabaka la Edge
+Sloj Edge
 
 ---
 
-Tabaka la Data
+Sloj podataka
 
 ---
 
-Tabaka la Programu
+Aplikacioni sloj
 
 ---
 
-Tabaka la Ufuatiliaji
+Sloj nadzora
 
 ## --video-solution--
 

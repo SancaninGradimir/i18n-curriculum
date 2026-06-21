@@ -1,6 +1,5 @@
----
 id: 8d1323c8c441eddfaeb5bdef
-title: Unda darasa la seti
+title: Kreiraj klasu za skupove
 challengeType: 1
 forumTopicId: 301632
 dashedName: create-a-set-class
@@ -8,7 +7,7 @@ dashedName: create-a-set-class
 
 # --description--
 
-Katika zoezi hili tutaunda darasa la vitu linaloitwa `Set` kuiga muundo wa data wa abstrakti unaoitwa "seti". Seti ni kama safu ya data, lakini haiwezi kuwa na thamani zinazojirudia. Matumizi ya kawaida ya seti ni kuangalia tu uwepo wa kipengee. Tunaweza kuona jinsi kitu cha ES6 `Set` kinavyofanya kazi katika mfano hapa chini:
+U ovom vežbama ćemo kreirati klasu objekata nazvanu `Set` koja imitira apstraktni tip podataka poznat kao "skup". Skup je poput niza podataka, ali ne može sadržavati ponovljene vrednosti. Uobičajena upotreba skupa je samo proveravanje prisutnosti elementa. Možemo videti kako ES6 `Set` radi na primeru ispod:
 
 ```js
 const set1 = new Set([1, 2, 3, 5, 5, 2, 0]);
@@ -20,17 +19,17 @@ console.log(set1.has(6));
 // output: false
 ```
 
-Kwanza, tutaunda njia ya add inayoongeza thamani kwenye mkusanyiko wetu wa seti mradi tu thamani hiyo haipo tayari katika seti. Kisha tutaunda njia ya remove inayotoa thamani kutoka kwenye mkusanyiko wa seti ikiwa tayari ipo. Na hatimaye, tutaunda njia ya size inayorejesha idadi ya vipengee ndani ya mkusanyiko wa seti.
+Prvo, kreiraćemo metodu `add` koja dodaje vrednost u naš skup ako ta vrednost još nije prisutna u skupu. Zatim ćemo kreirati metodu `remove` koja uklanja vrednost iz skupa ako je već tu. I na kraju, kreiraćemo metodu `size` koja vraća broj elemenata unutar skupa.
 
 # --instructions--
 
-Unda njia ya `add` inayoongeza thamani ya kipekee kwenye mkusanyiko wa seti na kurejesha `true` ikiwa thamani iliongezwa kwa mafanikio na `false` vinginevyo.
+Kreirajte metodu `add` koja dodaje jedinstvenu vrednost u skup i vraća `true` ako je vrednost uspešno dodata i `false` inače.
 
-Unda njia ya `remove` inayokubali thamani na kuangalia kama ipo katika seti. Ikiwa ipo, basi njia hii inapaswa kuiondoa kutoka kwenye mkusanyiko wa seti, na kurejesha `true`. Vinginevyo, inapaswa kurejesha `false`. Unda njia ya `size` inayorejesha ukubwa wa mkusanyiko wa seti.
+Kreirajte metodu `remove` koja prima vrednost i proverava da li je prisutna u skupu. Ako jeste, ova metoda bi trebalo da je ukloni iz skupa i vrati `true`. Inače, bi trebalo da vrati `false`. Kreirajte metodu `size` koja vraća veličinu (broj elemenata) skupa.
 
 # --hints--
 
-Darasa lako la `Set` linapaswa kuwa na njia ya `add`.
+Vaša klasa `Set` treba da ima metodu `add`.
 
 ```js
 assert(
@@ -41,7 +40,7 @@ assert(
 );
 ```
 
-Njia yako ya `add` haipaswi kuongeza thamani zinazojirudia.
+Metoda `add` ne bi trebalo da dodaje ponovljive vrednosti.
 
 ```js
 assert(
@@ -56,7 +55,7 @@ assert(
 );
 ```
 
-Njia yako ya `add` inapaswa kurejesha `true` wakati thamani imeongezwa kwa mafanikio.
+Metoda `add` bi trebalo da vrati `true` kada se vrednost uspešno doda.
 
 ```js
 assert(
@@ -68,7 +67,7 @@ assert(
 );
 ```
 
-Njia yako ya `add` inapaswa kurejesha `false` wakati thamani inayojirudia inaongezwa.
+Metoda `add` bi trebalo da vrati `false` kada se dodaje ponovljiva vrednost.
 
 ```js
 assert(
@@ -81,7 +80,7 @@ assert(
 );
 ```
 
-Darasa lako la `Set` linapaswa kuwa na njia ya `remove`.
+Vaša klasa `Set` treba da ima metodu `remove`.
 
 ```js
 assert(
@@ -92,7 +91,7 @@ assert(
 );
 ```
 
-Njia yako ya `remove` inapaswa kuondoa vitu vinavyopatikana tu katika seti.
+Metoda `remove` bi trebalo da uklanja samo elemente koji postoje u skupu.
 
 ```js
 assert.deepEqual(
@@ -107,7 +106,7 @@ assert.deepEqual(
 );
 ```
 
-Njia yako ya `remove` inapaswa kuondoa kipengee kilichotolewa kutoka kwenye seti.
+Metoda `remove` bi trebalo da ukloni element koji je uklonjen iz skupa.
 
 ```js
 assert(
@@ -122,7 +121,7 @@ assert(
 );
 ```
 
-Darasa lako la `Set` linapaswa kuwa na njia ya `size`.
+Vaša klasa `Set` treba da ima metodu `size`.
 
 ```js
 assert(
@@ -133,7 +132,7 @@ assert(
 );
 ```
 
-Njia ya `size` inapaswa kurejesha idadi ya vipengee katika mkusanyiko.
+Metoda `size` bi trebalo da vrati veličinu kolekcije.
 
 ```js
 assert(
