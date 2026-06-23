@@ -6,10 +6,9 @@ dashedName: challenge-135
 ---
 
 # --description--
+Izdvajanje sekvence karaktera koja predstavlja predmet e-pošte određuje koliko puta je ta e-pošta ponovo poslata ili joj je odgovorilo.
 
-Kutolewa mfuatano wa herufi unaowakilisha mstari wa somo la barua pepe, amua ni mara ngapi barua pepe hiyo imetumwa tena au kujibiwa.
-
-Kwa urahisi, zingatia barua pepe imetumwa tena au kujibiwa ikiwa mfuatano wa herufi una mojawapo ya alama zifuatazo (bila kujali herufi kubwa au ndogo):
+Radi jednostavnosti, imajte na umu da je e-mail ponovo poslat ili odgovoren ako sekvenca karaktera sadrži jedan od sledećih znakova (bez obzira na velika ili mala slova):
 
 - `"fw:"`
 - `"fwd:"`

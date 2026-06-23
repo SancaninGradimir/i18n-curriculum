@@ -6,11 +6,10 @@ dashedName: challenge-50
 ---
 
 # --description--
+Za zadatu rečenicu, vrati najdužu reč iz te rečenice.
 
-Ukitoa sentensi, rudisha neno refu zaidi katika sentensi hiyo.
-
-- Puuza alama za nukta (`.`) wakati wa kubaini urefu wa neno.
-- Ikiwa maneno mengi yana urefu sawa wa neno refu zaidi, rudisha neno la kwanza lililotokea.
+- Ignorišite interpunkcijske znake (`.`) prilikom određivanja dužine reči.
+- Ako mnoge reči imaju istu dužinu kao najduža reč, vrati prvu pojavljenu reč.
 
 # --hints--
 

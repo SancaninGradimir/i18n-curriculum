@@ -6,13 +6,12 @@ dashedName: challenge-134
 ---
 
 # --description--
+S obzirom na količinu novca koji imate i listu stvari koje želite kupiti, odlučite koliko ih možete kupiti.
 
-Ukizingatia kiasi cha pesa ulizonazo, na safu ya data ya vitu unavyotaka kununua, amua ni vingapi unaweza kununua.
+- Iznos koji je dostavljen će biti u formatu `["Amount", "Currency Code"]`. Na primer: `["150.00", "USD"]` ili `["6000", "JPY"]`.
+- Svaki red podataka koji želite da kupite biće u istom formatu.
 
-- Kiasi kilichotolewa kitakuwa katika muundo wa `["Amount", "Currency Code"]`. Kwa mfano: `["150.00", "USD"]` au `["6000", "JPY"]`.
-- Kila kipengee cha safu ya data unachotaka kununua kitakuwa katika muundo uleule.
-
-Tumia viwango vya kubadilisha fedha vifuatavyo kubadilisha thamani:
+Koristite sledeće devizne kurseve da konvertujete vrednost:
 
 |Sarafu|1 Kifungu Kinamaanisha|
 |-|-|
@@ -22,8 +21,8 @@ Tumia viwango vya kubadilisha fedha vifuatavyo kubadilisha thamani:
 |JPY|0.0070 USD|
 |CAD|0.75 USD|
 
-- Ikiwa unaweza kumudu vitu vyote vilivyopo kwenye orodha, rudisha `"Buy them all!"`.
-- Vinginevyo, rudisha `"Buy the first X items."`, ambapo `X` ni idadi ya vitu unavyoweza kumudu kununua kwa mpangilio uliopewa.
+- Ako možete da sištite sve artikle sa liste, vratite `"Buy them all!"`.
+- Inače, vratite `"Buy the first X items."`, gde je `X` broj artikala koje možete da kupite prema datoj konfiguraciji.
 
 
 # --hints--

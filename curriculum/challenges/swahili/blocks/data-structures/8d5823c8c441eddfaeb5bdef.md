@@ -1,32 +1,29 @@
 ---
 id: 8d5823c8c441eddfaeb5bdef
-title: Unda muundo wa data wa ramani
+title: Kreiraj strukturu podataka mape
 challengeType: 1
 forumTopicId: 301629
 dashedName: create-a-map-data-structure
 ---
 
 # --description--
-
-Changamoto chache zinazofuata zitahusu ramani na jedwali za hash. Ramani ni miundo ya data inayohifadhi jozi za ufunguo-thamani. Katika JavaScript, hizi zinapatikana kwetu kama vitu. Ramani hutoa upatikanaji wa haraka wa vitu vilivyohifadhiwa kulingana na thamani za ufunguo na ni miundo ya data inayopatikana sana na yenye manufaa.
+Sledeći izazovi će se baviti mapama i haš tabelama. Mapa je struktura podataka koja čuva parove ključ-vrednost. U JavaScript, one su nam dostupne kao objekti. Mapa pruža brzi pristup sačuvanim elementima na osnovu vrednosti ključa i predstavlja veoma korisnu strukturu podataka.
 
 # --instructions--
-
-Tuanze mazoezi ya kuunda ramani yetu wenyewe. Kwa sababu vitu vya JavaScript hutoa muundo wa ramani wenye ufanisi zaidi kuliko chochote tunachoweza kuandika hapa, hili lina kusudiwa zaidi kama zoezi la kujifunza. Hata hivyo, vitu vya JavaScript vinatupatia tu baadhi ya operesheni. Je, tungetaka kufafanua operesheni maalum? Tumia kitu cha `Map` kilichotolewa hapa kama kifuniko cha `object` cha JavaScript. Unda njia na operesheni zifuatazo kwenye kitu cha Ramani:
+Hajde da počnemo sa vežbanjem kreiranja naše sopstvene mape. Jer elementi JavaScript pružaju strukturu mape efikasniju od svega što možemo napisati ovde, ovo je namenjeno više kao vežba učenja. Međutim, elementi JavaScript nam daju samo neke operacije. Da li želimo da definišemo specifičnu operaciju? Koristite element `Map` dostavljen ovde kao omotač za `object` od JavaScript. Kreirajte sledeći putanju i operacije na objektu Mapa:
 
 <ul>
-<li><code>add</code> inakubali jozi ya <code>ufunguo, thamani</code> kuongeza kwenye ramani.</li>
-<li><code>remove</code> inakubali ufunguo na inafuta jozi ya <code>ufunguo, thamani</code> inayohusiana</li>
-<li><code>get</code> inakubali <code>ufunguo</code> na inarudisha <code>thamani</code> iliyohifadhiwa</li>
-<li><code>has</code> inakubali <code>ufunguo</code> na inarudisha <dfn>true</dfn> ikiwa ufunguo upo au <dfn>false</dfn> ikiwa haupo.</li>
-<li><code>values</code> inarudisha safu ya data ya thamani zote zilizomo kwenye ramani</li>
-<li><code>size</code> inarudisha idadi ya vitu vilivyomo kwenye ramani</li>
-<li><code>clear</code> inafuta ramani yote</li>
+<li><code>add</code> prihvata par ključ-vrednost <code>ufunguo, </code> za dodavanje na mapu.</li>
+<li><code>remove</code> prihvata ključ i uklanja par <code>ufunguo, </code> vrednost koja mu odgovara</li>
+<li><code>get</code> prihvata <code>ufunguo</code> i vraća <code>vrednost</code> koja je sačuvana</li>
+<li><code>has</code> prihvata <code>ufunguo</code> i vraća <dfn>true</dfn> ako postoji taj ključ, ili null/prazno <dfn>false</dfn> ako ne postoji.</li>
+<li><code>values</code> vraća niz podataka svih vrednosti sadržanih u mapi</li>
+<li><code>size</code> vraća broj stavki sadržanih u mapi</li>
+<li><code>clear</code> briše celu mapu</li>
 </ul>
 
 # --hints--
-
-Muundo wa data wa `Map` unapaswa kuwepo.
+Struktura podataka za `Map` mora da postoji.
 
 ```js
 assert(
@@ -40,7 +37,7 @@ assert(
 );
 ```
 
-Kitu cha `Map` kinapaswa kuwa na njia zifuatazo: `add`, `remove`, `get`, `has`, `values`, `clear`, na `size`.
+Element `Map` mora imati sledeće putanje: `add`, `remove`, `get`, `has`, `values`, `clear`, i `size`.
 
 ```js
 assert(
@@ -62,7 +59,7 @@ assert(
 );
 ```
 
-Njia ya `add` inapaswa kuongeza vitu kwenye ramani.
+Putanja za `add` treba da doda stvari na mapu.
 
 ```js
 assert(
@@ -79,7 +76,7 @@ assert(
 );
 ```
 
-Njia ya `has` inapaswa kurudisha `true` kwa vitu vilivyoongezwa na `false` kwa vitu visivyo.
+Put za `has` treba da vrati `true` za stavke dodate sa `false` za nedodate stavke.
 
 ```js
 assert(
@@ -94,7 +91,7 @@ assert(
 );
 ```
 
-Njia ya `get` inapaswa kupokea funguo kama ingizo na inapaswa kurudisha thamani zinazohusiana.
+Metoda ``get`` mora da primi parametre kao ulaz i mora vratiti povezane vrednosti.
 
 ```js
 assert(
@@ -109,7 +106,7 @@ assert(
 );
 ```
 
-Njia ya `values` inapaswa kurudisha thamani zote zilizohifadhiwa kwenye ramani kama mfuatano wa herufi katika safu ya data.
+Metoda `values` treba da vrati sve vrednosti sačuvane u mapu kao sekvencu karaktera u nizu podataka.
 
 ```js
 assert(
@@ -131,7 +128,7 @@ assert(
 );
 ```
 
-Njia ya `clear` inapaswa kufuta ramani na njia ya `size` inapaswa kurudisha idadi ya vitu vilivyopo kwenye ramani.
+Funkcija ``clear`` treba da obriše mapu, i funkcija ``size`` treba da vrati broj objekata koji se nalaze na mapi.
 
 ```js
 assert(

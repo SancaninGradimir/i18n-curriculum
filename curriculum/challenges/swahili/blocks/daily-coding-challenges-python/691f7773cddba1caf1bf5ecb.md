@@ -6,11 +6,10 @@ dashedName: challenge-132
 ---
 
 # --description--
+Ako imate niz podataka sa različitim vrednostima, uklonite sve pojavljivanje elementa koji se najčešće ponavlja i vratite preostali niz podataka.
 
-Ukitoa safu ya data yenye thamani mbalimbali, ondoa matukio yote ya kipengele kinachojirudia mara nyingi zaidi na urudishe safu ya data iliyobaki.
-
-- Ikiwa thamani nyingi zimefanana kuwa zinajirudia mara nyingi zaidi, ziondoe zote.
-- Usibadilishe vipengele vingine au mpangilio wake.
+- Ako su više vrednosti slične i ponavljaju se previše puta, uklonite ih sve.
+- Ne menjajte druge elemente ili njihov redosled.
 
 # --hints--
 

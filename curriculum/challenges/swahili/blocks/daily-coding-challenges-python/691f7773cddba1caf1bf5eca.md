@@ -6,15 +6,14 @@ dashedName: challenge-131
 ---
 
 # --description--
+Ako vam je dat niz podataka cijelih brojeva i ciljna vrijednost, pronađite sve parove elemenata u nizu podataka čije se vrijednosti sabiraju do ciljne vrijednosti i vratite zbir njihovih indeksa.
 
-Ikiwa umepewa safu ya data ya nambari kamili na nambari lengwa, tafuta jozi zote za vipengele katika safu ya data ambavyo thamani zao zinajumuika kuwa nambari lengwa na rudisha jumla ya nambari za viashiria vyao.
+Primer je, ako dobijete `[2, 3, 4, 6, 8]` i `10`, dobićete par validnih:
 
-Kwa mfano, ukipata `[2, 3, 4, 6, 8]` na `10`, utapata jozi mbili halali:
+- `2` i `8` (2 + 8 = 10), njovi indikatori su `0` i `4`
+- `4` i `6` (4 + 6 = 10), njovi indikatori su `2` i `3`
 
-- `2` na `8` (2 + 8 = 10), viashiria vyake ni `0` na `4`
-- `4` na `6` (4 + 6 = 10), viashiria vyake ni `2` na `3`
-
-Jumlisha viashiria vyote kupata thamani ya return ya `9`.
+Sumirajte sve indikatore da biste dobili vrednost return iz `9`.
 
 # --hints--
 
