@@ -1,6 +1,6 @@
 ---
 id: 8ad37ddb7a23050f71cc9cc9
-title: Kufanya kazi na nambari
+title: Raditi sa brojevima
 challengeType: 11
 videoId: C7sxe5GAArQ
 dashedName: working-with-numbers
@@ -8,13 +8,13 @@ dashedName: working-with-numbers
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na operesheni za kihesabu za msingi na kitendakazi cha nambari kilichojengwa ndani. 
+U ovom videu ćete naučiti kako da radite sa osnovnim matematičkim operacijama i ugrađenom funkcijom brojeva. 
 
 # --questions--
 
 ## --text--
 
-Ni kitendakazi gani kati ya vifuatavyo kilichojengwa ndani kinachotumika kurudisha nambari msingi iliyoinuliwa kwa nguvu?
+Koja od sledećih ugrađenih funkcija se koristi za vraćanje osnove broja podignutog na stepen?
 
 ## --answers--
 

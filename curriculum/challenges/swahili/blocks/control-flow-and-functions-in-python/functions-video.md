@@ -1,6 +1,6 @@
 ---
 id: 58d5d031e969765037c1bebb
-title: Kitendakazi
+title: Funkcija
 challengeType: 11
 videoId: QN3UNoJVS9g
 dashedName: functions
@@ -8,13 +8,13 @@ dashedName: functions
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufafanua na kuita kitendakazi. 
+U ovom videu, naučićete kako da definišete i pozovete funkciju.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuita kitendakazi?
+Koja od sledećih predstavlja ispravan način za pozivanje funkcije?
 
 ## --answers--
 

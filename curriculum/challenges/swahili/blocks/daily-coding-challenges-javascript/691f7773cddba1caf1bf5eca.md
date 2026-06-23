@@ -1,20 +1,19 @@
 ---
 id: 691f7773cddba1caf1bf5eca
-title: "Zoezi la 131: Kwa jozi"
+title: Vežba 131: Za par
 challengeType: 28
 dashedName: challenge-131
 ---
 
 # --description--
+Ako vam je dat niz podataka cijelih brojeva i ciljni broj, pronađite sve parove elemenata u nizu podataka čije vrijednosti se sabiraju do tog ciljnog broja i vratite sumu njihovih indeksa.
 
-Ikiwa umepewa safu ya data ya nambari kamili na nambari lengwa, tafuta jozi zote za vipengele katika safu ya data ambavyo thamani zao zinajumuika kuwa nambari lengwa na rudisha jumla ya nambari za viashiria vyao.
-
-Kwa mfano, ukipata `[2, 3, 4, 6, 8]` na `10`, utapata jozi mbili halali:
+Na primer, ako dobijete `[2, 3, 4, 6, 8]` i `10`, dobićete dva validna para:
 
 - `2` na `8` (2 + 8 = 10), viashiria vyake ni `0` na `4`
 - `4` na `6` (4 + 6 = 10), viashiria vyake ni `2` na `3`
 
-Jumlisha viashiria vyote kupata thamani ya return ya `9`.
+Saberi sve indikatore kako bi dobio vrednost return od `9`.
 
 # --hints--
 

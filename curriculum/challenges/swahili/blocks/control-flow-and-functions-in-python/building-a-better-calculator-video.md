@@ -1,6 +1,6 @@
 ---
 id: a9f9c5bf295034800d6c77ad
-title: Kujenga kalkuleta bora zaidi
+title: Izgradnja boljeg kalkulatora
 challengeType: 11
 videoId: lOltMrA6kuY
 dashedName: building-a-better-calculator
@@ -8,13 +8,13 @@ dashedName: building-a-better-calculator
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kujenga programu ya kalkuleta iliyoboreshwa kwa kutumia taarifa za if.
+U ovom videu ćete naučiti kako da napravite poboljšani kalkulator koristeći `if` izjave.
 
 # --questions--
 
 ## --text--
 
-Ni kitendakazi gani kati ya zifuatazo zilizojengwa ndani kinachotumika kubadilisha mfuatano wa herufi kuwa nambari ya float?
+Koji od sledećih ugrađenih funkcija se koristi za konverziju niza karaktera u `float` broj?
 
 ## --answers--
 

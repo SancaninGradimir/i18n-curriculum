@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Jenga ukurasa wa mtandao wa portfolio binafsi
+title: Izgradite ličnu web stranicu portfolija
 challengeType: 14
 saveSubmissionToDB: true
 forumTopicId: 301143
@@ -9,36 +9,36 @@ dashedName: build-a-personal-portfolio-webpage
 
 # --description--
 
-**Lengo:** Jenga programu inayofanana kiutendaji na <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Usikopi mradi huu wa maonyesho**.
+**Cilj:** Napraviti aplikaciju koja funkcionalno liči na <a href="https://personal-portfolio.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://personal-portfolio.freecodecamp.rocks</a>. **Ne kopirajte ovaj demo projekat.**
 
-**Hadithi za mtumizi:**
+**User Stories:**
 
-1. Portfolio yako inapaswa kuwa na sehemu ya kukaribisha yenye `id` ya `welcome-section`
-1. Sehemu ya kukaribisha inapaswa kuwa na kipengele cha `h1` chenye maandishi
-1. Portfolio yako inapaswa kuwa na sehemu ya miradi yenye `id` ya `projects`
-1. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye `class` ya `project-tile` kushikilia mradi
-1. Sehemu ya miradi inapaswa kuwa na angalau kiungo kimoja cha mradi
-1. Portfolio yako inapaswa kuwa na navbar yenye kitambulisho cha `navbar`
-1. Navbar inapaswa kuwa na angalau kiungo kimoja ambacho unaweza kubofya kuunganisha na sehemu tofauti za ukurasa
-1. Portfolio yako inapaswa kuwa na kiungo chenye kitambulisho cha `profile-link`, ambacho hufungua wasifu wako wa GitHub au freeCodeCamp kwenye kichupo kipya
-1. Portfolio yako inapaswa kuwa na angalau media query moja
-1. Urefu wa sehemu ya kukaribisha unapaswa kuwa sawa na urefu wa eneo la kuona
-1. Navbar inapaswa kuwa kila wakati juu ya eneo la kuona
+1. Vaš portfolio treba da ima sekciju za dobrodošlicu sa `id`-om `welcome-section`
+1. Sekcija za dobrodošlicu treba da sadrži element `h1` sa tekstom
+1. Vaš portfolio treba da ima sekciju projekata sa `id`-om `projects`
+1. Sekcija projekata treba da ima najmanje jedan element sa klasom `project-tile` koji drži projekat
+1. Sekcija projekata treba da ima najmanje jednu linku ka projektu
+1. Vaš portfolio treba da imati navbar sa identifikatorom `navbar`
+1. Navbar treba da imati najmanje jednu linku koju možete kliknuti koja vodi do različitih delova stranice
+1. Vaš portfolio treba da imati link sa identifikatorom `profile-link`, koji otvara vaš GitHub ili freeCodeCamp profil u novom tabu
+1. Vaš portfolio treba da imati barem jedan media query
+1. Visina sekcije za dobrodošlicu treba da bude jednaka visini vidljivog područja (viewport)
+1. Navbar mora biti uvek na vrhu vidljivog područja
 
-Kamilisha hadithi za mtumizi na pita vipimo vyote hapa chini ili kumaliza mradi huu. Toa mtindo wako binafsi. Furahia kuandika msimbo!
+Ispunite sve user stories i prođite kroz sve testove ispod kako biste završili ovaj projekat. Dodajte svoj lični stil. Uživajte u kodiranju!
 
-**Kumbuka:** Hakikisha unaongeza `<link rel="stylesheet" href="styles.css">` katika HTML yako kuunganisha na karatasi yako ya mtindo na kutumia CSS yako
+**Napomena:** Uverite se da dodate `<link rel="stylesheet" href="styles.css">` u vaš HTML za povezivanje sa vašim stilskim fajlom i korišćenje CSS-a.
 
 # --hints--
 
-Portfolio yako inapaswa kuwa na sehemu ya "Karibu" yenye `id` ya `welcome-section`.
+Vaš portfolio treba da ima sekciju "Welcome" sa `id`-om `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#welcome-section` kinapaswa kuwa na kipengele cha `h1` ndani yake.
+Element vašeg `#welcome-section` treba da sadrži element `h1` unutar sebe.
 
 ```js
 assert.isAbove(
@@ -48,7 +48,7 @@ assert.isAbove(
 );
 ```
 
-Hupaswi kuwa na vipengele vya `h1` vilivyo tupu ndani ya kipengele cha `#welcome-section`.
+Ne smete imati prazne elemente `h1` unutar elementa `#welcome-section`.
 
 ```js
 assert.isAbove(
@@ -58,33 +58,33 @@ assert.isAbove(
 );
 ```
 
-Unapaswa kuwa na sehemu ya "Miradi" yenye `id` ya `projects`.
+Treba da imate sekciju "Projects" sa `id`-om `projects`.
 
 ```js
 const el = document.getElementById('projects');
 assert.isNotNull(el);
 ```
 
-Portfolio yako inapaswa kuwa na angalau kipengele kimoja chenye darasa la `project-tile`.
+Vaš portfolio treba da ima najmanje jedan element sa klasom `project-tile`.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects .project-tile').length, 0);
 ```
 
-Kipengele chako cha `#projects` kinapaswa kuwa na angalau kipengele kimoja cha `a` ndani yake.
+Element vašeg `#projects` treba da ima najmanje jedan element `a` unutar sebe.
 
 ```js
 assert.isAbove(document.querySelectorAll('#projects a').length, 0);
 ```
 
-Portfolio yako inapaswa kuwa na navbar yenye `id` ya `navbar`.
+Vaš portfolio treba da imati navbar sa `id`-om `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa kuwa na angalau kipengele kimoja cha `a` ambacho sifa ya kipengele `href` inaanza na `#`.
+Element vašeg `#navbar` treba da imati najmanje jednu linku `a` čiji atribut `href` počinje sa `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -94,7 +94,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Portfolio yako inapaswa kuwa na kipengele cha `a` chenye `id` ya `profile-link`.
+Vaš portfolio treba da imati element `a` sa `id`-om `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -102,7 +102,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Kipengele chako cha `#profile-link` kinapaswa kuwa na sifa ya kipengele `target` yenye thamani ya `_blank`.
+Element vašeg `#profile-link` treba da ima atribut elementa `target` sa vrednošću `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -110,7 +110,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Portfolio yako inapaswa kutumia angalau media query moja.
+Vaš portfolio treba da koristi barem jedan media query.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -118,7 +118,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa kuwa kila wakati juu ya eneo la kuona.
+Element vašeg `#navbar` treba da bude uvek na vrhu vidljivog područja (viewport).
 
 ```js
   const timeout = milliseconds =>
@@ -168,7 +168,7 @@ Kipengele chako cha `#navbar` kinapaswa kuwa kila wakati juu ya eneo la kuona.
     <link rel="stylesheet" href="styles.css">
     <title>Personal Portfolio</title>
 </head>
-<body>
+<body >
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <!--Font Reference-->
 <nav id="navbar">
@@ -185,7 +185,7 @@ Kipengele chako cha `#navbar` kinapaswa kuwa kila wakati juu ya eneo la kuona.
   </section><hr>
   <section id="projects">
     <h1>Projects</h1>
-    <h2><a href="https://codepen.io/nhcarrigan">Here's what I've worked on!</a></h2>
+    <h2 class="project-tile"><a href="https://codepen.io/nhcarrigan">Here's what I've worked on!</a></h2>
     <p class="project-tile">
 <iframe height="265" style="width: 25;" scrolling="no" title="Algebraic Concepts" src="https://codepen.io/nhcarrigan/embed/preview/NWGrWBR?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy">
   See the Pen <a href='https://codepen.io/nhcarrigan/pen/NWGrWBR'>Algebraic Concepts</a> by Naomi Carrigan
@@ -210,7 +210,7 @@ Kipengele chako cha `#navbar` kinapaswa kuwa kila wakati juu ya eneo la kuona.
     <p><a href="https://www.freecodecamp.org/nhcarrigan" id="profile-link" target="_blank" rel="noopener noreferrer">FreeCodeCamp.org</a> | <a href="https://github.com/nhcarrigan" id="github-link" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.facebook.com/nhcarrigan" id="facebook-link" target="_blank" rel="noopener noreferrer">Facebook</a> | <a href="https://www.linkedin.com/in/Naomi-l-carrigan/" id="linkedin-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </section>
 <footer><a href="../">Return to Project List</a> | <a href="https://www.nhcarrigan.com">Return to HomePage</a></footer>
-</body>
+</body >
 </html>
 ```
 

@@ -9,8 +9,8 @@ dashedName: challenge-50
 
 Ukitoa sentensi, rudisha neno refu zaidi katika sentensi hiyo.
 
-- Puuza alama za nukta (`.`) wakati wa kubaini urefu wa neno.
-- Ikiwa maneno mengi yana urefu sawa wa neno refu zaidi, rudisha neno la kwanza lililotokea.
+- Ignorišite interpunkcijske znakove (`.`) prilikom određivanja dužine reči.
+- Ako više reči ima istu dužinu kao najduža reč, vratite prvu naiđenu reč.
 
 # --hints--
 

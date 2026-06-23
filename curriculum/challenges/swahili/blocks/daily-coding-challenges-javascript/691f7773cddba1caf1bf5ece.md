@@ -9,7 +9,7 @@ dashedName: challenge-135
 
 Kutolewa mfuatano wa herufi unaowakilisha mstari wa somo la barua pepe, amua ni mara ngapi barua pepe hiyo imetumwa tena au kujibiwa.
 
-Kwa urahisi, zingatia barua pepe imetumwa tena au kujibiwa ikiwa mfuatano wa herufi una mojawapo ya alama zifuatazo (bila kujali herufi kubwa au ndogo):
+Radi vaše udobnosti, obratite pažnju na e-mail koji je ponovo poslat ili odgovoren ako sekvenca karaktera sadrži jedan od sledećih znakova (bez obzira na to da li su slova velika ili mala):
 
 - `"fw:"`
 - `"fwd:"`

@@ -6,10 +6,9 @@ dashedName: challenge-133
 ---
 
 # --description--
+21. decembar je zimijsko solsticije za severni pol i letnje solsticije za južni pol. To znači da je dan sa najmanje dnevnog svetla na severu i više dnevnog svetla na jugu.
 
-Tarehe 21 Desemba ni solstisi ya baridi kwa nusu ya kaskazini na solstisi ya joto kwa nusu ya kusini. Hii ina maana ni siku yenye mwanga wa mchana mdogo zaidi kaskazini na mwanga wa mchana mwingi zaidi kusini.
-
-Ukitoa nambari ya latitudo kutoka -90 hadi 90, rudisha makadirio ya karibu ya saa za mwanga wa mchana wakati wa solstisi kwa kutumia jedwali lifuatalo:
+Ako date koordinatu širine od -90 do 90, vratite približnu procenu trajanja dnevnih sati tokom solsticija koristeći sledeću tabelu:
 
 |Latitudo|Saa za mwanga wa mchana|
 |-|-|
@@ -27,7 +26,7 @@ Ukitoa nambari ya latitudo kutoka -90 hadi 90, rudisha makadirio ya karibu ya sa
 |75|2|
 |90|0|
 
-- Ikiwa latitudo iliyotolewa haifanani kabisa na kipengele chochote cha jedwali, tumia thamani ya latitudo iliyo karibu zaidi.
+- Ako navedena geografska širina ne odgovara nijednom polju u tabeli, koristite najbližu vrednost geografske širine.
 
 # --hints--
 
