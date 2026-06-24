@@ -7,14 +7,12 @@ dashedName: dictionaries
 ---
 
 # --description--
-
-Katika video hii, utafundishwa jinsi ya kufanya kazi na kamusi katika Python kuhifadhi jozi za ufunguo-thamani.
+U ovom videu, naučićete kako da radite sa rečnikom u Python radi skladištenja parova ključ-vrednost.
 
 # --questions--
 
 ## --text--
-
-Ni ipi kati ya zifuatazo itatoa mfuatano wa herufi `"March"` kwa usahihi kwenye konsoli?
+Koji od sljedećih će tačno izbaciti sekvencu znakova `"March"` na konzoli?
 
 ## --answers--
 

@@ -1,18 +1,17 @@
 ---
 id: bd7188d8c242eddfaeb5bd13
-title: Onyesha data kwa ramani ya joto
+title: Prikaži podatke na termičkoj mapi
 challengeType: 3
 forumTopicId: 301466
 dashedName: visualize-data-with-a-heat-map
 ---
 
 # --description--
+**Cilj:** Izgradite program koji radi kao ovo: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://heat-map.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://heat-map.freecodecamp.rocks</a>.
+Završi korisničke priče ispod i prođi kroz sve specifikacije. Koristi bilo koju biblioteku ili API koja ti je potrebna. Pruži svoj stil.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
-
-Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uchoraji wa svg. Vipengele vinavyotakiwa vya DOM vinatafutwa wakati wa kila mtihani. Ikiwa utatumia mfumo wa kazi wa mbele (mfano Vue), matokeo ya mtihani yanaweza kuwa si sahihi kwa maudhui yanayobadilika. Tunatarajia kuunga mkono hivi karibuni, lakini mifumo hii haijaungwa mkono kwa miradi ya D3 kwa sasa.
+Možete koristiti HTML, JavaScript, CSS, sa D3 bibliotekom za crtanje SVG. Potrebne komponente za DOM pretražuju se tokom svakog testa. Ako koristite sistem prednje funkcije (kao što je Vue), rezultati testa mogu biti netačni za dinamički sadržaj. Očekujemo da ćemo ovo uskoro podržati, ali ovi sistemi trenutno nisu podržani za D3 projekte.
 
 **Hadithi ya mtumiaji #1:** Ramani yangu ya joto inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
 
@@ -22,35 +21,35 @@ Unaweza kutumia HTML, JavaScript, CSS, na maktaba ya D3 ya uchoraji wa svg. Vipe
 
 **Hadithi ya mtumiaji #4:** Ramani yangu ya joto inapaswa kuwa na mhimili wa y wenye `id="y-axis"` inayolingana.
 
-**Hadithi ya mtumiaji #5:** Ramani yangu ya joto inapaswa kuwa na vipengele vya `rect` vyenye `class="cell"` vinavyowakilisha data.
+**Priča korisnika #5:** Moja mapa toplote bi trebalo da ima komponente sa `rect` koje imaju `class="cell"` i predstavljaju podatke.
 
-**Hadithi ya mtumiaji #6:** Inapaswa kuwepo na angalau rangi 4 tofauti za kujaza kwa seli.
+**Priča korisnika #6:** Trebalo bi da postoji najmanje 4 različite boje za popunjavanje ćelija.
 
-**Hadithi ya mtumiaji #7:** Kila seli itakuwa na sifa za `data-month`, `data-year`, `data-temp` zenye thamani zao za `month`, `year`, na `temperature` zinazolingana.
+**Priča korisnika #7:** Svaka ćelija će imati atribute za `data-month`, `data-year`, `data-temp` sa njihovim vrednostima za `month`, `year`, i `temperature` koji odgovaraju.
 
-**Hadithi ya mtumiaji #8:** `data-month`, `data-year` za kila seli zinapaswa kuwa ndani ya wigo wa data.
+**Priča korisnika #8:** `data-month`, `data-year` za svaku ćeliju treba da bude unutar opsega podataka.
 
-**Hadithi ya mtumiaji #9:** Ramani yangu ya joto inapaswa kuwa na seli zinazolingana na mwezi husika kwenye mhimili wa y.
+**Priča korisnika #9:** Moja mapa toplote treba da ima ćelije koje odgovaraju odgovarajućem mesecu na Y-osi.
 
-**Hadithi ya mtumiaji #10:** Ramani yangu ya joto inapaswa kuwa na seli zinazolingana na mwaka husika kwenye mhimili wa x.
+**Priča korisnika #10:** Moja mapa toplote treba da ima ćelije koje odgovaraju relevantnoj godini na x-osi.
 
-**Hadithi ya mtumiaji #11:** Ramani yangu ya joto inapaswa kuwa na lebo nyingi za alama kwenye mhimili wa y zenye majina kamili ya miezi.
+**Priča korisnika #11:** Moja mapa toplote treba da ima više oznaka na Y-osi sa punim nazivima meseci.
 
-**Hadithi ya mtumiaji #12:** Ramani yangu ya joto inapaswa kuwa na lebo nyingi za alama kwenye mhimili wa x zenye miaka kati ya 1754 na 2015.
+**Priča korisnika #12:** Moja toplinska karta treba da ima mnogo oznaka markera na X osi sa godinama između 1754 i 2015.
 
 **Hadithi ya mtumiaji #13:** Ramani yangu ya joto inapaswa kuwa na lebo yenye `id="legend"` inayolingana.
 
-**Hadithi ya mtumiaji #14:** Lebo yangu inapaswa kuwa na vipengele vya `rect`.
+**Priča korisnika #14:** Moja oznaka bi trebalo da ima elemente `rect`.
 
-**Hadithi ya mtumiaji #15:** Vipengele vya `rect` kwenye lebo vinapaswa kutumia angalau rangi 4 tofauti za kujaza.
+**Priča korisnika #15:** Elementi `rect` na etiketi treba da koriste najmanje četiri različite boje popunjavanja.
 
-**Hadithi ya mtumiaji #16:** Naweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+**Priča korisnika #16:** Mogu da pomerim miša preko područja i vidim privremeni tooltip sa `id="tooltip"` koji prikazuje više informacija o tom području.
 
-**Hadithi ya mtumiaji #17:** Kidokezo changu cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-year` ya eneo linalofanya kazi.
+**Priča korisnika #17:** Moj privremeni podsetnik mora imati atribut `data-year` koji odgovara `data-year` iz radnog područja.
 
-Hapa kuna seti ya data utakayohitaji kukamilisha mradi huu: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
+Evo skupa podataka koji će vam trebati za završetak ovog projekta: `https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json`
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Au unaweza kutumia kiungo hiki cha CDN kuendesha vipimo katika mazingira yoyote unayopendelea: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
+Možete izgraditi svoj projekat koristeći <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">koristeći ovaj CodePen šablon</a> i klikom na `Save` da kreirate svoj Pen. Ili možete koristiti ovu CDN vezu da pokrenete demo u bilo kom okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
 Ukiisha kumaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
 

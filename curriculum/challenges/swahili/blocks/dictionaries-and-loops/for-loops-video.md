@@ -7,14 +7,12 @@ dashedName: for-loops
 ---
 
 # --description--
-
-Katika video hii, utafundishwa jinsi ya kutumia mizunguko ya for kurudia juu ya mfululizo kama vile orodha na anuwai.
+U ovom videu, naučićete kako da koristite petlje za for koje prolaze kroz sekvence kao što su nizovi i opsezi.
 
 # --questions--
 
 ## --text--
-
-Ni ipi kati ya zifuatazo njia sahihi ya kurudia juu ya kila herufi katika mfuatano wa herufi `"Giraffe Academy"`?
+Koja od sljedećih metoda je ispravna za iteriranje preko svakog karaktera u nizu znakova `"Giraffe Academy"`?
 
 ## --answers--
 

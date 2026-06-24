@@ -7,30 +7,27 @@ dashedName: exponent-functions
 ---
 
 # --description--
-
-Katika video hii, utafundishwa jinsi ya kuandika kitendakazi kinachohesabu nguvu za mwinuko na madaraja katika Python.
+U ovom videu, naučićete kako da napišete funkciju koja računa sile uzdizanja i mostove u Python.
 
 # --questions--
 
 ## --text--
-
-Kitendakazi cha `range()` katika Python hufanya nini?
+Šta radi funkcija `range()` unutar Python?
 
 ## --answers--
-
-Hurejesha nambari kutoka kwenye orodha.
-
----
-
-Hutengeneza orodha ya nambari za bahati nasibu.
+Kopirajte brojeve sa liste.
 
 ---
 
-Hutengeneza mfululizo wa nambari kamili kati ya sehemu ya kuanzia na sehemu ya kuisha.
+Generišite listu nasumičnih srećnih brojeva.
 
 ---
 
-Hutengeneza mfululizo wa nambari za desimali kati ya sehemu ya kuanzia na sehemu ya kuisha.
+Generiše niz celih brojeva između početne i krajnje vrednosti.
+
+---
+
+Generišite niz decimalnih brojeva između početne i krajnje vrednosti.
 
 ## --video-solution--
 

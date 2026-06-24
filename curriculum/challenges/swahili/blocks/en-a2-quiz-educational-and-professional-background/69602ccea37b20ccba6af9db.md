@@ -1,6 +1,6 @@
 ---
 id: 69602ccea37b20ccba6af9db
-title: Jaribio fupi la asili ya elimu na taaluma
+title: Kratak uvod u poreklo obrazovanja i nauke
 challengeType: 8
 dashedName: en-a2-quiz-educational-and-professional-background
 lang: en-US
@@ -8,13 +8,13 @@ lang: en-US
 
 # --description--
 
-Jaribio hili linakagua uelewa wako kuhusu mahojiano ya kazi, elimu, na wakati wa `past simple`.
+Ovaj test proverava vaše razumevanje o intervjuima za posao, obrazovanju i vremenskom kontekstu `past simple`.
 
-Ili kupita jaribio hili, lazima ujibu maswali 18 kati ya 20 kwa usahihi.
+Ako želiš da prođeš ovaj test, moraš tačno odgovoriti na 18 od 20 pitanja.
 
-Soma kila swali na chagua jibu sahihi. Kila swali lina jibu moja tu sahihi.
+Pročitajte svako pitanje i izaberite tačan odgovor. Svako pitanje ima samo jedan tačan odgovor.
 
-Kwa ajili ya Ufikikaji, nakala za maandishi zinapatikana kwa wanafunzi wenye ulemavu wa kusikia; tunapendekeza kuzitumia tu ikiwa ni lazima.
+Za pristupačnost, pisane kopije su dostupne za učenike sa oštećenjem sluha; preporučujemo da ih koristite samo ako je neophodno.
 
 # --quizzes--
 
@@ -24,73 +24,73 @@ Kwa ajili ya Ufikikaji, nakala za maandishi zinapatikana kwa wanafunzi wenye ule
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni kweli kuhusu sentensi hii: `I studied computer science at college`?
+Koja od sljedećeg je tačno o ovoj rečenici: `I studied computer science at college`?
 
 #### --distractors--
 
-Kitendo kinaendelea sasa.
+Radnja se nastavlja sada.
 
 ---
 
-Kitendo kitaendelea hivi karibuni.
+Događaj će se uskoro desiti.
 
 ---
 
-Kitendo hufanyika kila siku.
+Događaj se dešava svakog dana.
 
 #### --answer--
 
-Kitendo kilitokea zamani.
+Dogodilo se ranije.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SI mfano wa `background` ya mtu?
+Koja je od navedenih stvari primer `background` osobe?
 
 #### --distractors--
 
-Uzoefu wao wa kazi wa zamani
+Njihovo prethodno radno iskustvo
 
 ---
 
-Historia yao ya elimu
+Njihova istorija obrazovanja
 
 ---
 
-Ujuzi waliopata
+Znanje koje su stekli
 
 #### --answer--
 
-Hobby yao wanayopenda
+Njihovi hobiji
 
 ### --question--
 
 #### --text--
 
-`interview` ni nini?
+`interview` šta je to?
 
 #### --distractors--
 
-Mazungumzo ya kawaida kati ya wafanyakazi
+Neformalni razgovori među zaposlenima
 
 ---
 
-Mtihani wa maandishi shuleni
+Pisan ispit u školi
 
 ---
 
-Mkutano wa timu kazini
+Sastanak tima na poslu
 
 #### --answer--
 
-Mkutano rasmi wenye maswali
+Zvanični sastanak sa pitanjima
 
 ### --question--
 
 #### --text--
 
-Sikiliza sauti. Jibu bora zaidi kwa swali hili ni lipi? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
+Poslušajte audio. Koji je najbolji odgovor na ovo pitanje? <!-- (quiz audio) Anna: Can you tell me about your previous job experiences? -->
 
 #### --audio--
 
@@ -130,7 +130,7 @@ Sikiliza sauti. Jibu bora zaidi kwa swali hili ni lipi? <!-- (quiz audio) Anna: 
 
 #### --text--
 
-Ni sentensi gani inayotumia `to be` kwa usahihi katika zamani?
+Koja rečenica koristi `to be` pravilno u prošlosti?
 
 #### --distractors--
 
@@ -152,7 +152,7 @@ Ni sentensi gani inayotumia `to be` kwa usahihi katika zamani?
 
 #### --text--
 
-Ni namna gani sahihi ya kuuliza swali la sentensi hii: `He was responsible for maintaining the database`?
+Kako je pravilno postaviti pitanje o ovoj rečenici: `He was responsible for maintaining the database`?
 
 #### --distractors--
 
@@ -174,7 +174,7 @@ Ni namna gani sahihi ya kuuliza swali la sentensi hii: `He was responsible for m
 
 #### --text--
 
-Unaulaje kuhusu asili ya elimu ya mtu?
+Da li pitaš o poreklu obrazovanja nekoga?
 
 #### --distractors--
 
@@ -196,29 +196,29 @@ Unaulaje kuhusu asili ya elimu ya mtu?
 
 #### --text--
 
-Swali hili linauliza kuhusu nini: `Could you tell me about your previous roles and responsibilities?`
+O čemu pita ovo pitanje: `Could you tell me about your previous roles and responsibilities?`
 
 #### --distractors--
 
-Mipango yako ya kazi ya baadaye
+Vaši planovi za budućnost/karijeru
 
 ---
 
-Mambo unayopenda binafsi
+Stvari koje ti se lično sviđaju
 
 ---
 
-Kazi zako za kila siku sasa
+Tvoj svakodnevni posao sada
 
 #### --answer--
 
-Kazi na majukumu yako ya zamani
+Sjeti se svojih starih obaveza
 
 ### --question--
 
 #### --text--
 
-Ni msemo gani unaonyesha umiliki kwa njia isiyo sahihi?
+Koja izjava pokazuje neispravno vlasništvo?
 
 #### --distractors--
 
@@ -240,7 +240,7 @@ Ni msemo gani unaonyesha umiliki kwa njia isiyo sahihi?
 
 #### --text--
 
-Ni namna gani hasi sahihi ya sentensi hii: `He studied data science`?
+Koji je ispravan oblik za ovu rečenicu: `He studied data science`?
 
 #### --distractors--
 
@@ -262,7 +262,7 @@ Ni namna gani hasi sahihi ya sentensi hii: `He studied data science`?
 
 #### --text--
 
-Unasemaje eneo lako kuu la masomo?
+Koja je Vaša glavna oblast studija?
 
 #### --distractors--
 
@@ -284,7 +284,7 @@ Unasemaje eneo lako kuu la masomo?
 
 #### --text--
 
-Ni namna gani sahihi ya kuuliza swali la sentensi hii: `She worked with them for five years`?
+Kako pravilno postaviti pitanje u ovoj rečenici: `She worked with them for five years`?
 
 #### --distractors--
 
@@ -306,7 +306,7 @@ Ni namna gani sahihi ya kuuliza swali la sentensi hii: `She worked with them for
 
 #### --text--
 
-Sikiliza sauti. Ungejibuje swali hili? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
+Slušaj audio. Da li želiš da odgovoriš na ovo pitanje? <!-- (quiz audio) Tom: Did you work on any projects during your self-study? -->
 
 #### --audio--
 
@@ -346,7 +346,7 @@ Sikiliza sauti. Ungejibuje swali hili? <!-- (quiz audio) Tom: Did you work on an
 
 #### --text--
 
-Ni jozi gani ya vitenzi visivyo vya kawaida si sahihi?
+Nije li par neobičnih glagola tačan?
 
 #### --distractors--
 
@@ -368,29 +368,29 @@ Ni jozi gani ya vitenzi visivyo vya kawaida si sahihi?
 
 #### --text--
 
-`to wear too many hats` inamaanisha nini?
+`to wear too many hats` Šta to znači?
 
 #### --distractors--
 
-Kuvaa kwa njia rasmi sana
+Obuci se veoma formalno
 
 ---
 
-Kubadilisha kazi mara kwa mara
+Česta promena posla
 
 ---
 
-Kusimamia kazi moja
+Upravljati jednim poslom
 
 #### --answer--
 
-Kuwa na majukumu au jukumu nyingi
+Ima mnogo obaveza ili jedna velika obaveza
 
 ### --question--
 
 #### --text--
 
-Unaelezaje kujifunza bila mwalimu au shule?
+Kako objašnjavate učenje bez učitelja ili škole?
 
 #### --distractors--
 
@@ -412,7 +412,7 @@ Unaelezaje kujifunza bila mwalimu au shule?
 
 #### --text--
 
-Ni sentensi gani inayotumia `actual` au `actually` kwa usahihi?
+Koja rečenica koristi `actual` ili `actually` ispravno?
 
 #### --distractors--
 
@@ -434,29 +434,29 @@ Ni sentensi gani inayotumia `actual` au `actually` kwa usahihi?
 
 #### --text--
 
-`recruiter` ni nani?
+`recruiter` Ko je?
 
 #### --distractors--
 
-Mtu anayesimamia timu
+Lider tima
 
 ---
 
-Mtu anayefundisha wafanyakazi
+Osoba koja obučava zaposlene
 
 ---
 
-Mtu anayefanya msimbo
+Programer
 
 #### --answer--
 
-Mtu anayemchagua mwombaji
+Osoba koja bira kandidata
 
 ### --question--
 
 #### --text--
 
-Unamwita nani mtu anayefanya kazi kwa kampuni?
+Koga se obraćaš, osobi koja radi za kompaniju?
 
 #### --distractors--
 
@@ -478,7 +478,7 @@ Unamwita nani mtu anayefanya kazi kwa kampuni?
 
 #### --text--
 
-Ni swali gani la lebo sahihi?
+Koje je pitanje za ispravnu oznaku?
 
 #### --distractors--
 

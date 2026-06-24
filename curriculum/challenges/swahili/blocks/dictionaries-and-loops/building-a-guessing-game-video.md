@@ -1,20 +1,18 @@
 ---
 id: d4876f74547b26d5c330423e
-title: Kujenga mchezo wa kukisia
+title: Izgradnja igre pogađanja
 challengeType: 11
 videoId: sHyQCBFRoug
 dashedName: building-a-guessing-game
 ---
 
 # --description--
-
-Katika video hii, utaweka mchezo wa kukisia unaotumia mizunguko na masharti.
+U ovom videu ćete napraviti/implementirati igru pogađanja koja koristi runde i uslove.
 
 # --questions--
 
 ## --text--
-
-Masharti ya `guess != secret_word` yanamaanisha nini katika msimbo huu?
+Šta znače uslovi za `guess != secret_word` u ovom kodu?
 
 ```python
 secret_word = "giraffe"
@@ -30,15 +28,15 @@ Kama `guess` si sawa na `secret_word`.
 
 ---
 
-Kama `guess` ni sawa na `secret_word`.
+`guess` је једнако са `secret_word`.
 
 ---
 
-Kama `guess` ni kubwa kuliko `secret_word`.
+Ako `guess` je veće od `secret_word`.
 
 ---
 
-Kama `guess` ni ndogo kuliko `secret_word`.
+Kama `guess` je manje od `secret_word`.
 
 ## --video-solution--
 

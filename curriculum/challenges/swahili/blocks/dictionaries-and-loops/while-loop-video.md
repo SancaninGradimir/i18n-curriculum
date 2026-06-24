@@ -7,14 +7,12 @@ dashedName: while-loop
 ---
 
 # --description--
-
-Katika video hii, utafundishwa jinsi ya kufanya kazi na mizunguko ya while kurudia sehemu za msimbo mradi tu hali ni `True`.
+U ovom videu, naučićete kako da radite sa petljama while za ponavljanje delova koda ako je uslov `True`.
 
 # --questions--
 
 ## --text--
-
-Nini kitakuwa matokeo kwa msimbo ufuatao?
+Šta će biti rezultat za sledeći kod?
 
 ```python
 i = 1
