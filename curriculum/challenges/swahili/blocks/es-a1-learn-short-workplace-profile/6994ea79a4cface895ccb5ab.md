@@ -1,22 +1,21 @@
 ---
 id: 6994ea79a4cface895ccb5ab
-title: Zoezi la 8
+title: Vežba 8
 challengeType: 22
 dashedName: task-8
 lang: es
 ---
-
-<!-- (Audio) Luna: Su usuario es carlos-velez. -->
+<!-- (Audio) Luna: Vaš korisnički nalog je carlos-velez. -->
 
 # --description--
 
-Majina ya mtumiaji yanaweza kuwa na alama maalum.
+Korisničko ime može sadržati posebne znakove.
 
-Sasa utamsikia Luna akisema jina la mtumiaji wa Carlos. Utaona kuwa lina alama hii `-`, ambayo huitwa `guión` kwa Kihispania.
+Sada ćeš čuti Lunu kako izgovara korisničko ime Karla. Videćeš da ima ovaj znak `-`, koji se zove `guión` na španskom.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -30,13 +29,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Luna anataja kuwa hili ni jina la mtumiaji wa Carlos. Kumbuka kujumuisha alama ya mkato (`-`) kati ya majina.
+Luna navodi da je ovo korisničko ime Carlos-a. Zapamti da umetne razdvojni znak (`-`) između imena.
 
 # --explanation--
 
-Luna anasema: `Su usuario es carlos-velez.`
+Luna kaže: `Su usuario es carlos-velez.`
 
-Alama `-` inajulikana kama `guión` kwa Kihispania. Kumbuka kuweka alama ya nukta juu ya herufi `o`.
+Znak `-` poznat je kao `guión` za španski jezik. Zapamtite da stavite tačku iznad slova `o`.
 
 # --scene--
 

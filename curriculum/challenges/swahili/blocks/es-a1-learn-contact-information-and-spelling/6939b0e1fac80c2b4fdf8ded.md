@@ -1,20 +1,19 @@
 ---
 id: 6939b0e1fac80c2b4fdf8ded
-title: Zoezi la 17
+title: Lekcija 17
 challengeType: 22
 dashedName: task-17
 lang: es
 ---
-
-<!-- (Audio) Basti: Se escribe B-a-s-t-i. -->
+<!-- (Audio) Basti: Piše se B-a-s-t-i. -->
 
 # --description--
 
-Katika zoezi hili, Basti anatamka jina lake la utani herufi kwa herufi.
+U ovoj vežbi, Basti izgovara svoj nadimak slovo po slovo.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte zvuk i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -28,7 +27,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ni herufi ya kwanza ambayo Basti anatumia kuanza kutamka jina lake la utani.
+Ovo je prvo slovo koje Basti koristi da započne izgovaranje svog nadimka.
 
 ---
 
@@ -36,7 +35,7 @@ Hii ni herufi ya kwanza ambayo Basti anatumia kuanza kutamka jina lake la utani.
 
 ### --feedback--
 
-Herufi hii inakuja baada ya "s" katika "Basti".
+Ovo slovo dolazi nakon 's' u 'Basti'.
 
 ---
 
@@ -44,11 +43,11 @@ Herufi hii inakuja baada ya "s" katika "Basti".
 
 ### --feedback--
 
-Hii ni herufi ya mwisho katika "Basti". Sikiliza sauti ya vokali mwishoni.
+Ovo je poslednje slovo u "Basti". Slušaj zvuk samoglasnika na kraju.
 
 # --explanation--
 
-Basti anatamka jina lake la utani kama `B-a-s-t-i`.
+Basti izgovara svoj nadimak kao `B-a-s-t-i`.
 
 # --scene--
 

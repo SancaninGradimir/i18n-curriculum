@@ -1,24 +1,23 @@
 ---
 id: 68eff70d0ade1c408ecbfeb4
-title: Zoezi la 6
+title: Vežba 6
 challengeType: 22
 dashedName: task-6
 lang: es
 ---
-
 <!-- (Audio) Julieta: d -->
 
 # --description--
 
-Herufi `d` huitwa `de`.
+Karakter `d` se naziva `de`.
 
-Mwanzoni mwa neno au baada ya `l` au `n`, sauti yake ni kali zaidi, kama katika neno `dos` ("mbili"). Hata hivyo, ni laini kati ya vokali, kama katika neno `idea` ("wazo").
+Na početku reči ili nakon `l` ili `n`, njegov zvuk je oštriji, kao u reči `dos` ("dva"). Međutim, on je mekši između samoglasnika, kao u reči `idea` ("ideja").
 
-Mfano ni `doctor` ("daktari").
+Primer je `doctor` („doktori“).
 
 # --instructions--
 
-Sikiliza sauti na andika herufi katika nafasi tupu hapa chini.
+Slušajte zvuk i napišite slova u praznom prostoru ispod.
 
 # --fillInTheBlank--
 
@@ -32,7 +31,7 @@ Sikiliza sauti na andika herufi katika nafasi tupu hapa chini.
 
 ### --feedback--
 
-Hii ni herufi ya nne katika alfabeti.
+Ovo je četvrto slovo u alfabetu.
 
 # --scene--
 

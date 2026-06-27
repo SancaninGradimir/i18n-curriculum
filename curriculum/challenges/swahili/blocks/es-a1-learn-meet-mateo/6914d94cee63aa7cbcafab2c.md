@@ -1,22 +1,21 @@
 ---
 id: 6914d94cee63aa7cbcafab2c
-title: Zoezi la 2
+title: Vežba 2
 challengeType: 22
 dashedName: task-2
 lang: es
 ---
-
-<!-- (Audio) Mateo: Soy Mateo. Soy ingeniero de software. -->
+<!-- (Audio) Mateo: Ja sam Mateo. Ja sam softverski inženjer. -->
 
 # --description--
 
-Mateo anataja jina lake na taaluma yake kwa Kihispania.
+Mateo spominje svoje ime i zanimanje na španskom.
 
-Hapa, kitenzi `ser` kinatumika kudhihirisha utambulisho wake na taaluma yake.
+Ovde, glagol `ser` se koristi da pokaže svoj identitet i gramatiku.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušaj audio i dovrši sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -30,7 +29,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe au unafanya nini.
+Ova glagolska forma potiče od glagola `ser` i koristi se za opisivanje ko ste vi ili šta radite.
 
 ---
 
@@ -38,14 +37,14 @@ Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe
 
 ### --feedback--
 
-Fomu hii ya kitenzi inatokana na kitenzi `ser` na hutumika kuelezea ni nani wewe au unafanya nini.
+Ovaj glagolski oblik potiče od glagola `ser` i koristi se za opisivanje ko ste vi ili šta radite.
 
 # --explanation--
 
 
-`Soy` ni kitenzi kinachotumika kuelezea ni nani wewe au unafanya nini. Kwa mfano:
+`Soy` je glagol koji se koristi za opisivanje ko ste ili šta radite. Primer:
 
-`Soy Mateo. Soy ingeniero de software.` - Mimi ni Mateo. Mimi ni mhandisi wa programu.
+`Soy Mateo. Soy ingeniero de software.` - Ja sam Mateo. Ja sam softverski inženjer.
 
 # --scene--
 

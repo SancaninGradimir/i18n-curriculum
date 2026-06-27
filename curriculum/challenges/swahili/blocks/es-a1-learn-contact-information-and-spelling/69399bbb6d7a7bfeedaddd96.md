@@ -1,26 +1,25 @@
 ---
 id: 69399bbb6d7a7bfeedaddd96
-title: Zoezi la 13
+title: Lekcija 13
 challengeType: 22
 dashedName: task-13
 lang: es
 ---
-
 <!-- (Audio) Basti: Me llamo Sebastián Ávila Gómez. -->
 
 # --description--
 
-Kitenzi `escribir` kinamaanisha "kuandika". Wazungumzaji wa Kihispania wanapotaka kueleza jinsi neno linaandikwa au kuandikwa herufi kwa herufi, mara nyingi hutumia usemi wa kihesabu `se escribe`.
+Glagol `escribir` znači "pisati". Kada španski govornici žele da objasne kako je reč napisana ili kako se piše slovo po slovo, često koriste računski izraz `se escribe`.
 
-Fomu hii inatokana na kitenzi `escribir` na hutumika sana kabla ya kuandika majina, barua pepe, au maneno mengine herufi kwa herufi. Kwa mfano:
+Ova forma se izvodi iz glagola `escribir` i često se koristi pre pisanja imena, e-pošte ili drugih reči slovo po slovo. Primer:
 
-- `Carlos se escribe C-a-r-l-o-s.` – Carlos huandikwa C-a-r-l-o-s.
+- `Carlos se escribe C-a-r-l-o-s.` – Carlos se piše C-a-r-l-o-s.
 
-- `Mi apellido se escribe con z.` – Jina langu la mwisho huandikwa kwa herufi z.
+- `Mi apellido se escribe con z.` – Moje prezime piše se slovima.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Slušajte zvuk i dovršite rečenicu koja je ispod.
 
 # --fillInTheBlank--
 
@@ -38,7 +37,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili dogo ni sehemu ya usemi wa kawaida unaotumika wakati wa kueleza jinsi kitu kinaandikwa.
+Ova mala reč je deo uobičajenog govora koji se koristi kada se objašnjava kako je nešto napisano.
 
 ---
 
@@ -46,13 +45,13 @@ Neno hili dogo ni sehemu ya usemi wa kawaida unaotumika wakati wa kueleza jinsi 
 
 ### --feedback--
 
-Fomu hii ya kitenzi inatokana na `escribir` na hutumika wakati wa kuandika neno herufi kwa herufi.
+Ovaj oblik glagola potiče iz `escribir` i koristi se prilikom pisanja reči slovo po slovo.
 
 # --explanation--
 
-`Se escribe` hutumika wakati wa kueleza jinsi neno au jina linaandikwa.
+`Se escribe` koristi se kada je potrebno objasniti kako je reč ili ime napisano.
 
-Inatokana na kitenzi `escribir` na hutumika sana kabla ya kuandika kitu herufi kwa herufi.
+Potiče od glagola `escribir` i često se koristi pre nego što nešto napišete slovo po slovo.
 
 # --scene--
 

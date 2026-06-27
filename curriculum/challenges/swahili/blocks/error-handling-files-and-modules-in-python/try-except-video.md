@@ -1,6 +1,6 @@
 ---
 id: 2a486e3e521b79b874fb5e9a
-title: Jaribu/Toa
+title: Pokušaj/Daj
 challengeType: 11
 videoId: 1tkhMom_SZw
 dashedName: try-except
@@ -8,13 +8,13 @@ dashedName: try-except
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kushughulikia makosa kwa kutumia sehemu za jaribu/toa ili kufanya programu zako kuwa imara zaidi.
+U ovom videu, naučićete kako da upravljate greškama korišćenjem `try-catch` blokova kako biste učinili svoje programe stabilnijim.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo kwa msimbo ufuatao ikiwa mtumizi atatoa mfuatano wa herufi `"random"`?
+Šta će biti rezultat za sledeći kod ako korisnik unese niz karaktera `"random"`?
 
 ```python
 try:
@@ -26,19 +26,19 @@ except:
 
 ## --answers--
 
-Hakutakuwa na kitu kitakachochapishwa kwenye konsoli.
+Na konzoli neće biti ništa ispisano.
 
 ---
 
-Mfuatano wa herufi `"random"` utachapishwa kwenye konsoli.
+Niz znakova `"random"` biće štampan na konzolu.
 
 ---
 
-Mfuatano wa herufi `"Invalid Input"` utachapishwa kwenye konsoli.
+Sekvenca znakova `"Invalid Input"` će biti ispisana na konzolu.
 
 ---
 
-Programu itashindwa kufanya kazi. 
+Program će prestati sa radom.
 
 ## --video-solution--
 

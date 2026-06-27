@@ -1,26 +1,25 @@
 ---
 id: 693aebb31ed98f7aea7d1a5d
-title: Zoezi la 26
+title: Vežba 26
 challengeType: 19
 dashedName: task-26
 lang: es
 ---
-
-<!-- (Audio) Basti: Y mi número es +502 4489 2201. -->
+<!-- (Audio) Basti: A moj broj je +502 4489 2201. -->
 
 # --description--
 
-Katika zoezi hili, utamsikia Basti akitoa nambari yake kamili ya simu, ikiwa ni pamoja na msimbo wa nchi. Nambari inazungumzwa kwa makundi ya tarakimu.
+U ovoj vežbi, čutićete Bastija kako daje svoj puni broj telefona, uključujući kod zemlje. Broj se izgovara u grupama cifara.
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya hizi hapa chini ni nambari ya simu ya Basti?
+Koji od ovih dole je broj telefona Bastija?
 
 ## --answers--
 
@@ -32,7 +31,7 @@ Ni ipi kati ya hizi hapa chini ni nambari ya simu ya Basti?
 
 ### --feedback--
 
-Tarakimu za mwisho si zile Basti anazosema.
+Poslednji brojevi nisu one/oni koje Basti govori.
 
 ---
 
@@ -40,7 +39,7 @@ Tarakimu za mwisho si zile Basti anazosema.
 
 ### --feedback--
 
-Msimbo wa nchi ambao Basti anasema si 520.
+Kod zemlje koji Basti kaže da nije 520.
 
 ---
 
@@ -48,7 +47,7 @@ Msimbo wa nchi ambao Basti anasema si 520.
 
 ### --feedback--
 
-Kuna kosa dogo katika tarakimu nne za katikati.
+Postoji mala greška u četiri srednje cifre.
 
 ## --video-solution--
 
@@ -56,7 +55,7 @@ Kuna kosa dogo katika tarakimu nne za katikati.
 
 # --explanation--
 
-`Y mi número es +502 4489 2201`, inamaanisha "Na nambari yangu ni +502 4489 2201".
+`Y mi número es +502 4489 2201`, to znači "Moj broj je +502 4489 2201".
 
 # --scene--
 

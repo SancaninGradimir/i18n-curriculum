@@ -1,6 +1,6 @@
 ---
 id: 04e25c4fdc9ee0e71a844fd6
-title: Kusoma mafaili
+title: Čitanje fajlova
 challengeType: 11
 videoId: enOW7u6LWyg
 dashedName: reading-files
@@ -8,29 +8,29 @@ dashedName: reading-files
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kusoma mafaili katika Python na kuchakata yaliyomo ndani yake.
+U ovom videu, naučićete kako da čitate fajlove u Python i obradite sadržaj unutar njih.
 
 # --questions--
 
 ## --text--
 
-Jukumu la `"r"` katika kitendakazi cha `open()` ni lipi?
+Koja je uloga `"r"` unutar funkcije `open()`?
 
 ## --answers--
 
-Inabainisha hali ya anuwai.
+Određujem različita stanja.
 
 ---
 
-Inabainisha hali ya kubadilisha jina.
+Prikazuje status promene imena.
 
 ---
 
-Inabainisha hali ya upatikanaji wa nasibu.
+Indikuje status slučajne dostupnosti.
 
 ---
 
-Inabainisha hali ya kusoma.
+Indikuje stanje čitanja.
 
 ## --video-solution--
 

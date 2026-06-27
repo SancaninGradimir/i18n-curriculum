@@ -8,29 +8,29 @@ dashedName: modules-and-pip
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia moduli na pip kuongeza uwezo wa Python kwa vifurushi vya nje.
+U ovom videu, naučićete kako da koristite modul i pip za povećanje funkcionalnosti Python za eksterne pakete.
 
 # --questions--
 
 ## --text--
 
-pip hutumika kwa ajili gani?
+Za šta se koristi pip?
 
 ## --answers--
 
-Inatumika kupanga moduli za python.
+Koristi se za organizovanje modula za Python.
 
 ---
 
-Inatumika kuelezea moduli za python.
+Koristi se za objašnjavanje modula Pythona.
 
 ---
 
-Inatumika kusakinisha moduli za python.
+Koristi se za instalaciju Python modula.
 
 ---
 
-Inatumika kufanya lint kwa programu za Python.
+Koristi se za pokretanje linte (linting) za aplikacije Python.
 
 ## --video-solution--
 

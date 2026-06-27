@@ -1,22 +1,21 @@
 ---
 id: 6903d3c4ccae5fffec5f3cbc
-title: Zoezi la 4
+title: Vežba 4
 challengeType: 19
 dashedName: task-4
 lang: es
 ---
-
-<!-- (Audio) Mateo: Soy puertorriqueño. -->
+<!-- (Audio) Mateo: Ja sam porto-rikanac. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Poslušajte zvuk sa odgovorom na pitanje koje je dole.
 
 # --questions--
 
 ## --text--
 
-Uraia wa Mateo ni upi?
+Koje je građanstvo Matea?
 
 ## --answers--
 
@@ -24,7 +23,7 @@ Uraia wa Mateo ni upi?
 
 ### --feedback--
 
-Chaguo hili linahusu mtu kutoka Chile.
+Ovaj izbor se tiče osobe/čoveka iz Čilea.
 
 ---
 
@@ -32,7 +31,7 @@ Chaguo hili linahusu mtu kutoka Chile.
 
 ### --feedback--
 
-Neno hili linaelezea mtu kutoka Peru.
+Ova reč opisuje osobu iz Perua.
 
 ---
 
@@ -44,7 +43,7 @@ Neno hili linaelezea mtu kutoka Peru.
 
 ### --feedback--
 
-Hii inahusu mwanamke kutoka Colombia, na mwisho `-a` unaonyesha umbo la kike, ambalo halilingani na Mateo.
+Ovo je o ženi iz Kolumbije, i na kraju `-a` prikazuje ženski oblik, koji ne odgovara Mateu.
 
 ## --video-solution--
 
@@ -52,17 +51,17 @@ Hii inahusu mwanamke kutoka Colombia, na mwisho `-a` unaonyesha umbo la kike, am
 
 # --explanation--
 
-`Soy` ("Mimi ni") hutoka kwenye kitenzi `ser` na hutumika kuonyesha utambulisho, uraia, au taaluma. Kwa mfano:
+`Soy` ("Ja sam") izvodi se iz glagola `ser` i koristi se za pokazivanje identiteta, državljanstva ili profesije. Primer:
 
-- `Soy chilena.` – Mimi ni Mchile. (kike)
+- `Soy chilena.` – Ja sam Mchile. (kike)
 
-- `Soy chileno.` – Mimi ni Mchile. (kiume)
+- `Soy chileno.` – Ja sam Mchile. (muški)
 
-- `Soy puertorriqueña` - Mimi ni Mpuertoriko. (kike)
+- `Soy puertorriqueña` - Ja sam Puerto Riko. (kike)
 
-- `Soy puertorriqueño` - Mimi ni Mpuertoriko. (kiume)
+- `Soy puertorriqueño` - Ja sam Puerto Riko. (muški)
 
-- `Soy canadiense.` – Mimi ni Mkanada. (isiyo na jinsia)
+- `Soy canadiense.` – Ja sam Kanadastanac. (bez roda)
 
 # --scene--
 

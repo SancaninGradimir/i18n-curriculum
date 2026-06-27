@@ -1,6 +1,6 @@
 ---
 id: 699cc94ffc3ee628dfae74bf
-title: Zoezi la 31
+title: Vežba 31
 challengeType: 22
 dashedName: task-31
 lang: es
@@ -9,25 +9,25 @@ lang: es
 
 # --description--
 
-`Es` hutokana na kitenzi `ser` na hutumika kuonyesha au kuwasilisha kitu. Kwa mfano:
+`Es` izvodi se od glagola `ser` i koristi se za prikazivanje ili predstavljanje nečega. Primer:
 
-- `Es mi número.` - Hii ni nambari yangu.
+- `Es mi número.` - Ovo je moj broj.
   
-- `Es mi correo.` - Hii ni barua pepe yangu.
+- `Es mi correo.` - Ovo je moja e-pošta.
 
-Wakati wa kutamka anwani ya barua pepe, baadhi ya alama husemwa kwa sauti:
+Prilikom izgovaranja e-mail adrese, neki znakovi se izgovaraju naglas:
 
-`Punto` hutumika kwa alama `.` Kwa mfano:
+`Punto` koristi se za znak `.` Primer:
 
-`ana.lopez` husomwa kama `ana punto lopez`.
+`ana.lopez` čita se kao `ana punto lopez`.
 
-`Arroba` hutumika kwa alama `@`. Kwa mfano:
+`Arroba` koristi se za znak `@`. Primer:
 
-`ana.lopez@ejemplo.com` husomwa kama `ana punto lopez arroba ejemplo punto com`.
+`ana.lopez@ejemplo.com` čita se kao `ana punto lopez arroba ejemplo punto com`.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušaj zvuk i dovrši sljedeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -41,7 +41,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Aina hii ya `ser` hutumika kuwasilisha au kuonyesha kitu.
+Ovaj tip od `ser` se koristi za prikazivanje ili pokazivanje nečega.
 
 ---
 
@@ -49,7 +49,7 @@ Aina hii ya `ser` hutumika kuwasilisha au kuonyesha kitu.
 
 ### --feedback--
 
-Neno hili hutumika wakati wa kusema alama `.` katika anwani ya barua pepe.
+Ova reč se koristi kada se navodi oznaka `.` u adresi e-pošte.
 
 ---
 
@@ -57,7 +57,7 @@ Neno hili hutumika wakati wa kusema alama `.` katika anwani ya barua pepe.
 
 ### --feedback--
 
-Neno hili hutumika wakati wa kusema alama `@`.
+Ova reč se koristi kada se kaže simbol `@`.
 
 ---
 
@@ -65,21 +65,21 @@ Neno hili hutumika wakati wa kusema alama `@`.
 
 ### --feedback--
 
-Neno hili linaonekana tena kabla ya herufi za mwisho `p r`.
+Ovaj reč se ponovo pojavljuje pre zadnjih slova `p r`.
 
 # --explanation--
 
-Sentensi kamili ni:
+Puni predikati su:
 
 `Es m-a-t-e-o punto d-e-l-g-a-d-o arroba s-a-n-j-u-a-n punto p-r.`
 
-`Es` huanzisha taarifa.
+`Es` Pokreće informacije.
 
-`Punto` inawakilisha alama `.`
+`Punto` predstavlja simbol `.`
 
-`Arroba` inawakilisha alama `@`
+`Arroba` predstavlja simbol `@`
 
-Maneno haya hutumika sana wakati wa kutamka anwani ya barua pepe kwa sauti.
+Ove reči se često koriste prilikom izgovaranja e-mail adrese naglas.
 
 # --scene--
 

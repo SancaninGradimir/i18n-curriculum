@@ -1,25 +1,25 @@
 ---
 id: 699eff4a6eefcef5c1d1059a
-title: Zoezi la 24
+title: Vežba 24
 challengeType: 22
 dashedName: task-24
 lang: es
 ---
-<!-- (Audio) Basti: El dominio es q-u-e-t-z-a-l punto g-t. -->
+<!-- (Audio) Basti: Domena je q-u-e-t-z-a-l punto g-t. -->
 
 # --description--
 
-Neno `dominio` linarejelea sehemu kuu ya anwani ya mtandao, kawaida sehemu inayofuata `@` katika barua pepe au baada ya `www` kwenye tovuti.
+`dominio` se odnosi na glavni deo mrežne adrese, obično deo koji sledi `@` u e-mail poruci ili nakon `www` na veb stranici.
 
-Linatumika sana wakati wa kutoa au kuthibitisha anwani za barua pepe na URL. Kwa mfano:
+Koristi se često prilikom pružanja ili verifikovanja adresa e-pošte sa URL. Primer:
 
-`El dominio es gmail punto com.` – Sehemu kuu ni gmail.com.
+`El dominio es gmail punto com.` – Glavni deo je gmail.com.
 
-`¿Cuál es el dominio?` – Sehemu kuu ni ipi?
+`¿Cuál es el dominio?` – Koja je glavna sekcija?
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušaj zvuk i dovrši sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -33,13 +33,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Nomino hii inarejelea sehemu kuu ya anwani ya mtandao au barua pepe.
+Ovaj termin se odnosi na glavni deo mrežne adrese ili e-pošte.
 
 # --explanation--
 
-`Dominio` ni nomino inayotumika kwa jina la sehemu ya domain ya anwani ya barua pepe au tovuti.
+`Dominio` To je imenica koja se koristi za ime domenskog dela e-mail adrese ili veb stranice.
 
-Mara nyingi huonekana wakati watu wanapobainisha au kuthibitisha taarifa za mawasiliano ya kidijitali.
+Često se primećuje kada ljudi navode ili potvrđuju digitalne kontakt informacije.
 
 # --scene--
 

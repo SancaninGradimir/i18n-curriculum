@@ -1,22 +1,21 @@
 ---
 id: 6995dd999dec0afeec52dbba
-title: Zoezi la 13
+title: Vežba 13
 challengeType: 22
 dashedName: task-13
 lang: es
 ---
-
-<!-- (Audio) Luna: Trabaja en la oficina de Medellín. -->
+<!-- (Audio) Luna: Radi u kancelariji u Medellínu. -->
 
 # --description--
 
-Neno `oficina` linamaanisha "ofisi".
+Reč `oficina` znači "kancelarija".
 
-Luna anatumia neno hili kujibu swali la Sebastián.
+Luna koristi ovu reč da odgovori na pitanje Sebastijana.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -30,15 +29,15 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili linahusu mahali ambapo watu hufanya kazi.
+Ova reč govori o mestu gde ljudi rade.
 
 # --explanation--
 
-Luna anasema kwamba Carlos `trabaja en la oficina de Medellín`.
+Luna kaže da Carlos `trabaja en la oficina de Medellín`.
 
-Hii ina maana kwamba anafanya kazi katika ofisi ya Medellín.
+To znači da radi u kancelariji u Medellínu.
 
-Unapaswa kuandika neno `oficina` ili ukamilishe sentensi.
+Treba da napišete reč `oficina` ili dovršite rečenicu.
 
 # --scene--
 

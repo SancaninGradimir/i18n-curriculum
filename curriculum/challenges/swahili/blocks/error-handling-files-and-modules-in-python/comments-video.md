@@ -1,6 +1,6 @@
 ---
 id: 71ac60e6488b40e997219f15
-title: Maoni
+title: Komentari
 challengeType: 11
 videoId: CY-CMJIt1z8
 dashedName: comments
@@ -8,13 +8,13 @@ dashedName: comments
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuandika maoni katika Python ili kuweka kumbukumbu za msimbo wako na kuufanya usomeke zaidi.
+U ovom videu, naučićemo vas kako da pišete komentare u Python radi čuvanja zapisa vašeg koda i učinjenja ga preglednijim.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ni maoni ya mstari mmoja katika Python?
+Koja od sljedećih je komentar jedne linije u Python?
 
 ## --answers--
 
