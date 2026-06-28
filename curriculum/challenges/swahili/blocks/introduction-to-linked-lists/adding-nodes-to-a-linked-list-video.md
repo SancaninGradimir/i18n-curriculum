@@ -1,6 +1,6 @@
 ---
 id: 698dd6627932b3cc4b19c931
-title: Kuongeza Nodi katika Orodha Iliyounganishwa
+title: Dodavanje čvora u spojenu listu
 challengeType: 11
 videoId: DcsHC78sfdk
 dashedName: adding-nodes-to-a-linked-list
@@ -8,21 +8,21 @@ dashedName: adding-nodes-to-a-linked-list
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuongeza nodi katika orodha iliyounganishwa.
+U ovom videu, naučićete kako da dodate čvor u povezanu listu.
 
 # --questions--
 
 ## --text--
 
-Ni neno gani linalotumika sana kwa ajili ya utatafutaji katika orodha iliyounganishwa?
+Koja je reč koja se najčešće koristi za pretraživanje u povezanoj listi?
 
 ## --answers--
 
-scan
+skeniranje
 
 ---
 
-walk
+šetati
 
 ---
 

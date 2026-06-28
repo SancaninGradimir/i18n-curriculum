@@ -1,6 +1,6 @@
 ---
 id: 699e033c138be64fa313138b
-title: Thamani kubwa zaidi na kiwango cha chini kwenye grafu
+title: Najveća vrednost i najniži nivo na grafikonu
 challengeType: 11
 videoId: E1JSGpO8i3w
 dashedName: maximum-and-minimum-values-on-a-graph
@@ -8,29 +8,29 @@ dashedName: maximum-and-minimum-values-on-a-graph
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu thamani kubwa zaidi na kiwango cha chini kwenye grafu.
+U ovom videu, ćete naučiti o najvećoj i najmanjoj vrednosti na grafiku.
 
 # --questions--
 
 ## --text--
 
-Jina lingine la thamani kubwa zaidi na kiwango cha chini kwenye grafu ni lipi?
+Koje je drugo ime za maksimalnu i minimalnu vrednost na grafu?
 
 ## --answers--
 
-Thamani kubwa zaidi na kiwango cha chini za kosaini.
+Najviše i najniže nivoe potpisivanja.
 
 ---
 
-Thamani kubwa zaidi na kiwango cha chini za vigezo.
+Najveći i najmanji nivoi parametara.
 
 ---
 
-Thamani kubwa zaidi na kiwango cha chini za saaini.
+Najveće i najmanje razmere potpisa.
 
 ---
 
-Thamani kubwa zaidi na kiwango cha chini za ulimwengu.
+Najveće i najniže globalne razine.
 
 ## --video-solution--
 

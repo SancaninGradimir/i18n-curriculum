@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd0f
-title: Jenga saa ya 25 + 5
+title: Izgradi sat od 25 + 5
 challengeType: 3
 forumTopicId: 301373
 dashedName: build-a-25--5-clock
@@ -8,73 +8,73 @@ dashedName: build-a-25--5-clock
 
 # --description--
 
-**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Napomena:** **React 18 ima poznate probleme sa specifikacijama ovog projekta (pogledajte [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
+**Cilj:** Napravi program koji radi ovako: <a href="https://25--5-clock.freecodecamp.rocks" target="_blank" rel="noopener noreferrer nofollow">https://25--5-clock.freecodecamp.rocks</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Dopunite korisničke priče ispod i pokrijte sve specifikacije. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kukamilisha mradi huu. Inashauriwa kutumia mfumo wa kazi wa mbele (kama React kwa mfano) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunatazamia kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. Furahia kuandika msimbo!
+Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, i jQuery da završite ovaj projekat. Preporučuje se korišćenje *front-end* okvira (kao što je React na primer) jer se ovaj deo bavi učenjem *front-end* okvira. Ostale tehnologije koje nisu pomenute gore nisu preporučene, i njihova upotreba je na vaš rizik. Planiramo da podržimo druge *front-end* okvire kao što su Angular i Vue, ali trenutno nisu podržani. Prihvatitićemo i pokušati da popravimo sve izveštaje o greškama koji koriste tehnologiju preporučenu za ovaj projekat. Uživajte u kodiranju!
 
-**Hadithi ya mtumiaji #1:** Naona kipengele chenye `id="break-label"` kinachojumuisha mfuatano wa herufi (mfano "Break Length").
+**Priča korisnika #1:** Vidim polje sa `id="break-label"` koje uključuje niz slova (primer "Break Length").
 
-**Hadithi ya mtumiaji #2:** Naona kipengele chenye `id="session-label"` kinachojumuisha mfuatano wa herufi (mfano "Session Length").
+**Priča korisnika #2:** Primećujem polje koje sadrži `id="session-label"` i koje uključuje niz slova (primer "Session Length").
 
-**Hadithi ya mtumiaji #3:** Naona vipengele viwili vinavyoweza kubofywa vyenye vitambulisho vinavyolingana: `id="break-decrement"` na `id="session-decrement"`.
+**Priča korisnika #3:** Vidim dva klikabilna elementa sa identifajmerima koji odgovaraju: `id="break-decrement"` i `id="session-decrement"`.
 
-**Hadithi ya mtumiaji #4:** Naona vipengele viwili vinavyoweza kubofywa vyenye vitambulisho vinavyolingana: `id="break-increment"` na `id="session-increment"`.
+**Priča korisnika #4:** Vidim dva klikabilna elementa sa odgovarajućim identifikatorima: `id="break-increment"` i `id="session-increment"`.
 
-**Hadithi ya mtumiaji #5:** Naona kipengele chenye `id="break-length"`, ambacho kwa chaguo-msingi (wakati wa kupakia) kinaonyesha thamani ya 5.
+**Priča korisnika #5:** Vidim polje sa `id="break-length"`, koje podrazumevano (prilikom učitavanja) prikazuje vrednost 5.
 
-**Hadithi ya mtumiaji #6:** Naona kipengele chenye `id="session-length"`, ambacho kwa chaguo-msingi kinaonyesha thamani ya 25.
+**Priča korisnika #6:** Primećujem element sa `id="session-length"`, koji podrazumevano prikazuje vrednost 25.
 
-**Hadithi ya mtumiaji #7:** Naona kipengele chenye `id="timer-label"`, kinachojumuisha mfuatano wa herufi unaoonyesha kikao kimeanzishwa (mfano "Session").
+**Priča korisnika #7:** Vidim element koji sadrži `id="timer-label"`, koji uključuje niz karaktera koji pokazuje da je sesija pokrenuta (npr. "Session").
 
-**Hadithi ya mtumiaji #8:** Naona kipengele chenye `id="time-left"`. KUMBUKA: Ikiwa kimezimwa au kinaendelea, thamani katika uwanja huu inapaswa kuonyeshwa kila wakati kwa muundo wa `mm:ss` (yaani 25:00).
+**Priča korisnika #8:** Vidim polje sa `id="time-left"`. NAPOMENA: Ako je onemogućeno ili aktivno, vrednost u ovom polju mora se uvek prikazivati u formatu od `mm:ss` (tj. 25:00).
 
-**Hadithi ya mtumiaji #9:** Naona kipengele kinachoweza kubofywa chenye `id="start_stop"`.
+**Priča korisnika #9:** Viđem klikabilan element sa `id="start_stop"`.
 
-**Hadithi ya mtumiaji #10:** Naona kipengele kinachoweza kubofywa chenye `id="reset"`.
+**Priča korisnika #10:** Vidim klikabilan element sa `id="reset"`.
 
-**Hadithi ya mtumiaji #11:** Ninapobofya kipengele chenye kitambulisho `reset`, kipima muda chochote kinachokimbia kinapaswa kusimama, thamani ndani ya `id="break-length"` inapaswa kurudi `5`, thamani ndani ya `id="session-length"` inapaswa kurudi 25, na kipengele chenye `id="time-left"` kinapaswa kurejeshwa katika hali yake ya chaguo-msingi.
+**Priča korisnika #11:** Kada kliknem na element sa ID-om `reset`, bilo koji pokrenuti tajmer bi trebalo da se zaustavi, vrednost unutar `id="break-length"` bi trebalo da se vrati na `5`, vrednost unutar `id="session-length"` bi trebalo da se vrati na 25, a element sa `id="time-left"` treba da se resetuje u njegovo podrazumevano stanje.
 
-**Hadithi ya mtumiaji #12:** Ninapobofya kipengele chenye kitambulisho `break-decrement`, thamani ndani ya `id="break-length"` inapungua kwa thamani ya 1, na naona thamani iliyosasishwa.
+**Priča korisnika #12:** Kada kliknem na element sa identifikatorom `break-decrement`, vrednost unutar `id="break-length"` se smanjuje za vrednost od 1, i vidim ažuriranu vrednost.
 
-**Hadithi ya mtumiaji #13:** Ninapobofya kipengele chenye kitambulisho `break-increment`, thamani ndani ya `id="break-length"` inaongezeka kwa thamani ya 1, na naona thamani iliyosasishwa.
+**Priča korisnika #13:** Kada kliknem na element sa identifikatorom `break-increment`, vrednost unutar `id="break-length"` se povećava za 1 i vidim ažuriranu vrednost.
 
-**Hadithi ya mtumiaji #14:** Ninapobofya kipengele chenye kitambulisho `session-decrement`, thamani ndani ya `id="session-length"` inapungua kwa thamani ya 1, na naona thamani iliyosasishwa.
+**Priča korisnika #14:** Kada kliknem na element sa identifikatorom `session-decrement`, vrednost unutar `id="session-length"` se smanjuje za vrednost od 1, i vidim ažuriranu vrednost.
 
-**Hadithi ya mtumiaji #15:** Ninapobofya kipengele chenye kitambulisho `session-increment`, thamani ndani ya `id="session-length"` inaongezeka kwa thamani ya 1, na naona thamani iliyosasishwa.
+**Story korisnika #15:** Kada kliknem na element sa ID-om `session-increment`, vrednost unutar `id="session-length"` se povećava za vrednost od 1, i vidim ažuriranu vrednost.
 
-**Hadithi ya mtumiaji #16:** Sipaswi kuweka muda wa kikao au mapumziko kuwa &lt;= 0.
+**Scenarijo korisnika #16:** Ne bi trebalo postaviti trajanje sesije ili pauze na &lt;= 0.
 
-**Hadithi ya mtumiaji #17:** Sipaswi kuweka muda wa kikao au mapumziko kuwa > 60.
+**Priča korisnika #17:** Trajanje sesije ili pauze ne bi trebalo da bude veće od 60.
 
-**Hadithi ya mtumiaji #18:** Ninapobofya kipengele chenye `id="start_stop"` kwa mara ya kwanza, kipima muda kinapaswa kuanza kutoka thamani inayojitokeza sasa hivi katika `id="session-length"`, hata kama thamani imeongezwa au kupunguzwa kutoka thamani ya awali ya 25.
+**Priča korisnika #18:** Kada kliknem na element sa `id="start_stop"` prvi put, tajmer bi trebalo da počne od vrednosti koja je trenutno prikazana u `id="session-length"`, čak i ako je vrednost povećana ili smanjena u odnosu na početnu vrednost od 25.
 
-**Hadithi ya mtumiaji #19:** Ikiwa kipima muda kinaendelea, kipengele chenye kitambulisho `time-left` kinapaswa kuonyesha muda uliobaki kwa muundo wa `mm:ss` (ukipungua kwa thamani ya 1 na kusasisha onyesho kila 1000ms).
+**Priča korisnika #19:** Ako tajmer teče, element sa ID-om `time-left` bi trebalo da prikazuje preostalo vreme u formatu `mm:ss` ((smanjujući se za vrednost od 1 i ažurirajući prikaz svakih 1000ms)).
 
-**Hadithi ya mtumiaji #20:** Ikiwa kipima muda kinaendelea na ninabofya kipengele chenye `id="start_stop"`, kuhesabu chini kunapaswa kusitishwa.
+**Priča korisnika #20:** Ako tajmer nastavlja i kliknem na element sa `id="start_stop"`, brojanje unazad bi trebalo da se zaustavi.
 
-**Hadithi ya mtumiaji #21:** Ikiwa kipima muda kimesitishwa na ninabofya kipengele chenye `id="start_stop"`, kuhesabu chini kunapaswa kuendelea kutoka sehemu ilipositishwa.
+**Priča korisnika #21:** Ako je tajmer pauziran i kliknem na element sa `id="start_stop"`, prebrojavanje bi trebalo da nastavi od mesta gde je pauzirano.
 
-**Hadithi ya mtumiaji #22:** Wakati kuhesabu chini kwa kikao kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), na kuhesabu chini mpya kuanza, kipengele chenye kitambulisho `timer-label` kinapaswa kuonyesha mfuatano wa herufi unaoonyesha mapumziko yameanza.
+**Priča korisnika #22:** Kada preostalo vreme za sesiju dođe do nule (NAPOMENA: tajmer MORA da dostigne 00:00), i kada počne novi prebrojavanje, element sa identifikatorom `timer-label` treba da prikaže niz karaktera koji ukazuje da je pauza počela.
 
-**Hadithi ya mtumiaji #23:** Wakati kuhesabu chini kwa kikao kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), kuhesabu chini mpya ya mapumziko inapaswa kuanza, ikihesabu chini kutoka thamani inayojitokeza sasa hivi katika kipengele cha `id="break-length"`.
+**Priča korisnika #23:** Kada brojač za sesiju dostigne nulu (NAPOMENA: tajmer MORA da dostigne 00:00), treba početi novi brojač pauze, počevši od trenutne vrednosti u elementu `id="break-length"`.
 
-**Hadithi ya mtumiaji #24:** Wakati kuhesabu chini kwa mapumziko kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), na kuhesabu chini mpya kuanza, kipengele chenye kitambulisho `timer-label` kinapaswa kuonyesha mfuatano wa herufi unaoonyesha kikao kimeanza.
+**Priča korisnika #24:** Kada dobrojava za pauzu stigne do nule (NAPOMENA: tajmer MORA da stigne do 00:00), i kada počinje nova dobrojava, element sa identifikatorom `timer-label` treba da prikaže niz slova koji ukazuje na početak sesije.
 
-**Hadithi ya mtumiaji #25:** Wakati kuhesabu chini kwa mapumziko kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), kuhesabu chini mpya ya kikao inapaswa kuanza, ikihesabu chini kutoka thamani inayojitokeza sasa hivi katika kipengele cha `id="session-length"`.
+**Priča korisnika #25:** Kada prebrojavanje za pauzu stigne do nule (PODSETNIK: tajmer MORA dostignuti 00:00), novo prebrojavanje sesije bi trebalo da počne, brojeći nizasto od trenutno prikazane vrednosti u polju `id="session-length"`.
 
-**Hadithi ya mtumiaji #26:** Wakati kuhesabu chini kufikia sifuri (KUMBUKA: kipima muda LAZIMA lifikie 00:00), sauti inayoashiria muda umekwisha inapaswa kuchezwa. Hii inapaswa kutumia lebo ya HTML5 `audio` na kuwa na `id="beep"` inayolingana.
+**Priča korisnika #26:** Kada dođe do brojanja nuli (PODSETNIK: tajmer MORA dostati 00:00), mora se pustiti audio koji ukazuje da je vreme isteklo. Ovo bi trebalo koristiti HTML5 oznaku `audio` i imati odgovarajuću `id="beep"`.
 
-**Hadithi ya mtumiaji #27:** Kipengele cha sauti chenye `id="beep"` lazima kiwe na muda wa sekunde 1 au zaidi.
+**Priča korisnika #27:** Audio funkcija sa `id="beep"` mora imati trajanje od 1 sekunde ili više.
 
-**Hadithi ya mtumiaji #28:** Kipengele cha sauti chenye kitambulisho `beep` kinapaswa kusitisha kucheza na kurudi mwanzo wakati kipengele chenye kitambulisho `reset` kinapobofya.
+**Priča korisnika #28:** Audio element sa ID-om `beep` treba da zaustavi reprodukciju i vrati se na početak kada korisnik klikne na element sa ID-om `reset`.
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda peni yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Možete izgraditi svoj projekat koristeći <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">, uz korišćenje ovog CodePen šablona</a> i klikom na `Save` da kreirate sopstveni pen. Ako više volite koristiti druga okruženja, onda umetnite oznaku/tag `<script>` unutar tela vaše datoteke `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Po završetku, pošalji URL tvog funkcionalnog projekta sa prolaskom svih testova.
 
 # --solutions--
 

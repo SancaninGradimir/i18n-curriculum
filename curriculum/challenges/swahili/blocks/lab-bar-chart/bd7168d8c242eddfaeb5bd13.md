@@ -1,6 +1,6 @@
 ---
 id: bd7168d8c242eddfaeb5bd13
-title: Jenga chati ya mstari
+title: Kreiraj linijski grafikon
 challengeType: 25
 dashedName: build-a-bar-chart
 demoType: onClick
@@ -8,13 +8,13 @@ demoType: onClick
 
 # --description--
 
-Katika mradi huu utatumia data kutoka `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` kujenga chati ya mstari.
+U ovom projektu koristiće podatke iz `https://cdn.freecodecamp.org/curriculum/labs/data/bar-chart/GDP-data.json` za kreiranje linijskog grafikona.
 
-Vipimo vinahitaji mhimili kuundwa kwa kutumia sifa ya mhimili ya D3, ambayo huunda alama za kupigia moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika ili kupitisha vipimo vya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vipengele vilivyo kwenye chati.
+Grafici zahtevaju da se osa kreira korišćenjem D3 ose svojstva, što stvara markere direktno duž ose. Ovi markeri su potrebni za prikazivanje D3 grafika jer se njihov prostor koristi za određivanje poravnanja elemenata na grafikonu.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Popunite korisničke priče navedene ispod i prođite sve testove da biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
 1. Chati yako inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
 1. Chati yako inapaswa kuwa na kipengele cha `g` mhimili wa x chenye `id="x-axis"` inayolingana.
@@ -1401,43 +1401,43 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-Chati inapaswa kuwa na kipengele chenye `id` ya `title` ili kuhusisha kichwa.
+Chat mora imati polje sa `id` od `title` ili uključiti zaglavlje.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-Chati inapaswa kuwa na kipengele cha `g` mhimili wa x chenye id inayolingana ya `x-axis`.
+Chat mora da ima funkciju `g` X-ose, sa odgovarajućim ID-om od `x-axis`.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#x-axis'))
 ```
 
-Chati inapaswa kuwa na kipengele cha `g` mhimili wa y chenye id inayolingana ya `y-axis`.
+Čat treba da ima funkciju od `g` y-ose koja ima odgovarajući ID za `y-axis`.
 
 ```js
 assert.isNotEmpty(document.querySelector('g#y-axis'))
 ```
 
-Mhimili wa x unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+Osa X treba da ima mnogo etiketa markera, svaka od njih sa `class="tick"` koja odgovara.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-Mhimili wa y unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+Y osa treba da ima mnogo oznaka markera, svaka sa `class="tick"` koja odgovara.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Chati yako inapaswa kuwa na kipengele cha `rect` kwa kila nukta ya data chenye `class="bar"` kinachoonyesha data.
+Tvoj chat bi trebalo da ima funkciju `rect` za svaku tačku podataka koja ima `class="bar"` i prikazuje podatke.
 
 ```js
 assert.lengthOf(document.querySelectorAll('rect.bar'), GDPDataJson.data.length);
 ```
 
-Kila mstari unapaswa kuwa na sifa za `data-date` na `data-gdp` zenye thamani za tarehe na GDP.
+Svaki red treba da ima atribute `data-date` i `data-gdp` sa vrednostima datuma i BDP-a.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1449,7 +1449,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-Sifa za `data-date` za vipengele vya mstari zinapaswa kuendana na mpangilio wa data iliyotolewa.
+Atributi za `data-date` za stavke linije moraju odgovarati dostavljenoj strukturi podataka.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1464,7 +1464,7 @@ const currentBarDate = bar.getAttribute('data-date');
 
 ```
 
-Sifa za `data-gdp` za vipengele vya mstari zinapaswa kuendana na mpangilio wa data iliyotolewa.
+Svojstva za `data-gdp` za elemente linije moraju odgovarati dostavljenom formatu podataka.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1478,7 +1478,7 @@ bars.forEach(function (bar, i) {
 });
 ```
 
-Kila urefu wa kipengele cha mstari unapaswa kuwakilisha kwa usahihi GDP inayolingana ya data.
+Svaka dužina linijskog elementa treba da tačno predstavlja odgovarajuće podatke o BDP-u.
 
 ```js
 const bars = document.querySelectorAll('rect.bar');
@@ -1501,7 +1501,7 @@ bars.forEach(function (bar) {
 });
 ```
 
-Sifa ya `data-date` na kipengele chake cha mstari vinapaswa kuendana na thamani inayolingana kwenye mhimili wa x. Unaweza kutumia `d3.scaleTime()` kuunda kipimo cha wakati kwa mhimili wa x.
+Svojstvo ``data-date`` i njegov linijski element moraju da odgovaraju odgovarajućoj vrednosti na x-osi. Možete koristiti ``d3.scaleTime()`` za kreiranje vremenske mere za x-osu.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -1531,7 +1531,7 @@ assert.isTrue(
 );
 ```
 
-Sifa ya `data-gdp` na kipengele chake cha mstari vinapaswa kuendana na thamani inayolingana kwenye mhimili wa y. Unaweza kutumia `d3.scaleLinear()` kuunda kipimo cha mstari kwa mhimili wa y.
+Svojstvo `data-gdp` i njegov linijski element moraju odgovarati odgovarajućoj vrednosti na y-osi. Možete koristiti `d3.scaleLinear()` za kreiranje linijskog prikaza za y-osu.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -1558,7 +1558,7 @@ assert.isTrue(
 );
 ```
 
-Unapobofya juu ya eneo, chati yako ya mstari inapaswa kuwa na kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+Kada kliknete na oblast, vaš linijski grafikon bi trebalo da ima napomenku (tooltip) sa `id="tooltip"` koja prikazuje više informacija o toj oblasti.
 
 ```js
 const areas = document.querySelectorAll('.bar');
@@ -1604,7 +1604,7 @@ assert.isTrue(
 );
 ```
 
-Kidokezo cha muda kinapaswa kuwa na sifa ya `data-date` inayolingana na `data-date` ya eneo linalofanya kazi.
+Privremeni indikator mora imati svojstvo od `data-date` koje odgovara `data-date` aktivnog područja.
 
 ```js
 const areas = document.querySelectorAll('.bar');

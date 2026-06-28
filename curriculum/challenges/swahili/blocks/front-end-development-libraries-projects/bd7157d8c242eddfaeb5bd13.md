@@ -1,37 +1,37 @@
 ---
 id: bd7157d8c242eddfaeb5bd13
-title: Jenga mtazamaji wa Markdown
+title: Izgraditi Markdown pregledač
 challengeType: 3
 forumTopicId: 301372
 dashedName: build-a-markdown-previewer
 ---
 
 # --description--
-**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Napomena:** **React 18 ima poznate probleme sa specifikacijama ovog projekta (pogledajte [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
+**Cilj:** Izgradite program koji radi ovako: <a href="https://markdown-previewer.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://markdown-previewer.freecodecamp.rocks/</a>.
 
-Timiza hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Implementirajte korisničke priče ispod i obradite sve specifikacije. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kumaliza mradi huu. Unapaswa kutumia mfumo wa kazi wa mbele (mfano React) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunatazamia kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. K coding yenye furaha!
+Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, i jQuery da završite ovaj projekat. Trebalo bi da koristite front-end framework (kao što je React) jer se ovaj deo bavi učenjem front-end frameworkova. Ostale tehnologije koje nisu spomenute gore nisu preporučene i korišćenje ih je na vaš rizik. Planiramo da podržimo druge front-end frameworkove kao što su Angular i Vue, ali trenutno nisu podržani. Prihvatićemo i pokušaćemo da popravimo sve izveštaje o greškama koji koriste tehnologiju preporučenu za ovaj projekat. Sređan kodiranje!
 
-**Hadithi ya mtumiaji #1:** Naona kipengele cha `textarea` chenye `id="editor"` kinacholingana nacho.
+**Priča korisnika #1:** Vidim element za `textarea` sa `id="editor"` koji odgovara tome.
 
-**Hadithi ya mtumiaji #2:** Naona kipengele chenye `id="preview"` kinacholingana nacho.
+**Priča korisnika #2:** Vidim element koji ima `id="preview"` i koji odgovara mu.
 
-**Hadithi ya mtumiaji #3:** Ninapoingiza maandishi kwenye kipengele cha `#editor`, kipengele cha `#preview` kinasasishwa ninapoandika kuonyesha yaliyomo kwenye eneo la maandishi.
+**Priča korisnika #3:** Kada unesem tekst u polje `#editor`, polje `#preview` se ažurira kada kucam kako bi prikazalo sadržaj u tekstualnom području.
 
 **Hadithi ya mtumiaji #4:** Ninapoingiza markdown yenye ladha ya GitHub kwenye kipengele cha `#editor`, maandishi yanaonyeshwa kama HTML kwenye kipengele cha `#preview` ninapoandika (KUNGA: Huna haja ya kuchambua Markdown mwenyewe - unaweza import maktaba ya Marked kwa hili: <https://cdnjs.com/libraries/marked>).
 
-**Hadithi ya mtumiaji #5:** Mtazamaji wangu wa markdown anapozinduliwa kwa mara ya kwanza, maandishi ya chaguo-msingi kwenye uwanja wa `#editor` yanapaswa kuwa na markdown halali inayowakilisha angalau moja ya kila kipengele kinachofuata: kipengele cha kichwa cha sehemu (ukubwa wa H1), kichwa kidogo cha sehemu (ukubwa wa H2), kiungo, msimbo ndani ya mstari, kipande cha msimbo, kipengele cha orodha, nukuu ya sehemu, picha, na maandishi yenye herufi nzito.
+**Priča korisnika #5:** Kada se moj pregledač Markdown-a pokrene prvi put, podrazumevani tekst u polju `#editor` bi trebalo da sadrži validan Markdown koji predstavlja najmanje jedan od sledećih elemenata: element naslova sekcije (veličina H1), podnaslov sekcije (veličina H2), link, inline kod, kodni isječak, element liste, citat sekcije, sliku i tekst sa podebljanjem.
 
-**Hadithi ya mtumiaji #6:** Mtazamaji wangu wa markdown anapozinduliwa kwa mara ya kwanza, markdown ya chaguo-msingi kwenye uwanja wa `#editor` inapaswa kuonyeshwa kama HTML kwenye kipengele cha `#preview`.
+**Priča korisnika #6:** Kada se moj uvidnik za Markdown prvi put pokrene, podrazumevani Markdown u polju `#editor` treba da se prikaže kao HTML u elementu `#preview`.
 
-**Ziada ya hiari (huna haja ya kufanikisha kipimo hiki):** Mtazamaji wangu wa markdown huelewa kurudi kwa mstari na kuonyesha kama vipengele vya `br` (kupitia mstari).
+**Opcionalni dodatak (Nije potrebno završavati ovaj test):** Moj Markdown pregledač razume prelom linija i prikazuje elemente kao što su `br` (kroz red).
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Možete izgraditi svoj projekat za <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow"> koristeći ovaj CodePen šablon</a> i klikom na `Save` da kreirate sopstveni "pen". Ako više preferirate korišćenje drugog okruženja, onda postavite tag `<script>` unutar tela vaše datoteke `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Ukiisha kumaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyake vyote vikipita.
+Kada završiš, dostavi URL tvog funkcionalnog projekta i sa svim njegovim testovima koji prolaze.
 
 # --solutions--
 

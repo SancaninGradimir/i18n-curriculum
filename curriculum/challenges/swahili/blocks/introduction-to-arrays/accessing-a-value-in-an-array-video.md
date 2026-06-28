@@ -1,6 +1,6 @@
 ---
 id: 698dd3ea7932b3cc4b19c92e
-title: Kupata Thamani Katika Safu ya Data
+title: Dobijanje Vrednosti iz Reda Podataka
 challengeType: 11
 videoId: yN6_wlaNvHo
 dashedName: accessing-a-value-in-an-array
@@ -8,13 +8,13 @@ dashedName: accessing-a-value-in-an-array
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupata vipengele kutoka kwenye safu ya data.
+U ovom videu ćete naučiti kako da dobijete elemente iz niza podataka.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kupata kipengele cha kwanza kutoka kwenye orodha ya Python?
+Koji od sljedećih je ispravan način za dohvaćanje prvog elementa iz popisa Python?
 
 ## --answers--
 

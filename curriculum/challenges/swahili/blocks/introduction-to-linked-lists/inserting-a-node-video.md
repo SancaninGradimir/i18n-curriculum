@@ -1,6 +1,6 @@
 ---
 id: 698dd8b47932b3cc4b19c933
-title: Kuingiza nodi
+title: Dodavanje čvora
 challengeType: 11
 videoId: HKCIczy-v90
 dashedName: inserting-a-node
@@ -8,29 +8,29 @@ dashedName: inserting-a-node
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuingiza nodi katika orodha iliyounganishwa.
+U ovom videu, naučićete kako da umetnete čvor u spaja listu.
 
 # --questions--
 
 ## --text--
 
-Ni muda gani wa utekelezaji kwa kuingiza nodi katika nafasi inayojulikana katika orodha iliyounganishwa?
+Koje je vreme izvršenja za umetanje čvora na poznatu poziciju u povezani spisak?
 
 ## --answers--
 
-muda wa kudumu
+trajno vreme
 
 ---
 
-muda wa mstari
+Vreme linije
 
 ---
 
-muda wa mraba
+Vreme kvadrata
 
 ---
 
-muda wa kuongezeka kwa kasi 
+period brstog povećanja
 
 ## --video-solution--
 

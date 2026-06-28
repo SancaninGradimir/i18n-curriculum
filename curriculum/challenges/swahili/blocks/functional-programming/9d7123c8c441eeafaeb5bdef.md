@@ -1,6 +1,6 @@
 ---
 id: 9d7123c8c441eeafaeb5bdef
-title: Futa vipengele kutoka kwenye safu ya data kwa kutumia slice badala ya splice
+title: Ukloni elemente iz niza podataka koristeći `slice` umesto `splice`
 challengeType: 1
 forumTopicId: 301236
 dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
@@ -8,38 +8,38 @@ dashedName: remove-elements-from-an-array-using-slice-instead-of-splice
 
 # --description--
 
-Mfumo wa kawaida unapotumia safu za data ni pale unapotaka kufuta vitu na kuhifadhi vilivyobaki kwenye safu. JavaScript hutoa njia ya `splice` kwa hili, ambayo hupokea hoja za kielezo cha mahali pa kuanza kufuta vitu, kisha idadi ya vitu vya kufuta. Ikiwa hoja ya pili haijatolewa, chaguo-msingi ni kufuta vitu hadi mwisho. Hata hivyo, njia ya `splice` hubadilisha safu ya data ya awali ambayo inaitwa. Hapa kuna mfano:
+Kada sistem koristi nizove podataka, to je kada želite da obrišete elemente i sačuvate ono što ostaje u nizu. JavaScript pruža metod `splice` za to, koji prima argumente kao početnu poziciju brisanja elemenata, a zatim broj elemenata za brisanje. Ako drugi argument nije navedeno, podrazumevano je brisanje elemenata do kraja. Međutim, metoda `splice` menja originalni niz podataka koji se poziva. Evo primera:
 
 ```js
 const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
 cities.splice(3, 1);
 ```
 
-Hapa `splice` inarudisha mfuatano wa herufi `London` na kuifuta kutoka kwenye safu ya miji. `cities` itakuwa na thamani `["Chicago", "Delhi", "Islamabad", "Berlin"]`.
+Ovde `splice` vraća sekvencu slova `London` i briše je iz liste gradova. `cities` će imati vrednost `["Chicago", "Delhi", "Islamabad", "Berlin"]`.
 
-Kama tulivyoona katika changamoto iliyopita, njia ya `slice` haibadilishi safu ya awali, bali inarudisha safu mpya ambayo inaweza kuhifadhiwa katika kigezo. Kumbuka kuwa njia ya `slice` hupokea hoja mbili za viashiria vya kuanza na kumaliza sehemu ya kuchukua (kumaliza hakijumuishi), na inarudisha vitu hivyo katika safu mpya. Kutumia njia ya `slice` badala ya `splice` husaidia kuepuka athari zozote za kubadilisha safu ya awali.
+Kao što smo videli u prethodnom izazovu, metoda ``slice`` ne modifikuje originalni niz, već vraća novi niz koji se može sačuvati u varijablu. Zapamtite da metoda ``slice`` prima dva argumenta za početne i krajnje indekse izvlačenog dela (kraj je ekskluzivan), i vraća te elemente u novi niz. Korišćenje metode ``slice`` umesto ``splice`` pomaže u izbegavanju bilo kakvih sporednih efekata modifikovanja originalnog niza.
 
 # --instructions--
 
-Andika upya kitendakazi `nonMutatingSplice` kwa kutumia `slice` badala ya `splice`. Inapaswa kupunguza safu ya data `cities` iliyotolewa kuwa na urefu wa 3, na kurudisha safu mpya yenye vitu vitatu vya kwanza tu.
+Ponovo napišite funkciju `nonMutatingSplice` koristeći `slice` umesto `splice`. Trebalo bi da se ograniči red podataka `cities` koji je vraćen na dužinu od 3, i da se vrati samo novi red sa prvih tri elementa.
 
-Usibadilishe safu ya awali iliyotolewa kwa kitendakazi.
+Nemojte menjati početni red/niz koji je prosleđen funkciji.
 
 # --hints--
 
-Msimbo wako unapaswa kutumia njia ya `slice`.
+Tvoj kod bi trebalo da koristi metod `slice`.
 
 ```js
 assert(__helpers.removeJSComments(code).match(/\.slice/g));
 ```
 
-Msimbo wako haupaswi kutumia njia ya `splice`.
+Vaš kod ne bi trebalo da koristi metodu `splice`.
 
 ```js
 assert(!__helpers.removeJSComments(code).match(/\.?[\s\S]*?splice/g));
 ```
 
-Haupaswi kubadilisha safu ya awali iliyotumwa kwa kitendakazi.
+Ne smete da menjate početni red koji je poslat funkciji.
 
 ```js
 assert(
@@ -54,7 +54,7 @@ assert(
 );
 ```
 
-`nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"])` inapaswa kurudisha `["Chicago", "Delhi", "Islamabad"]`.
+`nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"])` treba da vrati `["Chicago", "Delhi", "Islamabad"]`.
 
 ```js
 assert.deepEqual(

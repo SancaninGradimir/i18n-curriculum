@@ -1,60 +1,60 @@
 ---
 id: bd7158d8c442eddfaeb5bd17
-title: Jenga kalkuleta ya JavaScript
+title: Izgradnja kalkulatora za JavaScript
 challengeType: 3
 forumTopicId: 301371
 dashedName: build-a-javascript-calculator
 ---
 
 # --description--
-**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Napomena:** **React 18 ima poznate probleme sa specifikacijama ovog projekta (videti [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
+**Cilj:** Izradi program koji radi ovako: <a href="https://javascript-calculator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://javascript-calculator.freecodecamp.rocks/</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Dopunite korisničke priče ispod i pokrijte sve specifikacije. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kukamilisha mradi huu. Inashauriwa kutumia mfumo wa kazi wa mbele (kama React kwa mfano) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunatazamia kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. Furahia kuandika msimbo!
+Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, i jQuery da završite ovaj projekat. Preporučuje se korišćenje *front-end* okvira (kao što je React na primer) jer se ovaj deo bavi učenjem *front-end* okvira. Ostale tehnologije koje nisu pomenute gore nisu preporučene, i njihova upotreba je na vaš rizik. Planiramo da podržimo druge *front-end* okvire kao što su Angular i Vue, ali trenutno nisu podržani. Prihvatitićemo i pokušati da popravimo sve izveštaje o greškama koji koriste tehnologiju preporučenu za ovaj projekat. Uživajte u kodiranju!
 
-**Hadithi ya mtumiaji #1:** Kalkuleta yangu inapaswa kuwa na kipengele kinachoweza kubofywa chenye `=` (ishara ya usawa) na `id="equals"` inayolingana.
+**Priča korisnika #1:** Moj kalkulator bi trebalo da ima klikabilni element sa `=` (znak jednakosti) i `id="equals"` koji odgovara.
 
-**Hadithi ya mtumiaji #2:** Kalkuleta yangu inapaswa kuwa na vipengele 10 vinavyoweza kubofywa kila kikiwa na nambari moja kutoka 0-9, na vitambulisho vifuatavyo vinavyolingana: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, na `id="nine"`.
+**Priča korisnika #2:** Moj kalkulator treba da ima 10 klikabilnih elemenata, svaki sa brojem od 0 do 9, i sledeće odgovarajuće identifikatore: `id="zero"`, `id="one"`, `id="two"`, `id="three"`, `id="four"`, `id="five"`, `id="six"`, `id="seven"`, `id="eight"`, i `id="nine"`.
 
-**Hadithi ya mtumiaji #3:** Kalkuleta yangu inapaswa kuwa na vipengele 4 vinavyoweza kubofywa kila kikiwa na mojawapo ya waendeshaji wakuu wa kihesabu wanne na vitambulisho vifuatavyo vinavyolingana: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
+**Priča korisnika #3:** Moj kalkulator mora imati 4 klikabilna elementa, svaki sa jednim od četiri glavne matematičke operatore i sledećim odgovarajućim identifikatorima: `id="add"`, `id="subtract"`, `id="multiply"`, `id="divide"`.
 
-**Hadithi ya mtumiaji #4:** Kalkuleta yangu inapaswa kuwa na kipengele kinachoweza kubofywa chenye alama ya `.` (alama ya desimali) na `id="decimal"` inayolingana.
+**Priča korisnika #4:** Moj kalkulator bi trebalo da ima klikabilan element sa znakom `.` (decimalna tačka) i `id="decimal"` koji odgovara.
 
-**Hadithi ya mtumiaji #5:** Kalkuleta yangu inapaswa kuwa na kipengele kinachoweza kubofywa chenye `id="clear"`.
+**Priča korisnika #5:** Moj kalkulator treba da ima klikabilan element sa `id="clear"`.
 
-**Hadithi ya mtumiaji #6:** Kalkuleta yangu inapaswa kuwa na kipengele cha kuonyesha thamani chenye `id="display"` inayolingana.
+**Priča korisnika #6:** Moj kalkulator bi trebalo da ima funkciju koja prikazuje vrednost sa `id="display"` koja odgovara.
 
-**Hadithi ya mtumiaji #7:** Wakati wowote, kubonyeza kitufe cha `clear` kunafuta thamani za ingizo na matokeo, na kurudisha kalkuleta katika hali yake ya awali; 0 inapaswa kuonyeshwa katika kipengele chenye kitambulisho cha `display`.
+**User Story #7:** U bilo kojem trenutku, pritiskanje dugmeta `clear` briše vrednosti unosa i rezultata, te vraća kalkulator u početno stanje; 0 treba da se prikaže u polju sa identifikatorom `display`.
 
-**Hadithi ya mtumiaji #8:** Ninapoingiza nambari, ninapaswa kuona ingizo langu katika kipengele chenye kitambulisho cha `display`.
+**Priča korisnika #8:** Kada unesem broj, trebalo bi da vidim svoj unos u polju sa identifikatorom `display`.
 
-**Hadithi ya mtumiaji #9:** Kwa mpangilio wowote, ninapaswa kuweza kuongeza, kutoa, kuzidisha na kugawanya mnyororo wa nambari za urefu wowote, na ninapobofya `=`, matokeo sahihi yanapaswa kuonyeshwa katika kipengele chenye kitambulisho cha `display`.
+**Priča korisnika #9:** U bilo kom redosledu, trebalo bi mi da mogu da dodajem, oduzimam, množim i delim lanac brojeva bilo koje dužine, i kada kliknem `=`, ispravan rezultat treba da se prikaže u elementu sa ID-om `display`.
 
-**Hadithi ya mtumiaji #10:** Wakati wa kuingiza nambari, kalkuleta yangu haipaswi kuruhusu nambari kuanza na sifuri nyingi.
+**Priča korisnika #10:** Prilikom unosa broja, moj kalkulator ne bi trebalo da dozvoljava broj koji počinje sa više nula.
 
-**Hadithi ya mtumiaji #11:** Wakati kipengele cha desimali kinapobofyiwa, `.` inapaswa kuongezwa kwenye thamani inayojitokeza; `.` mbili katika nambari moja hazipitwi.
+**Priča korisnika #11:** Kada se klikne na decimalnu tačku, `.` treba dodati na rezultat vrednosti; `.` dve u jednoj brojkama ne preskaču se.
 
-**Hadithi ya mtumiaji #12:** Ninapaswa kuweza kufanya operesheni yoyote (`+`, `-`, `*`, `/`) kwa nambari zenye alama za desimali.
+**Priča korisnika #12:** Trebalo bi da mogu da izvrše bilo koju operaciju (`+`, `-`, `*`, `/`) sa brojevima koji imaju decimalne tačke.
 
-**Hadithi ya mtumiaji #13:** Ikiwa waendeshaji wawili au zaidi wanaingizwa mfululizo, operesheni inayofanywa inapaswa kuwa waendeshaji wa mwisho waliowekwa (isipokuwa alama ya hasi `-`). Kwa mfano, ikiwa `5 + * 7 =` inaingizwa, matokeo yanapaswa kuwa `35` (yaani `5 * 7`); ikiwa `5 * - 5 =` inaingizwa, matokeo yanapaswa kuwa `-25` (yaani `5 * (-5)`).
+**Priča korisnika #13:** Ako se unesu dva ili više operatera uzastopno, izvršena operacija bi trebalo da bude poslednji definisani operater (osim negativnog znaka `-`). Na primer, ako se unese `5 + * 7 =`, rezultat bi trebalo da bude `35` (tj. `5 * 7`); ako se unese `5 * - 5 =`, rezultat bi trebalo da bude `-25` (tj. `5 * (-5)`).
 
-**Hadithi ya mtumiaji #14:** Kubonyeza mwendeshaji mara moja baada ya `=` kunapaswa kuanzisha hesabu mpya inayofanya kazi kwa matokeo ya tathmini iliyopita.
+**Priča korisnika #14:** Klikom na operater nakon `=` trebalo bi da se pokrene nova kalkulacija koja radi na osnovu rezultata prethodne evaluacije.
 
-**Hadithi ya mtumiaji #15:** Kalkuleta yangu inapaswa kuwa na usahihi wa sehemu kadhaa za desimali linapokuja suala la kuzungusha (kumbuka hakuna kiwango kamili, lakini unapaswa kuweza kushughulikia mahesabu kama `2 / 7` kwa usahihi wa angalau sehemu 4 za desimali).
+**Priča korisnika #15:** Moj kalkulator mora imati decimalnu preciznost kada je u pitanju zaokruživanje (Napomena da nema tačnog standarda, ali treba ga je sposoban da rukuje proračunima poput `2 / 7` sa preciznošću od najmanje 4 decimalna mesta).
 
-**Kumbuka kuhusu mantiki ya kalkuleta:** Inapaswa kutambuliwa kuwa kuna mitazamo miwili mikuu kuhusu mantiki ya ingizo la kalkuleta: <dfn>mantiki ya utekelezaji wa papo hapo</dfn> na <dfn>mantiki ya fomula</dfn>. Mfano wetu unatumia mantiki ya fomula na unazingatia kipaumbele cha mpangilio wa operesheni, utekelezaji wa papo hapo hauzingatii. Moja kati ya hizi ni sawa, lakini tafadhali fahamu kuwa kulingana na unachochagua, kalkuleta yako inaweza kutoa matokeo tofauti na yetu kwa baadhi ya hesabu (angalia mfano hapa chini). Mradi hesabu zako zinaweza kuthibitishwa na kalkuleta nyingine ya uzalishaji, tafadhali usichukulie hii kama hitilafu.
+**Napomena o logici kalkulatora:** Treba napomenuti da postoji dva glavna pristupa u vezi sa logikom unosa na kalkulatoru: <dfn>logika trenutnog izvršavanja</dfn> i <dfn>logika formule</dfn>. Naš primer koristi logiku formule i uzima u obzir prioritet redosleda operacija; trenutno izvršavanje to ne uzima u obzir. Oba su ova dva ispravna, ali molimo vas da znate da, zavisno od toga šta izaberete, vaš kalkulator može dati drugačije rezultate od naših za neke proračune (videti primer ispod). Vaši izračunati rezultati mogu biti potvrđeni drugim proizvodnim kalkulatorom; molimo vas da ovo ne smatrate greškom.
 
-**MFANO:** `3 + 5 x 6 - 2 / 4 =`
+**PRIMER:** `3 + 5 x 6 - 2 / 4 =`
 
--   **Mantiki ya utekelezaji wa papo hapo:** `11.5`
--   **Mantiki ya fomula/usemi wa kihesabu:** `32.5`
+- **Logika za izvršavanje u realnom vremenu:** `11.5`
+- **Logika formule/matematičkog izraza:** `32.5`
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Možete izgraditi svoj projekat sa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow"> koristeći ovaj CodePen šablon </a> i klikom na `Save` da kreirate svoj pen. Ako preferirate da koristite druga okruženje, onda postavite tag `<script>` unutar tela vaše datoteke `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Ukipata kazi, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Kada dobijete zadatak, predajte URL za vaš funkcionalan projekat sa svim uspešno prošlim testovima.
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e0347138be64fa313138d
-title: Kitendakazi za kifaa cha zana
+title: Komponente za alat
 challengeType: 11
 videoId: 3DbEglxB1HY
 dashedName: toolkit-functions
@@ -8,13 +8,13 @@ dashedName: toolkit-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi za kifaa cha zana.
+U ovom videu ćeš naučiti o funkcionalnostima alatnog uređaja.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI mfano wa kitendakazi cha kifaa cha zana?
+Koji od sledećih je primer funkcionalnog alatskog uređaja?
 
 ## --answers--
 

@@ -1,47 +1,47 @@
 ---
 id: bd7158d8c442eddfaeb5bd13
-title: Jenga mashine ya nukuu za nasibu
+title: Napravi mašinu za nasumične citate
 challengeType: 3
 forumTopicId: 301374
 dashedName: build-a-random-quote-machine
 ---
 
 # --description--
-**Kumbuka:** **React 18 ina matatizo yanayojulikana na vipimo vya mradi huu (angalia [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+**Napomena:** **React 18 ima poznate probleme sa specifikacijama ovog projekta (videti [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
+**Cilj:** Izgradi program koji radi kao ovo: <a href="https://random-quote-machine.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://random-quote-machine.freecodecamp.rocks/</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Dovršite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API što vam je potrebno. Dostavite svoj stil.
 
-Unaweza kutumia mchanganyiko wowote wa HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, na jQuery kukamilisha mradi huu. Inashauriwa kutumia mfumo wa kazi wa mbele (kama React kwa mfano) kwa sababu sehemu hii ni kuhusu kujifunza mifumo ya kazi ya mbele. Teknolojia nyingine zisizotajwa hapo juu hazipendekezwi na kuzitumia ni kwa hatari yako mwenyewe. Tunapanga kusaidia mifumo mingine ya kazi ya mbele kama Angular na Vue, lakini hazijaungwa mkono kwa sasa. Tutakubali na kujaribu kurekebisha ripoti zote za matatizo zinazotumia teknolojia iliyopendekezwa kwa mradi huu. K coding yenye furaha!
+Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, i jQuery za dovršavanje ovog projekta. Preporučuje se korišćenje *front-end* okvira (poput React, na primer) jer je ovaj deo o učenju *front-end* okvira. Druge tehnologije koje nisu spomenute iznad nisu preporučene i njihova upotreba je na vaš rizik. Planiramo da podržimo druge *front-end* okvire kao što su Angular i Vue, ali trenutno nisu podržani. Prihvatićemo i pokušati da popravimo sve izveštaje o greškama koji koriste tehnologiju preporučenu za ovaj projekat. Sretno kodiranje!
 
-**Hadithi ya mtumiaji #1:** Naona kipengele cha kufunika chenye `id="quote-box"` kinacholingana.
+**Priča korisnika #1:** Vidim pokrivajući element sa `id="quote-box"` koji odgovara.
 
-**Hadithi ya mtumiaji #2:** Ndani ya `#quote-box`, naona kipengele chenye `id="text"` kinacholingana.
+**Priča korisnika #2:** Unutar `#quote-box`, vidim element koji odgovara `id="text"`.
 
-**Hadithi ya mtumiaji #3:** Ndani ya `#quote-box`, naona kipengele chenye `id="author"` kinacholingana.
+**Priča korisnika #3:** Unutar `#quote-box`, vidim element sa `id="author"` koji odgovara.
 
-**Hadithi ya mtumiaji #4:** Ndani ya `#quote-box`, naona kipengele kinachoweza kubofywa chenye `id="new-quote"` kinacholingana.
+**Priča korisnika #4:** Unutar `#quote-box`, vidim klikabilan element sa `id="new-quote"` koji odgovara.
 
-**Hadithi ya mtumiaji #5:** Ndani ya `#quote-box`, naona kipengele kinachoweza kubofywa cha `a` chenye `id="tweet-quote"` kinacholingana.
+**Priča korisnika #5:** Unutar `#quote-box`, vidim klikabilni element od `a` koji odgovara za `id="tweet-quote"`.
 
-**Hadithi ya mtumiaji #6:** Mara ya kwanza kupakia, mashine yangu ya nukuu inaonyesha nukuu ya nasibu katika kipengele chenye `id="text"`.
+**Priča korisnika #6:** Prilikom prvog učitavanja, moja mašina za citate prikazuje nasumičan citat u polju sa `id="text"`.
 
-**Hadithi ya mtumiaji #7:** Mara ya kwanza kupakia, mashine yangu ya nukuu inaonyesha mwandishi wa nukuu ya nasibu katika kipengele chenye `id="author"`.
+**Priča korisnika #7:** Prilikom prvog učitavanja, moja mašina za citate prikazuje nasumičnog autora cita u elementu sa `id="author"`.
 
-**Hadithi ya mtumiaji #8:** Wakati kitufe cha `#new-quote` kinapobofyiwa, mashine yangu ya nukuu inapaswa kupata nukuu mpya na kuionyesha katika kipengele cha `#text`.
+**User Story #8:** Kada se dugme `#new-quote` klikne, moja mašina za citate treba da dobije novi citat i prikaže ga u sekciji `#text`.
 
-**Hadithi ya mtumiaji #9:** Mashine yangu ya nukuu inapaswa kupata mwandishi wa nukuu mpya wakati kitufe cha `#new-quote` kinapobofyiwa na kuionyesha katika kipengele cha `#author`.
+**Priča korisnika #9:** Moj uređaj za citate treba da dobije novog autora cita kada se dugme `#new-quote` klikne i prikaže ga u polju `#author`.
 
-**Hadithi ya mtumiaji #10:** Naweza kutuma nukuu ya sasa kwa Twitter kwa kubofya kipengele cha `#tweet-quote` `a`. Kipengele hiki cha `a` kinapaswa kujumuisha njia ya `"twitter.com/intent/tweet"` katika sifa ya `href` ili kutuma nukuu ya sasa.
+**Priča korisnika #10:** Mogu poslati trenutni citat na Twitter klikom na funkciju `#tweet-quote` `a`. Ova funkcija od `a` treba da uključuje metodu za `"twitter.com/intent/tweet"` u svojstvo `href` kako bi poslala trenutni citat.
 
-**Hadithi ya mtumiaji #11:** Kipengele cha kufunika cha `#quote-box` kinapaswa kuwekwa katikati kwa usawa. Tafadhali endesha vipimo ukiwa na kiwango cha kuongezea cha kivinjari cha 100% na ukurasa ukiwa umeongezwa kwa ukubwa kamili.
+**Priča korisnika #11:** Pokrivni element `#quote-box` treba da bude centralizovan i uravnotežen. Molimo vas pokrenite merenja sa nivoom zumiranja pregledača od 100% i stranicom proširenom na punu veličinu.
 
-Unaweza kujenga mradi wako kwa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> na kubofya `Save` kuunda pen yako mwenyewe. Ikiwa unapendelea kutumia mazingira mengine, basi weka lebo ya `<script>` ndani ya mwili wa faili yako ya `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+Možete izgraditi svoj projekat sa <a href='https://codepen.io/pen?template=MJjpwO' target='_blank' rel="noopener noreferrer nofollow"> koristeći ovaj CodePen šablon </a> i klikom na `Save` da kreirate svoj pen. Ako preferirate da koristite druga okruženje, onda postavite tag `<script>` unutar tela vaše datoteke `index.html`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
 
-Ukipomaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Kada završiš, dostavi URL svog radnog projekta koji prolazi sve testove.
 
-**Kumbuka:** Twitter hairuhusu viungo kupakiwa ndani ya iframe. Jaribu kutumia sifa ya `target="_blank"` au `target="_top"` kwenye kipengele cha `#tweet-quote` ikiwa tweet yako haitapakia. `target="_top"` itabadilisha kichupo cha sasa hivyo hakikisha kazi yako imehifadhiwa.
+**Napomena:** Twitter ne dozvoljava ugrađivanje linkova unutar `iframe`-a. Pokušajte da koristite atribut `target="_blank"` ili `target="_top"` u elementu `#tweet-quote` ako vaš tweet ne učitava. `target="_top"` će promeniti trenutnu karticu, pa obavezno sačuvajte svoj rad.
 
 # --solutions--
 

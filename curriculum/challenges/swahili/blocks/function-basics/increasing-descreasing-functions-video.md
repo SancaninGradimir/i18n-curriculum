@@ -1,6 +1,6 @@
 ---
 id: 699e0333138be64fa313138a
-title: Kitendakazi kinachoongezeka na kinapungua
+title: Funkcija koja raste i opada
 challengeType: 11
 videoId: GRYrrT_aQ1U
 dashedName: increasing-and-decreasing-functions
@@ -8,29 +8,29 @@ dashedName: increasing-and-decreasing-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu vitendakazi vinavyoongezeka na vinavyopungua kwenye mchoro wa grafu.
+U ovom videu će vam biti objašnjeno o funkcijama koje rastu i opadaju na grafiku.
 
 # --questions--
 
 ## --text--
 
-Kitendakazi kinachoongezeka ni nini?
+Šta je povećana funkcionalnost?
 
 ## --answers--
 
-Hiki ndicho ambapo thamani za x zinaongezeka na thamani za y zinaongezeka pia.
+Ovo je mesto gde vrednosti X rastu, a vrednosti Y takođe rastu.
 
 ---
 
-Hiki ndicho ambapo thamani za x zinaongezeka na thamani za y zinapungua.
+Ovo je mesto gde vrednosti x rastu, a vrednosti y opadaju.
 
 ---
 
-Hiki ndicho ambapo thamani za x zinapungua na thamani za y zinaongezeka.
+Ovo je mesto gde vrednosti x smanjuju, a vrednosti y povećavaju.
 
 ---
 
-Hiki ndicho ambapo thamani za x zinapungua na thamani za y zinapungua.
+Ovo je mesto gde opadaju vrednosti x i opadaju vrednosti y.
 
 ## --video-solution--
 

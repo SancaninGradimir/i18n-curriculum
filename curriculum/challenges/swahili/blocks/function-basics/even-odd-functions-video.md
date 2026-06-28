@@ -1,6 +1,6 @@
 ---
 id: 699e0342138be64fa313138c
-title: Kitendakazi cha nambari kamili chanya na hasi
+title: Funkcija za sve celobrojne brojeve (pozitivne i negativne)
 challengeType: 11
 videoId: OCGl-6nrCtM
 dashedName: even-and-odd-functions
@@ -8,29 +8,29 @@ dashedName: even-and-odd-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi cha nambari kamili chanya na hasi.
+U ovom videu ćete naučiti o funkciji celih brojeva, pozitivnih i negativnih.
 
 # --questions--
 
 ## --text--
 
-Nini hufanya mchoro kuwa na usawa kuhusiana na asili?
+Šta čini crtež da bude uravnotežen u odnosu na prirodu?
 
 ## --answers--
 
-Ikiwa kina usawa wa mzunguko wa digrii 30 kuhusu asili.
+Ako ima rotacionu ravnotežu od 30 stepeni oko porekla.
 
 ---
 
-Ikiwa kina usawa wa mzunguko wa digrii 180 kuhusu asili.
+Ako ima rotacionarnu simetriju od 180 stepeni oko porekla.
 
 ---
 
-Ikiwa kina usawa wa mzunguko wa digrii 90 kuhusu asili.
+Ako ima rotacionu ravnotežu od 90 stepeni u odnosu na poreklo.
 
 ---
 
-Ikiwa kina usawa wa mzunguko wa digrii 360 kuhusu asili.
+Ako ima rotacionu ravnotežu od 360 stepeni oko početka.
 
 ## --video-solution--
 

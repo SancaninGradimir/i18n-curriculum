@@ -1,6 +1,6 @@
 ---
 id: 699e0359138be64fa3131390
-title: Kitendakazi cha kinyume
+title: Inverzna funkcija
 challengeType: 11
 videoId: f9ph7m0zgD0
 dashedName: inverse-functions
@@ -8,29 +8,29 @@ dashedName: inverse-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu vitendakazi vya kinyume.
+U ovom videu, naučićete o obratnim funkcijama.
 
 # --questions--
 
 ## --text--
 
-Je, vitendakazi vyote vina vitendakazi vya kinyume?
+Da li sve funkcije imaju inverzne funkcije?
 
 ## --answers--
 
-Hapana
+Ne
 
 ---
 
-Ndiyo
+Da
 
 ---
 
-Ni kwa vitendakazi vyenye uwanja wa thamani wa kikomo tu.
+Samo za operacije koje imaju polje vrednosti sa ograničenjem.
 
 ---
 
-Ni kwa vitendakazi vinavyoongezeka au kupungua kila mahali tu.
+To je za radnike koji rastu ili opadaju svuda.
 
 ## --video-solution--
 

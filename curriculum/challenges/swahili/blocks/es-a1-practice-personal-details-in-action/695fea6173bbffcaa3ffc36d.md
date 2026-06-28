@@ -1,28 +1,27 @@
 ---
 id: 695fea6173bbffcaa3ffc36d
-title: Zoezi la 10
+title: Vežba 10
 challengeType: 19
 dashedName: task-10
 lang: es
 ---
-
-<!-- (Audio) Esteban: ¿Cómo te llamas? -->
+<!-- (Audio) Esteban: Kako se zoveš? -->
 
 # --description--
 
-Kuna njia mbili maarufu za kuuliza jina la mtu kwa Kihispania.
+Postoje dva poznata načina da se pita ime nekoga na španskom.
 
-Zote mbili hutumika katika Kihispania cha kila siku na zina maana sawa. Tofauti yao ni muundo tu.
+Oba se koriste u svakodnevnom španskom i imaju isto značenje. Njihova razlika je samo u strukturi.
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Ni swali gani kati ya haya lifuatayo **linalofanana** na unalolisikia kwenye sauti?
+Koji od sledećih pitanja **ličilo je** na ono što čujete u zvuku?
 
 ## --answers--
 
@@ -34,7 +33,7 @@ Ni swali gani kati ya haya lifuatayo **linalofanana** na unalolisikia kwenye sau
 
 ### --feedback--
 
-Swali hili linauliza mtu anaishi wapi.
+Ovo pitanje pita gde neko živi.
 
 ---
 
@@ -42,7 +41,7 @@ Swali hili linauliza mtu anaishi wapi.
 
 ### --feedback--
 
-Hili linauliza jina la ukoo la mtu.
+Ovo pita za ime plemena osobe.
 
 ---
 
@@ -50,7 +49,7 @@ Hili linauliza jina la ukoo la mtu.
 
 ### --feedback--
 
-Hili linauliza kama mtu ana jina la utani.
+Ovo pita da li osoba ima nadimak.
 
 ## --video-solution--
 
@@ -58,16 +57,16 @@ Hili linauliza kama mtu ana jina la utani.
 
 # --explanation--
 
-Esteban anasema `¿Cómo te llamas?`. Hii ni mojawapo ya njia maarufu zaidi za kuuliza jina la mtu kwa Kihispania. Swali jingine maarufu lenye maana sawa ni:
+Esteban kaže `¿Cómo te llamas?`. Ovo je jedan od najpoznatijih načina da se pita ime nekoga na španski. Drugo popularno pitanje sa istim značenjem je:
 
 `¿Cuál es tu nombre?`
 
-Maswali yote mawili hutumika katika Kihispania cha kila siku kuuliza jina la mtu. Tofauti yao ni muundo tu:
+Oba pitanja se koriste u svakodnevnom španskom da bi se pitalo ime osobe. Razlika im je samo u strukturi:
 
-- `¿Cómo te llamas?` hutumia kitenzi `llamarse` (kuitwa).
-- `¿Cuál es tu nombre?` linauliza moja kwa moja jina kama nomino.
+- `¿Cómo te llamas?` koristi glagol `llamarse` (nazvan).
+- `¿Cuál es tu nombre?` pita direktno za ime kao imenicu.
 
-Katika zoezi hili, jibu sahihi ni chaguo linalouliza jina la mtu.
+U ovom vežbanju, tačan odgovor je opcija koja traži ime osobe.
 
 # --scene--
 

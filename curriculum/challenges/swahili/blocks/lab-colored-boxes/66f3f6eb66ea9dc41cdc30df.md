@@ -1,6 +1,6 @@
 ---
 id: 66f3f6eb66ea9dc41cdc30df
-title: Tengeneza Seti ya Maboksi yenye Rangi
+title: Napravi set kutija sa bojama
 challengeType: 25
 dashedName: set-of-colored-boxes
 demoType: onClick
@@ -8,28 +8,28 @@ demoType: onClick
 
 # --description--
 
-Katika maabara hii, utazoea kutumia rangi za CSS kwa kutengeneza maboksi.
+U ovoj laboratoriji, naviknićete se na korišćenje boja CSS za pravljenje kutija.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara hii.
+**Cilj:** Popunite korisničke priče ispod i prođite sve testove kako biste završili ovaj laboratorijski rad.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kuweka rangi ya nyuma ya `body` kuwa `#f4f4f4`.
-2. Unapaswa kuwa na `div` yenye darasa la vitu la `color-grid` ili kushikilia vipengele vyote vya rangi.
-3. Unapaswa kuwa na vipengele vitano vya `div` ndani ya kipengele cha `.color-grid`.
-4. Vipengele vitano vya `div` vinapaswa kila kimoja kuwa na darasa la vitu la `color-box` na `color#`, ambapo `#` ni nambari ya mpangilio wa `div`. Kwa mfano: `color1` kwa `div` ya kwanza, `color2` kwa ya pili, na kadhalika.
-5. Darasa la vitu la `.color-box` linapaswa kuwa na `width` na `height` ili vipengele vyako vya `div` viwe vinaonekana kwenye ukurasa.
-6. Kipengele cha `.color1` kinapaswa kuwa na `background-color` inayotumia thamani ya rangi ya hexadecimal.
-7. Kipengele cha `.color2` kinapaswa kuwa na `background-color` inayotumia thamani ya rangi ya RGB.
-8. Kipengele cha `.color3` kinapaswa kuwa na `background-color` inayotumia thamani ya rangi iliyotangazwa awali (neno).
-9. Kipengele cha `.color4` kinapaswa kuwa na `background-color` inayotumia thamani ya rangi ya HSL.
-10. Kipengele cha `.color5` kinapaswa kuwa na `background-color` iliyowekwa.
+1. Trebalo bi postaviti pozadinsku boju `body` na `#f4f4f4`.
+2. Treba imati `div` sa klasom `color-grid` kako bi se zadržala sva svojstva boje.
+3. Trebalo bi imati pet elemenata `div` unutar elementa `.color-grid`.
+4. Pet elemenata `div` bi trebalo da svaki ima klasu `color-box` i `color#`, gde je `#` redni broj za `div`. Primer: `color1` za prvi `div`, `color2` za drugi, i tako dalje.
+5. Klasa `.color-box` bi trebalo da ima `width` i `height` kako bi joj elementi `div` bili vidljivi na stranici.
+6. Element `.color1` bi trebalo da ima `background-color` koji koristi heksadecimalnu vrednost boje.
+7. Element `.color2` bi trebalo da ima `background-color` koji koristi RGB vrednost boje.
+8. Element `.color3` bi trebalo da ima `background-color` koji koristi prethodno deklarisanu vrednost boje (reč).
+9. Element `.color4` bi trebalo da ima `background-color` koji koristi HSL vrednost boje.
+10. Element `.color5` bi trebalo da ima postavljeno `background-color`.
 
-**Kumbuka:** Hakikisha umeunganisha faili lako la mtindo (stylesheet) katika HTML yako na tumia CSS yako.
+**Napomena:** Uverite se da ste povezali vaš stilski fajl (stylesheet) u HTML i koristili svoj CSS.
 
 # --hints--
 
-`body` inapaswa kuwa na rangi ya nyuma ya `#f4f4f4`.
+`body` treba da ima pozadinsku boju od `#f4f4f4`.
 
 ```js
 const body = document.body;
@@ -37,21 +37,21 @@ const bodyBgColor = getComputedStyle(body).backgroundColor;
 assert.strictEqual(bodyBgColor, 'rgb(244, 244, 244)');
 ```
 
-Unapaswa kuwa na kipengele cha `div` chenye darasa la vitu la `color-grid`.
+Trebalo bi da imaš element sa klasom objekta `div` koji je tipa `color-grid`.
 
 ```js
 const colorGrid = document.querySelector('div.color-grid');
 assert.exists(colorGrid);
 ```
 
-Unapaswa kuwa na vipengele vitano vya `div` ndani ya kipengele cha `.color-grid`.
+Trebalo bi da ima pet elemenata `div` unutar elementa `.color-grid`.
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
 assert.strictEqual(colorGridChildren.length, 5);
 ```
 
-Kila kipengele kati ya vitano vya `div` kinapaswa kuwa na darasa la vitu la `color-box` na `color#`—badilisha nambari ya mpangilio wa `div` kwa alama ya `#`.
+Svaki element među pet od `div` treba da ima klasu objekata `color-box` i `color#`—promenite redni broj za `div` sa oznakom `#`.
 
 ```js
 const colorGridChildren = document.querySelectorAll('div.color-grid > div');
@@ -64,7 +64,7 @@ colorGridChildren.forEach((child, index) => {
 });
 ```
 
-Darasa la vitu la `.color-box` linapaswa kuwa na mali za `width` na `height` zilizowekwa.
+Klasa objekata za `.color-box` mora da ima svojstva od `width` i `height` koja su definisana.
 
 ```js
 const cssHelp = new __helpers.CSSHelp(document);
@@ -72,7 +72,7 @@ assert.isNotEmpty(cssHelp.getStyle('.color-box')?.getPropVal('width', true));
 assert.isNotEmpty(cssHelp.getStyle('.color-box')?.getPropVal('height', true));
 ```
 
-Vipengele vya `.color-box` vinapaswa kila wakati kuwa na `width` na `height` zisizo sifuri. Jaribu kubadilisha ukubwa wa onyesho kuwa mdogo, hakikisha maboksi hayaondoki.
+Elementi `.color-box` moraju uvek imati ne-nulto `width` i `height`. Pokušajte smanjiti veličinu prikaza, osiguravši da kutije ne nestanu.
 
 ```js
 const colorBoxes = document.querySelectorAll('.color-box');
@@ -86,7 +86,7 @@ colorBoxes.forEach(box => {
 });
 ```
 
-Kipengele cha `.color1` kinapaswa kuwa na rangi ya nyuma ya hexadecimal.
+Element za `.color1` mora imati pozadinsku boju u heksadecimalnom formatu.
 
 ```js
 const hexChars = "[0-9a-fA-F]"
@@ -94,13 +94,13 @@ const hexRegex = new RegExp(`\\.color1\\s*{[^}]*\\bbackground-color\\s*:\\s*#(($
 assert.match(__helpers.removeCssComments(code), hexRegex);
 ```
 
-Kipengele cha `.color2` kinapaswa kuwa na rangi ya nyuma ya RGB.
+Element za `.color2` treba da ima RGB pozadinsku boju.
 
 ```js
 assert.match(__helpers.removeCssComments(code), /\.color2\s*{[^}]*\bbackground-color\s*:\s*rgb\s*\(\s*\d+(?:\.\d+)?\s*(,|\s+)\s*\d+(?:\.\d+)?\s*\1\s*\d+(?:\.\d+)?\s*(\/\s*\d{1,2}(?:\.\d+)?%\s*)?\)\s*;?[^}]*}/);
 ```
 
-Kipengele cha `.color3` kinapaswa kuwa na rangi ya nyuma iliyotangazwa awali (neno).
+Element za `.color3` treba da ima prethodno navedenu pozadinsku boju (reč).
 
 ```js
 const colorSet = new Set(["black", "silver", "gray", "white", "maroon", "red", "purple", "fuchsia", "green", "lime", "olive", "yellow", "navy", "blue", "teal", "aqua", "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige", "bisque", "black", "blanchedalmond", "blue", "blueviolet", "brown", "burlywood", "cadetblue", "chartreuse", "chocolate", "coral", "cornflowerblue", "cornsilk", "crimson", "cyan", "aqua", "darkblue", "darkcyan", "darkgoldenrod", "darkgray", "darkgreen", "darkgrey", "darkkhaki", "darkmagenta", "darkolivegreen", "darkorange", "darkorchid", "darkred", "darksalmon", "darkseagreen", "darkslateblue", "darkslategray", "darkslategrey", "darkturquoise", "darkviolet", "deeppink", "deepskyblue", "dimgray", "dimgrey", "dodgerblue", "firebrick", "floralwhite", "forestgreen", "fuchsia", "gainsboro", "ghostwhite", "gold", "goldenrod", "gray", "green", "greenyellow", "grey", "gray", "honeydew", "hotpink", "indianred", "indigo", "ivory", "khaki", "lavender", "lavenderblush", "lawngreen", "lemonchiffon", "lightblue", "lightcoral", "lightcyan", "lightgoldenrodyellow", "lightgray", "lightgreen", "lightgrey", "lightpink", "lightsalmon", "lightseagreen", "lightskyblue", "lightslategray", "lightslategrey", "lightsteelblue", "lightyellow", "lime", "limegreen", "linen", "magenta", "fuchsia", "maroon", "mediumaquamarine", "mediumblue", "mediumorchid", "mediumpurple", "mediumseagreen", "mediumslateblue", "mediumspringgreen", "mediumturquoise", "mediumvioletred", "midnightblue", "mintcream", "mistyrose", "moccasin", "navajowhite", "navy", "oldlace", "olive", "olivedrab", "orange", "orangered", "orchid", "palegoldenrod", "palegreen", "paleturquoise", "palevioletred", "papayawhip", "peachpuff", "peru", "pink", "plum", "powderblue", "purple", "rebeccapurple", "red", "rosybrown", "royalblue", "saddlebrown", "salmon", "sandybrown", "seagreen", "seashell", "sienna", "silver", "skyblue", "slateblue", "slategray", "slategrey", "snow", "springgreen", "steelblue", "tan", "teal", "thistle", "tomato", "transparent", "turquoise", "violet", "wheat", "white", "whitesmoke", "yellow", "yellowgreen"]);
@@ -108,7 +108,7 @@ const matchedColor = __helpers.removeCssComments(code).match(/\.color3\s*{[^}]*\
 assert.isTrue(colorSet.has(matchedColor.groups.color.toLowerCase()));
 ```
 
-Kipengele cha `.color4` kinapaswa kuwa na rangi ya nyuma ya HSL.
+Element za `.color4` treba da ima pozadinsku boju HSL.
 
 ```js
 const absHSLVals = '\\s*(none|\\d+(?:\\.\\d+)?(?:deg)?)\\s*\\d+(?:\\.\\d+)?%?\\s*\\d+(?:\\.\\d+)?%?\\s*(\\/\\s*\\d{1,2}(?:\\.\\d+)?%\\s*)?';
@@ -117,7 +117,7 @@ const hslRegex = new RegExp(`\\.color4\\s*{[^}]*\\bbackground-color\\s*:\\s*hsl\
 assert.match(__helpers.removeCssComments(code), hslRegex);
 ```
 
-Kipengele cha `.color5` kinapaswa kuwa na rangi ya nyuma iliyowekwa.
+Element `.color5` mora imati postavljenu pozadinsku boju.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('.color5')?.getPropVal('background-color', true));

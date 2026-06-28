@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c242eddfaeb5bd13
-title: Jenga portfolio binafsi
+title: Izgradite lični portfolio
 challengeType: 25
 dashedName: build-a-personal-portfolio
 demoType: onClick
@@ -9,34 +9,34 @@ saveSubmissionToDB: true
 
 # --description--
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili ukamilishe maabara.
+**Cilj:** Popunite korisničke priče ispod i prođite sve testove kako biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Portfolio yako inapaswa kuwa na sehemu ya karibu na `id` ya `welcome-section`.
-2. Sehemu ya karibu inapaswa kuwa na kipengele cha `h1` chenye maandishi.
-3. Portfolio yako inapaswa kuwa na sehemu ya miradi yenye `id` ya `project-section`.
-4. Sehemu ya miradi inapaswa kuwa na angalau kipengele kimoja chenye darasa la `class` la `project-tile` ili kuhifadhi mradi.
-5. Sehemu ya miradi inapaswa kuwa na angalau kiungo kimoja cha mradi.
-6. Portfolio yako inapaswa kuwa na navbar yenye kitambulisho cha `navbar`.
-7. Navbar inapaswa kuwa na angalau kiungo kimoja ambacho unaweza kubofya ili kuunganisha na sehemu tofauti za ukurasa.
-8. Portfolio yako inapaswa kuwa na kiungo chenye kitambulisho cha `profile-link` kinachofungua wasifu wako wa GitHub au freeCodeCamp kwenye kichupo kipya.
-9. Portfolio yako inapaswa kuwa na angalau media query moja.
-10. Urefu wa sehemu ya karibu unapaswa kuwa sawa na urefu wa eneo la kuona.
-11. Navbar inapaswa daima kuwa juu ya eneo la kuona.
+1. Tvoj portfolio bi trebalo da ima sekciju blizu `id` od `welcome-section`.
+2. Bliska sekcija bi trebalo da ima element sa `h1` koji sadrži tekst.
+3. Tvoj portfolio bi trebalo da ima sekciju projekata sa `id` od `project-section`.
+4. Sekcija projekata bi trebalo da ima najmanje jedan element sa klasom `class` od `project-tile` za čuvanje projekta.
+5. Sekcija projekata bi trebalo da ima najmanje jedan link ka projektu.
+6. Tvoj portfolio bi trebalo da ima navigacionu traku (navbar) sa ID-om `navbar`.
+7. Navigaciona traka bi trebalo da ima najmanje jedan klikabilan link koji vodi do različitih delova stranice.
+8. Tvoj portfolio bi trebalo da ima link sa ID-om `profile-link` koji otvara tvoj profil na GitHub ili freeCodeCamp u novoj karti.
+9. Tvoj portfolio bi trebalo da ima najmanje jedan medijski upit (media query).
+10. Visina bliske sekcije bi trebalo da odgovara visini vidljivog područja.
+11. Navigaciona traka bi uvek trebala biti na vrhu vidljivog područja.
 
-**Kumbuka:** Hakikisha unaunganisha karatasi yako ya mitindo katika HTML yako na kutumia CSS yako.
+**Napomena:** Uverite se da povezujete svoj stilski fajl u HTML i koristite CSS.
 
 # --hints--
 
-Portfolio yako inapaswa kuwa na sehemu ya "Karibu" yenye `id` ya `welcome-section`.
+Vaš portfolijo treba da ima sekciju „Dobrodošli“ sa `id` od `welcome-section`.
 
 ```js
 const el = document.getElementById('welcome-section');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#welcome-section` kinapaswa kuwa na kipengele cha `h1` ndani yake.
+Element vašeg `#welcome-section` treba da ima element od `h1` unutar sebe.
 
 ```js
 assert.isAbove(
@@ -46,7 +46,7 @@ assert.isAbove(
 );
 ```
 
-Hupaswi kuwa na vipengele vya `h1` vilivyo tupu ndani ya kipengele cha `#welcome-section`.
+Ne smete imati prazne elemente unutar elementa `#welcome-section` sa `h1`.
 
 ```js
 assert.isAbove(
@@ -56,14 +56,14 @@ assert.isAbove(
 );
 ```
 
-Unapaswa kuwa na sehemu ya "Miradi" yenye `id` ya `project-section`.
+Trebalo bi da imate sekciju „Projekti“ sa `id` od `project-section`.
 
 ```js
 const el = document.getElementById('project-section');
 assert.isNotNull(el);
 ```
 
-Portfolio yako inapaswa kuwa na angalau kipengele kimoja chenye darasa la `project-tile`.
+Vaš portfolio mora imati barem jedan element sa klasom `project-tile`.
 
 ```js
 assert.isAbove(
@@ -72,20 +72,20 @@ assert.isAbove(
 );
 ```
 
-Kipengele chako cha `#project-section` kinapaswa kuwa na angalau kipengele kimoja cha `a` ndani yake.
+Vaš element za `#project-section` mora imati barem jedan element od `a` unutar sebe.
 
 ```js
 assert.isAbove(document.querySelectorAll('#project-section a').length, 0);
 ```
 
-Portfolio yako inapaswa kuwa na navbar yenye `id` ya `navbar`.
+Tvoj portfolio bi trebalo da ima navbar sa `id` od `navbar`.
 
 ```js
 const el = document.getElementById('navbar');
 assert.isNotNull(el);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa kuwa na angalau kipengele kimoja cha `a` ambacho sifa ya kipengele `href` inaanza na `#`.
+Vaš element od `#navbar` mora imati najmanje jedan element od `a` čije svojstvo elementa `href` počinje sa `#`.
 
 ```js
 const links = [...document.querySelectorAll('#navbar a')].filter(
@@ -95,7 +95,7 @@ const links = [...document.querySelectorAll('#navbar a')].filter(
 assert.isAbove(links.length, 0, 'Navbar should contain an anchor link ');
 ```
 
-Portfolio yako inapaswa kuwa na kipengele cha `a` chenye `id` ya `profile-link`.
+Vaš portfolio treba da ima karakteristiku `a` sa `id` od `profile-link`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -103,7 +103,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-Kipengele chako cha `#profile-link` kinapaswa kuwa na sifa ya kipengele `target` ya `_blank`.
+Tvoj element za `#profile-link` treba da ima svojstvo elementa `target` od `_blank`.
 
 ```js
 const el = document.getElementById('profile-link');
@@ -111,7 +111,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Portfolio yako inapaswa kutumia angalau media query moja.
+Vaš portfolio bi trebalo da koristi barem jedan media query.
 
 ```js
 const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
@@ -119,7 +119,7 @@ const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
 assert.isTrue(cssCheck.length > 0 || htmlSourceAttr.length > 0);
 ```
 
-Kipengele chako cha `#navbar` kinapaswa daima kuwa juu ya eneo la kuona.
+Vaš element `#navbar` treba da je uvek iznad vidljivog područja.
 
 ```js
   const timeout = milliseconds =>

@@ -1,6 +1,6 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Kuunganisha jozi za DNA
+title: Spajanje parova DNK-a
 challengeType: 1
 forumTopicId: 16009
 dashedName: dna-pairing
@@ -8,17 +8,17 @@ dashedName: dna-pairing
 
 # --description--
 
-Jozi za safu za DNA zinaundwa na jozi za misingi ya nucleobase. Jozi za misingi zinawakilishwa na herufi <em>AT</em> na <em>CG</em>, ambazo huunda vipande vya msingi vya heliksi mbili ya DNA.
+Parovi basa DNK se sastoje od parova baznih nukleotida. Parovi baza su predstavljeni slovima <em>AT</em> i <em>CG</em>, koji čine osnovne segmente dvostruke spirale DNK.
 
-Safu ya DNA inakosa kipengele cha kuunganisha jozi. Andika kitendakazi cha kuoanisha jozi za misingi zilizokosekana kwa safu ya DNA iliyotolewa. Kwa kila herufi katika mfuatano wa herufi uliotolewa, tafuta herufi ya jozi yake ya msingi. Rudisha matokeo kama safu ya data ya vipande viwili.
+Sekvenca DNK nedostaje element za parovanje baza. Napišite funkciju koja uparuje nedostajuće bazne parove za dati niz DNK. Za svaki znak u datoj sekvenci znaka, pronađite odgovarajući bazni par znak. Vratite rezultat kao niz podataka sa dva elementa.
 
-Kwa mfano, kwa ingizo `GCG`, rudisha `[["G", "C"], ["C","G"], ["G", "C"]]`
+Na primer, za unos `GCG`, vrati `[["G", "C"], ["C","G"], ["G", "C"]]`
 
-Herufi na jozi yake huunganishwa katika safu ya data, na safu zote huunganishwa pamoja katika safu moja kubwa.
+Karakter i njegov par spajaju se u niz podataka, a svi nizi se spajaju zajedno u jedan veliki niz.
 
 # --hints--
 
-`pairElement("ATCGA")` inapaswa kurudisha `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` treba da vrati `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -30,7 +30,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` inapaswa kurudisha `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` treba vratiti `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -42,7 +42,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` inapaswa kurudisha `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` trebalo bi da vrati `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

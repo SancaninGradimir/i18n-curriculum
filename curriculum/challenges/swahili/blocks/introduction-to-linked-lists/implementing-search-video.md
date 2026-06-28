@@ -1,6 +1,6 @@
 ---
 id: 698dd7f67932b3cc4b19c932
-title: Kutekeleza utaftaji
+title: Izvršavanje pretrage
 challengeType: 11
 videoId: 2X7ysO7o-Kc
 dashedName: implementing-search
@@ -8,13 +8,13 @@ dashedName: implementing-search
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutekeleza njia ya utaftaji kwa orodha zilizounganishwa katika msimbo kwa kutumia lugha ya programu ya Python.
+U ovom videu, naučićete kako da implementirate metodu pretrage za povezane liste u kodu koristeći programski jezik Python.
 
 # --questions--
 
 ## --text--
 
-Ni wakati gani mbaya zaidi wa utekelezaji wa utaftaji katika orodha iliyounganishwa?
+Kada je najlošije vreme za izvršavanje pretrage u povezanoj listi?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ constant
 
 ---
 
-linear
+linearan
 
 ---
 
@@ -30,7 +30,7 @@ quadratic
 
 ---
 
-logarithmic
+logaritamski
 
 ## --video-solution--
 

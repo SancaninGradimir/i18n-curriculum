@@ -1,46 +1,46 @@
 ---
 id: afd15382cdfb22c9efe8b7de
-title: Tekeleza kizalishaji cha jozi za DNA
+title: Generativni sistem za pare DNA-a
 challengeType: 26
 dashedName: implement-a-dna-pair-generator
 ---
 
 # --description--
 
-Katika heliksi mara mbili ya DNA, misingi huwa imeunganishwa pamoja kila wakati: ikiwa kwenye tawi moja kuna msingi wa <em>A</em>, kwenye tawi lingine moja kwa moja mbele kuna msingi wa <em>T</em>, jozi nyingine ni <em>C</em> na <em>G</em>.
+U dvokraka heliks DNK, baze su uvek povezane: ako na jednom lancu postoji baza od <em>A</em>, na drugom lancu direktno ispred postoji baza od <em>T</em>, druga para je <em>C</em> i <em>G</em>.
 
-Katika maabara hii, utaandika kitendakazi cha kuoanisha misingi iliyokosekana ya jozi kwa tawi la DNA lililotolewa. Kwa kila herufi katika mfuatano wa herufi uliotolewa, tafuta msingi wa jozi.
+U ovoj laboratoriji ćete napisati funkciju za uparivanje nedostajućih komplementarnih baza za ekstrahovani lanac DNA-a. Za svaki karakter u ekstrahovanoj sekvenci, pronađite par.
 
-Kwa mfano, kwa ingizo `ATCG`, rudisha `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
+Na primer, za unos `ATCG`, vratite `[["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]`
 
-Msingi wa <em>A</em> unaoanishwa na msingi wa <em>T</em>, msingi wa <em>T</em> unaoanishwa na msingi wa <em>A</em>, <em>C</em> unaoanishwa na msingi wa <em>G</em>, na hatimaye msingi wa <em>G</em> unaoanishwa na msingi wa <em>C</em>.
+Osnova <em>A</em> je spajana sa osnovom <em>T</em>, osnova <em>T</em> je spajana sa osnovom <em>A</em>, <em>C</em> je spajana sa osnovom <em>G</em>, i konačno osnova <em>G</em> je spajana sa osnovom <em>C</em>.
 
-**Lengo**: Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj**: Popunite korisničke priče navedene ispod i prođite sve testove kako biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kuwa na kitendakazi cha `pairElement` kinachopokea mfuatano wa herufi wa urefu wowote kama hoja.
-1. Kitendakazi cha `pairElement` kinapaswa kurudisha safu ya data ya 2d, ambapo kila safu ndogo ina mfuatano wa herufi mbili ndani, mfuatano wa kwanza ni msingi mmoja kutoka kwenye ingizo, na mfuatano wa pili ni msingi wa jozi.
-1. Ukipokea `A`, kitendakazi kinapaswa kuoanisha na `T`.
-1. Ukipokea `T`, kitendakazi kinapaswa kuoanisha na `A`.
-1. Ukipokea `C`, kitendakazi kinapaswa kuoanisha na `G`.
-1. Ukipokea `G`, kitendakazi kinapaswa kuoanisha na `C`.
+1. Mora postojati funkcija `pairElement` koja prima niz znakova bilo koje dužine kao argument.
+1. Funkcija `pairElement` treba da vrati dvodimenzionalni niz podataka, gde svaka pod-redica sadrži dva niza znakova: prvi niz je jedan element iz ulaza, a drugi niz je par elemenata.
+1. Ako primi `A`, funkcija treba da se uporedi sa `T`.
+1. Ako primi `T`, funkcija treba da se uporedi sa `A`.
+1. Ako primi `C`, funkcija treba da se uporedi sa `G`.
+1. Ako primi `G`, funkcija treba da se uporedi sa `C`.
 
 # --hints--
 
-Unapaswa kuunda kitendakazi kinachoitwa `pairElement`.
+Treba ti kreirati funkciju koja se zove `pairElement`.
 
 ```js
 assert.isFunction(pairElement);
 ```
 
-`pairElement` inapaswa kupokea hoja moja.
+`pairElement` treba da primi samo jednu tačku.
 
 ```js
 assert.lengthOf(pairElement, 1);
 ```
 
-`pairElement("ATCGA")` inapaswa kurudisha `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
+`pairElement("ATCGA")` treba da vrati `[["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('ATCGA'), [
@@ -52,7 +52,7 @@ assert.deepEqual(pairElement('ATCGA'), [
 ]);
 ```
 
-`pairElement("TTGAG")` inapaswa kurudisha `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
+`pairElement("TTGAG")` treba vratiti `[["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]]`.
 
 ```js
 assert.deepEqual(pairElement('TTGAG'), [
@@ -64,7 +64,7 @@ assert.deepEqual(pairElement('TTGAG'), [
 ]);
 ```
 
-`pairElement("CTCTA")` inapaswa kurudisha `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
+`pairElement("CTCTA")` trebalo bi da vrati `[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]`.
 
 ```js
 assert.deepEqual(pairElement('CTCTA'), [

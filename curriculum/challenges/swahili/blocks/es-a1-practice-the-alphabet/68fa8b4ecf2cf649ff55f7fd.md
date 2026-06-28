@@ -1,6 +1,6 @@
 ---
 id: 68fa8b4ecf2cf649ff55f7fd
-title: Zoezi la 2
+title: Vežba 2
 challengeType: 19
 dashedName: task-2
 lang: es
@@ -8,13 +8,13 @@ lang: es
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Ni herufi gani ya **pili** inayoonyeshwa katika sauti hii?
+Koje je drugo slovo prikazano u ovom zvuku?
 
 ## --answers--
 
@@ -22,7 +22,7 @@ Ni herufi gani ya **pili** inayoonyeshwa katika sauti hii?
 
 ### --feedback--
 
-Herufi `b` ina sauti tofauti.
+Slovo `b` ima različite zvukove.
 
 ---
 
@@ -34,7 +34,7 @@ Herufi `b` ina sauti tofauti.
 
 ### --feedback--
 
-Herufi `z` ina sauti tofauti.
+Slovo `z` ima različite zvukove.
 
 ---
 
@@ -42,7 +42,7 @@ Herufi `z` ina sauti tofauti.
 
 ### --feedback--
 
-Herufi `m` ina sauti tofauti.
+Slova `m` imaju različite zvukove.
 
 ## --video-solution--
 
@@ -50,9 +50,9 @@ Herufi `m` ina sauti tofauti.
 
 # --explanation--
 
-Hizi ndizo herufi tatu zinazosemwa katika sauti: `b`, `x`, `z`.
+Ovo su tri slova koja se izgovaraju u zvuku: `b`, `x`, `z`.
 
-Herufi `x` ndiyo ya pili. Kwa hiyo, `x` ni jibu sahihi.
+Herufi `x` je drugi. Zbog toga, `x` je tačan odgovor.
 
 # --scene--
 

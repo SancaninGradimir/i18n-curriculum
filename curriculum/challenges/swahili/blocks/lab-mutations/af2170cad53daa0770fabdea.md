@@ -1,91 +1,91 @@
 ---
 id: af2170cad53daa0770fabdea
-title: Tekeleza algoriti ya mabadiliko
+title: Implementiraj algoritam promena
 challengeType: 26
 dashedName: implement-the-mutations-algorithm
 ---
 
 # --description--
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite mitihani yote ili ukamilishe maabara.
+**Cilj:** Popunite korisničke priče ispod i prođite sve testove kako biste završili laboratorijum.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unda kitendakazi kinachoitwa `mutation` kinachopokea safu ya data kama hoja yake.
-1. `mutation` inapaswa kurudisha `true` ikiwa mfuatano wa herufi katika kipengele cha kwanza cha safu ya data una herufi zote za mfuatano wa herufi katika kipengele cha pili cha safu ya data, na `false` vinginevyo. Kwa mfano:
-    - `mutation(["hello", "Hello"])`, inapaswa kurudisha `true` kwa sababu herufi zote katika mfuatano wa herufi wa pili zipo katika wa kwanza, bila kuzingatia herufi kubwa au ndogo.
-    - `mutation(["hello", "hey"])` inapaswa kurudisha `false` kwa sababu mfuatano wa herufi `hello` huna `y`.
-    - `mutation(["Alien", "line"])`, inapaswa kurudisha `true` kwa sababu herufi zote katika `line` zipo katika `Alien`.
+1. Funkciju nazvanu `mutation` koja prima niz podataka kao svoj argument.
+1. `mutation` bi trebalo da vrati `true` ako niz slova u prvom elementu niza podataka sadrži sva slova sekvence slova iz drugog elementa niza podataka, i `false` inače. Primer:
+    - `mutation(["hello", "Hello"])` bi trebalo da vrati `true` jer sva slova u sekvenci slova iz drugog su u prvom, bez obzira na veličinu (velika ili mala slova).
+    - `mutation(["hello", "hey"])` bi trebalo da vrati `false` jer sekvenca slova `hello` nema `y`.
+    - `mutation(["Alien", "line"])` bi trebalo da vrati `true` jer sva slova u `line` su u `Alien`.
 
 # --hints--
 
-`mutation(["hello", "hey"])` inapaswa kurudisha `false`.
+`mutation(["hello", "hey"])` treba da vrati `false`.
 
 ```js
 assert.isFalse(mutation(['hello', 'hey']));
 ```
 
-`mutation(["hello", "Hello"])` inapaswa kurudisha `true`.
+`mutation(["hello", "Hello"])` treba da vrati `true`.
 
 ```js
 assert.isTrue(mutation(['hello', 'Hello']));
 ```
 
-`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` inapaswa kurudisha `true`.
+`mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])` treba da vrati `true`.
 
 ```js
 assert.isTrue(mutation(['zyxwvutsrqponmlkjihgfedcba', 'qrstu']));
 ```
 
-`mutation(["Mary", "Army"])` inapaswa kurudisha `true`.
+`mutation(["Mary", "Army"])` treba da vrati `true`.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Army']));
 ```
 
-`mutation(["Mary", "Aarmy"])` inapaswa kurudisha `true`.
+`mutation(["Mary", "Aarmy"])` treba da vrati `true`.
 
 ```js
 assert.isTrue(mutation(['Mary', 'Aarmy']));
 ```
 
-`mutation(["Alien", "line"])` inapaswa kurudisha `true`.
+`mutation(["Alien", "line"])` treba da vrati `true`.
 
 ```js
 assert.isTrue(mutation(['Alien', 'line']));
 ```
 
-`mutation(["floor", "for"])` inapaswa kurudisha `true`.
+`mutation(["floor", "for"])` treba da vrati `true`.
 
 ```js
 assert.isTrue(mutation(['floor', 'for']));
 ```
 
-`mutation(["hello", "neo"])` inapaswa kurudisha `false`.
+`mutation(["hello", "neo"])` trebalo bi da vrati `false`.
 
 ```js
 assert.isFalse(mutation(['hello', 'neo']));
 ```
 
-`mutation(["voodoo", "no"])` inapaswa kurudisha `false`.
+`mutation(["voodoo", "no"])` trebalo bi da vrati `false`.
 
 ```js
 assert.isFalse(mutation(['voodoo', 'no']));
 ```
 
-`mutation(["ate", "date"])` inapaswa kurudisha `false`.
+`mutation(["ate", "date"])` trebalo bi da vrati `false`.
 
 ```js
 assert.isFalse(mutation(['ate', 'date']));
 ```
 
-`mutation(["Tiger", "Zebra"])` inapaswa kurudisha `false`.
+`mutation(["Tiger", "Zebra"])` treba da vrati `false`.
 
 ```js
 assert.isFalse(mutation(['Tiger', 'Zebra']));
 ```
 
-`mutation(["Noel", "Ole"])` inapaswa kurudisha `true`.
+`mutation(["Noel", "Ole"])` treba vratiti `true`.
 
 ```js
 assert.isTrue(mutation(['Noel', 'Ole']));

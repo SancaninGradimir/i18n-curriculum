@@ -1,6 +1,6 @@
 ---
 id: 698dd5a27932b3cc4b19c930
-title: Orodha iliyounganishwa ni nini?
+title: Šta je povezana lista?
 challengeType: 11
 videoId: rnGKSsh97q0
 dashedName: what-is-a-linked-list
@@ -8,13 +8,13 @@ dashedName: what-is-a-linked-list
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu orodha zilizounganishwa.
+U ovom videu ćete naučiti o spojenim listama.
 
 # --questions--
 
 ## --text--
 
-Nodi gani huwekwa mwanzoni mwa orodha iliyounganishwa?
+Da li se čvorovi postavljaju na početak povezane liste?
 
 ## --answers--
 
@@ -22,15 +22,15 @@ start
 
 ---
 
-head
+glava
 
 ---
 
-tail
+rep
 
 ---
 
-foot
+stopalo
 
 ## --video-solution--
 

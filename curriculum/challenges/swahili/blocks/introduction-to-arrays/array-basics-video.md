@@ -1,6 +1,6 @@
 ---
 id: 698dd3547932b3cc4b19c92d
-title: Misingi ya safu ya data
+title: Osnovni principi redova podataka
 challengeType: 11
 videoId: G_kHMzPOwG8
 dashedName: array-basics
@@ -8,29 +8,29 @@ dashedName: array-basics
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu safu za data.
+U ovom videu, naučićete o slojevima podataka.
 
 # --questions--
 
 ## --text--
 
-Safu ya data ni nini?
+Šta je podatak (data)?
 
 ## --answers--
 
-Mkusanyiko wa data zisizohusiana zilizohifadhiwa kwa mpangilio usiofuata katika kumbukumbu.
+Skup nepovezanih podataka sačuvanih na nestrukturiran način u memoriji.
 
 ---
 
-Kitendakazi kinachohifadhi nambari kwa muda mfupi.
+Funkcija koja skladišti brojeve na kratko vrijeme.
 
 ---
 
-Mkusanyiko uliopangwa wa thamani ambapo kila kipengele kinaweza kurejea kwa kutumia kielezo.
+Struktuirana kolekcija vrednosti gde se svakom elementu može pristupiti korišćenjem indeksa.
 
 ---
 
-Aina ya mzunguko inayotumika kurudia juu ya nambari.
+Vrsta petlje koja se koristi za ponavljanje po broju.
 
 ## --video-solution--
 

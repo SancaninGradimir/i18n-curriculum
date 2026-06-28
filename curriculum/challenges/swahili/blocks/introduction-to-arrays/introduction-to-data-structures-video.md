@@ -1,6 +1,6 @@
 ---
 id: 698dd14c7932b3cc4b19c92c
-title: Utangulizi wa muundo wa data
+title: Uvod u strukturu podataka
 challengeType: 11
 videoId: QIZSbUquPdY
 dashedName: introduction-to-data-structures
@@ -8,29 +8,29 @@ dashedName: introduction-to-data-structures
 
 # --description--
 
-Katika video hii, mwalimu wa Treehouse Pasan atazungumzia kile unachotarajia katika sehemu ya muundo wa data ya kozi hii.
+U ovom videu, nastavnik Treehouse Pasan-a će govoriti o tome što očekujete u delu strukture podataka ovog kursa.
 
 # --questions--
 
 ## --text--
 
-Ni shughuli gani nne za kawaida zitakazojifunzwa wakati wa kufanya kazi na muundo wa data?
+Koje su četiri uobičajene aktivnosti koje se uče kada radite sa strukturom podataka?
 
 ## --answers--
 
-Kupata thamani, kufuta thamani, kupita, na kupanga.
+Dohvatiti vrednost, izbrisati vrednost, preskočiti i sortirati.
 
 ---
 
-Kupata thamani, kutafuta, kuingiza thamani, na kufuta thamani.
+Dohvatiti vrednost, pretraživati, uneti vrednost i izbrisati vrednost.
 
 ---
 
-Kutafuta, kuunganisha, kugawanya, na kurudia thamani.
+Pronalaženje, spajanje, deljenje i ponavljanje vrednosti.
 
 ---
 
-Kuingiza thamani, kusahihisha thamani, kuchapisha thamani, na kuhesabu vipengele.
+Unos vrednosti, validiranje vrednosti, ispisivanje vrednosti, i izračunavanje elemenata.
 
 ## --video-solution--
 

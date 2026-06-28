@@ -1,20 +1,19 @@
 ---
 id: 6973dae19a1d3a4ca3cb3ddd
-title: Ukaguzi wa matamshi ya nambari 30 hadi 59
+title: Provera izgovora brojeva od 30 do 59
 challengeType: 24
 dashedName: 30-to-59-pronunciation-review
 lang: es
 ---
-
 <!-- REVIEW -->
 
 # --description--
 
-Fanya mazoezi ya kutamka nambari kutoka 30 hadi 59.
+Vežbujte izgovor brojeva od 30 do 59.
 
 # --assignment--
 
-Nimefanya mazoezi ya kutamka nambari kutoka 30 hadi 59.
+Vežbovao sam izgovor brojeva od 30 do 59.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 699e034d138be64fa313138e
-title: Mabadiliko ya kazi
+title: Promjena posla
 challengeType: 11
 videoId: xSPh80M3f84
 dashedName: transformations-of-functions
@@ -8,29 +8,29 @@ dashedName: transformations-of-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu mabadiliko ya kazi.
+U ovom videu, ćete naučiti o promeni karijere.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ni sheria halali ya mabadiliko ya kitendakazi?
+Koja od sledećih je važeći propis za funkcionalne promene?
 
 ## --answers--
 
-Nambari zilizo ndani ya kitendakazi husababisha mabadiliko wima.
+Brojevi unutar funkcije izazivaju vertikalne promene.
 
 ---
 
-Nambari zilizo nje ya kitendakazi husababisha mabadiliko usawa.
+Brojevi izvan funkcije izazivaju promene u ravnoteži.
 
 ---
 
-Alama hasi husababisha kuakisiwa.
+Negativni znak uzrokuje refleksiju.
 
 ---
 
-Alama hasi husababisha mabadiliko wima.
+Negativni znak uzrokuje vertikalnu promenu.
 
 ## --video-solution--
 

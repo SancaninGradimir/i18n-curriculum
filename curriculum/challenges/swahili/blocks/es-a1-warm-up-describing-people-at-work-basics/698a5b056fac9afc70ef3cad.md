@@ -1,18 +1,17 @@
 ---
 id: 698a5b056fac9afc70ef3cad
-title: Zoezi la 10
+title: Vežba 10
 challengeType: 22
 dashedName: task-10
 lang: es
 ---
-
-<!-- (Audio) Camila: Brasil, Colombia, Panamá -->
+<!-- (Audio) Camila: Brazil, Kolumbija, Panama -->
 
 # --description--
 
-Tukague baadhi ya nchi ulizojifunza hadi sasa.
+Pregledajmo neke zemlje koje ste naučili do sada.
 
-| Nchi | Taifa (Kike) | Taifa (Kiume) |
+| Država | Država (Ženski rod) | Država (Muški rod) |
 | :--- | :--- | :--- |
 | `Brasil` | `brasileña` | `brasileño` |
 | `Colombia` | `colombiana` | `colombiano` |
@@ -20,15 +19,15 @@ Tukague baadhi ya nchi ulizojifunza hadi sasa.
 | `Panamá` | `panameña` | `panameño` |
 | `República Dominicana` | `dominicana` | `dominicano` |
 
-Katika Kihispania, majina ya nchi ni majina halisi na huanza kila mara kwa herufi kubwa.
+U španskom jeziku, imena država su sopstvena imena i uvek počinju velikim slovom.
 
-Kumbuka kuwa taifa `brasileño`/`brasileña` na `panameño`/`panameña` hutumia herufi ya kipekee `eñe` (`ñ`).
+Zapamtite da država `brasileño`/`brasileña` na `panameño`/`panameña` koristi jedinstveno slovo `eñe` (`ñ`).
 
-Camila anazoea baadhi ya nchi hizi. Je, unaweza kuzitambua?
+Camila poznaje neke od ovih zemalja. Da li ih možeš prepoznati?
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe mfululizo hapa chini.
+Slušajte zvukove i dovršite sekvencu ispod.
 
 # --fillInTheBlank--
 
@@ -42,7 +41,7 @@ Sikiliza sauti na ukamilishe mfululizo hapa chini.
 
 ### --feedback--
 
-Nchi hii ni kubwa zaidi Amerika Kusini na huanza kwa herufi kubwa.
+Ova zemlja je najveća u Južnoj Americi i počinje velikim slovom.
 
 ---
 
@@ -50,11 +49,11 @@ Nchi hii ni kubwa zaidi Amerika Kusini na huanza kwa herufi kubwa.
 
 ### --feedback--
 
-Nchi hii inajulikana kwa njia yake maarufu ya maji. Kumbuka kuweka alama ya nukta kwenye herufi ya mwisho `a` na kuandika herufi ya kwanza kwa herufi kubwa.
+Ova zemlja je poznata po svom slavnom vodotoku. Zapamtite da stavite tačku na poslednje slovo `a` i da prvi slovo napišete velikim slovom.
 
 # --explanation--
 
-Mfululizo ni `Brasil` - `Colombia` - `Panamá`.
+Niz je `Brasil` - `Colombia` - `Panamá`.
 
 # --scene--
 

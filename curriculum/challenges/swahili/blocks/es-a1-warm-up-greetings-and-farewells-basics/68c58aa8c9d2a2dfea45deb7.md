@@ -1,25 +1,25 @@
 ---
 id: 68c58aa8c9d2a2dfea45deb7
-title: Zoezi la 7
+title: Vežba 7
 challengeType: 19
 dashedName: task-7
 lang: es
 ---
-<!-- (Audio) Elena: Hasta luego -->
+<!-- (Audio) Elena: Vidimo se -->
 
 # --description--
 
-Elena anasema kwaheri, lakini anatarajia kukuona tena.
+Elena ti govori zbogom, ali nada se da ćeš je videti opet.
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Ni usemi gani Elena anautumia kusema "tutaonana baadaye"?
+Da li je to nešto što Elena kaže/koristi, "vidimo se kasnije"?
 
 ## --answers--
 
@@ -31,7 +31,7 @@ Ni usemi gani Elena anautumia kusema "tutaonana baadaye"?
 
 ### --feedback--
 
-Hii ni kwaheri, lakini ni ya mwisho zaidi. Msemaji anatumia usemi tofauti.
+Ovo je zbogom, ali je najkonačniji. Govornik koristi različite izraze.
 
 ---
 
@@ -39,7 +39,7 @@ Hii ni kwaheri, lakini ni ya mwisho zaidi. Msemaji anatumia usemi tofauti.
 
 ### --feedback--
 
-Hii pia ni njia isiyo rasmi ya kusema kwaheri, lakini si ile iliyo kwenye sauti.
+Ovo je takođe neformalan način da se kaže zbogom, ali nije onaj koji je u zvuku.
 
 ---
 
@@ -47,7 +47,7 @@ Hii pia ni njia isiyo rasmi ya kusema kwaheri, lakini si ile iliyo kwenye sauti.
 
 ### --feedback--
 
-Hii inamaanisha "Habari", salamu ya kawaida, lakini si kile Elena anasema.
+Ovo znači „Habari“, uobičajena pozdrava, ali nije ono što Elena kaže.
 
 ## --video-solution--
 
@@ -55,11 +55,11 @@ Hii inamaanisha "Habari", salamu ya kawaida, lakini si kile Elena anasema.
 
 # --explanation--
 
-`Hasta luego` ni njia ya kawaida ya kusema kwaheri kwa Kihispania. Inatafsiriwa kama "Tutaonana baadaye".
+`Hasta luego` Ovo je uobičajen način za oproštaj na španskom. Prevedeno je kao "Tutaonana baadaye".
 
-Inatumika unapotarajia kuona mtu tena, lakini si lazima haraka. Kwa mfano:  
+Koristi se kada očekuješ da ćeš nekoga ponovo videti, ali ne mora nužno brzo. Na primer:
 
-`Hasta luego, Marta.` – Tutaonana baadaye, Marta.
+`Hasta luego, Marta.` – Vidimo se kasnije, Marta.
 
 # --scene--
 

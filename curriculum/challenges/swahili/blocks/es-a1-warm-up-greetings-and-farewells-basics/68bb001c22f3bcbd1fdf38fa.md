@@ -1,27 +1,26 @@
 ---
 id: 68bb001c22f3bcbd1fdf38fa
-title: Zoezi la 1
+title: Vežba 1
 challengeType: 19
 dashedName: task-1
 lang: es
 ---
-
-<!-- (Audio) Elena: Hola -->
+<!-- (Audio) Elena: Zdravo -->
 
 # --description--
 
-Elena anataka kusema "habari". Utasikia neno hili kila wakati kwa Kihispania wakati watu wanapokutana.
+Elena želi da kaže "habari". Čutićeš ovu reč svaki put na španskom kada se ljudi sretnu.
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
-Kuna jibu **moja** tu sahihi. Ikiwa unahitaji msaada, bofya **maelezo** chini ya funzo.
+Slušaj audio i odgovori na pitanje koje se nalazi ispod.
+Postoji samo jedan tačan odgovor. Ako ti je potrebna pomoć, klikni na **detalje** ispod forme.
 
 # --questions--
 
 ## --text--
 
-Elena anatumia neno gani kusema "habari"?
+Koja reč koristi Elena da kaže "habari"?
 
 ## --answers--
 
@@ -33,7 +32,7 @@ Elena anatumia neno gani kusema "habari"?
 
 ### --feedback--
 
-Hii ina maana kinyume na kile anachosema msemaji. Fungua sehemu ya maelezo ikiwa unahitaji msaada zaidi.
+Ovo znači suprotno od onoga što govornik kaže. Otvorite deo opisa ako vam je potrebna dodatna pomoć.
 
 ---
 
@@ -41,7 +40,7 @@ Hii ina maana kinyume na kile anachosema msemaji. Fungua sehemu ya maelezo ikiwa
 
 ### --feedback--
 
-Hii ina maana kinyume na kile anachosema msemaji. Fungua sehemu ya maelezo ikiwa unahitaji msaada zaidi.
+Ovo znači suprotno od onoga što govornik kaže. Otvorite sekciju sa opisom ako vam je potrebna dodatna pomoć.
 
 ---
 
@@ -49,7 +48,7 @@ Hii ina maana kinyume na kile anachosema msemaji. Fungua sehemu ya maelezo ikiwa
 
 ### --feedback--
 
-Hii ina maana "Habari za asubuhi", lakini siyo kile unachosikia kwenye sauti.
+Ovo znači "Dobro jutro", ali nije ono što čuješ u zvuku.
 
 ## --video-solution--
 
@@ -57,9 +56,9 @@ Hii ina maana "Habari za asubuhi", lakini siyo kile unachosikia kwenye sauti.
 
 # --explanation--
 
-Neno `Hola` ni salamu. Linatumika unapokutana na mtu, sawa na "Hello" au "Hi". Kwa mfano:
+Reč `Hola` je pozdrav. Koristi se prilikom susreta sa nekim, slično "Hello" ili "Hi". Primer:
 
-`¡Hola, buenos días!` – Habari, habari za asubuhi!
+`¡Hola, buenos días!` – Dobre vesti ujutru!
 
 # --scene--
 

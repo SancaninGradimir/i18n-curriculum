@@ -1,6 +1,6 @@
 ---
 id: 699e0353138be64fa313138f
-title: Kitendakazi cha vipande-vipande
+title: Komadna funkcija
 challengeType: 11
 videoId: C9hCmH9nj4o
 dashedName: piecewise-functions
@@ -8,29 +8,29 @@ dashedName: piecewise-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi cha vipande-vipande.
+U ovom videu ćete naučiti o funkciji fragmenata.
 
 # --questions--
 
 ## --text--
 
-Kitendakazi cha vipande-vipande ni nini?
+Šta je funkcija komponenti?
 
 ## --answers--
 
-Kitendakazi kinachofafanuliwa na vitendakazi vidogo vingi kwenye mhimili wa y.
+Funkcija definisana mnogostrukim manjim funkcijama na y-osi.
 
 ---
 
-Kitendakazi kinachofafanuliwa na fomula moja kwa thamani zote za x.
+Funkcija definisana jednom jednačinom za sve vrednosti $x$.
 
 ---
 
-Kitendakazi kinachofafanuliwa na thamani za x na y za seti ya pointi.
+Funkcija definisana vrednostima x i y za skup tačaka.
 
 ---
 
-Kitendakazi kinachofafanuliwa na vitendakazi vidogo vingi.
+Komponenta definisana mnogo malim elementima.
 
 ## --video-solution--
 

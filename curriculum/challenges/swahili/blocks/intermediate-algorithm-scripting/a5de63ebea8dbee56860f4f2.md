@@ -1,6 +1,6 @@
 ---
 id: a5de63ebea8dbee56860f4f2
-title: Linganisha safu mbili za data
+title: Povežite dva niza podataka
 challengeType: 1
 forumTopicId: 16008
 dashedName: diff-two-arrays
@@ -8,19 +8,19 @@ dashedName: diff-two-arrays
 
 # --description--
 
-Linganisheni safu mbili za data na rudisheni safu mpya yenye vitu vyovyote vinavyopatikana katika moja tu ya safu hizo mbili, lakini si zote mbili. Kwa maneno mengine, rudisheni tofauti ya usawa ya safu hizo mbili.
+Uporedite dve redne podatke i vratite novi red sa svim elementima koji se nalaze samo u jednom od ova dva reda, ali ne u oba. Drugim rečima, vratite razliku između ta dva reda.
 
-**Kumbuka:** Unaweza kurudisha safu hiyo na vipengele vyake kwa mpangilio wowote.
+**Napomena:** Možete vratiti taj red i njegove elemente u bilo kom redosledu.
 
 # --hints--
 
-`diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5])` inapaswa kurudisha safu ya data.
+`diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5])` Trebalo bi da vrati red podataka.
 
 ```js
 assert(typeof diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]) === 'object');
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` inapaswa kurudisha `["pink wool"]`.
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` treba da vrati `["pink wool"]`.
 
 ```js
 assert.sameMembers(
@@ -32,7 +32,7 @@ assert.sameMembers(
 );
 ```
 
-`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` inapaswa kurudisha safu ya data yenye kipengele kimoja.
+`["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` Trebalo bi da vrati red podataka sa jednim poljem.
 
 ```js
 assert(
@@ -43,7 +43,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` inapaswa kurudisha `["diorite", "pink wool"]`.
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` treba da vrati `["diorite", "pink wool"]`.
 
 ```js
 assert.sameMembers(
@@ -55,7 +55,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` inapaswa kurudisha safu ya data yenye vipengele viwili.
+`["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]` Trebalo bi da vrati red podataka sa dva elementa.
 
 ```js
 assert(
@@ -66,7 +66,7 @@ assert(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` inapaswa kurudisha `[]`.
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` treba da vrati `[]`.
 
 ```js
 assert.sameMembers(
@@ -78,7 +78,7 @@ assert.sameMembers(
 );
 ```
 
-`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` inapaswa kurudisha safu tupu.
+`["andesite", "grass", "dirt", "dead shrub"], ["andesite", "grass", "dirt", "dead shrub"]` trebalo bi da vrati prazan red.
 
 ```js
 assert(
@@ -89,19 +89,19 @@ assert(
 );
 ```
 
-`[1, 2, 3, 5], [1, 2, 3, 4, 5]` inapaswa kurudisha `[4]`.
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]` trebalo bi da vrati `[4]`.
 
 ```js
 assert.sameMembers(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]), [4]);
 ```
 
-`[1, 2, 3, 5], [1, 2, 3, 4, 5]` inapaswa kurudisha safu ya data yenye kipengele kimoja.
+`[1, 2, 3, 5], [1, 2, 3, 4, 5]` Trebalo bi da vrati red podataka sa jednim poljem.
 
 ```js
 assert(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]).length === 1);
 ```
 
-`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` inapaswa kurudisha `["piglet", 4]`.
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` treba da vrati `["piglet", 4]`.
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
@@ -110,13 +110,13 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` inapaswa kurudisha safu ya data yenye vipengele viwili.
+`[1, "calf", 3, "piglet"], [1, "calf", 3, 4]` trebalo bi da vrati red podataka sa dve komponente.
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [1, 'calf', 3, 4]).length === 2);
 ```
 
-`[], ["snuffleupagus", "cookie monster", "elmo"]` inapaswa kurudisha `["snuffleupagus", "cookie monster", "elmo"]`.
+`[], ["snuffleupagus", "cookie monster", "elmo"]` trebalo bi da vrati `["snuffleupagus", "cookie monster", "elmo"]`.
 
 ```js
 assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
@@ -126,13 +126,13 @@ assert.sameMembers(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']), [
 ]);
 ```
 
-`[], ["snuffleupagus", "cookie monster", "elmo"]` inapaswa kurudisha safu ya data yenye vipengele vitatu.
+`[], ["snuffleupagus", "cookie monster", "elmo"]` trebalo bi da vrati red podataka sa tri elementa.
 
 ```js
 assert(diffArray([], ['snuffleupagus', 'cookie monster', 'elmo']).length === 3);
 ```
 
-`[1, "calf", 3, "piglet"], [7, "filly"]` inapaswa kurudisha `[1, "calf", 3, "piglet", 7, "filly"]`.
+`[1, "calf", 3, "piglet"], [7, "filly"]` treba da vrati `[1, "calf", 3, "piglet", 7, "filly"]`.
 
 ```js
 assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
@@ -145,7 +145,7 @@ assert.sameMembers(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']), [
 ]);
 ```
 
-`[1, "calf", 3, "piglet"], [7, "filly"]` inapaswa kurudisha safu ya data yenye vipengele sita.
+`[1, "calf", 3, "piglet"], [7, "filly"]` Trebalo bi da vrati red podataka sa šest polja.
 
 ```js
 assert(diffArray([1, 'calf', 3, 'piglet'], [7, 'filly']).length === 6);

@@ -1,6 +1,6 @@
 ---
 id: 699dfa14138be64fa3131389
-title: Kitendakazi
+title: Zaposleni
 challengeType: 11
 videoId: qyuFN2AKCBw
 dashedName: functions
@@ -8,29 +8,29 @@ dashedName: functions
 
 # --description--
 
-Mwalimu Dr. Linda Green, mhadhiri katika Chuo Kikuu cha North Carolina huko Chapel Hill, atakufundisha misingi ya vitendakazi.
+Profesorka Dr. Linda Green, predavačica na Univerzitetu u North Carolina u Chapel Hill, će vam naučiti osnove funkcionisanja.
 
 # --questions--
 
 ## --text--
 
-Nini ni uwanja wa kitendakazi?
+Šta je radno polje?
 
 ## --answers--
 
-Thamani zote zinazowezekana za a.
+Sve moguće vrednosti za a.
 
 ---
 
-Thamani zote zinazowezekana za y.
+Sve moguće vrednosti za y.
 
 ---
 
-Thamani zote zinazowezekana za x.
+Sve moguće vrednosti za x.
 
 ---
 
-Thamani zote zinazowezekana za z.
+Sve moguće vrednosti za z.
 
 ## --video-solution--
 

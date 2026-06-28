@@ -1,22 +1,21 @@
 ---
 id: 698a5aa1ff49e32ceeaaccec
-title: Zoezi la 6
+title: Vežbanje 6
 challengeType: 22
 dashedName: task-6
 lang: es
 ---
-
-<!-- (Audio) Camila: Número de teléfono -->
+<!-- (Audio) Camila: Broj telefona -->
 
 # --description--
 
-Sasa Camila anajifunza jinsi ya kusema `número de teléfono` kwa Kihispania, ambayo inamaanisha "nambari ya simu".
+Sada Camila uči kako da kaže `número de teléfono` na španskom, što znači "broj telefona".
 
-Tambua kwamba neno `número` lina alama ya msisitizo kwenye herufi ya `u` na neno `teléfono` lina alama ya msisitizo kwenye herufi ya pili `e`.
+Primećujte da reč `número` ima akcent na slovu `u` i da reč `teléfono` ima akcent na drugom slovu `e`.
 
 # --instructions--
 
-Sikiliza sauti na andika neno hapa chini.
+Slušaj audio i napiši reč dole.
 
 # --fillInTheBlank--
 
@@ -30,7 +29,7 @@ Sikiliza sauti na andika neno hapa chini.
 
 ### --feedback--
 
-Neno hili lina maana ya "nambari" kwa Kihispania. Kumbuka kuandika alama ya msisitizo kwenye herufi ya `u` na kuandika herufi ya kwanza kwa herufi kubwa.
+Ovo značenje znači "broj" na španski. Zapamti da staviš akcent na slovo `u` i da pišeš prvo slovo velikim slovom.
 
 ---
 
@@ -38,11 +37,11 @@ Neno hili lina maana ya "nambari" kwa Kihispania. Kumbuka kuandika alama ya msis
 
 ### --feedback--
 
-Neno hili lina maana ya "simu" kwa Kihispania. Kumbuka kuandika alama ya msisitizo kwenye herufi ya pili `e`.
+Ova reč znači "simu" na španskom. Zapamti da staviš akcent na drugi slovo `e`.
 
 # --explanation--
 
-`Número de teléfono` inamaanisha "nambari ya simu" kwa Kihispania.
+`Número de teléfono` znači "broj telefona" na španski.
 
 # --scene--
 
