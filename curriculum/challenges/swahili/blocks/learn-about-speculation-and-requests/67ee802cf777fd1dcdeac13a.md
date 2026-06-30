@@ -1,50 +1,49 @@
 ---
 id: 67ee802cf777fd1dcdeac13a
-title: Zoezi la 19
+title: Vežba 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
 ---
-
-<!-- (audio) Sophie: No problem. You should also remember to use comments in your code. -->
+<!-- (audio) Sophie: Nema problema. Takođe bi trebalo da zapamtite da koristite komentare u svom kodu. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Ni hitaji gani ambalo Sophie amelitaja?
+Koje su to potrebe koje je Sofija pokazala?
 
 ## --answers--
 
-Mark anapaswaafuta mistari isiyo ya lazima ya msimbo.
+Mark treba da obriše nepotrebne linije koda.
 
 ### --feedback--
 
-Sophie hakuzungumzia kuhusu kufuta msimbo.
+Sophie nije pričala o brisanju koda.
 
 ---
 
-Mark anapaswa kuandika upya msimbo wake kabisa.
+Mark mora da potpuno prepravi svoj kod.
 
 ### --feedback--
 
-Sophie hakupendekeza kuandika upya msimbo mzima.
+Sophie nije predložila da se prepravi ceo kod.
 
 ---
 
-Mark anapaswa kuepuka kutumia loops.
+Mark treba da izbegava korišćenje petlji.
 
 ### --feedback--
 
-Sophie hakusema chochote kuhusu kuepuka loops.
+Sofija ne kaže ništa o izbegavanju petlji.
 
 ---
 
-Mark anapaswa kutumia maoni katika msimbo wake.
+Mark treba da koristi komentare u svom kodu.
 
 ## --video-solution--
 
@@ -52,13 +51,13 @@ Mark anapaswa kutumia maoni katika msimbo wake.
 
 # --explanation--
 
-`comment` ni maoni katika msimbo ambayo husaidia kuelezea kinachofanywa na msimbo huo. Kwa mfano:
+`comment` su komentari u kodu koji pomažu da se objasni šta taj kod radi. Primer:
 
-- `I added a comment to explain why this loop is necessary.` - Umeandika maoni kuelezea kwa nini loop fulani imetumika.
+- `I added a comment to explain why this loop is necessary.` - Dodajte komentar koji objašnjava zašto je korišćena određena petlja.
 
-- `You can use comments to leave notes about issues that need fixing later.` - Maoni yanaweza kuongezwa katika msimbo kama vikumbusho vya mambo yanayohitaji kurekebishwa au kuboreshwa.
+- `You can use comments to leave notes about issues that need fixing later.` - Komentari se mogu dodati u kod kao podsetnici za stvari koje treba popraviti ili poboljšati.
 
-Maoni husaidia wengine kuelewa msimbo na hukukumbusha wewe kuhusu maelezo muhimu wakati wa kukagua msimbo wako baadaye.
+Komentari pomažu drugima da razumeju kod i podsjećaju vas na važne detalje prilikom kasnijeg pregleda vašeg koda.
 
 # --scene--
 

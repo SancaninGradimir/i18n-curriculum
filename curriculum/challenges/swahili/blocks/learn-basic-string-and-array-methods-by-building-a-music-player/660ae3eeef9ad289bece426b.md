@@ -1,23 +1,23 @@
 ---
 id: 660ae3eeef9ad289bece426b
-title: Hatua 11
+title: Korak 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Katika miradi iliyopita, ulitumia kitendakazi cha kawaida. Lakini katika miradi mingine, utakuwa ukifanya kazi na <dfn>kitendakazi cha mshale</dfn>. Hatua chache zinazofuata zitazingatia kukuonyesha misingi ya kitendakazi cha mshale.
+U prethodnim projektima, koristili ste standardnu funkciju. Ali u drugim projektima, radićete sa <dfn>streličnom funkcijom</dfn>. Sledeće korake će se fokusirati na prikaz osnovnih principa strelične funkcije.
 
-Kitendakazi cha mshale ni usemi wa kihesabu wa kitendakazi kisicho na jina na ni njia fupi ya kuandika kitendakazi. Kisicho na jina maana yake ni kwamba kitendakazi hakina jina. Kitendakazi cha mshale huwa daima kisicho na jina.
+Strelična funkcija je matematička notacija za anonimnu funkciju i kratak način pisanja funkcije. Anonimno znači da funkcija nema ime. Strelična funkcija je uvek anonimna.
 
-Hii ndiyo sintaksia ya msingi:
+Ovo je osnovna sintaksa:
 
 ```js
 () => {}
 ```
 
-Kwa kuweka ufafanuzi wa kitendakazi cha mshale kwenye kigezo, unakiunganisha na kitambulisho.
+Postavljanjem definicije strelične funkcije na parametar, povezujete ga sa identifikatorom.
 
 ```js
 const exampleFunction = () => {
@@ -25,23 +25,23 @@ const exampleFunction = () => {
 }
 ```
 
-Unda kitendakazi kipya cha mshale na uweke thamani yake kwenye kigezo `printGreeting`. Ndani ya mwili wa kitendakazi, tumia njia ya `console.log()` kuchapisha mfuatano wa herufi `Hello there!`.
+Kreiraj novu strelicastu funkciju i postavi njenu vrednost u parametar `printGreeting`. Unutar tela funkcije, koristi metodu `console.log()` da ispiše niz znakova `Hello there!`.
 
 # --hints--
 
-Unapaswa kuwa na kigezo kinachoitwa `printGreeting` na ukaweke thamani ya kitendakazi cha mshale.
+Trebalo bi da imate parametar nazvan `printGreeting` i postavite mu vrednost funkcije strelice.
 
 ```js
 assert.isFunction(printGreeting);
 ```
 
-Unapaswa kuunda kitendakazi cha mshale na ukaweke kwenye kigezo `printGreeting`.
+Trebalo bi da kreirate funkciju strele i postavite je u parametar `printGreeting`.
 
 ```js
 assert.match(code, /(let|const)\s+printGreeting\s*=\s*\(.*\)\s*=>\s*{\s*[\s\S]*}\s*;?/)
 ```
 
-Kitendakazi chako cha `printGreeting` kinapaswa kuchapisha `Hello there!` kwenye konsoli.
+Tvoja funkcija od `printGreeting` treba da ispiše `Hello there!` na konzoli.
 
 ```js
 assert.match(printGreeting.toString(), /console\.log\(['"]Hello\s+there!['"]\)/);

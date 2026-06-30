@@ -1,16 +1,15 @@
 ---
 id: 680a3cf5ca047daf5e8ecff5
-title: Zoezi la 66
+title: Vežba 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: This way, we can understand the limits better before we launch it fully. -->
+<!-- (Audio) Sophie: Na ovaj način, možemo bolje razumeti granice pre nego što ga u potpunosti lansiramo. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,15 +23,15 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii hutumika kuonyesha kuwa jambo fulani hutokea mapema zaidi kuliko lingine.
+Ovo se koristi da pokaže da se nešto događa ranije nego nešto drugo.
 
 # --explanation--
 
-`Before` hutumika kuonyesha kuwa kitendo kimoja hutokea mapema kuliko kingine. Kwa mfano:
+`Before` koristi se da pokaže da jedna akcija dešava ranije od druge. Na primer:
 
-- `Please save your work before you close the program.` – Hii ina maana kuwa kuhifadhi kunapaswa kutokea mapema kabla ya kufunga programu.
+- `Please save your work before you close the program.` – To znači da je potrebno da se sačuvanje izvrši ranije, pre zatvaranja programa.
 
-- `He always checks his code carefully before submitting it.` – Hii ina maana kuwa ukaguzi hufanyika kwanza, kabla ya kitendo cha kuwasilisha.
+- `He always checks his code carefully before submitting it.` – Ovo znači da se provera obavlja prvo, pre akcije predaje.
 
 # --scene--
 

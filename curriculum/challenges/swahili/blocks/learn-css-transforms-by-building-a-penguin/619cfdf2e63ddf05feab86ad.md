@@ -1,17 +1,17 @@
 ---
 id: 619cfdf2e63ddf05feab86ad
-title: Hatua 47
+title: Korak 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Panga vipengele vya `.face` ili viwe `15%` kutoka juu.
+Postavite elemente za `.face` ili neka budu `15%` odozgo.
 
 # --hints--
 
-Unapaswa kumpa `.face` sifa ya `top`.
+Trebalo bi mu dati osobinu `.face` od `top`.
 
 ```js
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);

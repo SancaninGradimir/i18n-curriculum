@@ -1,23 +1,23 @@
 ---
 id: 655b4bbff1dbf66cb2ed4dac
-title: Hatua 97
+title: Korak 97
 challengeType: 0
 dashedName: step-97
 ---
 
 # --description--
 
-Tumia tamko la `if` kuangalia kama `nextSongExists` ipo, kisha fanya wito wa kitendakazi cha `playNextSong()` ndani ya kipande cha `if`. Hii itacheza moja kwa moja wimbo unaofuata wakati wimbo wa sasa unapomalizika.
+Koristite deklaraciju `if` da proverite da li `nextSongExists` postoji, a zatim pozovite funkciju `playNextSong()` unutar dela `if`. Ovo će automatski pustiti sledeću pesmu kada se trenutna pesma završi.
 
 # --hints--
 
-Unapaswa kuunda tamko la `if` lenye sharti la `nextSongExists`.
+Treba da napraviš deklaraciju `if` koja ima uslov `nextSongExists`.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*/)
 ```
 
-Unapaswa kuita kitendakazi cha `playNextSong` ndani ya tamko lako la `if`.
+Treba da pozoveš funkciju ``playNextSong`` unutar vaše deklaracije ``if``.
 
 ```js
 assert.match(code, /if\s*\(\s*nextSongExists\s*\)\s*\{\s*playNextSong\(\s*\)\s*;?\s*\}/)

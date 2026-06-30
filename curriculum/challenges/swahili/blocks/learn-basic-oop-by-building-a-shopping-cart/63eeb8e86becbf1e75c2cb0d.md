@@ -1,31 +1,31 @@
 ---
 id: 63eeb8e86becbf1e75c2cb0d
-title: Hatua 21
+title: Korak 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-Sasa unahitaji jumla ya kila bidhaa ambayo mtumizi ana katika gari la manunuzi. Tangaza variable ya `totalCountPerProduct`, na weka thamani yake kuwa kitu tupu.
+Sada vam je potreban ukupan zbir svih proizvoda koje korisnik ima u korpi za kupovinu. Deklarišite varijablu `totalCountPerProduct` i postavite joj vrednost na prazno.
 
 # --hints--
 
-Unapaswa kutangaza variable ya `totalCountPerProduct` katika kitendakazi chako cha `addItem`.
+Morate da deklarišete varijablu `totalCountPerProduct` u vašoj funkciji `addItem`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-Unapaswa kutumia `const` kutangaza `totalCountPerProduct`.
+Trebalo bi da koristite `const` za objavljivanje `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-Unapaswa kuweka thamani ya kitu tupu kwa `totalCountPerProduct`.
+Morate postaviti vrednost praznog objekta za `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];

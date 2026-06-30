@@ -1,34 +1,34 @@
 ---
 id: 681dbcca65bbda5f286dc0ca
-title: Tekeleza algoriti ya quicksort
+title: Implementiraj algoritam Quicksort
 challengeType: 27
 dashedName: implement-the-quicksort-algorithm
 ---
 
 # --description--
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili ukamilishe maabara.
+**Cilj:** Popunite korisničke priče ispod i prođite sve testove kako biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kufafanua kitendakazi kinachoitwa `quick_sort` ili kutekeleza algoriti ya quicksort.
+Trebalo bi da definišete funkciju nazvanu `quick_sort` ili implementirate algoritmu quicksort.
 
-1. Kitendakazi cha `quick_sort` kinapaswa kuchukua orodha ya nambari kamili kama ingizo na kurudisha orodha mpya ya nambari hizi zikiwa zimepangwa kutoka ndogo hadi kubwa.
+1. Funkcija ``quick_sort`` treba da primi listu kompletnih brojeva kao ulaz i vrati novu listu ovih brojeva sortiranu od najmanjeg do najvećeg.
 
-1. Ili kutekeleza algoriti, unapaswa:
-   - Chagua thamani ya pivot kutoka kwa vipengele vya orodha ya ingizo (tumia kipengele cha kwanza au cha mwisho cha orodha).
-   - Gawanya orodha ya ingizo katika orodha ndogo tatu: moja yenye vipengele vidogo kuliko pivot, moja yenye vipengele sawa na pivot, na moja yenye vipengele vikubwa kuliko pivot.
-   - Fanya wito wa kurudia wa `quick_sort` kupangilia orodha ndogo na kuunganisha orodha ndogo zilizopangwa ili kuzalisha orodha ya mwisho iliyopangwa.
+1. Da biste implementirali algoritam, morate:
+   - Izaberite vrednost pivot-a iz elemenata ulazne liste (koristite prvi ili poslednji element liste).
+   - Podelite ulaznu listu na tri podliste: jedna sa elementima manjim od pivot-a, jedna sa elementima jednaki pivot-u, i jedna sa elementima većim od pivot-a.
+   - Pozovite rekurzivni poziv ``quick_sort`` za sortiranje podlista i spajanje sortirane podliste kako biste dobili konačnu sortiranu listu.
 
 # --hints--
 
-Unapaswa kuwa na kitendakazi kinachoitwa `quick_sort`.
+Trebalo bi da imaš funkciju nazvanu `quick_sort`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_function("quick_sort")`) })
 ```
 
-Kitendakazi chako cha `quick_sort` kinapaswa kuchukua kigezo kimoja.
+Tvoja funkcija za `quick_sort` treba da uzme jedan parametar.
 
 ```js
 ({ test: () => runPython(`
@@ -38,13 +38,13 @@ assert len(sig.parameters) == 1
 `) })
 ```
 
-`quick_sort([])` inapaswa kurudisha orodha tupu.
+`quick_sort([])` Trebalo bi da vrati praznu listu.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([]) == []`) })
 ```
 
-Kitendakazi chako cha `quick_sort` hakipaswi kubadilisha orodha iliyotumwa kama hoja.
+Vaša funkcija od `quick_sort` ne bi trebalo da menja listu poslatu kao argument.
 
 ```js
 ({ test: () => runPython(`
@@ -54,31 +54,31 @@ assert _test_list == [20, 3, 14, 1, 5]
 `) })
 ```
 
-`quick_sort([20, 3, 14, 1, 5])` inapaswa kurudisha `[1, 3, 5, 14, 20]`.
+`quick_sort([20, 3, 14, 1, 5])` bi trebalo da vrati `[1, 3, 5, 14, 20]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([20, 3, 14, 1, 5]) == [1, 3, 5, 14, 20]`) })
 ```
 
-`quick_sort([83, 4, 24, 2])` inapaswa kurudisha `[2, 4, 24, 83]`.
+`quick_sort([83, 4, 24, 2])` trebalo bi vratiti `[2, 4, 24, 83]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([83, 4, 24, 2]) == [2, 4, 24, 83]`) })
 ```
 
-`quick_sort([4, 42, 16, 23, 15, 8])` inapaswa kurudisha `[4, 8, 15, 16, 23, 42]`.
+`quick_sort([4, 42, 16, 23, 15, 8])` treba da vrati `[4, 8, 15, 16, 23, 42]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([4, 42, 16, 23, 15, 8]) == [4, 8, 15, 16, 23, 42]`) })
 ```
 
-`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` inapaswa kurudisha `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
+`quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56])` trebalo bi vratiti `[11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`.
 
 ```js
 ({ test: () => runPython(`assert quick_sort([87, 11, 23, 18, 18, 23, 11, 56, 87, 56]) == [11, 11, 18, 18, 23, 23, 56, 56, 87, 87]`) })
 ```
 
-Hupaswi kuleta moduli yoyote au kutumia njia zilizojengwa ndani za kupanga katika msimbo wako.
+Ne smeš da uvoziš bilo koji modul ili koristi ugrađene metode za sortiranje u svoj kod.
 
 ```js
 ({ test: () => runPython(`

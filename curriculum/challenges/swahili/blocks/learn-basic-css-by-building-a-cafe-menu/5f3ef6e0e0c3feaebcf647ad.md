@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Hatua 47
+title: Korak 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Ongeza kipengele cha `h2` katika sehemu mpya na kimpatie maandishi ya `Desserts`.
+Dodaj komponentu `h2` na novo mesto i sa tekstom `Desserts`.
 
 # --hints--
 
-Haupasi kubadilisha kipengele chako cha `section` kilichopo.
+Morate da promenite vaš postojeći element `section`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Unapaswa kuongeza kipengele cha `h2` katika kipengele chako cha `section` cha pili.
+Treba da dodaš element `h2` u svoj drugi element `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Kipengele chako kipya cha `h2` kinapaswa kuwa na maandishi ya `Desserts`.
+Tvoja nova funkcija za `h2` bi trebalo da ima tekst `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);

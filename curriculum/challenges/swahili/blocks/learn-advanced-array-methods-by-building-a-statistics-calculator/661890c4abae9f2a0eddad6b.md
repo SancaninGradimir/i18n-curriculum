@@ -1,17 +1,17 @@
 ---
 id: 661890c4abae9f2a0eddad6b
-title: Hatua 22
+title: Korak 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Katika hatua chache zijazo, utafundishwa jinsi ya kubaini kama urefu wa safu ya data ni wa nambari hata au nambari isiyo hata, pamoja na jinsi ya kupata mediani. Kisha utaweza kutumia ulivyojifunza kwenye kitendakazi cha `getMedian`.
+U narednim koracima, naučićete kako da utvrdite da li je dužina niza podataka parno ili neparno brojevi, zajedno sa načinom pronalaženja medijane. Zatim ćete moći da koristite ono što ste naučili u funkciji `getMedian`.
 
-Ili kuangalia kama nambari ni hata au isiyo hata, unaweza kutumia <dfn>opereta wa moduli</dfn> `%`. Opereta wa moduli hurudisha mabaki ya mgawanyo wa nambari mbili.
+Da biste proverili da li je broj par ili neparizan, možete koristiti <dfn>opereta wa moduli</dfn> `%`. Opereta wa moduli vraća ostatak deljenja dva broja.
 
-Hapa kuna mfano wa kuangalia kama urefu wa safu ya data ni hata au isiyo hata:
+Evo primera za proveru da li je dužina niza podataka parna ili neparna:
 
 ```js
 // check if array length is even
@@ -21,29 +21,29 @@ arr.length % 2 === 0;
 arr.length % 2 === 1;
 ```
 
-Kama mabaki ni `0`, nambari ni hata. Kama mabaki ni `1`, nambari ni isiyo hata.
+Ako je ostatak `0`, broj je paran. Ako je ostatak `1`, broj je neparan.
 
-Tengeneza kigezo kinachoitwa `isEven`. Kisha tumia opereta wa moduli kuangalia kama urefu wa safu ya data ya `testArr2` ni hata. Weka usemi huo wa kihesabu kwenye kigezo cha `isEven`.
+Kreiraj parametar nazvan `isEven`. Zatim koristi modulo operator da proveri da li je dužina niza podataka `testArr2` parna. Stavi taj matematički izraz u parametar `isEven`.
 
-Chini ya kigezo chako cha `isEven`, andika thamani ya kigezo cha `isEven` kwenye konsoli.
+Za vaš parametar `isEven`, unesite vrednost parametra `isEven` u konzolu.
 
-Fungua konsoli kuona matokeo.
+Otvori konzolu da vidiš rezultate.
 
 # --hints--
 
-Unapaswa kuwa na kigezo cha `isEven`.
+Trebalo bi da imaš kriterijum za `isEven`.
 
 ```js
 assert.isDefined(isEven);
 ```
 
-Unapaswa kuangalia kama urefu wa safu ya data ya `testArr2` ni hata. Rejelea mfano uliotolewa kwako: `arr.length % 2 === 0;`
+Treba proveriti da li dužina reda podataka za `testArr2` je parna. Pogledajte primer koji vam je dat: `arr.length % 2 === 0;`
 
 ```js
 assert.isTrue(isEven);
 ```
 
-Unapaswa kuwa na tamko la `console.log` linaloandika kigezo cha `isEven`.
+Trebalo bi da imaš deklaraciju `console.log` koja definiše parametar `isEven`.
 
 ```js
 assert.match(code, /console\.log\(isEven\)/);

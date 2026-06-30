@@ -1,20 +1,19 @@
 ---
 id: 657cbef9aa43ceba8af6feb4
-title: Zoezi la 51
+title: Vežba 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
 ---
-
-<!-- (audio) Sophie: I think she has a passion for technology and enjoys leading our team. -->
+<!-- (audio) Sophie: Mislim da ima strast for tehnologiju i uživa u vođenju našeg tima. -->
 
 # --description--
 
-Unapopenda kufanya jambo sana, unaweza kusema unakupenda `enjoy`. Hii ni njia rahisi ya dhihirisha kwamba jambo fulani linakufanya uwe na furaha.
+Kada nešto jako voliš da radiš, možeš reći da ga volišeš `enjoy`. Ovo je jednostavan način da pokažeš da te nešto čini srećnim.
 
-Kwa mfano, unaweza kusema, `I enjoy playing video games`. Hii inamaanisha kucheza michezo ya video ni furaha kwako.
+Na primer, možete reći, `I enjoy playing video games`. Ovo znači da je igranje video igara radost za vas.
 
-Katika mazungumzo, Sophie anasema jambo ambalo Maria anafurahia katika kazi yake.
+Tokom razgovora, Sofija kaže nešto što Mariji prija u njenom radu.
 
 # --fillInTheBlank--
 
@@ -28,7 +27,7 @@ Katika mazungumzo, Sophie anasema jambo ambalo Maria anafurahia katika kazi yake
 
 ### --feedback--
 
-Kitenzi hiki kinamaanisha Maria anapenda jambo fulani na anahisi furaha akilifanya. Kinaishia kwa `-s`.
+Ovaj glagol znači da Marija voli nešto i oseća se srećno kada to radi. Završava sa `-s`.
 
 # --scene--
 

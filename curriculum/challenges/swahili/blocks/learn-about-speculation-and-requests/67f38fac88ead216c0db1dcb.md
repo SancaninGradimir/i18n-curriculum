@@ -1,24 +1,23 @@
 ---
 id: 67f38fac88ead216c0db1dcb
-title: Zoezi la 81
+title: Vežba 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
 ---
-
-<!-- (audio) Jake: Did you check whether there was any unusual access from external IPs or locations? -->
+<!-- (audio) Jake: Proverili ste li da li je bilo nekog neobičnog pristupa from eksternim IP adresama ili lokacijama? -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jessica bado hajakagua hilo, lakini atalifanya. Anapaswa kusema nini?
+Jessica još uvek nije proverila to, ali će ga uraditi. Šta bi trebalo da kaže?
 
 ## --answers--
 
@@ -30,7 +29,7 @@ ENaa826774
 
 ### --feedback--
 
-`Won't` ni kifupisho cha `will not`. Jessica anapanga kukagua.
+`Won't` je skraćenica za `will not`. Jessica planira da proveri.
 
 ---
 
@@ -46,11 +45,11 @@ EN97950753
 
 # --explanation--
 
-Jessica anajibu swali la Jake, akithibitisha kwamba bado hajakagua lakini atafanya hivyo. Jibu hili linaonyesha kwamba yuko tayari kutekeleza zoezi, ambalo linaendana na kile Jake anachoulizia.
+Jessica odgovara na pitanje Jakea, potvrđujući da još nije proverila, ali da to učiniće. Ovaj odgovor pokazuje da je spremna da izvrši vežbu/vežbanje, što odgovara onome što Jake pita.
 
-`No, I didn't` inathibitisha kwamba bado hajakagua.
+`No, I didn't` Potvrđuje da još uvek nije pregledano.
 
-`I'll do that` inaonyesha nia yake ya kutekeleza zoezi hivi karibuni.
+`I'll do that` pokazuje nameru da izvrši zadatak uskoro.
 
 # --scene--
 

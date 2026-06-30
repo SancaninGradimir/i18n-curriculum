@@ -1,17 +1,17 @@
 ---
 id: 63efdbc22a0c56070beabed7
-title: Hatua 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Uko kwenye njia sahihi! Hata hivyo, hebu tuchukue muda kushughulikia tatizo la kawaida linapokuja suala la kufanya kazi na vitu katika JavaScript.
+Vi ste na pravom putu! Međutim, hajde da odvojimo vreme za rešavanje uobičajnog problema kada je pitanju rad sa stvarima u JavaScript.
 
-Unapojaribu kupata upatikanaji wa sifa ya kitu ambacho hakipo, JavaScript hurudisha `undefined`. Ikiwa kisha utajaribu kufanya operesheni za kihesabu kwenye `undefined`, inaweza kusababisha matokeo yasiyotarajiwa, kama vile `NaN`.
+Kada pokušate da pristupite svojstvu objekta koje ne postoji, JavaScript vraća `undefined`. Ako zatim pokušate da izvršite matematičke operacije na `undefined`, to može izazvati neočekivene rezultate, kao što je `NaN`.
 
-Ili kuzuia hili, unaweza kutumia opereta wa `||` (logical OR) kutoa thamani ya msingi.
+Da biste ovo spriječili, možete koristiti operater `||` (logički ILI) da vratite podrazumevanu vrijednost.
 
 ```js
   let scores = {}; 
@@ -22,27 +22,27 @@ Ili kuzuia hili, unaweza kutumia opereta wa `||` (logical OR) kutoa thamani ya m
   });
 ```
 
-Sasa, hebu tumia dhana hii kwenye kitu chako cha `totalCountPerProduct` katika wito wa kurudisha wa `forEach`. Hakikisha kila sifa ya `dessert.id` imeanzishwa ipasavyo.
+Sada, upotrebite ovaj koncept u vašem `totalCountPerProduct` u pozivu za vraćanje od `forEach`. Osigurajte da je svako svojstvo `dessert.id` pravilno inicijalizovano.
 
-Anzisha `totalCountPerProduct[dessert.id]` na thamani ya msingi ya `0` kwa kutumia opereta wa `||`.
+Postavi `totalCountPerProduct[dessert.id]` sa podrazumevanom vrednošću `0` koristeći operator `||`.
 
 # --hints--
 
-Unapaswa kutumia uandishi wa nukta kupata sifa ya `id` ya `dessert`.
+Trebalo bi da koristiš pisanje tačaka da dobiješ atribut `id` od `dessert`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-Unapaswa kutumia uandishi wa mabano kupata sifa ya `totalCountPerProduct` inayolingana na `dessert.id`.
+Trebalo bi da koristite zapisivanje zagrada da biste dobili atribut `totalCountPerProduct` koji odgovara `dessert.id`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-Unapaswa kuanzisha `totalCountPerProduct[dessert.id]` na `0` kama thamani ya msingi kwa kutumia opereta wa `||` mwishoni mwa usemi wa kihesabu.
+Trebalo bi da inicijalizujete `totalCountPerProduct[dessert.id]` i `0` kao početne vrednosti koristeći operator `||` na kraju matematičkog izraza.
 
 ```js
 const cart = new ShoppingCart();

@@ -1,16 +1,15 @@
 ---
 id: 67fea5eff4f7ddccd1fe2bb9
-title: Zoezi la 22
+title: Vežba 22
 challengeType: 22
 dashedName: task-22
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: We might also consider having weekly updates for parts of the project where changes are less frequent. -->
+<!-- (Audio) Sarah: Takođe bismo mogli razmotriti sedmične ažuriranja for delovi projekta gde su promene manje učeste. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii inahusu jambo linalotokea mara moja kwa wiki.
+Ovo je o nečemu što se dešava jednom nedeljno.
 
 # --explanation--
 
-`Weekly` hutumika kuelezea jambo linalotokea mara moja tu kila wiki. Inaonyesha mara kwa mara ya tukio au tendo linalotokea kila wiki. Kwa mfano:
+`Weekly` Koristi se za opis događaja koji se dešava samo jednom nedeljno. Pokazuje učestalost događaja ili akcije koja se dešava svake nedelje. Primer:
 
-`The team has weekly meetings to discuss project progress.` – Hii ina maana mikutano hutokea kila wiki.
+`The team has weekly meetings to discuss project progress.` – To znači da se sastanci održavaju svake nedelje.
 
 # --scene--
 

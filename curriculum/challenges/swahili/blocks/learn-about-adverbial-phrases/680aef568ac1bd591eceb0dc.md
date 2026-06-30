@@ -1,16 +1,15 @@
 ---
 id: 680aef568ac1bd591eceb0dc
-title: Zoezi la 98
+title: Vežbanje la 98
 challengeType: 22
 dashedName: task-98
 lang: en-US
 ---
-
-<!-- (Audio) Riker: The ads cost more than we thought they would. -->
+<!-- (Audio) Riker: Oglasi su koštali više nego što smo mislili. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,15 +23,15 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ni fomu fupi ya kitu kinachomaanisha ujumbe au maudhui yaliyotengenezwa kukuza bidhaa, huduma, au tukio. Tumia umbo la wingi.
+Ovo je kratka forma za nešto što znači poruku ili sadržaj kreiran za promociju proizvoda, usluge ili događaja. Koristite množinu.
 
 # --explanation--
 
-`ad` (fupi ya `advertisement`) ni kipande cha maudhui kilichoundwa kuvutia watu na kuwahamasisha kununua kitu, kutumia huduma, au kuchukua hatua. Matangazo yanaweza kuonekana kwenye mitandao ya kijamii, tovuti, runinga, redio, na zaidi. Kwa mfano:
+`ad` (skraćeni deo `advertisement`) je deo sadržaja napravljen da privuče ljude i podstakne ih da kupuju nešto, koriste uslugu ili preduzmu neki korak. Reklame se mogu videti na društvenim mrežama, sajtovima, televiziji, radiju i slično. Na primer:
 
-- `They launched a new ad campaign for their latest product.` – Hii ina maana kampuni ilitengeneza na kushiriki maudhui ya kukuza ili kuongeza hamasa kwa bidhaa.
+- `They launched a new ad campaign for their latest product.` – To znači da je kompanija kreirala i podelila promotivni sadržaj kako bi povećala interesovanje za proizvod.
 
-- `We saw a lot of online ads for the holiday sale.` – Hii ina maana kulikuwa na ujumbe mwingi wa matangazo kuhusu mauzo kwenye tovuti au programu.
+- `We saw a lot of online ads for the holiday sale.` – Ovo znači da je bilo mnogo promotivnih poruka o prodaji na veb sajtu ili u aplikaciji.
 
 # --scene--
 

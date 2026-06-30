@@ -1,50 +1,49 @@
 ---
 id: 67ee4cbb541a7a0ae61bcc9f
-title: Zoezi la 4
+title: Vežba 4
 challengeType: 19
 dashedName: task-4
 lang: en-US
 ---
-
-<!-- (audio) Sophie: It's not a big deal, but we should fix it before it causes problems. -->
+<!-- (audio) Sophie: Nije veliki problem, ali bi trebalo da to popravimo pre nego što napravi probleme. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Je, kosa hili dogo ni kubwa?
+Da li je ova mala greška velika?
 
 ## --answers--
 
-Hapana, na hawahitaji kufanya chochote kuhusu hilo.
+Ne, oni ne moraju da rade ništa oko toga.
 
 ### --feedback--
 
-Sophie haisemi ni tatizo kubwa, lakini wanapaswa kulirekebisha.
+Ono što Sophie ne kaže je veliki problem, ali oni bi trebalo da to poprave.
 
 ---
 
-Ndiyo, litaangamiza mfumo mzima.
+Da, uništit će ceo sistem.
 
 ### --feedback--
 
-Sophie haisemi ni tatizo kubwa, ni jambo tu wanapaswa kulirekebisha.
+Sophie kaže da je to veliki problem, samo je nešto što bi trebalo da poprave.
 
 ---
 
-Ndiyo, Sophie ana wasiwasi mkubwa kuhusu hilo.
+Da, Sophie je veoma zabrinuta zbog toga.
 
 ### --feedback--
 
-Sophie hana wasiwasi mkubwa, lakini bado anadhani wanapaswa kulirekebisha.
+Sophie nije mnogo zabrinuta, ali i dalje misli da ga treba popraviti.
 
 ---
 
-Hapana, lakini linapaswa kulirekebishwa bado.
+Nije, ali to još treba popraviti.
 
 ## --video-solution--
 
@@ -52,13 +51,13 @@ Hapana, lakini linapaswa kulirekebishwa bado.
 
 # --explanation--
 
-`It's not a big deal` ina maana tatizo si kubwa. Kwa mfano:
+`It's not a big deal` to znači mali problem. Na primer:
 
 - **Monica:** `I can't join the meeting today.`
 
-- **Eva:** `It's not a big deal. I'll take notes for you.` - Kukosa mkutano ni sawa, na mtu huyu anaweza kusaidia.
+- **Eva:** `It's not a big deal. I'll take notes for you.` - Propustiti sastanak je u redu, a ova osoba može da pomogne.
 
-Sophie pia anasema `we should fix it before it causes problems`, ikimaanisha ni bora kulirekebisha sasa kabla halijawa tatizo kubwa.
+Sofija takođe kaže `we should fix it before it causes problems`, što znači da je bolje popraviti to sada pre nego što postane veliki problem.
 
 # --scene--
 

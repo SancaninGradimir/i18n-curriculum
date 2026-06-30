@@ -1,24 +1,23 @@
 ---
 id: 6856ddea73ea5fafe4d65cfc
-title: Zoezi la 95
+title: Vežba 95
 challengeType: 19
 dashedName: task-95
 lang: en-US
 ---
-
-<!-- (Audio) Jake: We could incorporate an interactive quiz during the onboarding process. It could teach users how to recognize and handle potential phishing attempts. -->
+<!-- (Audio) Jake: Mogli bismo uvesti interaktivni kviz tokom procesa usavršavanja. To bi moglo naučiti korisnike kako da prepoznaju i rešavaju potencijalne pokušaje phishinga. -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Linda angeweza kupongeza wazo la Jake vipi?
+Kako bi Linda mogla da pohvali ideju Jeka?
 
 ## --answers--
 
@@ -38,7 +37,7 @@ EN13416258
 
 ### --feedback--
 
-Hii inaonekana kuwa na shaka, si ya kuunga mkono.
+Ovo izgleda sumnjivo, nije podržano.
 
 ## --video-solution--
 
@@ -46,11 +45,11 @@ Hii inaonekana kuwa na shaka, si ya kuunga mkono.
 
 # --explanation--
 
-`That's an excellent suggestion` ni njia ya heshima na chanya ya kupongeza wazo la mtu kwa kuonyesha makubaliano makubwa na idhini. Kwa mfano:
+`That's an excellent suggestion` je način da se sa poštovanjem i pozitivno pohvali tuđa ideja pokazujući snažan konsenzus i odobrenje. Primer:
 
-- **Mbunifu wa picha:** `Let's add more visuals to the report.` – Mtu huyu anapendekeza kuingiza picha na michoro zaidi kwenye ripoti ili kuifanya ionekane wazi zaidi.
+- **Dizajner slika:** `Let's add more visuals to the report.` – Ova osoba preporučuje uključivanje više slika i crteža u izveštaj kako bi izgledao jasnije.
 
-- **Msimamizi wa mradi:** `That's an excellent suggestion.` – Hii ina maana mtu anadhani wazo ni zuri sana na lina msaada.
+- **Menadžer projekta:** `That's an excellent suggestion.` – Ovo znači da neko misli da je ideja veoma dobra i ima podršku.
 
 # --scene--
 

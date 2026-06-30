@@ -1,59 +1,59 @@
 ---
 id: 6143a83fcc32c26bcfae3efa
-title: Hatua 18
+title: Korak 18
 challengeType: 0
 dashedName: step-18
 ---
 
 # --description--
 
-Chini ya kipengele chako cha `.text`, tengeneza kipengele kipya cha `section` na kipa `class` ya `text text-with-images`. Ndani yake, tengeneza kipengele cha `article` chenye `class` iliyowekwa kuwa `brief-history`, na kipengele cha `aside` chenye `class` iliyowekwa kuwa `image-wrapper`.
+Ispod vašeg elementa `.text`, kreirajte novi element `section` sa svojstvom `class` od `text text-with-images`. Unutar njega, kreirajte element `article` sa `class` podešenim na `brief-history`, i element `aside` sa `class` podešenim na `image-wrapper`.
 
 # --hints--
 
-Unapaswa kutengeneza kipengele kipya cha `section`.
+Treba da napraviš novu komponentu za `section`.
 
 ```js
 assert(document.querySelectorAll('section')?.length === 3)
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuja baada ya kipengele chako cha `.text`.
+Tvoja nova sekcija `section` treba da dođe nakon tvoje sekcije `.text`.
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className === 'text')
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuwa na `class` iliyowekwa kuwa `text text-with-images`.
+Vaša nova komponenta za `section` mora imati `class` podešeno/postavljeno na `text text-with-images`.
 
 ```js
 assert(document.querySelectorAll('section')?.[2]?.className === 'text text-with-images')
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuwa na kipengele cha `article`.
+Vaša nova funkcija za `section` mora imati funkciju sa `article`.
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuwa na kipengele cha `aside`.
+Tvoj novi element `section` mora imati element `aside`.
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-Kipengele cha `article` kinapaswa kuja kabla ya kipengele cha `aside`.
+Element `article` treba da dođe prije elementa `aside`.
 
 ```js
 assert(document.querySelector('.text-with-images article')?.nextElementSibling?.localName === 'aside');
 ```
 
-Kipengele chako cha `article` kinapaswa kuwa na `class` iliyowekwa kuwa `brief-history`.
+Vaša komponenta od `article` treba da ima `class` postavljen na `brief-history`.
 
 ```js
 assert(document.querySelector('.text-with-images article')?.className === 'brief-history');
 ```
 
-Kipengele chako cha `aside` kinapaswa kuwa na `class` iliyowekwa kuwa `image-wrapper`.
+Element vašeg `aside` mora imati `class` postavljeno na `image-wrapper`.
 
 ```js
 assert(document.querySelector('.text-with-images aside')?.className === 'image-wrapper');

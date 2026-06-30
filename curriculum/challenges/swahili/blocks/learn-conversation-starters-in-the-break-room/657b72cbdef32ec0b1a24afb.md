@@ -1,36 +1,35 @@
 ---
 id: 657b72cbdef32ec0b1a24afb
-title: Zoezi la 30
+title: Vežba od 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
 ---
-
-<!-- (audio) Tom: Wow! Electric or acoustic? Sophie: Electric, for sure. -->
+<!-- (audio) Tom: Vau! Električno ili akustično? Sophie: Električno, for sigurno. -->
 
 # --description--
 
-Unaposikia kuhusu aina tofauti za gitaa, aina mbili maarufu zinaweza kutajwa: `electric` na `acoustic`.
+Kada čujete o različitim vrstama gitara, mogu se pomenuti dve popularne vrste: `electric` i `acoustic`.
 
-`Electric guitars` kawaida zinahitaji kitu kinachoitwa amplifier ili kusikika kwa sauti kubwa, wakati `acoustic guitars` zinaweza kusikika bila vifaa vya ziada.
+`Electric guitars` Normalno im je potreban uređaj koji se zove amplifikator kako bi se čuo glasniji zvuk, dok `acoustic guitars` mogu da se čuju bez dodatne opreme.
 
 # --questions--
 
 ## --text--
 
-Ni aina gani ya gitaa ambayo Sophie anapendelea?
+Koja vrsta gitare koju Sophie preferira?
 
 ## --answers--
 
-Electric guitar
+Elektronska gitara
 
 ---
 
-Acoustic guitar
+Akustična gitara
 
 ### --feedback--
 
-Sophie anafanya wazi kabisa aina gani ya gitaa anayopenda. Ile anayoipendelea inahitaji amplifier ili isikike kwa sauti kubwa.
+Sofija jasno pokazuje kakvu gitaru voli. Ona koju preferira zahteva pojačalo da bi zvučala glasanije.
 
 ## --video-solution--
 

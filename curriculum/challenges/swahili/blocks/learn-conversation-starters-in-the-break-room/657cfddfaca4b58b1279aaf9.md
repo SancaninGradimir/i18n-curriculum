@@ -1,20 +1,20 @@
 ---
 id: 657cfddfaca4b58b1279aaf9
-title: Zoezi la 74
+title: Vežba 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
-
 <!-- (audio) Sophie: Maria thinks challenges are positive. She encourages us to find solutions together. -->
+<!-- (audio) Sofija: Marija misli da su izazovi pozitivni. Ona nas podstiče da zajedno pronađemo rešenja. -->
 
 # --description--
 
-Kutoa `encourage` inamaanisha kumpa mtu msaada, kujiamini, au matumaini. Hii ndicho kocha mzuri hufanya kuwahamasisha timu yake kufanya vizuri zaidi.
+Kutoa `encourage` znači dati nekome pomoć, samopouzdanje ili nadu. To je ono što dobar trener radi kada motiviše svoj tim da postigne bolje rezultate.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -28,7 +28,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Kitenzi hiki kinahusu kuhamasisha au kuhamasisha mtu kufanya jambo fulani. Ni sawa na kumtia mtu moyo. Usisahau kuhusu mwisho `-s`.
+Ovaj glagol se odnosi na podsticanje ili motivisanje nekoga da nešto uradi. To je isto kao da mu se podigne raspoloženje. Ne zaboravite na kraj `-s`.
 
 # --scene--
 

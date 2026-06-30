@@ -1,13 +1,13 @@
 ---
 id: 62aa27c40ca6f04ab8be5fac
-title: Hatua 167
+title: Korak 167
 challengeType: 0
 dashedName: step-167
 ---
 
 # --description--
 
-Katika mradi uliopita, ulijifunza jinsi ya kufanya kazi na mizunguko ya `for` kama hii:
+U prethodnom projektu, naučili ste kako da radite sa petljama za `for` kao što je ovo:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -15,26 +15,26 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-Mizunguko ya `for` hutangazwa na usemi wa kihesabu tatu zilizoachwa na alama za nusu nukta: `for (a; b; c)`, ambapo `a` ni usemi wa uanzishaji, `b` ni sharti, na `c` ni usemi wa mwisho.
+Ciklusi za `for` su definisani sa tri matematička izraza, razdvojena tačkama-zarezima: `for (a; b; c)`, gde je `a` izraz za inicijalizaciju, `b` je uslov, a `c` je konačni izraz.
 
-Katika hatua hii, tengeneza mzunguko wa `for` ambapo `i` inaanzishwa kwa `0`, mzunguko unaendelea mradi `i` ni mdogo kuliko `10`, na `i` huongezwa kwa `1` baada ya kila mzunguko kwa kutumia opereta ya kuongeza `++`.
+Na ovom koraku, kreiraj petlju za `for` gde je `i` inicijalizovan sa `0`, petlja nastavlja proces/projekt `i` i manja je od `10`, a `i` se dodaje sa `1` nakon svake petlje koristeći operator zbrajanja `++`.
 
 
 # --hints--
 
-Uanzishaji wa mzunguko wako wa `for` unapaswa kuwa na `i` inaanzishwa kwa `0`.
+Inicijalizacija vašeg ciklusa za `for` treba da ima `i`, inicijalizuje se putem `0`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;/)
 ```
 
-Sharti la mzunguko wako linapaswa kuendelea mradi `i` ni mdogo kuliko `10`.
+Vaš uslov kruga za projekat `i` mora biti manji od `10`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;/)
 ```
 
-Mzunguko wako unapaswa kuongeza `i` kwa `1` baada ya kila mzunguko. Kumbuka kutumia opereta ya kuongeza `++`.
+Tvoj ciklus treba da doda `i` za `1` nakon svakog ciklusa. Zapamti koristiti operator za sabiranje `++`.
 
 ```js
 assert.match(pick.toString(), /for\s*\(\s*(let|var)\s+i\s*=\s*0\s*;\s*i\s*<\s*10\s*;\s*i\+\+\s*\)/)

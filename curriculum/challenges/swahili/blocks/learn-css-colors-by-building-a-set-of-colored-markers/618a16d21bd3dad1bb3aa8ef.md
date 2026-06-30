@@ -1,26 +1,26 @@
 ---
 id: 618a16d21bd3dad1bb3aa8ef
-title: Hatua 41
+title: Korak 41
 challengeType: 0
 dashedName: step-41
 ---
 
 # --description--
 
-Sasa ni wakati wa kuongeza maelezo mengine kwenye alama, kuanzia na ile ya kwanza.
+Sada je vreme da dodamo druge detalje na oznake, počevši od prve.
 
-Katika kipengele cha alama ya kwanza `div`, badilisha darasa la vitu `one` kuwa `red`.
+U elementu prve oznake `div`, promenite klasu objekata `one` u `red`.
 
 # --hints--
 
-Alama yako ya kwanza `div` haipaswi kuwa na darasa la vitu `one`.
+Tvoja prva oznaka `div` ne sme imati klasu objekata `one`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];
 assert(!containerFirstChild?.classList?.contains('one'));
 ```
 
-Alama yako ya kwanza `div` inapaswa kuwa na madarasa ya vitu `marker` na `red`.
+Tvoja prva oznaka `div` mora imati klase objekata `marker` i `red`.
 
 ```js
 const containerFirstChild = [...document.querySelector('.container')?.children][0];

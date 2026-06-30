@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Hatua 10
+title: Korak 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Ifuatayo, ndani ya kipengele cha `div`, ongeza kipengele kingine cha `div` na kimpatie darasa la vitu la `marker`.
+Sledeće, unutar elementa `div`, dodajte drugi element od `div` i dodelite mu klasu za `marker`.
 
 # --hints--
 
-Kipengele chako kipya cha `div` kinapaswa kuwa na lebo ya kufungua.
+Tvoja nova karakteristika `div` treba da ima labelu za otvaranje.
 
 ```js
 assert([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Kipengele chako kipya cha `div` kinapaswa kuwa na lebo ya kufunga.
+Tvoja nova komponenta `div` treba da ima zatvarajući tag.
 
 ```js
 assert([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-Unapaswa kupanga ndani kipengele chako kipya cha `div` ndani ya `div` yenye darasa la vitu la `container`.
+Trebalo bi da postavite u vaš novi element/komponentu za `div`, unutar `div` koji ima klasu objekata `container`.
 
 ```js
 assert(document.querySelector('.container')?.children[0]?.localName === 'div');
 ```
 
-Unapaswa kumpa kipengele chako kipya cha `div` darasa la vitu la `marker`.
+Trebalo bi mu dati tvoju novu osobinu iz klase objekata `div` `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

@@ -1,24 +1,23 @@
 ---
 id: 67efdfa59ffafb1f2a56381e
-title: Zoezi la 55
+title: Vežba 55
 challengeType: 19
 dashedName: task-55
 lang: en-US
 ---
-
-<!-- (audio) Jessica: Hey Jake, we had a security breach reported last night. I wanted to discuss what might have caused it. Do you have any ideas? -->
+<!-- (audio) Jessica: Hej Jake, noćas nam je prijavljen sigurnosni propust. Htela sam da razgovaram o tome šta ga je moglo uzrokovati. Imaš li neke ideje? -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jake hana shida kujadili tatizo na Jessica. Anaweza kusema nini?
+Jake nema problema da razgovara o problemu sa Jessicom. Šta može reći?
 
 ## --answers--
 
@@ -38,7 +37,7 @@ EN9d00ecb9
 
 ### --feedback--
 
-Jibu hili halilingani na ombi kwa sababu Jake hana shida kujadili tatizo.
+Ovaj odgovor ne odgovara zahtevu zato što Jake nema problema sa diskutovanjem problema.
 
 ## --video-solution--
 
@@ -46,13 +45,13 @@ Jibu hili halilingani na ombi kwa sababu Jake hana shida kujadili tatizo.
 
 # --explanation-- 
 
-Jessica anauliza, `Do you have any ideas?`, ambayo ni njia ya kumkaribisha mtu kushiriki mawazo au maoni yake.
+Jessica pita, `Do you have any ideas?`, što je način da se nekoga pozove da podeli svoje misli ili mišljenje.
 
-`Sure, Jessica` ni njia ya kuonyesha kuwa uko tayari kujadili tatizo. Mfano mwingine:
+`Sure, Jessica` je način da pokažeš da si spreman za diskusiju problema. Drugi primer:
 
-- **Noah:** `Do you have any ideas how to fix it?` - Mtu huyu anauliza mapendekezo au suluhisho.
+- **Noah:** `Do you have any ideas how to fix it?` - Ova osoba traži predloge ili rešenje.
 
-- **David:** `Sure. We could check the server logs and see what's wrong.` - Mtu huyu anasema ndiyo, na yuko tayari kushiriki pendekezo.
+- **David:** `Sure. We could check the server logs and see what's wrong.` - Ova osoba kaže da jeste i spremna je da podeli predlog.
 
 # --scene--
 

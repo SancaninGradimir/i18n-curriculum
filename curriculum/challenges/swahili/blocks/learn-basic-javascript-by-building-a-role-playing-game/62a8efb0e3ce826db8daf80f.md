@@ -1,23 +1,23 @@
 ---
 id: 62a8efb0e3ce826db8daf80f
-title: Hatua 133
+title: Korak 133
 challengeType: 0
 dashedName: step-133
 ---
 
 # --description--
 
-Malizia kitendakazi cha `defeatMonster` kwa kuita kitendakazi cha `update` ukiwa na `locations[4]` kama hoja.
+Pozovi funkciju `defeatMonster` pozivom funkcije `update` sa `locations[4]` kao argument.
 
 # --hints--
 
-Unapaswa kuita kitendakazi cha `update`.
+Trebalo bi da pozoveš funkciju `update`.
 
 ```js
 assert.match(defeatMonster.toString(), /update/);
 ```
 
-Unapaswa kupitisha `locations[4]` kama hoja.
+Trebalo bi da prosledite `locations[4]` kao argument.
 
 ```js
 assert.match(defeatMonster.toString(), /update\(\s*locations\s*\[\s*4\s*\]\s*\)/);

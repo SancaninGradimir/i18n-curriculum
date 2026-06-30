@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e087d56ed3ffdc36be
-title: Hatua 61
+title: Korak 61
 challengeType: 0
 dashedName: step-61
 ---
 
 # --description--
 
-Sasa tumia darasa la `established` kwa maandishi ya `Est. 2020`.
+Sada koristi klasu `established` za tekst `Est. 2020`.
 
 # --hints--
 
-Unapaswa kuweka `class` ya kipengele cha `p` kuwa `established`.
+Trebalo bi da postavite `class` elementa `p` na `established`.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Darasa lako la `established` linapaswa kuwa kwenye kipengele chenye maandishi ya `Est. 2020`.
+Vaša klasa za `established` treba da bude u elementu sa tekstom `Est. 2020`.
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Kipengele chenye darasa la `established` kinapaswa kuwa na maandishi ya herufi za mviringo.
+Element sa klasom `established` treba da ima tekst sa zaobljenim slovima.
 
 ```js
 const establishElement = document.querySelector('.established');

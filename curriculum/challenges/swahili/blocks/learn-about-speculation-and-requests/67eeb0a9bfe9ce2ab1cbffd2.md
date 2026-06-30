@@ -1,50 +1,49 @@
 ---
 id: 67eeb0a9bfe9ce2ab1cbffd2
-title: Zoezi la 29
+title: Vežba 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
 ---
-
-<!-- (audio) Sophie: Great. Also, you should have run the test suite before submitting your code. -->
+<!-- (audio) Sophie: Odlično. Takođe, trebalo je da pokrenete test suite pre slanja vašeg koda. -->
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali hapa chini.
+Slušajte zvuk prema pitanju ispod.
 
 # --questions--
 
 ## --text--
 
-Nini kingine Mark angepaswa kufanya?
+Šta još Mark treba da uradi?
 
 ## --answers--
 
-Angepaswa kuandika upya msimbo wake wote.
+Mora se prepisati sav njegov kod.
 
 ### --feedback--
 
-Mark hakuhitaji kuandika upya kila kitu.
+Mark nije morao da prepravi sve.
 
 ---
 
-Angepaswa kujaribu msimbo wake kwanza.
+Trebalo je da prvo isproba svoj kod.
 
 ---
 
-Angepaswa kuondoa maoni yote.
+Svi komentari moraju biti uklonjeni.
 
 ### --feedback--
 
-Maoni ni muhimu na hayapaswi kuondolewa.
+Komentari su važni i ne bi trebalo da se uklanjaju.
 
 ---
 
-Angepaswa kuruka majaribio kwa sababu huchukua muda mrefu sana.
+Trebalo bi da preskočiš testiranje jer traje predugo.
 
 ### --feedback--
 
-Kujaribu ni hatua muhimu kabla ya kuwasilisha msimbo.
+Testiranje je važan korak pre predaje koda.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ Kujaribu ni hatua muhimu kabla ya kuwasilisha msimbo.
 
 # --explanation--
 
-`test suite` ni mkusanyiko wa majaribio yanayokagua kama programu inafanya kazi ipasavyo. Kwa mfano:
+`test suite` je kolekcija testova koja proverava da li program radi ispravno. Na primer:
 
-- `We ran the test suite to check if the app works properly.` - Timu ilitekeleza majaribio yote kuhakikisha programu inafanya kazi kama inavyotarajiwa.
+- `We ran the test suite to check if the app works properly.` - Tim je sproveo sve testove kako bi osigurao da program radi onako kako je očekivano.
 
-- `We need to add more tests to the test suite to check for edge cases.` - Timu inapaswa kujumuisha majaribio zaidi kufunika hali zote zinazowezekana.
+- `We need to add more tests to the test suite to check for edge cases.` - Tim bi trebalo da uključi više testova kako bi pokrio sve moguće scenarije.
 
 # --scene--
 

@@ -1,15 +1,15 @@
 ---
 id: 62aa264d23cdaa45a20efada
-title: Hatua 163
+title: Korak 163
 challengeType: 0
 dashedName: step-163
 ---
 
 # --description--
 
-Baada ya safu yako ya `numbers`, tengeneza mzunguko wa `while` unaoendelea kazi mradi `numbers.length` iko chini ya `10`.
+Nakon vašeg reda `numbers`, kreiraj ciklus `while` koji nastavlja rad projekta `numbers.length` i nalazi se ispod `10`.
 
-Katika mradi uliopita, ulijifunza jinsi ya kufanya kazi na mizunguko ya `while` kama hii:
+U prethodnom projektu, naučili ste kako da radite sa petljama za `while` kao što je ovo:
 
 ```js
 while (condition) {
@@ -19,13 +19,13 @@ while (condition) {
 
 # --hints--
 
-Kitendakazi chako cha `pick` kinapaswa kuwa na mzunguko wa `while`.
+Tvoja funkcija za `pick` mora imati ciklus od `while`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(/);
 ```
 
-Mzunguko wako wa `while` unapaswa kuendelea mradi `numbers.length < 10`.
+Vaš ciklus od `while` bi trebalo da nastavi projekat `numbers.length < 10`.
 
 ```js
 assert.match(pick.toString(), /while\s*\(\s*numbers\.length\s*<\s*10\s*\)/);

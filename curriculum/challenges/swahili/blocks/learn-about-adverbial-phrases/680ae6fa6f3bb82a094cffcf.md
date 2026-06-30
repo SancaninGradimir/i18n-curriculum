@@ -1,24 +1,23 @@
 ---
 id: 680ae6fa6f3bb82a094cffcf
-title: Zoezi la 91
+title: Vežba 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
 ---
-
-<!-- (Audio) Riker: The UK and Germany saw the most improvement, even more than we expected. -->
+<!-- (Audio) Riker: Velika Britanija i Nemačka su pokazale najveći napredak, čak i veći nego što smo očekivali. -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Slušaj audio snimak i odgovori na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Maria angeweza kusema nini kuonyesha kwamba ameshangazwa kwa furaha na matokeo?
+Šta bi Marija mogla da kaže kako bi pokazala da je srećno iznenađena rezultatima?
 
 ## --answers--
 
@@ -38,7 +37,7 @@ EN342dc19a
 
 ### --feedback--
 
-Hii inaonyesha ukosefu wa kujiamini, si msisimko kuhusu matokeo.
+Ovo pokazuje nedostatak samopouzdanja, a ne uzbuđenje oko rezultata.
 
 ## --video-solution--
 
@@ -46,9 +45,9 @@ Hii inaonyesha ukosefu wa kujiamini, si msisimko kuhusu matokeo.
 
 # --explanation--
 
-`Impressive` ina maana kwamba kitu ni cha kustahili kuzingatiwa, kupongezwa, au kuheshimiwa kwa sababu ni kizuri sana, kikubwa, au kinafaa kwa kiwango cha kipekee. Kwa mfano:
+`Impressive` znači da je nešto vrijedno pažnje, pohvale ili poštovanja jer je vrlo lijepo, veliko ili prikladno na izuzetnom nivou. Na primjer:
 
-`Your presentation was really impressive! It covered everything clearly and confidently.` – Hii ina maana kwamba maonyesho yalikuwa ya ubora wa juu na yaliwaacha watu na hisia nzuri kali.
+`Your presentation was really impressive! It covered everything clearly and confidently.` – To znači da su nastupi bili visokog kvaliteta i ostavili ljude sa snažnim pozitivnim osećanjima.
 
 # --scene--
 

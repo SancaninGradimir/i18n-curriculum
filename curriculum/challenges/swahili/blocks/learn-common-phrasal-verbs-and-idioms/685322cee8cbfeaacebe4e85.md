@@ -1,16 +1,15 @@
 ---
 id: 685322cee8cbfeaacebe4e85
-title: Zoezi la 28
+title: Vežba 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
 ---
-
 <!-- (Audio) Anna: Great idea, Brian. Encouraging growth is key. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii inamaanisha maendeleo au ukuzaji, hasa katika ujuzi au maarifa.
+Ovo znači razvoj ili usavršavanje, posebno u veštinama ili znanju.
 
 # --explanation--
 
-`Growth` inamaanisha kuboresha au ukuzaji, mara nyingi katika maarifa, ujuzi, au uwezo. Kwa mfano:
+`Growth` to znači poboljšanje ili razvoj, često u znanju, veštinama ili sposobnostima. Na primer:
 
-`The company supports professional growth through regular training sessions.` – Hii inamaanisha kampuni husaidia wafanyakazi kuboresha na kukuza ujuzi wao.
+`The company supports professional growth through regular training sessions.` – Ovo znači da kompanija pomaže zaposlenima da poboljšaju i razviju svoje veštine.
 
 # --scene--
 

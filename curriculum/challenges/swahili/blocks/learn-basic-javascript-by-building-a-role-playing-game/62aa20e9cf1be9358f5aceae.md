@@ -1,23 +1,23 @@
 ---
 id: 62aa20e9cf1be9358f5aceae
-title: Hatua 151
+title: Korak 151
 challengeType: 0
 dashedName: step-151
 ---
 
 # --description--
 
-Ongeza tamko la `else` kwenye tamko la kwanza la `if` ndani ya kitendakazi chako cha `attack()`. Katika tamko la `else`, tumia opereta wa `+=` kuongeza maandishi `" You miss."` mwishoni mwa `text.innerText`.
+Dodaj deklaraciju `else` u prvu izjavu od `if` unutar tvoje funkcije `attack()`. U deklaraciji `else`, koristi operater `+=` da doda tekst `" You miss."` na kraju `text.innerText`.
 
 # --hints--
 
-Unapaswa kuongeza kipande cha `else` baada ya kipande chako cha `if (isMonsterHit())`.
+Treba da dodaš deo `else` nakon tvog dela `if (isMonsterHit())`.
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else/)
 ```
 
-Unapaswa kuongeza maandishi `" You miss."` mwishoni mwa `text.innerText`. Kumbuka kutumia mgawo mchanganyiko na hakikisha kuna nafasi kabla ya neno `You`.
+Treba da dodaš tekst `" You miss."` na kraj `text.innerText`. Zapamti da koristiš kombinovani razmak i osiguraj da postoji razmak pre reči `You`.
 
 ```js
 assert.match(attack.toString(), /if\s*\(\s*isMonsterHit\(\s*\)\s*\)\s*\{\s*monsterHealth\s*-=\s*weapons\s*\[\s*currentWeaponIndex\s*\]\s*\.power\s*\+\s*Math\.floor\(\s*Math\.random\(\s*\)\s*\*\s*xp\s*\)\s*\+\s*1\s*;?\s*\}\s*else\s*\{\s*text\.innerText\s*\+=\s*('|")\sYou miss\.\1/)

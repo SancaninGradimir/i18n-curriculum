@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd18
-title: Jenga ukurasa wa heshima
+title: Izgradi stranicu časti
 challengeType: 25
 demoType: onClick
 dashedName: build-a-tribute-page
@@ -9,9 +9,9 @@ saveSubmissionToDB: true
 
 # --description--
 
-**Lengo:** Timiza hadithi za mtumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Popunite korisničke priče navedene ispod i prođite sve testove kako biste završili laboratorijum.
 
-**Hadithi za mtumizi:**
+Priče o korisniku:
 
 1. Ukurasa wako wa heshima unapaswa kuwa na kipengele cha `main` chenye `id` inayolingana ya `main`, ambayo ina vipengele vyote vingine.
 1. Unapaswa kuona kipengele chenye `id` ya `title`, kinachojumuisha mfuatano wa herufi (yaani maandishi), kinachoelezea somo la ukurasa wa heshima (mfano "Dr. Norman Borlaug").
@@ -23,11 +23,11 @@ saveSubmissionToDB: true
 1. `#image` yako inapaswa kutumia mali za `max-width` na `height` kubadilika ukubwa kulingana na upana wa kipengele cha mzazi wake, bila kuzidi ukubwa wake wa awali.
 1. Kipengele chako cha `img` kinapaswa kuwekwa katikati ndani ya kipengele cha mzazi wake.
 
-**Kumbuka:** Hakikisha unaunganisha karatasi yako ya mitindo (stylesheet) katika HTML yako na kutumia CSS yako.
+**Napomena:** Uverite se da povezujete vaš stilski fajl (stylesheet) u HTML i koristite CSS.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `main` chenye `id` ya `main`.
+Trebalo bi da imaš element sa `main` koji ima `id` od `main`.
 
 ```js
 const el = document.getElementById('main');
@@ -35,7 +35,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'MAIN');
 ```
 
-`#img-div`, `#image`, `#img-caption`, `#tribute-info`, na `#tribute-link` zako zinapaswa zote kuwa mzao wa `#main`.
+`#img-div`, `#image`, `#img-caption`, `#tribute-info`, i na `#tribute-link` vaše bi sve trebalo da budu potomak od `#main`.
 
 ```js
 const el1 = document.querySelector('#main #img-div');
@@ -50,14 +50,14 @@ assert.isNotNull(el4);
 assert.isNotNull(el5);
 ```
 
-Unapaswa kuwa na kipengele chenye `id` ya `title`.
+Trebalo bi da imaš element sa `id` od `title`.
 
 ```js
 const el = document.getElementById('title');
 assert.isNotNull(el);
 ```
 
-`#title` yako haipaswi kuwa tupu.
+`#title` Ne bi smelo biti prazno.
 
 ```js
 const el = document.getElementById('title');
@@ -65,7 +65,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText.trim());
 ```
 
-Unapaswa kuwa na kipengele cha `figure` au `div` chenye `id` ya `img-div`.
+Trebalo bi da imate element `figure` ili `div` sa `id` od `img-div`.
 
 ```js
 const el = document.getElementById('img-div');
@@ -73,7 +73,7 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGURE');
 ```
 
-Unapaswa kuwa na kipengele cha `img` chenye `id` ya `image`.
+Trebalo bi da imaš element `img` sa `id` od `image`.
 
 ```js
 const el = document.getElementById('image');
@@ -81,14 +81,14 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'IMG');
 ```
 
-`#image` yako inapaswa kuwa mzao wa `#img-div`.
+`#image` bi trebalo da bude proizvod od `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #image');
 assert.isNotNull(el);
 ```
 
-Unapaswa kuwa na kipengele cha `figcaption` au `div` chenye `id` ya `img-caption`.
+Trebalo bi da imaš element `figcaption` ili `div` sa `id` od `img-caption`.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -96,14 +96,14 @@ assert.isNotNull(el);
 assert.isTrue(el.tagName === 'DIV' || el.tagName === 'FIGCAPTION');
 ```
 
-`#img-caption` yako inapaswa kuwa mzao wa `#img-div`.
+`#img-caption` tvoje bi trebalo da bude proizvod od `#img-div`.
 
 ```js
 const el = document.querySelector('#img-div #img-caption');
 assert.isNotNull(el);
 ```
 
-`#img-caption` yako haipaswi kuwa tupu.
+`#img-caption` Ne bi trebalo da bude prazno.
 
 ```js
 const el = document.getElementById('img-caption');
@@ -111,14 +111,14 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-Unapaswa kuwa na kipengele chenye `id` ya `tribute-info`.
+Trebalo bi da imaš element sa `id` od `tribute-info`.
 
 ```js
 const el = document.getElementById('tribute-info');
 assert.isNotNull(el);
 ```
 
-`#tribute-info` yako haipaswi kuwa tupu.
+`#tribute-info` Vaše ne sme biti prazno.
 
 ```js
 const el = document.getElementById('tribute-info');
@@ -126,7 +126,7 @@ assert.isNotNull(el);
 assert.isNotEmpty(el.innerText);
 ```
 
-Unapaswa kuwa na kipengele cha `a` chenye `id` ya `tribute-link`.
+Trebalo bi da imaš element sa `a` koji ima `id` od `tribute-link`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -134,7 +134,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.tagName, 'A');
 ```
 
-`#tribute-link` yako inapaswa kuwa na sifa ya `href` na thamani yake.
+`#tribute-link` mora imati svojstvo `href` i njegovu vrednost.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -143,7 +143,7 @@ assert.isNotNull(el.href);
 assert.isNotEmpty(el.href);
 ```
 
-`#tribute-link` yako inapaswa kuwa na sifa ya `target` iliyowekwa kuwa `_blank`.
+`#tribute-link` mora imati svojstvo od `target` postavljeno na `_blank`.
 
 ```js
 const el = document.getElementById('tribute-link');
@@ -151,7 +151,7 @@ assert.isNotNull(el);
 assert.strictEqual(el.target, '_blank');
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na `display` ya `block`.
+Vaš element za `img` bi trebalo da ima `display` od `block`.
 
 ```js
 const img = document.getElementById('image');
@@ -160,7 +160,7 @@ const style = imgStyle?.getPropertyValue('display');
 assert.strictEqual(style, 'block');
 ```
 
-`#image` yako inapaswa kuwa na `max-width` ya `100%`.
+`#image` vaše bi trebalo da ima `max-width` od `100%`.
 
 ```js
 const img = document.getElementById('image');
@@ -169,7 +169,7 @@ const style = imgStyle?.getPropertyValue('max-width');
 assert.strictEqual(style, '100%');
 ```
 
-`#image` yako inapaswa kuwa na `height` ya `auto`.
+`#image` tvoj bi trebalo da ima `height` od `auto`.
 
 ```js
 // taken from the testable-projects repo
@@ -183,7 +183,7 @@ img?.style.setProperty('display', oldDisplayValue, oldDisplayPriority);
 assert.strictEqual(heightValue, 'auto');
 ```
 
-`#image` yako inapaswa kuwekwa katikati ndani ya mzazi wake.
+`#image` Trebalo bi da se postavi/lokalizuje u centar unutar svog roditelja.
 
 ```js
 // taken from the testable-projects repo

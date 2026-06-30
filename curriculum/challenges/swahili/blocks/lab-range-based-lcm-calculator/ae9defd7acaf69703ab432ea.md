@@ -1,61 +1,61 @@
 ---
 id: ae9defd7acaf69703ab432ea
-title: Tekeleza kalkuleta ya LCM inayotegemea safu ya nambari
+title: Kalkulator za najmanji zajednički sadržalnik (LCM) koji zavisi od reda brojeva
 challengeType: 26
 dashedName: implement-a-range-based-lcm-calculator
 ---
 
 # --description--
 
-Katika maabara hii, utaunda kitendakazi kinachopokea safu ya data yenye nambari mbili na kurudisha nambari ndogo kabisa ya kawaida (LCM) ya nambari hizo mbili na nambari zote zilizo kati yao.
+U ovoj laboratoriji, kreiraćete funkciju koja prima niz podataka sa dva broja i vraća najmanji zajednički sadržalj (NZS) tih dva broja i svih brojeva između njih.
 
-**Lengo**: Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara hii.
+**Cilj**: Popunite priče korisnika ispod i prođite sve testove kako biste završili ovaj rad.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kuwa na kitendakazi `smallestCommons` kinachokubali safu ya data yenye nambari mbili kama hoja.
-1. Kitendakazi `smallestCommons` kinapaswa kurudisha nambari ndogo kabisa ya kawaida inayogawika sawasawa na nambari zote mbili pamoja na nambari zote mfululizo zilizo katika safu kati yao.
-1. Kitendakazi kinapaswa kushughulikia ingizo ambapo nambari hizo mbili haziko kwa mpangilio wa nambari.
+1. Trebalo bi da postoji funkcija `smallestCommons` koja prima niz od dve brojeve kao argumente.
+1. Funkcija `smallestCommons` treba da vrati najmanji zajednički broj koji je deljiv sa oba broja, zajedno sa svim uzastopnim brojevima u opsegu između njih.
+1. Funkcija treba da obradi ulaz gde ta dva broja nisu u numeričkom redosledu.
 
 # --hints--
 
-Unapaswa kuwa na kitendakazi `smallestCommons`.
+Trebalo bi da imaš funkciju `smallestCommons`.
 
 ```js
 assert.isFunction(smallestCommons);
 ```
 
-`smallestCommons([1, 5])` inapaswa kurudisha nambari.
+`smallestCommons([1, 5])` Trebalo bi da vrati broj.
 
 ```js
 assert.isNumber(smallestCommons([1, 5]));
 ```
 
-`smallestCommons([1, 5])` inapaswa kurudisha `60`.
+`smallestCommons([1, 5])` trebalo bi da vrati `60`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 5]), 60);
 ```
 
-`smallestCommons([5, 1])` inapaswa kurudisha `60`.
+`smallestCommons([5, 1])` treba da vrati `60`.
 
 ```js
 assert.strictEqual(smallestCommons([5, 1]), 60);
 ```
 
-`smallestCommons([2, 10])` inapaswa kurudisha `2520`.
+`smallestCommons([2, 10])` treba da vrati `2520`.
 
 ```js
 assert.strictEqual(smallestCommons([2, 10]), 2520);
 ```
 
-`smallestCommons([1, 13])` inapaswa kurudisha `360360`.
+`smallestCommons([1, 13])` treba da vrati `360360`.
 
 ```js
 assert.strictEqual(smallestCommons([1, 13]), 360360);
 ```
 
-`smallestCommons([23, 18])` inapaswa kurudisha `6056820`.
+`smallestCommons([23, 18])` trebalo bi da vrati `6056820`.
 
 ```js
 assert.strictEqual(smallestCommons([23, 18]), 6056820);

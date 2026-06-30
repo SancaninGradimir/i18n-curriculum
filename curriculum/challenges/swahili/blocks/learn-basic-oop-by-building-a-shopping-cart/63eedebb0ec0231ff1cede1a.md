@@ -1,45 +1,45 @@
 ---
 id: 63eedebb0ec0231ff1cede1a
-title: Hatua 22
+title: Korak 22
 challengeType: 0
 dashedName: step-22
 ---
 
 # --description--
 
-Tumia njia ya `.forEach()` kupita kwenye safu ya data ya `items`. Pitia kitendakazi cha mwitiko tupu kinachochukua kigezo kimoja `dessert`.
+Koristi putanju `.forEach()` da prođeš kroz niz podataka `items`. Pozovi praznu funkciju koja uzima jedan parametar `dessert`.
 
 # --hints--
 
-Unapaswa kutumia njia ya `.forEach()` kwenye safu ya data yako ya `items`.
+Trebalo bi da koristiš putanju `.forEach()` na redu sa podacima `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Kumbuka kutumia neno kuu la `this` kupata upatikanaji wa safu ya data ya `items`.
+Zapamtite da koristite glavnu reč `this` da biste dobili pristup nizu podataka `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-Unapaswa kupitisha kitendakazi cha mwitiko kwa njia ya `.forEach()`.
+Trebalo bi da prosledite funkciju povratnika putem `.forEach()`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Kitendakazi chako cha mwitiko kinapaswa kuchukua kigezo kimoja.
+Vaša funkcija za odgovor mora da primi jedan parametar.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Kitendakazi chako cha mwitiko kinapaswa kuwa tupu.
+Funkcija tvog odgovora mora biti prazna.
 
 ```js
 const cart = new ShoppingCart();

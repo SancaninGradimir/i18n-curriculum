@@ -1,40 +1,40 @@
 ---
 id: 655b4dad1d38ff7cdd65cbfe
-title: Hatua 99
+title: Korak 99
 challengeType: 0
 dashedName: step-99
 ---
 
 # --description--
 
-Kwa kila kitu kikiwa kimewekwa mahali pake, fanya wito wa vitendakazi vya `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, na `setPlayButtonAccessibleText()` ili kusasisha mchezaji kwa usahihi.
+Za svaki predmet koji je na svom mestu, pozovite funkcije `pauseSong()`, `setPlayerDisplay()`, `highlightCurrentSong()`, i `setPlayButtonAccessibleText()` da biste ažurirali igrača pravilno.
 
-Hongera kwa kumaliza mchezaji wako wa muziki! Sasa tumeisha kujaribu na kutumia nyimbo fupi, tumezibadilisha na nyimbo asilia zilizochaguliwa mahsusi na Quincy ili ufurahie.
+Čestitamo što ste završili sa svojim muzičkim izvođačem! Sada smo prestali da eksperimentišemo i koristimo kratke pesme; zamijenili smo ih originalnim pesmama koje je pažljivo odabrao Quincy kako biste uživali.
 
 # --hints--
 
-Unapaswa kufanya wito wa kitendakazi cha `pauseSong`.
+Treba da pozoveš funkciju `pauseSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /pauseSong\(\s*\)\s*;?/)
 ```
 
-Unapaswa kufanya wito wa kitendakazi cha `setPlayerDisplay`.
+Trebalo bi da pozoveš funkciju `setPlayerDisplay`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /setPlayerDisplay\(\s*\)\s*;?/)
 ```
 
-Unapaswa kufanya wito wa kitendakazi cha `highlightCurrentSong`.
+Trebalo bi da pozoveš funkciju `highlightCurrentSong`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')
 assert.match(splitter[1], /highlightCurrentSong\(\s*\)\s*;?/)
 ```
 
-Unapaswa kufanya wito wa kitendakazi cha `setPlayButtonAccessibleText`.
+Trebalo bi da pozoveš funkciju `setPlayButtonAccessibleText`.
 
 ```js
 const splitter = code.split('audio.addEventListener("ended", () => {')

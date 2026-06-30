@@ -1,23 +1,23 @@
 ---
 id: 63ec1cb59f2a4c0be5b6dfa0
-title: Hatua 5
+title: Korak 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Gari la ununuzi halina maana kubwa bila bidhaa. Tangaza mabadiliko wa `products` na uweke kuwa safu ya data tupu. Kutumia safu ya data kutakuwezesha kuhifadhi bidhaa nyingi.
+Korpa za kupovinu nema mnogo smisla bez proizvoda. Deklarišite promenu `products` i postavite je kao prazan red podataka. Korišćenje reda podataka omogućimaće vam skladištenje mnogo proizvoda.
 
 # --hints--
 
-Unapaswa kutangaza mabadiliko wa `products` kwa `const`.
+Treba da objaviš promene od `products` na `const`.
 
 ```js
 assert.match(code, /const\s+products\b/);
 ```
 
-Unapaswa kuweka mabadiliko wa `products` kuwa safu ya data tupu.
+Morate postaviti izmene za `products` u prazan red podataka.
 
 ```js
 assert.match(code, /const\s+products\s*=\s*\[\s*\]/);

@@ -1,47 +1,47 @@
 ---
 id: 62a8ad8e01d7cb0deae5ec66
-title: Hatua 57
+title: Korak 57
 challengeType: 0
 dashedName: step-57
 ---
 
 # --description--
 
-Unda sifa nyingine katika kitu chako iitwayo `button functions`. Toa sifa hii safu ya data yenye vitendakazi vitatu vilivyowekwa kwenye sifa za `onclick` katika kitendakazi cha `goTown`. Kumbuka kuwa vitendakazi hivi ni vigezo, si mfuatano wa herufi, na havipaswi kuwekwa ndani ya nukuu.
+Kreiraj drugu svojstvo u vašem objektu nazvano `button functions`. Izvucite ovo svojstvo, niz podataka sa tri funkcije postavljene u svojstva `onclick` u funkciju `goTown`. Zapamtite da su ove funkcije parametri, a ne niz slova, i da ne bi trebalo da budu postavljene unutar navodnika.
 
 # --hints--
 
-Kitu chako cha kwanza cha `locations` kinapaswa kuwa na sifa ya `button functions`.
+Tvoj prvi element od `locations` treba da ima svojstvo `button functions`.
 
 ```js
 assert.isDefined(locations[0]["button functions"]);
 ```
 
-Sifa yako ya `button functions` inapaswa kuwa safu ya data.
+Atribut vašeg `button functions` treba da bude red podataka.
 
 ```js
 assert.isArray(locations[0]["button functions"]);
 ```
 
-Sifa yako ya `button functions` inapaswa kuwa na thamani tatu ndani yake.
+Tvoja vrednost za `button functions` bi trebalo da ima tri unutar sebe.
 
 ```js
 assert.lengthOf(locations[0]["button functions"], 3);
 ```
 
-Thamani ya kwanza ya safu ya `button functions` inapaswa kuwa kitendakazi cha `goStore`.
+Prvi rednik serije `button functions` treba da bude funkcija `goStore`.
 
 ```js
 assert.equal(locations[0]["button functions"][0], goStore);
 ```
 
-Thamani ya pili ya safu ya `button functions` inapaswa kuwa kitendakazi cha `goCave`.
+Druga vrednost reda `button functions` bi trebalo da bude funkcija od `goCave`.
 
 ```js
 assert.equal(locations[0]["button functions"][1], goCave);
 ```
 
-Thamani ya tatu ya safu ya `button functions` inapaswa kuwa kitendakazi cha `fightDragon`.
+Treća vrednost niza `button functions` bi trebalo da bude funkcija od `fightDragon`.
 
 ```js
 assert.equal(locations[0]["button functions"][2], fightDragon);

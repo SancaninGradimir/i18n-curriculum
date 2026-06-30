@@ -1,16 +1,15 @@
 ---
 id: 67efebdf734ad521ace8a89e
-title: Zoezi la 57
+title: Vežba 57
 challengeType: 22
 dashedName: task-57
 lang: en-US
 ---
-
-<!-- (audio) Jake: Sure, Jessica. It could be an unpatched vulnerability. -->
+<!-- (audio) Jake: Naravno, Jessica. Može biti nezaštićena ranjivost. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,17 +23,17 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unarejelea dosari ya usalama katika mfumo ambayo haijarekebishwa au kusasishwa na inaweza kutumiwa vibaya.
+Ovaj izraz od dve reči odnosi se na bezbednosnu ranjivost u sistemu koja nije popravljena ili ažurirana i koja može biti zloupotrebljena.
 
 # --explanation--
 
-`Unpatched` ina maana kwamba kitu hakijasasishwa au kurekebishwa.
+`Unpatched` to znači da nešto nije ažurirano ili ispravljeno.
 
-`Vulnerability` inarejelea udhaifu katika mfumo ambao unaweza kutumiwa vibaya.
+`Vulnerability` Odnosi se na ranjivost u sistemu koja može biti zloupotrebljena.
 
-Pamoja, `unpatched vulnerability` ni udhaifu wa usalama ambao haujarekebishwa au kusasishwa. Wadukuzi wanaweza kutumia udhaifu huu kushambulia mfumo. Kwa mfano:
+Takođe, `unpatched vulnerability` je sigurnosna ranjivost koja nije popravljena ili ažurirana. Hakeri mogu koristiti ovu ranjivost za napad na sistem. Na primer:
 
-`We need to fix the unpatched vulnerability now.` - Timu inajua kuhusu tatizo la usalama lakini halijarekebishwa bado.
+`We need to fix the unpatched vulnerability now.` - Tim zna za sigurnosni problem, ali još uvek nije popravljen.
 
 # --scene--
 

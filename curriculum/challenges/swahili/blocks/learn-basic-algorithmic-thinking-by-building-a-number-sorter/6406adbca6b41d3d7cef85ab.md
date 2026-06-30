@@ -1,31 +1,31 @@
 ---
 id: 6406adbca6b41d3d7cef85ab
-title: Hatua 5
+title: Korak 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Rudi kwenye kitendakazi chako cha `sortInputArray`, unahitaji kupata thamani kutoka kwa vipengele vyako vya `select`. Kwa kuwa vyote vina darasa la vitu la `values-dropdown`, unaweza kuvitafuta vyote kwa wakati mmoja.
+Vrati se u svoju funkciju `sortInputArray`, treba da dohvatiš vrednosti iz svojih elemenata `select`. Pošto svi imaju klasu `values-dropdown`, možeš ih sve pronaći odjednom.
 
-Tumia `document.getElementsByClassName()` kupata vipengele vyote vyenye darasa hili kwa kuingiza hoja `"values-dropdown"`. Weka thamani hiyo kwenye kigezo cha `inputValues` kwa kutumia `const`.
+Koristite `document.getElementsByClassName()` da dobijete sve elemente sa ovom klasom unosom argumenta `"values-dropdown"`. Postavite tu vrednost na parametar `inputValues` koristeći `const`.
 
 # --hints--
 
-Unapaswa kutumia `document.getElementsByClassName()` kupata vipengele vyote vyenye darasa la vitu la `"values-dropdown"`.
+Trebalo bi da koristite `document.getElementsByClassName()` da biste dobili sve elemente sa klasom objekta `"values-dropdown"`.
 
 ```js
 assert.match(sortInputArray.toString(), /document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-Unapaswa kuweka thamani ya `document.getElementsByClassName()` kwenye kigezo kinachoitwa `inputValues`.
+Trebalo bi da postaviš vrednost `document.getElementsByClassName()` u parametar nazvan `inputValues`.
 
 ```js
 assert.match(sortInputArray.toString(), /inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);
 ```
 
-Unapaswa kutumia `const` kutangaza `inputValues`.
+Trebalo bi da koristite `const` za objavljivanje `inputValues`.
 
 ```js
 assert.match(code, /const\s+inputValues\s*=\s*document\.getElementsByClassName\(\s*('|"|`)values-dropdown\1\s*\)/);

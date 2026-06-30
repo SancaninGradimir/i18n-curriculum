@@ -1,6 +1,6 @@
 ---
 id: 657ce0bbf16c312c8dcc8dff
-title: Zoezi la 63
+title: Vežba 63
 challengeType: 19
 dashedName: task-63
 lang: en-US
@@ -8,19 +8,19 @@ lang: en-US
 
 # --description--
 
-Kuna maneno fulani unayoweza kutumia katika sentensi yako kuonyesha mara ngapi jambo fulani hutokea. Huyaitwa **viashiria vya mara kwa mara**.
+Postoje određene reči koje možete koristiti u svojoj rečenici da pokažete koliko često se nešto dešava. Zove se **prilogovi frekvencije**.
 
-`Usually` ni neno linalopendekeza kwamba jambo fulani hutokea mara nyingi lakini si kila wakati.
+`Usually` je reč koja ukazuje da se nešto dešava često, ali ne uvek.
 
-Wakati `usually` inapotumika na kitenzi `to be`, huwekwa baada ya kitenzi. Kwa mfano, `She is usually on time for meetings`.
+Kada `usually` se koristi sa glagolom `to be`, postavlja se nakon glagola. Na primer, `She is usually on time for meetings`.
 
-Kwa vitenzi vingine, `usually` huja kabla ya kitenzi kikuu. Kwa mfano, `He usually works late`.
+Kod nekih glagola, `usually` dolazi pre glavnog glagola. Na primer, `He usually works late`.
 
 # --questions--
 
 ## --text--
 
-Chagua sentensi inayotumia kwa usahihi kiashiria `usually`.
+Izaberite rečenicu koja tačno koristi indikator `usually`.
 
 ## --answers--
 
@@ -28,7 +28,7 @@ Chagua sentensi inayotumia kwa usahihi kiashiria `usually`.
 
 ### --feedback--
 
-`Usually` inapaswa kuja kabla ya kitenzi kikuu wakati `to be` haijatumiwa. Sentensi sahihi ni `She is usually very careful with her work.`
+`Usually` treba da dođe pre glavnog glagola kada `to be` nije korišćen. Ispravna rečenica je `She is usually very careful with her work.`
 
 ---
 
@@ -40,7 +40,7 @@ Chagua sentensi inayotumia kwa usahihi kiashiria `usually`.
 
 ### --feedback--
 
-`Usually` inapaswa kuja kabla ya kitenzi kikuu katika sentensi za kawaida. Sentensi sahihi ni `They usually play together on weekends.`
+`Usually` Trebalo bi da stoji pre glavnog glagola u običnim rečenicama. Ispravna rečenica je `They usually play together on weekends.`
 
 ---
 
@@ -48,7 +48,7 @@ Chagua sentensi inayotumia kwa usahihi kiashiria `usually`.
 
 ### --feedback--
 
-Kwa kitenzi `to be`, `usually` huja baada yake. Sentensi sahihi ni `We are usually happy to help out with new projects.`
+Za glagol `to be`, `usually` dolazi nakon njega. Ispravna rečenica je `We are usually happy to help out with new projects.`
 
 ## --video-solution--
 

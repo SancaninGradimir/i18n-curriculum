@@ -1,6 +1,6 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: "Dialogue 1: Should Have Noticed That"
+title: "Dialog 1: Trebalo je da primetite to"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Tazama video iliyo hapa chini ili kuelewa muktadha wa mafundisho yajayo.
+Pogledajte video ispod da biste razumeli kontekst sledećih lekcija.
 
 # --assignment--
 
-Tazama video.
+Gledaj video.
 
 # --scene--
 

@@ -1,101 +1,101 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Tengeneza mpango wa hali ya hewa ya kusafiri
+title: Napravi plan putovanja sa vremenskom prognozom
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
 
 # --description--
 
-Kwa maabara hii, utatumia sentensi za masharti kuamua kama kusafiri kwa njia ya usafiri wa kawaida kunawezekana kulingana na hali ya hewa, umbali wa kusafiri, na upatikanaji wa gari.
+U ovoj laboratoriji koristićeš uslovne rečenice kako bi utvrdio/la da li je moguće putovati regularnim prevozom, u zavisnosti od vremena, udaljenosti puta i dostupnosti vozila.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Popunite korisničke priče navedene ispod i prođite sve testove da biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
-1. Unapaswa kuunda vigezo vifuatavyo:
-   * `distance_mi` (nambari inayowakilisha umbali wa kusafiri kwa maili)
-   * `is_raining` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi kwa sasa anakutana na mvua)
-   * `has_bike` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana baiskeli)
-   * `has_car` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana gari)
-   * `has_ride_share_app` (thamani ya kweli au siyo kweli inayowakilisha kama mtumizi ana programu inayomruhusu kuomba usafiri)
-1. Unapaswa kutumia sentensi za masharti kuamua kama kusafiri kunawezekana kulingana na thamani za vigezo hivi.
-1. Unapaswa kutumia sentensi za `if`, `elif`, na `else` kutathmini makundi ya umbali kwa mpangilio wa kuongezeka.
-1. Ikiwa `distance_mi` ni thamani ya uongo:
-   * Unapaswa chapisha `False`.
-1. Ikiwa umbali ni **chini au sawa na maili 1**:
-   * Unapaswa chapisha `True` tu ikiwa **hakuna mvua**.
-   * Vinginevyo, unapaswa chapisha `False`.
-1. Ikiwa umbali ni **zaidi ya maili 1 na chini au sawa na maili 6**:
-   * Unapaswa chapisha `True` tu ikiwa mtu ana baiskeli **na** hakuna mvua.
-   * Vinginevyo, unapaswa chapisha `False`.
-1. Ikiwa umbali ni **zaidi ya maili 6**:
-   * Unapaswa chapisha `True` ikiwa mtu ana gari **au** ana programu ya kuomba usafiri.
-   * Vinginevyo, unapaswa chapisha `False`. 
+1. Morate kreirati sledeće parametre:
+   * `distance_mi` (broj koji predstavlja pređenu udaljenost u miljama)
+   * `is_raining` (vrednost tačno/netačno koja predstavlja da li korisnik trenutno naiđe na kišu)
+   * `has_bike` (vrednost tačno/netačno koja predstavlja da li korisnik ima bicikl)
+   * `has_car` (vrednost tačno/netačno koja predstavlja da li korisnik ima automobil)
+   * `has_ride_share_app` (vrednost tačno/netačno koja predstavlja da li korisnik ima aplikaciju za zatraživanje vožnje)
+1. Morate koristiti uslovne rečenice kako biste utvrdili da li je vožnja moguća na osnovu vrednosti ovih parametara.
+1. Morate koristiti rečenice `if`, `elif` i `else` za procenu opsega udaljenosti u rastućem redosledu.
+1. Ako je `distance_mi` vrednost netačno:
+   * Morate ispisati `False`.
+1. Ako je udaljenost **manja ili jednaka 1 milji**:
+   * Morate ispisati `True` samo ako **nema kiše**.
+   * U suprotnom, morate ispisati `False`.
+1. Ako je udaljenost **veća od 1 milje i manja ili jednaka 6 milja**:
+   * Morate ispisati `True` samo ako osoba ima bicikl **i** nema kiše.
+   * U suprotnom, morate ispisati `False`.
+1. Ako je udaljenost **veća od 6 milja**:
+   * Morate ispisati `True` ako osoba ima automobil **ili** aplikaciju za zatraživanje vožnje.
+   * U suprotnom, morate ispisati `False`.
 
 # --hints--
 
-Unapaswa kuwa na kigezo kinachoitwa `distance_mi`.
+Trebalo bi da imate parametar nazvan `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("distance_mi")`) })
 ```
 
-Unapaswa weka thamani ya nambari kwa kigezo chako cha `distance_mi`.
+Treba da postaviš numeričku vrednost za svoj parametar `distance_mi`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(distance_mi, (int, float))`) })
 ```
 
-Unapaswa kuwa na kigezo kinachoitwa `is_raining`.
+Trebalo bi da imaš parametar nazvan `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("is_raining")`) })
 ```
 
-Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `is_raining`.
+Trebalo bi da unesete vrednost tačno ili netačno za vaš kriterijum `is_raining`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(is_raining, bool)`) })
 ```
 
-Unapaswa kuwa na kigezo kinachoitwa `has_bike`.
+Trebalo bi da imaš parametar nazvan `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_bike")`) })
 ```
 
-Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `has_bike`.
+Trebalo bi da unesete vrednost tačno ili nije za vaš atribut `has_bike`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_bike, bool)`) })
 ```
 
-Unapaswa kuwa na kigezo kinachoitwa `has_car`.
+Trebalo bi da imaš parametar koji se zove `has_car`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_car")`) })
 ```
 
-Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `has_car`.
+Treba da postaviš vrednost tačno ili netačno za svoj parametar `has_car`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_car, bool)`) })
 ```
 
-Unapaswa kuwa na kigezo kinachoitwa `has_ride_share_app`.
+Trebalo bi da imaš parametar nazvan `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-Unapaswa weka thamani ya kweli au siyo kweli kwa kigezo chako cha `has_ride_share_app`.
+Trebalo bi da unesete vrednost tačno ili nije za vaš kriterijum `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })
 ```
 
-Unapaswa tumia angalau sentensi moja ya `if`.
+Trebalo bi da koristiš barem jednu rečenicu od `if`.
 
 ```js
 ({ test: () => runPython(`
@@ -107,7 +107,7 @@ assert len(ifs) >= 1
 `) })
 ```
 
-Unapaswa tumia angalau tawi moja la `elif` katika programu yako.
+Trebalo bi da koristite najmanje jednu granu od `elif` u vašoj aplikaciji.
 
 ```js
 ({ test: () => runPython(`
@@ -125,7 +125,7 @@ assert len(elifs) >= 1
 `) })
 ```
 
-Unapaswa tumia angalau mtaalamu mmoja wa thamani ya kweli au siyo kweli (`and`, `or`, au `not`) katika msimbo wako.
+Trebalo bi da koristiš barem jednog stručnjaka za prave ili lažne vrednosti (`and`, `or`, ili `not`) u svoj kod.
 
 ```js
 ({ test: () => runPython(`
@@ -142,13 +142,13 @@ assert len(bool_ops) >= 1
 `) })
 ```
 
-Unapaswa tumia kitendakazi cha `print()` kuonyesha matokeo.
+Trebalo bi da koristiš funkciju `print()` da prikaže rezultat.
 
 ```js
 ({ test: () => runPython(`assert _Node(_code).block_has_call("print")`) })
 ```
 
-Wakati `distance_mi` ni thamani ya uongo, programu inapaswa chapisha `False`.
+Kada je `distance_mi` lažna vrednost, program bi trebalo da ispiše `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -207,7 +207,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali ni `1` maili au chini na hakuna mvua, programu inapaswa chapisha `True`.
+Kada je udaljenost `1` milja ili manje i nema kiše, programa bi trebalo da prikaže `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -266,7 +266,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali ni `1` maili au chini na kuna mvua, programu inapaswa chapisha `False`.
+Kada je udaljenost `1` milja ili manje i pada kiša, program bi trebalo da prikaže `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -325,7 +325,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali uko kati ya `1` maili (haijajumuishwa) na `6` maili (imejumuishwa), na kuna mvua bila baiskeli, programu inapaswa chapisha `False`.
+Kada je rastojanje između `1` milja (nije uključeno) i `6` milja (uključeno), a kada pada kiša bez bicikla, program bi trebalo da prikaže `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -395,7 +395,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali uko kati ya `1` maili (haijajumuishwa) na `6` maili (imejumuishwa), hakuna mvua lakini hakuna baiskeli, programu inapaswa chapisha `False`.
+Kada je udaljenost između `1` milja (nije uključeno) i `6` milja (uključeno), nema kiše, ali ni biciklo, program bi trebalo da prikaže `False`.
 
 ```js
 ({ test: () => runPython(`
@@ -465,7 +465,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali uko kati ya `1` maili (haijajumuishwa) na `6` maili (imejumuishwa), baiskeli inapatikana, na hakuna mvua, programu inapaswa chapisha `True`.
+Kada je udaljenost između `1` milja (nije uključeno) i `6` milja (uključeno), bicikl je dostupan, i nema kiše, program bi trebalo da prikaže `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -533,7 +533,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali ni zaidi ya `6` maili na programu ya kuomba usafiri inapatikana, programu inapaswa chapisha `True`.
+Kada je udaljenost veća od `6` milja i aplikacija za zahtev prevoza je dostupna, program bi trebalo da prikaže `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -581,7 +581,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali ni zaidi ya `6` maili na gari linapatikana, programu inapaswa chapisha `True`.
+Kada je udaljenost veća od `6` milja i voz je dostupan, program bi trebalo da prikaže `True`.
 
 ```js
 ({ test: () => runPython(`
@@ -629,7 +629,7 @@ run_case(
 `) })
 ```
 
-Wakati umbali ni zaidi ya `6` maili na hakuna gari wala programu ya kuomba usafiri inapatikana, programu inapaswa chapisha `False`.
+Kada je udaljenost veća od `6` milja i nije dostupno ni vozilo ni aplikacija za zatraživanje prevoza, program treba da prikaže `False`.
 
 ```js
 ({ test: () => runPython(`

@@ -1,16 +1,15 @@
 ---
 id: 685a9aaee82fca9effece4bd
-title: Zoezi la 130
+title: Vežba 130
 challengeType: 22
 dashedName: task-130
 lang: en-US
 ---
-
-<!-- (Audio) Bob: Yes, let's do that. It'll help us manage the attendee list better. Can you draft the invitation? -->
+<!-- (Audio) Bob: Da, let's do to. To će nam pomoći da bolje upravljamo listom učesnika. Možeš li da sastaviš pozivnicu? -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii inahusu mtu aliyeko katika tukio au mkutano.
+Ovo se odnosi na osobu koja je na događaju ili sastanku.
 
 # --explanation--
 
-`attendee` ni mtu anayehudhuria au kuwepo katika tukio, kama mkutano, semina, au kongamano. Kwa mfano:
+`attendee` je osoba koja prisustvuje ili je na događaju, kao što su sastanak, seminar ili kongres/konferencija. Na primer:
 
-`Each attendee received a welcome packet when they arrived.` – Hii inamaanisha kila mtu aliyekuja kwenye tukio alipata kifurushi.
+`Each attendee received a welcome packet when they arrived.` – Ovo znači da je svako ko je došao na događaj dobio paket.
 
 # --scene--
 

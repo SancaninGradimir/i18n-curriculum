@@ -1,52 +1,52 @@
 ---
 id: 646d0a022da7bcabf3e3aca3
-title: Hatua 45
+title: Korak 45
 challengeType: 0
 dashedName: step-45
 ---
 
 # --description--
 
-Dhana ya kurudisha kitendakazi ndani ya kitendakazi kingine huitwa <dfn>kuringa</dfn>. Njia hii inakuwezesha kuunda kigezo kinachoshikilia kitendakazi ambacho kitatumiwa baadaye, lakini kwa rejea kwa vigezo vya wito wa kitendakazi cha nje.
+Koncept vraćanja funkcije unutar druge funkcije naziva se <dfn>kuringa</dfn>. Ova metoda vam omogućava kreiranje varijable koja čuva funkciju koja će biti korišćena kasnije, ali sa referencom na parametre poziva eksterne funkcije.
 
-Kwa mfano:
+Na primer:
 
 ```js
 const innerOne = elemValue(1);
 const final = innerOne("A");
 ```
 
-`innerOne` itakuwa kitendakazi chako cha `inner`, ukiwa na `num` imewekwa kuwa `1`, na `final` itakuwa na thamani ya seli yenye `id` ya `"A1"`. Hii inawezekana kwa sababu vitendakazi vina upatikanaji wa vigezo vyote vilivyotangazwa wakati wa kuundwa kwao. Hii huitwa <dfn>ufungaji</dfn>.
+`innerOne` će biti tvoja funkcija za `inner`, koja ima `num` postavljenu na `1`, a `final` će imati vrednost ćelije sa `id` od `"A1"`. Ovo je moguće jer funkcije imaju pristup svim parametrima koji su deklarisani prilikom njihovog kreiranja. Ovo se zove <dfn>ufungaji</dfn>.
 
-Utapata mazoezi zaidi kuhusu hili. Tangaza kitendakazi kinachoitwa `addCharacters` kinachopokea kigezo cha `character1`.
+Možete pronaći više vežbi o ovome. Deklarišite funkciju nazvanu `addCharacters` koja prima parametar `character1`.
 
 # --hints--
 
-Unapaswa kutangaza kigezo cha `addCharacters`.
+Trebalo bi da objavite parametar `addCharacters`.
 
 ```js
 assert.match(code, /const\s+evalFormula\s*=\s*\(\s*x\s*,\s*cells\s*\)\s*=>\s*{\s*const\s+idToText\s*=\s*(\(\s*id\s*\)|id)\s*=>\s*cells\.find\(\s*(\(\s*cell\s*\)|cell)\s*=>\s*(?:cell\.id\s*===\s*id|id\s*===\s*cell\.id)\s*\)\.value\s*;?\s*const\s+rangeRegex\s*=\s*\/\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\):\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\)\/(gi|ig)\s*;?\s*const\s+rangeFromString\s*=\s*\(\s*num1\s*,\s*num2\s*\)\s*=>\s*range\(\s*parseInt\(\s*num1\s*\)\s*,\s*parseInt\(\s*num2\s*\)\s*\)\s*;?\s*const\s+elemValue\s*=\s*(\(\s*num\s*\)|num)\s*=>\s*\{\s*const\s+inner\s*=\s*(\(\s*character\s*\)|character)\s*=>\s*\{\s*return\s+idToText\(\s*character\s*\+\s*num\s*\)\s*;?\s*}\s*;?\s*return\s+inner\s*;?\s*\}\s*(?:var|let|const)\s+addCharacters/);
 ```
 
-Unapaswa kutumia `const` kutangaza kigezo chako cha `addCharacters`.
+Trebalo bi da koristiš `const` za deklarisanje svog parametra `addCharacters`.
 
 ```js
 assert.match(code, /const\s+evalFormula\s*=\s*\(\s*x\s*,\s*cells\s*\)\s*=>\s*{\s*const\s+idToText\s*=\s*(\(\s*id\s*\)|id)\s*=>\s*cells\.find\(\s*(\(\s*cell\s*\)|cell)\s*=>\s*(?:cell\.id\s*===\s*id|id\s*===\s*cell\.id)\s*\)\.value\s*;?\s*const\s+rangeRegex\s*=\s*\/\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\):\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\)\/(gi|ig)\s*;?\s*const\s+rangeFromString\s*=\s*\(\s*num1\s*,\s*num2\s*\)\s*=>\s*range\(\s*parseInt\(\s*num1\s*\)\s*,\s*parseInt\(\s*num2\s*\)\s*\)\s*;?\s*const\s+elemValue\s*=\s*(\(\s*num\s*\)|num)\s*=>\s*\{\s*const\s+inner\s*=\s*(\(\s*character\s*\)|character)\s*=>\s*\{\s*return\s+idToText\(\s*character\s*\+\s*num\s*\)\s*;?\s*}\s*;?\s*return\s+inner\s*;?\s*\}\s*const\s+addCharacters/);
 ```
 
-Kigezo chako cha `addCharacters` kinapaswa kuwa kitendakazi cha mshale.
+Vaš kriterijum za `addCharacters` treba da bude funkcija strelice.
 
 ```js
 assert.match(code, /const\s+evalFormula\s*=\s*\(\s*x\s*,\s*cells\s*\)\s*=>\s*{\s*const\s+idToText\s*=\s*(\(\s*id\s*\)|id)\s*=>\s*cells\.find\(\s*(\(\s*cell\s*\)|cell)\s*=>\s*(?:cell\.id\s*===\s*id|id\s*===\s*cell\.id)\s*\)\.value\s*;?\s*const\s+rangeRegex\s*=\s*\/\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\):\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\)\/(gi|ig)\s*;?\s*const\s+rangeFromString\s*=\s*\(\s*num1\s*,\s*num2\s*\)\s*=>\s*range\(\s*parseInt\(\s*num1\s*\)\s*,\s*parseInt\(\s*num2\s*\)\s*\)\s*;?\s*const\s+elemValue\s*=\s*(\(\s*num\s*\)|num)\s*=>\s*\{\s*const\s+inner\s*=\s*(\(\s*character\s*\)|character)\s*=>\s*\{\s*return\s+idToText\(\s*character\s*\+\s*num\s*\)\s*;?\s*}\s*;?\s*return\s+inner\s*;?\s*\}\s*const\s+addCharacters\s*=\s*(\(.*\)|[^\s()]+)\s*=>/);
 ```
 
-Kitendakazi chako cha `addCharacters` hakipaswi kutumia kurudisha kwa njia isiyo wazi.
+Vaša funkcija `addCharacters` ne bi trebalo da koristi implicitno vraćanje.
 
 ```js
 assert.match(code, /const\s+evalFormula\s*=\s*\(\s*x\s*,\s*cells\s*\)\s*=>\s*{\s*const\s+idToText\s*=\s*(\(\s*id\s*\)|id)\s*=>\s*cells\.find\(\s*(\(\s*cell\s*\)|cell)\s*=>\s*(?:cell\.id\s*===\s*id|id\s*===\s*cell\.id)\s*\)\.value\s*;?\s*const\s+rangeRegex\s*=\s*\/\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\):\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\)\/(gi|ig)\s*;?\s*const\s+rangeFromString\s*=\s*\(\s*num1\s*,\s*num2\s*\)\s*=>\s*range\(\s*parseInt\(\s*num1\s*\)\s*,\s*parseInt\(\s*num2\s*\)\s*\)\s*;?\s*const\s+elemValue\s*=\s*(\(\s*num\s*\)|num)\s*=>\s*\{\s*const\s+inner\s*=\s*(\(\s*character\s*\)|character)\s*=>\s*\{\s*return\s+idToText\(\s*character\s*\+\s*num\s*\)\s*;?\s*}\s*;?\s*return\s+inner\s*;?\s*\}\s*const\s+addCharacters\s*=\s*(\(.*\)|[^\s()]+)\s*=>\s*\{/);
 ```
 
-Kitendakazi chako cha `addCharacters` kinapaswa kuwa na kigezo cha `character1`.
+Vaša funkcija za `addCharacters` mora imati parametar sa `character1`.
 
 ```js
 assert.match(code, /const\s+evalFormula\s*=\s*\(\s*x\s*,\s*cells\s*\)\s*=>\s*{\s*const\s+idToText\s*=\s*(\(\s*id\s*\)|id)\s*=>\s*cells\.find\(\s*(\(\s*cell\s*\)|cell)\s*=>\s*(?:cell\.id\s*===\s*id|id\s*===\s*cell\.id)\s*\)\.value\s*;?\s*const\s+rangeRegex\s*=\s*\/\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\):\(\[A-J\]\)\(\[1-9\]\[0-9\]\?\)\/(gi|ig)\s*;?\s*const\s+rangeFromString\s*=\s*\(\s*num1\s*,\s*num2\s*\)\s*=>\s*range\(\s*parseInt\(\s*num1\s*\)\s*,\s*parseInt\(\s*num2\s*\)\s*\)\s*;?\s*const\s+elemValue\s*=\s*(\(\s*num\s*\)|num)\s*=>\s*\{\s*const\s+inner\s*=\s*(\(\s*character\s*\)|character)\s*=>\s*\{\s*return\s+idToText\(\s*character\s*\+\s*num\s*\)\s*;?\s*}\s*;?\s*return\s+inner\s*;?\s*\}\s*const\s+addCharacters\s*=\s*(\(\s*character1\s*\)|character1)\s*=>/);

@@ -1,25 +1,25 @@
 ---
 id: 62a3bb9aeefe4b3fc43c6d7b
-title: Hatua 17
+title: Korak 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-`button1` ni kigezo ambacho hakitapewa thamani mpya. Ikiwa hutapewa thamani mpya kigezo, ni mbinu bora kutumia neno kuu la `const` kutangaza badala ya neno kuu la `let`. Hii itaambia JavaScript kutupa kosa ikiwa kwa bahati mbaya utajitahidi kuwekea thamani mpya.
+`button1` je parametar koji neće dobiti novu vrednost. Ako parametru nije dodeljena nova vrednost, bolja je praksa koristiti glavni termin `const` umesto glavnog termina `let`. Ovo će obavestiti JavaScript da izbaci grešku ako slučajno pokušate dodeliti novu vrednost.
 
-Badilisha kigezo chako cha `button1` kitangazwe kwa neno kuu la `const`.
+Promeni svoj parametar `button1` sa glavnom reči `const`.
 
 # --hints--
 
-Kigezo chako cha `button1` kinapaswa kutangazwa kwa `const`.
+Vaš parametar za `button1` treba biti objavljen za `const`.
 
 ```js
 assert.match(code, /const\s+button1/);
 ```
 
-Kigezo chako cha `button1` kinapaswa bado kuwa na thamani ya kipengele chako cha `#button1`.
+Vaš parametar za `button1` treba da zadrži vrednost vašeg atributa za `#button1`.
 
 ```js
 assert.deepEqual(button1, document.querySelector("#button1"));

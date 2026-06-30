@@ -1,25 +1,25 @@
 ---
 id: 6608bee87c43ca194effebdf
-title: Hatua 53
+title: Korak 53
 challengeType: 0
 dashedName: step-53
 ---
 
 # --description--
 
-Baadaye katika mtaala, utaingia kwa undani zaidi kuhusu vitu. Lakini kwa sasa, ni wakati wa kutumia kile ulichojifunza katika mchezo wako wa kuigiza jukumu.
+Kasnije u kurikulumu, detaljnije ćete proučiti stvari. Ali za sada, je vreme da koristite ono što ste naučili/naučila u svojoj igri uloga.
 
-Anza kwa kufuta kitu chako cha `cat` na usemi wa konsoli. 
+Počnite brisanjem vašeg `cat` i konzolnog prompta.
 
 # --hints--
 
-Unapaswa kuondoa kitu chako cha `cat`.
+Trebalo bi da uklonite svoj deo `cat`.
 
 ```js
 assert.notInclude(code, "const cat = {");
 ```
 
-Unapaswa kuondoa usemi wako wa konsoli.
+Trebalo bi da uklonite svoj konsolni izlaz.
 
 ```js
 assert.notInclude(code, "console.log(cat[\"Number of legs\"]);");

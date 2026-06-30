@@ -1,19 +1,19 @@
 ---
 id: 6603aeb33cbbbd5bbbc79b2e
-title: Hatua 26
+title: Korak 26
 challengeType: 0
 dashedName: step-26
 ---
 
 # --description--
 
-Ili kuona matokeo kutoka kwa kitendakazi cha `cleanInputString`, utahitaji kuongeza tamko la `console.log()`. Ndani ya tamko hilo la konsoli, fanya wito wa kitendakazi cha `cleanInputString` kwa kutumia thamani ya mfuatano wa herufi ya `"+-99"` kama hoja.
+Da biste videli rezultate iz funkcije `cleanInputString`, moraćete da dodate deklaraciju `console.log()`. Unutar te konzolne deklaracije, pozovite funkciju `cleanInputString` koristeći vrednost stringa `"+-99"` kao argument.
 
-Fungua konsoli na unapaswa kuona mfuatano wa herufi wa awali ukifuatiwa na thamani ya mfuatano wa herufi iliyosafishwa na `+-` imeondolewa.
+Otvorite konzolu i trebalo bi da vidite original niz znakova praćen vrednošću očišćenog niza znakova, a `+-` je uklonjen.
 
 # --hints--
 
-Unapaswa kuwa na tamko la `console.log(cleanInputString("+-99"))`.
+Trebalo bi da imaš deklaraciju `console.log(cleanInputString("+-99"))`.
 
 ```js
 assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/);

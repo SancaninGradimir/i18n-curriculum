@@ -1,37 +1,37 @@
 ---
 id: 6555d8faed60b9d3e4a6cefb
-title: Hatua 72
+title: Korak 72
 challengeType: 0
 dashedName: step-72
 ---
 
 # --description--
 
-Ili kufanya programu iwe rahisi kupatikana zaidi, ni muhimu kwamba kitufe cha kucheza kielezee wimbo wa sasa au wimbo wa kwanza kwenye orodha ya nyimbo.
+Da bi se aplikacija učinila pristupačnijom, važno je da dugme za reprodukciju ukazuje trenutnu pesmu ili prvu pesmu na plejlisti.
 
-Anza kwa kuunda kitendakazi cha mshale tupu kinachoitwa `setPlayButtonAccessibleText`.
+Počnite kreiranjem prazne funkcije sa strelicom, nazvane `setPlayButtonAccessibleText`.
 
 # --hints--
 
-Unapaswa kutumia `const` kuunda kitendakazi tupu kinachoitwa `setPlayButtonAccessibleText`.
+Treba da koristiš `const` za kreiranje prazne funkcije koja se zove `setPlayButtonAccessibleText`.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*/)
 ```
 
-`setPlayButtonAccessibleText` inapaswa kuwa kitendakazi.
+`setPlayButtonAccessibleText` Trebalo bi da bude funkcija.
 
 ```js
 assert.isFunction(setPlayButtonAccessibleText)
 ```
 
-Kitendakazi chako cha `setPlayButtonAccessibleText` kinapaswa kutumia sintaksia ya mshale.
+Vaša funkcija za `setPlayButtonAccessibleText` treba da koristi sinaksu sa strelicom.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*/)
 ```
 
-Kitendakazi chako cha `setPlayButtonAccessibleText` kinapaswa kuwa tupu.
+Tvoja funkcija za `setPlayButtonAccessibleText` treba da bude prazna.
 
 ```js
 assert.match(code, /const\s+setPlayButtonAccessibleText\s*=\s*\(\s*\)\s*=>\s*\{\n?\s*?\}\s*;?/)

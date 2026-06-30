@@ -1,34 +1,33 @@
 ---
 id: 657ddcd61f516cacdc7a04ca
-title: Zoezi la 128
+title: Vežba 128
 challengeType: 19
 dashedName: task-128
 lang: en-US
 ---
-
-<!-- (audio) Maria: The bookstores I remember are all downtown. But there's a bus that stops two blocks away. -->
+<!-- (audio) Marija: Knjižare koje se sećam su sve u centru. Ali ima autobus koji staje na dva bloka dalje. -->
 
 # --description--
 
-Maria anamjulisha Tom kuhusu chaguzi za usafiri wa umma, akitaja hasa usafiri unaoacha kituo karibu. Hii ni muhimu kwa kusafiri ndani ya jiji, hasa kwenda sehemu ambazo si rahisi kufikiwa kwa miguu.
+Maria obaveštava Toma o opcijama javnog prevoza, pominjući posebno saobraćaj koji staje u blizini stanice. Ovo je važno za putovanje unutar grada, posebno kada idete na mesta koja nisu lako dostupna peške.
 
-`Two blocks away` inamaanisha kwamba unahitaji kupita pembezoni mwa mtaa miwili kufika mahali fulani. Ni umbali mfupi wa kutembea ndani ya jiji.
+`Two blocks away` To znači da morate proći za ugla dve ulice da biste stigli do nekog mesta. To je kratka pešačka udaljenost unutar grada.
 
-`Downtown` ni kitovu cha jiji ambapo kuna maduka mengi, mikahawa, na kawaida majengo marefu.
+`Downtown` To je centar grada gde ima mnogo prodavnica, kafića i obično visokih zgrada.
 
 # --questions--
 
 ## --text--
 
-Maria anasema nini kinaacha kituo cha mtaa miwili mbali?
+Šta Marija kaže da je stanica na rastu dve ulice, daleko?
 
 ## --answers--
 
-Teksi
+Teksti
 
 ### --feedback--
 
-Maria anataja chaguo la usafiri wa umma, si huduma binafsi.
+Marija spominje izbor javnog prevoza, a ne privatnu uslugu.
 
 ---
 
@@ -36,19 +35,19 @@ Treni
 
 ### --feedback--
 
-Treni kawaida haziashi vituo vya mtaa; haziashi vituo vya reli.
+Vozovi obično ne zaustavljaju na lokalnim stanicama; ne zaustavljaju se na železničkim stanicama.
 
 ---
 
-Basi
+Dosta je
 
 ---
 
-Kukodisha baiskeli
+Iznajmiti bicikl
 
 ### --feedback--
 
-Huduma za kukodisha kawaida ni za mahali pamoja, si kitu kinachoacha kituo.
+Standardne usluge iznajmljivanja su na određenoj lokaciji, a ne nešto što napušta fiksnu tačku.
 
 ## --video-solution--
 

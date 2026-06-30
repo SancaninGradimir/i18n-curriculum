@@ -1,16 +1,15 @@
 ---
 id: 67f519febaeacd154eb0f9f1
-title: Zoezi la 96
+title: Vežba 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
 ---
-
-<!-- (audio) Jake: For now, let's gather more information and stay vigilant. -->
+<!-- (audio) Jake: Za sada, let's sakupljajte više informacija i budite na straži. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,15 +23,15 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili linamaanisha kuwa macho na kuangalia kwa makini hatari au matatizo yanayoweza kutokea.
+Ovo znači biti budan i pažljivo pratiti potencijalne opasnosti ili probleme.
 
 # --explanation--
 
-`Vigilant` linamaanisha kuwa makini na tahadhari ili kugundua vitisho vinavyoweza kutokea. Kwa mfano:
+`Vigilant` To znači biti pažljiv i oprezan kako bi se otkrili potencijalni pretnje. Na primer:
 
-- `The IT team is always vigilant when monitoring the network.` - Timu ya IT hubaki macho na makini wakati wa kukagua mtandao.
+- `The IT team is always vigilant when monitoring the network.` - IT tim mora biti pažljiv tokom proveravanja mreže.
 
-- `You should be vigilant when clicking on unknown links in emails.` - Unahitaji kuwa makini na kuzingatia viungo vya barua pepe vinavyoshukiwa.
+- `You should be vigilant when clicking on unknown links in emails.` - Morate biti pažljivi i obratiti pažnju na sumnjive e-mail linkove.
 
 # --scene--
 

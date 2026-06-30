@@ -1,42 +1,42 @@
 ---
 id: 62a8ae85fcaedc0fddc7ca4f
-title: Hatua 59
+title: Korak 59
 challengeType: 0
 dashedName: step-59
 ---
 
 # --description--
 
-Ongeza kitu cha pili kwenye safu ya data `locations` yako (kumbuka kuvitenganisha kwa koma). Kufuatia muundo uliotumia kwenye kitu cha kwanza, tengeneza sifa sawa lakini tumia thamani kutoka kwa kitendakazi `goStore`. Weka sifa ya `name` kuwa `store`.
+Dodajte drugi element u vaš red podataka `locations` (zapamtite da razdvajate zarezom). Prateći strukturu koju ste koristili za prvi element, kreirajte slično polje, ali koristite vrednost iz funkcije `goStore`. Postavite polje `name` na `store`.
 
 # --hints--
 
-Safu ya data `locations` inapaswa kuwa na thamani mbili.
+Podatni red `locations` mora imati dve vrednosti.
 
 ```js
 assert.lengthOf(locations, 2);
 ```
 
-Thamani zote za `locations` zinapaswa kuwa vitu.
+Sve vrednosti za `locations` moraju biti entiteti (ili: objekti).
 
 ```js
 assert.isObject(locations[0]);
 assert.isObject(locations[1]);
 ```
 
-Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `name` yenye thamani ya `store`.
+Vaš drugi element od `locations` mora imati svojstvo `name` sa vrednošću `store`.
 
 ```js
 assert.equal(locations[1].name, "store");
 ```
 
-Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `button text` ambayo ni safu ya data.
+Vaš drugi element za `locations` mora imati svojstvo `button text` koje je niz podataka.
 
 ```js
 assert.isArray(locations[1]["button text"]);
 ```
 
-Sifa yako ya `button text` inapaswa kuwa na mfuatano wa herufi wenye thamani `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"`, na `"Go to town square"`.
+Tvoja vrednost za `button text` treba da ima sekvencu karaktera sa vrednostima `"Buy 10 health (10 gold)"`, `"Buy weapon (30 gold)"`, i `"Go to town square"`.
 
 ```js
 assert.equal(locations[1]["button text"][0], "Buy 10 health (10 gold)");
@@ -44,13 +44,13 @@ assert.equal(locations[1]["button text"][1], "Buy weapon (30 gold)");
 assert.equal(locations[1]["button text"][2], "Go to town square");
 ```
 
-Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `button functions` ambayo ni safu ya data.
+Drugi element za `locations` treba da ima svojstvo `button functions`, koje je niz podataka.
 
 ```js
 assert.isArray(locations[1]["button functions"]);
 ```
 
-Sifa yako ya `button functions` inapaswa kuwa na thamani za kitendakazi `buyHealth`, `buyWeapon`, na `goTown`.
+Tvoja vrednost za `button functions` bi trebalo da bude `buyHealth`, `buyWeapon`, na `goTown`.
 
 ```js
 assert.equal(locations[1]["button functions"][0], buyHealth);
@@ -58,19 +58,19 @@ assert.equal(locations[1]["button functions"][1], buyWeapon);
 assert.equal(locations[1]["button functions"][2], goTown);
 ```
 
-Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `text` ambayo ni mfuatano wa herufi.
+Tvoj drugi deo od `locations` mora imati svojstvo `text`, koje je niz slova.
 
 ```js
 assert.isString(locations[1].text);
 ```
 
-Kitu chako cha pili cha `locations` kinapaswa kuwa na sifa ya `text` yenye thamani ya `"You enter the store."`.
+Tvoj drugi atribut `locations` mora imati svojstvo `text` sa vrednošću `"You enter the store."`.
 
 ```js
 assert.equal(locations[1].text, "You enter the store.");
 ```
 
-Hupaswi kubadilisha kitu cha kwanza cha `locations`.
+Ne smete da menjate prvi deo `locations`.
 
 ```js
 assert.deepEqual(locations[0], {

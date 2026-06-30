@@ -1,6 +1,6 @@
 ---
 id: bd7178d8c242eddfaeb5bd13
-title: Jenga chati ya kutawanyika
+title: Napravi raspršeni dijagram
 challengeType: 25
 dashedName: build-a-scatterplot-graph
 demoType: onClick
@@ -8,13 +8,13 @@ demoType: onClick
 
 # --description--
 
-Katika mradi huu utatumia data kutoka `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` kujenga chati ya kutawanyika.
+U ovom projektu će koristiti podatke iz `https://cdn.freecodecamp.org/curriculum/labs/data/scatterplot/cyclist-data.json` da napravi dijagram rasipanja.
 
-Vipimo vinahitaji mhimili kuundwa kwa kutumia sifa ya mhimili ya D3, ambayo huunda alama za kupigia moja kwa moja kando ya mhimili. Alama hizi za kupigia zinahitajika ili kupitisha vipimo vya D3 kwa sababu nafasi zao hutumika kuamua ulinganifu wa vitu vilivyochorwa kwenye chati.
+Merenja zahtevaju kreiranje ose korišćenjem D3 atributa ose, koji stvara markere direktno duž ose. Ovi markeri su neophodni za implementaciju D3 mera jer se njihove pozicije koriste za određivanje proporcionalnosti elemenata crtanih na grafikonu.
 
-**Lengo:** Timiza hadithi za watumizi zilizo hapa chini na upite vipimo vyote ili kumaliza maabara.
+**Cilj:** Popunite korisničke priče navedene ispod i prođite sve testove da biste završili laboratoriju.
 
-**Hadithi za watumizi:**
+**Priče korisnika:**
 
 1. Chati yako inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
 1. Chati yako inapaswa kuwa na kipengele cha `g` cha mhimili wa x chenye `id="x-axis"` inayolingana.
@@ -633,13 +633,13 @@ const timeout = (milliseconds) =>
 
 # --hints--
 
-Chati inapaswa kuwa na kipengele chenye `id` ya `title` ili kuhusisha kichwa.
+Chat mora imati polje sa `id` od `title` ili uključiti zaglavlje.
 
 ```js
 assert.exists(document.getElementById('title'));
 ```
 
-Chati inapaswa kuwa na `x-axis` yenye `id="x-axis"` inayolingana.
+Čat mora imati `x-axis` sa `id="x-axis"` koji odgovara.
 
 ```js
 assert.isNotNull(
@@ -649,7 +649,7 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#x-axis'));
 ```
 
-Chati inapaswa kuwa na `y-axis` yenye `id="y-axis"` inayolingana.
+Chat mora imati `y-axis` sa `id="y-axis"` koji odgovara.
 
 ```js
 assert.isNotNull(
@@ -659,25 +659,25 @@ assert.isNotNull(
 assert.isNotEmpty(document.querySelectorAll('g#y-axis'));
 ```
 
-Mhimili wa x unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+Osa X treba da ima mnogo etiketa markera, svaka od njih sa `class="tick"` koja odgovara.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#x-axis .tick'));
 ```
 
-Mhimili wa y unapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+Y osa treba da ima mnogo oznaka markera, svaka sa `class="tick"` koja odgovara.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('#y-axis .tick'));
 ```
 
-Chati yako inapaswa kuwa na nukta, kila moja ikiwa na darasa la vitu la `dot`, linalowakilisha data inayochorwa.
+Grafik bi trebalo da ima tačke, svaka sa klasom objekata `dot`, koje predstavljaju crtene podatke.
 
 ```js
 assert.isNotEmpty(document.querySelectorAll('circle.dot'));
 ```
 
-Kila nukta inapaswa kuwa na sifa za `data-xvalue` na `data-yvalue` zenye thamani zao za x na y zinazolingana.
+Svaka tačka mora imati atribute `data-xvalue` i `data-yvalue` čije vrednosti za x i y odgovaraju.
 
 ```js
 const dots = document.getElementsByClassName('dot');
@@ -696,7 +696,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 ```
 
-`data-xvalue` na `data-yvalue` za kila nukta zinapaswa kuwa ndani ya eneo la data halisi na katika muundo sahihi wa data. Kwa `data-xvalue`, nambari kamili (miaka kamili) au vitu vya tarehe vinakubalika kwa tathmini ya kipimo. Kwa `data-yvalue` (dakika), tumia vitu vya tarehe.
+`data-xvalue` i `data-yvalue` za svaku tačku moraju biti unutar stvarnog polja podataka i u ispravnom formatu podataka. Za `data-xvalue`, prihvatljivi su potpuni brojevi (pune godine) ili objekti datuma za procenu merenja. Za `data-yvalue` (minute), koristite objekte datuma.
 
 ```js
 const years = cyclistDataJson.map(d => d.Year);
@@ -740,7 +740,7 @@ dots.forEach((dot) => {
 });
 ```
 
-`data-xvalue` na nukta inayolingana inapaswa kuendana na nukta/thamani inayolingana kwenye mhimili wa x.
+`data-xvalue` Odgovarajuća tačka mora da odgovara odgovarajućoj tački/vrednosti na x-osi.
 
 ```js
 const axis = document.querySelector('#x-axis');
@@ -767,7 +767,7 @@ assert.isTrue(
 );
 ```
 
-`data-yvalue` na nukta inayolingana inapaswa kuendana na nukta/thamani inayolingana kwenye mhimili wa y.
+`data-yvalue` Na odgovarajućoj tački, trebalo bi da odgovara odgovarajuća tačka/vrednost na y-osi.
 
 ```js
 const axis = document.querySelector('#y-axis');
@@ -794,7 +794,7 @@ assert.isTrue(
 );
 ```
 
-Unaweza kuona lebo nyingi za alama za kupigia kwenye mhimili wa y zenye muundo wa wakati wa `%M:%S`.
+Možete videti mnogo oznaka na Y-osi sa vremenskim obrascem od `%M:%S`.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -809,7 +809,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-Unaweza kuona lebo nyingi za alama za kupigia kwenye mhimili wa x zinazoonyesha mwaka.
+Možete videti mnogo oznaka za taljane na osi X koje pokazuju godinu.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -824,7 +824,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-Eneo la lebo za mhimili wa x liko ndani ya eneo la data halisi ya mhimili wa x.
+Područje oznaka na osi X nalazi se unutar područja stvarnih podataka ose X.
 
 ```js
 const xAxisTickLabels = document.querySelectorAll('#x-axis .tick');
@@ -848,7 +848,7 @@ xAxisTickLabels.forEach((label) => {
 });
 ```
 
-Eneo la lebo za mhimili wa y liko ndani ya eneo la data halisi ya mhimili wa y.
+Opseg oznaka na Y osi nalazi se unutar stvarnog opsega podataka Y ose.
 
 ```js
 const yAxisTickLabels = document.querySelectorAll('#y-axis .tick');
@@ -882,7 +882,7 @@ yAxisTickLabels.forEach((label) => {
 });
 ```
 
-Unaweza kuona hadithi zenye maandishi ya maelezo yenye `id="legend"`.
+Možete videti priče sa opisnim tekstom koji ima `id="legend"`.
 
 ```js
 assert.isNotNull(document.getElementById('legend'));
@@ -896,7 +896,7 @@ if (document.querySelector('#legend text') !== null) {
 assert.isNotNull(legendText, 'The legend should contain text');
 ```
 
-Unapobofya juu ya eneo, chati yako ya kutawanyika inapaswa kuwa na kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
+Kada kliknete na područje, vaš dijagram rasipanja bi trebalo da ima napomenu (tooltip) sa `id="tooltip"` koja prikazuje više informacija o tom području.
 
 ```js
 const areas = document.querySelectorAll('.dot');
@@ -940,7 +940,7 @@ assert.isTrue(
 );
 ```
 
-Kidokezo cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-xvalue` ya eneo linalofanya kazi.
+Privremena napomena mora imati atribut `data-year` koji odgovara `data-xvalue` iz radnog područja.
 
 ```js
 const areas = document.querySelectorAll('.dot');

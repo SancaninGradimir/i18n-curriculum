@@ -1,22 +1,21 @@
 ---
 id: 657dbdae2bd6f60bda3226cc
-title: Zoezi la 81
+title: Vežba 81
 challengeType: 22
 dashedName: task-81
 lang: en-US
 ---
-
-<!-- (audio) Tom: Tell me about our team meetings, Sophie. Do they happen every week? -->
+<!-- (audio) Tom: Reci mi o našim sastancima tima, Sofije. Da li se dešavaju svake nedelje? -->
 
 # --description--
 
-Unapotaka kujua mara ngapi jambo fulani hutokea, unaweza kutumia `every` ikifuatiwa na kipindi cha wakati kama `day`, `week`, au `year`.
+Ako želite znati koliko puta se nešto dešava, možete koristiti `every` praćen vremenskim periodom kao što su `day`, `week`, ili `year`.
 
-Katika mazungumzo, Tom anauliza kuhusu mara ngapi mikutano ya timu hufanyika.
+Tokom razgovora, Tom pita koliko često se održavaju timski sastanci.
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -30,7 +29,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili hutumika kuuliza kama mikutano hufanyika kila wiki.
+Ova fraza se koristi za pitanje da li se sastanci održavaju svake nedelje.
 
 # --scene--
 

@@ -1,50 +1,49 @@
 ---
 id: 67eff3ae8cca9823edafadc6
-title: Zoezi la 59
+title: Vežba 59
 challengeType: 19
 dashedName: task-59
 lang: en-US
 ---
-
-<!-- (audio) Jake: Have you checked whether all security updates were applied? -->
+<!-- (audio) Jake: Da li ste proverili da li su svi sigurnosni ažurmani primenjeni? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jake anauliza kuhusu nini?
+O čemu Jake pita?
 
 ## --answers--
 
-Je, masasisho yote yalitumika.
+Da li su sva ažuriranja korišćena/primnjena?
 
 ---
 
-Je, masasisho mapya ya usalama yalitolewa.
+Da li su izbačena nova ažuriranja bezbednosti?
 
 ### --feedback--
 
-Jake hanauliza kama masasisho mapya yapo.
+Jake pita da li postoje nova ažuriranja.
 
 ---
 
-Nani anahusika na masasisho ya usalama.
+Ko je odgovoran za sigurnosne ažurmane?
 
 ### --feedback--
 
-Jake hanauliza kuhusu mtu fulani.
+Jake pita o nekoj osobi.
 
 ---
 
-Jinsi masasisho ya usalama yanavyofanya kazi.
+Kako funkcionišu sigurnosne ažuriranje.
 
 ### --feedback--
 
-Jake anadhani Jessica anajua kuhusu masasisho ya usalama.
+Jake misli da Jessica zna za sigurnosne ažuriranje.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ Jake anadhani Jessica anajua kuhusu masasisho ya usalama.
 
 # --explanation--
 
-Jake anataka kujua kama mtu amethibitisha kwamba masasisho yote yamewekwa.
+Jake želi da zna da li je neko potvrdio da su sva ažuriranja instalirana.
 
-Kwa `Have you checked...?` anauliza kama Jessica amechunguza jambo fulani.
+Kwa `Have you checked...?` pita da li je Jessica istražila nešto.
 
-Kwa `whether all security updates were applied` anauliza kama masasisho yamewekwa kwa mafanikio.
+Za `whether all security updates were applied` pita da li su ažuriranja uspešno instalirana.
 
 # --scene--
 
