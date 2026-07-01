@@ -1,22 +1,21 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Task 10
+title: Vežba 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
 ---
-
-<!-- (Audio) Chen Na: 你们好 (nǐ men hǎo) -->
+<!-- (Audio) Chen Na: Zdravo -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Slušaj zvuk odgovora na pitanje koje se nalazi ispod.
 
 # --questions--
 
 ## --text--
 
-What is Chen Na saying to greet a group of people?
+Šta Chen Na kaže kada pozdravlja grupu ljudi?
 
 ## --answers--
 
@@ -24,27 +23,27 @@ What is Chen Na saying to greet a group of people?
 
 ### --feedback--
 
-This is a greeting to one person, but Chen Na is greeting more than one.
+Ovo je pozdrav za jednu osobu, ali Chen Na maše pozdrave više od jedne osobe.
 
----
+[No Swahili text provided.]
 
 `您们好 (nín men hǎo)`
 
 ### --feedback--
 
-This form is not standard in Chinese.
+Ova forma nije uobičajena na kineskom jeziku.
 
----
+[No Swahili text provided.]
 
 `你们好 (nǐ men hǎo)`
 
----
+[No Swahili text provided.]
 
 `大家好 (dà jiā hǎo)`
 
 ### --feedback--
 
-This also means "Hello, everyone", but Chen Na uses a different phrase.
+Ovo takođe znači "Habari, kila mtu", ali Čen Na koristi drugu frazu.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ This also means "Hello, everyone", but Chen Na uses a different phrase.
 
 # --explanation--
 
-The question is asking what Chen Na is saying to greet **a group of people**.
+Pitanje pita šta Chen Na kaže kada pozdravlja **grupu ljudi**.
 
-`你好 (nǐ hǎo)` is a greeting to one person, while `您好 (nín hǎo)` is a polite greeting to one person. `您们好 (nín men hǎo)` is not standard in Chinese; `您 (nín)` is polite singular, not usually pluralized.
+`你好 (nǐ hǎo)` je pozdrav za jednu osobu, dok `您好 (nín hǎo)` nije poštovan pozdrav za jednu osobu. `您们好 (nín men hǎo)` nije uobičajeno na kineski; `您 (nín)` je poštovanje za jednu osobu, nije uobičajeno za više osoba.
 
-The correct phrase for greeting a group is `你们好 (nǐ men hǎo)`, which is a common way to say "hello, everyone". `大家好 (dà jiā hǎo)` is another way to greet a group, which you'll learn as you progress.
+Ispravna fraza za pozdravljanje grupe je `你们好 (nǐ men hǎo)`, što je uobičajen način da se kaže "zdravo, svima". `大家好 (dà jiā hǎo)` je drugi način za pozdravljanje grupe, koji ćete naučiti kako napredujete.
 
 # --scene--
 

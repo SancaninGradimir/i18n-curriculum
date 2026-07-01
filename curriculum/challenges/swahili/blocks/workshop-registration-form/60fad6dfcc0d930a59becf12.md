@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-HTML za formular za registraciju je gotov. Sada ga malo možete dotjerati.
+HTML Registracioni formular je završen. Sada, možete ga malo poboljšati.
 
-Počnite menjanjem fonta na `Tahoma`, i veličine fonta na `16px` u `body`.
+Počnite menjanjem fonta na `Tahoma`, i veličinu fonta na `16px` u `body`.
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+Trebalo bi da koristiš atribut `font-family` za promenu fonta.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+Trebalo bi da postaviš vrednost za `font-family` na `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+Trebalo bi da postaviš vrednost za `font-size` na `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

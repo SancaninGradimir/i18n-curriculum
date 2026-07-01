@@ -7,17 +7,17 @@ dashedName: step-10
 
 # --description--
 
-Kreiraj funkciju nazvanu `displayStory`. Unutar funkcije, loguj `"You clicked the button"` na konzolu.
+Kreiraj funkciju koja se zove `displayStory`. Unutar te funkcije, napiši `"You clicked the button"` u konzolu.
 
 # --hints--
 
-You should have a function called `displayStory`.
+Trebalo bi da imaš funkciju nazvanu `displayStory`.
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+Treba da napišete `"You clicked the button"` u konzolu unutar funkcije `displayStory`.
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

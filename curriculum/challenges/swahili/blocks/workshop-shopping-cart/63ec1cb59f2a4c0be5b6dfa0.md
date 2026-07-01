@@ -7,17 +7,17 @@ dashedName: step-5
 
 # --description--
 
-Korpa za kupovinu nije od velike koristi bez proizvoda. Deklarišite varijablu `products` i postavite je na prazan niz. Korišćenje niza će vam omogućiti da sačuvate više proizvoda.
+Korpa za kupovinu nema mnogo smisla bez proizvoda. Deklarišite promenu `products` i postavite je na prazan red podataka. Korišćenjem reda podataka omogućit ćete skladištenje mnogo proizvoda.
 
 # --hints--
 
-You should declare a `products` variable with `const`.
+Treba da objaviš promene za `products` na `const`.
 
 ```js
 assert.match(code, /const\s+products\b/);
 ```
 
-You should set the `products` variable to an empty array.
+Trebalo bi da postavite izmene `products` u prazan red podataka.
 
 ```js
 assert.match(code, /const\s+products\s*=\s*\[\s*\]/);

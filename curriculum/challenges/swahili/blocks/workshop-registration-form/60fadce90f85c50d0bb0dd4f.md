@@ -7,11 +7,11 @@ dashedName: step-43
 
 # --description--
 
-Da biste elementima `fieldset` dali malo razdvajanja, selektujte ih i dajte im `border-bottom` od `3px solid #3b3b4f`.
+Da biste napravili mali razmak između elemenata `fieldset`, izaberite te elemente i date im `border-bottom` od `3px solid #3b3b4f`.
 
 # --hints--
 
-You should give the `fieldset` elements a `border-bottom` of `3px solid #3b3b4f`.
+Trebalo bi da im date elemente `fieldset` `border-bottom` od `3px solid #3b3b4f`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');

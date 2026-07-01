@@ -7,37 +7,37 @@ dashedName: step-9
 
 # --description--
 
-Ako korisnik klikne na dugme `Discard`, želite da zatvorite modal koji prikazuje dugmića `Cancel` i `Discard`, a zatim sakrijte modal forme.
+Ako korisnik klikne na dugme `Discard`, želi da zatvori modal koji prikazuje dugmad za `Cancel` i `Discard`, a zatim sakrije modal forme.
 
-Dodajte slušalicu za događaj klika na `discardBtn`, zatim koristite metodu `close()` na promenljivoj `confirmCloseDialog`. Takođe, koristite `classList` da biste prebacili klasu `hidden` na `taskForm`, tako da će se i modal forme zatvoriti.
+Dodaj slušaoca događaja za klik na `discardBtn`, zatim koristi metodu `close()` na promenama `confirmCloseDialog`. Takođe, koristi `classList` da promeniš klasu elemenata `hidden` na `taskForm` kako bi se i modal forme zatvorio.
 
 # --hints--
 
-You should call the `addEventListener()` method on your `discardBtn` variable.
+Trebalo bi da pozoveš putanju `addEventListener()` u tvojim promenama od `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Your event listener should listen for a `click` event.
+Vaš slušalac događaja treba da prati događaj `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-You should use arrow syntax to set your event listener to an empty pair of curly braces.
+Trebalo bi da koristiš streličnu sintaksu kako bi svoj listener događaja postavio u prazne vitičaste zagrade.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Your event listener should use the `close()` method on `confirmCloseDialog`.
+Vaš slušalac događaja treba da koristi metodu `close()` na `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Your event listener should use `classList` to toggle the class `hidden` on `taskForm`.
+Vaš slušalac događaja bi trebalo da koristi `classList` da promeni klasu objekata `hidden` u `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

@@ -7,25 +7,25 @@ dashedName: step-22
 
 # --description--
 
-Sada vam je potreban ukupan broj svakog proizvoda koji korisnik ima u košarici. Deklarišite varijablu ``totalCountPerProduct`` i dodelite joj prazan objekat.
+Sada je potreban ukupan zbir svih proizvoda koje korisnik ima u korpi za kupovinu. Deklarišite varijablu `totalCountPerProduct` i postavite joj vrednost na prazno/nulu.
 
 # --hints--
 
-You should declare a `totalCountPerProduct` variable in your `addItem` function.
+Trebalo bi da deklariš varijablu `totalCountPerProduct` u svojoj funkciji `addItem`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*=/);
 ```
 
-You should use `const` to declare `totalCountPerProduct`.
+Trebalo bi da koristiš `const` za objavu `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+totalCountPerProduct\s*=/);
 ```
 
-You should assign an empty object to `totalCountPerProduct`.
+Trebalo bi da postaviš vrednost praznog objekta za `totalCountPerProduct`.
 
 ```js
 const afterAdd = code.split("addItem")[1];

@@ -7,11 +7,11 @@ dashedName: step-24
 
 # --description--
 
-Dobro ste na pravom putu! Međutim, hajde da napravimo pauzu i razmotrimo uobičajni problem prilikom rada sa objektima u JavaScript-u.
+Vi ste na pravom putu! Međutim, hajde da odvojimo vreme za rešavanje uobičajenog problema kada je u pitanju rad sa stvarima u JavaScript.
 
-Kada pokušate da pristupite svojstvu objekta koje ne postoji, JavaScript vraća `undefined`. Ako zatim pokušate da izvršite aritmetičke operacije na `undefined`, to može dovesti do neočekivanih rezultata, kao što su `NaN`.
+Kada pokušate da pristupite svojstvu objekta koje ne postoji, JavaScript vraća `undefined`. Ako zatim pokušate da izvršite matematičke operacije na `undefined`, to može izazvati neočekivene rezultate, kao što je `NaN`.
 
-Da biste to sprečili, možete koristiti operator `||` (logički ILI) da pružite podrazumevanu vrednost.
+Da biste ovo spriječili, možete koristiti operater `||` (logical OR) da vratite podrazumevanu vrijednost.
 
 ```js
   let scores = {}; 
@@ -22,27 +22,27 @@ Da biste to sprečili, možete koristiti operator `||` (logički ILI) da pružit
   });
 ```
 
-Sada, primenimo ovaj koncept na vaš objekat `totalCountPerProduct` u povratnoj funkciji (callback) `forEach`. Uverite se da je svako svojstvo `dessert.id` pravilno inicijalizovano.
+Sada, koristi ovu koncepciju u svom `totalCountPerProduct` u pozivu za povratak od `forEach`. Proveri da je svaki atribut od `dessert.id` pravilno inicijalizovan.
 
-Inicijalizujte `totalCountPerProduct[dessert.id]` podrazumevanom vrednošću od `0` koristeći operator `||`.
+Postavi `totalCountPerProduct[dessert.id]` sa podrazumevanom vrednošću `0` koristeći operator `||`.
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+Trebalo bi da koristiš pisanje tačaka kako bi dobio atribut `id` od `dessert`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /dessert\.id/);
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+Treba da koristite zagrade kako biste dobili svojstvo `totalCountPerProduct` koje odgovara `dessert.id`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+Trebalo bi da inicijalizujete `totalCountPerProduct[dessert.id]` i `0` kao podrazumevanu vrednost koristeći operator `||` na kraju matematičkog izraza.
 
 ```js
 const cart = new ShoppingCart();

@@ -7,13 +7,13 @@ dashedName: step-17
 
 # --description--
 
-Premještanjem na unutrašnji ``div`` u **Listener planu**, dodajte mu klase ``grid``, ``grid-rows-[auto_auto_auto_1fr]`` i ``gap-y-2``.
+Postavite na `div` unutar **programa slušaoca**, dodelite klase `grid`, `grid-rows-[auto_auto_auto_1fr]`, i `gap-y-2`.
 
-Ove klase će učiniti unutrašnji ``div`` grid kontejnerom, definisati četiri reda koji se slažu jedan preko drugog, sa prvih tri postavljena na ``auto``, a poslednji koji zauzima preostale prostore, i konačno dodati razmak od ``0.5rem`` između redova.
+Madarasa haya yatafanya `div` ya ndani kuwa chombo cha gridi, yaeleze safu nne zinazopangwa juu ya kila moja, ambapo tatu za kwanza zitawekwa kuwa `auto` na ya mwisho kuchukua nafasi zilizobaki, na hatimaye ongeza nafasi ya `0.5rem` kati ya safu hizo.
 
 # --hints--
 
-Your inner `div` element should have the class `grid`.
+Kipengele chako cha `div` cha ndani kinapaswa kuwa na darasa la `grid`.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -21,7 +21,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid"))
 ```
 
-Your inner `div` element should have the class `grid-rows-[auto_auto_auto_1fr]`.
+Kipengele chako cha `div` cha ndani kinapaswa kuwa na darasa la `grid-rows-[auto_auto_auto_1fr]`.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
@@ -29,7 +29,7 @@ const listenerPlanInnerDiv = document.querySelectorAll("div")[2]
 assert.isTrue(listenerPlanInnerDiv.classList.contains("grid-rows-[auto_auto_auto_1fr]"))
 ```
 
-Your inner `div` element should have the class `gap-y-2`.
+Kipengele chako cha `div` cha ndani kinapaswa kuwa na darasa la `gap-y-2`.
 
 ```js
 const listenerPlanInnerDiv = document.querySelectorAll("div")[2]

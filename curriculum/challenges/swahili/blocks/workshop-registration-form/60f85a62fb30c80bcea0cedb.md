@@ -7,26 +7,26 @@ dashedName: step-20
 
 # --description--
 
-Korisnici će moći da izaberu da li je njihov nalog namenjen za svrhe `Personal` ili `Business`.
+Korisnici će moći da izaberu da li je njihov nalog za namenu `Personal` ili `Business`.
 
-Da biste to uradili, u svaki od prvih dva `label` elementa, dodajte jedan `input` element sa `type="radio"`.
+Da biste to učinili, u svakom od prvih dva elementa za `label`, dodajte jedan element `input` koji ima `type="radio"`.
 
 # --hints--
 
-You should add two `input` elements.
+Trebalo bi dodati dva elementa od `input`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input'), 2);
 ```
 
-You should add one `input` to each of the first two `label` elements.
+Morate dodati jedan element `input` za svaki od prvih dva elementa `label`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(1) > input'));
 assert.exists(document.querySelector('fieldset:nth-child(2) > label:nth-child(2) > input'));
 ```
 
-You should give both `input` elements a `type` of `radio`.
+Trebalo bi da im date sve komponente od `input` `type` od `radio`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('fieldset:nth-child(2) input[type="radio"]'), 2);

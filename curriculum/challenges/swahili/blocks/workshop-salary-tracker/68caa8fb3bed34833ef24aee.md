@@ -7,13 +7,13 @@ dashedName: step-33
 
 # --description--
 
-Kada se nivo modifikuje, morate ažurirati i platu.
+Kada promenite stopu/nivou, morate takođe da prilagodite platu.
 
-Pre postavljanja `self._level`, postavite `self._salary` na osnovnu platu za novi nivo.
+Pre podešavanja `self._level`, postavi `self._salary` da bude osnovna plata za novu stopu.
 
 # --hints--
 
-You should set `self._salary` to the base salary for the new level.
+Trebalo bi da postaviš `self._salary` kao osnovnu platu za novi nivo.
 
 ```js
 ({ test: () => runPython(`

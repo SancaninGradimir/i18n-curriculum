@@ -7,9 +7,9 @@ dashedName: step-8
 
 # --description--
 
-U ovom koraku, kreiraćete funkciju koja dodaje novo svojstvo objektu.
+U ovom koraku, kreiraćete funkciju koja dodaje novu osobinu objektu.
 
-Evo primera dodavanja svojstva unutar funkcije:
+Evo primera dodavanja atributa unutar funkcije:
 
 ```js
 const cat = {
@@ -30,36 +30,36 @@ console.log(addColor(cat, "White"));
 
 U ovom primeru, svojstvo `color` dodaje se objektu `cat`.
 
-Sada kreirajte funkciju nazvanu `addHabitat`. Funkcija treba da primi dva parametra: `animal` i `habitat`.
+Sada kreiraj funkciju nazvanu `addHabitat`. Ta funkcija treba da uzme dva parametra: `animal` i `habitat`.
 
-Unutar funkcije, dodajte novo svojstvo nazvano `habitat` objektu `animal`. Postavite mu vrednost jednaku parametru `habitat`.
+Unutar funkcije, dodaj novu osobinu nazvanu `habitat` objektu `animal`. Postavi njegovu vrednost jednaku parametru `habitat`.
 
-Vratite ažurirani objekt `animal`.
+Vrati ažurirano nešto za `animal`.
 
-Nakon kreiranja funkcije, koristite `console.log` da pozovete `addHabitat(tiger, "Rainforest")`, kako biste videli ažurirani objekt `tiger` u konzoli.
+Nakon kreiranja funkcije, koristite `console.log` za pozivanje `addHabitat(tiger, "Rainforest")` ili vidite nešto od `tiger` ažurirano na konzoli.
 
 # --hints--
 
-You should create a function named `addHabitat`.
+Trebalo bi da kreirate funkciju nazvanu `addHabitat`.
 
 ```js
 assert.isFunction(addHabitat);
 ```
 
-The `addHabitat` function should have two parameters: `animal` and `habitat`.
+Funkcija za `addHabitat` mora imati dva parametra: `animal` i `habitat`.
 
 ```js
 const regex = __helpers.functionRegex('addHabitat', ['animal', 'habitat']);
 assert.match(__helpers.removeJSComments(code), regex);
 ```
 
-`addHabitat` should use dot notation to add the `habitat` property.
+`addHabitat` trebalo bi koristiti dot notaciju da doda svojstvo za `habitat`.
 
 ```js
 assert.match(code, /animal\.habitat\s*=\s*habitat/);
 ```
 
-The `addHabitat` function should return the updated `animal` object.
+Funkcija `addHabitat` trebalo bi da vrati objekat `animal` koji je ažuriran.
 
 ```js
 const testAnimal = { species: "Cat" };
@@ -67,7 +67,7 @@ const result = addHabitat(testAnimal, "Forest");
 assert.strictEqual(result, testAnimal);
 ```
 
-You should log `addHabitat(tiger, "Rainforest")` to the console.
+Treba da napišete `addHabitat(tiger, "Rainforest")` u konzolu.
 
 ```js
 assert.match(
@@ -76,7 +76,7 @@ assert.match(
 );
 ```
 
-Calling `addHabitat(tiger, "Rainforest")` should add a habitat property to tiger.
+Pozvati `addHabitat(tiger, "Rainforest")` treba dodati atribut staništa za tigra.
 
 ```js
 const updatedTiger = addHabitat(tiger, "Rainforest");
@@ -89,7 +89,7 @@ assert.deepEqual(updatedTiger, {
 });
 ```
 
-`addHabitat` should use the function parameters and work with any object.
+`addHabitat` trebalo bi da koristi parametre funkcije i radi sa bilo kojim objektom.
 
 ```js
 const lion = { species: "Lion" };

@@ -1,13 +1,13 @@
 ---
 id: 6914579719bb4621b7e3f0bd
-title: Step 21
+title: Hatua 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-You can also define inline object types. For example:
+Unaweza pia kufafanua aina za vitu ndani ya mstari. Kwa mfano:
 
 ```js
 let variableName: {
@@ -17,17 +17,17 @@ let variableName: {
 };
 ```
 
-Create another variable named `propertyGroups`. Give it an inline object type with the properties `circle`, `rectangle`, and `triangle`, each with a type of `HTMLElement`.
+Tengeneza kigezo kingine kinachoitwa `propertyGroups`. Mpe aina ya kitu ndani ya mstari yenye vigezo `circle`, `rectangle`, na `triangle`, kila kikiwa na aina ya `HTMLElement`.
 
 # --hints--
 
-You should use `let` to create a `propertyGroups` variable with an object inline type.
+Unapaswa kutumia `let` kuunda kigezo cha `propertyGroups` chenye aina ya kitu ndani ya mstari.
 
 ```js
 assert.match(code, /let\s+propertyGroups:\s*{\s*/)
 ```
 
-Your `propertyGroups` should have `circle`, `rectangle`, and `triangle` properties, each of type `HTMLElement`.
+`propertyGroups` yako inapaswa kuwa na vigezo `circle`, `rectangle`, na `triangle`, kila kikiwa na aina ya `HTMLElement`.
 
 ```js
 const explorer = await __helpers.Explorer(code);

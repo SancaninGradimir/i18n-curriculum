@@ -1,19 +1,19 @@
 ---
 id: 6915abb14ee980884ed93cc7
-title: Step 51
+title: Hatua 51
 challengeType: 0
 dashedName: step-51
 ---
 
 # --description--
 
-Inside the loop, set the `oninput` event of each `input` element to the `handleInput` function.
+Ndani ya mzunguko, weka tukio la `oninput` la kila kipengele cha `input` kuwa kitendakazi cha `handleInput`.
 
-With that, the shape manager workshop is complete!
+Kwa hiyo, warsha ya msimamizi wa maumbo imekamilika!
 
 # --hints--
 
-You should set `input.oninput` to the `handleInput` function.
+Unapaswa kuweka `input.oninput` kuwa kitendakazi cha `handleInput`.
 
 ```js
 assert.match(code, /input\.oninput\s*=\s*handleInput;?/)

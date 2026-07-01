@@ -7,21 +7,21 @@ dashedName: step-30
 
 # --description--
 
-Ako pokušate da dodate još jedan zadatak sada, primetićete da polja za unos zadržavaju vrednosti koje ste uneli za prethodni zadatak. Da biste ovo rešili, morate obrisati polja za unos nakon dodavanja zadatka.
+Ako pokušate da dodate još jednu vežbu sada, videćete da polja za unos sačuvavaju vrednosti koje ste uneli za prethodnu vežbu. Da biste ovo rešili, morate obrisati (resetovati) polja za unos nakon dodavanja vežbe.
 
-Umesto da brišete polja za unos jedno po jedno, dobra praksa je kreirati funkciju koja se bavi brisanjem tih polja. Zatim možete pozvati ovu funkciju svaki put kada vam zatreba ponovo obrisati polja za unos.
+Umjesto brisanja dijelova unosa jedan po jedan, dobra praksa je kreirati funkciju koja obrađuje brisanje tih delova. Zatim možete pozvati ovu funkciju svaki put kada želite ponovo obrisati dijelove unosa.
 
-Koristite strelicasti sintaksa da kreirate funkciju `reset` i postavite je na par vitičastih zagrada.
+Koristite streličnu sintaksu da kreirate funkciju ``reset`` i stavite je unutar zagrada.
 
 # --hints--
 
-You should use `const` and arrow syntax to create a `reset` function.
+Trebalo bi da koristiš `const` sa sintaksom strelice za kreiranje funkcije `reset`.
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Your `reset` function should be empty.
+Tvoja funkcija za `reset` mora biti prazna.
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);

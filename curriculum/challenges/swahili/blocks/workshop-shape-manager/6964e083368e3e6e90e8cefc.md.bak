@@ -1,19 +1,19 @@
 ---
 id: 6964e083368e3e6e90e8cefc
-title: Step 34
+title: Hatua 34
 challengeType: 0
 dashedName: step-34
 ---
 
 # --description--
 
-Using `else if` blocks, check if the shape is `"rectangle"` and `"triangle"`.
+Kutumia viboreshaji vya `else if`, hakikisha kama umbo ni `"rectangle"` na `"triangle"`.
 
-For `"rectangle"`, call the `calculateArea` function with the rectangle type, `width`, and `height` from the inputs. And for `"triangle"`, call the `calculateArea` function with the triangle type, `base`, and `height` from the inputs.
+Kwa `"rectangle"`, fanya wito wa kitendakazi cha `calculateArea` kwa aina ya mstatili, `width`, na `height` kutoka kwa ingizo. Na kwa `"triangle"`, fanya wito wa kitendakazi cha `calculateArea` kwa aina ya pembetatu, `base`, na `height` kutoka kwa ingizo.
 
 # --hints--
 
-Your `updateResult` function should correctly update the result text when the shape is rectangle.
+Kitendakazi chako cha `updateResult` kinapaswa kusahihisha maandishi ya matokeo wakati umbo ni mstatili.
 
 ```js
 propertyInputs = {}
@@ -31,7 +31,7 @@ updateResult()
 assert.include(resultText.textContent, (4 * 6).toString())
 ```
 
-Your `updateResult` function should correctly update the result text when the shape is triangle.
+Kitendakazi chako cha `updateResult` kinapaswa kusahihisha maandishi ya matokeo wakati umbo ni pembetatu.
 
 ```js
 propertyInputs = {}

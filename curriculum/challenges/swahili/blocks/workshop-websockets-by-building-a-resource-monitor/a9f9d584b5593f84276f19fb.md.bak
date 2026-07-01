@@ -1,6 +1,6 @@
 ---
 id: a9f9d584b5593f84276f19fb
-title: 'Learn WebSockets by Building a Resource Monitor'
+title: 'Jifunze WebSockets kwa kujenga kielezi cha rasilimali'
 challengeType: 12
 url: freeCodeCamp/learn-websockets-by-building-a-resource-monitor
 dashedName: learn-websockets-by-building-a-resource-monitor
@@ -8,7 +8,7 @@ dashedName: learn-websockets-by-building-a-resource-monitor
 
 # --description--
 
-You will learn Node.js WebSockets and real-time data streaming by building a system resource monitor.
+Utafundishwa kuhusu Node.js WebSockets na uenezaji wa data kwa wakati halisi kwa kujenga kielezi cha rasilimali za mfumo.
 
 # --instructions--
 

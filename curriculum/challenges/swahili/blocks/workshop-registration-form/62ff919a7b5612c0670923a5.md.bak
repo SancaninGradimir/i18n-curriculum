@@ -7,55 +7,55 @@ dashedName: step-35
 
 # --description--
 
-Link the applicable form elements and their `label` elements together.
+Unganisha vipengele vinavyofaa vya fomu na vipengele vya `label` pamoja.
 
-Use `profile-picture`, `age`, `referrer`, and `bio` as values for the respective `id` attributes.
+Tumia `profile-picture`, `age`, `referrer`, na `bio` kama thamani za sifa za `id` zinazohusika.
 
 # --hints--
 
-The first `input` element should have an `id` of `profile-picture`.
+Kipengele cha kwanza cha `input` kinapaswa kuwa na `id` ya `profile-picture`.
 
 ```js
 assert.isTrue(document.querySelectorAll('fieldset:nth-of-type(3) input')?.[0]?.matches('#profile-picture'))
 ```
 
-The second `input` element should have an `id` of `age`.
+Kipengele cha pili cha `input` kinapaswa kuwa na `id` ya `age`.
 
 ```js
 assert.isTrue(document.querySelectorAll('fieldset:nth-of-type(3) input')?.[1]?.matches('#age'))
 ```
 
-The `select` element should have an `id` of `referrer`.
+Kipengele cha `select` kinapaswa kuwa na `id` ya `referrer`.
 
 ```js
 assert.isTrue(document.querySelector('fieldset:nth-of-type(3) select')?.matches('#referrer'))
 ```
 
-The `textarea` element should have an `id` of `bio`.
+Kipengele cha `textarea` kinapaswa kuwa na `id` ya `bio`.
 
 ```js
 assert.isTrue(document.querySelector('fieldset:nth-of-type(3) textarea')?.matches('#bio'))
 ```
 
-The first `label` element should have a `for` attribute with a value of `profile-picture`.
+Kipengele cha kwanza cha `label` kinapaswa kuwa na sifa ya `for` yenye thamani ya `profile-picture`.
 
 ```js
 assert.isTrue(document.querySelectorAll('fieldset:nth-of-type(3) label')?.[0]?.matches('label[for="profile-picture"]'))
 ```
 
-The second `label` element should have a `for` attribute with a value of `age`.
+Kipengele cha pili cha `label` kinapaswa kuwa na sifa ya `for` yenye thamani ya `age`.
 
 ```js
 assert.isTrue(document.querySelectorAll('fieldset:nth-of-type(3) label')?.[1]?.matches('label[for="age"]'))
 ```
 
-The third `label` element should have a `for` attribute with a value of `referrer`.
+Kipengele cha tatu cha `label` kinapaswa kuwa na sifa ya `for` yenye thamani ya `referrer`.
 
 ```js
 assert.isTrue(document.querySelectorAll('fieldset:nth-of-type(3) label')?.[2]?.matches('label[for="referrer"]'))
 ```
 
-The fourth `label` element should have a `for` attribute with a value of `bio`.
+Kipengele cha nne cha `label` kinapaswa kuwa na sifa ya `for` yenye thamani ya `bio`.
 
 ```js
 assert.isTrue(document.querySelectorAll('fieldset:nth-of-type(3) label')?.[3]?.matches('label[for="bio"]'))

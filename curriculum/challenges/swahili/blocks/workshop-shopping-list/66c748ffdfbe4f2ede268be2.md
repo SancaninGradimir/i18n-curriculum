@@ -7,15 +7,15 @@ dashedName: step-20
 
 # --description--
 
-U ovom poslednjem koraku radionice, izpišite konačnu listu namirnica na konzolu.
+U ovom poslednjem koraku radionice, napišite konačnu listu predmeta iz prodavnice na konzoli.
 
-Da biste to uradili, pozovite funkciju `getShoppingListMsg` sa nizom `shoppingList` kao argumentom unutar `console.log`.
+Da biste to uradili, pozovite funkciju `getShoppingListMsg` koristeći red podataka `shoppingList` kao argument unutar `console.log`.
 
-I ovim poslednjim korakom vaša lista namirnica je kompletirana!
+I sa ovim poslednjim korakom, vaša lista za kupovinu će biti kompletna!
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+Trebalo bi da pozoveš `getShoppingListMsg(shoppingList)` unutar `console.log`.
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);

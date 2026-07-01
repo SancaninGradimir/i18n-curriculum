@@ -1,50 +1,49 @@
 ---
 id: 68feee5abac0c3186f90b3ad
-title: Task 9
+title: Vežba 9
 challengeType: 19
 dashedName: task-9
 lang: zh-CN
 ---
-
 <!-- (Audio) Wang Hua: 名字 (míng zi) -->
 
 # --instructions--
 
-Listen to the audio and answer the question below.
+Slušajte audio i odgovorite na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Which option is the correct Pinyin for what Wang Hua says?
+Koji izbor daje tačan Pinyin za ono što govori Wang Hua?
 
 ## --answers--
 
 `míng zi`
 
----
+[No Swahili text provided.]
 
 `mǐng zi`
 
 ### --feedback--
 
-The tone of the first syllable doesn't match what you hear in the audio.
+Izgovor prvog sloga ne odgovara onome što čujete u zvuku.
 
----
+[No Swahili text provided.]
 
 `mín zi`
 
 ### --feedback--
 
-The final of the first syllable is not what she says.
+Kraj prve sloga nije ono što on govori.
 
----
+[No Swahili text provided.]
 
 `míng zhī`
 
 ### --feedback--
 
-The initial of the second syllable is different from what you hear in the audio.
+Početak druge slogove je drugačiji od onoga što čujete u zvuku.
 
 ## --video-solution--
 
@@ -52,7 +51,7 @@ The initial of the second syllable is different from what you hear in the audio.
 
 # --explanation--
 
-Wang Hua is saying `míng zi`. The first syllable has a nasal final `ing` and a rising tone. The second syllable is a whole syllable with a neutral tone, pronounced lightly.
+Wang Hua kaže `míng zi`. Prvi slog ima nazalno završavanje `ing` i uzlazni akcent. Drugi slog je pun slog sa slabijim akcentom, izgovara se blago.
 
 # --scene--
 

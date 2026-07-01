@@ -7,19 +7,19 @@ dashedName: step-3
 
 # --description--
 
-Trenutno objekat `profile` ima samo tri svojstva. Ali bilo bi lepo imati još nekoliko.
+Za sada predmet `profile` ima samo tri karakteristike. Ali bilo bi dobro imati još nekoliko karakteristika.
 
-Dodajte svojstvo nazvano `mood` objektu `profile`. Njegova vrednost bi trebalo da bude `null`.
+Dodajte atribut nazvan `mood` na objekt/element za `profile`. Njegova vrednost treba da bude `null`.
 
 # --hints--
 
-Your `profile` object should have a `mood` property.
+Vaš predmet sa `profile` mora imati svojstvo od `mood`.
 
 ```js
 assert.property(profile, "mood");
 ```
 
-Your `mood` property should have a value of `null`.
+Tvoja vrednost `mood` bi trebalo da bude `null`.
 
 ```js
 assert.isNull(profile?.mood);

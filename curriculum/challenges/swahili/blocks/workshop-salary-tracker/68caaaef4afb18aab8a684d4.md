@@ -7,13 +7,13 @@ dashedName: step-35
 
 # --description--
 
-Vreme je da testirate svoj novi *setter*. Pokušajte da dodelite nevažeće vrednosti kao što je nasumični niz ili trenutni nivo (`trainee`) na `charlie_brown.level` i vidite poruke o greškama u konzoli.
+Vreme je da testirate vaš novi *setter*. Pokušajte postaviti nevažeće vrednosti, kao što je slučajni niz slova ili trenutna stopa (`trainee`) za `charlie_brown.level`, i vidite poruku o grešci na konzoli.
 
-Kada završite, uklonite linije koje izazivaju greške i postavite `charlie_brown.level` na niz znakova `junior`.
+Čim završiš, ukloni linije koje uzrokuju greške i postavi `charlie_brown.level` u sekvencu karaktera `junior`.
 
 # --hints--
 
-You should set `charlie_brown.level` to the string `junior`.
+Trebalo bi da postavite `charlie_brown.level` kao sekvencu karaktera `junior`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).has_stmt("charlie_brown.level = 'junior'")`)) })

@@ -7,39 +7,39 @@ dashedName: step-23
 
 # --description--
 
-Koristite metodu `.forEach()` da iterirate kroz niz `items`. Prosledite praznu funkciju povratne pozive koja prima jedan parametar `dessert`.
+Koristi putanju `.forEach()` da prođe kroz niz podataka `items`. Pozovi praznu funkciju koja uzima jedan parametar `dessert`.
 
 # --hints--
 
-You should use the `.forEach()` method on your `items` array.
+Treba ti je koristiti putanju `.forEach()` na redu podataka `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /items\.forEach\(/);
 ```
 
-Remember to use the `this` keyword to access the `items` array.
+Zapamtite da koristite ključnu reč `this` da dobijete pristup nizu podataka `items`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(/);
 ```
 
-You should pass a callback function to the `.forEach()` method.
+Trebalo bi da prosledite funkciju povratnika putem `.forEach()`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(/);
 ```
 
-Your callback function should take a single parameter.
+Tvoja callback funkcija mora da primi jedan parametar.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /this\.items\.forEach\(\s*function\s*\(\s*dessert\s*\)/);
 ```
 
-Your callback function should be empty.
+Vaša funkcija odgovora mora biti prazna.
 
 ```js
 const cart = new ShoppingCart();

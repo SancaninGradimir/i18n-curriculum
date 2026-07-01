@@ -7,11 +7,11 @@ dashedName: step-4
 
 # --description--
 
-Da biste videli kako petlja unutar `printCharacters` radi, pozovite je sa argumentom `"hello"`.
+Da biste videli kako ciklus unutar `printCharacters` funkcioniše, pozovite ga sa argumentima `"hello"`.
 
 # --hints--
 
-You should call the function `printCharacters` with `"hello"` as its argument.
+Treba vam da izvršite poziv funkcije `printCharacters` sa `"hello"` kao njegovim argumentom.
 
 ```js
 const codeWithoutJSComments = __helpers.removeJSComments(code);

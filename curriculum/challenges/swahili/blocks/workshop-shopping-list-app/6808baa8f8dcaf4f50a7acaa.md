@@ -7,13 +7,13 @@ dashedName: step-17
 
 # --description--
 
-Za uslov koji je istinit, ako `prev` uključuje `item`, vratiti filtriran niz sa uklonjenim `item`.
+U stvari, ako `prev` uključuje `item`, vratite filtriran red podataka koji je uklonjen sa `item`.
 
-Povežite metod `filter()` sa `prev` i prosledite mu anonimnu funkciju koja prima `i` kao argument. Unutar funkcije, proverite da `i` nije strogo jednak `item`. Ovo će vratiti novi niz sa svim stavkama osim `item`.
+Povežite putanju `filter()` sa `prev` i prosledite anonimnu funkciju koja uzima `i` kao argument. Unutar funkcije, uverite se da `i` nije identičan sa `item`. Ovo će vratiti novi niz podataka koji sadrži sve osim `item`.
 
 # --hints--
 
-You should chain the `filter()` method to `prev` and pass it an anonymous function that takes `i` as an argument.
+Trebalo bi da povežete putanju `filter()` sa `prev` i prosledite anonimnu funkciju koja uzima `i` kao argument.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;
@@ -24,7 +24,7 @@ const shoppingListString = exports.ShoppingList.toString();
 assert.match(shoppingListString, /prev\.includes\s*\(\s*item\s*\)\s*\?\s*prev\.filter\s*\(function\s*\(\s*i\s*\)\s*{/);
 ```
 
-Inside the anonymous `filter()` function, you should check that `i` is not strictly equal to `item`. Remember to return the result of that check.
+Unutar funkcije koja nema ime `filter()`, morate osigurati da `i` nije sasvim jednako ni `item`. Ne zaboravite da vratite rezultate te provere.
 
 ```js
 const script = [...document.querySelectorAll("script")].find((s) => s.dataset.src ===  "index.jsx").innerText;

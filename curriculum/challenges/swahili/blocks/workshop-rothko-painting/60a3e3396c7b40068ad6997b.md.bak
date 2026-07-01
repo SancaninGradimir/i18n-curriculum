@@ -7,18 +7,18 @@ dashedName: step-17
 
 # --description--
 
-Now set the `height` for `.one` to 150 pixels.
+Sasa weka `height` kwa `.one` kuwa pikseli 150.
 
 # --hints--
 
-You should set the `height` property to `150px`.
+Unapaswa kuweka sifa ya `height` kuwa `150px`.
 
 ```js
 const hasHeight = new __helpers.CSSHelp(document).getCSSRules().some(x => x.style.height === '150px');
 assert(hasHeight);
 ```
 
-Your `.one` element should have a `height` value of `150px`.
+Kipengele chako cha `.one` kinapaswa kuwa na thamani ya `height` ya `150px`.
 
 ```js
 const oneHeight = new __helpers.CSSHelp(document).getStyle('.one')?.getPropertyValue('height');

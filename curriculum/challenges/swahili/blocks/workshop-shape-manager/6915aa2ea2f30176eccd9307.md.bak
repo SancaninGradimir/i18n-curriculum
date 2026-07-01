@@ -1,19 +1,19 @@
 ---
 id: 6915aa2ea2f30176eccd9307
-title: Step 49
+title: Hatua 49
 challengeType: 0
 dashedName: step-49
 ---
 
 # --description--
 
-Use the `oninput` event on `shapeTypeSelect` and set it to `handleShapeSelect`. This will make the function run each time the shape selection changes.
+Tumia tukio la `oninput` kwenye `shapeTypeSelect` na uilishe kuwa `handleShapeSelect`. Hii itafanya kitendakazi kifikie kila wakati uchaguzi wa umbo linapobadilika.
 
-After doing that, you should be able to see the input fields of each shape. But the calculations won't work yet, and that's what you will handle next.
+Baada ya kufanya hivyo, utakuwa na uwezo wa kuona sehemu za ingizo za kila umbo. Lakini hesabu bado hazitafanya kazi, na hiyo ndiyo utakayoshughulikia ifuatayo.
 
 # --hints--
 
-You should set `shapeTypeSelect.oninput` to `handleShapeSelect`.
+Unapaswa kuweka `shapeTypeSelect.oninput` kuwa `handleShapeSelect`.
 
 ```js
 console.log(initializeApp.toString())

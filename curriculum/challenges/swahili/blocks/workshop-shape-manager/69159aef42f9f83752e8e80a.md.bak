@@ -1,23 +1,23 @@
 ---
 id: 69159aef42f9f83752e8e80a
-title: Step 40
+title: Hatua 40
 challengeType: 0
 dashedName: step-40
 ---
 
 # --description--
 
-Now, call the `chooseShape()` function with `val.value` to show the correct input fields, then call `updateResult()` to recalculate and display the area.
+Sasa, fanya wito wa kitendakazi cha `chooseShape()` kwa `val.value` kuonyesha sehemu za ingizo zinazofaa, kisha fanya wito wa `updateResult()` kuhesabu upya na kuonyesha eneo.
 
 # --hints--
 
-You should call the `chooseShape` function with `val.value`.
+Unapaswa kufanya wito wa kitendakazi cha `chooseShape` kwa `val.value`.
 
 ```js
 assert.match(handleShapeSelect.toString(), /chooseShape\(val\.value\);?/)
 ```
 
-You should call the `updateResult()` function.
+Unapaswa kufanya wito wa kitendakazi cha `updateResult()`.
 
 ```js
 assert.match(handleShapeSelect.toString(), /updateResult\(\);?/)

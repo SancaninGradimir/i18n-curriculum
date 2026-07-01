@@ -1,25 +1,25 @@
 ---
 id: 69145aefce21f93ed77b626c
-title: Step 28
+title: Hatua 28
 challengeType: 0
 dashedName: step-28
 ---
 
 # --description--
 
-You also need to toggle the result card on and off based on what is calculated and the result to show.
+Unahitaji pia kuwasha na kuzima kadi ya matokeo kulingana na kile kinachohesabiwa na matokeo ya kuonyesha.
 
-For this, create a `toggleResultCard` function that takes a boolean type parameter called `show`. If `show` is true, add the `visible` class to `resultCard`. Otherwise, remove it.
+Kwa hili, tengeneza kitendakazi cha `toggleResultCard` kinachopokea kigezo cha aina ya thamani ya kweli au siyo kweli kinachoitwa `show`. Ikiwa `show` ni kweli, ongeza darasa la `visible` kwa `resultCard`. Vinginevyo, liondoe.
 
 # --hints--
 
-You should create a `toggleResultCard` function.
+Unapaswa kutengeneza kitendakazi cha `toggleResultCard`.
 
 ```js
 assert.isFunction(toggleResultCard)
 ```
 
-Your `toggleResultCard` function should have a `show` parameter set to a type of `boolean`.
+Kitendakazi chako cha `toggleResultCard` kinapaswa kuwa na kigezo cha `show` kilichowekwa kwa aina ya `boolean`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -27,7 +27,7 @@ const { toggleResultCard } = explorer.allFunctions;
 assert.isTrue(toggleResultCard.parameters[0].matches("show: boolean"));
 ```
 
-Your `toggleResultCard` function should add the `visible` class to `resultCard` when `show` is `true`, and remove it otherwise.
+Kitendakazi chako cha `toggleResultCard` kinapaswa kuongeza darasa la `visible` kwa `resultCard` wakati `show` ni `true`, na kuliondoa vinginevyo.
 
 ```js
 resultCard = document.getElementById("result-card"); 

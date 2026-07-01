@@ -1,6 +1,6 @@
 ---
 id: 69870f1c238ffdbc99eedcda
-title: Task 2
+title: Vežba 2
 challengeType: 22
 dashedName: task-2
 lang: zh-CN
@@ -9,11 +9,11 @@ inputType: pinyin-to-hanzi
 
 # --description--
 
-You'll now practice writing a few numbers that are between 20 and 29. To complete this task, keep in mind that in Chinese, the number 20 is called `二十 (èr shí)`.
+Sada ćeš raditi vežbe pisanja nekoliko brojeva između 20 i 29. Da bi završio ovu vežbu, zapamti da je broj 20 na kineskom nazvan `二十 (èr shí)`.
 
-Also, the numbers from 0 to 9 are:
+Brojevi od 0 do 9 su:
 
-| Number | Chinese |
+| Broj | Kineski |
 | :--- | :--- |
 | 0 | `零 (líng)` |
 | 1 | `一 (yī)` |
@@ -28,7 +28,7 @@ Also, the numbers from 0 to 9 are:
 
 # --instructions--
 
-This task doesn't have audio. Complete the blanks below with the corresponding numbers in Chinese.
+Ovaj zadatak nema audio. Popunite praznine ispod odgovarajućim brojevima na kineskom.
 
 # --fillInTheBlank--
 
@@ -46,32 +46,32 @@ This task doesn't have audio. Complete the blanks below with the corresponding n
 
 ### --feedback--
 
-This number in Chinese is formed by adding `一 (yī)` after `二十 (shí)`.
+Ovaj broj na kineskom se stvara dodavanjem `一 (yī)` nakon `二十 (shí)`.
 
----
+[No Swahili text provided.]
 
 `二十五 (èr shí wǔ)`
 
 ### --feedback--
 
-This number in Chinese is formed by adding `五 (wǔ)` after `二十 (shí)`.
+Ovaj broj na kineskom se stvara dodavanjem `五 (wǔ)` nakon `二十 (shí)`.
 
----
+[No Swahili text provided.]
 
 `二十九 (èr shí jiǔ)`
 
 ### --feedback--
 
-This number in Chinese is formed by adding `九 (jiǔ)` after `二十 (shí)`.
+Ovaj broj na kineskom se stvara dodavanjem `九 (jiǔ)` nakon `二十 (shí)`.
 
 # --explanation--
 
-The numbers are:
+Broj je:
 
 `二十一 (èr shí yī)` - 21
 
 `二十五 (èr shí wǔ)` - 25
 
-`二十九 (èr shí jiǔ)` - 29 
+`二十九 (èr shí jiǔ)` - 29
 
-They are formed by adding the Chinese for 1, 5 and 9 after `二十 (èr shí)` (20).
+Kreiran je dodavanjem Kineskog 1, 5 i 9 nakon `二十 (èr shí)` (20).

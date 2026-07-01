@@ -7,19 +7,19 @@ dashedName: step-54
 
 # --description--
 
-Sa `display` od `block`, dugme za slanje prilaže se levoj ivici svog roditelja.
+Za `display` od `block`, dugme za slanje je savršeno poravnato sa levom ivicom svog roditelja.
 
-Koristite istu tehniku koja je korišćena za centriranje `form`, da biste centrirali dugme za slanje.
+Koristi isti metod koji je korišćen za postavljanje `form` u sredinu ili za postavljanje dugmeta za slanje u sredinu.
 
 # --hints--
 
-You should give the submit button a `margin` of `0 auto`.
+Trebalo bi da mu date dugme za slanje `margin` od `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-You should not give the submit button a `min-width` or `max-width`.
+Pritisnite dugme za slanje `min-width` ili `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

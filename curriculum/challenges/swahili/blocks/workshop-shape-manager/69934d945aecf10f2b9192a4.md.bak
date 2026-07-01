@@ -1,19 +1,19 @@
 ---
 id: 69934d945aecf10f2b9192a4
-title: Step 3
+title: Hatua 3
 challengeType: 0
 dashedName: step-3
 ---
 
 # --description--
 
-Now you should set some initial text so you know something is going on in the UI.
+Sasa unapaswa kuweka maandishi ya awali ili ujue kuna jambo linaendelea katika UI.
 
-Set the `textContent` property of `resultText` to the string `"Enter a radius to see the area"`.
+Weka sifa ya `textContent` ya `resultText` kuwa mfuatano wa herufi `"Enter a radius to see the area"`.
 
 # --hints--
 
-You should set the `textContent` property of the `resultText` to `Enter a radius to see the area`.
+Unapaswa kuweka sifa ya `textContent` ya `resultText` kuwa `Enter a radius to see the area`.
 
 ```js
 assert.match(__helpers.removeJSComments(code), /resultText\.textContent\s*=\s*['"`]Enter a radius to see the area['"`]/);

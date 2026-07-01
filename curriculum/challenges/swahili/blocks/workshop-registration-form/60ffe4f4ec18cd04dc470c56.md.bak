@@ -7,25 +7,25 @@ dashedName: step-52
 
 # --description--
 
-You want the `select` element to remain with a white background, but now it is not getting the same `min-height` as the `input` and `textarea` elements.
+Unataka kipengele cha `select` kibaki na mandhari nyeupe, lakini sasa hakipati `min-height` sawa na vipengele vya `input` na `textarea`.
 
-Move the `min-height` property and value so that all three element types have the same `min-height` value, and the `select` element still has a white background.
+Hamisha sifa na thamani ya `min-height` ili aina zote tatu za vipengele zipate thamani sawa ya `min-height`, na kipengele cha `select` bado kiwe na mandhari nyeupe.
 
 # --hints--
 
-You should move the `min-height` property and value to the `input, textarea, select` selector.
+Unapaswa kuhamisha sifa na thamani ya `min-height` kwa kichaguzi cha `input, textarea, select`.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('input, textarea, select')?.minHeight);
 ```
 
-You should give the `input, textarea, select` selector a `min-height` of `2em`.
+Unapaswa kumpa kichaguzi cha `input, textarea, select` `min-height` ya `2em`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input, textarea, select')?.minHeight, '2em');
 ```
 
-You should remove the `min-height` declaration from the `input, textarea` selector.
+Unapaswa kuondoa tamko la `min-height` kutoka kwa kichaguzi cha `input, textarea`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input, textarea')?.minHeight);
