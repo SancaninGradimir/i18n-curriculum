@@ -1,6 +1,6 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: Dialogue 1: Intervju za posao
+title: "Dialogue 1: Intervju za posao"
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 lang: en-US
