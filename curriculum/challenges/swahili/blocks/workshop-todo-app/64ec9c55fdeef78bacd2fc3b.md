@@ -1,27 +1,27 @@
 ---
 id: 64ec9c55fdeef78bacd2fc3b
-title: Step 30
+title: Korak 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Ikiwa utajaribu kuongeza zoezi lingine sasa, utaona kwamba sehemu za ingizo zinahifadhi maadili uliyoyaingiza kwa zoezi lililopita. Ili kutatua hili, unahitaji kufuta sehemu za ingizo baada ya kuongeza zoezi.
+Ako pokušate da dodate još jednu vežbu sada, videćete da polja za unos sačuvavaju vrednosti koje ste uneli za prethodnu vežbu. Da biste ovo rešili, morate obrisati (resetovati) polja za unos nakon dodavanja vežbe.
 
-Badala ya kufuta sehemu za ingizo moja moja, ni desturi nzuri kuunda kitendakazi kinachoshughulikia kufuta sehemu hizo. Kisha unaweza kuita kitendakazi hiki kila unapotaka kufuta sehemu za ingizo tena.
+Umjesto brisanja dijelova unosa jedan po jedan, dobra praksa je kreirati funkciju koja obrađuje brisanje tih delova. Zatim možete pozvati ovu funkciju svaki put kada želite ponovo obrisati dijelove unosa.
 
-Tumia sintaksia ya mshale kuunda kitendakazi cha `reset` na uweke kwenye mabano ya mviringo.
+Koristite streličnu sintaksu da kreirate funkciju ``reset`` i stavite je unutar zagrada.
 
 # --hints--
 
-Unapaswa kutumia `const` na sintaksia ya mshale kuunda kitendakazi cha `reset`.
+Trebalo bi da koristiš `const` sa sintaksom strelice za kreiranje funkcije `reset`.
 
 ```js
 assert.match(code, /const\s+reset\s*=\s*\(\s*\)\s*=>\s*\{\s*/)
 ```
 
-Kitendakazi chako cha `reset` kinapaswa kuwa tupu.
+Tvoja funkcija za `reset` mora biti prazna.
 
 ```js
 assert.match(reset.toString(), /\(\s*\)\s*\{\s*\}/);

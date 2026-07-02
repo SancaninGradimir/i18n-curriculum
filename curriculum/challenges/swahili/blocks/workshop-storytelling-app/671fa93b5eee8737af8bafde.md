@@ -1,23 +1,23 @@
 ---
 id: 671fa93b5eee8737af8bafde
-title: Hatua 10
+title: Korak 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Tengeneza kitendakazi kinachoitwa `displayStory`. Ndani ya kitendakazi hicho, andika `"You clicked the button"` kwenye konsoli.
+Kreiraj funkciju koja se zove `displayStory`. Unutar te funkcije, napiši `"You clicked the button"` u konzolu.
 
 # --hints--
 
-Unapaswa kuwa na kitendakazi kinachoitwa `displayStory`.
+Trebalo bi da imaš funkciju nazvanu `displayStory`.
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-Unapaswa kuandika `"You clicked the button"` kwenye konsoli ndani ya kitendakazi cha `displayStory`.
+Treba da napišete `"You clicked the button"` u konzolu unutar funkcije `displayStory`.
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);

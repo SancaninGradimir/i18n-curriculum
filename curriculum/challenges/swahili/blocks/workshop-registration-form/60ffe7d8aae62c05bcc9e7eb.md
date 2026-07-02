@@ -1,25 +1,25 @@
 ---
 id: 60ffe7d8aae62c05bcc9e7eb
-title: Step 54
+title: Korak 54
 challengeType: 0
 dashedName: step-54
 ---
 
 # --description--
 
-Kwa `display` ya `block` kitufe cha kuwasilisha kiko sambamba kabisa na kingo ya kushoto ya mzazi wake.
+Za `display` od `block`, dugme za slanje je savršeno poravnato sa levom ivicom svog roditelja.
 
-Tumia mbinu ile ile iliyotumika kuweka `form` katikati ili kuweka kitufe cha kuwasilisha katikati.
+Koristi isti metod koji je korišćen za postavljanje `form` u sredinu ili za postavljanje dugmeta za slanje u sredinu.
 
 # --hints--
 
-Unapaswa kumpa kitufe cha kuwasilisha `margin` ya `0 auto`.
+Trebalo bi da mu date dugme za slanje `margin` od `0 auto`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.margin, '0px auto');
 ```
 
-Haupasi kumpa kitufe cha kuwasilisha `min-width` au `max-width`.
+Pritisnite dugme za slanje `min-width` ili `max-width`.
 
 ```js
 assert.isEmpty(new __helpers.CSSHelp(document).getStyle('input[type="submit"]')?.minWidth);

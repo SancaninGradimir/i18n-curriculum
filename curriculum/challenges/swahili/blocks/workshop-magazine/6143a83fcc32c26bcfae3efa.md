@@ -1,59 +1,59 @@
 ---
 id: 6143a83fcc32c26bcfae3efa
-title: Step 17
+title: Korak 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Chini ya kipengele chako cha `.text`, tengeneza kipengele kipya cha `section` na kipa `class` ya `text text-with-images`. Ndani yake, tengeneza kipengele cha `article` chenye `class` iliyowekwa kuwa `brief-history`, na kipengele cha `aside` chenye `class` iliyowekwa kuwa `image-wrapper`.
+Ispod vašeg `.text` elementa, kreirajte novi `section` element i dodelite mu `class` od `text text-with-images`. Unutar toga, kreirajte `article` element sa `class` podešenim na `brief-history`, i `aside` element sa `class` podešenim na `image-wrapper`.
 
 # --hints--
 
-Unapaswa kutengeneza kipengele kipya cha `section`.
+You should create a new `section` element.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 3);
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuja baada ya kipengele chako cha `.text`.
+Your new `section` element should come after your `.text` element.
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className, 'text');
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuwa na `class` iliyowekwa kuwa `text text-with-images`.
+Your new `section` element should have the `class` set to `text text-with-images`.
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.className, 'text text-with-images');
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuwa na kipengele cha `article`.
+Your new `section` element should have an `article` element.
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Kipengele chako kipya cha `section` kinapaswa kuwa na kipengele cha `aside`.
+Your new `section` element should have an `aside` element.
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-Kipengele cha `article` kinapaswa kuja kabla ya kipengele cha `aside`.
+The `article` element should come before the `aside` element.
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.nextElementSibling?.localName, 'aside');
 ```
 
-Kipengele chako cha `article` kinapaswa kuwa na `class` iliyowekwa kuwa `brief-history`.
+Your `article` element should have the `class` set to `brief-history`.
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.className, 'brief-history');
 ```
 
-Kipengele chako cha `aside` kinapaswa kuwa na `class` iliyowekwa kuwa `image-wrapper`.
+Your `aside` element should have the `class` set to `image-wrapper`.
 
 ```js
 assert.equal(document.querySelector('.text-with-images aside')?.className, 'image-wrapper');

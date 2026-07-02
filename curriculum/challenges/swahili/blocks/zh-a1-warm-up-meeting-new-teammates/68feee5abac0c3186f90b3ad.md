@@ -1,50 +1,49 @@
 ---
 id: 68feee5abac0c3186f90b3ad
-title: Zoezi la 9
+title: Vežba 9
 challengeType: 19
 dashedName: task-9
 lang: zh-CN
 ---
-
 <!-- (Audio) Wang Hua: 名字 (míng zi) -->
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Slušajte audio i odgovorite na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Ni chaguo gani kinachotoa Pinyin sahihi kwa kile anachosema Wang Hua?
+Koji izbor daje tačan Pinyin za ono što govori Wang Hua?
 
 ## --answers--
 
 `míng zi`
 
----
+[No Swahili text provided.]
 
 `mǐng zi`
 
 ### --feedback--
 
-Lahaja ya silabi ya kwanza haifananishi na unavyosikia kwenye sauti.
+Izgovor prvog sloga ne odgovara onome što čujete u zvuku.
 
----
+[No Swahili text provided.]
 
 `mín zi`
 
 ### --feedback--
 
-Mwisho wa silabi ya kwanza si ule anayeusema.
+Kraj prve sloga nije ono što on govori.
 
----
+[No Swahili text provided.]
 
 `míng zhī`
 
 ### --feedback--
 
-Mwanzo wa silabi ya pili ni tofauti na unavyosikia kwenye sauti.
+Početak druge slogove je drugačiji od onoga što čujete u zvuku.
 
 ## --video-solution--
 
@@ -52,7 +51,7 @@ Mwanzo wa silabi ya pili ni tofauti na unavyosikia kwenye sauti.
 
 # --explanation--
 
-Wang Hua anasema `míng zi`. Silabi ya kwanza ina mwisho wa nasal `ing` na lahaja inayoinuka. Silabi ya pili ni silabi kamili yenye lahaja isiyo na nguvu, inatamkwa kwa upole.
+Wang Hua kaže `míng zi`. Prvi slog ima nazalno završavanje `ing` i uzlazni akcent. Drugi slog je pun slog sa slabijim akcentom, izgovara se blago.
 
 # --scene--
 

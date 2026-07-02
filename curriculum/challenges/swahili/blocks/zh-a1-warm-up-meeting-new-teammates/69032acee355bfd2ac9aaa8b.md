@@ -1,6 +1,6 @@
 ---
 id: 69032acee355bfd2ac9aaa8b
-title: Zoezi la 13
+title: Vežba 13
 challengeType: 24
 dashedName: task-13
 lang: zh-CN
@@ -8,23 +8,23 @@ lang: zh-CN
 
 # --description--
 
-## Mabadiliko ya sauti ya `不 (bù)`
+## Promena zvuka za `不 (bù)`
 
-`不 (bù)` inamaanisha "hapana" au "siyo". Inapofuatiwa na silabi ambayo iko katika sauti ya kwanza, ya pili, au ya tatu, inabaki katika sauti ya nne.
+`不 (bù)` to znači "ne" ili "nije". Ako ga sledi slog koji je u prvom, drugom ili trećem tonu, ostaje u četvrtom tonu.
 
-Hata hivyo, wakati `不 (bù)` inafuatiwa na silabi ambayo iko katika sauti ya nne, hubadilika kuwa sauti ya pili.
+Međutim, kada `不 (bù)` je praćen slog koji je u četvrtom tonu, menja se u drugi ton.
 
-Marekebisho haya ya sauti ni marekebisho ya asili katika hotuba ili kufanya matamshi kuwa laini zaidi.
+Ove zvučne korekcije su prirodne korekcije u govoru kako bi se izgovor učinio mekšim.
 
-### Mifano
+### Primjeri
 
-| Imeandikwa    | Inatamkwa kama |
-|------------|----------------|
-| `bù néng`   | `bù néng`      |
-| `bù xiǎng`   | `bù xiǎng`      |
-| `bù shì`    | `bú shì`       |
-| `bù huì`  | `bú huì`   |
+| Napisano | Izgovara se kao |
+|---|---|
+| `bù néng` | `bù néng` |
+| `bù xiǎng` | `bù xiǎng` |
+| `bù shì` | `bú shì` |
+| `bù huì` | `bú huì` |
 
 # --assignment--
 
-Nimesoma kanuni hii ya Pinyin.
+Pročitao sam ovo Pinyin pravilo.

@@ -1,22 +1,21 @@
 ---
 id: 68da8dffcffd794e83de9d6c
-title: Zoezi la 10
+title: Vežba 10
 challengeType: 19
 dashedName: task-10
 lang: zh-CN
 ---
-
-<!-- (Audio) Chen Na: 你们好 (nǐ men hǎo) -->
+<!-- (Audio) Chen Na: Zdravo -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušaj zvuk odgovora na pitanje koje se nalazi ispod.
 
 # --questions--
 
 ## --text--
 
-Chen Na anasema nini kuwapungia salamu kundi la watu?
+Šta Chen Na kaže kada pozdravlja grupu ljudi?
 
 ## --answers--
 
@@ -24,27 +23,27 @@ Chen Na anasema nini kuwapungia salamu kundi la watu?
 
 ### --feedback--
 
-Hii ni salamu kwa mtu mmoja, lakini Chen Na anapungia salamu watu zaidi ya mmoja.
+Ovo je pozdrav za jednu osobu, ali Chen Na maše pozdrave više od jedne osobe.
 
----
+[No Swahili text provided.]
 
 `您们好 (nín men hǎo)`
 
 ### --feedback--
 
-Fomu hii si ya kawaida katika Kichina.
+Ova forma nije uobičajena na kineskom jeziku.
 
----
+[No Swahili text provided.]
 
 `你们好 (nǐ men hǎo)`
 
----
+[No Swahili text provided.]
 
 `大家好 (dà jiā hǎo)`
 
 ### --feedback--
 
-Hii pia inamaanisha "Habari, kila mtu", lakini Chen Na anatumia msemo tofauti.
+Ovo takođe znači "Habari, kila mtu", ali Čen Na koristi drugu frazu.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ Hii pia inamaanisha "Habari, kila mtu", lakini Chen Na anatumia msemo tofauti.
 
 # --explanation--
 
-Swali linauliza ni nini Chen Na anasema kuwapungia salamu **kundi la watu**.
+Pitanje pita šta Chen Na kaže kada pozdravlja **grupu ljudi**.
 
-`你好 (nǐ hǎo)` ni salamu kwa mtu mmoja, wakati `您好 (nín hǎo)` ni salamu ya heshima kwa mtu mmoja. `您们好 (nín men hǎo)` si ya kawaida katika Kichina; `您 (nín)` ni heshima kwa mtu mmoja, si kawaida kwa wingi.
+`你好 (nǐ hǎo)` je pozdrav za jednu osobu, dok `您好 (nín hǎo)` nije poštovan pozdrav za jednu osobu. `您们好 (nín men hǎo)` nije uobičajeno na kineski; `您 (nín)` je poštovanje za jednu osobu, nije uobičajeno za više osoba.
 
-Msemo sahihi wa kuwapungia salamu kundi ni `你们好 (nǐ men hǎo)`, ambayo ni njia ya kawaida ya kusema "habari, kila mtu". `大家好 (dà jiā hǎo)` ni njia nyingine ya kuwapungia salamu kundi, ambayo utaijifunza kadri unavyoendelea.
+Ispravna fraza za pozdravljanje grupe je `你们好 (nǐ men hǎo)`, što je uobičajen način da se kaže "zdravo, svima". `大家好 (dà jiā hǎo)` je drugi način za pozdravljanje grupe, koji ćete naučiti kako napredujete.
 
 # --scene--
 

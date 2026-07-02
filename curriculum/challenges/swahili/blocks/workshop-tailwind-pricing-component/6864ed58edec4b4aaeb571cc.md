@@ -1,13 +1,13 @@
 ---
 id: 6864ed58edec4b4aaeb571cc
-title: Hatua 17
+title: Korak 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Hamishe kwenye `div` ya ndani katika **mpango wa msikilizaji**, mpe madarasa `grid`, `grid-rows-[auto_auto_auto_1fr]`, na `gap-y-2`.
+Postavite na `div` unutar **programa slušaoca**, dodelite klase `grid`, `grid-rows-[auto_auto_auto_1fr]`, i `gap-y-2`.
 
 Madarasa haya yatafanya `div` ya ndani kuwa chombo cha gridi, yaeleze safu nne zinazopangwa juu ya kila moja, ambapo tatu za kwanza zitawekwa kuwa `auto` na ya mwisho kuchukua nafasi zilizobaki, na hatimaye ongeza nafasi ya `0.5rem` kati ya safu hizo.
 

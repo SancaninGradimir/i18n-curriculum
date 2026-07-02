@@ -1,17 +1,17 @@
 ---
 id: 685118ddcad14fa5d62faaef
-title: Hatua 33
+title: Korak 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-Sasa ongeza ufunguo `diagnosis` katika kamusi ya `constraints`. Kwa thamani yake, andika usemi wa kihesabu unaothibitisha kuwa `diagnosis` ni mfano wa `str` au ni `None`.
+Sada dodajte ključ `diagnosis` u rečnik `constraints`. Za njegovu vrednost, napišite izraz koji proverava da li `diagnosis` jeste instanca `str` ili je `None`.
 
 # --hints--
 
-Kamusi yako ya `constraints` inapaswa kuwa na ufunguo `diagnosis`.
+Your `constraints` dictionary should have a key `diagnosis`.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -21,7 +21,7 @@ _keys = [k.value for k in _ast_keys]
 `)) })
 ```
 
-Ufunguo `diagnosis` wa kamusi yako ya `constraints` unapaswa kuwa na thamani ya `isinstance(diagnosis, str) or diagnosis is None`.
+The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
 
 ```js
 ({ test: () => assert(runPython(`

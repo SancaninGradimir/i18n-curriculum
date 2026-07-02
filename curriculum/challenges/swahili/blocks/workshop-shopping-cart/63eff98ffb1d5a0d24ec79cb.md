@@ -1,49 +1,49 @@
 ---
 id: 63eff98ffb1d5a0d24ec79cb
-title: Step 27
+title: Korak 27
 challengeType: 0
 dashedName: step-27
 ---
 
 # --description--
 
-Hujajaandika msimbo wa kuzalisha HTML bado, lakini ikiwa bidhaa tayari imeongezwa kwenye kikapu cha mtumizi basi kutakuwa na kipengele kinacholingana ambacho utahitaji.
+Još niste napisali kod za generisanje HTML, ali ako je proizvod već dodan u korpu korisnika, biće vam potrebna odgovarajuća funkcija.
 
-Tumia `.getElementById()` kupata kipengele kinacholingana - utakuwa unaweka thamani ya `id` kuwa `product-count-for-id${product.id}`, kwa hivyo tumia usemi wa template kutafuta thamani hiyo.
+Koristite `.getElementById()` da pronađete odgovarajući element - postavljate ćete vrednost `id` na `product-count-for-id${product.id}`, pa koristite template izraz za pretraživanje te vrednosti.
 
-Weka hoja yako ya utafutaji katika kigezo cha `currentProductCountSpan`.
+Unesite vaš upit za pretragu u polje `currentProductCountSpan`.
 
 # --hints--
 
-Unapaswa kutangaza kigezo cha `currentProductCountSpan`.
+Morate da deklarišete parametar `currentProductCountSpan`.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /currentProductCountSpan\s*=/);
 ```
 
-Unapaswa kutumia `const` kutangaza `currentProductCountSpan`.
+Trebalo bi da koristite `const` za objavljivanje `currentProductCountSpan`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /const\s+currentProductCountSpan\s*=/);
 ```
 
-Unapaswa kutumia `document.getElementById()` kupata kipengele kinacholingana.
+Trebalo bi da koristite `document.getElementById()` da biste dobili odgovarajući element.
 
 ```js
 const cart = new ShoppingCart();
 assert.match(cart.addItem.toString(), /document\.getElementById\(/);
 ```
 
-Unapaswa kutumia usemi wa template kutafuta thamani ya `id`.
+Trebalo bi da koristite sintaksu šablona za pronalaženje vrednosti `id`.
 
 ```js
 const afterAdd = code.split("addItem")[1];
 assert.match(afterAdd, /document\.getElementById\(\s*`product-count-for-id\$\{(product\.)?id\}`\s*\)/);
 ```
 
-Unapaswa kuweka thamani ya `document.getElementById()` kuwa `currentProductCountSpan`.
+Trebalo bi da postaviš vrednost `document.getElementById()` na `currentProductCountSpan`.
 
 ```js
 const cart = new ShoppingCart();

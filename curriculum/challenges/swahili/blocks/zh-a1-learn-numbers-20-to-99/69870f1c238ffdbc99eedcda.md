@@ -1,6 +1,6 @@
 ---
 id: 69870f1c238ffdbc99eedcda
-title: Zoezi la 2
+title: Vežba 2
 challengeType: 22
 dashedName: task-2
 lang: zh-CN
@@ -9,11 +9,11 @@ inputType: pinyin-to-hanzi
 
 # --description--
 
-Sasa utafanya mazoezi ya kuandika nambari chache kati ya 20 na 29. Ili kumaliza zoezi hili, kumbuka kwamba katika Kichina, nambari 20 huitwa `二十 (èr shí)`.
+Sada ćeš raditi vežbe pisanja nekoliko brojeva između 20 i 29. Da bi završio ovu vežbu, zapamti da je broj 20 na kineskom nazvan `二十 (èr shí)`.
 
-Pia, nambari kutoka 0 hadi 9 ni:
+Brojevi od 0 do 9 su:
 
-| Nambari | Kichina |
+| Broj | Kineski |
 | :--- | :--- |
 | 0 | `零 (líng)` |
 | 1 | `一 (yī)` |
@@ -28,7 +28,7 @@ Pia, nambari kutoka 0 hadi 9 ni:
 
 # --instructions--
 
-Zoezi hili halina sauti. Jaza mapengo hapa chini kwa nambari zinazolingana katika Kichina.
+Ovaj zadatak nema audio. Popunite praznine ispod odgovarajućim brojevima na kineskom.
 
 # --fillInTheBlank--
 
@@ -46,32 +46,32 @@ Zoezi hili halina sauti. Jaza mapengo hapa chini kwa nambari zinazolingana katik
 
 ### --feedback--
 
-Nambari hii katika Kichina huundwa kwa kuongeza `一 (yī)` baada ya `二十 (shí)`.
+Ovaj broj na kineskom se stvara dodavanjem `一 (yī)` nakon `二十 (shí)`.
 
----
+[No Swahili text provided.]
 
 `二十五 (èr shí wǔ)`
 
 ### --feedback--
 
-Nambari hii katika Kichina huundwa kwa kuongeza `五 (wǔ)` baada ya `二十 (shí)`.
+Ovaj broj na kineskom se stvara dodavanjem `五 (wǔ)` nakon `二十 (shí)`.
 
----
+[No Swahili text provided.]
 
 `二十九 (èr shí jiǔ)`
 
 ### --feedback--
 
-Nambari hii katika Kichina huundwa kwa kuongeza `九 (jiǔ)` baada ya `二十 (shí)`.
+Ovaj broj na kineskom se stvara dodavanjem `九 (jiǔ)` nakon `二十 (shí)`.
 
 # --explanation--
 
-Nambari ni:
+Broj je:
 
 `二十一 (èr shí yī)` - 21
 
 `二十五 (èr shí wǔ)` - 25
 
-`二十九 (èr shí jiǔ)` - 29 
+`二十九 (èr shí jiǔ)` - 29
 
-Huiundwa kwa kuongeza Kichina cha 1, 5 na 9 baada ya `二十 (èr shí)` (20).
+Kreiran je dodavanjem Kineskog 1, 5 i 9 nakon `二十 (èr shí)` (20).

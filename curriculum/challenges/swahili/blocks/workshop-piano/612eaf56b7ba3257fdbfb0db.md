@@ -1,25 +1,25 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: Step 19
+title: Korak 19
 challengeType: 0
 dashedName: step-19
 ---
 
 # --description--
 
-Piano inahitaji nembo ya freeCodeCamp ili iwe rasmi.
+Klavir treba freeCodeCamp logo da bi bio zvaničan.
 
-Ongeza kipengele cha `img` kabla ya kipengele chako cha `.keys`. Mpe `img` `class` ya `logo`, na weka `src` kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Mpe maandishi ya `alt` ya `freeCodeCamp Logo`.
+Dodajte `img` element pre vašeg `.keys` elementa. Dajte `img` atribut `class` od `logo`, i postavite `src` na `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Dodajte mu tekst `alt` sa sadržajem `freeCodeCamp Logo`.
 
 # --hints--
 
-Unapaswa kuongeza kipengele kipya cha `img`.
+You should add a new `img` element.
 
 ```js
 assert.lengthOf(document.querySelectorAll('img'), 1);
 ```
 
-Kipengele chako cha `img` kinapaswa kuja kabla ya kipengele chako cha kwanza cha `.keys`.
+Your `img` element should come before your first `.keys` element.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert.equal(img?.nextElementSibling?.className, 'keys');
 assert.isNull(img?.previousElementSibling);
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na `class` iliyowekwa kuwa `logo`.
+Your `img` element should have a `class` set to `logo`.
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.className, 'logo');
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
+Your `img` element should have a `src` set to `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
 
 ```js
 const img = document.querySelector('img');
 assert.equal(img?.getAttribute('src'), 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na sifa ya `alt` iliyowekwa kuwa `freeCodeCamp Logo`.
+Your `img` element should have an `alt` attribute set to `freeCodeCamp Logo`.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt')?.toLowerCase(), 'freecodecamp logo');
 ```
 
-Kumbuka kuwa herufi kubwa na tahajia ni muhimu.
+Remember that casing and spelling matter.
 
 ```js
 assert.equal(document.querySelector('img')?.getAttribute('alt'), 'freeCodeCamp Logo');

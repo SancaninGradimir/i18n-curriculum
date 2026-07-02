@@ -1,15 +1,15 @@
 ---
 id: 684fd85424ffdb2edff3afd1
-title: Hatua 26
+title: Korak 26
 challengeType: 20
 dashedName: step-26
 ---
 
 # --description--
 
-Sasa unaweza kuona `{'patient_id': None}` ikichapishwa kwenye terminal kwa sababu herufi ndogo `p` haifananishi na `P1001` na operator `and` inarudisha thamani ya uongo ya kwanza ya usemi wa kihesabu.
+Sada možete videti `{'patient_id': None}` odštampan u terminal jer mala slova `p` ne odgovaraju `P1001`, a operator `and` vraća prvu lažnu vrednost izraza.
 
-Unataka kuhakikisha kuwa kitambulisho cha mgonjwa kinaanza na herufi `p`, lakini kinaweza kuwa herufi ndogo au kubwa. Ili kubadilisha tabia ya ulinganifu wa usemi wa kawaida, unaweza kutumia bendera. Kwa mfano, `re.search` inakubali hoja ya tatu ili kubainisha bendera yoyote:
+Želite da osigurate da ID pacijenta počinje slovom `p`, ali može biti ni mala ni velika slova. Da biste modifikovali ponašanje podudaranja regularnih izraza, možete koristiti zastavice (flags). Na primer, `re.search` prihvata treći argument za specifikovanje bilo kojih zastavica:
 
 ```py
 import re
@@ -21,13 +21,13 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Ongeza `re.IGNORECASE` kama hoja ya tatu kwenye wito wako wa `re.search`. Hii itafanya utafutaji wako wa regex usiwe na tofauti ya herufi ndogo au kubwa.
+Dodajte `re.IGNORECASE` kao treći argument vašem pozivu `re.search`. Ovo će učiniti da je pretraga regex-a neosetljiva na veličinu slova.
 
-Baada ya hapo, utaona `None` imebadilishwa na kitu cha ulinganifu `<re.Match object; span=(0, 1), match='P'>`, ambapo `match` inaonyesha ulinganifu na `span` inaonyesha mahali pake katika mfuatano wa herufi.
+Nakon toga, videćete da je `None` zamenjen objekтом podudaranja `<re.Match object; span=(0, 1), match='P'>`, gde `match` ukazuje na podudaranje, a `span` ukazuje na njegovu lokaciju u nizu karaktera.
 
 # --hints--
 
-Unapaswa kuongeza `re.IGNORECASE` kama hoja ya tatu kwenye wito wako wa `re.search`.
+You should add `re.IGNORECASE` as the third argument to your `re.search` call.
 
 ```js
 ({ test: () => assert(runPython(`

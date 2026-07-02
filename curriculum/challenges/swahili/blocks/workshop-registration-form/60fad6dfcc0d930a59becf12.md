@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Hatua 39
+title: Korak 39
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-HTML ya fomu ya usajili imemalizika. Sasa, unaweza kuiboresha kidogo.
+HTML Registracioni formular je završen. Sada, možete ga malo poboljšati.
 
-Anza kwa kubadilisha fonti kuwa `Tahoma`, na ukubwa wa fonti kuwa `16px` katika `body`.
+Počnite menjanjem fonta na `Tahoma`, i veličinu fonta na `16px` u `body`.
 
 # --hints--
 
-Unapaswa kutumia sifa ya `font-family` kubadilisha fonti.
+Trebalo bi da koristiš atribut `font-family` za promenu fonta.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-Unapaswa kuweka sifa ya `font-family` kuwa `Tahoma`.
+Trebalo bi da postaviš vrednost za `font-family` na `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-Unapaswa kuweka sifa ya `font-size` kuwa `16px`.
+Trebalo bi da postaviš vrednost za `font-size` na `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

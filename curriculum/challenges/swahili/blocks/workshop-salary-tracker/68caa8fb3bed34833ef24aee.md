@@ -1,19 +1,19 @@
 ---
 id: 68caa8fb3bed34833ef24aee
-title: Hatua 33
+title: Korak 33
 challengeType: 20
 dashedName: step-33
 ---
 
 # --description--
 
-Unapobadilisha kiwango, unahitaji pia kusahihisha mshahara.
+Kada promenite stopu/nivou, morate takođe da prilagodite platu.
 
-Kabla ya kuweka `self._level`, weka `self._salary` kuwa mshahara wa msingi kwa kiwango kipya.
+Pre podešavanja `self._level`, postavi `self._salary` da bude osnovna plata za novu stopu.
 
 # --hints--
 
-Unapaswa kuweka `self._salary` kuwa mshahara wa msingi kwa kiwango kipya.
+Trebalo bi da postaviš `self._salary` kao osnovnu platu za novi nivo.
 
 ```js
 ({ test: () => runPython(`

@@ -1,43 +1,43 @@
 ---
 id: 64e4ebc7eabc5a6babd479cd
-title: Step 9
+title: Korak 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Ikiwa mtumizi atabofya kitufe cha `Discard`, unataka kufunga modal inayonyesha vitufe vya `Cancel` na `Discard`, kisha kuficha modal ya fomu.
+Ako korisnik klikne na dugme `Discard`, želi da zatvori modal koji prikazuje dugmad za `Cancel` i `Discard`, a zatim sakrije modal forme.
 
-Ongeza msikilizaji wa tukio la kubofya kwenye `discardBtn`, kisha tumia njia ya `close()` kwenye mabadiliko ya `confirmCloseDialog`. Pia, tumia `classList` kubadili darasa la vitu `hidden` kwenye `taskForm` ili modal ya fomu ifungwe pia.
+Dodaj slušaoca događaja za klik na `discardBtn`, zatim koristi metodu `close()` na promenama `confirmCloseDialog`. Takođe, koristi `classList` da promeniš klasu elemenata `hidden` na `taskForm` kako bi se i modal forme zatvorio.
 
 # --hints--
 
-Unapaswa kuita njia ya `addEventListener()` kwenye mabadiliko yako ya `discardBtn`.
+Trebalo bi da pozoveš putanju `addEventListener()` u tvojim promenama od `discardBtn`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-Msikilizaji wako wa tukio unapaswa kusikiliza tukio la `click`.
+Vaš slušalac događaja treba da prati događaj `click`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-Unapaswa kutumia sintaksia ya mshale kuweka msikilizaji wako wa tukio kuwa mabano ya mviringo tupu.
+Trebalo bi da koristiš streličnu sintaksu kako bi svoj listener događaja postavio u prazne vitičaste zagrade.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Msikilizaji wako wa tukio unapaswa kutumia njia ya `close()` kwenye `confirmCloseDialog`.
+Vaš slušalac događaja treba da koristi metodu `close()` na `confirmCloseDialog`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-Msikilizaji wako wa tukio unapaswa kutumia `classList` kubadili darasa la vitu `hidden` kwenye `taskForm`.
+Vaš slušalac događaja bi trebalo da koristi `classList` da promeni klasu objekata `hidden` u `taskForm`.
 
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)

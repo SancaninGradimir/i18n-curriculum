@@ -1,19 +1,19 @@
 ---
 id: 68caaaef4afb18aab8a684d4
-title: Hatua 35
+title: Korak 35
 challengeType: 20
 dashedName: step-35
 ---
 
 # --description--
 
-Ni wakati wa kujaribu setter yako mpya. Jaribu kuweka thamani zisizokubalika kama mfuatano wa herufi wa bahati nasibu au kiwango cha sasa (`trainee`) kwa `charlie_brown.level` na uone ujumbe wa makosa kwenye konsoli.
+Vreme je da testirate vaš novi *setter*. Pokušajte postaviti nevažeće vrednosti, kao što je slučajni niz slova ili trenutna stopa (`trainee`) za `charlie_brown.level`, i vidite poruku o grešci na konzoli.
 
-Mara tu utakapo maliza, ondoa mistari inayosababisha makosa na weka `charlie_brown.level` kuwa mfuatano wa herufi `junior`.
+Čim završiš, ukloni linije koje uzrokuju greške i postavi `charlie_brown.level` u sekvencu karaktera `junior`.
 
 # --hints--
 
-Unapaswa kuweka `charlie_brown.level` kuwa mfuatano wa herufi `junior`.
+Trebalo bi da postavite `charlie_brown.level` kao sekvencu karaktera `junior`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).has_stmt("charlie_brown.level = 'junior'")`)) })

@@ -1,17 +1,17 @@
 ---
 id: 69babf2bf78bade75fda0326
-title: Hatua 6
+title: Korak 6
 challengeType: 1
 dashedName: step-6
 ---
 
 # --description--
 
-Ifuatayo, unahitaji njia ya kufuatilia ni wangapi washiriki wanashughulikiwa na lango wakati wa tiketi. Unda kigezo kinachoitwa `processed` na uanze na thamani ya `0`.
+Zatim, potreban vam je način da pratite koliko posetilaca prolazi kroz kapiju tokom tik-a. Kreirajte varijablu pod imenom `processed` i inicijalizujte je na `0`.
 
 # --hints--
 
-Unapaswa kuunda kigezo kinachoitwa `processed` na ukaweke thamani ya `0`.
+Trebalo bi da kreirate varijablu pod imenom `processed` i dodelite joj vrednost od `0`.
 
 ```js
 const rawFuncStr = __helpers.removeJSComments(processGateFlow.toString());

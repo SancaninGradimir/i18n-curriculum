@@ -1,97 +1,97 @@
 ---
 id: 66a97ca8c4cbae7d0bb6e0ad
-title: Hatua 29
+title: Korak 29
 challengeType: 0
 dashedName: step-29
 ---
 
 # --description--
 
-Ndani ya kipengele chako cha `select`, ongeza vipengele vitano vya `option` na thamani zinazolingana za maandishi ya `option` na sifa ya `value`:
+Unutar vašeg `select` elementa, dodajte sledeće pet `option` elemenata sa ovim odgovarajućim vrednostima za tekst `option` i atribut `value`:
 
-**Thamani ya sifa ya kipengele:**
+**Atribut Vrednosti:**
 
-- poor
-- satisfactory
-- good
-- very-good
-- excellent
+- loš
+- zadovoljavajući
+- dobar
+- vrlo dobar
+- odličan
 
-**Maandishi ya chaguo:**
+**Tekst Opcije:**
 
-- Poor
-- Satisfactory
-- Good
-- Very Good
-- Excellent
+- Loš
+- Zadovoljavajući
+- Dobar
+- Vrlo dobar
+- Odličan
 
 
-Usisahau kuongeza sifa ya `selected` kwenye kipengele cha `option` kwa thamani ya `"excellent"`.
+Ne zaboravite da dodate atribut `selected` na `option` element sa vrednošću `"excellent"`.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `option` chenye thamani iliyowekwa kuwa `"poor"`.
+You should have an `option` element with the value set to `"poor"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-`option` yako yenye `value` ya `"poor"` inapaswa kuwa na maandishi ya `"Poor"`.
+Your `option` with the `value` of `"poor"` should have the text `"Poor"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"satisfactory"`.
+You should have an `option` element with the `value` set to `"satisfactory"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-`option` yako yenye `value` ya `"satisfactory"` inapaswa kuwa na maandishi ya `"Satisfactory"`.
+Your `option` with the `value` of `"satisfactory"` should have the text `"Satisfactory"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye `value` iliyowekwa kuwa `"good"`.
+You should have an `option` element with the `value` set to `"good"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-`option` yako yenye `value` ya `"good"` inapaswa kuwa na maandishi ya `"Good"`.
+Your `option` with the `value` of `"good"` should have the text `"Good"`.
 
 ```js
 
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye thamani iliyowekwa kuwa `"very-good"`.
+You should have an `option` element with the value set to `"very-good"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-`option` yako yenye `value` ya `"very-good"` inapaswa kuwa na maandishi ya `"Very Good"`.
+Your `option` with the `value` of `"very-good"` should have the text `"Very Good"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye thamani iliyowekwa kuwa `"excellent"`.
+You should have an `option` element with the value set to `"excellent"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-`option` yako yenye `value` ya `"excellent"` inapaswa kuwa na maandishi ya `"Excellent"`.
+Your `option` with the `value` of `"excellent"` should have the text `"Excellent"`.
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-Unapaswa kuwa na kipengele cha `option` chenye sifa ya `selected` iliyowekwa kuwa `"excellent"`.
+You should have an `option` element with the `selected` attribute set to `"excellent"`.
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
