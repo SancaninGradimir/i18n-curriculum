@@ -1,6 +1,6 @@
 ---
 id: 67ee6d7bcacdc02ff7d9beb2
-title: Zoezi la 69
+title: Vežba 69
 challengeType: 22
 dashedName: task-69
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili hutumika kuzungumzia uwepo wa kitu au kusema kwamba kitu kipo au kinaendelea kutokea. Ni kifupisho cha `there is`.
+Ova reč se koristi za razgovor o postojanju nečega ili da bi se reklo da nešto postoji ili nastavlja da se dešava. To je skraćenica od `there is`.
 
 ---
 
@@ -48,11 +48,11 @@ Kitenzi hiki kinaonyesha uhusiano au muunganiko kati ya vitu viwili.
 
 ### --feedback--
 
-Msemo huu wa maneno mawili unahusu jinsi programu au tovuti zinavyotenda kwa matendo kama kubofya au kubonyeza funguo, yanayofanywa na mtumizi. Neno la pili linaishia na `-ing`.
+Ova dvoslovna fraza se odnosi na način na koji programi ili veb sajtovi reaguju na akcije kao što su klikanje ili pritiskanje tastera, koje izvršava korisnik. Reč završava se sa `-ing`.
 
 # --explanation--
 
-`There's a problem with` hutumika kuelezea kwamba kitu hakifanyi kazi ipasavyo. Inamaanisha kuna tatizo au ugumu unaohusiana na jambo fulani. Kwa mfano:
+`There's a problem with` Koristi se za opisivanje da nešto ne radi kako treba. To znači da postoji problem ili poteškoća povezana sa nečim. Na primer:
 
 `There's a problem with the network.` – Hii inamaanisha mtandao haufanyi kazi ipasavyo.
 

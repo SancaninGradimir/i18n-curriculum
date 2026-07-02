@@ -1,19 +1,18 @@
 ---
 id: 656ab31ebccec247fde7cee4
-title: Zoezi la 64
+title: Vežba 64
 challengeType: 22
 dashedName: task-64
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
-Tom: Awesome. My computer and drawing tablet are great, too. 
+Tom: Odlično. Moj računar i tableta za crtanje su takođe super. 
 -->
 
 # --description--
 
-`Awesome` ni neno watu hutumia wanapopenda kitu sana. Ni kama kusema `Very good`. Ni njia isiyo rasmi ya kuonyesha kupendezwa au kushangazwa.
+`Awesome` je reč koju ljudi koriste kada nešto veoma vole. To je kao da kažete `Very good`. To je neformalni način pokazivanja interesovanja ili iznenađenja.
 
 # --fillInTheBlank--
 
@@ -27,7 +26,7 @@ Tom: Awesome. My computer and drawing tablet are great, too.
 
 ### --feedback--
 
-Neno hili linamaanisha `very good` au `I really like it`. Herufi ya kwanza imeandikwa kwa herufi kubwa.
+Ova reč znači `very good` ili `I really like it`. Prvo slovo je napisano velikim slovom.
 
 # --scene--
 

@@ -1,16 +1,15 @@
 ---
 id: 675e6f0bf7f7eb69ddffef81
-title: Zoezi la 68
+title: Lekcija 68
 challengeType: 22
 dashedName: task-68
 lang: en-US
 ---
-
-<!-- (audio) Mark: No, we don't. Okay, let's get to work and see if we can sort this out. -->
+<!-- (audio) Mark: Ne, ne radimo to. U redu, da vidimo kako let's get radi i vidimo if, možemo da rešimo/uklonimo this. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Usemi huu wa maneno matatu unamaanisha kutatua tatizo au kushughulikia hali ngumu.
+Ova fraza od tri reči znači rešavanje problema ili suočavanje sa teškom situacijom.
 
 # --explanation--
 
-`Sort this out` inamaanisha kutatua au kurekebisha tatizo maalum. Ni njia isiyo rasmi ya kusema `figure out a solution` au `resolve an issue`. Usemi wa jumla `sort out` pia unaweza kutumika kwa upana zaidi kwa kupanga au kushughulikia matatizo. Kwa mfano:
+`Sort this out` znači rešiti ili popraviti specifičan problem. To je neformalni način da se kaže `figure out a solution` ili `resolve an issue`. Opšti izraz `sort out` se takođe može koristiti u širem smislu za organizovanje ili rešavanje problema. Na primer:
 
-`We need to sort out the issues with the payment system before launch.` - Inamaanisha unahitaji kurekebisha au kutatua matatizo ya mfumo wa malipo ili kuhakikisha kila kitu kinafanya kazi vizuri kabla ya kuuzindua.
+`We need to sort out the issues with the payment system before launch.` - To znači da morate popraviti ili rešiti probleme sa sistemom plaćanja kako biste osigurali da sve radi dobro pre lansiranja.
 
 # --scene--
 

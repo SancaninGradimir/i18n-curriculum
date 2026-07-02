@@ -1,16 +1,15 @@
 ---
 id: 66b56cb9ff3bfb183fa1b7db
-title: Zoezi la 83
+title: Vežba 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
 ---
-
-<!-- (Audio) Anna: When do you think this new module will be ready? -->
+<!-- (Audio) Anna: Kada misliš do da li će this new modul biti spreman? -->
 
 # --instructions--
 
-Sikiliza sauti ili ukamilishe sentensi ifuatayo.
+Slušajte audio ili dopunite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti ili ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili hutumika kubainisha moduli inayojadiliwa kwa sasa.
+Ovaj termin se koristi za definisanje modula o kojem se trenutno govori.
 
 ---
 
@@ -32,7 +31,7 @@ Neno hili hutumika kubainisha moduli inayojadiliwa kwa sasa.
 
 ### --feedback--
 
-Kitu kilichotokea hivi karibuni.
+Nešto što se dogodilo nedavno.
 
 ---
 
@@ -40,15 +39,15 @@ Kitu kilichotokea hivi karibuni.
 
 ### --feedback--
 
-Sehemu maalum au sehemu ya mpango wa mafunzo.
+Specifični deo ili deo programa obuke.
 
 # --explanation--
 
-`Module` inarejelea kitengo au sehemu ya kozi au mpango wa mafunzo. Kwa mfano:
+`Module` odnosi se na jedinicu ili deo kursa ili programa obuke. Primer:
 
-- `The new module on cybersecurity will be added next week.` - Hapa, `module` inarejelea sehemu maalum ya mafunzo inayolenga usalama wa mtandao.
+- `The new module on cybersecurity will be added next week.` - Ovde, `module` se odnosi na određeni deo obuke koji je fokusiran na bezbednost mreže.
 
-Lipa makini jinsi maneno `this`, `new`, na `module` yanavyotumika. `This` hutumika kubainisha moduli wanayozungumzia, `new` inaonyesha kuwa ni nyongeza ya hivi karibuni, na `module` inarejelea sehemu ya mafunzo.
+Obratite pažnju kako se reči `this`, `new`, i na `module` koriste. `This` se koristi za određivanje modula o kojima govore, `new` pokazuje da je to nedavni dodatak, i `module` se odnosi na deo obuke.
 
 # --scene--
 

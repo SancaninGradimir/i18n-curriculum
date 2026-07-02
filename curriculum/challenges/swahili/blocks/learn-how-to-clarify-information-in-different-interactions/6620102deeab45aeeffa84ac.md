@@ -1,20 +1,19 @@
 ---
 id: 6620102deeab45aeeffa84ac
-title: Zoezi la 5
+title: Vežba 5
 challengeType: 22
 dashedName: task-5
 lang: en-US
 ---
-
-<!-- (Audio) Tom: She's a colleague with long wavy brown hair and bright brown eyes. -->
+<!-- (Audio) Tom: Ona je koleginica sa dugom, talasastom smeđom kosom i jaskro smeđim očima. -->
 
 # --description--
 
 Unapokuwa unataja rangi ya macho ya mtu, kawaida huanza kwa kuwatambua kwa rangi yao. Rangi za macho zinazojulikana ni `black`, `brown`, `blue`, na `green`. Kulingana na rangi, inaweza kuwa na mwelekeo wa `white` au `black` (rangi yenyewe ni yenye nguvu zaidi au dhaifu zaidi). Katika hali hii, unaweza kuongeza maneno `light` (inayokaribia `white`) na `dark` (inayokaribia `black`) kabla ya rangi ili kuieleza. Sifa nyingine unayotumia kawaida kutambua macho ya mtu ni umbo - `round` wakati ni kama mduara na `narrow` wakati ni kama mstari. Mwishowe, unaweza kuzungumzia ukubwa wake, `large` (wakati ni makubwa) au `small` (wakati si makubwa). Tom pia anatoa maoni, akisema macho ya Lisa yamejaa nguvu na uhai. Katika hali hii, unasema macho ya mtu ni `bright`.
 
-Kama unavyofanya na `hair`, vivumishi vinavyotumika kutambua macho ya mtu pia hufuata mpangilio katika Kiingereza. Kwanza, unaeleza maoni haya, kisha unaelekea kwenye ukubwa, kisha umbo na mwishowe rangi (ikiwa imeongozwa au la na `light` au `dark`).
+Kao što radiš sa `hair`, pridevi koji se koriste za opisivanje očiju osobe takođe prate redosled u engleskom jeziku. Prvo, opisuješ ove karakteristike, zatim prelaziš na veličinu, pa oblik i na kraju boju (bilo da je vođeno ili ne sa `light` ili `dark`).
 
-Mfano: `Tom has beautiful, small, narrow, light green eyes.`
+Primer: `Tom has beautiful, small, narrow, light green eyes.`
 
 Sasa sikiliza na ujaze mapengo kwa maelezo ya Tom kuhusu macho ya Lisa.
 
@@ -38,7 +37,7 @@ Tom anatoa maoni kwanza. Anasema macho ya Lisa yamejaa nguvu.
 
 ### --feedback--
 
-Tom hatimaye anazungumzia rangi ya macho ya Lisa. Ni kivuli kinachokaribia `black`, na si `blue` wala `green`.
+Tom konačno govori o boji očiju Lise. To je nijansa koja je blizu `black`, i nije `blue` ni `green`.
 
 # --scene--
 

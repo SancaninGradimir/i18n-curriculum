@@ -1,24 +1,23 @@
 ---
 id: 661bddbdbbc09e2b8fac0801
-title: Zoezi la 76
+title: Lekcija 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
 ---
-
-<!-- (Audio) Alice: Also, it's used for identity verification at airports and secure facilities. -->
+<!-- (Audio) Alice: Takođe se koristi for za verifikaciju identiteta na aerodromima i sigurnosnim objektima. -->
 
 # --description--
 
-Kiunganishi `at` kinaonyesha mahali kwenye ramani. Kinaelezea eneo maalum au nafasi. Kinakusaidia kuelewa mahali ambapo jambo linafanyika au mtu yuko.
+Konektor `at` prikazuje lokaciju na mapi. Opisuje specifičnu oblast ili poziciju. Pomaže vam da razumete gde se nešto dešava ili gde se neko nalazi.
 
-Mifano:
+Primeri:
 
-`We'll meet at the coffee shop.` (katika sentensi hii, `at` inatumika kubainisha mahali ambapo mkutano utafanyika - duka la kahawa).
+`We'll meet at the coffee shop.` (u ovoj rečenici, `at` se koristi za određivanje mesta gde će se održati sastanak - kafići).
 
-`I'll be waiting for you at the bus stop.` (`at` inatumika hapa kuonyesha mahali ambapo mtu atakuwa akisubiri - kituo cha basi).
+`I'll be waiting for you at the bus stop.` (`at` Koristi se ovde da pokaže mesto gde će neko čekati – autobuska stanica).
 
-Sikiliza sentensi na jaza nafasi tupu.
+Slušajte rečenice u praznim prostorima.
 
 # --fillInTheBlank--
 
@@ -32,7 +31,7 @@ Sikiliza sentensi na jaza nafasi tupu.
 
 ### --feedback--
 
-Kiunganishi kinachotumika kusaidia kuelewa mahali jambo liko au linapotokea.
+Konektor koji se koristi za pomoć u razumevanju gde je nešto locirano ili kada nastaje.
 
 # --scene--
 

@@ -1,60 +1,59 @@
 ---
 id: 67cadf5ea48ca37df972fac6
-title: Zoezi la 124
+title: Vežba 124
 challengeType: 19
 dashedName: task-124
 lang: en-US
 ---
-
-<!-- (Audio) Maria: First, they really need more support. -->
+<!-- (Audio) Maria: Prvo, zaista im treba više podrške. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Slušaj audio i odgovori na pitanje koje se nalazi dole.
 
 # --questions--
 
 ## --text--
 
-Maria anataja nini kama ombi muhimu zaidi kutoka kwa timu?  
+Šta Marija spominje kao najvažniji zahtev od tima?
 
 ## --answers--
 
-Wanahitaji msaada zaidi.  
+Trebaju im više pomoći.
 
 ---
 
-Wanataka muda mrefu zaidi wa mwisho.  
+Žele duže trajanje poslednje.
 
 ### --feedback--
 
-Maria hataji kuongeza muda wa mwisho.
+Maria mora da produži rok.
 
 ---
 
-Wangependa kupunguza idadi ya mazoezi.
+Želeće da smanje broj vežbi.
 
 ### --feedback--
 
-Maria hataji kupunguza idadi ya mazoezi.  
+Marija mora da smanji broj vežbi.
 
 ---
 
-Wanaomba mikutano zaidi.  
+Traže više sastanaka.
 
 ### --feedback--
 
-Maria hataji mikutano ya ziada.
+Marija ne treba dodatnih sastanaka.
 
 ## --video-solution--
 
-1  
+1
 
 # --explanation--
 
-`First` hutumika unapohitaji kuorodhesha vitendo kwa mpangilio wa umuhimu au wakati. Katika kesi hii, Maria anataja kile timu inachohitaji, kuanzia na kile kinachoonekana kuwa ombi muhimu zaidi (kupata msaada zaidi). Mfano mwingine:
+`First` Koristi se kada je potrebno da se aktivnosti navedu u redosledu važnosti ili vremena. U ovom slučaju, Marija spominje ono što tim treba, počevši od onoga što izgleda kao najvažniji zahtev (dobijanje više pomoći). Drugi primer:
 
-`First, we should analyze the problem. Then, we can discuss solutions.` - Hii ina maana kwamba kuchambua tatizo kunakuja kabla ya mambo mengine yoyote.
+`First, we should analyze the problem. Then, we can discuss solutions.` - To znači da analiziranje problema dolazi prije bilo čega drugog.
 
 # --scene--
 

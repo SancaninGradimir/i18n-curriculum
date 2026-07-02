@@ -1,50 +1,49 @@
 ---
 id: 65f6f9e9cfbda7f9c04e8af7
-title: Zoezi la 41
+title: Vežba 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
 ---
-
-<!-- (Audio) Brian: Understood. We can investigate this together, and by the end of it, we should have a clearer picture of what's happening. -->
+<!-- (Audio) Brian: Razumem. Možemo zajedno istražiti this, i na kraju toga, trebalo bi da imamo jasniju sliku onoga što se dešava. -->
 
 # --description--
 
-Usemi `by the end of it` hutumika sana kwa Kiingereza kurejelea hitimisho au sehemu ya mwisho ya mchakato au kipindi cha muda. Ina maana kwamba mwishoni mwa shughuli fulani, matokeo maalum au uelewa utafanikiwa.
+Usemi `by the end of it` se često koristi u engleskom jeziku za referisanje na zaključak ili završni deo procesa ili vremenskog perioda. To znači da na kraju određenih aktivnosti, postići će se specifični rezultati ili razumevanje.
 
 # --questions--
 
 ## --text--
 
-Katika mazungumzo, Brian anamaanisha nini kwa `by the end of it`?
+U razgovoru, šta Brian misli sa `by the end of it`?
 
 ## --answers--
 
-Watakomesha uchunguzi.
+Prekidaće istragu.
 
 ### --feedback--
 
-Usemi huu unahusu kufikia hitimisho, si lazima kusitisha shughuli.
+Ovaj izraz se odnosi na zaključivanje, a nije potrebno prekidati radnju/operaciju.
 
 ---
 
-Watakianza shughuli nyingine.
+Oni će početi sa nečim drugim/drugom aktivnošću.
 
 ### --feedback--
 
-Brian anarejelea mwisho wa uchunguzi wa sasa, si kuanza kitu kipya.
+Brian se vraća na kraj trenutnog istraživanja, a ne započinje nešto novo.
 
 ---
 
-Watapumzika.
+Oni će odmoriti.
 
 ### --feedback--
 
-Usemi unazingatia kufikia uelewa mwishoni mwa mchakato, si kupumzika.
+Fokusiraj se na dostizanje razumevanja na kraju procesa, a ne na prestanak.
 
 ---
 
-Watakuwa na uelewa wazi zaidi wa hali hiyo baada ya uchunguzi.
+Imaće jasnije razumevanje te situacije nakon istrage.
 
 ## --video-solution--
 

@@ -1,22 +1,21 @@
 ---
 id: 655b67f02eecf57fa75ceecf
-title: Zoezi la 8
+title: Vežba 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: That's important work. I'm helping our team learn how to stay safe online. -->
+<!-- (Audio) Sophie: Ovo je važan posao. Pomažem našem timu da nauči kako da ostanu bezbedni onlajn. -->
 
 # --description--
 
-Kitenzi `stay` kinatumika kuonyesha kubaki katika hali fulani au sharti fulani. Mara nyingi hutumika katika maelekezo au ushauri wa kujilinda katika hali fulani. Kwa mfano:
+Ovaj glagol `stay` se koristi da pokaže preostanak u nekim uslovima ili pod određenom uslovnošću. Često se koristi u uputstvima ili savetima za samozaštitu u nekim situacijama. Na primer:
 
-- `Stay safe online.` - Endelea kuwa salama unapotumia intaneti.
+- `Stay safe online.` - Ostanite bezbedni kada koristite internet.
 
-- `Stay calm during the test.` - Endelea kuwa mtulivu.
+- `Stay calm during the test.` - Ostanite smireni.
 
-- `Stay focused on your work.` - Endelea kuzingatia kazi yako.
+- `Stay focused on your work.` - Nastavite da se fokusirate na svoj posao.
 
 # --fillInTheBlank--
 
@@ -30,7 +29,7 @@ Kitenzi `stay` kinatumika kuonyesha kubaki katika hali fulani au sharti fulani. 
 
 ### --feedback--
 
-Kitenzi hiki kinaonyesha kwamba Sophie anatoa msaada au usaidizi kwa timu yake kwa ufanisi. Kinaishia kwa `-ing`.
+Ovaj glagol pokazuje da Sophie pruža pomoć ili asistenciju svom timu efikasno. Kinaishia kwa `-ing`.
 
 ---
 
@@ -38,7 +37,7 @@ Kitenzi hiki kinaonyesha kwamba Sophie anatoa msaada au usaidizi kwa timu yake k
 
 ### --feedback--
 
-Neno hili linatumika kupendekeza kudumisha hali fulani, katika kesi hii, kuwa salama wakati wa mtandao.
+Ova reč se koristi da preporuči održavanje određenog stanja, u ovom slučaju, sigurnosti na internetu.
 
 # --scene--
 

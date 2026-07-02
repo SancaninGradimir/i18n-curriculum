@@ -1,22 +1,21 @@
 ---
 id: 663a4d6ec33accaf2ec7be49
-title: Zoezi la 28
+title: Vežba 28
 challengeType: 22
 dashedName: task-28
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: Sure. Tom is a tall guy with a friendly smile. -->
+<!-- (Audio) Sophie: Naravno. Tom je visok momak sa prijateljskim osmehom. -->
 
 # --description--
 
-`smile` ni kile kinachotokea unapoinua pembe za mdomo wako kuonyesha furaha. Ni kitu unachofanya kwa uso wako unapokuwa na furaha au unapotaka kuwa mzuri.
+`smile` To je ono što se dešava kada podigneš uglove usana kako bi pokazao sreću. To je nešto što radiš sa svojim licem kad si srećan ili želiš da izgledaš dobro.
 
-`Friendly` huelezea mtu ambaye ni mkarimu, mzuri, na rahisi kuzungumza naye. Mtu mwenye tabasamu la kirafiki hufanya wengine wajisikie vizuri na wenye furaha.
+`Friendly` opisuje osobu koja je velikodušna, privlačna i sa kojom je lako razgovarati. Osoba sa prijateljskim osmehom čini druge da se osećaju dobro i srećno.
 
-`A friendly smile` ni tabasamu linaloonyesha kuwa unakuwa mkarimu na mwenye ukaribisho. Hufanya wengine wajisikie vizuri na kuonyesha unataka kuwa marafiki.
+`A friendly smile` To je osmeh koji pokazuje da postaješ velikodušan i prijatan. Čini druge da se osećaju dobro i pokazuje da želiš prijateljstvo.
 
-Sikiliza mazungumzo na ujaze mapengo.
+Slušaj razgovore i popuni praznine.
 
 # --fillInTheBlank--
 
@@ -30,7 +29,7 @@ Sikiliza mazungumzo na ujaze mapengo.
 
 ### --feedback--
 
-Mapengo haya yanaelezea mtu ambaye ni mzuri, rahisi kuzungumza naye na mwenye ukaribisho.
+Ove osobine opisuju osobu koja je prijatna, sa kojom je lako razgovarati i koja je ugodna/prijateljski nastrojena.
 
 ---
 
@@ -38,7 +37,7 @@ Mapengo haya yanaelezea mtu ambaye ni mzuri, rahisi kuzungumza naye na mwenye uk
 
 ### --feedback--
 
-Kitendo unachofanya unapokuwa unataka kuonyesha furaha kwa mdomo wako.
+Radnja koju izvodiš kada želiš da pokažeš sreću svojim usnama.
 
 # --scene--
 

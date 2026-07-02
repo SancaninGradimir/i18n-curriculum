@@ -1,50 +1,49 @@
 ---
 id: 6751bdd2f78adbed1ea0fa51
-title: Zoezi la 24
+title: Vežba 24
 challengeType: 19
 dashedName: task-24
 lang: en-US
 ---
-
-<!-- (Audio) Brian: Do you think we'll need to update the users about the downtime? -->
+<!-- (Audio) Brian: Misliš li da ćemo morati da obavestimo korisnike o prekidu rada? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Nini wasiwasi wa Brian?
+Šta je briga Brajana?
 
 ## --answers--
 
-Ikiwa watumizi wanahitaji kufahamishwa kuhusu muda wa kutofanya kazi.
+Ukoliko korisnici treba da budu obavešteni za period neaktivnosti.
 
 ---
 
-Ikiwa muda wa kutofanya kazi utaendelea kwa muda mrefu sana.
+Ako period neaktivnosti nastavi da traje predugo.
 
 ### --feedback--
 
-Brian haulizi kuhusu urefu wa muda wa kutofanya kazi.
+Brian pita za trajanje neaktivnog perioda.
 
 ---
 
-Ikiwa watumizi wataathirika na matatizo ya kiufundi.
+Ako korisnici budu pogođeni tehničkim problemima.
 
 ### --feedback--
 
-Brian hakutaja matatizo ya kiufundi katika wasiwasi wake.
+Brian nije spomenuo tehničke probleme u svojoj zabrinutosti.
 
 ---
 
-Ikiwa muda wa kutofanya kazi utaathiri utendaji wa seva.
+Ako neaktivno vreme utiče na performanse servera.
 
 ### --feedback--
 
-Wasiwasi wa Brian si kuhusu utendaji wa seva.
+Brajanova briga nije o performansama servera.
 
 ## --video-solution--
 
@@ -52,7 +51,7 @@ Wasiwasi wa Brian si kuhusu utendaji wa seva.
 
 # --explanation--
 
-Brian anauliza kama wanapaswa kuwajulisha watumizi kuhusu muda wa kutofanya kazi, akionyesha kuwa wasiwasi wake ni kuhusu mawasiliano na watumizi badala ya urefu wa muda wa kutofanya kazi, matatizo ya kiufundi, au utendaji wa seva.
+Brian pita da li bi trebalo obavestiti korisnike o periodu neaktivnosti, ukazujući da je njegova zabrinutost u vezi sa komunikacijom sa korisnicima, umesto dužine prekida rada, tehničkim problemima ili performansama servera.
 
 # --scene--
 

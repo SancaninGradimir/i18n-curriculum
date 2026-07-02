@@ -1,16 +1,15 @@
 ---
 id: 67f0ee4cc8f7fe5fd534eff4
-title: Zoezi la 87
+title: Vežba 87
 challengeType: 22
 dashedName: task-87
 lang: en-US
 ---
-
-<!-- (Audio) Mark: Yeah, that sounds good. Thanks for your help, Lisa. I appreciate it. -->
+<!-- (Audio) Mark: Jeste, to zvuči dobro. Hvala for na tvojoj pomoći, Liso. Cenim to. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili hutumika kuonyesha kukubaliana au kuidhinisha wazo au pendekezo. Neno la kwanza linaishia na `-s`.
+Ova dvoslovna fraza koristi se za pokazivanje saglasnosti ili odobravanja ideje ili predloga. Prva reč se završava sa `-s`.
 
 ---
 
@@ -32,17 +31,17 @@ Usemi huu wa maneno mawili hutumika kuonyesha kukubaliana au kuidhinisha wazo au
 
 ### --feedback--
 
-Neno hili linamaanisha kushukuru kwa jambo fulani. Linaonyesha shukrani kwa msaada, sapoti, au jambo lililofanywa kwa ajili yako.
+Ova reč znači zahvaljivanje za nešto. Pokazuje zahvalnost za pomoć, podršku ili nešto urađeno za tebe.
 
 # --explanation--
 
-`Sounds good` ina maana kwamba msemaji anakubaliana na au kuidhinisha kile kilichosemwa. Kwa mfano:
+`Sounds good` to znači da govornik pristaje ili odobrava ono što je rečeno. Na primer:
 
-`Your idea sounds good.` – Hii ina maana msemaji anadhani wazo ni zuri na anakubaliana nalo.
+`Your idea sounds good.` – To znači da govornik misli da je ideja dobra i slaže se sa njom.
 
-`I appreciate` ni njia ya kusema asante au kuonyesha shukrani. Kwa mfano:
+`I appreciate` je način da se kaže hvala ili pokaže zahvalnost. Na primer:
 
-`I appreciate your help with the project.` – Hii ina maana unashukuru kwa msaada uliopokea.
+`I appreciate your help with the project.` – To znači da ste zahvalni za pomoć koju ste dobili.
 
 # --scene--
 

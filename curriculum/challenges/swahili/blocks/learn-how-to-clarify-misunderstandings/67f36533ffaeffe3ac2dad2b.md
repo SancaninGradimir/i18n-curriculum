@@ -1,50 +1,49 @@
 ---
 id: 67f36533ffaeffe3ac2dad2b
-title: Zoezi la 131
+title: Vežba 131
 challengeType: 19
 dashedName: task-131
 lang: en-US
 ---
-
-<!-- (Audio) Jessica: Oh, that might be a mix-up. The budget tracking feature is planned for the next update, not this one. -->
+<!-- (Audio) Jessica: Oh, možda je u pitanju zabuna. Funkcija praćenja budžeta je planirana for za sledeće ažuriranje, a ne this ono. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jessica anafafanua nini?
+Jessica, šta objašnjava?
 
 ## --answers--
 
-Kulikuwa na tatizo na ratiba ya sasisho la sasa.
+Postojao je problem sa rasporedom trenutnog ažuriranja.
 
 ### --feedback--
 
-Jessica anazungumzia wakati wa kipengele, si ratiba ya sasisho yenyewe.
+Jessica govori o vremenskom aspektu funkcije, a ne o samom rasporedu ažuriranja.
 
 ---
 
-Kipengele cha kufuatilia bajeti kitakuwa katika sasisho lijalo, si la sasa.
+Funkcija za praćenje budžeta biće u nadolazećem ažuriranju, a ne u trenutnom.
 
 ---
 
-Kipengele cha kufuatilia bajeti kimeondolewa katika sasisho la sasa.
+Funkcija za praćenje budžeta je uklonjena u trenutnom ažuriranju.
 
 ### --feedback--
 
-Jessica hakutaja kwamba kipengele kimeondolewa.
+Jessica nije spomenula da je funkcija uklonjena.
 
 ---
 
-Kipengele kilijumuishwa kwa makosa katika sasisho hili.
+Funkcija je uključena po grešci u ovo ažuriranje.
 
 ### --feedback--
 
-Jessica hajasema kwamba kipengele kilijumuishwa kwa makosa.
+Jessica rekla je da je funkcija uključena po grešci.
 
 ## --video-solution--
 
@@ -52,9 +51,9 @@ Jessica hajasema kwamba kipengele kilijumuishwa kwa makosa.
 
 # --explanation--
 
-Jessica anasema, `The budget tracking feature is planned for the next update`, akifafanua kwamba kipengele hakijajumuishwa katika sasisho la sasa lakini kitaongezwa katika lile lijalo.
+Jessica kaže, `The budget tracking feature is planned for the next update`, objašnjavajući da funkcija nije uključena u trenutno ažuriranje, ali će biti dodata u sledeće.
 
-Hii inaondoa mkanganyiko kuhusu wakati wa kipengele.
+Ovo uklanja zbunjenost o vremenu funkcije.
 
 # --scene--
 

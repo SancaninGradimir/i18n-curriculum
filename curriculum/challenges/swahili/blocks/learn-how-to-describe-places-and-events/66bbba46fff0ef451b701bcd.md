@@ -1,6 +1,6 @@
 ---
 id: 66bbba46fff0ef451b701bcd
-title: Zoezi la 103
+title: Vežba 103
 challengeType: 19
 dashedName: task-103
 lang: en-US
@@ -12,37 +12,37 @@ Sarah: Sure, I'm not busy. What's the problem? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Je, Sarah yuko tayari kuzungumza na Tom?
+Da li je Sara spremna da razgovara sa Tomom?
 
 ## --answers--
 
-Hapana, yuko na shughuli na hataki kujua kuhusu matatizo yake.
+Ne, on je zauzet i ne želi da zna o njegovim problemima.
 
 ### --feedback--
 
-Sarah anasema hana shughuli.
+Sarah kaže da nema posla.
 
 ---
 
-Ndiyo, yuko tayari na anataka kujua tatizo ni nini.
+Da, on/ona je spreman/spremna i želi da zna šta je problem.
 
 ---
 
-Hapana, hawezi kuzungumza sasa hivi, ana matatizo yake mwenyewe.
+Ne, ne može da priča trenutno, ima svoje probleme.
 
 ### --feedback--
 
-Sarah anataja kwamba hana shughuli.
+Sarah kaže da nema posla.
 
 ---
 
-Ndiyo, lakini kwa muda mfupi tu kwa sababu ana matatizo yake mwenyewe.
+Da, ali samo na kratko vrijeme zato što ima svoje probleme.
 
 ### --feedback--
 
@@ -58,7 +58,7 @@ Badala ya kusema moja kwa moja kwamba yuko huru, Sarah anatumia aina hasi `I'm n
 
 Hii ni njia ya heshima na isiyo ya moja kwa moja ya kutoa upatikanaji kwa Kiingereza, inayotumika sana kufanya mazungumzo kuwa na adabu zaidi.
 
-Sentensi yake inayofuata, `What's the problem?`, inathibitisha kwamba yuko tayari kusaidia kwa kumkaribisha Tom kuelezea tatizo.
+Njegova sledeća rečenica, `What's the problem?`, potvrđuje da je spreman da pomogne pozivanjem Toma da objasni problem.
 
 # --scene--
 

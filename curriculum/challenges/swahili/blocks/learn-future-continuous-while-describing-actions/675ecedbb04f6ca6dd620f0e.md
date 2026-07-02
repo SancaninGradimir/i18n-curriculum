@@ -1,16 +1,15 @@
 ---
 id: 675ecedbb04f6ca6dd620f0e
-title: Zoezi la 76
+title: Lekcija 76
 challengeType: 22
 dashedName: task-76
 lang: en-US
 ---
-
-<!-- (Audio) Anna: Hi Brian, I've heard about these Man-in-the-Middle attacks. -->
+<!-- (Audio) Anna: Zdravo Brian, čula sam za ove napade tipa "Man-in-the-Middle". -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ni aina ya shambulio la mtandao ambapo mdukuhu huingia kwa siri katikati ya watu wawili au mifumo inayozungumza. Mdukuhu anaweza kuona, kubadilisha, au kuiba taarifa zinazoshirikiwa bila mtu yeyote kujua. Huu ni neno mchanganyiko, kumbuka kutumia `-`. Herufi za kwanza za neno la kwanza na la nne zinapaswa kuwa kubwa.
+Ovo je vrsta sajber napada gde napadač tajno ulazi između dve osobe ili komunikacionih sistema. Napadač može da vidi, izmeni ili ukrade deljene informacije bez da bilo ko sumnja. Ovo je složena reč, zapamtite koristiti `-`. Prva slova prve i četvrte reči treba da budu velika.
 
 ---
 
@@ -32,17 +31,17 @@ Hii ni aina ya shambulio la mtandao ambapo mdukuhu huingia kwa siri katikati ya 
 
 ### --feedback--
 
-Neno hili kwa wingi linamaanisha vitendo vya wadukuzi au wahalifu vya kuharibu mfumo wa kompyuta, kuiba taarifa, au kusababisha matatizo.
+Ovaj reč u množini označava aktivnosti hakerima ili kriminalcima uništavanja računarskog sistema, krađe podataka ili uzrokovanja problema.
 
 # --explanation--
 
-`Man-in-the-Middle` (au `MITM`) ni aina ya shambulio ambapo mdukuhu huingia kwa siri kati ya watu wawili au mifumo inayozungumza. Mdukuhu husikiliza au kubadilisha taarifa zinazoshirikiwa bila mtu yeyote kujua. Kwa mfano:
+`Man-in-the-Middle` (au `MITM`) je vrsta napada gde napadač tajno ulazi između dve osobe ili komunikacionih sistema. Napadač sluša ili modifikuje informacije koje se dele bez znanja bilo koga. Primer:
 
-`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - Mdukuhu alijifanya kuwa benki, akakataza taarifa, na kuiba nywila za mtumiaji. Hii ilimruhusu mdukuhu kupata upatikanaji wa akaunti ya benki bila mtumiaji kujua.
+`A Man-in-the-Middle attack (MITM) happened when a hacker intercepted the data sent between a user's computer and their bank.` - Mdukuhu se pretvarao da je banka, blokirao informacije i ukrao korisničke lozinke. To mu je omogućilo pristup bankovnom računu bez znanja korisnika.
 
-`Attacks` ni vitendo vya wadukuzi vya kuharibu mifumo ya kompyuta, kuiba taarifa, au kusababisha matatizo. Kwa mfano:
+`Attacks` su aktivnosti hakera koje uključuju uništavanje računarskih sistema, krađu informacija ili uzrokovanje problema. Primer:
 
-`The website was unavailable for hours because of a cyber attack that overloaded its server.` - Inaonyesha mdukuhu alituma trafiki bandia nyingi sana kwenye tovuti, ikasababisha kuvunjika au kupungua kasi. Hii ilizuia watumiaji halisi kupata upatikanaji, na kusababisha usumbufu.
+`The website was unavailable for hours because of a cyber attack that overloaded its server.` - Prikazuje da je majmun poslao previše lažnog saobraćaja na veb stranicu, što je uzrokovalo pad ili usporavanje. Ovo je onemogućilo stvarnim korisnicima pristup i uzrokovalo poremećaj.
 
 # --scene--
 

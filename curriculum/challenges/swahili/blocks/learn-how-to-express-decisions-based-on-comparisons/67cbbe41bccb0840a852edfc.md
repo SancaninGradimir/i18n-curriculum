@@ -1,16 +1,15 @@
 ---
 id: 67cbbe41bccb0840a852edfc
-title: Zoezi la 44
+title: Vežba 44
 challengeType: 22
 dashedName: task-44
 lang: en-US
 ---
-
-<!-- (audio) Sophie: That's good to know. I think I'll go with SafeGuard since security is our top priority, but I'll keep in mind the integration challenges. Thanks for your help, Jake. -->
+<!-- (audio) Sophie: Dobro je znati. Mislim da ću ići sa SafeGuard jer je sigurnost naš glavni prioritet, ali ću imati na umu izazove integracije. Hvala for na tvojoj pomoći, Jake. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Usemi huu wa maneno matatu hutumika kuonyesha kuthamini na kushukuru kwa kupokea taarifa muhimu au yenye msaada. Mara nyingi hutumika unapojifunza kitu chenye manufaa.
+Ova fraza od tri reči koristi se da pokaže zahvalnost i cenjenje za primanje važnih ili korisnih informacija. Često se koristi kada naučite nešto korisno.
 
 ---
 
@@ -40,21 +39,21 @@ Usemi huu wa maneno mawili unamaanisha kuchagua kitu, hasa baada ya kuzingatia c
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unahusu kitu ambacho ni muhimu zaidi au cha dharura zaidi.
+Ovaj dvosložni izraz odnosi se na nešto što je važnije ili hitnije.
 
 # --explanation--
 
-`Good to know` hutumika kuonyesha kwamba taarifa iliyoshirikiwa ni ya msaada au inathaminiwa. Kwa mfano:
+`Good to know` Koristi se za prikaz da je podeljena informacija korisna ili cenjena. Na primer:
 
-`It's good to know that the software is easy to use.` - Hii ina maana kwamba msemaji anathamini kujifunza kuwa programu ni rahisi kutumia.
+`It's good to know that the software is easy to use.` - To znači da govornik ceni što je program lak za korišćenje.
 
 `Go with` inamaanisha kuchagua kitu, kawaida baada ya kufikiria au kulinganisha. Kwa mfano:
 
 `After much discussion, we went with the cheaper option.` - Hii ina maana umechagua chaguo la bei nafuu zaidi baada ya kuzingatia chaguzi tofauti.
 
-`Top priority` inamaanisha kwamba kitu ni jambo la muhimu zaidi kuzingatia au kulizingatia. Mara nyingi hutumika katika muktadha wa kazi au maamuzi. Kwa mfano:
+`Top priority` To znači da je nešto izuzetno važno uzeti u obzir ili na šta treba obratiti pažnju. Često se koristi u kontekstu posla ili odluka. Na primer:
 
-`Our top priority right now is improving the website's performance.` - Hii ina maana zoezi la muhimu zaidi kwa sasa ni kuboresha utendaji wa tovuti, na hivyo kuwa kipaumbele kikuu.
+`Our top priority right now is improving the website's performance.` - Ovo znači da je najvažniji zadatak trenutno poboljšanje performansi sajta/veb-sajta, i time postaje glavni prioritet.
 
 # --scene--
 

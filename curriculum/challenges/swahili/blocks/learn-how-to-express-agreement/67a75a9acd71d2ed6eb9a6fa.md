@@ -1,16 +1,15 @@
 ---
 id: 67a75a9acd71d2ed6eb9a6fa
-title: Zoezi la 20
+title: Vežba 20
 challengeType: 22
 dashedName: task-20
 lang: en-US
 ---
-
-<!-- (Audio) Linda: Absolutely. And I can also prepare some user scenarios for testing, so we can ensure a smooth user experience. -->
+<!-- (Audio) Linda: Apsolutno. I takođe mogu da pripremim neke korisničke scenarije for testiranja, kako bismo osigurali glatko korisničko iskustvo. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unahusu hali tofauti zinazowakilisha jinsi mtu anavyoweza kuingiliana na bidhaa.
+Ovaj dvoredni izraz odnosi se na različite scenarije koji prikazuju način na koji osoba može da interaguje sa proizvodom.
 
 # --explanation--
 
-`User scenarios` inahusu hali tofauti zinazobainisha jinsi watumizi wanavyoshirikiana na bidhaa kufikia lengo. Husaidia timu kujaribu na kuboresha uzoefu wa mtumizi. Kwa mfano:
+`User scenarios` Odnosi se na različite scenarije koji definišu kako korisnici interaguju sa proizvodom da bi postigli cilj. Pomaže timovima da testiraju i poboljšaju korisničko iskustvo. Na primer:
 
-`We created user scenarios to see how customers navigate the checkout process.` – Hii ina maana timu ilifanya majaribio ya njia tofauti ambazo watumizi wanamalizia ununuzi ili kubaini matatizo yoyote.
+`We created user scenarios to see how customers navigate the checkout process.` – To znači da je tim sproveo testove različitih metoda koje korisnici koriste za završetak kupovine kako bi identifikovao bilo kakve probleme.
 
 # --scene--
 

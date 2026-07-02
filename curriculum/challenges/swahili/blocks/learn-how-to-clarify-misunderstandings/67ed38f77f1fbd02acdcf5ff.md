@@ -1,16 +1,15 @@
 ---
 id: 67ed38f77f1fbd02acdcf5ff
-title: Zoezi la 53
+title: Vežba 53
 challengeType: 22
 dashedName: task-53
 lang: en-US
 ---
-
-<!-- (Audio) Lisa: Sure, Mark. What's going on? -->
+<!-- (Audio) Lisa: Naravno, Mark. Šta se dešava? -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili hutumika kuuliza kuhusu kinachoendelea au hali ilivyo. Neno la kwanza linaishia na `-ing`.
+Ova dvoslovna fraza se koristi za pitala o tome šta se dešava ili kakva je situacija. Prva reč završava se sa `-ing`.
 
 # --explanation--
 
-`What's going on?` ni njia ya kawaida ya kumuuliza mtu kinachoendelea, hali ilivyo, au tatizo au tukio linalotokea. Kwa mfano:
+`What's going on?` To je uobičan način da pitaš nekoga šta se dešava, kakva je situacija, ili o nekom problemu ili incidentu. Primer:
 
-`What's going on at the meeting?` – Mtu anauliza kinachoendelea wakati wa mkutano.
+`What's going on at the meeting?` – Osoba pita šta se dešava tokom sastanka.
 
 # --scene--
 

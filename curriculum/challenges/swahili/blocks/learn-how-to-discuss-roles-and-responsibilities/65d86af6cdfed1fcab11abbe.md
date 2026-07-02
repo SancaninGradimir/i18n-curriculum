@@ -1,18 +1,17 @@
 ---
 id: 65d86af6cdfed1fcab11abbe
-title: Zoezi la 70
+title: Vežba 70
 challengeType: 22
 dashedName: task-70
 lang: en-US
 ---
-
-<!-- (Audio) Maria: He also ensures that everyone follows security procedures. -->
+<!-- (Audio) Maria: Takođe obezbeđuje da se svako pridržava sigurnosnih procedura. -->
 
 # --description--
 
-`Follow security procedures` inamaanisha kutenda kulingana na sheria au hatua zilizoundwa ili kuweka eneo au watu salama. Ni muhimu katika maeneo mengi, hasa mahali pa kazi, kuzuia matatizo au hatari.
+`Follow security procedures` To znači delovati prema pravilima ili uzeti mere kako bi se osiguralo područje ili ljudi. Važno je na mnogim mestima, posebno na radnom mestu, sprečiti probleme ili opasnosti.
 
-Umejifunza kwamba baada ya `everyone`, unapaswa kutumia umbo la mtu wa tatu wa kitenzi kwa sababu `everyone` huchukuliwa kama kila mtu katika kundi, akitendewa kwa mtu mmoja mmoja.
+Naučio sam da nakon `everyone`, treba koristiti treće lice množine glagola jer se `everyone` tretira kao svako u grupi, obrađujući pojedinačno.
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ Umejifunza kwamba baada ya `everyone`, unapaswa kutumia umbo la mtu wa tatu wa k
 
 ### --feedback--
 
-Huu ni umbo la mtu mmoja wa kitenzi linalomaanisha kila mtu anafanya kitendo hicho.
+Ovo je oblik trećeg lica glagola, što označava da svaka osoba izvodi tu akciju/radnju.
 
 ---
 
@@ -34,7 +33,7 @@ Huu ni umbo la mtu mmoja wa kitenzi linalomaanisha kila mtu anafanya kitendo hic
 
 ### --feedback--
 
-Neno hili linamaanisha kuweka watu, maeneo, au vitu salama dhidi ya hatari au madhara.
+Ova reč znači zaštititi ljude, lokacije ili stvari od opasnosti ili štete.
 
 ---
 
@@ -42,7 +41,7 @@ Neno hili linamaanisha kuweka watu, maeneo, au vitu salama dhidi ya hatari au ma
 
 ### --feedback--
 
-Hizi ni hatua au sheria zinazohitajika kufuatwa kwa ajili ya usalama.
+Ovo su koraci ili pravila koja moraju biti prateći radi bezbednosti.
 
 # --scene--
 

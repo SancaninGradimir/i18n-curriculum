@@ -1,20 +1,19 @@
 ---
 id: 66c4ef1cb275e86febc9fe2c
-title: Zoezi la 113
+title: Vežba 113
 challengeType: 22
 dashedName: task-113
 lang: en-US
 ---
+<!-- Referenca audio zapisa:
+Sarah: Trebalo bi da radi/prikaže se, ali ne prikazuje se jer proširenje za live server možda nije aktivno. -->
 
 <!-- Audio Reference:
-Sarah: It should, but it's not displaying because the live server extension might not be running. -->
-
-<!-- Audio Reference:
-Sarah: It should, but it's not displaying because the live server extension might not be running. -->
+Sarah: Trebalo bi da se pojavi, ali ne prikazuje se jer možda nije pokrenata ekstenzija za live server. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -28,7 +27,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Kitendo cha kuonyesha au kuonyesha kitu. Neno hili linaishia `-ing`.
+Čin pokazivanja ili prikazivanje nečega. Ova reč se završava sa `-ing`.
 
 ---
 
@@ -36,15 +35,15 @@ Kitendo cha kuonyesha au kuonyesha kitu. Neno hili linaishia `-ing`.
 
 ### --feedback--
 
-Inaonyesha kuwa ugani umewezeshwa na unafanya kazi. Neno hili linaishia `-ing`.
+Pokazuje da je proširenje omogućeno i funkcionalno. Ova reč se završava sa `-ing`.
 
 # --explanation--
 
-Gerundi ni aina ya kitenzi inayomalizika kwa `-ing` na hufanya kazi kama nomino. Katika sentensi hii, `displaying` na `running` ni gerundi zinazobainisha vitendo vinavyoendelea. Kwa mfano:
+Gerundium je vrsta glagola koja se završava sa `-ing` i funkcioniše kao imenica. U ovoj rečenici, `displaying` i `running` su gerundija koje označavaju delatnosti u toku. Na primer:
 
-- `Updating the software is essential.` - Hapa, `Updating` ni gerundi inayobainisha kitendo.
+- `Updating the software is essential.` - Ovde, `Updating` je gerund koji određuje radnju.
 
-Katika sentensi ya Sarah, `displaying` na `running` zinaelezea vitendo vinavyohusiana na ugani wa seva hai na jinsi unavyofanya kazi.
+U rečenici Sarah, `displaying` i `running` opisuju radnje vezane za proširenje živog servera i kako funkcioniše.
 
 # --scene--
 

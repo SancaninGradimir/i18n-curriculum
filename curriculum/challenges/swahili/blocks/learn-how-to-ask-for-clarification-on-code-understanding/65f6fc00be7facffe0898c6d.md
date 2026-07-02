@@ -1,20 +1,19 @@
 ---
 id: 65f6fc00be7facffe0898c6d
-title: Zoezi la 43
+title: Vežba 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
 ---
-
 <!-- REVIEW -->
 
 # --description--
 
-Hii ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
+Ovo je pregled svih razgovora koje ste upravo pročitali.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Napišite sledeće reči ili rečenice na pravo mesto:
 
 `symptoms of`, `may occur`, `start by`, `clearer picture`, `investigate`, na `a second pair of eyes`.
 
@@ -36,7 +35,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Mtu mwingine anayekagua kazi yako kusaidia kugundua makosa.
+Druga osoba koja pregleda vaš rad kako bi pomogla da se pronađu greške.
 
 ---
 
@@ -44,7 +43,7 @@ Mtu mwingine anayekagua kazi yako kusaidia kugundua makosa.
 
 ### --feedback--
 
-Anza na kitu kama hatua ya kwanza.
+Počni sa nečim kao prvi korak.
 
 ---
 
@@ -52,7 +51,7 @@ Anza na kitu kama hatua ya kwanza.
 
 ### --feedback--
 
-Dalili zinazonyesha kunaweza kuwa na tatizo.
+Simptomi koji pokazuju mogu predstavljati problem.
 
 ---
 
@@ -60,7 +59,7 @@ Dalili zinazonyesha kunaweza kuwa na tatizo.
 
 ### --feedback--
 
-Hii ina maana kuna jambo linaweza kutokea.
+Ovo znači da nešto bi moglo da se dogodi.
 
 ---
 
@@ -68,7 +67,7 @@ Hii ina maana kuna jambo linaweza kutokea.
 
 ### --feedback--
 
-Kutazama kwa makini kitu ili kuelewa kinachoendelea.
+Pažljivo posmatrati nešto kako bi se razumelo šta se dešava.
 
 ---
 
@@ -76,4 +75,4 @@ Kutazama kwa makini kitu ili kuelewa kinachoendelea.
 
 ### --feedback--
 
-Uelewa bora wa hali fulani.
+Bolje razumevanje određenog stanja.

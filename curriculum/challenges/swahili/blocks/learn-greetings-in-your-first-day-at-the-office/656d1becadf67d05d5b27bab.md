@@ -1,32 +1,31 @@
 ---
 id: 656d1becadf67d05d5b27bab
-title: Zoezi la 149
+title: Lekcija 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
 ---
-
 <!--
 AUDIO REFERENCE:
-Sophie: Oh, come on, Brian.
-Brian: But it's true. She's the person to go to if you need help.
+Sophie: Hajde, Braian.
+Brian: Ali je true. Ona je osoba kojoj trebaš/treba ti pomoć, idite kod if.
 -->
 
 # --description--
 
-Kama ulivyojifunza kuhusu kitenzi cha `he`, vitenzi kama `she` hutumika kumrejelea mtu wa kike. Husaidia kuepuka kurudia maneno katika mazungumzo. Angalia sehemu hii ya mazungumzo:
+Kao što ste naučili o glagolu `he`, glagoli poput `she` koriste se za referisanje na žensku osobu. Pomaže da se izbegne ponavljanje reči u razgovoru. Pogledajte ovaj deo dijaloga:
 
 - Sophie: `Oh, come on, Brian.`
 
 - Brian: `But it's true. She's the person to go to if you need help.`
 
-Hapa, `she` hutumika na Brian kumrejelea Sophie. Badala ya kurudia jina la Sophie, Brian anatumia kitenzi cha `she` kufanya mazungumzo yawe laini na kuepuka kurudia.
+Ovde, `she` se koristi kada Brian spominje Sophie. Umjesto da ponavlja ime Sophie, Brian koristi glagol `she` kako bi razgovor bio tečan i izbjegao ponavljanje.
 
 # --questions--
 
 ## --text--
 
-Katika mazungumzo haya, ni neno gani Brian anatumia kumrejelea Sophie bila kurudia jina lake?
+U ovom razgovoru, koja reč Brian koristi da se odnosi na Sofiju bez ponavljanja njenog imena?
 
 ## --answers--
 
@@ -34,7 +33,7 @@ Katika mazungumzo haya, ni neno gani Brian anatumia kumrejelea Sophie bila kurud
 
 ### --feedback--
 
-`He` hutumika kumrejelea mtu wa kiume.
+`He` Koristi se za referisanje na muškarca.
 
 ---
 
@@ -42,7 +41,7 @@ Katika mazungumzo haya, ni neno gani Brian anatumia kumrejelea Sophie bila kurud
 
 ### --feedback--
 
-`They` ni wingi na hutumika kumrejelea watu zaidi ya mmoja.
+`They` je množina i koristi se za referisanje na više od jedne osobe.
 
 ---
 
@@ -50,7 +49,7 @@ Katika mazungumzo haya, ni neno gani Brian anatumia kumrejelea Sophie bila kurud
 
 ### --feedback--
 
-`It` kawaida hutumika kwa vitu au wanyama.
+`It` Obično se koristi za predmete ili životinje.
 
 ---
 

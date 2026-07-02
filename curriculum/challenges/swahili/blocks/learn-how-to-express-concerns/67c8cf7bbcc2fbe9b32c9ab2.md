@@ -1,62 +1,61 @@
 ---
 id: 67c8cf7bbcc2fbe9b32c9ab2
-title: Zoezi la 92
+title: Vežba 92
 challengeType: 19
 dashedName: task-92
 lang: en-US
 ---
-
-<!-- (Audio) Maria: That's a good point. I'll suggest having more regular check-ins with the team to improve communication. -->
+<!-- (Audio) Marija: To je dobra napomena. Predlažem da imamo redovnije provere/sastanke sa timom kako bismo poboljšali komunikaciju. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Slušaj audio i odgovori na pitanje koje se nalazi dole.
 
 # --questions--
 
 ## --text--
 
-Maria atafanya nini na maoni aliyopokea kutoka kwa James?  
+Šta će Maria uraditi sa komentarima koje je dobila od Jamesa?
 
 ## --answers--
 
-Atayapuuza.  
+On/Ona će to ignorisati.
 
 ### --feedback--
 
-Maria anakubali hoja ya James na anapanga kuchukua hatua.
+Maria prihvatila je Jamesov argument i planira da preduzme korake.
 
 ---
 
-Atawaambia timu kuacha kuwa na wasiwasi kuhusu mawasiliano.
+Rekće im timu da prestanu da se brinu o komunikaciji.
 
 ### --feedback--
 
-Maria anataka kuboresha mawasiliano, si kupuuza wasiwasi. 
+Maria želi da poboljša komunikaciju, ne da zanemari zabrinutosti.
 
 ---
 
-Atafuta mikutano ya timu.
+Traži sastanke tima.
 
 ### --feedback--
 
-Maria hasemi atafuta mikutano hiyo.
+Maria će potražiti te sastanke.
 
 ---
 
-Atapendekeza kuwa na mikutano zaidi ili kuboresha mawasiliano.
+Predlažem da imamo više sastanaka kako bismo poboljšali komunikaciju.
 
 ## --video-solution--
 
-4  
+4
 
 # --explanation--
 
-Unapotumia kitenzi `suggest`, tumia kitenzi kinachofuata katika fomu ya `-ing` badala ya infinitive. Kwa mfano:
+Koristeći glagol `suggest`, koristite sledeći glagol u formi `-ing` umesto infinitiva. Na primer:
 
-- `She suggested taking a break.` - Hii ina maana wazo lililopendekezwa ni kupumzika.
+- `She suggested taking a break.` - To znači da je predložena ideja odmoriti.
 
-- `He suggested starting the meeting earlier to avoid delays.` - Hii ina maana alipendekeza kuanza mkutano mapema.
+- `He suggested starting the meeting earlier to avoid delays.` - To znači da je predložio da se sastanak počne ranije.
 
 # --scene--
 

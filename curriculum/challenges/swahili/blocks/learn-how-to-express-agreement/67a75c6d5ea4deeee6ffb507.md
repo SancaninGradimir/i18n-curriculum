@@ -1,64 +1,63 @@
 ---
 id: 67a75c6d5ea4deeee6ffb507
-title: Zoezi la 21
+title: Vežba 21
 challengeType: 19
 dashedName: task-21
 lang: en-US
 ---
-
-<!-- (Audio) Linda: Absolutely. And I can also prepare some user scenarios for testing, so we can ensure a smooth user experience. -->
+<!-- (Audio) Linda: Apsolutno. I takođe mogu da pripremim neke scenarije korisnika for testiranja, kako bismo osigurali glatko iskustvo korišćenja. -->
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Slušaj audio snimak i odgovori na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Linda anatoa kufanya nini?  
+Šta je Linda daje da se radi?
 
 ## --answers--  
 
-Tayarisha hali za mtumiaji kwa ajili ya majaribio.  
+Pripremi korisnički profil za testiranje.
 
 ---  
 
-Ruka hatua ya majaribio.  
+Eksperimentalni korak.
 
 ### --feedback--  
 
-Linda hapendekezi kuruka majaribio; anachangia kikamilifu katika hilo.  
+Linda preporučuje sprovođenje eksperimenata; ona daje pun doprinos tome.
 
 ---  
 
-Muombe mtu mwingine ashughulikie majaribio ya mtumiaji.  
+Zamolite nekoga drugog da se bavi korisničkim testiranjima.
 
 ### --feedback--  
 
-Linda hahamishi zoezi hilo kwa mtu mwingine.  
+Linda prenosi tu vežbu nekom drugom.
 
 ---  
 
-Buni upya kiolesura cha mtumiaji kutoka mwanzo.  
+Ponovo kreirati/resetovati korisnički interfejs od početka.
 
 ### --feedback--  
 
-Linda hasemi kuhusu kubuni upya kiolesura.  
+Linda priča o redizajniranju interfejsa.
 
 ## --video-solution--  
 
-1  
+1
 
 # --explanation--  
 
-Sikiliza maneno muhimu yanayoonyesha anachotaka Linda kufanya.  
+Identifikujte ključne reči koje pokazuju šta Lina želi da uradi.
 
-`I can also` – Hii inaonyesha anajitolea kuchangia.  
+`I can also` – Ovo ukazuje na njegovu/njezinu spremnost za doprinos.
 
-`Prepare some user scenarios for testing` – Hii inaeleza wazi zoezi analolichukua jukumu la kufanya.  
+`Prepare some user scenarios for testing` – Ovo jasno objašnjava zadatak koji je potrebno izvršiti.
 
-`Ensure a smooth user experience` – Hii inaeleza kwa nini majaribio ni muhimu na kuimarisha dhamira yake kwa mradi.  
+`Ensure a smooth user experience` – Ovo objašnjava zašto su testovi važni i jačaju njegovu posvećenost projektu.
 
 # --scene--
 

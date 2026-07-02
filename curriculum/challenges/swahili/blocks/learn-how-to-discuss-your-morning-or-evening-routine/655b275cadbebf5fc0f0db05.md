@@ -1,12 +1,11 @@
 ---
 id: 655b275cadbebf5fc0f0db05
-title: Zoezi la 82
+title: Vežba 82
 challengeType: 22
 dashedName: task-82
 lang: en-US
 ---
-
-<!-- (Audio) Maria: On Tuesdays, I learn Japanese. I take online lessons at 7. -->
+<!-- (Audio) Marija: U utorku učim japanski. Online časove imam u sedam. -->
 
 # --description--
 
@@ -14,9 +13,9 @@ Kwa `take` inaweza kumaanisha mambo tofauti kulingana na hali. Katika muktadha w
 
 - `I take online lessons at 7.` - Hapa, `take` inamaanisha kuhudhuria mafundisho.
 
-- `She is taking a programming course this semester.` - Hapa, `taking` inamaanisha amejiandikisha na kuhudhuria kozi.
+- `She is taking a programming course this semester.` - Ovde, `taking` znači da se prijavio i prisustvovao kursu.
 
-Kwa hiyo, unapo sema `take lessons` au `take a course`, unazungumzia kujiunga au kuhudhuria, si kuchukua kitu kimwili.
+Dakle, kada kažeš `take lessons` ili `take a course`, misliš na pridruživanje ili prisustvovanje, a ne na fizički predmet.
 
 # --fillInTheBlank--
 
@@ -38,7 +37,7 @@ Kitenzi hiki kinaelezea tendo la kushiriki mafundisho.
 
 ### --feedback--
 
-Neno hili linahusu mazingira ya mtandao.
+Ovaj termin se odnosi na mrežno okruženje.
 
 # --scene--
 

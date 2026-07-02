@@ -1,60 +1,59 @@
 ---
 id: 67c4bacefd5097faecca40d4
-title: Zoezi la 22
+title: Vežba 22
 challengeType: 19
 dashedName: task-22
 lang: en-US
 ---
-
-<!-- (Audio) Bob: True, but we could try working even more extra hours just for this project. Wouldn't that make a difference? -->
+<!-- (Audio) Bob: Tačno, ali bismo mogli try raditi još više dodatnih sati samo za for this projekat. Zar to ne bi napravilo razliku? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Bob anataka kujua nini?  
+Bob šta želi da zna?
 
 ## --answers--
 
-Je, wanapaswa kufuta mradi?  
+Da li treba da obrišu projekat?
 
 ### --feedback--
 
-Bob haulizi kuhusu kufuta mradi.  
+Bob razgovara o brisanju projekta.
 
 ---
 
-Je, kufanya kazi masaa machache kutakuwa bora?  
+Da li bi bilo bolje raditi nekoliko sati?
 
 ### --feedback--
 
-Bob anapendekeza kufanya kazi masaa zaidi, si machache.  
+Bob predlaže rad više sati, a ne manje.
 
 ---
 
-Je, timu tayari imetatua tatizo?  
+Da li je tim već rešio problem?
 
 ### --feedback--
 
-Bob anauliza kama pendekezo lake litausaidia, si kama tatizo tayari limetatuliwa.  
+Bob pita da li će mu njegovo predlaganje pomoći, a ne da je problem već rešen.
 
 ---
 
-Je, kufanya kazi masaa ya ziada kutaboresha hali?  
+Da li će rad na prekovremenim satima poboljšati situaciju?
 
 ## --video-solution--
 
-4  
+4
 
 # --explanation--
 
-Kutumia maneno hasi katika maswali yenye vitenzi vya msaada au modal (kama `wouldn't`, `isn't`, `doesn't`), ambavyo vinahitaji majibu ya moja kwa moja ya `yes`/`no`, inaonyesha kwamba msemaji anatarajia jibu liwe chanya — Bob anadhani, katika kesi hii, kwamba kufanya kazi masaa ya ziada kutasaidia. Mfano mwingine:
+Korišćenje negativnih reči u pitanjima sa pomoćnim ili modalnim glagolima (kao `wouldn't`, `isn't`, `doesn't`), koji zahtevaju direktan odgovor na `yes`/`no`, ukazuje da govornik očekuje pozitivan odgovor — Bob misli, u ovom slučaju, da će raditi prekovredno pomoći. Drugi primer:
 
-`Doesn't this plan seem like a good idea?` - Msemaji anatarajia msikilizaji anakubaliana kwamba mpango ni mzuri.
+`Doesn't this plan seem like a good idea?` - Govornik očekuje da slušalac pristaje/misli da je plan dobar.
 
 # --scene--
 

@@ -1,20 +1,19 @@
 ---
 id: 657b2fc9c0f96bdfddfce4d9
-title: Zoezi la 90
+title: Vežba 90
 challengeType: 22
 dashedName: task-90
 lang: en-US
 ---
-
-<!-- (Audio) Anna: I took a course in organizational psychology, and it piqued my interest in the workplace and employee dynamics. -->
+<!-- (Audio) Anna: Uzela sam kurs iz organizacionog psihologije, i to mi je izazvalo interesovanje za radno okruženje i dinamiku zaposlenih. -->
 
 # --description--
 
-Kusema `pique one's interest` kunamaanisha kumfanya mtu kuwa na hamu ya kujua zaidi au kumvutia. Unakitumia wakati kitu kinakuvutia na kukufanya uwe na hamu ya kujifunza zaidi. Kwa mfano:
+Rekati `pique one's interest` znači učiniti da osoba ima želju za znanjem ili je privući. Koristiš ga kada nešto privlači tvoju pažnju i čini da želiš više naučiti. Na primer:
 
-- `The new AI tool really piqued my interest.` - Kilikufanya kuwa na hamu ya kujua zaidi, na ulitaka kujifunza zaidi kuhusu hicho.
+- `The new AI tool really piqued my interest.` - To te je nateralo da želiš više znati, i želeo si da naučiš više o tome.
 
-- `Her presentation on cybersecurity piqued the team's interest.` - Timu ilizidi kuwa na hamu ya kujua na walitaka kujifunza zaidi.
+- `Her presentation on cybersecurity piqued the team's interest.` - Tim je postao radoznao i želeli su da nauče više.
 
 # --fillInTheBlank--
 
@@ -28,7 +27,7 @@ Kusema `pique one's interest` kunamaanisha kumfanya mtu kuwa na hamu ya kujua za
 
 ### --feedback--
 
-Neno hili linahusu kitendo cha kushiriki au kumaliza kozi. Unapaswa kulitumia kwa usahihi katika wakati uliopita.
+Ova reč se tiče akcije deljenja ili završavanja kursa. Treba da je koristiš pravilno u prošlom vremenu.
 
 ---
 
@@ -36,7 +35,7 @@ Neno hili linahusu kitendo cha kushiriki au kumaliza kozi. Unapaswa kulitumia kw
 
 ### --feedback--
 
-Neno hili linaelezea somo la akili na tabia, hasa katika muktadha wa mahali pa kazi.
+Ovaj termin opisuje lekciju inteligencije i ponašanja, posebno u kontekstu radnog mesta.
 
 ---
 
@@ -44,7 +43,7 @@ Neno hili linaelezea somo la akili na tabia, hasa katika muktadha wa mahali pa k
 
 ### --feedback--
 
-Neno hili linamaanisha kuamsha au kuchochea hamu au shauku ya kujifunza. Unapaswa kulitumia kwa usahihi katika wakati uliopita.
+Ova reč znači probuditi ili podstaći interesovanje ili strast za učenjem. Trebalo bi da ga koristiš tačno u prošlom vremenu.
 
 # --scene--
 

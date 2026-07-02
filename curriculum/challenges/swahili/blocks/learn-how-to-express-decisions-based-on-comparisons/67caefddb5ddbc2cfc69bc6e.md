@@ -1,16 +1,15 @@
 ---
 id: 67caefddb5ddbc2cfc69bc6e
-title: Zoezi la 38
+title: Vežba 38
 challengeType: 22
 dashedName: task-38
 lang: en-US
 ---
-
-<!-- (audio) Jake: Not really. SafeGuard is more focused on security, so it might not integrate as easily with other platforms. -->
+<!-- (audio) Jake: Ne baš. SafeGuard je više fokusiran na bezbednost, pa možda ne može lako da se integriše sa as sa drugim platformama. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Maneno haya matatu pamoja yanamaanisha kwamba SafeGuard inalenga au inalipa makini zaidi usalama ikilinganishwa na vipengele vingine.
+Ova tri reči zajedno znače da SafeGuard stavlja naglasak na bezbednost ili joj daje više pažnje, u poređenju sa drugim funkcionalnostima.
 
 # --explanation--
 
-`More focused on` hutumika kuonyesha kile kitu fulani au mtu anacholipa makini zaidi. Kwa mfano:
+`More focused on` Koristi se za prikaz nečega ili osobe na koju je posvećena veća pažnja. Primer:
 
-`This software is more focused on performance than on design.` - Hii ina maana programu hii imejengwa hasa kwa ajili ya utendaji mzuri, si lazima kwa muundo wa kuvutia.
+`This software is more focused on performance than on design.` - Ovo znači da je ova aplikacija napravljena pre svega za odlične performanse, a ne nužno i za privlačan dizajn.
 
 # --scene--
 

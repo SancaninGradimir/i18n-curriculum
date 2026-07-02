@@ -1,16 +1,15 @@
 ---
 id: 67b5b3dfdec8df1a5f326bc0
-title: Zoezi la 110
+title: Vežbanje 110
 challengeType: 22
 dashedName: task-110
 lang: en-US
 ---
-
-<!-- (audio) Maria: We've chosen a subtle color palette, but maybe adding some brighter tones would help. -->
+<!-- (audio) Maria: Odabrali smo suptilnu paletu boja, ali bi dodavanje nečijeg svetlijih tonova pomoglo. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii inamaanisha kitu ambacho si kali au dhahiri. Ni kitu laini au cha upole ambacho huenda hukugundua mara moja.
+Ovo znači nešto što nije oštro ili očigledno. To je nešto mekano ili suptilno, što možda nećeš otkriti odjednom.
 
 ---
 
@@ -32,17 +31,17 @@ Hii inamaanisha kitu ambacho si kali au dhahiri. Ni kitu laini au cha upole amba
 
 ### --feedback--
 
-Hii inahusu wigo wa rangi zinazotumika katika muundo au kazi ya sanaa. Katika kesi hii, `color palette` inahusu uteuzi wa rangi zilizochaguliwa kwa ajili ya muundo wa programu au mradi.
+Ovo se tiče opsega boja koje se koriste u dizajnu ili umetničkom radu. U ovom slučaju, `color palette` se tiče izbora boja odabranih za dizajn programa ili projekta.
 
 # --explanation--
 
-`Subtle` inahusu kitu kilicho nyepesi au kisicho dhahiri. Kwa mfano:
+`Subtle` Odnosi se na nešto blago ili nejasno. Na primer:
 
-`The artist used subtle shades of blue in the painting.` - Hii inamaanisha msanii alitumia vivuli vya bluu vyepesi au laini ambavyo si kali au havivutii macho sana.
+`The artist used subtle shades of blue in the painting.` - To znači da je umetnik koristio svetle ili nežne plave nijanse koje nisu previše jarke niti previše upadljive za oko.
 
-`Palette` inahusu wigo wa rangi au vifaa vinavyotumika na msanii au mbunifu. Kwa mfano:
+`Palette` Odnosi se na raspon boja ili materijala koji koristi umetnik ili dizajner. Na primer:
 
-`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - Hii inamaanisha mbunifu alichagua seti ya rangi za joto, kama nyekundu, machungwa, na manjano, kwa ajili ya muundo wa tovuti.
+`The designer chose a warm palette for the website, using reds, oranges, and yellows.` - To znači da je dizajner izabrao skup toplih boja, kao što su crvena, narandžasta i žuta, za dizajn veb-sajta.
 
 # --scene--
 

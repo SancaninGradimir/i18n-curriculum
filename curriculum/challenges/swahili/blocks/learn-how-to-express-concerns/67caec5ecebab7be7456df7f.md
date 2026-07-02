@@ -1,62 +1,61 @@
 ---
 id: 67caec5ecebab7be7456df7f
-title: Zoezi la 130
+title: Vežba 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
 ---
-
-<!-- (Audio) Maria: They also said the communication isn't great because they often don't hear about changes until it's too late. -->
+<!-- (Audio) Maria: Takođe su rekli da komunikacija nije dobra jer često ne čuju o promenama dok nije prekasno. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Slušaj audio i odgovori na pitanje koje se nalazi dole.
 
 # --questions--
 
 ## --text--
 
-Ni tatizo gani lingine ambalo timu ililileta?
+Koji je još problem koji je tim izazvao?
 
 ## --answers--
 
-Kwamba wanapokea masasisho mapema mno.
+Da primaju ažuriranja previše rano.
 
 ### --feedback--
 
-Maria anataja kinyume kabisa.
+Marija spominje nešto sasvim suprotno.
 
 ---
 
-Kwamba hawataki kuwasiliana sana.
+Da ne žele da komuniciraju mnogo.
 
 ### --feedback--
 
-Maria hataji kuhusu utayari wa timu kuwasiliana.  
+Maria pita o spremnosti tima da komunicira.
 
 ---
 
-Kwamba mara nyingi hawasikii kuhusu mabadiliko kwa wakati.
+Da često ne čuju o promenama na vreme.
 
 ---
 
-Kwamba wanafikiri watu wengi sana wanahusika katika mawasiliano.
+Misle da je mnogo ljudi uključeno u komunikaciju.
 
 ### --feedback--
 
-Maria hataji kuhusu idadi ya watu wanaohusika.
+Marija pita o broju uključenih ljudi.
 
 ## --video-solution--
 
-3  
+3
 
 # --explanation--
 
-Unaposema kitu `isn't great`, unalainisha ujumbe hasi (badala ya kusema `it is bad`, kwa mfano). Hii hufanya ukosoaji usikike kwa heshima au kwa njia isiyo ya moja kwa moja. Angalia sentensi zifuatazo:
+Kada kažete nešto `isn't great`, ublažavate negativnu poruku (umesto da kažete `it is bad`, na primer). Ovo čini da kritika zvuči sa poštovanjem ili indirektno. Pogledajte sledeće rečenice:
 
-- `The design is bad.` - Hii ni kauli hasi kali, ambayo mara nyingi husikika isiyo na heshima.
+- `The design is bad.` - Ovo je veoma oštar izraz, koji se često čuje nepoštovano.
 
-- `The design isn't great. Maybe we can improve it.` - Kusema hivi husikika laini zaidi na kuwa na ujenzi zaidi.
+- `The design isn't great. Maybe we can improve it.` - Govoriti ovo zvuči tečnije i ima više strukture.
 
 # --scene--
 

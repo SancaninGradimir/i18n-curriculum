@@ -1,48 +1,47 @@
 ---
 id: 67caeb9a6a3aedb94bc912dd
-title: Zoezi la 129
+title: Vežba 129
 challengeType: 22
 dashedName: task-129
 lang: en-US
 ---
-
-<!-- (Audio) Maria: They also said the communication isn't great because they often don't hear about changes until it's too late. -->
+<!-- (Audio) Marija: Takođe su rekli da komunikacija nije odlična jer često ne čuju o promenama dok je prekasno. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.  
+Slušajte audio snimak i dovršite rečenicu koja je dole.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`  
+`They BLANK said the communication isn't great because they BLANK don't hear about changes until it's too late.`
 
 ## --blanks--
 
-`also`  
+`also`
 
 ### --feedback--
 
-Hii ina maana ya pia au kwa kuongezea.
+Ovo znači takođe ili dodatno.
 
 ---  
 
-`often`  
+`often`
 
 ### --feedback--
 
-Hii ina maana ya mara nyingi au mara nyingi sana.
+Ovo znači često ili vrlo često.
 
 # --explanation--
 
-`Also` ina maana ya kuongezea kitu kilichotajwa awali. Kwa mfano:
+`Also` znači dodavanje nečega što je prethodno pomenuto. Na primer:
 
-`She speaks English and also knows French.` - Hii ina maana anajua Kifaransa pamoja na Kiingereza.  
+`She speaks English and also knows French.` - To znači da zna francuski zajedno sa engleskim.
 
-`Often` ina maana ya mara nyingi au kwa kawaida. Kwa mfano:
+`Often` znači često ili obično. Na primer:
 
-`He often works late on Fridays.` - Hii ina maana anafanya kazi hadi usiku mara nyingi au kwa kawaida siku za Ijumaa.
+`He often works late on Fridays.` - Ovo znači da radi kasno noću često ili obično petkom.
 
 # --scene--
 

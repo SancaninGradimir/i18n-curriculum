@@ -1,60 +1,59 @@
 ---
 id: 67cafac07dc081eefb4d7adb
-title: Zoezi la 135
+title: Vežba 135
 challengeType: 19
 dashedName: task-135
 lang: en-US
 ---
-
-<!-- (Audio) Bob: That makes sense. Could you set up a weekly meeting to discuss progress and keep everyone in the loop? -->
+<!-- (Audio) Bob: To ima smisla. Da li biste mogli da set nedeljni sastanak da bismo diskutovali o napretku i da svi budu u toku? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Slušaj audio i odgovori na pitanje koje se nalazi dole.
 
 # --questions--
 
 ## --text--
 
-Lengo la kuwa na mikutano ya kila wiki ni lipi?
+Koja je svrha održavanja nedeljnih sastanaka?
 
 ## --answers--
 
-Kupunguza idadi ya mazoezi ambayo timu ina.
+Smanite broj vežbi koje tim ima.
 
 ### --feedback--
 
-Bob hakutaja kupunguza mazoezi.  
+Bob ne spominje smanjenje vežbi.
 
 ---
 
-Kuepuka kufanya mabadiliko yoyote kwenye mradi.
+Izbegavajte da napravite bilo kakve izmene na projektu.
 
 ### --feedback--
 
-Bob hakupendekeza kwamba waepuke kufanya mabadiliko.
+Bob nije savetovao da izbegavaju promene.
 
 ---
 
-Kuongeza idadi ya mikutano bila lengo wazi.
+Povećanje broja sastanaka bez jasnog cilja.
 
 ### --feedback--
 
-Bob ana lengo maalum na alilitaja.
+Bob ima specifičan cilj i spomenuo ga je.
 
 ---
 
-Kuhakikisha kila mtu anapata taarifa mpya kuhusu mradi.
+Osigurati da svi dobiju nove informacije o projektu.
 
 ## --video-solution--
 
-4  
+4
 
 # --explanation--
 
-`To keep someone in the loop` inamaanisha kuwafahamisha kuhusu masasisho na maamuzi muhimu. Kwa mfano:
+`To keep someone in the loop` To znači obaveštavanje o važnim ažuriranjima i odlukama. Na primer:
 
-`Please keep me in the loop about any changes to the schedule.` - Hii ina maana msemaji anataka apate taarifa ikiwa kitu chochote kitabadilika.
+`Please keep me in the loop about any changes to the schedule.` - Ovo znači da govornik želi da primi informacije ako se nešto promeni.
 
 # --scene--
 

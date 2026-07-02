@@ -1,26 +1,25 @@
 ---
 id: 66193b1deee8db8cfe3bc5c1
-title: Zoezi la 41
+title: Vežba 41
 challengeType: 19
 dashedName: task-41
 lang: en-US
 ---
-
-<!-- (Audio) Tom: What other collaboration tools are there? Alice: Well, there are project management tools. They help teams to organize tasks. Also, cloud storage services make it easy to share and collaborate on documents. -->
+<!-- (Audio) Tom: Koja su još alati za saradnju? Alice: Pa, postoje alati za upravljanje projektima. Pomažu timovima da organizuju zadatke. Takođe, usluge skladištenja u oblaku olakšavaju deljenje i saradnju na dokumentima. -->
 
 # --description--
 
-Sikiliza sauti na jibu swali.
+Poslušaj zvuk i odgovori na pitanje.
 
 # --questions--
 
 ## --text--
 
-Ni zana gani za ushirikiano Alice anazotaja?
+Je li to nešto vezano za saradnju što je Alice spomenula?
 
 ## --answers--
 
-`Project management tools` and `cloud storage services`
+`Project management tools` i `cloud storage services`
 
 ---
 
@@ -28,23 +27,23 @@ Ni zana gani za ushirikiano Alice anazotaja?
 
 ### --feedback--
 
-Ingawa hizi ni zana muhimu katika dunia ya leo, si zana ambazo Alice anazitaja.
+Iako su ovo važni alati u današnjem svetu, nisu to alati koje spominje Alice.
 
 ---
 
-`Screwdrivers` and `hammers`
+`Screwdrivers` i `hammers`
 
 ### --feedback--
 
-Hizi ni zana za mikono, si zana za ushirikiano.
+Ovo su ručni alati, a ne alati za saradnju.
 
 ---
 
-`Chat apps` and `email`
+`Chat apps` i `email`
 
 ### --feedback--
 
-Hizi zinaweza kuzingatiwa kama zana za ushirikiano katika mazingira ya mtandao, lakini Alice hazizitaji.
+Ove se mogu smatrati alatima za saradnju u mrežnom okruženju, ali im Alice ne treba.
 
 ## --video-solution--
 

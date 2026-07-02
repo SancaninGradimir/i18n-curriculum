@@ -1,16 +1,15 @@
 ---
 id: 655b37ecf9da446bd1dcff4f
-title: Zoezi la 96
+title: Vežba 96
 challengeType: 22
 dashedName: task-96
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: On Sunday, I have a lazy morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep early because on Monday it's back to work again. -->
+<!-- (Audio) Sophie: Nedelju, imam lenji jutro. Samo ostajem kod kuće i igram neke video igre na mom console. U večer, spremam večeru i idem rano spavati jer je ponedeljak opet posao. -->
 
 # --description--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Kivumishi hiki kinaelezea asili ya kupumzika ya asubuhi ya Jumapili ya Sophie.
+Ovaj opis objašnjava prirodu odmora Sofijinog nedeljnog jutra.
 
 ---
 
@@ -32,7 +31,7 @@ Kivumishi hiki kinaelezea asili ya kupumzika ya asubuhi ya Jumapili ya Sophie.
 
 ### --feedback--
 
-Neno hili linaonyesha wakati ambao Sophie huchagua kwenda kulala jioni ya Jumapili.
+Ovaj deo prikazuje trenutak kada Sophie odlazi na spavanje u nedelju uveče.
 
 # --scene--
 

@@ -1,6 +1,6 @@
 ---
 id: 655c0feadb1dd77f6cda623f
-title: "Dialogue 1: A Job Interview"
+title: Dialogue 1: Intervju za posao
 challengeType: 21
 dashedName: dialogue-1-a-job-interview
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Tazama video iliyo hapa chini ili kuelewa muktadha wa mafundisho yajayo.
+Pogledajte video ispod da biste razumeli kontekst sledećih lekcija.
 
 # --assignment--
 
-Tazama video.
+Gledaj video.
 
 # --scene--
 

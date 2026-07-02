@@ -1,50 +1,47 @@
 ---
 id: 67cbb5b81e5e4e3ae9ff6fb3
-title: Zoezi la 42
+title: Vežba 42
 challengeType: 19
 dashedName: task-42
 lang: en-US
 ---
-
-<!-- (audio) Jake: If integration is crucial, you might have to do some extra work with SafeGuard. -->
+<!-- (audio) Jake: Ako je integracija ključna, možda ćete morati da do uradite nešto dodatnog rada sa SafeGuard-om. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jake anamaanisha nini?
+Šta znači Jake?
 
 ## --answers--
 
-SafeGuard ni rahisi kuunganishwa na zana nyingine.
-  
-### --feedback--
+SafeGuard je lako integrisati sa drugim alatima.### --feedback--
 
-Anachosema Jake kinaonyesha si rahisi.
+Pokazuje da nije lako.
 
 ---
 
-Gharama ya SafeGuard huongezeka wakati inapounganishwa.
+Trošak SafeGuard raste kada se poveže.
 
 ### --feedback--
 
-Jake hakutaja gharama.
+Jake nije spomenuo trošak.
 
 ---
 
-Muunganisho na SafeGuard unaweza kuhitaji juhudi za ziada.
+Povezivanje sa SafeGuard može zahtevati dodatne napore.
 
 ---
 
-SafeGuard haiko na unyumbufu katika muunganisho.
+SafeGuard nema fleksibilnost u spajanju.
 
 ### --feedback--
 
-Jake hakutaja unyumbufu bali anakazia hitaji la kazi ya ziada.
+Jake nije spomenuo fleksibilnost, već je usmerio pažnju na potrebu za dodatnim radom.
 
 ## --video-solution--
 
@@ -52,9 +49,9 @@ Jake hakutaja unyumbufu bali anakazia hitaji la kazi ya ziada.
 
 # --explanation--
 
-`Extra work` inamaanisha juhudi au muda wa ziada unaohitajika kufanikisha lengo.
+`Extra work` To znači napor ili dodatno vreme potrebno za postizanje cilja.
 
-Jake anapendekeza kwamba `if integration is crucial` (muhimu sana), Sophie anaweza kukumbana na changamoto na SafeGuard, na kwa hiyo, kazi au juhudi za ziada zitahitajika kuunganisha na majukwaa mengine.
+Jake predlaže da `if integration is crucial` (vrlo važno), Sophie može naići na izazove sa SafeGuard-om, pa će biti potreban dodatni rad ili napor za povezivanje sa drugim platformama.
 
 # --scene--
 

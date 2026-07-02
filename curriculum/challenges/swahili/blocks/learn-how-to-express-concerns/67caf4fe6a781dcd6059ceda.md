@@ -1,48 +1,47 @@
 ---
 id: 67caf4fe6a781dcd6059ceda
-title: Zoezi la 131
+title: Vežba 131
 challengeType: 22
 dashedName: task-131
 lang: en-US
 ---
-
-<!-- (Audio) Maria: It'd be helpful if we had more regular check-ins. -->
+<!-- (Audio) Maria: Bilo bi korisno da imamo redovnije provere/kontakte if -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.  
+Slušaj audio i dovrši sledeću rečenicu.
 
 # --fillInTheBlank--
 
 ## --sentence--
 
-`It'd be BLANK if we had more BLANK check-ins.`  
+`It'd be BLANK if we had more BLANK check-ins.`
 
 ## --blanks--
 
-`helpful`  
+`helpful`
 
 ### --feedback--
 
-Hii inamaanisha kutoa msaada au kufanya kitu kuwa rahisi zaidi.  
+Ovo znači pružanje pomoći ili olakšavanje nečega.
 
 ---  
 
-`regular`  
+`regular`
 
 ### --feedback--
 
-Hii inamaanisha kutokea mara kwa mara au kwa vipindi vilivyowekwa.  
+Ovo znači da se dešava često ili u fiksnim intervalima.
 
 # --explanation--
 
-`Helpful` inamaanisha kutoa msaada au kufanya kitu kuwa rahisi zaidi. Kwa mfano:
+`Helpful` to znači pružiti pomoć ili nešto olakšati. Na primer:
 
-`It was helpful to have clear instructions before starting the task.` - Hii inamaanisha maelekezo yalifanya zoezi kuwa rahisi kukamilika.
+`It was helpful to have clear instructions before starting the task.` - Ovo znači da su uputstva učinila vežbu lakom za završetak.
 
-`Regular` inamaanisha kutokea mara kwa mara au kwa vipindi vilivyowekwa. Kwa mfano:
+`Regular` To znači da se dešava redovno ili u zadatim intervalima. Na primer:
 
-`We have regular meetings every Monday.` - Hii inamaanisha mikutano hutokea mara kwa mara siku za Jumatatu.
+`We have regular meetings every Monday.` - Ovo znači da se sastanci održavaju redovno ponedeljkom.
 
 # --scene--
 

@@ -1,56 +1,55 @@
 ---
 id: 6557dc1aa6be93c1eb4e9efb
-title: Zoezi la 29
+title: Vežba 29
 challengeType: 19
 dashedName: task-29
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: Anyway, before leaving for work, I like to check my emails and messages to see if there are any urgent updates from the team. -->
+<!-- (Audio) Sara: U svakom slučaju, pre napuštanja for posla, volim da proverim svoje e-mailove i poruke da vidim if da li ima bilo kakvih hitnih ažuriranja za from tim. -->
 
 # --description--
 
-Neno `if` linamaanisha "iwepo au la". Kwa mfano:
+Reč `if` znači "da ili ne". Primer:
 
-`She checks her emails to see if there are any urgent updates.` - Hii ina maana anatafuta kujua iwepo au la masasisho.
+`She checks her emails to see if there are any urgent updates.` - To znači da pokušava da sazna da li ima ažuriranja ili ne.
 
-`If` pia linaweza kuwa sehemu ya usemi wa kihesabu wa masharti, unaoonyesha hali inayowezekana na matokeo yake. Kwa mfano:
+`If` Takođe može biti deo matematičkog izraza uslova, koji prikazuje mogući status i njegov rezultat. Na primer:
 
-`If there are urgent updates, I will reply immediately.` - Hii ina maana kujibu kunategemea hali ya kuwa na masasisho ya dharura.
+`If there are urgent updates, I will reply immediately.` - Ovo znači da odgovor zavisi od dostupnosti hitnih ažuriranja.
 
 # --questions--
 
 ## --text--
 
-Sarah anamaanisha nini kwa kutumia `if` katika kauli yake kuhusu kukagua barua pepe na ujumbe?
+Šta Sarah znači koristeći `if` u svom izjavi o pregledavanju e-pošte i poruka?
 
 ## --answers--
 
-Daima hupata masasisho ya dharura kutoka kwa timu yake.
+Uvek prima hitne ažurmane od svog tima.
 
 ### --feedback--
 
-`If` haionyeshi uhakika wa kupata masasisho ya dharura.
+`If` Ne prikazuje garanciju dobijanja hitnih ažuriranja.
 
 ---
 
-Wakati mwingine kuna masasisho ya dharura, wakati mwingine hayapo.
+Nekada ima hitnih ažuriranja, nekada ih nema.
 
 ---
 
-Hapendi kabisa kukagua barua pepe na ujumbe wake.
+Ne voli uopšte da proverava svoje e-poruke i poruke.
 
 ### --feedback--
 
-Sarah kwa kweli anasema kwamba anakagua barua pepe na ujumbe wake.
+Sarah zapravo kaže da proverava svoju e-poštu i poruke.
 
 ---
 
-Kukagua barua pepe si sehemu ya ratiba yake.
+Provera e-pošte nije deo njenog rasporeda.
 
 ### --feedback--
 
-Sarah anataja kwamba kukagua barua pepe na ujumbe ni sehemu ya ratiba yake.
+Sarah navodi da je proveravanje e-pošte i poruka deo njenog rasporeda.
 
 ## --video-solution--
 

@@ -1,17 +1,16 @@
 ---
 id: 663a47b234aefeabacb3cf75
-title: Zoezi la 27
+title: Vežba 27
 challengeType: 22
 dashedName: task-27
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: Sure. Tom is a tall guy with a friendly smile. -->
+<!-- (Audio) Sophie: Naravno. Tom je visok momak sa prijateljskim osmehom. -->
 
 # --description--
 
-Sifa nyingine ya kipekee mtu anaweza kuwa nayo ni urefu wake. Unaweza kusema, kwa mfano, kwamba mtu ni `tall` au `short`.
-Mtu `tall` ni mtu aliye juu ya wastani kwa upande wa urefu wake. Kinyume chake ni mtu `short`, mtu huyu akiwa chini ya wastani.
+Još jedna jedinstvena osobina koju osoba može imati jeste njena visina. Može se reći, na primer, da je osoba `tall` ili `short`.
+Osoba `tall` je neko ko je iznad proseka po visini. Nasprisna mu je osoba `short`, ova osoba koja je ispod proseka.
 
 # --fillInTheBlank--
 
@@ -25,7 +24,7 @@ Mtu `tall` ni mtu aliye juu ya wastani kwa upande wa urefu wake. Kinyume chake n
 
 ### --feedback--
 
-Juu ya wastani kwa upande wa urefu.
+Iznad prosečne dužine.
 
 # --scene--
 

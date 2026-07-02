@@ -1,60 +1,59 @@
 ---
 id: 67c70abfeb7c6fb8cbd3fed7
-title: Zoezi la 57
+title: Vežba 57
 challengeType: 19
 dashedName: task-57
 lang: en-US
 ---
-
-<!-- (Audio) Maria: Hey James, can we talk about my latest meeting with Bob? -->
+<!-- (Audio) Maria: Hej James, možemo li da pričamo o mom poslednjem sastanku sa Bobom? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.  
+Slušaj audio i odgovori na pitanje koje se nalazi dole.
 
 # --questions--
 
 ## --text--
 
-Maria anataka kujadili nini na James?  
+Šta želi da razgovara sa Jamesom?
 
 ## --answers--
 
-Ratiba ya Bob kwa wiki hii.  
+Raspored za Boba ove nedelje.
 
 ### --feedback--
 
-Maria hakutaja ratiba ya Bob.  
+Maria nije spomenula raspored Boba.
 
 ---
 
-Mkutano wake wa hivi karibuni na Bob.  
+Njegov nedavni sastanak sa Bobom.
 
 ---
 
-Muda wa mwisho wa mradi ujao.  
+Krajnji rok za projekat je blizu.
 
 ### --feedback--
 
-Maria hakutaja muda wa mwisho, bali mkutano wake na Bob tu.  
+Maria nije spomenula poslednji put, već samo svoj sastanak sa Bobom.
 
 ---
 
-Ombi la bajeti la mteja.  
+Zahtev za budžet klijenta.
 
 ### --feedback--
 
-Maria hakutaja ombi la mteja katika sentensi hii.  
+Marija nije spomenula zahtev klijenta u ovoj rečenici.
 
 ## --video-solution--
 
-2  
+2
 
 # --explanation--
 
-`Can we talk about...` hutumika kuanzisha mada ya majadiliano. Ni njia ya heshima ya kuomba mazungumzo kuhusu jambo muhimu. Kwa mfano:
+`Can we talk about...` Koristi se za pokretanje teme diskusije. To je način da se traži razgovor o važnoj temi. Na primer:
 
-`Can we talk about the changes to the project timeline?` - Hii ina maana msemaji anataka kujadili marekebisho ya ratiba ya mradi.
+`Can we talk about the changes to the project timeline?` - Ovo znači da govornik želi da diskutuje o izmenama projektnog rasporeda.
 
 # --scene--
 

@@ -1,50 +1,49 @@
 ---
 id: 65d5d1bdbd0a7f4e3edb6c8e
-title: Zoezi la 35
+title: Vežba 35
 challengeType: 19
 dashedName: task-35
 lang: en-US
 ---
-
-<!-- (Audio) Tom: Hey, have you ever worked with Anna from HR? -->
+<!-- (Audio) Tom: Hej, da li si ikada radio sa Anom from HR? -->
 
 # --description--
 
-Sikiliza sauti na ujibu swali.
+Slušaj zvuk i odgovori na pitanje.
 
 # --questions--
 
 ## --text--
 
-Tom anaulizia nini?
+Šta Tom pita?
 
 ## --answers--
 
-Je, Anna anafanya kazi katika HR
+Da li Anna radi u HR-u?
 
 ### --feedback--
 
-Swali la Tom linahusu hasa kama mtu huyo amewahi kufanya kazi na Anna, si kuhusu jukumu la Anna.
+Pitanje Toma se odnosi na to da li je ta osoba ikada radila sa Annom, a ne o njenoj ulozi.
 
 ---
 
-Je, Alice amewahi kupata uzoefu wa kufanya kazi na Anna.
+Da li je Alice ikada imala iskustvo rada sa Anom?
 
 ---
 
-Je, unapenda kufanya kazi katika HR
+Da li volite da radite u HR-u?
 
 ### --feedback--
 
-Swali linahusu uzoefu wa zamani na Anna, si hisia binafsi kuhusu kufanya kazi katika HR.
+Pitanje se tiče prethodnog iskustva sa Annom, a ne ličnih osećanja o radu u HR-u.
 
 ---
 
-Je, Anna amewahi kufanya kazi
+Da li je Anna ikada radila?
 
 ### --feedback--
 
-Makini ya swali la Tom ni uzoefu wa msikilizaji na Anna, si historia ya kazi ya Anna.
+Fokus Toma pitanja je iskustvo slušaoca sa Anom, a ne istorija njenog rada.
 
 ## --video-solution--
 

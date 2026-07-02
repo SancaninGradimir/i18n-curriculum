@@ -1,16 +1,15 @@
 ---
 id: 67e2ae1300a8edcdede767db
-title: Zoezi la 4
+title: Vežba 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
 ---
-
-<!-- (Audio) Mark: Can I ask you about a few of them? -->
+<!-- (Audio) Mark: Mogu li vas pitati o nekoliko njih? -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Kitenzi hiki hutumika mtu anapohitaji kupata taarifa au ruhusa.
+Ova funkcija se koristi kada je potreban pristup informacijama ili dozvoli.
 
 ---
 
@@ -32,17 +31,17 @@ Kitenzi hiki hutumika mtu anapohitaji kupata taarifa au ruhusa.
 
 ### --feedback--
 
-Kiunganishi hiki huunganisha mada au somo zinazohusiana.
+Ovaj konektor povezuje srodne teme ili predmete.
 
 # --explanation--
 
-`Ask about` inamaanisha kuomba taarifa zinazohusiana na mada fulani. Kwa mfano:
+`Ask about` znači tražiti informacije vezane za određenu temu. Na primer:
 
 `I asked about the new feature.` – Ulitaka taarifa kuhusu kipengele.
 
-`Can I ask you about...` ni njia ya heshima kuanzisha swali wakati unahitaji taarifa au msaada. Inaonyesha kuwa unaomba ruhusa ya kuzungumzia mada fulani. Kwa mfano:
+`Can I ask you about...` je pristojan način za postavljanje pitanja kada vam treba informacija ili pomoć. Pokazuje da tražite dozvolu za razgovor o određenoj temi. Na primer:
 
-`Can I ask you about the project deadline?` – Hii inamaanisha unataka kuzungumzia tarehe ya mwisho na kupata maelezo zaidi.
+`Can I ask you about the project deadline?` – Ovo znači da želite da razgovarate o roku i dobijete više detalja.
 
 # --scene--
 

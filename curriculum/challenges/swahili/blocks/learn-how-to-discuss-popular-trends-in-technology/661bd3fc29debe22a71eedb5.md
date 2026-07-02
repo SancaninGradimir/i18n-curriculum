@@ -1,6 +1,6 @@
 ---
 id: 661bd3fc29debe22a71eedb5
-title: Zoezi la 69
+title: Vežba 69
 challengeType: 19
 dashedName: task-69
 lang: en-US
@@ -8,41 +8,41 @@ lang: en-US
 
 # --description--
 
-`Physical or behavioral traits` ni vitu maalum kuhusu mwili wako au jinsi unavyojitawala. Inaweza kuwa uso wako, alama za vidole, au njia unavyosogea. Biometrics hutumia vitu hivi kuhifadhi usalama.
+`Physical or behavioral traits` su specifične stvari o vašem telu ili načinu na koji se krećete. To može biti vaše lice, otisci prstiju ili način kretanja. Biometrija koristi ove stvari za obezbeđivanje sigurnosti.
 
 # --questions--
 
 ## --text--
 
-`physical or behavioral traits` ni nini kinachojumuishwa katika biometrics?
+`physical or behavioral traits` Šta je uključeno u biometriju?
 
 ## --answers--
 
-Vitu vya bahati nasibu
+Predmeti nasumične sreće
 
 ### --feedback--
 
-Vitu vya bahati nasibu havilingani na dhana ya sifa binafsi zinazotumika katika biometrics.
+Nasumični elementi ne odgovaraju konceptu ličnih atributa koji se koriste u biometriji.
 
 ---
 
-Nguvu za kichawi
+Moći magije
 
 ### --feedback--
 
-Nguvu za kichawi hazihusiani na dhana ya vipengele maalum vya binafsi katika biometrics.
+Čarobne moći se ne odnose na koncept specifičnih ličnih atributa u biometriji.
 
 ---
 
-Mifumo yenye rangi nyingi
+Sistemi sa više boja
 
 ### --feedback--
 
-Mifumo yenye rangi nyingi haikuwakilishi sifa maalum za mwili wako au tabia zako.
+Sistemima sa više boja ne predstavljaju specifične karakteristike vašeg tela ili ličnosti.
 
 ---
 
-Sifa maalum za mwili wako au tabia zako
+Specifične osobine vašeg tela ili vaše navike
 
 ## --video-solution--
 

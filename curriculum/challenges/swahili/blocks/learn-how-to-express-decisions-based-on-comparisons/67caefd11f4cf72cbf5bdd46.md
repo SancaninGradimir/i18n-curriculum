@@ -1,16 +1,15 @@
 ---
 id: 67caefd11f4cf72cbf5bdd46
-title: Zoezi la 37
+title: Vežba 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
 ---
-
-<!-- (audio) Jake: Not really. SafeGuard is more focused on security, so it might not integrate as easily with other platforms. -->
+<!-- (audio) Jake: Nije baš. SafeGuard je više fokusiran na bezbednost, pa možda ne može da integrira as lako sa drugim platformama. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,15 +23,15 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili ni njia ya kawaida ya kusema "hapana" au "si kabisa". Mara nyingi hutumika unapotaka kukataa kwa heshima au kutoa jibu laini, lisilo la moja kwa moja. Herufi ya kwanza ya neno la kwanza imeandikwa kwa herufi kubwa.
+Ovaj dvoredni izraz je uobičajen način da se kaže „ne“ ili „nikako“. Često se koristi kada želite da odbijete sa poštovanjem ili da date blag, indirektan odgovor. Prvi slovo prve reči je napisano velikim slovom.
 
 # --explanation--
 
-`Not really` hutumika mara nyingi kutoa jibu hasi, lakini kwa sauti laini zaidi. Ni ya kawaida zaidi kuliko kusema tu `No`. Kwa mfano:
+`Not really` se često koristi za davanje negativnog odgovora, ali sa mekšim tonom. Uobičajeniji je od samo kaženja `No`. Na primer:
 
-- **Kiongozi wa timu:** `Do you think this software is user-friendly?`
+- **Voditelj tima:** `Do you think this software is user-friendly?`
 
-- **Mwanafunzi wa mafunzo:** `Not really.` - Hii ina maana kwamba si rahisi kutumia sana, lakini msemaji huenda asiyakuwa na uhakika kabisa.
+- **Student u obuci:** `Not really.` - To znači da nije baš lako za upotrebu, ali govornik možda nije potpuno siguran.
 
 # --scene--
 

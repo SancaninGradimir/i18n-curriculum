@@ -1,22 +1,21 @@
 ---
 id: 67f3c4903a5cdafdeda3c1dd
-title: Zoezi la 143
+title: Vežba 143
 challengeType: 22
 dashedName: task-143
 lang: en-US
 ---
-
 <!-- REVIEW -->
 
 # --description--
 
-Hii ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
+Ovo je pregled svih razgovora koje ste upravo pročitali.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Napišite sledeće reči ili rečenice na pravo mesto:
 
-`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, na `on the same page`.
+`mix-up`, `on track`, `ironing out`, `misunderstanding`, `supposed`, `the confusion`, i `on the same page`.
 
 # --fillInTheBlank--
 
@@ -52,7 +51,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Nomino hii inahusu kushindwa kuelewa jambo kwa usahihi.
+Ovaj pojam se odnosi na neuspeće u preciznom razumevanju stvari.
 
 ---
 
@@ -60,7 +59,7 @@ Nomino hii inahusu kushindwa kuelewa jambo kwa usahihi.
 
 ### --feedback--
 
-Maneno haya mawili pamoja yanaonyesha ukosefu wa uwazi au uelewa. Neno la kwanza ni kiambatisho, la pili ni nomino.
+Ova dva zajedno reči pokazuju nedostatak jasnoće ili razumevanja. Prva reč je afiks, a druga je imenica.
 
 ---
 
@@ -68,7 +67,7 @@ Maneno haya mawili pamoja yanaonyesha ukosefu wa uwazi au uelewa. Neno la kwanza
 
 ### --feedback--
 
-Maneno haya mawili pamoja yanaelezea jambo linaloendelea kama lilivyopangwa.
+Ova dva pojma zajedno opisuju nešto što se dešava kako je planirano.
 
 ---
 
@@ -76,7 +75,7 @@ Maneno haya mawili pamoja yanaelezea jambo linaloendelea kama lilivyopangwa.
 
 ### --feedback--
 
-Maneno haya mawili yanaelezea kutatua matatizo madogo au maelezo. Neno la kwanza linaishia na `-ing`.
+Ova dva slova objašnjavaju rješavanje malih problema ili objašnjenja. Prva riječ se završava sa `-ing`.
 
 ---
 
@@ -84,7 +83,7 @@ Maneno haya mawili yanaelezea kutatua matatizo madogo au maelezo. Neno la kwanza
 
 ### --feedback--
 
-Hii ni `Past Participle` inayotumika kuonyesha matarajio au nia.
+Hii ni `Past Participle` koje se koristi za prikazivanje očekivanja ili namere.
 
 ---
 
@@ -92,7 +91,7 @@ Hii ni `Past Participle` inayotumika kuonyesha matarajio au nia.
 
 ### --feedback--
 
-Nomino hii inaelezea kosa au mkanganyiko unaotokana na vitu kuchanganywa. Huu ni usemi wa mchanganyiko. Kumbuka kutumia `-`.
+Ova imenica opisuje grešku ili zbunjenost koja proizlazi iz mešanja stvari. Ovo je termin za smesu. Zapamtite da koristite `-`.
 
 ---
 
@@ -100,4 +99,4 @@ Nomino hii inaelezea kosa au mkanganyiko unaotokana na vitu kuchanganywa. Huu ni
 
 ### --feedback--
 
-Maneno haya manne pamoja yanamaanisha kuwa na uelewa wa pamoja. Neno la kwanza ni kiambatisho.
+Ove mnoge reči zajedno znače imati zajedničko razumevanje. Prva reč je prilog.

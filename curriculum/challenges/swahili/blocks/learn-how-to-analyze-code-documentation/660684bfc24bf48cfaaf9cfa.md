@@ -1,18 +1,17 @@
 ---
 id: 660684bfc24bf48cfaaf9cfa
-title: Zoezi la 8
+title: Vežba 8
 challengeType: 22
 dashedName: task-8
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: Thanks, I'll give it a shot. -->
+<!-- (Audio) Sophie: Hvala, pokušaću. -->
 
 # --description--
 
-`Give it a shot` inamaanisha kujaribu kufanya jambo fulani. Ni kama kusema `Try it`.
+`Give it a shot` znači pokušati da nešto uradi. To je kao reći `Try it`.
 
-Kwa mfano, ikiwa rafiki yako anashuku kujiunga na darasa la programu kwa sababu anaona linaweza kuwa gumu sana, unaweza kusema `Why not give it a shot? You might enjoy it more than you think.` kumhimiza ajaribu kujiunga na darasa hili.
+Na primer, ako je tvoj prijatelj neodlučan da se prijavi na programski kurs jer misli da bi mogao biti previše težak, možeš mu reći `Why not give it a shot? You might enjoy it more than you think.` da ga podstakne da pokuša da se prijavi na ovaj kurs.
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ Kwa mfano, ikiwa rafiki yako anashuku kujiunga na darasa la programu kwa sababu 
 
 ### --feedback--
 
-Ni kifupi cha `I will`. Sophie anaonyesha uamuzi wake wa kujaribu kile Brian alipendekeza.
+Ovo je sažetak od `I will`. Sophie pokazuje svoju odluku da isproba ono što je Brian predložio.
 
 ---
 
@@ -34,7 +33,7 @@ Ni kifupi cha `I will`. Sophie anaonyesha uamuzi wake wa kujaribu kile Brian ali
 
 ### --feedback--
 
-Katika muktadha huu, inamaanisha jaribio au kujaribu kufanya jambo fulani. Sophie anasema atajaribu kile Brian amependekeza.
+U ovom kontekstu, to znači pokušaj ili pokušavati nešto. Sophie kaže da će pokušati ono što je Brian predložio.
 
 # --scene--
 

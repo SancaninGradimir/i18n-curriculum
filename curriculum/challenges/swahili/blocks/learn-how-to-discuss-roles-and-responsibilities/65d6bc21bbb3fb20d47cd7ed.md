@@ -1,17 +1,15 @@
 ---
 id: 65d6bc21bbb3fb20d47cd7ed
-title: Zoezi la 43
+title: Vežba 43
 challengeType: 22
 dashedName: task-43
 lang: en-US
 ---
-
-<!-- (Audio) Tom: I don't really know her, to be honest. What's her role?
--->
+<!-- (Audio) Tom: Iskreno, ne znam je baš dobro. Koja joj je uloga? -->
 
 # --description--
 
-Kuuliza `What's her role?` ni njia ya kujua kuhusu kazi au nafasi ya mtu katika kundi au mradi. `Role` inamaanisha sehemu au kazi ambayo mtu hufanya katika hali fulani. Kwa mfano, kama `role` ya mtu shuleni ni mwalimu, inamaanisha kazi yake ni kufundisha wanafunzi.
+Pitanje `What's her role?` je način da se sazna za posao ili ulogu osobe u grupi ili projektu. `Role` znači deo ili posao koji osoba obavlja u određenoj situaciji. Na primer, ako je `role` osobe u školi nastavnik, to znači da je njen posao podučavanje učenika.
 
 # --fillInTheBlank--
 
@@ -25,7 +23,7 @@ Kuuliza `What's her role?` ni njia ya kujua kuhusu kazi au nafasi ya mtu katika 
 
 ### --feedback--
 
-Neno hili linaonyesha Tom anazungumzia kazi au sehemu ya mwanamke katika jambo fulani.
+Ova reč ukazuje da Tom govori o poslu ili delu žene u nekoj stvari.
 
 ---
 
@@ -33,7 +31,7 @@ Neno hili linaonyesha Tom anazungumzia kazi au sehemu ya mwanamke katika jambo f
 
 ### --feedback--
 
-Neno hili linamaanisha kazi au nafasi ambayo mtu ana katika hali fulani.
+Ova reč znači posao ili poziciju koju osoba ima u određenoj situaciji.
 
 # --scene--
 

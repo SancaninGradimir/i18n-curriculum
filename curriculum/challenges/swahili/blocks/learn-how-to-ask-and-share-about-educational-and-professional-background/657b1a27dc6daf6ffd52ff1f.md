@@ -1,53 +1,52 @@
 ---
 id: 657b1a27dc6daf6ffd52ff1f
-title: Zoezi la 30
+title: Vežba od 30
 challengeType: 19
 dashedName: task-30
 lang: en-US
 ---
-
-<!-- (Audio) Anna: Excellent. Can you share details about your educational background? Were you trained in a specific field?
-Second Candidate: Yes. I have a master's degree in computer science. -->
+<!-- (Audio) Ana: Odlično. Možete li podeliti detalje o vašoj obrazovnoj pozadini? Da li ste bili obučeni za određeno polje?
+Drugi kandidat: Da. Imam master diplomu iz računarstva/računarskih nauka. -->
 
 # --description--
 
-Katika Kiingereza, nomino inayofuatiwa na `'s` ikifuatiwa na muundo wa nomino ya pili hutumika kuonyesha umiliki au uhusiano.
+Na engleskom, imenica praćena sa `'s` i praćena strukturom druge imenice koristi se za pokazivanje vlasništva ili odnosa.
 
-Ikiwa nomino ya kwanza ni ya umoja, kama ilivyo katika `Sarah's laptop`, inaonyesha kuwa kompyuta mpakato ni ya Sarah. Hata hivyo, ikiwa nomino ya kwanza ni ya wingi, muundo hubadilika kuwa nomino inayofuatiwa na `'`, kama ilivyo katika `teachers' office`, ikionyesha ofisi ya walimu.
+Ako je prva imenica u jednini, kao što je u `Sarah's laptop`, ukazuje da je kompaktni računar Sarafina. Međutim, ako je prva imenica u množini, struktura se menja u imenicu praćenu sa `'`, kao što je u `teachers' office`, pokazujući učiteljski kabinet.
 
 # --questions--
 
 ## --text--
 
-`master's degree` katika muktadha wa mazungumzo unarejelea nini?
+`master's degree` Na šta se u kontekstu razgovora odnosi?
 
 ## --answers--
 
-Digrii kwa walimu wa shule
+Diploma za nastavnike škole
 
 ### --feedback--
 
-`Master's degree` inarejelea digrii ya juu ya kitaaluma, si maalum kwa walimu pekee.
+`Master's degree` odnosi se na viši akademski stepen, nije samo za nastavnike.
 
 ---
 
-Digrii ya elimu ya msingi
+Diploma osnovnog obrazovanja
 
 ### --feedback--
 
-`Master's degree` ni sifa ya elimu ya juu, zaidi ya kiwango cha msingi.
+`Master's degree` je kvalifikacija višeg obrazovanja, iznad osnovnog nivoa.
 
 ---
 
-Digrii ya ujuzi wa kitaalamu
+Stupanj profesionalnih veština
 
 ### --feedback--
 
-Ingawa inaashiria utaalamu, `master's degree` inahusu sifa ya kitaaluma hasa.
+Iako ukazuje na stručnost, `master's degree` se tiče profesionalnih kvalifikacija.
 
 ---
 
-Digrii ya juu ya kitaaluma
+Visoki akademski stepen
 
 ## --video-solution--
 

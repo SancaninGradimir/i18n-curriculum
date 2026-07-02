@@ -1,22 +1,21 @@
 ---
 id: 65dabf5eb13aae9ff91c40a2
-title: Zoezi la 108
+title: Vežba 108
 challengeType: 22
 dashedName: task-108
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: And you don't have to search for expensive solutions for that. -->
+<!-- (Audio) Sophie: I ne morate da tražite for skuplja rešenja for to. -->
 
 # --description--
 
-Usemi `search for` unamaanisha kutafuta kitu au kujaribu kupata kitu kupitia uchunguzi. Kwa mfano, `I need to search for my lost keys` inamaanisha kutafuta funguo.
+``search for`` znači tražiti nešto ili pokušati da se nešto dobije kroz istraživanje. Na primer, ``I need to search for my lost keys`` znači tražiti ključeve.
 
-Neno `expensive` linaelezea kitu kinachogharimu pesa nyingi. Kwa mfano, `That car is too expensive for me` inamaanisha gari linagharimu pesa nyingi.
+Reč `expensive` opisuje nešto što košta mnogo novca. Na primer, `That car is too expensive for me` znači da automobil košta mnogo novca.
 
-`solution` ni jibu kwa tatizo au njia ya kutatua tatizo.
+`solution` je odgovor na problem ili način rešavanja problema.
 
-`Doesn't/don't have to` hutumika kuonyesha kwamba hakuna haja au sharti la kufanya jambo fulani.
+`Doesn't/don't have to` Koristi se da pokaže da nema potrebe ili obaveze da se nešto uradi.
 
 # --fillInTheBlank--
 
@@ -30,7 +29,7 @@ Neno `expensive` linaelezea kitu kinachogharimu pesa nyingi. Kwa mfano, `That ca
 
 ### --feedback--
 
-Neno hili linamaanisha kutafuta kitu kwa makini.
+Ova reč znači tražiti nešto pažljivo.
 
 ---
 
@@ -38,7 +37,7 @@ Neno hili linamaanisha kutafuta kitu kwa makini.
 
 ### --feedback--
 
-Kiunganishi hiki hutumika pamoja na `search` kuonyesha unachojaribu kutafuta.
+Ovaj konektor se koristi zajedno sa `search` da bi prikazao šta pokušavate da pretražite.
 
 ---
 
@@ -46,7 +45,7 @@ Kiunganishi hiki hutumika pamoja na `search` kuonyesha unachojaribu kutafuta.
 
 ### --feedback--
 
-Neno hili linaelezea kitu kinachogharimu pesa nyingi.
+Ova reč opisuje nešto što košta mnogo novca.
 
 ---
 
@@ -54,7 +53,7 @@ Neno hili linaelezea kitu kinachogharimu pesa nyingi.
 
 ### --feedback--
 
-Hizi ni majibu au njia za kutatua tatizo.
+Ovo su odgovori ili načini rešavanja problema.
 
 # --scene--
 
