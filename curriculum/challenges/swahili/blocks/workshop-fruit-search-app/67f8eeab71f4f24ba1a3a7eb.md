@@ -11,7 +11,7 @@ Nakon forme, dodajte `div` element sa `id` od `results` koji će prikazati rezul
 
 # --hints--
 
-You should have a `div` element with the `id` of `results` after the form.
+Trebali biste imati `div` element sa `id` od `results` nakon forme.
 
 ```js
 const searchContainer = document.getElementById("search-container");

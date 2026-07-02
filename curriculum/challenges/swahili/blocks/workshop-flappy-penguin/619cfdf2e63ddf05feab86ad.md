@@ -11,13 +11,13 @@ Postavite elemente `.face` tako da su `15%` od vrha.
 
 # --hints--
 
-You should give `.face` a `top` property.
+Trebalo bi da date `.face` svojstvo `top`.
 
 ```js
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);
 ```
 
-You should give `.face` a `top` of `--fcc-expected--`, but found `--fcc-actual--`.
+Trebalo bi da date `.face` `top` od `--fcc-expected--`, ali je pronađeno `--fcc-actual--`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.face')?.top, '15%');

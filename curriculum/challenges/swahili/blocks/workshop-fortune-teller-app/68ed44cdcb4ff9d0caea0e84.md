@@ -11,14 +11,14 @@ Pošto pozivate `fetchCardsData` i `initializeEventListeners` unutar konstruktor
 
 # --hints--
 
-You should have a `private` method named `fetchCardsData`.
+Trebalo bi da imate metod nazvan `fetchCardsData`, tipa `private`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.isTrue(explorer.classes.Game.methods.fetchCardsData.isPrivate());
 ```
 
-Your `fetchCardsData` method should be `async`.
+Vaša metoda `fetchCardsData` bi trebalo da bude `async`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
@@ -26,7 +26,7 @@ const method = explorer.classes.Game.methods.fetchCardsData.toString();
 assert.match(method, /async/);
 ```
 
-You should have a `private` method named `initializeEventListeners`.
+Trebalo bi da imate metod nazvan `initializeEventListeners` na `private`.
 
 ```js
 const explorer = await __helpers.Explorer(code);

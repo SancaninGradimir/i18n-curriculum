@@ -11,7 +11,7 @@ Zatim, potreban vam je način da pratite koliko posetilaca prolazi kroz kapiju t
 
 # --hints--
 
-You should create a variable named `processed` and assign it a value of `0`.
+Trebalo bi da kreirate varijablu pod imenom `processed` i dodelite joj vrednost od `0`.
 
 ```js
 const rawFuncStr = __helpers.removeJSComments(processGateFlow.toString());
