@@ -25,7 +25,7 @@ Slušaj zvuk odgovora na pitanje koje se nalazi ispod.
 
 Ovo je pozdrav za jednu osobu, ali Chen Na maše pozdrave više od jedne osobe.
 
-[No Swahili text provided.]
+---
 
 `您们好 (nín men hǎo)`
 
@@ -33,11 +33,11 @@ Ovo je pozdrav za jednu osobu, ali Chen Na maše pozdrave više od jedne osobe.
 
 Ova forma nije uobičajena na kineskom jeziku.
 
-[No Swahili text provided.]
+---
 
 `你们好 (nǐ men hǎo)`
 
-[No Swahili text provided.]
+---
 
 `大家好 (dà jiā hǎo)`
 

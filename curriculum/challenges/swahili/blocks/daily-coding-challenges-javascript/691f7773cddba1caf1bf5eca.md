@@ -1,6 +1,6 @@
 ---
 id: 691f7773cddba1caf1bf5eca
-title: Vežba 131: Za par
+title: "Vežba 131: Za par"
 challengeType: 28
 dashedName: challenge-131
 ---

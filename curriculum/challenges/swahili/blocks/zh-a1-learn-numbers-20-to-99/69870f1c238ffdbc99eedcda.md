@@ -48,7 +48,7 @@ Ovaj zadatak nema audio. Popunite praznine ispod odgovarajućim brojevima na kin
 
 Ovaj broj na kineskom se stvara dodavanjem `一 (yī)` nakon `二十 (shí)`.
 
-[No Swahili text provided.]
+---
 
 `二十五 (èr shí wǔ)`
 
@@ -56,7 +56,7 @@ Ovaj broj na kineskom se stvara dodavanjem `一 (yī)` nakon `二十 (shí)`.
 
 Ovaj broj na kineskom se stvara dodavanjem `五 (wǔ)` nakon `二十 (shí)`.
 
-[No Swahili text provided.]
+---
 
 `二十九 (èr shí jiǔ)`
 

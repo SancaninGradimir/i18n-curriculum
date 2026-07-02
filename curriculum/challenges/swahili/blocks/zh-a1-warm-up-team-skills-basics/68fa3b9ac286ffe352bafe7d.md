@@ -1,6 +1,6 @@
 ---
 id: 68fa3b9ac286ffe352bafe7d
-title: Dialog 1: Ja sam Tom
+title: "Dialog 1: Ja sam Tom"
 challengeType: 21
 dashedName: dialogue-1-im-tom
 lang: zh-CN

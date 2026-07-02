@@ -21,7 +21,7 @@ Koji izbor daje tačan Pinyin za ono što govori Wang Hua?
 
 `míng zi`
 
-[No Swahili text provided.]
+---
 
 `mǐng zi`
 
@@ -29,7 +29,7 @@ Koji izbor daje tačan Pinyin za ono što govori Wang Hua?
 
 Izgovor prvog sloga ne odgovara onome što čujete u zvuku.
 
-[No Swahili text provided.]
+---
 
 `mín zi`
 
@@ -37,7 +37,7 @@ Izgovor prvog sloga ne odgovara onome što čujete u zvuku.
 
 Kraj prve sloga nije ono što on govori.
 
-[No Swahili text provided.]
+---
 
 `míng zhī`
 
