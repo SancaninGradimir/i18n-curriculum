@@ -1,6 +1,6 @@
 ---
 id: 698dcf297932b3cc4b19c929
-title: Kitendakazi za kurudia
+title: Funkcije za ponavljanje
 challengeType: 11
 videoId: nRK4wRqKe1k
 dashedName: recursive-functions
@@ -8,29 +8,29 @@ dashedName: recursive-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kurudia (recursion).
+U ovom videu ćete naučiti o rekurziji (recursion).
 
 # --questions--
 
 ## --text--
 
-Ni kipengele gani muhimu ambacho vitendakazi vyote vya kurudia vinapaswa kuwa navyo?
+Koja je ključna karakteristika koju sve ponavljajuće operacije moraju imati?
 
 ## --answers--
 
-Vinapaswa kuendesha mzunguko usio na kikomo.
+Mora da pokrene beskonačan ciklus.
 
----
+[No Swahili text provided.]
 
-Havipaswi kutumia vigezo vyovyote.
+Ne smete koristiti nikakve parametre.
 
----
+[No Swahili text provided.]
 
-Kesi ya msingi.
+Osnovni slučaj.
 
----
+[No Swahili text provided.]
 
-Vinapaswa kila mara kuchapisha matokeo.
+Mora uvek da ispiše rezultate.
 
 ## --video-solution--
 

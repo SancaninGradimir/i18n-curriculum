@@ -1,6 +1,6 @@
 ---
 id: 24a45b3960b3aa68dff2cd9e
-title: Njia za orodha
+title: Putanje za listu
 challengeType: 11
 videoId: _5FQ5f3RW5U
 dashedName: list-functions
@@ -8,13 +8,13 @@ dashedName: list-functions
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia njia muhimu ikiwa ni pamoja na njia za `append()`, `index()`, `clear()`, `sort()`, na `reverse()`.
+U ovom videu, naučićete kako da koristite važne metode, uključujući i metode za `append()`, `index()`, `clear()`, `sort()`, i `reverse()`.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Šta će biti rezultat sledećeg koda?
 
 ```python
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
@@ -26,15 +26,15 @@ print(friends.index("Oscar"))
 
 4
 
----
+[No Swahili text provided.]
 
 1
 
----
+[No Swahili text provided.]
 
 2
 
----
+[No Swahili text provided.]
 
 3
 

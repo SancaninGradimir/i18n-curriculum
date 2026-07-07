@@ -1,24 +1,24 @@
 ---
 id: 68eca3cfeebef2cd8cc5f814
-title: Hatua 14
+title: Korak 14
 challengeType: 0
 dashedName: step-14
 ---
 
 # --description--
 
-Ongeza sifa ya kipengele ya `id` kwa kipengele chako cha pili chenye darasa la `card` na weka thamani yake kuwa `dave-cooking-book`. Kumbuka kwamba kila `id` lazima iwe ya kipekee.
+Dodaj atribut elementu za `id` na tvoj drugi element sa klasom `card` i postavi mu vrednost `dave-cooking-book`. Zapamti da svaki `id` mora biti jedinstven.
 
 # --hints--
 
-Kipengele chako cha pili chenye darasa la `card` kinapaswa kuwa na sifa ya kipengele ya `id`.
+Tvoj drugi element sa klasom `card` treba da ima svojstvo elementa `id`.
 
 ```js
 const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Kipengele chako cha pili chenye darasa la `card` kinapaswa kuwa na `id` yenye thamani ya `dave-cooking-book`.
+Tvoj drugi element sa klasom `card` mora imati `id` sa vrednošću `dave-cooking-book`.
 
 ```js
 const cards = document.querySelectorAll('.card');

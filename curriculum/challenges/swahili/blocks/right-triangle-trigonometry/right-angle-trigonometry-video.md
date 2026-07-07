@@ -1,6 +1,6 @@
 ---
 id: 699e5b998f18cf77dfce5c0d
-title: Trigonometri ya pembe ya haki
+title: Trigonometrija pravog ugla
 challengeType: 11
 videoId: j81PeMJaju0
 dashedName: right-angle-trigonometry
@@ -8,29 +8,29 @@ dashedName: right-angle-trigonometry
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kitendakazi za kawaida za trigonometri ikiwa ni pamoja na sine, cosine, na tangent na jinsi ya kuzipima kwa pembe za haki.
+U ovom videu, naučićete o osnovnim trigonometrijskim funkcijama, uključujući sin, kosinus i tangens, i kako ih izračunati za pravougaone uglove.
 
 # --questions--
 
 ## --text--
 
-Sine ya theta kwa pembetatu ya haki ni nini?
+Šta je sinus theta za pravougaoni trougao?
 
 ## --answers--
 
-Kando juu ya kinyume
+Sa suprotne strane
 
----
+[No Swahili text provided.]
 
-Kinyume juu ya hypotenuse
+Naspram hipotenuze
 
----
+[No Swahili text provided.]
 
-Hypotenuse juu ya kinyume
+Hipotenuz preko nasuprotne stranice
 
----
+[No Swahili text provided.]
 
-Kando juu ya hypotenuse
+Strana na hipotenuzi
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 698dc0277932b3cc4b19c91e
-title: Kutathmini utafutaji wa mstari
+title: Procena pretrage linije
 challengeType: 11
 videoId: 0bipiTtnXIA
 dashedName: evaluating-linear-search
@@ -8,29 +8,29 @@ dashedName: evaluating-linear-search
 
 # --description--
 
-Katika video hii, utafundishwa zaidi kuhusu algoriti ya utafutaji wa mstari na jinsi ya kutathmini muda wake wa utekelezaji.
+U ovom videu, naučićete više o algoritmu linearnog pretraživanja i kako proceniti njegovo vreme izvršavanja.
 
 # --questions--
 
 ## --text--
 
-Ni vipimo viwili gani vya ufanisi?
+Koje su dve metrike efikasnosti?
 
 ## --answers--
 
-Ugumu wa mstari na nafasi
+Kompleksnost linije i prostora
 
----
+[No Swahili text provided.]
 
-Ugumu wa muda na nafasi
+Složenost vremena i prostora
 
----
+[No Swahili text provided.]
 
-Ugumu wa kurudia na nafasi
+Teškoća ponavljanja i prostora
 
----
+[No Swahili text provided.]
 
-Ugumu wa binary na nafasi
+Složenost binarnog i prostora
 
 ## --video-solution--
 

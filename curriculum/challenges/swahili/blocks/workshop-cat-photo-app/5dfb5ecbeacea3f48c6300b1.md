@@ -1,6 +1,6 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Step 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
@@ -35,7 +35,7 @@ assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-Unapaswa kuwa na vipengele vitatu vya `li` vyenye maandishi `catnip`, `laser pointers` na `lasagna` kwa mpangilio wowote. Huenda umeacha baadhi ya maandishi au kuna makosa ya tahajia.
+Trebalo bi da imaš tri elementa sa tekstom `li`, `catnip`, `laser pointers` i `lasagna` u bilo kom redosledu. Možda si propustio neki tekst ili imaš greške u kucanju.
 
 ```js
 assert.deepStrictEqual(

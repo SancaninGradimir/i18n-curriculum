@@ -1,6 +1,6 @@
 ---
 id: 5e601bf95ac9d0ecd8b94afd
-title: Mtatua wa Sudoku
+title: Rešivač Sudokua
 challengeType: 4
 forumTopicId: 462357
 dashedName: sudoku-solver
@@ -8,10 +8,10 @@ dashedName: sudoku-solver
 
 # --description--
 
-Jenga programu kamili ya JavaScript inayofanya kazi kama hii: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Kufanya kazi kwenye mradi huu kutahusisha kuandika msimbo wako kwa kutumia mojawapo ya njia zifuatazo:
+Jenga programu kamili ya JavaScript inayofanya kazi kama hii: <a href="https://sudoku-solver.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://sudoku-solver.freecodecamp.rocks/</a>. Rad na ovom projektu će uključivati pisanje vašeg koda koristeći jednu od sledećih metoda:
 
--   Nakili <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
--   Tumia kivinjari cha kutengeneza tovuti unachotaka kukamilisha mradi. Hakikisha umejumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+-   Kopirajte <a href="https://github.com/freecodecamp/boilerplate-project-sudoku-solver" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> i dovršite svoj projekat unutar.
+-   Koristite alat za izradu veb-sajtova koji želite da završite projekat. Uverite se da ste uključili sve fajlove iz našeg repozitorijuma GitHub.
 
 # --instructions--
 
@@ -24,7 +24,7 @@ Jenga programu kamili ya JavaScript inayofanya kazi kama hii: <a href="https://s
 - Ili kuendesha mitihani ya changamoto kwenye ukurasa huu, weka `NODE_ENV` kuwa `test` bila nukuu katika faili la `.env`
 - Ili kuendesha mitihani kwenye konsoli, tumia amri `npm run test`.
 
-Andika mitihani ifuatayo katika `tests/1_unit-tests.js`:
+Napišite sledeće ispite u `tests/1_unit-tests.js`:
 
 -   Mantiq inashughulikia mfuatano wa fumbo halali wa herufi 81
 -   Mantiq inashughulikia mfuatano wa fumbo wenye herufi zisizo halali (si 1-9 au `.`)
@@ -39,22 +39,22 @@ Andika mitihani ifuatayo katika `tests/1_unit-tests.js`:
 -   Mfuatano wa fumbo batili haupiti mtatua
 -   Mtatua hurudisha suluhisho linalotarajiwa kwa fumbo lisilokamilika
 
-Andika mitihani ifuatayo katika `tests/2_functional-tests.js`
+Napišite sledeće ispite u `tests/2_functional-tests.js`
 
--   Tatua fumbo lenye mfuatano wa fumbo halali: ombi la POST kwa `/api/solve`
--   Tatua fumbo lenye mfuatano wa fumbo uliokosekana: ombi la POST kwa `/api/solve`
--   Tatua fumbo lenye herufi zisizo halali: ombi la POST kwa `/api/solve`
--   Tatua fumbo lenye urefu usio sahihi: ombi la POST kwa `/api/solve`
--   Tatua fumbo lisiloweza kutatuliwa: ombi la POST kwa `/api/solve`
--   Angalia kuweka fumbo kwa sehemu zote: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na mgongano mmoja wa sehemu: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na migongano mingi ya sehemu: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na migongano yote ya sehemu: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na sehemu zinazohitajika zilizokosekana: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na herufi zisizo halali: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na urefu usio sahihi: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na kuratibu batili ya kuweka: ombi la POST kwa `/api/check`
--   Angalia kuweka fumbo na thamani batili ya kuweka: ombi la POST kwa `/api/check`
+-   Rešavanje zagonetke sa validnom sekvencom zagonetke: POST zahtev za `/api/solve`
+-   Rešavanje zagonetke sa nedostajućom sekvencom zagonetke: POST zahtev za `/api/solve`
+-   Rešavanje zagonetke sa nevažećim karakterima: POST zahtev za `/api/solve`
+-   Rešavanje zagonetke sa neispravnom dužinom: POST zahtev za `/api/solve`
+-   Rešavanje neresolvabilne zagonetke: POST zahtev za `/api/solve`
+-   Provera podešavanja zagonetke za sve delove: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa jednim konfliktom dela: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa više konflikata delova: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa svim konfliktima delova: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa nedostajućim potrebnim delovima: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa nevažećim karakterima: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa neispravnom dužinom: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa nevažećim koordinatama podešavanja: POST zahtev za `/api/check`
+-   Provera podešavanja zagonetke sa nevažećom vrednošću podešavanja: POST zahtev za `/api/check`
 
 # --hints--
 
@@ -65,7 +65,7 @@ Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
   assert(!/.*\/sudoku-solver\.freecodecamp\.rocks/.test(code));
 ```
 
-Unaweza `POST` `/api/solve` na data ya fomu yenye `puzzle` ambayo itakuwa mfuatano wa herufi unaojumuisha nambari (1-9) na nukta `.` kuwakilisha nafasi tupu. Kitu kilichorejeshwa kitakuwa na sifa ya `solution` yenye fumbo lililotatuliwa.
+Možete `POST` `/api/solve` i podatke forme koji sadrže `puzzle`, koji će biti sekvenca karaktera koja uključuje brojeve (1-9) i tačke `.` za predstavljanje praznog mesta. Vraćeni objekat će imati svojstvo `solution` sa rešenom zagonetkom.
 
 ```js
   const input =
@@ -114,7 +114,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina thamani zisizo nambari au nuk
   assert.equal(parsed.error, output);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina urefu zaidi au chini ya herufi 81, thamani iliyorejeshwa itakuwa `{ error: 'Expected puzzle to be 81 characters long' }`
+Ako enigma prikazana za `/api/solve` ima dužinu veće ili manje od 81 slova, vraćena vrednost će biti `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -134,7 +134,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina urefu zaidi au chini ya heruf
   }
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/solve` ni batili au haliwezi kutatuliwa, thamani iliyorejeshwa itakuwa `{ error: 'Puzzle cannot be solved' }`
+Ako je zagonetka poslata na `/api/solve` nevažeća ili ne može biti rešena, vraćena vrednost će biti `{ error: 'Puzzle cannot be solved' }`
 
 ```js
   const input =
@@ -150,7 +150,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/solve` ni batili au haliwezi kutatuliwa, 
   assert.equal(parsed.error, output);
 ```
 
-Unaweza `POST` kwa `/api/check` kitu chenye `puzzle`, `coordinate`, na `value` ambapo `coordinate` ni herufi A-I inayoashiria safu, ikifuatiwa na nambari 1-9 inayoashiria nguzo, na `value` ni nambari kutoka 1-9.
+Unaweza `POST` kwa `/api/check` nešto sa `puzzle`, `coordinate`, i `value` gde je `coordinate` slovo od A do I koje označava red, praćeno brojem 1-9 koji označava kolonu, a `value` je broj od 1 do 9.
 
 ```js
   const input =
@@ -167,7 +167,7 @@ Unaweza `POST` kwa `/api/check` kitu chenye `puzzle`, `coordinate`, na `value` a
   assert.isTrue(parsed.valid);
 ```
 
-Thamani ya return kutoka `POST` kwa `/api/check` itakuwa kitu chenye sifa ya `valid`, ambayo ni `true` ikiwa nambari inaweza kuwekwa kwenye kuratibu iliyotolewa na `false` ikiwa haiwezi. Ikiwa ni false, kitu kilichorejeshwa pia kitakuwa na sifa ya `conflict` ambayo ni safu yenye mfuatano wa herufi `"row"`, `"column"`, na/au `"region"` kulingana na sababu za kuweka kuwa batili.
+Vrednost return od `POST` do `/api/check` će biti objekat sa svojstvom/karakteristikom `valid`, koje je `true` ako broj može biti postavljen u koordinate koje pruža `false`, a ne ako ne može. Ako je false, objekat koji se vraća će takođe imati svojstvo `conflict`, koje je niz znakova sa sekvencom karaktera `"row"`, `"column"`, i/ili `"region"`, u zavisnosti od razloga nevažeće (invalidacije).
 
 ```js
   const input =
@@ -188,7 +188,7 @@ Thamani ya return kutoka `POST` kwa `/api/check` itakuwa kitu chenye sifa ya `va
   assert.include(parsed.conflict, 'column');
 ```
 
-Ikiwa `value` iliyowasilishwa kwa `/api/check` tayari imewekwa katika `puzzle` kwenye `coordinate`, thamani iliyorejeshwa itakuwa kitu chenye sifa ya `valid` yenye `true` ikiwa `value` haiko na mgongano.
+Ako `value` koji je poslat za `/api/check` već je postavljen u `puzzle` na `coordinate`, vraćena vrednost će biti objekat sa svojstvom `valid` koji ima `true` ako `value` nema koliziju.
 
 ```js
   const input =
@@ -205,7 +205,7 @@ Ikiwa `value` iliyowasilishwa kwa `/api/check` tayari imewekwa katika `puzzle` k
   assert.isTrue(parsed.valid);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/check` lina thamani zisizo nambari au nukta, thamani iliyorejeshwa itakuwa `{ error: 'Invalid characters in puzzle' }`
+Ako upit poslat na `/api/check` sadrži ne-numeričke ili decimalne vrednosti, vraćena vrednost će biti `{ error: 'Invalid characters in puzzle' }`
 
 ```js
   const input =
@@ -223,7 +223,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/check` lina thamani zisizo nambari au nuk
   assert.equal(parsed.error, output);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/check` lina urefu zaidi au chini ya herufi 81, thamani iliyorejeshwa itakuwa `{ error: 'Expected puzzle to be 81 characters long' }`
+Ako je tekst poslat na `/api/check` dužine veće ili manje od 81 karaktera, vraćena vrednost će biti `{ error: 'Expected puzzle to be 81 characters long' }`
 
 ```js
   const inputs = [
@@ -245,7 +245,7 @@ Ikiwa fumbo lililowasilishwa kwa `/api/check` lina urefu zaidi au chini ya heruf
   }
 ```
 
-Ikiwa kitu kilichowasilishwa kwa `/api/check` kinakosa `puzzle`, `coordinate` au `value`, thamani iliyorejeshwa itakuwa `{ error: 'Required field(s) missing' }`
+Ako je nešto poslato na `/api/check` i nedostaje `puzzle`, `coordinate` ili `value`, vraćena vrednost će biti `{ error: 'Required field(s) missing' }`
 
 ```js
   const inputs = [
@@ -275,7 +275,7 @@ Ikiwa kitu kilichowasilishwa kwa `/api/check` kinakosa `puzzle`, `coordinate` au
   }
 ```
 
-Ikiwa kuratibu kilichowasilishwa kwa `api/check` hakielekezi kwenye seli halali ya gridi, thamani iliyorejeshwa itakuwa `{ error: 'Invalid coordinate'}`
+Ako koordinata navedena za `api/check` ne ukazuje na validnu ćeliju mreže, vraćena vrednost će biti `{ error: 'Invalid coordinate'}`
 
 ```js
   const input =
@@ -295,7 +295,7 @@ Ikiwa kuratibu kilichowasilishwa kwa `api/check` hakielekezi kwenye seli halali 
   }
 ```
 
-Ikiwa `value` iliyowasilishwa kwa `/api/check` si nambari kati ya 1 na 9, thamani iliyorejeshwa itakuwa `{ error: 'Invalid value' }`
+Ako je `value` koji se predaje za `/api/check` nije broj između 1 i 9, vraćena vrednost će biti `{ error: 'Invalid value' }`
 
 ```js
   const input =
@@ -315,7 +315,7 @@ Ikiwa `value` iliyowasilishwa kwa `/api/check` si nambari kati ya 1 na 9, thaman
   }
 ```
 
-Mitihani yote 12 ya kitengo imekamilika na kupita.
+Sva 12 ispita jedinice su završena i položena.
 
 ```js
   try {
@@ -342,7 +342,7 @@ Mitihani yote 12 ya kitengo imekamilika na kupita.
   }
 ```
 
-Mitihani yote 14 ya utendaji imekamilika na kupita.
+Sva 14 provera performansi je završena i uspešna.
 
 ```js
   try {

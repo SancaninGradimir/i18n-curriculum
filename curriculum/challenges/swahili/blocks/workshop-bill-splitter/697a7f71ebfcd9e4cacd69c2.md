@@ -1,30 +1,30 @@
 ---
 id: 697a7f71ebfcd9e4cacd69c2
-title: Hatua 8
+title: Korak 8
 challengeType: 20
 dashedName: step-8
 ---
 
 # --description--
 
-Bili imegawanywa, lakini mgawanyo mara nyingi husababisha nambari ndefu za desimali. Kwa kuwa pesa kawaida huwakilishwa na sehemu mbili za desimali, unapaswa kuzungusha matokeo ya mwisho.
+Deljenje je izvršeno, ali deljenje često rezultira dugim decimalnim brojevima. Pošto se novac obično predstavlja sa dve decimale, treba da zaokružite konačni rezultat.
 
-Katika funzo la awali, ulijifunza kuhusu kitendakazi cha `round()` ambacho kinachukua hoja mbili: nambari unayotaka kuzungusha na idadi ya sehemu za desimali za kuhifadhi. Hapa kuna mfano:
+U prvom kursu, naučili ste o funkciji `round()` koja uzima dva argumenta: broj koji želite zaokružiti i broj decimalnih mesta koje želite sačuvati. Evo primera:
 
 ```py
 num = 4.815162342
 round(num, 3) # 4.815
 ```
 
-Tumia kitendakazi cha `round()` kuzungusha `final_bill` hadi sehemu mbili za desimali na weka thamani hiyo katika kigezo kipya kinachoitwa `each_pays`.
+Koristi funkciju `round()` da zaokruži `final_bill` na dve decimale i stavi tu vrednost u novi parametar nazvan `each_pays`.
 
-Mwishowe, tumia `print()` kuonyesha mfuatano wa herufi `Each person pays:` ukifuatiwa na nafasi na kigezo chako cha `each_pays`.
+Konačno, koristi `print()` da prikaže niz znakova `Each person pays:`, praćen razmakom i tvojim parametrom `each_pays`.
 
-Kwa hivyo, warsha ya kugawanya bili imekamilika.
+Stoga, radionica za podele računa je završena.
 
 # --hints--
 
-Unapaswa kufafanua kigezo kinachoitwa `each_pays`.
+Trebalo bi da definišete parametar nazvan `each_pays`.
 
 ```js
 ({
@@ -34,7 +34,7 @@ Unapaswa kufafanua kigezo kinachoitwa `each_pays`.
 })
 ```
 
-Unapaswa kutumia kitendakazi cha `round()` kuzungusha `final_bill` hadi sehemu mbili za desimali na weka thamani hiyo katika kigezo chako cha `each_pays`.
+Morate koristiti funkciju `round()` za zaokruživanje `final_bill` na dve decimale i postaviti tu vrednost u svoj parametar `each_pays`.
 
 ```js
 ({
@@ -44,7 +44,7 @@ Unapaswa kutumia kitendakazi cha `round()` kuzungusha `final_bill` hadi sehemu m
 })
 ```
 
-Unapaswa kutumia `print()` kuonyesha mfuatano wa herufi `Each person pays:` ukifuatiwa na nafasi na kigezo chako cha `each_pays`.
+Trebalo bi da koristiš `print()` da prikažeš sekvencu slova `Each person pays:` praćenu razmakom i tvojim atributom `each_pays`.
 
 ```js
 ({

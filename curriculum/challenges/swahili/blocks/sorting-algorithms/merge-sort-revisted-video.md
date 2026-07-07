@@ -1,6 +1,6 @@
 ---
 id: 698dea107932b3cc4b19c946
-title: Merge sort imeangaziwa tena
+title: Merge sort ponovno je obrađen/pokriven
 challengeType: 11
 videoId: Aj6ikfTns9o
 dashedName: merge-sort-revisited
@@ -8,29 +8,29 @@ dashedName: merge-sort-revisited
 
 # --description--
 
-Katika video hii, utaangazia tena algoriti ya merge sort.
+U ovom videu, ponovo ćete osvetliti algoritam za merge sort.
 
 # --questions--
 
 ## --text--
 
-Tofauti kuu kati ya algoriti za merge sort na quicksort ni ipi?
+Koja je glavna razlika između algoritama merge sort-a i quicksort-a?
 
 ## --answers--
 
-Merge sort hubadilisha vipengele vilivyo karibu mara kwa mara hadi vipangwe.
+Merge sort periodično menja sosedne elemente sve dok ih ne sortiraju.
 
----
+[No Swahili text provided.]
 
-Quicksort hugawanya orodha karibu na pivot na kupangilia kwa kurudia sehemu ndogo ndogo, wakati merge sort hugawanya orodha nusu na kuunganisha nusu zilizopangwa.
+Quicksort deli listu oko pivota i sortira rekurzivno obrađujući manje delove, dok Merge Sort deli listu na pola i spaja sortirovane polovine.
 
----
+[No Swahili text provided.]
 
-Merge sort hutumia jedwali la hash kuhesabu vipengele, wakati quicksort hutumia deque kupanga upya vipengele.
+Merge sort koristi hash tabelu za brojanje elemenata, dok quicksort koristi deque da ponovno sortiraju elemente.
 
----
+[No Swahili text provided.]
 
-Quicksort daima hutumia mzunguko wa while kupangilia, wakati merge sort hutumia mzunguko wa for.
+Quicksort uvek koristi ciklus od while za poretke, dok merge sort koristi ciklus od for.
 
 ## --video-solution--
 

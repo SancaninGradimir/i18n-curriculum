@@ -18,13 +18,13 @@ Tumia darasa la herufi la njia ya mkato `\d` kuhesabu ni tarakimu ngapi zipo kat
 
 # --hints--
 
-Usemi wako wa kawaida unapaswa kutumia njia ya mkato ya herufi kutafuta herufi za tarakimu
+Standardni način unosa bi trebalo da koristi prečicu karaktera za pronalaženje cifara
 
 ```js
 assert(/\\d/.test(numRegex.source));
 ```
 
-Usemi wako wa kawaida unapaswa kutumia bendera ya global.
+Vaša uobičajena izjava treba da koristi globalnu zastavicu.
 
 ```js
 assert(numRegex.global);
@@ -60,7 +60,7 @@ Usemi wako wa kawaida unapaswa kupata tarakimu 2 katika mfuatano `21 Jump Street
 assert('21 Jump Street'.match(numRegex).length == 2);
 ```
 
-Usemi wako wa kawaida unapaswa kupata tarakimu 4 katika mfuatano `2001: A Space Odyssey`.
+Vaše uobičajeno ime treba da sadrži cifru 4 u sekvenci `2001: A Space Odyssey`.
 
 ```js
 assert('2001: A Space Odyssey'.match(numRegex).length == 4);

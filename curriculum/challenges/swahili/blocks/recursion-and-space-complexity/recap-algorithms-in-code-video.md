@@ -1,6 +1,6 @@
 ---
 id: 698dd0707932b3cc4b19c92b
-title: Muhtasari wa algoriti katika msimbo
+title: Sažetak algoritma u kodu
 challengeType: 11
 videoId: paBfWYrScAg
 dashedName: recap-algorithms-in-code
@@ -8,29 +8,29 @@ dashedName: recap-algorithms-in-code
 
 # --description--
 
-Katika video hii, utakagua dhana kuu zilizofundishwa hadi sasa ikiwa ni pamoja na kufikiri kwa algoriti, na noti ya Big O.
+U ovom videu ćete pregledati glavne koncepte naučene do sada, uključujući algoritamsko razmišljanje i Big O notaciju.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo inapaswa kuwa kweli linapokuja suala la algoriti?
+Koji od sljedećih treba da bude tačno kada je reč o algoritmima?
 
 ## --answers--
 
-Inapaswa kila mara kutumia kiasi kikubwa cha kumbukumbu kinachopatikana.
+Trebalo bi uvek koristiti veliki deo dostupne memorije.
 
----
+[No Swahili text provided.]
 
-Haipaswi kurudia hatua yoyote, hata ikihitajika.
+Ne smete ponavljati nijedan korak, čak ni ako je potrebno.
 
----
+[No Swahili text provided.]
 
-Inapaswa kumalizika ndani ya muda usio na kikomo.
+Trebalo bi da se završi u neograničenom roku.
 
----
+[No Swahili text provided.]
 
-Inapaswa kutoa matokeo ya bahati nasibu kila mara inapoendeshwa.
+Trebalo bi da daje slučajne rezultate svaki put kada se pokrene.
 
 ## --video-solution--
 

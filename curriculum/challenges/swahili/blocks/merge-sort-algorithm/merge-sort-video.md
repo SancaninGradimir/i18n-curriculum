@@ -1,6 +1,6 @@
 ---
 id: 698dda7a7932b3cc4b19c935
-title: Mpangilio wa Unganisha
+title: Podešavanje konekcije
 challengeType: 11
 videoId: oqcS-Jw8JXM
 dashedName: merge-sort
@@ -8,29 +8,29 @@ dashedName: merge-sort
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu algoriti ya mpangilio wa unganisha. 
+U ovom videu, naučićete o algoritmu za spajanje/povezivanje.
 
 # --questions--
 
 ## --text--
 
-Ni mbinu gani ya algoriti inayotumika kwa algoriti ya mpangilio wa unganisha? 
+Koji je algoritam koji se koristi za algoritma poređivanja konekcija?
 
 ## --answers--
 
-Greedy
+Hramatski
 
----
+[No Swahili text provided.]
 
-Dynamic Programming
+Dinamičko programiranje
 
----
+[No Swahili text provided.]
 
-Gawanya na shinda
+Podeli i osvoji
 
----
+[No Swahili text provided.]
 
-Kurudi nyuma 
+Vrati se
 
 ## --video-solution--
 

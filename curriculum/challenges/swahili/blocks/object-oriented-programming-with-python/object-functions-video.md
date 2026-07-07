@@ -1,6 +1,6 @@
 ---
 id: 697fe3cb32baa3841ab62a63
-title: Kitendakazi cha vitu
+title: Alati za stvari / Funkcionalnosti
 challengeType: 11
 videoId: 3Mla2uUDSu8
 dashedName: object-functions
@@ -8,13 +8,13 @@ dashedName: object-functions
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na vitendakazi ndani ya madarasa ya vitu.
+U ovom videu ćete naučiti kako da radite sa aktuatorima unutar klasa objekata.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuunda kitendakazi ndani ya darasa la vitu?
+Koja od sledećih je ispravan način za kreiranje funkcije unutar klase?
 
 ## --answers--
 
@@ -28,7 +28,7 @@ class Student:
         return f"Hello, my name is {self.name} and I am {self.age} years old."
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 class Student:
@@ -40,7 +40,7 @@ class Student:
         return f"Hello, my name is {self.name} and I am {self.age} years old."
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 class Student:
@@ -52,7 +52,7 @@ class Student:
         self.pass
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 class Student:

@@ -1,6 +1,6 @@
 ---
 id: 698dcfd57932b3cc4b19c92a
-title: Ugumu wa nafasi
+title: Težina prostora
 challengeType: 11
 videoId: BFMvhQdqYgc
 dashedName: space-complexity
@@ -8,29 +8,29 @@ dashedName: space-complexity
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu ugumu wa nafasi.
+U ovom videu ćete naučiti o složenosti prostora.
 
 # --questions--
 
 ## --text--
 
-Ugumu wa nafasi ni nini?
+Šta je težina prostora?
 
 ## --answers--
 
-Kiasi cha kumbukumbu ambacho algoriti hutumia kulingana na ukubwa wa ingizo.
+Količina memorije koju algoritam koristi u zavisnosti od veličine ulaza.
 
----
+[No Swahili text provided.]
 
-Kiasi cha muda ambacho algoriti huchukua kuendesha.
+Vreme/trajanje koje algoritam zahteva za pokretanje/izvršavanje.
 
----
+[No Swahili text provided.]
 
-Idadi ya prosesa (CPU) zinazotumiwa na algoriti.
+Broj procesa (CPU) koje koriste algoritmi.
 
----
+[No Swahili text provided.]
 
-Idadi ya vipengele vya ingizo ambavyo algoriti inaweza kushughulikia kwa sekunde moja.
+Broj ulaznih elemenata koje algoritam može da obradi u jednu sekundu.
 
 ## --video-solution--
 

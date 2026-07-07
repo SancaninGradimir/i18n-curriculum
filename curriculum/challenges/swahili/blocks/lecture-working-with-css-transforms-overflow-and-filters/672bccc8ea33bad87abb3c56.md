@@ -1,15 +1,15 @@
 ---
 id: 672bccc8ea33bad87abb3c56
-title: Nini Tofauti Kati ya content-box na border-box?
+title: Šta je razlika između `content-box` i `border-box`?
 challengeType: 19
 dashedName: what-is-the-difference-between-content-box-and-border-box
 ---
 
 # --interactive--
 
-Sifa ya `box-sizing` inaweza kuwekwa kuwa `content-box` au `border-box` kudhibiti jinsi upana na urefu wa vipengele vinavyopimwa.
+Svojstvo `box-sizing` može se postaviti na `content-box` ili `border-box` za kontrolisanje kako širina i visina merenih elemenata.
 
-Sifa hii inaweza kuwekwa kwenye kichaguzi cha ulimwengu (`*`) ili itumike kwa vipengele vyote katika hati:
+Ovo svojstvo se može postaviti na globalni selektor (`*`) da bi važio za sve elemente u dokumentu:
 
 ```css
 * {
@@ -17,9 +17,9 @@ Sifa hii inaweza kuwekwa kwenye kichaguzi cha ulimwengu (`*`) ili itumike kwa vi
 }
 ```
 
-Thamani ya sifa ya `box-sizing` ni `content-box` kwa chaguo-msingi, lakini unaweza kuchagua `border-box` ikiwa unahitaji. Tutachunguza `content-box` kwanza kisha tutaingia kwenye `border-box`.
+Vrednost svojstva `box-sizing` je `content-box` podrazumevano, ali možete odabrati `border-box` ako je potrebno. Proverićemo `content-box` prvo, a zatim ćemo ući na/u `border-box`.
 
-Ili kuelewa jinsi mifano inavyofanya kazi, unahitaji kufahamu dhana kuu nne kutoka kwa mfano wa boksi wa CSS. Hebu tukague haraka.
+Da biste razumeli kako modeli funkcionišu, morate shvatiti četiri glavna koncepta iz primjera kutije CSS. Hajde da brzo pregledamo.
 
 - Eneo la maudhui ni nafasi inayochukuliwa na maudhui ya kipengele.
 - Nafasi ya ndani ni nafasi kati ya eneo la maudhui na mpaka.
@@ -28,7 +28,7 @@ Ili kuelewa jinsi mifano inavyofanya kazi, unahitaji kufahamu dhana kuu nne kuto
 
 Katika mfano wa `content-box`, upana na urefu unaoweka kwa kipengele huamua vipimo vya eneo la maudhui, lakini havijumuishi nafasi ya ndani, mpaka, au ukingo. Tumia `content-box` unapohitaji udhibiti sahihi wa eneo la maudhui. Unapoweka `width` na `height`, unakuwa umeweka ukubwa wa maudhui yenyewe tu.
 
-Ili kupata upana wa jumla wa kipengele, utahitaji kuongeza nafasi ya ndani ya kushoto na kulia, na mipaka ya kushoto na kulia. Vivyo hivyo, urefu wa jumla wa kipengele unaweza kupatikana kwa kuongeza urefu wa maudhui, nafasi ya ndani ya juu na chini, na mipaka ya juu na chini.
+Da biste dobili ukupnu širinu elementa, morate dodati unutrašnji padding sa leve i desne strane, kao i levu i desnu granicu. Slično tome, ukupna visina elementa može se dobiti sabiranjem visine sadržaja, gornjeg i donjeg unutrašnjeg padding-a, i gornje i donje granice.
 
 Kwa mfano, hapa tuna kichaguzi cha aina ya CSS kwa vipengele vyote vya `div`.
 
@@ -54,9 +54,9 @@ Katika kesi hii, ikiwa `content-box` itatumika eneo la maudhui litakuwa 300px kw
 
 Nzuri! Sasa hebu tuchunguze `border-box`. Ni tofauti kwa sababu upana na urefu unaoweka unajumuisha maudhui ya kipengele, nafasi ya ndani, na mpaka (lakini si ukingo wake). Tumia `border-box` unapotaka ukubwa wa jumla wa kipengele ubaki thabiti hata kama nafasi ya ndani au mipaka itabadilika — hii mara nyingi husaidia katika mipangilio inayojibadilisha kulingana na kifaa.
 
-Kwa `border-box`, nafasi ya ndani na mipaka zinajumuishwa ndani ya ukubwa uliobainishwa wa kipengele. `width` na `height` unazoweka zinakuwa vipimo vya jumla vya kipengele: maudhui + nafasi ya ndani + mpaka; kingo hazijumuishwi.
+Za `border-box`, unutrašnji razmak i granice uključeni su u definisanu veličinu elementa. `width` i `height` postavljaju se kao ukupne dimenzije elementa: sadržaj + unutrašnji razmak + granica; ivice nisu uključene.
 
-Katika mfano ufuatao, kuna vipengele viwili vya `div` vyenye vipimo sawa lakini thamani tofauti za `box-sizing`. Angalia jinsi hii inavyosababisha ukubwa tofauti wa jumla unapoangaliwa kwenye kivinjari:
+U sledećem primeru, postoje dva elementa sa `div` koji imaju iste dimenzije, ali različite vrednosti za `box-sizing`. Pogledajte kako ovo uzrokuje različitu ukupnu veličinu kada se gleda u pretraživaču:
 
 :::interactive_editor
 
@@ -89,37 +89,37 @@ Katika mfano ufuatao, kuna vipengele viwili vya `div` vyenye vipimo sawa lakini 
 
 :::
 
-Unaweza kuona kuwa vyote vina `width`, `height`, `padding`, `border` na `margin` sawa. Tofauti pekee ni katika rangi na thamani ya sifa ya `box-sizing`. Tofauti hii ndogo ina athari muhimu sana kwa vipimo vya mwisho.
+Možete videti da sve imaju `width`, `height`, `padding`, `border` na `margin` jednako. Jedina razlika je u boji i vrednosti svojstva `box-sizing`. Ova mala razlika ima veoma značajan uticaj na konačne mere.
 
-Kuchagua kati ya `content-box` na `border-box` kunategemea mahitaji maalum ya mradi wako. Wakati `border-box` inazidi kupendwa kwa urahisi na kubadilika kwake, kuelewa mifano yote miwili ni muhimu kwa kutekeleza mipangilio madhubuti ya CSS.
+Izaberite između `content-box` i `border-box` u zavisnosti od specifičnih zahteva vašeg projekta. Iako je `border-box` izuzetno popularan zbog svoje jednostavne upotrebe i fleksibilnosti, razumevanje oba primera ključno je za implementaciju robustnih podešavanja CSS.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo thamani ya chaguo-msingi ya sifa ya `box-sizing` katika vivinjari vingi?
+Koja od sledećih je podrazumevana vrednost svojstva `box-sizing` u mnogim pregledačima?
 
 ## --answers--
 
 `content-box`
 
----
+[No Swahili text provided.]
 
 `border-box`
 
 ### --feedback--
 
-Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
+Razmotrite podrazumevano ponašanje za veličinu elemenata.
 
----
+[No Swahili text provided.]
 
 `padding-box`
 
 ### --feedback--
 
-Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
+Razmislite o podrazumevanom ponašanju za veličinu elemenata.
 
----
+[No Swahili text provided.]
 
 `margin-box`
 
@@ -133,35 +133,35 @@ Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
 
 ## --text--
 
-Nini faida kuu ya kutumia `border-box` kwa kuunda mipangilio inayojibadilisha kulingana na kifaa?
+Koja je glavna korist korišćenja `border-box` za kreiranje podešavanja koja se menjaju u zavisnosti od uređaja?
 
 ## --answers--
 
-Inafanya mahesabu kuwa magumu zaidi.
+Otežava proračune.
 
 ### --feedback--
 
-Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndani ya `width` na `height` zilizobainishwa.
+Razmislite kako model `border-box` obrađuje `padding` i `border` unutar `width` i `height` definisanih.
 
----
+[No Swahili text provided.]
 
-Inaruhusu udhibiti sahihi zaidi wa vipimo vya kipengele.
-
-### --feedback--
-
-Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndani ya `width` na `height` zilizobainishwa.
-
----
-
-Inahakikisha vipengele vinadumisha vipimo vilivyobainishwa bila kujali mabadiliko ya `padding` au `border`.
-
----
-
-Inaboresha ulinganifu wa kivinjari.
+Omogućava precizniju kontrolu parametara elementa.
 
 ### --feedback--
 
-Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndani ya `width` na `height` zilizobainishwa.
+Razmislite kako primer `border-box` obrađuje `padding` i `border` unutar `width` i `height`.
+
+[No Swahili text provided.]
+
+Osigurava da komponente održavaju navedene specifikacije bez obzira na promene u `padding` ili `border`.
+
+[No Swahili text provided.]
+
+Poboljšava sinhronizaciju pretraživača.
+
+### --feedback--
+
+Razmislite kako primer `border-box` obrađuje `padding` i `border` unutar `width` i `height`, definisanih.
 
 ## --video-solution--
 
@@ -169,35 +169,35 @@ Fikiria jinsi mfano wa `border-box` unavyoshughulikia `padding` na `border` ndan
 
 ## --text--
 
-Katika mfano wa `content-box`, `width` iliyobainishwa ya kipengele inawakilisha nini?
+U primeru `content-box`, `width`, šta predstavlja definisani element?
 
 ## --answers--
 
-Ukubwa wa jumla wa `width` wa kipengele, ikijumuisha `padding`, `border`, na `margin`.
+Ukupna veličina `width` elementa, uključujući `padding`, `border` i `margin`.
 
 ### --feedback--
 
-Fikiria uhusiano kati ya eneo la maudhui na vipimo vya jumla vya kipengele katika mfano wa `content-box`.
+Razmotrite odnos između područja sadržaja i ukupnih dimenzija elementa u primeru `content-box`.
 
----
+[No Swahili text provided.]
 
 Ukubwa wa `width` wa eneo la maudhui tu.
 
----
+[No Swahili text provided.]
 
-Ukubwa wa `width` wa `border`.
-
-### --feedback--
-
-Fikiria uhusiano kati ya eneo la maudhui na vipimo vya jumla vya kipengele katika mfano wa `content-box`.
-
----
-
-Ukubwa wa `width` wa `padding`.
+Veličina `width` od `border`.
 
 ### --feedback--
 
-Fikiria uhusiano kati ya eneo la maudhui na vipimo vya jumla vya kipengele katika mfano wa `content-box`.
+Razmislite o odnosu između područja sadržaja i ukupnih dimenzija elementa u primeru `content-box`.
+
+[No Swahili text provided.]
+
+Veličina `width` od `padding`.
+
+### --feedback--
+
+Razmotrite odnos između oblasti sadržaja i ukupnih dimenzija elementa u primeru od `content-box`.
 
 ## --video-solution--
 

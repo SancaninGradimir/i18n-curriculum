@@ -1,6 +1,6 @@
 ---
 id: 698dea4b7932b3cc4b19c94d
-title: Muda wa utekelezaji wa Big O wa algoriti za utafutaji
+title: Vremenska složenost Big O algoritama za pretraživanje
 challengeType: 11
 videoId: V9ID1JG7BpU
 dashedName: big-o-runtime-of-search-algorithms
@@ -8,27 +8,27 @@ dashedName: big-o-runtime-of-search-algorithms
 
 # --description--
 
-Katika video hii, utaangalia muda wa utekelezaji wa Big O kwa utafutaji wa mstari na utafutaji wa binary.
+U ovom videu ćete videti vreme izvršavanja Big O za linearnu pretragu i binarnu pretragu.
 
 # --questions--
 
 ## --text--
 
-Je, muda wa utekelezaji wa big O kwa utafutaji wa mstari ni upi?
+Koja je vremenska složenost Big O za linearnu pretragu?
 
 ## --answers--
 
 `O(n)`
 
----
+[No Swahili text provided.]
 
 `O(n + n)`
 
----
+[No Swahili text provided.]
 
 `O(1)`
 
----
+[No Swahili text provided.]
 
 `O(log n)`
 

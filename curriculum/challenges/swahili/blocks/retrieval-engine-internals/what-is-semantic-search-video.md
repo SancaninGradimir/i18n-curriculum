@@ -1,6 +1,6 @@
 ---
 id: 69ae69fbb4a814be6a4f2bdc
-title: "Je, utaftaji wa maana ni nini?"
+title: Šta je potraga za smislom?
 challengeType: 11
 videoId: 1OxzFbEES_g
 dashedName: what-is-semantic-search
@@ -8,29 +8,29 @@ dashedName: what-is-semantic-search
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu utaftaji wa maana.
+U ovom videu, naučićete o ekstrakciji značenja.
 
 # --questions--
 
 ## --text--
 
-Je, utaftaji wa maana ni nini?
+Šta je potraga za smislom?
 
 ## --answers--
 
-Kutatua tu kwa ajili ya mafaili yanayojumuisha neno halisi lililoandikwa, bila kuzingatia muktadha au maana.
+Samo za datoteke koje sadrže doslovno napisanu reč, bez obzira na kontekst ili značenje.
 
----
+[No Swahili text provided.]
 
-Mfumo unaobadilisha kila hoja ya utafutaji kuwa lebo za nasibu na kurejesha mafaili yenye lebo nyingi zinazolingana.
+Sistem koji konvertuje svaki upit za pretraživanje u nasumične oznake i vraća datoteke sa više odgovarajućih oznaka.
 
----
+[No Swahili text provided.]
 
-Njia ya utafutaji inayopanga matokeo kwa mpangilio wa alfabeti kulingana na urefu wa neno na umaarufu badala ya umuhimu.
+Metoda pretraživanja koja sortira rezultate po abecednom redosledu na osnovu dužine reči i popularnosti, umesto relevantnosti.
 
----
+[No Swahili text provided.]
 
-Kutatua mafaili kwa kuzingatia maana ya maneno badala ya kulinganisha tu maneno muhimu.
+Obrada fajlova uzimanjem u obzir značenje reči, a ne samo upoređivanjem ključnih reči.
 
 ## --video-solution--
 

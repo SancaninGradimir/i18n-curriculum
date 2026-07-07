@@ -1,29 +1,29 @@
 ---
 id: 5f3ef6e0e0c3feaebcf647ad
-title: Step 43
+title: Korak 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-Ongeza kipengele cha `h2` katika sehemu mpya na kimpatie maandishi ya `Desserts`.
+Dodaj komponentu `h2` u novom odeljku i dodeli mu tekst `Desserts`.
 
 # --hints--
 
-Haupasi kubadilisha kipengele chako cha `section` kilichopo.
+Treba da promeniš svoj postojeći element `section`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-Unapaswa kuongeza kipengele cha `h2` katika kipengele chako cha `section` cha pili.
+Trebalo bi da dodaš element `h2` u drugi deo tvog elementa `section`.
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-Kipengele chako kipya cha `h2` kinapaswa kuwa na maandishi ya `Desserts`.
+Tvoja nova funkcija od `h2` mora imati tekst `Desserts`.
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);

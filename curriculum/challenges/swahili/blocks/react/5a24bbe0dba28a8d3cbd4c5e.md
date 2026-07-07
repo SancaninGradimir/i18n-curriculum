@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5e
-title: Ongeza maoni katika JSX
+title: Dodaj komentare u JSX
 challengeType: 6
 forumTopicId: 301376
 dashedName: add-comments-in-jsx
@@ -10,15 +10,15 @@ dashedName: add-comments-in-jsx
 
 JSX ni sintaksia inayotafsiriwa kuwa JavaScript halali. Wakati mwingine, kwa ajili ya urahisi wa kusoma, unaweza kuhitaji kuongeza maoni katika msimbo wako. Kama lugha nyingi za programu, JSX ina njia yake ya kufanya hivyo.
 
-Ili kuweka maoni ndani ya JSX, unatumia sintaksia `{/* */}` kuzunguka maandishi ya maoni.
+Da biste stavili komentare unutar JSX-a, koristite sintaksu `{/* */}` oko teksta komentara.
 
 # --instructions--
 
-Mhariri wa msimbo una kipengele cha JSX kinachofanana na ulichotengeneza katika changamoto iliyopita. Ongeza maoni mahali popote ndani ya kipengele cha `div` kilichotolewa, bila kubadilisha vipengele vilivyopo vya `h1` au `p`.
+Editor koda ima JSX element sličan onome koji si napravio u prethodnom izazovu. Dodaj komentar bilo gde unutar priloženog elementa `div`, bez menjanja postojećih elemenata od `h1` ili `p`.
 
 # --hints--
 
-Kipengele cha `JSX` kinapaswa kurudisha kipengele cha `div`.
+Element za `JSX` mora da vrati element za `div`.
 
 ```js
 assert(JSX.type === 'div');
@@ -30,13 +30,13 @@ Kipengele cha `div` kinapaswa kuwa na lebo ya `h1` kama kipengele cha kwanza.
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-Kipengele cha `div` kinapaswa kuwa na lebo ya `p` kama kipengele cha pili.
+Element `div` mora imati labelu `p` kao drugi element.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Vipengele vilivyopo vya `h1` na `p` havipaswi kubadilishwa.
+Postojeći elementi za `h1` i `p` ne bi trebalo menjati.
 
 ```js
 assert(
@@ -45,7 +45,7 @@ assert(
 );
 ```
 
-Kipengele cha `JSX` kinapaswa kutumia sintaksia halali ya maoni.
+Element za `JSX` treba da koristi važeću sintaksu komentara.
 
 ```js
 assert(/<div>[\s\S]*{\s*\/\*[\s\S]*\*\/\s*}[\s\S]*<\/div>/.test(code));

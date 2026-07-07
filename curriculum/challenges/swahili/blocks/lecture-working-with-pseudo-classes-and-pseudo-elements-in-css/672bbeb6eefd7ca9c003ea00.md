@@ -7,7 +7,7 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 # --interactive--
 
-Darasa la bandia la muundo wa mti linakuwezesha kulenga na kupamba vipengele kulingana na nafasi yao ndani ya mti wa hati. Mti wa hati unarejelea muundo wa ngazi wa vipengele katika hati ya HTML.
+Pseudo-klasa za strukturu drveta omogućava vam da ciljate i stilizujete elemente na osnovu njihove pozicije unutar stabla dokumenta. Stablo dokumenta se odnosi na hijerarhijsku strukturu elemenata u dokumentu HTML.
 
 Hapa kuna orodha ya madarasa ya bandia ya muundo wa mti:
 
@@ -23,7 +23,7 @@ Hapa kuna orodha ya madarasa ya bandia ya muundo wa mti:
 - `:last-of-type`
 - `:only-of-type`
 
-Tuchunguze kwa karibu kila darasa la bandia la muundo wa mti, tukifuatana na mifano.
+Detaljno analizirajmo svaku veštačku klasu strukture drveta, praćenu primerima.
 
 Darasa la bandia la `:root` kawaida ni kipengele cha mzizi `html`. Linakusaidia kulenga ngazi ya juu kabisa katika hati ili uweze kutumia mtindo wa kawaida kwa hati nzima.
 
@@ -79,7 +79,7 @@ Vipengele vilivyo tupu, yaani vipengele visivyo na watoto isipokuwa nafasi tupu,
 
 :::
 
-Jambo la vitendo zaidi kufanya na vitu vya orodha tupu ni labda kutoonyesha kabisa:
+Najveći broj aktivnosti za obavljanje sa praznim stavkama liste je možda da uopšte ne prikazuje:
 
 :::interactive_editor
 
@@ -148,13 +148,13 @@ tr:nth-child(odd) {
 
 :::
 
-Madarasa ya bandia ya `:first-child`, `:last-child`, na `:only-child` yote hufanya kazi kwa vitu ndani ya kontena la mzazi au hati nzima.
+Lažne klase za `:first-child`, `:last-child`, i `:only-child` funkcionišu sa elementima unutar roditeljskog kontejnera ili celokupnog dokumenta.
 
-- `:first-child` huchagua kipengele cha kwanza katika kipengele cha mzazi au hati.
-- `:last-child` huchagua kipengele cha mwisho katika kipengele cha mzazi au hati.
-- `:only-child` huchagua kipengele pekee katika kipengele cha mzazi au hati.
+- `:first-child` selektuje prvi element u roditeljskom elementu ili dokumentu.
+- `:last-child` selektuje poslednji element u roditeljskom elementu ili dokumentu.
+- `:only-child` selektuje jedini element u roditeljskom elementu ili dokumentu.
 
-Kutumia madarasa ya bandia ya `:first-child` na `:last-child` kutachagua `Item 1` na `Item 3` katika mfano huu:
+Korišćenjem pseudo klasa od `:first-child` i `:last-child`, će izabrati `Item 1` na `Item 3` u ovom primeru:
 
 :::interactive_editor
 
@@ -179,9 +179,9 @@ li:last-child {
 
 :::
 
-Ikiwa una orodha isiyopangwa zaidi kwenye ukurasa, lazima uwe maalum zaidi katika uteuzi:
+Ako imate više od jedne liste na stranici, morate biti specifičniji u izboru:
 
-Ili kukuonyesha jinsi darasa la bandia la `:only-child` linavyofanya kazi, hapa kuna mfano wa HTML wenye vipengele viwili tofauti vya `div`. Kutumia darasa la bandia la `:only-child` kunahakikisha kipengele cha `div` chenye mtoto mmoja pekee kinachaguliwa:
+Da bih vam pokazao kako pseudo-klasa `:only-child` funkcioniše, evo primera HTML sa dve različite komponente od `div`. Korišćenje pseudo-klase `:only-child` osigurava da se element `div` sa samo jednim detetom izabere:
 
 :::interactive_editor
 
@@ -207,9 +207,9 @@ Ili kukuonyesha jinsi darasa la bandia la `:only-child` linavyofanya kazi, hapa 
 
 :::
 
-Madarasa ya bandia ya `:first-of-type` na `:last-of-type` huchagua tukio la kwanza na la mwisho la aina maalum ya kipengele ndani ya mzazi wake. Ni muhimu kwa kutumia mitindo ya kipekee kwa tukio la kwanza au la mwisho la aina hiyo ya kipengele kati ya ndugu zake.
+Pseudo-klase za `:first-of-type` i `:last-of-type` biraju prvo i poslednje pojavljivanje specifičnog tipa elementa unutar svog roditelja. Važno je za korišćenje jedinstvenih stilova za prvo ili poslednje pojavljivanje tog tipa elementa među njegovim braćama/sestrama.
 
-Katika mfano huu hapa chini, `:first-of-type` na `:last-of-type` hutumika kwa kipengele cha kwanza na kipengele cha mwisho ndani ya kipengele cha `section`:
+U ovom primeru ispod, `:first-of-type` i `:last-of-type` se koriste za prvi element i poslednji element unutar elementa `section`:
 
 :::interactive_editor
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` inakuwezesha kuchagua kipengele maalum ndani ya mzazi wake kulingana na nafasi yake kati ya ndugu wa aina hiyo. Kwa mfano, katika HTML ifuatayo, `:nth-of-type(2)` inalenga kipengele cha pili katika kontena:
+`:nth-of-type(n)` omogućava vam da izaberete specifičan element unutar svog roditelja, u zavisnosti od njegove pozicije među sestrima/braćama istog tipa. Na primer, u sledećem HTML, `:nth-of-type(2)` cilja na drugi element u kontejneru:
 
 :::interactive_editor
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` huchagua kipengele ikiwa ndicho pekee cha aina yake ndani ya mzazi wake. Hii inaweza kuwa muhimu kwa kusisitiza vitu vya pekee au kuhakikisha vinapambwa tofauti wakati si sehemu ya kundi.
+`:only-of-type` Izabira element ako je jedinstven po svojoj vrsti unutar svog roditelja. Ovo može biti korisno za naglašavanje jedinstvenih predmeta ili osiguravanje da su drugačije dekorisani kada nisu deo grupe.
 
-Katika mfano huu hapa chini, kuna vipengele viwili vya `div` ambavyo kimoja kina kipengele kimoja pekee. CSS inatumika tu kwa kontena la kwanza:
+U ovom primeru ispod, postoje dva elementa za `div`, od kojih jedan ima samo jedan element. CSS se koristi samo za prvi kontejner:
 
 :::interactive_editor
 
@@ -294,17 +294,17 @@ p:only-of-type {
 
 ## --text--
 
-Nini tofauti kati ya madarasa ya bandia ya `:first-of-type` na `:last-of-type`?
+Šta je razlika između lažnih klasa `:first-of-type` i `:last-of-type`?
 
 ## --answers--
 
-`:first-of-type` inalenga kipengele cha kwanza cha aina maalum ndani ya mzazi wake, wakati `:last-of-type` inalenga kipengele cha mwisho cha aina tofauti.
+`:first-of-type` cilja na prvi element specifičnog tipa unutar svog roditelja, dok `:last-of-type` cilja poslednji element različitog tipa.
 
 ### --feedback--
 
-Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
+Zamislite kako vam ove veštačke klase pomažu da stilizujete prvi i poslednji pojavljivanje određene oznake, kao što su `p` ili `h1`.
 
----
+[No Swahili text provided.]
 
 `:first-of-type` na `:last-of-type` zote huchagua tukio la kwanza la kipengele lakini katika sehemu tofauti za hati.
 
@@ -312,17 +312,17 @@ Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na
 
 Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
 
----
+[No Swahili text provided.]
 
-`:first-of-type` huchagua tukio la kwanza la aina maalum ya kipengele ndani ya mzazi wake, wakati `:last-of-type` huchagua tukio la mwisho la aina hiyo hiyo ya kipengele ndani ya mzazi wake.
+`:first-of-type` selektuje prvi događaj specifičnog tipa elementa unutar svog roditelja, dok `:last-of-type` selektuje poslednji događaj istog tipa elementa unutar svog roditelja.
 
----
+[No Swahili text provided.]
 
-`:last-of-type` hutumia mitindo kwa vipengele vya kwanza na vya mwisho ndani ya hati, wakati `:last-of-type` hutumia mitindo kwa vipengele vyote vya aina maalum.
+`:last-of-type` koristi stilove za prvi i poslednji elementi unutar dokumenta, dok `:last-of-type` koristi stilove za sve elemente određene vrste.
 
 ### --feedback--
 
-Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
+Zamislite kako ove veštačke klase vam pomažu da stilizujete prvo i poslednje pojavljivanje neke oznake, kao `p` ili `h1`.
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na
 
 ## --text--
 
-Nini tofauti kati ya madarasa ya bandia ya `:first-child` na `:last-child`?
+Šta je razlika između lažnih klasa od `:first-child` i `:last-child`?
 
 ## --answers--
 
-`:first-child` inalenga kipengele cha kwanza ndani ya mzazi wake, wakati `:last-child` inalenga kipengele cha mwisho ndani ya mzazi tofauti.
+`:first-child` cilja na prvi element unutar svog roditelja, dok `:last-child` cilja na poslednji element unutar drugog roditelja.
 
 ### --feedback--
 
-Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele vya kwanza na vya mwisho ndani ya kontena moja la mzazi.
+Zamislite kako vam ove dve veštačke klase pomažu da stilizujete/strukturirate prvi i poslednji elementi unutar jednog roditeljskog kontejnera.
 
----
+[No Swahili text provided.]
 
-`:first-child` inalenga kipengele cha kwanza ndani ya mzazi wake, wakati `:last-child` inalenga kipengele cha mwisho ndani ya mzazi huo huo.
+`:first-child` cilja na prvi element unutar svog roditeljskog elementa, dok `:last-child` cilja na poslednji element unutar istog roditelja.
 
----
+[No Swahili text provided.]
 
-`:first-child` inalenga kipengele cha kwanza cha aina maalum ndani ya mzazi wake, wakati `:last-child` inalenga kipengele cha mwisho cha aina tofauti ndani ya mzazi wake.
-
-### --feedback--
-
-Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele vya kwanza na vya mwisho ndani ya kontena moja la mzazi.
-
----
-
-`:first-child` inalenga vipengele vya kwanza na vya mwisho ndani ya mzazi, wakati `:last-child` inalenga vipengele vingine vyote.
+`:first-child` cilja na prvi element specifičnog tipa unutar svog roditelja, dok `:last-child` cilja na poslednji element različitog tipa unutar svog roditelja.
 
 ### --feedback--
 
-Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele vya kwanza na vya mwisho ndani ya kontena moja la mzazi.
+Zamislite kako vam ove dve veštačke klase pomažu da stilizujete prvi i poslednji element unutar jednog roditeljskog kontejnera.
+
+[No Swahili text provided.]
+
+`:first-child` selektuje prvi i poslednji element unutar roditelja, dok `:last-child` selektuje sve ostale elemente.
+
+### --feedback--
+
+Zamislite kako ova dva umjetna klase vam pomažu da obradite prvi i zadnji element unutar jednog roditeljskog kontejnera.
 
 ## --video-solution--
 
@@ -366,35 +366,35 @@ Fikiria jinsi madarasa haya mawili ya bandia yanavyokusaidia kupamba vipengele v
 
 ## --text--
 
-Ni darasa gani la bandia linakuwezesha kulenga vipengele ambavyo havina watoto, ikiwa ni pamoja na vile vinavyobeba nafasi tupu tu?
+Koji je lažni selektor koji vam omogućava da ciljate elemente koji nemaju potomke, uključujući i one koji sadrže samo prazan prostor?
 
 ## --answers--
 
 `:empty`
 
----
+[No Swahili text provided.]
 
 `:first-child`
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kupamba vipengele ambavyo havina maudhui.
+Razmislite kako možete dekorisati elemente koji nemaju sadržaj.
 
----
+[No Swahili text provided.]
 
 `:last-child`
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kupamba vipengele ambavyo havina maudhui.
+Zamisli kako možeš da stilizuješ elemente koji nemaju sadržaj.
 
----
+[No Swahili text provided.]
 
 `:only-of-type`
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kupamba vipengele ambavyo havina maudhui.
+Zamisli kako možeš da ukrasiš elemente koji nemaju sadržaj.
 
 ## --video-solution--
 

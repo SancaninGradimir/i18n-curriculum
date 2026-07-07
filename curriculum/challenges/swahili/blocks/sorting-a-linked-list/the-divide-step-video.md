@@ -1,6 +1,6 @@
 ---
 id: 698de6a07932b3cc4b19c93b
-title: Hatua ya kugawanya
+title: Korak deljenja
 challengeType: 11
 videoId: HW3cLmVfSw0
 dashedName: the-divide-step
@@ -8,29 +8,29 @@ dashedName: the-divide-step
 
 # --description--
 
-Katika video hii, utaendelea kujifunza jinsi ya kutekeleza hatua ya kugawanya katika algoriti ya merge sort kwenye orodha zilizounganishwa.
+U ovom videu ćete nastaviti da učite kako da izvršite korak podela u algoritmu za merge sort na sortiranim listama.
 
 # --questions--
 
 ## --text--
 
-Nini maana ya kitendakazi `split`?
+Šta znači funkcija `split`?
 
 ## --answers--
 
-Kuchagua kipengele cha msingi cha kugawanya orodha.
+Izaberite osnovni element za podelu liste.
 
----
+[No Swahili text provided.]
 
-Kuuunganisha orodha ndogo mbili zilizopangwa kuwa orodha moja.
+Kombinujte dve manje liste u jednu listu.
 
----
+[No Swahili text provided.]
 
-Kugawanya orodha katika nusu mbili bila kuzingatia mpangilio.
+Podeliti spisak na dve polovine bez obzira na redosled.
 
----
+[No Swahili text provided.]
 
-Kugawanya orodha isiyopangwa katikati kuwa orodha ndogo ndogo.
+Delovanje nasumične liste u manje podliste.
 
 ## --video-solution--
 

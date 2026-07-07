@@ -1,6 +1,6 @@
 ---
 id: 698dbbd47932b3cc4b19c91b
-title: Algoriti ni nini?
+title: Šta su algoritmi?
 challengeType: 11
 videoId: FUeqQSciTNI
 dashedName: what-is-an-algorithm
@@ -8,29 +8,29 @@ dashedName: what-is-an-algorithm
 
 # --description--
 
-Katika video hii, utafundishwa algoriti ni nini.
+U ovom videu, naučićete šta je algoritam.
 
 # --questions--
 
 ## --text--
 
-Algoriti ni nini?
+Šta su algoritmi?
 
 ## --answers--
 
-Mfumo wa kazi maalum wa JavaScript.
+Sistem specijalnih funkcija za JavaScript.
 
----
+[No Swahili text provided.]
 
-Kipima makosa kinachotumika sana.
+Merenje grešaka koje se najčešće koristi.
 
----
+[No Swahili text provided.]
 
-Seti ya hatua za kukamilisha zoezi.
+Skup koraka za završavanje vežbe.
 
----
+[No Swahili text provided.]
 
-Aina maalum ya compiler.
+Posebna vrsta kompajlera.
 
 ## --video-solution--
 

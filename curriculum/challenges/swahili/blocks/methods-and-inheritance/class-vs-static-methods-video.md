@@ -1,6 +1,6 @@
 ---
 id: 69ae9cdfa9e6da4eb0d5f7f7
-title: Njia za darasa la vitu dhidi ya njia za static
+title: Metode klase objekata naspram statičkih metoda
 challengeType: 11
 videoId: Vo84LQ14yI4
 dashedName: class-vs-static-methods
@@ -8,29 +8,29 @@ dashedName: class-vs-static-methods
 
 # --description--
 
-Katika video hii, utafundishwa tofauti kati ya njia za darasa la vitu na njia za static.
+U ovom videu, će vam biti objašnjena razlika između metoda klase objekata i metoda za static.
 
 # --questions--
 
 ## --text--
 
-Njia ya darasa la vitu ni nini?
+Šta je put (ili metoda) za klasifikaciju stvari?
 
 ## --answers--
 
-Njia inayofanya kazi tu na vigezo vya kimataifa na haina uhusiano na darasa la vitu au mifano yake.
+Metoda koja radi samo sa međunarodnim parametrima i nema veze sa klasom objekata ili njihovim instancama.
 
----
+[No Swahili text provided.]
 
-Njia inayoweza kuitwa tu kwenye mfano wa darasa la vitu na haiwezi kupata sifa za darasa la vitu.
+Metoda koja se može pozvati samo u primeru klase i ne može dobiti atribute te klase.
 
----
+[No Swahili text provided.]
 
-Njia inayotekelezwa moja kwa moja wakati kitu kinapofutwa.
+Metoda koja se automatski izvršava kada se nešto obriše.
 
----
+[No Swahili text provided.]
 
-Njia inayounganishwa na darasa la vitu lenyewe, badala ya mfano wa darasa la vitu.
+Putanja povezana sa samom klasom objekata, umesto primera klase objekata.
 
 ## --video-solution--
 

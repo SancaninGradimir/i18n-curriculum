@@ -1,6 +1,6 @@
 ---
 id: 698dea1c7932b3cc4b19c948
-title: Muda wa Kukimbia wa Big-O wa Algoriti za Kupanga
+title: Big O vremenska složenost za algoritme sortiranja
 challengeType: 11
 videoId: DQ1lQ0IxNgE
 dashedName: big-o-run-times-of-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: big-o-run-times-of-sorting-algorithms
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda tofauti wa Big O wa algoriti za kupanga ulizojifunza hadi sasa.
+U ovom videu, naučićete o različitim vremenskim složenostima Big O sortiranih algoritama koje ste do sada naučili.
 
 # --questions--
 
 ## --text--
 
-Ni hali gani mbaya zaidi kwa quicksort?
+Koja je najgora situacija/najgori slučaj za quicksort?
 
 ## --answers--
 
-muda wa mstatili
+vreme linije
 
----
+[No Swahili text provided.]
 
-muda wa mstari
+Vreme linije
 
----
+[No Swahili text provided.]
 
-muda wa thabiti
+stabilan period
 
----
+[No Swahili text provided.]
 
-muda wa mwinuko
+trajanje uzdizanja
 
 ## --video-solution--
 

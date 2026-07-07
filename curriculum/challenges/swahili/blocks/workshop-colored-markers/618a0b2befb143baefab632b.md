@@ -1,27 +1,27 @@
 ---
 id: 618a0b2befb143baefab632b
-title: Step 32
+title: Korak 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-Tambua kwamba rangi nyekundu na cyan ni angavu sana zikikumbatiana. Tofauti hii inaweza kuvuruga ikiwa itatumika kupita kiasi kwenye tovuti, na inaweza kufanya maandishi kuwa magumu kusoma ikiwa yamewekwa kwenye asili yenye rangi ya nyongeza.
+Primećujte da su crvena i ciano boje veoma jarke kada su zajedno. Ovaj kontrast može poremetiti ako se previše koristi na veb stranici, a takođe može učiniti tekst teškim za čitanje ako je postavljen na pozadinu sa akcentnom bojom.
 
-Ni desturi bora kuchagua rangi moja kama rangi kuu, na kutumia rangi yake ya nyongeza kama msisitizo kuleta umakini kwa maudhui fulani kwenye ukurasa.
+Najbolja praksa je izabrati jednu boju kao glavnu, i koristiti njenu akcentnu boju za naglašavanje kako bi se privukla pažnja na određeni sadržaj na stranici.
 
-Kwanza, katika kanuni ya `h1`, tumia kitendakazi cha `rgb` kuweka `background-color` yake kuwa cyan.
+Prvo, u pravilu `h1`, koristi funkciju `rgb` da podesi `background-color` na ciano.
 
 # --hints--
 
-Haupaswi kuondoa au kubadilisha sifa ya `text-align` au thamani yake.
+Ne smete da uklonite ili promenite atribut za `text-align` ili njegovu vrednost.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign, 'center');
 ```
 
-Kanuni yako ya `h1` ya CSS inapaswa kuwa na sifa ya `background-color` iliyowekwa kuwa `rgb(0, 255, 255)`.
+Vaše pravilo za `h1` od CSS trebalo bi imati svojstvo `background-color` postavljeno na `rgb(0, 255, 255)`.
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor, 'rgb(0, 255, 255)');

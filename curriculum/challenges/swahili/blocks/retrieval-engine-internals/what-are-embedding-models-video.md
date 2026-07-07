@@ -1,6 +1,6 @@
 ---
 id: 69ae6a04b4a814be6a4f2bdd
-title: "Je, modeli za kuingiza ni zipi?"
+title: Koje su ulazne modele?
 challengeType: 11
 videoId: _B6lL3WM_hQ
 dashedName: what-are-embedding-models
@@ -8,29 +8,29 @@ dashedName: what-are-embedding-models
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu modeli za kuingiza.
+U ovom videu će vam biti objašnjeno o modelima ulaza.
 
 # --questions--
 
 ## --text--
 
-Modeli ya kuingiza ni nini?
+Šta je model za unos?
 
 ## --answers--
 
-Modeli inayobana mafaili ya maandishi ili kuyafanya kuwa madogo kwa ajili ya kupakua kwa haraka zaidi.
+Model koji komprimuje tekstualne fajlove radi njihovo smanjenje kako bi se omogućilo brže preuzimanje.
 
----
+[No Swahili text provided.]
 
-Mfumo unaotafsiri maandishi moja kwa moja kutoka lugha moja kwenda nyingine.
+Sistem koji direktno prevodi tekst iz jednog jezika u drugi.
 
----
+[No Swahili text provided.]
 
-Modeli inayochukua maandishi na kugeuza kuwa vector ya nambari zinazowakilisha maana.
+Model koji uzima tekst i konvertuje ga u vektor brojeva koji predstavljaju značenje.
 
----
+[No Swahili text provided.]
 
-Modeli inayozalisha picha kulingana na maelezo yaliyoandikwa.
+Model koji generiše slike na osnovu pisanih opisa.
 
 ## --video-solution--
 

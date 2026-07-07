@@ -1,6 +1,6 @@
 ---
 id: 5ea9997bbec2e9bc47e94daf
-title: Kuelewa soketi na kuunda seva ya TCP
+title: Razumeti sokete i kreirati TCP server
 challengeType: 11
 videoId: F1QI9tNuDQg
 bilibiliIds:
@@ -14,17 +14,17 @@ dashedName: understanding-sockets-and-creating-a-tcp-server
 
 ## --text--
 
-Ni kitendakazi gani kati ya vifuatavyo kinaunda kitu cha soketi?
+Koja komponenta iz sledećih čini objekat soketa?
 
 ## --answers--
 
 `socket.bind((host, port))`
 
----
+[No Swahili text provided.]
 
 `socket.gethostbyname()`
 
----
+[No Swahili text provided.]
 
 `socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
 

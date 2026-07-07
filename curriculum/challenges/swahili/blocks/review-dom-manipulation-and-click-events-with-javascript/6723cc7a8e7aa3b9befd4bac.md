@@ -1,13 +1,13 @@
 ---
 id: 6723cc7a8e7aa3b9befd4bac
-title: Ukaguzi wa uendeshaji wa DOM na matukio ya bofya kwa kutumia JavaScript
+title: Inspekcija funkcionisanja DOM-a i događaja klikova korišćenjem JavaScript-a
 challengeType: 31
 dashedName: review-dom-manipulation-and-click-events-with-javascript
 ---
 
 # --interactive--
 
-## Kufanya kazi na DOM na API za mtandao
+## Raditi sa DOM i API za mrežu
 
 - **API**: API (Application Programming Interface) ni seti ya sheria na itifaki zinazoruhusu programu za kompyuta kuwasiliana na kubadilishana data kwa ufanisi.
 - **Web API**: API za mtandao zimeundwa mahsusi kwa programu za mtandao. Aina hizi za API mara nyingi hugawanywa katika makundi mawili makuu: API za kivinjari na API za wahusika wengine.
@@ -17,9 +17,9 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 - **Kiolesura cha `navigator`**: Hiki hutoa taarifa kuhusu mazingira ya kivinjari, kama mfuatano wa user agent, jukwaa, na toleo la kivinjari. Mfuatano wa user agent ni mfuatano wa maandishi unaotambulisha kivinjari na mfumo wa uendeshaji unaotumika.
 - **Kiolesura cha `window`**: Huu unawakilisha dirisha la kivinjari linalojumuisha hati ya DOM. Hutoa njia na sifa za kuingiliana na dirisha la kivinjari, kama kubadilisha ukubwa wa dirisha, kufungua madirisha mapya, na kuvinjari URL tofauti.
 
-## Kufanya kazi na Njia za `querySelector()`, `querySelectorAll()` na `getElementById()`
+## Raditi sa putanjama `querySelector()`, `querySelectorAll()` na `getElementById()`
 
-- **Njia ya `getElementById()`**: Njia hii hutumika kupata kitu kinacho wakilisha kipengele cha HTML chenye `id` iliyotajwa. Kumbuka kuwa ids lazima ziwe za kipekee katika kila hati ya HTML, hivyo njia hii itarudisha kitu kimoja cha Element tu.
+- **Putanja za `getElementById()`**: Ova putanja se koristi za dobijanje objekta koji predstavlja element od HTML sa `id` navedenim. Imajte na umu da ID-ovi moraju biti jedinstveni u svakom dokumentu za HTML, stoga će ova putanja vratiti samo jedan Element objekat.
 
 :::interactive_editor
 
@@ -35,7 +35,7 @@ console.log(container)
 
 :::
 
-- **Njia ya `querySelector()`**: Njia hii hutumika kupata kipengele cha kwanza katika hati ya HTML kinacholingana na kichaguzi cha CSS kilichotumwa kama hoja.
+- **Putanja za `querySelector()`**: Ova putanja se koristi za dobijanje prvog elementa u dokumentu HTML koji odgovara selektoru CSS poslatom kao argument.
 
 :::interactive_editor
 
@@ -51,7 +51,7 @@ console.log(section)
 
 :::
 
-- **Njia ya `querySelectorAll()`**: Unaweza kutumia njia hii kupata orodha ya vipengele vyote vya DOM vinavyolingana na kichaguzi maalum cha CSS.
+- **Metoda za `querySelectorAll()`**: Možete koristiti ovu metodu da dobijete listu svih elemenata DOM koji odgovaraju specifičnom filtru CSS.
 
 :::interactive_editor
 
@@ -71,9 +71,9 @@ console.log(ingredients)
 
 :::
 
-## Kufanya kazi na Njia za `innerText()`, `innerHTML()`, `createElement()` na `textContent()`
+## Rad sa metodama `innerText()`, `innerHTML()`, `createElement()` i `textContent()`
 
-- **Sifa ya `innerHTML`**: Hii ni sifa ya `Element` inayotumika kuweka au kusahihisha sehemu za alama za uandishi za HTML.
+- **Svojstvo `innerHTML`**: Ovo je svojstvo `Element` koje se koristi za postavljanje ili ispravljanje delova pisanih znakova za HTML.
 
 :::interactive_editor
 
@@ -91,13 +91,13 @@ container.innerHTML = '<ul><li>Cheese</li><li>Tomato</li></ul>';
 
 :::
 
-- **Njia ya `createElement`**: Hii hutumika kuunda kipengele cha HTML.
+- **Putanj za `createElement`**: Ovo se koristi za kreiranje elementa HTML.
 
 ```js
 const img = document.createElement("img");
 ```
 
-- **`innerText`**: Huu unawakilisha maudhui ya maandishi yanayoonekana ya kipengele cha HTML na mzao wake.
+- **`innerText`**: Ovo predstavlja vidljivi tekstualni sadržaj elementa HTML i njegovog potomstva.
 
 :::interactive_editor
 
@@ -116,7 +116,7 @@ console.log(container.innerText);
 
 :::
 
-- **`textContent`**: Huu hurudisha maudhui ya maandishi ya kawaida ya kipengele, ikiwa ni pamoja na maandishi yote ndani ya mzao wake.
+- **`textContent`**: Ovo vraća standardni tekstualni sadržaj elementa, uključujući sav tekst unutar njegovog izvora.
 
 :::interactive_editor
 
@@ -135,9 +135,9 @@ console.log(container.textContent);
 
 :::
 
-## Kufanya kazi na Njia za `appendChild()` na `removeChild()`
+## Rad sa metodama `appendChild()` i `removeChild()`
 
-- **Njia ya `appendChild()`**: Njia hii hutumika kuongeza nodi mwishoni mwa orodha ya watoto wa nodi ya mzazi iliyotajwa.
+- **Putanja za `appendChild()`**: Ova putanja se koristi za dodavanje čvora na kraj liste potomaka navedenog roditeljskog čvora.
 
 :::interactive_editor
 
@@ -159,7 +159,7 @@ dessertsList.appendChild(listItem);
 
 :::
 
-- **Njia ya `removeChild()`**: Njia hii hutumika kufuta nodi kutoka kwenye DOM.
+- **Putanja za `removeChild()`**: Ova putanja se koristi za brisanje čvora iz DOM.
 
 :::interactive_editor
 
@@ -181,9 +181,9 @@ sectionEl.removeChild(lastParagraph);
 
 :::
 
-## Kufanya kazi na Njia ya `setAttribute()`
+## Rad sa putanjom `setAttribute()`
 
-- **Ufafanuzi**: Njia hii hutumika kuweka sifa ya kipengele fulani. Ikiwa sifa tayari ipo, basi thamani yake husahihishwa. Vinginevyo, sifa mpya inaongezwa na thamani yake.
+- **Opis**: Ova metoda se koristi za postavljanje svojstva nekog elementa. Ako svojstvo već postoji, onda mu se ažurira vrednost. Inače, dodaje se novo svojstvo sa njegovom vrednošću.
 
 :::interactive_editor
 
@@ -199,13 +199,13 @@ para.setAttribute("class", "my-class");
 
 :::
 
-## Kitu cha Tukio
+## Detalji Događaja
 
-- **Ufafanuzi**: Kitu cha `Event` ni mzigo unaochochea tukio linapotokea wakati mtumizi anavyoshirikiana na ukurasa wako wa mtandao kwa njia fulani. Mwingiliano huu unaweza kuwa chochote kuanzia kubofya kitufe au kuweka makini kwenye ingizo hadi kutetemesha kifaa cha mkononi. Vitu vyote vya `Event` vitakuwa na sifa ya `type`. Sifa hii inaonyesha aina ya tukio lililochochea mzigo, kama vile keydown au click. Thamani hizi zitahusiana na zile unazoweza kutuma kwa `addEventListener()`, ambapo unaweza kunasa na kutumia kitu cha `Event`.
+- **Definicija**: Stvar `Event` je događajni okidač koji se dešava kada korisnik na neki način interaguje sa vašom veb stranicom. Ova interakcija može biti sve, od klika na dugme ili fokusiranja na polje za unos, do treštanja mobilnog uređaja. Svi elementi `Event` će imati svojstvo `type`. Ovo svojstvo pokazuje tip događaja koji je pokrenuo učitavanje, kao što su `keydown` ili `click`. Ove vrednosti će biti povezane sa onima koje možete poslati na `addEventListener()`, gde možete uhvatiti i koristiti stvar od `Event`.
 
-## Njia za `addEventListener()` na `removeEventListener()`
+## Putevi za `addEventListener()` na `removeEventListener()`
 
-- **Njia ya `addEventListener`**: Njia hii hutumika kusikiliza matukio. Inachukua hoja mbili: tukio unalotaka kusikiliza na kitendakazi ambacho kitaitwa tukio litakapotokea. Mifano ya kawaida ya matukio ni matukio ya bofya, matukio ya ingizo, na matukio ya mabadiliko.
+- **Njia ya `addEventListener`**: Ova metoda se koristi za slušanje događaja. Prihvata dva argumenta: događaj koji želite pratiti i funkciju koja će biti pozvana kada se dogodi taj događaj. Uobičajeni primeri događaja su klikovi, događaji unosa i događaji promene.
 
 :::interactive_editor
 
@@ -222,7 +222,7 @@ btn.addEventListener("click", () => alert("You clicked the button"));
 
 :::
 
-- **Njia ya `removeEventListener()`**: Njia hii hutumika kuondoa mshughulikiaji wa tukio aliyeongezwa awali kwa kipengele kwa kutumia njia ya `addEventListener()`. Hii ni muhimu unapotaka kuacha kusikiliza tukio fulani kwenye kipengele.
+- **Metoda za `removeEventListener()`**: Ova metoda se koristi za uklanjanje hendlera događaja koji je prethodno dodat komponenti koristeći metodu `addEventListener()`. Ovo je važno kada želite prestati da slušate određeni događaj na komponenti.
 
 :::interactive_editor
 
@@ -255,7 +255,7 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-- **Mshughulikiaji wa Matukio ndani ya mstari**: Mshughulikiaji wa matukio ndani ya mstari ni sifa maalum kwenye kipengele cha HTML zinazotumika kutekeleza msimbo wa JavaScript wakati tukio linapotokea. Katika JavaScript ya kisasa, mshughulikiaji wa matukio ndani ya mstari hauzingatiwi kama mbinu bora. Inapendekezwa kutumia njia ya `addEventListener` badala yake.
+- **Inline Event Handler**: Inline event handler je posebna svojstvo na elementu HTML koje se koristi za izvršavanje koda JavaScript kada dođe do događaja. U modernom JavaScript, inline event handler nije smatran najboljom praksom. Preporučuje se korišćenje metode `addEventListener` umesto toga.
 
 :::interactive_editor
 
@@ -265,9 +265,9 @@ para.addEventListener("mouseover", () => {
 
 :::
 
-## Tukio la Mabadiliko
+## Događaj promene
 
-- **Ufafanuzi**: Tukio la mabadiliko ni tukio maalum linalochochewa wakati mtumizi anapobadilisha thamani ya vipengele fulani vya ingizo. Mifano ni kama wakati kisanduku cha kuchagua au kitufe cha radio kinapochaguliwa. Au wakati mtumizi anachagua kitu kutoka kwa chaguo kama chaguo la tarehe au menyu ya kushuka.
+- **Definicija**: Događaj promene je specifičan događaj koji se pokreće kada korisnik promeni vrednost određenih ulaznih elemenata. Primeri su kao kada se izabere čekirica ili radio dugme. Ili kada korisnik bira nešto iz opcija, poput izbornika datuma ili padajućeg menija.
 
 :::interactive_editor
 
@@ -297,22 +297,22 @@ selectEl.addEventListener("change", (e) => {
 
 :::
 
-## Kuinuka kwa Tukio
+## Pojavljivanje Događaja
 
-- **Ufafanuzi**: Kuinuka kwa tukio, au usambazaji, kunahusu jinsi tukio linavyoinuka hadi kwa vitu vya mzazi linapochochewa.
-- **Njia ya `stopPropagation()`**: Njia hii huzuia usambazaji zaidi wa tukio.
+- **Definicija**: Bubbleovanje događaja, ili propagacija, odnosi se na način na koji se događaj propušta do roditeljskih elemenata kada je pokrenut.
+- **Metoda za `stopPropagation()`**: Ova metoda sprečava dalju propagaciju događaja.
 
-## Ugawaji wa Tukio
+## Distribucija događaja
 
-- **Ufafanuzi**: Ugawaji wa tukio ni mchakato wa kusikiliza matukio ambayo yameinuka hadi kwa mzazi, badala ya kuyashughulikia moja kwa moja kwenye kipengele kilichochochea tukio.
+- **Definicija**: Propagacija događaja je proces slušanja događaja koji su se proširili do roditeljskog elementa, umesto da ih obrađuje direktno na elementu koji je pokrenuo događaj.
 
 ## DOMContentLoaded
 
-- **Ufafanuzi**: Tukio la `DOMContentLoaded` linachochewa wakati kila kitu katika hati ya HTML limepakuliwa na kuchambuliwa. Ikiwa una majalada ya mitindo ya nje, au picha, tukio la `DOMContentLoaded` halitasubiri yale yapelekewe. Litangojea tu HTML ipakwe.
+- **Opis**: Događaj `DOMContentLoaded` se aktivira kada je sav sadržaj u dokumentu HTML preuzet i analiziran. Ako imate eksterne stilove ili slike, događaj `DOMContentLoaded` neće čekati da se dostave. Čekaće samo da se HTML primeni.
 
-## Kufanya kazi na `style` na `classList`
+## Raditi sa `style` i `classList`
 
-- **Sifa ya `Element.style`**: Sifa hii ni ya kusoma tu inayowakilisha mtindo wa ndani ya mstari wa kipengele. Unaweza kutumia sifa hii kupata au kuweka mtindo wa kipengele.
+- **Svojstvo `Element.style`**: Ovo svojstvo je samo za čitanje i predstavlja inline stil elementa. Možete koristiti ovo svojstvo da dobijete ili postavite stil elementa.
 
 :::interactive_editor
 
@@ -328,7 +328,7 @@ paraEl.style.color = "red";
 
 :::
 
-- **Sifa ya `Element.classList`**: Sifa hii ni ya kusoma tu inayoweza kutumika kuongeza, kuondoa, au kubadili madarasa kwenye kipengele.
+- **Svojstvo `Element.classList`**: Ovo svojstvo je samo za čitanje i može se koristiti za dodavanje, uklanjanje ili menjanje klasa na elementu.
 
 :::interactive_editor
 
@@ -377,9 +377,9 @@ toggleBtn.addEventListener("click", () => menu.classList.toggle("show"));
 
 :::
 
-## Kufanya kazi na Njia za `setTimeout()` na `setInterval()`
+## Rad sa metodama za `setTimeout()` i `setInterval()`
 
-- **Njia ya `setTimeout()`**: Njia hii inakuwezesha kuchelewesha kitendo kwa muda uliotajwa.
+- **Njia ya `setTimeout()`**: Ovaj put vam omogućava da odložite akciju na navedeno vreme.
 
 :::interactive_editor
 
@@ -391,7 +391,7 @@ setTimeout(() => {
 
 :::
 
-- **Njia ya `setInterval()`**: Njia hii inaendesha kipande cha msimbo mara kwa mara kwa muda uliowekwa. Kwa kuwa `setInterval()` inaendelea kutekeleza kitendakazi kilichotolewa kwa muda uliotajwa, unaweza kutaka kuizuia. Kwa hili, unapaswa kutumia njia ya `clearInterval()`.
+- **Putanja `setInterval()`**: Ova putanja izvršava deo koda periodično za određeno vreme. Pošto `setInterval()` nastavlja da izvršava funkciju koja je objavljena za pomenuto vreme, možda želite da ga blokirate. Za ovo, trebalo bi da koristite putanju `clearInterval()`.
 
 :::interactive_editor
 
@@ -412,9 +412,9 @@ setTimeout(() => {
 
 :::
 
-## Njia ya `requestAnimationFrame()`
+## Put za `requestAnimationFrame()`
 
-- **Ufafanuzi**: Njia hii inakuwezesha kupanga hatua inayofuata ya uhuishaji wako kabla ya skrini kupakwa upya, na hivyo kutoa uzoefu laini na wa kuvutia kwa macho. Kupakwa upya kwa skrini kunahusu wakati kivinjari kinapoonyesha tena maonyesho ya ukurasa wa mtandao. Hii hutokea mara nyingi kwa sekunde, kawaida takriban mara 60 (au fremu 60 kwa sekunde) kwenye maonyesho mengi.
+- **Definicija**: Ova metoda vam omogućava da predvidite sledeći korak vaše animacije pre nego što se ekran osveži, čime pruža glatko i vizuelno privlačan doživljaj. Osveženje ekrana odnosi se na trenutak kada pregledač ponovo prikazuje sadržaj web stranice. To se dešava više puta u sekundi, obično oko 60 puta (ili 60 frejmova u sekundi) na većini ekrana.
 
 ```js
 function animate() {
@@ -426,9 +426,9 @@ function animate() {
 }
 ```
 
-## API ya Uhuishaji wa Mtandao
+## API Animacija mreže
 
-- **Ufafanuzi**: API ya Uhuishaji wa Mtandao inakuwezesha kuunda na kudhibiti uhuishaji moja kwa moja ndani ya JavaScript.
+- **Definicija**: API za Animaciju mreže omogućava vam kreiranje i kontrolisanje animacija direktno unutar JavaScript.
 
 :::interactive_editor
 
@@ -463,9 +463,9 @@ const animation = square.animate(
 
 :::
 
-## API ya Turubai ya Kuchora
+## API za platno za crtanje
 
-- **Ufafanuzi**: API ya Turubai ya Kuchora ni chombo chenye nguvu kinachokuwezesha kuendesha michoro ndani ya faili lako la JavaScript. Ili kufanya kazi na API ya Turubai ya Kuchora, kwanza unahitaji kutoa kipengele cha `canvas` katika HTML. Kipengele hiki hufanya kazi kama uso wa kuchora unaoweza kuendeshwa kwa njia na sifa za kiolesura katika API ya Turubai ya Kuchora. API hii ina kiolesura kama `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern`, na `TextMetrics` ambavyo vina njia na sifa unazoweza kutumia kuunda michoro katika faili lako la JavaScript.
+- **Definicija**: API za platno za crtež je moćan alat koji vam omogućava crtanje unutar vašeg fajla sa JavaScript. Da biste radili sa API za platno za crtež, prvo morate pružiti element od `canvas` u HTML. Ovaj element funkcioniše kao površina za crtanje koja se može kontrolisati metodama i svojstvima interfejsa u API za platno za crtež. API ima interfejs poput `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` i `TextMetrics` koji imaju metode i svojstva koja možete koristiti za kreiranje crteža u vašem fajlu sa JavaScript.
 
 :::interactive_editor
 
@@ -490,10 +490,10 @@ ctx.fillRect(1, 1, 150, 100);
 
 :::
 
-## Kufungua na Kufunga Madialogu na Modal kwa kutumia JavaScript
+## Otvaranje i zatvaranje dijaloga i modala korišćenjem JavaScript
 
-- **Ufafanuzi wa Modal na Dialog**: Madialogu hukuwezesha kuonyesha taarifa muhimu au vitendo kwa watumizi. Kwa kipengele cha dialog kilichojengwa ndani ya HTML, unaweza kwa urahisi kuunda madialogu haya (modal na yasiyo ya modal) katika programu zako za mtandao. Dialogu ya modal ni aina ya dialogu inayolazimisha mtumizi kuingiliana nayo kabla ya kupata upatikanaji wa sehemu nyingine za programu au ukurasa wa mtandao. Kinyume chake, dialogu isiyo ya modal inaruhusu mtumizi kuendelea kuingiliana na sehemu nyingine za ukurasa au programu hata wakati dialogu iko wazi. Hainizuizi upatikanaji wa maudhui mengine.
-- **Njia ya `showModal()`**: Njia hii hutumika kufungua modal.
+- **Objašnjenje Modala i Dijalog-okna**: Dijalog vam omogućava da prikažete važne informacije ili akcije korisnicima. Sa ugrađenom funkcijom dijaloškog okna u HTML, možete lako kreirati ove dijaloge (modale i ne-modale) u svojim web aplikacijama. Modalni dijalog je vrsta dijaloga koja prisiljava korisnika da sa njim interaguje pre nego što dobije pristup drugim delovima aplikacije ili veb stranice. Nasuprot tome, ne-modalni dijalog omogućava korisniku da nastavi sa interakcijom sa drugim delovima stranice ili aplikacije čak i dok je dijalog otvoren. Ne blokira pristup drugom sadržaju.
+- **Metoda `showModal()`**: Ova metoda se koristi za otvaranje modala.
 
 :::interactive_editor
 
@@ -516,7 +516,7 @@ openButton.addEventListener('click', () => {
 
 :::
 
-- **Njia ya `close()`**: Njia hii hutumika kufunga modal.
+- **Putanja za `close()`**: Ova putanja se koristi za zatvaranje modala.
 
 :::interactive_editor
 
@@ -547,4 +547,4 @@ closeButton.addEventListener('click', () => {
 
 # --assignment--
 
-Kagua mada na dhana za uendeshaji wa DOM na matukio ya bofya kwa kutumia JavaScript.
+Pregledajte temu i koncepte funkcionisanja DOM i događaje klikom koristeći JavaScript.

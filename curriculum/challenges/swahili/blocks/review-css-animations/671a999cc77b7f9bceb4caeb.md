@@ -1,16 +1,16 @@
 ---
 id: 671a999cc77b7f9bceb4caeb
-title: Ukaguzi wa michoro ya CSS
+title: Pregled CSS crteža
 challengeType: 31
 dashedName: review-css-animations
 ---
 
 # --interactive--
 
-## Misingi ya michoro ya CSS
+## Temelji crteža za CSS
 
-- **Maelezo**: Michoro ya CSS inakuwezesha kuunda athari za kuona zinazobadilika kwa urahisi kwenye kurasa za mtandao bila haja ya JavaScript au programu ngumu. Hutoa njia ya kuhamisha vipengele kwa mpangilio laini kati ya mitindo tofauti kwa muda uliobainishwa.
-- **Kanuni ya `@keyframes`**: Kanuni hii inaeleza hatua na mitindo ya michoro. Inaeleza mitindo ambayo kipengele kinapaswa kuwa nayo katika nyakati tofauti wakati wa michoro.
+- **Opis**: Animacije CSS omogućavaju vam da lako kreirate dinamičke vizuelne efekte na veb stranicama bez potrebe za JavaScript ili složenim programima. Pruža način za glavno prebacivanje elemenata između različitih stilova tokom definisanog perioda.
+- **Pravilo za `@keyframes`**: Ovo pravilo objašnjava korake i stilove animacija. Opisuje stilove koje element treba da ima u različitim vremenskim tačkama tokom animacije.
 
 :::interactive_editor
 
@@ -40,19 +40,19 @@ dashedName: review-css-animations
 
 :::
 
-- **Sifa ya `animation`**: Hii ni sifa ya ufupisho inayotumika kutekeleza michoro.
-- **`animation-name`**: Hii inaeleza jina la kanuni ya `@keyframes` itakayotumika.
-- **`animation-duration`**: Hii inaweka muda ambao michoro inapaswa kuchukua kukamilika.
-- **`animation-timing-function`**: Hii inaeleza jinsi michoro inavyosogea kwa muda (kama `ease`, `linear`, `ease-in-out`).
-- **`animation-delay`**: Hii inaeleza kuchelewa kabla michoro haijaanza.
-- **`animation-iteration-count`**: Hii inaweka ni mara ngapi michoro inapaswa kurudiwa.
-- **`animation-direction`**: Hii inaamua kama michoro itachezwa katika mwelekeo wa `normal`, kwa `reverse`, au `alternate` kati ya yote mawili.
-- **`animation-fill-mode`**: Hii inaeleza jinsi kipengele kinapaswa kupambwa kabla na baada ya michoro.
-- **`animation-play-state`**: Hii inakuwezesha kusitisha na kuendelea na michoro.
+- **Svojstvo `animation`**: Ovo je atribut kompresije koji se koristi za izvršavanje animacija.
+- **`animation-name`**: Ovo opisuje ime funkcije `@keyframes` koja će biti korišćena.
+- **`animation-duration`**: Ovo postavlja trajanje koje animacija treba da potroši za završetak.
+- **`animation-timing-function`**: Ovo opisuje kako se animacija kreće tokom vremena (kao `ease`, `linear`, `ease-in-out`).
+- **`animation-delay`**: Ovo opisuje odlaganje pre nego što animacija počne.
+- **`animation-iteration-count`**: Ovo postavlja koliko puta animacija treba da se ponovi.
+- **`animation-direction`**: Ovo određuje da li će se animacija igrati u smeru `normal`, za `reverse` ili `alternate`.
+- **`animation-fill-mode`**: Ovo opisuje kako element treba da bude stilizovan pre i posle animacije.
+- **`animation-play-state`**: Ovo vam omogućava da pauzirate i nastavite animaciju.
 
-## Ufikikaji na media query ya `prefers-reduced-motion`
+## Pristup medijskom upitu za `prefers-reduced-motion`
 
-- **Media query ya `prefers-reduced-motion`**: Mojawapo ya masuala makuu ya ufikikaji kuhusu michoro ni kwamba inaweza kusababisha usumbufu au hata madhara kwa baadhi ya watumizi. Watu wenye matatizo ya vestibular au hisia kali za mwendo wanaweza kupata kizunguzungu, kichefuchefu, au maumivu ya kichwa wanapokumbwa na aina fulani za mwendo kwenye skrini. Media query ya `prefers-reduced-motion` inaruhusu wasanidi programu wa mtandao kugundua kama mtumizi ameomba michoro au athari za mwendo kidogo kwenye ngazi ya mfumo.
+- **Media query za `prefers-reduced-motion`**: Jedan od glavnih pitanja pristupa vezano za vizuelne sadržaje je da može izazvati nelagodu ili čak štetu kod nekih korisnika. Osobe sa vestibularnim poremećajima ili osetljivom reakcijom na pokret mogu dobiti vrtoglavicu, mučninu ili glavobolju kada su izložene određenim vrstama kretanja na ekranu. Media query za `prefers-reduced-motion` omogućava web programerima da detektuju da li je korisnik tražio vizuelne sadržaje ili blage efekte pokreta na nivou sistema.
 
 :::interactive_editor
 
@@ -82,4 +82,4 @@ dashedName: review-css-animations
 
 # --assignment--
 
-Kagua mada na dhana za michoro ya CSS.
+Pregledajte teme i koncepte za dijagrame CSS.

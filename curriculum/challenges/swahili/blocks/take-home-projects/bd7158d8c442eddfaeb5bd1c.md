@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1c
-title: Jenga mchezo wa kumbukumbu wa taa
+title: Igra memorije sa svetlosnim efektima
 challengeType: 3
 forumTopicId: 302357
 dashedName: build-a-memory-light-game
@@ -8,36 +8,36 @@ dashedName: build-a-memory-light-game
 
 # --description--
 
-**Lengo:** Jenga programu inayofanana kiutendaji na hii: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
+**Cilj:** Izradi program koji je funkcionalno sličan ovom: <a href="https://codepen.io/freeCodeCamp/full/obYBjE" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/obYBjE</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API zozote unazohitaji. Toa mtindo wako binafsi.
+Završite korisničke priče ispod i pokrijte sve specifikacije. Koristite bilo koje biblioteke ili API koja vam je potrebna. Pružite svoj stil.
 
-**Hadithi ya mtumiaji:** Ninawasilishwa na mfululizo wa kubofya vifungo kwa mpangilio wa bahati nasibu.
+**Priča korisnika:** Predstavlja se sekvencijom klika po dugmad u nasumičnom redosledu.
 
-**Hadithi ya mtumiaji:** Kila ninapoweka mfululizo wa kubofya vifungo kwa usahihi, ninaona mfululizo huo huo wa kubofya vifungo lakini ukiwa na hatua moja zaidi.
+**Priča korisnika:** Svaki put kada tačno unesem sekvencu klikova, vidim istu sekvencu klikova, ali sa još jednog koraka više.
 
-**Hadithi ya mtumiaji:** Ninasikia sauti inayolingana na kila kitufe wakati mfululizo wa kubofya vifungo unapoonyeshwa, na pia ninapobofya kitufe binafsi.
+**Priča korisnika:** Čujem zvuk koji odgovara svakom dugmetu kada se prikazuje sekvenca kliktanja dugmadi, i takođe kada kliknem na pojedinačno dugme.
 
-**Hadithi ya mtumiaji:** Ikiwa nitabofya kitufe kisicho sahihi, ninaarifiwa kuwa nimekosea, na mfululizo huo wa kubofya vifungo unaanza tena kunikumbusha muundo ili nijaribu tena.
+**Priča korisnika:** Ako kliknem na pogrešno dugme, dobijam obaveštenje da sam napravio grešku, i ta sekvenca klikanja dugmića počinje ponovo kako bi me podsetila na šemu/uzorak da pokušam ponovo.
 
-**Hadithi ya mtumiaji:** Naona ni hatua ngapi ziko katika mfululizo wa sasa wa kubofya vifungo.
+**Priča korisnika:** Vidim koliko koraka je u trenutnoj sekvenci klikanja dugmadi.
 
-**Hadithi ya mtumiaji:** Ikiwa nataka kuanza upya, naweza kubofya kitufe cha kufanya hivyo, na mchezo utaanza tena na hatua moja tu.
+**Scenario korisnika:** Ako želim da počnem od nule, mogu kliknuti na dugme za to, i igra će ponovo započeti sa samo jednim korakom.
 
-**Hadithi ya mtumiaji:** Naweza kucheza katika hali kali ambapo ikiwa nitakosea kubofya kitufe, ninaarifiwa, na mchezo unaanza upya na mfululizo mpya wa kubofya vifungo kwa bahati nasibu.
+**Priča korisnika:** Mogu igrati u teškim uslovima gde ako slučajno kliknem na dugme, obavešten sam/obaveštena, i igra se ponovo pokreće sa novom sekvencijom slučajnog kliktanja dugmadi.
 
-**Hadithi ya mtumiaji:** Naweza kushinda mchezo kwa kupata mfululizo wa hatua 20 kwa usahihi. Ninaripotiwa ushindi wangu, kisha mchezo unaanza tena.
+**Priča korisnika:** Mogu da osvojim igru tako što ću postići niz od 20 tačnih koraka. Moj pobeda se prijavljuje, pa igra počinje ponovo.
 
-**Kidokezo:** Hapa kuna faili za mp3 unazoweza kutumia kwa kila kitufe:
+**Napomena:** Ovde su MP3 fajlovi koje možete koristiti za svako dugme:
 
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-1.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-2.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-3.mp3`
 - `https://cdn.freecodecamp.org/curriculum/take-home-projects/memory-light-game/sound-4.mp3`
 
-Ukiisha, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada završiš, ubaci link svog projekta na CodePen i klikni na dugme „Završio sam ovaj izazov“.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu deleći ga na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

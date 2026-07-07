@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: "Faili la tsconfig ni nini, na kwa nini ni muhimu kuingiza katika miradi yako ya TypeScript?"
+title: Šta je `tsconfig` fajl, i zašto je važno da ga uključite u vaše TypeScript projekte?
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-Mipangilio ya compiler ya TypeScript inaweza kusanidiwa ili kukidhi mahitaji ya mradi wako. Usanidi huo unaishi katika faili la `tsconfig.json` katika saraka kuu ya mradi wako. Kwa kweli, bila hilo, compiler haitafanya kazi isipokuwa ukipitisha bendera za amri moja kwa moja. Lakini faili hili hasa hufanya nini? Sawa, tuchunguze faili la mfano:
+Podešavanja kompajlera za TypeScript mogu se konfigurisati da odgovaraju zahtevima vašeg projekta. Ta konfiguracija se nalazi u fajlu `tsconfig.json` u glavnom direktorijumu vašeg projekta. Zapravo, bez toga, kompajler neće raditi osim ako ne prosledite direktne komandne zastavice. Ali šta tačno radi ovaj fajl? Dobro, hajde da pregledamo primer fajla:
 
 ```json
 {
@@ -26,27 +26,27 @@ Mipangilio ya compiler ya TypeScript inaweza kusanidiwa ili kukidhi mahitaji ya 
 }
 ```
 
-Hii inaonekana ni nyingi! Hivyo basi, tuchambue. Sifa ya `compilerOptions` itakuwa na "kiini" cha usanidi wako - hapa ndipo unadhibiti jinsi compiler ya TypeScript inavyotenda. Ukiangalia kwenye kitu kilichopangwa ndani…
+Ovo izgleda kao mnogo! Dakle, analizirajmo. Svojstvo ``compilerOptions`` će imati "srce" vaše konfiguracije – ovde kontrolišete kako kompajler od `TypeScript` funkcioniše. Ako pogledate na nešto strukturirano unutra…
 
-`rootDir` na `outDir` zinaambia TypeScript saraka gani ina faili zako za chanzo, na saraka gani inapaswa kuwa na msimbo wa JavaScript uliotafsiriwa.
+`rootDir` na `outDir` govori TypeScript koji direktorij ima vaše izvorni fajlovi, i koji direktorij bi trebalo da ima kod od JavaScript preveden.
 
-Sifa ya `lib` inaamua ni aina gani za maelezo ya aina compiler inazitumia, na inakuwezesha kuingiza msaada kwa matoleo maalum ya ES, DOM, na zaidi.
+Funkcija `lib` određuje kakve vrste tipova opisa koristi kompajler, i omogućava mu da uključi podršku za specifične verzije ES-a, DOM, i više.
 
-`module` na `moduleResolution` hufanya kazi pamoja kudhibiti jinsi kifurushi chako kinavyotumia moduli - iwe CommonJS au ECMAScript.
+`module` na `moduleResolution` radi zajedno da kontroliše kako vaš paket koristi module - bilo CommonJS ili ECMAScript.
 
-`esModuleInterop` hurahisisha ushirikiano kati ya moduli za CommonJS na ES kwa kuunda moja kwa moja vitu vya namespace kwa imports, na kufanya iwe rahisi kutumia moduli kutoka kwa mifumo tofauti pamoja katika miradi yako ya TypeScript, na chaguo la `skipLibCheck` linapita bila kuthibitisha faili za `.d.ts` ambazo hazijatajwa na imports katika msimbo wako.
+`esModuleInterop` olakšava integraciju između CommonJS i ES modula automatskim kreiranjem namespace objekata za uvoz, što čini lakim korišćenje modula iz različitih sistema zajedno u vašim projektima od TypeScript, a opcija `skipLibCheck` preskače validaciju fajlova `.d.ts` koji nisu navedeni uvozima u vašem kodu.
 
-Na hatimaye tunafikia hali ya `strict`. Mtu anaweza kusema kuwa TypeScript haifaidiki kweli bila bendera hii kuwezeshwa, kwani inawasha ukaguzi mwingine mwingi, kama vile kuhitaji kushughulikia aina zinazoweza kuwa na thamani ya null ipasavyo, au kutoa onyo wakati TypeScript haiwezi kubaini aina na inarudi kwa any.
+I na kraju dolazimo do stanja `strict`. Može se reći da TypeScript nije zaista korisno bez omogućavanja ove zastavice, jer aktivira mnogo drugih provera, kao što je potreba za pravilnom obradom tipova koji mogu imati vrednost null, ili izdavanje upozorenja kada TypeScript ne može da utvrdi tip i vraća 'any'.
 
-Kabla hatujamaliza, kumbuka kidogo kuhusu sifa ya ngazi ya juu ya `exclude` - wakati umeeleza saraka ya chanzo, unaweza kuwa na msimbo wa TypeScript nje ya saraka hiyo ambao hutaki uandikwe kama sehemu ya msimbo wako wa uzalishaji. Kwa mfano, msimbo wako wa majaribio. Safu ya `exclude` inaambia compiler kuacha kuzingatia faili hizi za TypeScript wakati wa uandikishaji, lakini bado inaruhusu zana kama Intellisense kuonyesha matatizo yanayoweza kutokea.
+Pre nego što završimo, zapamtite mali detalj o visokonivoskoj karakteristici `exclude` - kada specifikujete izvorni direktorijum, možete imati kod TypeScript van tog direktorijuma koji ne želite da se piše kao deo vašeg produkcionog koda. Na primer, vaš test kod. Red `exclude` govori kompajleru da prestane da razmatra ove fajlove TypeScript tokom kompilacije, ali i dalje dozvoljava alatima kao što je Intellisense da prikažu potencijalne probleme.
 
-Kuna chaguzi nyingi zaidi za compiler unazoweza kuchunguza - zaidi ya 50! Nakuhimiza uchunguze nyaraka na ujaribu kupata usanidi unaofaa kwa mahitaji ya mradi wako.
+Ima mnogo više opcija kompajlera koje možete istražiti – preko 50! Preporučujem vam da pregledate dokumentaciju i pokušate pronaći odgovarajuću konfiguraciju za potrebe vašeg projekta.
 
 # --questions--
 
 ## --text--
 
-Ni sifa gani katika faili la `tsconfig.json` inayogusa jinsi compiler inavyotenda?
+Koja je karakteristika u fajlu `tsconfig.json` koja utiče na to kako kompajler radi?
 
 ## --answers--
 
@@ -54,27 +54,27 @@ Ni sifa gani katika faili la `tsconfig.json` inayogusa jinsi compiler inavyotend
 
 ### --feedback--
 
-Sifa hii ni kitu chenye chaguzi za compiler.
+Ova karakteristika je nešto sa opcijama kompajlera.
 
----
+[No Swahili text provided.]
 
 `compilerOptions`
 
----
+[No Swahili text provided.]
 
 `exclude`
 
 ### --feedback--
 
-Sifa hii ni kitu chenye chaguzi za compiler.
+Ovaj atribut je nešto sa opcijama kompajlera.
 
----
+[No Swahili text provided.]
 
 `lib`
 
 ### --feedback--
 
-Sifa hii ni kitu chenye chaguzi za compiler.
+Ova karakteristika je nešto sa opcijama kompilatora.
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ Sifa hii ni kitu chenye chaguzi za compiler.
 
 ## --text--
 
-Chaguo la `strict` katika faili la `tsconfig.json` hufanya nini?
+Šta selekcija za `strict` u fajlu `tsconfig.json` radi?
 
 ## --answers--
 
-Linakagua tu aina zinazoweza kuwa na null.
+On proverava samo tipove koji mogu imati null.
 
 ### --feedback--
 
-Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
+Ova opcija omogućava različite provere, uključujući obradu tipova koji mogu imati null.
 
----
+[No Swahili text provided.]
 
-Linahimiza matumizi ya moduli za CommonJS.
-
-### --feedback--
-
-Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
-
----
-
-Linabadilisha chaguzi kadhaa za ukaguzi wa aina.
-
----
-
-Linatoa faili za majaribio nje ya uandikishaji.
+Preporučuje se korišćenje CommonJS modula.
 
 ### --feedback--
 
-Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina zinazoweza kuwa na null.
+Ova opcija omogućava različite inspekcije, uključujući rukovanje tipovima koji mogu imati null.
+
+[No Swahili text provided.]
+
+Menja nekoliko opcija za proveru tipa.
+
+[No Swahili text provided.]
+
+Pruža fajlove za testiranje van snimanja/unosa.
+
+### --feedback--
+
+Ova opcija omogućava različite provere, uključujući rješavanje tipova koji mogu imati null.
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ Chaguo hili huwezesha ukaguzi mbalimbali, ikiwa ni pamoja na kushughulikia aina 
 
 ## --text--
 
-Madhumuni ya safu ya `exclude` katika faili la `tsconfig.json` ni yapi?
+Koja je svrha reda `exclude` u fajlu `tsconfig.json`?
 
 ## --answers--
 
-Kueleza ni faili gani zaandikwe.
+Koje fajlove treba napisati/navesti.
 
 ### --feedback--
 
-Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
+Možete koristiti ovo da uklonite test kod tokom registracije.
 
----
+[No Swahili text provided.]
 
-Kutoa orodha ya maktaba za ziada za kuingiza.
-
-### --feedback--
-
-Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
-
----
-
-Kusahau baadhi ya faili wakati wa uandikishaji.
-
----
-
-Kueleza saraka za matokeo kwa faili zilizotafsiriwa.
+Pružiti listu dodatnih biblioteka za uvoz.
 
 ### --feedback--
 
-Unaweza kutumia hii kuondoa msimbo wa majaribio katika uandikishaji.
+Možete koristiti ovo da uklonite test kod iz registracije.
+
+[No Swahili text provided.]
+
+Zaboravili ste neke fajlove tokom registracije.
+
+[No Swahili text provided.]
+
+Objašnjenje direktorijuma rezultata za prevedene fajlove.
+
+### --feedback--
+
+Možete koristiti ovo da uklonite test kod tokom registracije.
 
 ## --video-solution--
 

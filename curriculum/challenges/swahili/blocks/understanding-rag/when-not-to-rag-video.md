@@ -1,6 +1,6 @@
 ---
 id: 69ae5c728491ca1dcd31440d
-title: Wakati Usipotumie RAG
+title: Kada ne koristiti RAG
 challengeType: 11
 videoId: 3HY38scJb54
 dashedName: when-not-to-rag
@@ -8,29 +8,29 @@ dashedName: when-not-to-rag
 
 # --description--
 
-Katika video hii, utafundishwa lini si sahihi kutumia RAG na hatari zinazoweza kutokea kwa kutumia RAG katika hali fulani.
+U ovom videu,će vam biti objašnjeno kada nije pravilno koristiti RAG i potencijalni rizici koji mogu nastati iz upotrebe RAG-a u određenim situacijama.
 
 # --questions--
 
 ## --text--
 
-Ni suluhisho gani lingine la kupata AI kutoa majibu mazuri wakati RAG si sahihi?
+Kakvo je drugo rešenje za to da se od AI-ja dobiju dobre odgovore kada RAG nije pouzdan?
 
 ## --answers--
 
-Kusawazisha mfano
+Ujednačiti primer
 
----
+[No Swahili text provided.]
 
-Kuanzisha lint
+Pokreni lint
 
----
+[No Swahili text provided.]
 
-Uhandisi wa maelekezo
+Inženjerstvo instrukcija
 
----
+[No Swahili text provided.]
 
-Maelekezo yanayofuata mfululizo
+Uputstva po redosledu
 
 ## --video-solution--
 

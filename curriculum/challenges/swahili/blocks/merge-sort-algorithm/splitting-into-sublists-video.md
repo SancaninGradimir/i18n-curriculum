@@ -1,6 +1,6 @@
 ---
 id: 698ddca77932b3cc4b19c936
-title: Kugawanya kuwa Orodha ndogo ndogo
+title: Podeliti u manje liste
 challengeType: 11
 videoId: HBzKVr-AwjQ
 dashedName: splitting-into-sublists
@@ -8,29 +8,29 @@ dashedName: splitting-into-sublists
 
 # --description--
 
-Katika video hii, utafundishwa zaidi kuhusu algoriti ya merge sort na jinsi ya kugawanya orodha kuwa orodha ndogo ndogo.
+U ovom videu, naučićete više o Merge Sort algoritmu i kako podeliti listu na manje liste.
 
 # --questions--
 
 ## --text--
 
-Kugawanya orodha kuwa orodha ndogo ndogo kunawakilisha nini katika algoriti ya merge sort?
+Šta podela niza na manje nizove predstavlja u algoritmu merge sort?
 
 ## --answers--
 
-Kunawakilisha hatua ya kupanga.
+Predstavlja fazu planiranja.
 
----
+[No Swahili text provided.]
 
-Kunawakilisha hatua ya kuunganisha.
+Predstavlja korak povezivanja.
 
----
+[No Swahili text provided.]
 
-Kunawakilisha hatua ya kushinda.
+Predstavlja fazu pobede.
 
----
+[No Swahili text provided.]
 
-Kunawakilisha hatua ya kugawanya.
+Predstavlja korak dijeljenja.
 
 ## --video-solution--
 

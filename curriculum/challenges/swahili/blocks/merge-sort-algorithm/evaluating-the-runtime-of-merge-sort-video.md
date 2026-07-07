@@ -1,6 +1,6 @@
 ---
 id: 698de2547932b3cc4b19c939
-title: Kutathmini muda wa utekelezaji wa merge sort
+title: Procjena vremena izvršavanja Merge Sort-a
 challengeType: 11
 videoId: QJoIVAzN1LM
 dashedName: evaluating-the-runtime-of-merge-sort
@@ -8,27 +8,27 @@ dashedName: evaluating-the-runtime-of-merge-sort
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda wa utekelezaji wa algoriti ya merge sort.
+U ovom videu ćete naučiti o vremenskom složaju Merge Sort algoritma.
 
 # --questions--
 
 ## --text--
 
-Je, ugumu wa nafasi kwa merge sort ni upi?
+Koja je vremenska složenost za merge sort?
 
 ## --answers--
 
-exponential
+eksponencijalni
 
----
+[No Swahili text provided.]
 
-linear
+linearan
 
----
+[No Swahili text provided.]
 
-quadratic
+kvadratni
 
----
+[No Swahili text provided.]
 
 constant
 

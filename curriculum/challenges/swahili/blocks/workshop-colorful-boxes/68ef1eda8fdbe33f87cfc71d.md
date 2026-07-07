@@ -1,19 +1,19 @@
 ---
 id: 68ef1eda8fdbe33f87cfc71d
-title: Hatua 30
+title: Korak 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Thamani ya pili ya sifa ya `flex` inaweka sifa ya `flex-shrink`. Sifa hii inadhibiti kiasi ambacho kipande cha kubadilika kitapungua wakati hakuna nafasi ya kutosha katika kontena kwa ajili ya vipande vyote.
+Druga vrednost svojstva `flex` postavlja svojstvo `flex-shrink`. Ovo svojstvo kontroliše iznos kojim će se promenljivi deo smanjiti kada nema dovoljno prostora u kontejneru za sve delove.
 
-Bado ukiwa ndani ya kichaguzi cha `.box`, badilisha thamani ya pili katika `flex` kutoka `1` hadi `0`.
+Dok si unutar selektora za `.box`, promeni drugu vrednost u `flex` od `1` do `0`.
 
 # --hints--
 
-Kichaguzi chako cha `.box` kinapaswa kuwa na sifa `flex` yenye thamani ya `0 0 100px`.
+Vaš selektor za `.box` mora imati svojstvo `flex` sa vrednošću `0 0 100px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.box')?.getPropVal('flex'), '0 0 100px');

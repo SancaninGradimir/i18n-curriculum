@@ -1,35 +1,35 @@
 ---
 id: 6823c1a0bcada44f32bf0bdc
-title: Hatua 4
+title: Korak 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-Kipengele cha `h1` ni kichwa cha sehemu kikuu cha ukurasa wa mtandao na unapaswa kutumia kimoja tu kwa kila ukurasa. Vipengele vya `h2` vinawakilisha vichwa vidogo vya sehemu. Unaweza kuwa na vingi kwa kila ukurasa na vinaonekana hivi:
+Element ``h1`` je glavni zaglavlje sekcije na web stranici i trebalo bi da se koristi samo jedan po stranici. Elementi ``h2`` predstavljaju manje zaglavlja sekcija. Možete imati više po stranici i izgledaju ovako:
 
 ```html
 <h2>This is a subheading.</h2>
 ```
 
-Badilisha maandishi ya `Full-Stack Curriculum` kuwa kipengele cha `h2` kwa kuzunguka na lebo za kufungua na kufunga za `h2`.
+Promeni tekst iz `Full-Stack Curriculum` u element `h2` sa okruženjem i oznakama za otvaranje i zatvaranje `h2`.
 
 # --hints--
 
-Kipengele chako cha `h2` kinapaswa kuwa na lebo ya kufungua ya `<h2>`.
+Vaša karakteristika za `h2` bi trebalo da ima aktivacionu labelu od `<h2>`.
 
 ```js
 assert.exists(document.querySelector("h2"));
 ```
 
-Kipengele chako cha `h2` kinapaswa kuwa na lebo ya kufunga ya `</h2>`.
+Element vašeg `h2` treba da ima zatvarajući tag/oznaku `</h2>`.
 
 ```js
 assert.match(code, /<\/h2\s*\>/);
 ```
 
-Kipengele chako cha `h2` kinapaswa kuonekana hivi: `<h2>Full-Stack Curriculum</h2>`.
+Element vašeg `h2` treba da izgleda ovako: `<h2>Full-Stack Curriculum</h2>`.
 
 ```js
 // purposefully removing friction for early users to help improve retention in early lessons

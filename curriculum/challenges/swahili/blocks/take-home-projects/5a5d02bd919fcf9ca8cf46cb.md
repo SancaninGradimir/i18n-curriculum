@@ -1,6 +1,6 @@
 ---
 id: 5a5d02bd919fcf9ca8cf46cb
-title: Jenga programu ya light-bright
+title: Izgraditi program za light-bright
 challengeType: 3
 forumTopicId: 302350
 dashedName: build-a-light-bright-app
@@ -8,25 +8,25 @@ dashedName: build-a-light-bright-app
 
 # --description--
 
-**Lengo:** Jenga programu ambayo inaendeshwa kwa njia sawa na hii: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
+**Cilj:** Napravite program koji radi na isti način kao ovo: <https://codepen.io/freeCodeCamp/full/eyLYXE>.
 
-**Kanuni #1:** Usitazame msimbo wa mradi wa mfano. Jifunze mwenyewe.
+**Pravilo #1:** Pogledajte kod primernog projekta. Naučite se sami.
 
-**Kanuni #2:** Timiza hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+**Kanuni #2:** Implementirajte korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-**Hadithi ya mtumiaji:** Naweza kubofya au kuvuta kidole cha panya ili kupaka rangi mizunguko.
+**Priča korisnika:** Mogu kliknuti ili povući mišem da obojim konture.
 
-**Hadithi ya mtumiaji:** Naweza kubofya mara mbili kwenye mduara uliopakwa rangi kuondoa rangi hiyo.
+**Priča korisnika:** Mogu dvaput kliknuti na obojenom krugu da uklonim tu boju.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kwenye mduara uliopakwa rangi kubadilisha rangi yake.
+**Priča korisnika:** Mogu kliknuti na obojen krug da promenim njegovu boju.
 
-**Hadithi ya mtumiaji:** Napaswa kupata mduara wenye rangi tofauti kila ninapobofya.
+**Priča korisnika:** Trebalo bi mi da dobijem krug sa različitim bojama svaki put kad kliknem.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kitufe cha 'Reset' kuondoa rangi ya hivi karibuni.
+**Priča korisnika:** Mogu da kliknem na dugme 'Reset' da obrišem najnoviju boju.
 
 **Hadithi ya mtumiaji:** Naweza kubofya kitufe cha 'Reset All' kuondoa rangi zote kutoka kwenye miduara.
 
-Ukipomaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Nakon što završiš, uključi link svog projekta na CodePen i klikni na dugme "Završio sam ovaj izazov".
 
 Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 

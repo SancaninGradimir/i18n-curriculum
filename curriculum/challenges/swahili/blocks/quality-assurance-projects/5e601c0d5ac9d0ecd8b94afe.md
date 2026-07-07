@@ -1,6 +1,6 @@
 ---
 id: 5e601c0d5ac9d0ecd8b94afe
-title: Mtafsiri wa Kiingereza cha Marekani na Uingereza
+title: Prevodilac američkog i britanskog engleskog
 challengeType: 4
 forumTopicId: 462358
 dashedName: american-british-translator
@@ -8,10 +8,10 @@ dashedName: american-british-translator
 
 # --description--
 
-Jenga programu ya JavaScript ya full-stack ambayo inaendana kiutendaji na hii: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Kufanya kazi kwenye mradi huu kutahusisha wewe kuandika msimbo wako ukitumia mojawapo ya njia zifuatazo:
+Izgradite JavaScript full-stack aplikaciju koja funkcionalno odgovara ovom: <a href="https://american-british-translator.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://american-british-translator.freecodecamp.rocks/</a>. Rad na ovom projektu će zahtevati da napišete svoj kod koristeći jednu od sledećih metoda:
 
--   Nakili <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">hii repo ya GitHub</a> na ukamilishe mradi wako kwa ndani.
--   Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi. Hakikisha umejumuisha mafaili yote kutoka kwenye repo yetu ya GitHub.
+- Kopiraj <a href="https://github.com/freeCodeCamp/boilerplate-project-american-british-english-translator/" target="_blank" rel="noopener noreferrer nofollow">ovaj repozitorijum od GitHub</a> i završi svoj projekat interno.
+- Koristi omiljeni alat za izradu sajtova da završiš projekat. Proveri da si uključio sve fajlove iz našeg repozitorijuma GitHub.
 
 # --instructions--
 
@@ -22,7 +22,7 @@ Jenga programu ya JavaScript ya full-stack ambayo inaendana kiutendaji na hii: <
 -   Ili kuendesha majaribio moja kwa moja, weka `NODE_ENV` kuwa `test` bila nukuu katika faili la `.env`
 -   Ili kuendesha majaribio kwenye konsoli, tumia amri `npm run test`.
 
-Andika majaribio yafuatayo katika `tests/1_unit-tests.js`:
+Napišite sledeće eksperimente u `tests/1_unit-tests.js`:
 
 -   Tafsiri `Mangoes are my favorite fruit.` kuwa Kiingereza cha Uingereza
 -   Tafsiri `I ate yogurt for breakfast.` kuwa Kiingereza cha Uingereza
@@ -51,12 +51,12 @@ Andika majaribio yafuatayo katika `tests/1_unit-tests.js`:
 
 Andika majaribio yafuatayo katika `tests/2_functional-tests.js`:
 
--   Tafsiri na sehemu za maandishi na eneo: ombi la POST kwa `/api/translate`
--   Tafsiri na sehemu za maandishi na eneo lisilo sahihi: ombi la POST kwa `/api/translate`
--   Tafsiri na sehemu ya maandishi iliyokosekana: ombi la POST kwa `/api/translate`
--   Tafsiri na sehemu ya eneo iliyokosekana: ombi la POST kwa `/api/translate`
--   Tafsiri na maandishi tupu: ombi la POST kwa `/api/translate`
--   Tafsiri na maandishi ambayo hayahitaji tafsiri: ombi la POST kwa `/api/translate`
+-   Prevod, tekstualno polje i oblast: ombi la POST kwa `/api/translate`
+-   Prevod, tekstualno polje i neispravna lokacija: ombi la POST kwa `/api/translate`
+-   Prevod i nedostajuće tekstualno polje: ombi la POST kwa `/api/translate`
+-   Prevod i nedostajuće polje lokacije: ombi la POST kwa `/api/translate`
+-   Prevod i prazan tekst: ombi la POST kwa `/api/translate`
+-   Prevod i tekst koji ne zahteva prevod: ombi la POST kwa `/api/translate`
 
 # --hints--
 
@@ -121,7 +121,7 @@ Njia ya `/api/translate` inapaswa kushughulikia jinsi wakati unavyoandikwa katik
   }
 ```
 
-Njia ya `/api/translate` inapaswa pia kushughulikia jinsi vyeo/honorifics vinavyopunguzwa katika Kiingereza cha Marekani na Uingereza. Kwa mfano, Daktari Wright hupunguzwa kuwa "Dr Wright" katika Kiingereza cha Uingereza na "Dr. Wright" katika Kiingereza cha Marekani. Tazama `/components/american-to-british-titles.js` kwa vyeo tofauti ambavyo programu yako inapaswa kushughulikia.
+Metoda `/api/translate` takođe treba da obrađuje kako se titule/honorifikovi skraćuju u američkom i britanskom engleskom jeziku. Na primer, Doktor Wright se skraćuje u "Dr Wright" u britanskom engleskom i "Dr. Wright" u američkom engleskom. Pogledajte `/components/american-to-british-titles.js` za različite titule koje vaš program treba da obrađuje.
 
 ```js
   try {
@@ -146,7 +146,7 @@ Njia ya `/api/translate` inapaswa pia kushughulikia jinsi vyeo/honorifics vinavy
   }
 ```
 
-Zungusha herufi au maneno yaliyotafsiriwa kwa lebo za `<span class="highlight">...</span>` ili yaonekane kwa rangi ya kijani.
+Zaokruži slova ili reči prevedene sa oznakama `<span class="highlight">...</span>` ili koje su u zelenoj boji.
 
 ```js
   try {
@@ -172,7 +172,7 @@ Zungusha herufi au maneno yaliyotafsiriwa kwa lebo za `<span class="highlight">.
   }
 ```
 
-Kama sehemu moja au zaidi zinazohitajika zitakosekana, rudisha `{ error: 'Required field(s) missing' }`.
+Ako nedostaje jedna ili više potrebnih komponenti, vratite `{ error: 'Required field(s) missing' }`.
 
 ```js
   try {
@@ -191,7 +191,7 @@ Kama sehemu moja au zaidi zinazohitajika zitakosekana, rudisha `{ error: 'Requir
   }
 ```
 
-Kama `text` ni tupu, rudisha `{ error: 'No text to translate' }`
+Ako je `text` prazno, vrati `{ error: 'No text to translate' }`
 
 ```js
   try {
@@ -210,7 +210,7 @@ Kama `text` ni tupu, rudisha `{ error: 'No text to translate' }`
   }
 ```
 
-Kama `locale` haitalingani na mojawapo ya maeneo mawili yaliyotajwa, rudisha `{ error: 'Invalid value for locale field' }`.
+Kama `locale` ne odgovara nijednom od navedenih dva područja, vratite `{ error: 'Invalid value for locale field' }`.
 
 ```js
   try {
@@ -230,7 +230,7 @@ Kama `locale` haitalingani na mojawapo ya maeneo mawili yaliyotajwa, rudisha `{ 
   }
 ```
 
-Kama `text` haitaji tafsiri yoyote, rudisha `"Everything looks good to me!"` kwa thamani ya `translation`.
+Ako `text` ne zahteva nikakav prevod, vrati `"Everything looks good to me!"` na vrednost `translation`.
 
 ```js
   try {
@@ -255,7 +255,7 @@ Kama `text` haitaji tafsiri yoyote, rudisha `"Everything looks good to me!"` kwa
   }
 ```
 
-Majaribio yote 24 ya kitengo yamekamilika na kupita.
+Sva 24 testa jedinice su završena i prošla.
 
 ```js
   try {
@@ -282,7 +282,7 @@ Majaribio yote 24 ya kitengo yamekamilika na kupita.
   }
 ```
 
-Majaribio yote 6 ya utendaji yamekamilika na kupita.
+Svi šest testova performansi je završeno i uspešno prošlo.
 
 ```js
   try {

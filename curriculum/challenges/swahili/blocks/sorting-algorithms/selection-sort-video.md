@@ -1,6 +1,6 @@
 ---
 id: 698de9f47932b3cc4b19c941
-title: Mpangilio wa kuchagua
+title: Podešavanje izbora
 challengeType: 11
 videoId: 6kIttK2RzoU
 dashedName: selection-sort
@@ -8,29 +8,29 @@ dashedName: selection-sort
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu algoriti ya mpangilio wa kuchagua.
+U ovom videu, naučićete o algoritmu selektivnog sortiranja.
 
 # --questions--
 
 ## --text--
 
-Algoriti ya mpangilio wa kuchagua hufanya kazi vipi?
+Kako funkcioniše algoritam za selektivno sortiranje?
 
 ## --answers--
 
-Inatafuta mara kwa mara kipengele kidogo kabisa (au kikubwa kabisa) kutoka sehemu isiyopangwa na kuhamisha kwenye sehemu iliyopangwa.
+Traži element koji je veoma mali (ili veoma veliki) iz neuređenog dela i premesta ga u uređeni deo.
 
----
+[No Swahili text provided.]
 
-Inabadilisha mara kwa mara vipengele vilivyo karibu mpaka orodha yote ipangwe.
+Podešava susedne elemente sve dok se ceo spisak ne organizuje.
 
----
+[No Swahili text provided.]
 
-Inachanganya orodha kwa bahati nasibu mpaka ipangwe.
+Mešamo listu nasumično dok se ne poređani.
 
----
+[No Swahili text provided.]
 
-Inagawanya orodha vipande viwili, inapanga kila kipande kwa kurudia, na kuunganisha vipande hivyo.
+Podeljuje listu na dva dela, organizuje svaki deo iterativno i spaja te delove.
 
 ## --video-solution--
 

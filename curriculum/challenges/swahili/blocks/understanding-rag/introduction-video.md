@@ -1,6 +1,6 @@
 ---
 id: 69ae5c648491ca1dcd31440b
-title: Utangulizi
+title: Uvod
 challengeType: 11
 videoId: LxilAjoRybE
 dashedName: introduction
@@ -8,27 +8,27 @@ dashedName: introduction
 
 # --description--
 
-Katika video hii, Beau Carnes atatoa utangulizi wa kozi hii.
+U ovom videu, Beau Carnes će dati uvod za ovaj kurs.
 
 # --questions--
 
 ## --text--
 
-Ni mada gani kati ya zifuatazo HAZITAJADILIWA katika kozi hii?
+Koja od sledećih tema NIJE pokrivena u ovom kursu?
 
 ## --answers--
 
 Chunking
 
----
+[No Swahili text provided.]
 
-Binary Search
+Binarna pretraga
 
----
+[No Swahili text provided.]
 
 RAG
 
----
+[No Swahili text provided.]
 
 VectorDB
 

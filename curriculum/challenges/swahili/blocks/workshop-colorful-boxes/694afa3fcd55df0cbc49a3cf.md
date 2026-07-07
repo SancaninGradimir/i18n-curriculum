@@ -1,37 +1,37 @@
 ---
 id: 694afa3fcd55df0cbc49a3cf
-title: Hatua 2
+title: Korak 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-Sasa unganisha faili lako la `styles.css` na hati ya HTML.
+Sada privlačite vaš fajl sa `styles.css` u dokument HTML.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `link` ndani ya kipengele cha `head`.
+Trebalo bi da imaš element `link` unutar elementa `head`.
 
 ```js
 assert.exists(document.querySelector('head > link'));
 ```
 
-Kipengele chako cha `link` kinapaswa kuwa na sifa ya kipengele ya `rel`.
+Vaša karakteristika za `link` treba da ima atribut/svojstvo elementa `rel`.
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.exists(linkEl?.getAttribute('rel'));
 ```
 
-Kipengele chako cha `link` kinapaswa kuwa na sifa ya kipengele ya `rel` iliyowekwa kuwa `stylesheet`.
+Tvoj element za `link` mora imati svojstvo elemenata `rel` koje je postavljeno na `stylesheet`.
 
 ```js
 const linkEl = document.querySelector('head > link');
 assert.equal(linkEl?.getAttribute('rel'), 'stylesheet');
 ```
 
-Kipengele chako cha `link` kinapaswa kuwa na sifa ya kipengele ya `href` iliyowekwa kuwa `styles.css`.
+Element vašeg `link` mora imati svojstvo elementa `href` postavljeno na `styles.css`.
 
 ```js
 const linkHrefValue = document.querySelector('head > link')?.dataset?.href;

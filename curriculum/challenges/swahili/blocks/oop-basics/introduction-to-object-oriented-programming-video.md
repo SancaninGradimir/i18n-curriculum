@@ -1,6 +1,6 @@
 ---
 id: 69ae9744a9e6da4eb0d5f7f6
-title: Utangulizi wa programu inayotumia vitu (Object-Oriented Programming)
+title: Uvod u programiranje koje koristi objekte (Objektno orijentisano programiranje)
 challengeType: 11
 videoId: sQjvwm8P1iY
 dashedName: introduction-to-object-oriented-programming
@@ -8,29 +8,29 @@ dashedName: introduction-to-object-oriented-programming
 
 # --description--
 
-Katika video hii, mwalimu Jim kutoka `JimShapedCoding` ataelezea unachotarajia kutoka katika kozi hii ya programu inayotumia vitu kwa Python.
+U ovom videu, nastavnik Jim iz `JimShapedCoding` će objasniti šta možete očekivati od ovog programa kursa koji koristi stvari za Python.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI dhana ya OOP?
+Koji među sledećim nije OOP koncept?
 
 ## --answers--
 
-Encapsulation
+Enkapsulacija
 
----
+[No Swahili text provided.]
 
-Polymorphism
+Polimorfizam
 
----
+[No Swahili text provided.]
 
-Recursion
+Rekurzija
 
----
+[No Swahili text provided.]
 
-Abstract Classes
+Apstraktne klase
 
 ## --video-solution--
 

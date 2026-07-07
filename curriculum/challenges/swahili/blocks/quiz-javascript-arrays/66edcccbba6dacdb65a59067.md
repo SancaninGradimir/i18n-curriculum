@@ -1,13 +1,13 @@
 ---
 id: 66edcccbba6dacdb65a59067
-title: Jaribio fupi la safu za data za JavaScript
+title: Pokušao sam da napišem redove podataka za JavaScript
 challengeType: 8
 dashedName: quiz-javascript-arrays
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,7 +17,7 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Šta će biti rezultat sledećeg koda?
 
 ```js
 const numbers = [1, 2, 3];
@@ -28,11 +28,11 @@ console.log(numbers[10]);
 
 `[1, 2, 3]`
 
----
+[No Swahili text provided.]
 
 `null`
 
----
+[No Swahili text provided.]
 
 `10`
 
@@ -44,7 +44,7 @@ console.log(numbers[10]);
 
 #### --text--
 
-Ni njia gani kati ya zifuatazo ndiyo sahihi ya kupata mfuatano wa herufi `"Jessica"` kutoka kwenye safu ya data `developers`?
+Koji od sljedećih načina je ispravan za dobijanje sekvence slova `"Jessica"` iz niza podataka `developers`?
 
 #### --distractors--
 
@@ -53,14 +53,14 @@ const developers = ["Jessica", "Naomi", "Tom"];
 developers[1]
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
 developers[2]
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
@@ -78,7 +78,7 @@ developers[0]
 
 #### --text--
 
-Ni thamani gani itapewa kwa kigezo `index`?
+Koja vrednost će biti data za parametar `index`?
 
 ```js
 const numbers = [10, 20, 30, 40];
@@ -90,11 +90,11 @@ console.log(index);
 
 2
 
----
+[No Swahili text provided.]
 
 3
 
----
+[No Swahili text provided.]
 
 -1
 
@@ -106,51 +106,51 @@ console.log(index);
 
 #### --text--
 
-Sintaksia ya REST hufanya nini?
+Šta radi sintaksa REST?
 
 #### --distractors--
 
-Inatumika kugawanya mfuatano wa herufi kuwa safu ya sehemu ndogo ndogo.
+Koristi se za podelu sekvence karaktera u niz manjih segmenata.
 
----
+[No Swahili text provided.]
 
-Inatumika kuongeza au kuondoa vipengele kutoka sehemu yoyote katika safu ya data.
+Koristi se za dodavanje ili uklanjanje elemenata iz bilo kog dela niza podataka.
 
----
+[No Swahili text provided.]
 
-Inatumika kuongeza vipengele mwishoni mwa safu ya data na itarudisha urefu mpya.
+Koristi se za dodavanje elemenata na kraj niza podataka i vraća novu dužinu.
 
 #### --answer--
 
-Inakamata vipengele vilivyobaki vya safu ya data na kuviweka katika safu mpya.
+Prikuplja preostale elemente iz reda podataka i postavlja ih u novi red.
 
 ### --question--
 
 #### --text--
 
-Ufumbuzi wa muundo wa safu ya data ni nini?
+Šta je rešenje za strukturu podataka?
 
 #### --distractors--
 
-Inatumika kuunganisha vipengele vyote vya safu ya data kuwa mfuatano wa herufi mmoja.
+Koristi se za spajanje svih elemenata niza podataka u jedan niz znakova/string.
 
----
+[No Swahili text provided.]
 
-Inatumika kuangalia kama safu ya data ina thamani fulani.
+Koristi se za proveru da li niz podataka ima određenu vrednost.
 
----
+[No Swahili text provided.]
 
-Inatumika kuondoa kipengele cha mwisho kutoka kwenye safu ya data na kurudisha kipengele hicho kilichoondolewa.
+Koristi se za uklanjanje poslednjeg elementa iz niza podataka i vraćanje tog uklonjenog elementa.
 
 #### --answer--
 
-Inatumika kutoa thamani kutoka kwenye safu za data na kuziweka katika vigezo kwa njia fupi na inayosomeka zaidi.
+Koristi se za izvlačenje vrednosti iz kolona podataka i njihovo predstavljanje u skraćenim i lakše čitljivim parametrima.
 
 ### --question--
 
 #### --text--
 
-Ni thamani gani itapewa kwa kigezo `arr2`?
+Koja vrednost će biti dodeljena parametru `arr2`?
 
 ```js
 const arr1 = [1, 2, 3];
@@ -162,11 +162,11 @@ console.log(arr2);
 
 `[4, 5, 1, 2, 3]`
 
----
+[No Swahili text provided.]
 
 `[1, 2, [3, 4, 5]]`
 
----
+[No Swahili text provided.]
 
 `[1, 2, 3]`
 
@@ -178,7 +178,7 @@ console.log(arr2);
 
 #### --text--
 
-Msimbo huu utaandika nini kwenye konsoli?
+Šta će ovaj kod napisati na konzolu?
 
 ```js
 const colors = ["red", "blue", "green", "yellow"];
@@ -190,11 +190,11 @@ console.log(colors);
 
 `["red", "blue", "green", "yellow"]`
 
----
+[No Swahili text provided.]
 
 `["red", "blue", "yellow"]`
 
----
+[No Swahili text provided.]
 
 `["red", "yellow"]`
 
@@ -206,7 +206,7 @@ console.log(colors);
 
 #### --text--
 
-Ni thamani gani itapewa kwa kigezo `slicedArr`?
+Koja vrednost će biti dodeljena parametru `slicedArr`?
 
 ```js
 const arr = ["apple", "banana", "cherry", "date"];
@@ -218,11 +218,11 @@ console.log(slicedArr);
 
 `["apple", "banana"]`
 
----
+[No Swahili text provided.]
 
 `["cherry", "date"]`
 
----
+[No Swahili text provided.]
 
 `["apple", "cherry"]`
 
@@ -234,17 +234,17 @@ console.log(slicedArr);
 
 #### --text--
 
-Njia gani hurejesha kielezo cha kwanza cha kipengele fulani katika safu ya data?
+Koja funkcija vraća prvu instancu određene karakteristike u nizu podataka?
 
 #### --distractors--
 
 `firstIndex()`
 
----
+[No Swahili text provided.]
 
 `lastIndex()`
 
----
+[No Swahili text provided.]
 
 `searchIndex()`
 
@@ -256,17 +256,17 @@ Njia gani hurejesha kielezo cha kwanza cha kipengele fulani katika safu ya data?
 
 #### --text--
 
-Njia gani hutumika kuondoa kipengele cha kwanza kutoka kwenye safu ya data na kurudisha kipengele hicho kilichoondolewa?
+Koja se metoda koristi za uklanjanje prvog elementa iz niza podataka i vraćanje tog uklonjenog elementa?
 
 #### --distractors--
 
 `pop()`
 
----
+[No Swahili text provided.]
 
 `slice()`
 
----
+[No Swahili text provided.]
 
 `splice()`
 
@@ -278,29 +278,29 @@ Njia gani hutumika kuondoa kipengele cha kwanza kutoka kwenye safu ya data na ku
 
 #### --text--
 
-Njia ya `concat()` hufanya nini?
+Šta radi put `concat()`?
 
 #### --distractors--
 
-Inajiunga vipengele vya safu ya data kuwa mfuatano wa herufi.
+Spaja elemente niza podataka u niz znakova.
 
----
+[No Swahili text provided.]
 
-Inaongeza kipengele mwanzoni mwa safu ya data.
+Dodaje element na početak reda podataka.
 
----
+[No Swahili text provided.]
 
-Inaondoa kipengele kutoka kwenye safu ya data.
+Uklanja element iz niza podataka.
 
 #### --answer--
 
-Inunganisha safu mbili za data kuwa safu mpya.
+Spoji dve kolone podataka u jednu novu kolonu.
 
 ### --question--
 
 #### --text--
 
-Matokeo ya msimbo huu yatakuwa nini?
+Šta će biti rezultat ovog koda?
 
 ```js
 const fruits = ["apple", "banana", "cherry", "apple", "orange"];
@@ -314,11 +314,11 @@ console.log(fruits);
 
 `["apple", "banana", "cherry", "apple", "orange"]`
 
----
+[No Swahili text provided.]
 
 `["apple", "banana", "cherry"]`
 
----
+[No Swahili text provided.]
 
 `["cherry", 'apple']`
 
@@ -330,39 +330,39 @@ console.log(fruits);
 
 #### --text--
 
-Njia ya `includes()` hufanya nini?
+Šta radi putnica `includes()`?
 
 #### --distractors--
 
-Inatumika kugawanya mfuatano wa herufi kuwa safu ya sehemu ndogo ndogo.
+Koristi se za podelu sekvence karaktera u niz manjih segmenata.
 
----
+[No Swahili text provided.]
 
-Inatumika kuunganisha vipengele vyote vya safu ya data kuwa mfuatano wa herufi mmoja.
+Koristi se za spajanje svih elemenata niza podataka u jedan niz znakova/string.
 
----
+[No Swahili text provided.]
 
-Inatumika kuongeza au kuondoa vipengele kutoka sehemu yoyote katika safu ya data.
+Koristi se za dodavanje ili uklanjanje elemenata iz bilo kog dela niza podataka.
 
 #### --answer--
 
-Inatumika kuangalia kama safu ya data ina thamani fulani.
+Koristi se za proveru da li niz podataka ima određenu vrednost.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani kati ya zifuatazo hutumika kugeuza safu ya data mahali pake?
+Koji od sledećih načina se koristi za konverziju reda podataka na njegovo mesto?
 
 #### --distractors--
 
 `reversed()`
 
----
+[No Swahili text provided.]
 
 `reverseArr()`
 
----
+[No Swahili text provided.]
 
 `reversing()`
 
@@ -374,61 +374,61 @@ Ni njia gani kati ya zifuatazo hutumika kugeuza safu ya data mahali pake?
 
 #### --text--
 
-Safu ya data ya vipimo viwili ni nini?
+Šta je niz podataka sa dve dimenzije?
 
 #### --distractors--
 
-Safu ya data inayojumuisha tu vitu vya aina ya object literals.
+Niz podataka koji sadrži samo elemente tipa *object literals*.
 
----
+[No Swahili text provided.]
 
-Safu ya data yenye urefu wa kudumu.
+Niz podataka sa fiksnom dužinom.
 
----
+[No Swahili text provided.]
 
-Safu ya data ya nambari za desimali.
+Niz podataka decimalnih brojeva.
 
 #### --answer--
 
-Safu ya data ya safu za data.
+Niz redova podataka.
 
 ### --question--
 
 #### --text--
 
-Ni kweli gani kuhusu njia ya `indexOf()` katika safu za data?
+Šta je tačno o načinu `indexOf()` u redovima podataka?
 
 #### --distractors--
 
-Daima hurejesha tukio la mwisho la kipengele.
+Uvek osveži poslednji događaj komponente.
 
----
+[No Swahili text provided.]
 
-Hutupa kosa ikiwa kipengele hakipatikani.
+Baciće grešku ako element nije pronađen.
 
----
+[No Swahili text provided.]
 
-Inahitaji safu ya data iwe imepangwa.
+Potreban je red podataka koji je organizovan.
 
 #### --answer--
 
-Hurejesha `-1` ikiwa kipengele hakipatikani.
+Hurejesha `-1` ako element nije pronađen.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani kati ya zifuatazo SI njia ya safu ya data?
+Koja od sledećih metoda NIJE metoda za red podataka?
 
 #### --distractors--
 
 `includes()`
 
----
+[No Swahili text provided.]
 
 `pop()`
 
----
+[No Swahili text provided.]
 
 `push()`
 
@@ -440,7 +440,7 @@ Ni njia gani kati ya zifuatazo SI njia ya safu ya data?
 
 #### --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Šta će biti rezultat sledećeg koda?
 
 ```js
 const arr = ["o", "l", "l", "e", "h"];
@@ -451,11 +451,11 @@ console.log(arr.join(""));
 
 `["o", "l", "l", "e", "h"]`
 
----
+[No Swahili text provided.]
 
 `"hello"`
 
----
+[No Swahili text provided.]
 
 `undefined`
 
@@ -467,17 +467,17 @@ console.log(arr.join(""));
 
 #### --text--
 
-Matokeo ya kutumia njia ya `shift()` kwenye safu tupu yatakuwa yapi?
+Rezultat korišćenja metode `shift()` na praznom redu će biti?
 
 #### --distractors--
 
 `TypeError`
 
----
+[No Swahili text provided.]
 
 `[]`
 
----
+[No Swahili text provided.]
 
 `null`
 
@@ -489,17 +489,17 @@ Matokeo ya kutumia njia ya `shift()` kwenye safu tupu yatakuwa yapi?
 
 #### --text--
 
-Njia gani itarudisha safu mpya bila kubadilisha safu ya awali?
+Koja će putanja vratiti novi red bez menjanja prvobitnog reda?
 
 #### --distractors--
 
 `shift()`
 
----
+[No Swahili text provided.]
 
 `pop()`
 
----
+[No Swahili text provided.]
 
 `push()`
 

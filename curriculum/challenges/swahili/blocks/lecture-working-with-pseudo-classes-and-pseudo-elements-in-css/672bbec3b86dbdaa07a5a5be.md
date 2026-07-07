@@ -96,7 +96,7 @@ Kwa kutumia kitendakazi cha `:is()`, unaweza kuandika kichaguzi kifupi na kinach
 
 Darasa la bandia la `:where()` hufanya kazi kama `:is()`, lakini haliongezi umahiri wa kichaguzi chako. Hii inafanya iwe bora kwa kutumia mitindo bila kuathiri umahiri wa sheria nyingine.
 
-Kwa mfano, unaweza kutumia kitendakazi cha `:where()` kuweka upya `margin` na `padding` kwa vipengele vya kichwa cha sehemu. Hii inahakikisha upya hauathiri mitindo maalum unayoweza kutumia baadaye. Hapa kuna mfano wa hilo:
+Na primer, možete koristiti funkciju `:where()` da ponovo postavite `margin` i `padding` za elemente zaglavlja sekcije. Ovo osigurava da resetovanje ne utiče na specifične stilove koje možete koristiti kasnije. Evo primera toga:
 
 :::interactive_editor
 
@@ -184,7 +184,7 @@ button:not(.primary) {
 
 ## --text--
 
-Ni darasa gani la bandia linalofanya kazi kama `:is()`, lakini haliongezi umahiri wowote kwa vichaguzi vyako?
+Koji je to lažni kurs koji radi kao `:is()`, ali ne povećava nikakve veštine vaših birača?
 
 ## --answers--
 
@@ -192,27 +192,27 @@ Ni darasa gani la bandia linalofanya kazi kama `:is()`, lakini haliongezi umahir
 
 ### --feedback--
 
-Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
+Ovaj veštački stil je dobar za korišćenje širokih, neupadljivih uzoraka.
 
----
+[No Swahili text provided.]
 
 `:has()`
 
 ### --feedback--
 
-Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
+Ova veštačka klasa je dobra za korišćenje širokih, neinvazivnih stilova.
 
----
+[No Swahili text provided.]
 
 `:where()`
 
----
+[No Swahili text provided.]
 
 `:empty`
 
 ### --feedback--
 
-Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
+Ova fiktivna klasa je dobra za korišćenje širokih, neinvazivnih stilova.
 
 ## --video-solution--
 
@@ -220,7 +220,7 @@ Darasa hili la bandia ni zuri kwa kutumia mitindo pana, isiyoingilia.
 
 ## --text--
 
-Ni ipi kati ya hizi si darasa la bandia la kitendakazi?
+Zar nijedan od ovih nije lažni profesionalni kurs?
 
 ## --answers--
 
@@ -228,21 +228,21 @@ Ni ipi kati ya hizi si darasa la bandia la kitendakazi?
 
 ### --feedback--
 
-Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani yake.
+Pseudo-funkcionalna klasa koristi standardne zagrade i prima argumente unutar nje.
 
----
+[No Swahili text provided.]
 
 `:first-child`
 
----
+[No Swahili text provided.]
 
 `:has()`
 
 ### --feedback--
 
-Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani yake.
+Funkcionalna klasa koristi standardne zagrade i prihvata deklaracije unutar sebe.
 
----
+[No Swahili text provided.]
 
 `:where()`
 
@@ -266,7 +266,7 @@ Ni darasa gani la bandia linalofaa kwa hali ambapo unataka kutumia mitindo kwa k
 
 Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
----
+[No Swahili text provided.]
 
 `:is()`
 
@@ -274,11 +274,11 @@ Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
----
+[No Swahili text provided.]
 
 `:not()`
 
----
+[No Swahili text provided.]
 
 `:where()`
 

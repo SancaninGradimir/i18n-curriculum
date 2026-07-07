@@ -1,6 +1,6 @@
 ---
 id: 699e5bab8f18cf77dfce5c11
-title: Michoro ya sine na cosine
+title: Grafovi sinusa i kosinusa
 challengeType: 11
 videoId: OoP1Lav_i9A
 dashedName: graphs-sine-cosine
@@ -8,29 +8,29 @@ dashedName: graphs-sine-cosine
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu michoro ya kitendakazi za sine na cosine.
+U ovom videu ćete naučiti o grafovima sinusa i kosinusa.
 
 # --questions--
 
 ## --text--
 
-Je, amplitude ya kitendakazi cha sine au cosine ni nini?
+Šta je amplituda sinusa ili kosinusa funkcije?
 
 ## --answers--
 
-Umbali wima kati ya kilele cha juu na mstari wa katikati.
+Vertikalna udaljenost između najvišeg vrha/vrhunca i ekvatora.
 
----
+[No Swahili text provided.]
 
-Umbali wa usawa kati ya vilele viwili mfululizo
+Horizontalna udaljenost između dva uzastopna vršnjašta
 
----
+[No Swahili text provided.]
 
-Mteremko wa mchororo wa sine au cosine kwenye kilele cha juu.
+Nagib grafa sinusa ili kosinusa na maksimumu.
 
----
+[No Swahili text provided.]
 
-Umbali wima kati ya vilele viwili vya chini.
+Visinska razlika između dva niska vrha.
 
 ## --video-solution--
 

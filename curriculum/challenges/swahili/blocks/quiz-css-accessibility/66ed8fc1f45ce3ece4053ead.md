@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: Jaribio fupi la ufikikaji wa CSS
+title: Pokušaj dobijanja pristupa CSS-a
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+Da bi prošao kratki test, moraš tačno odgovoriti na najmanje 9 od 10 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,117 +17,117 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Kwa nini unahitaji kuwa na uwiano mzuri wa utofauti wa rangi kwenye ukurasa wako wa mtandao?
+Zašto je važno imati dobar balans nijansi boja na vašoj veb stranici?
 
 #### --distractors--
 
-Ili kufanya ukurasa kuwa na rangi angavu zaidi.
+Da bi se stranica učinila svetlijim bojama.
 
----
+[No Swahili text provided.]
 
-Ili kukidhi mahitaji ya uboreshaji wa injini za utafutaji (SEO).
+Da bi se zadovoljili zahtevi optimizacije pretraživačkih motora (SEO).
 
----
+[No Swahili text provided.]
 
-Ili kufanya vipengele muhimu vya ukurasa vionekane zaidi.
+Da bi se ključni elementi stranice bolje istakli/videli.
 
 #### --answer--
 
-Ili kufanya maudhui ya ukurasa kupatikana na kusomeka.
+Da bi sadržaj stranice bio dostupan i čitljiv.
 
 ### --question--
 
 #### --text--
 
-Ni zana gani kati ya zifuatazo inakuwezesha kuingiza rangi za nyuma na mbele na kuangalia uwiano wao wa utofauti wa rangi?
+Koji alat iz sledećih vam omogućava da unesete boje pozadine i prednjeg plana te proverite njihov odnos kontrasta boja?
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+TPGi Analizator kontrasta boje
 
----
+[No Swahili text provided.]
 
 Figma
 
----
+[No Swahili text provided.]
 
 Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+WebAIM-ov prover kontrasta boja
 
 ### --question--
 
 #### --text--
 
-Ni zana gani kati ya zifuatazo inakuwezesha kuchagua rangi za nyuma na mbele kutoka kwa maudhui yanayoonyeshwa kwenye skrini yako na kuangalia uwiano wao wa utofauti wa rangi?
+Koji od sledećih alata vam omogućava da izaberete boje pozadine i prednjeg plana iz sadržaja prikazanog na vašem ekranu i proverite njihov odnos kontrasta boja?
 
 #### --distractors--
 
 Figma
 
----
+[No Swahili text provided.]
 
 Canva
 
----
+[No Swahili text provided.]
 
-WebAIM's Color Contrast Checker
+WebAIM-ov prover kontrasta boja
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+TPGi Analizator kontrasta boje
 
 ### --question--
 
 #### --text--
 
-Kwa nini haufai kutumia `display: none` na `visibility: hidden` kuficha maudhui kwa njia ya kuona?
+Zašto nije moguće koristiti `display: none` i `visibility: hidden` da sakrije sadržaj na vidljiv način?
 
 #### --distractors--
 
-Njia hizi hufanya maudhui yaliyofichwa kupatikana tu kwa teknolojia za kusaidia kama kisomaji cha skrini.
+Ove metode čine skriveni sadržaj dostupan samo asistivnim tehnologijama, kao što je čitač ekrana.
 
----
+[No Swahili text provided.]
 
-Njia hizi hufanya maudhui yafichwe tu hadi watumizi wapeleke kipanya chao juu ya maudhui hayo.
+Ovi načini skrivaju sadržaj samo dok korisnik ne prevede mišem preko tog sadržaja.
 
----
+[No Swahili text provided.]
 
-Njia hizi hazifanyi kazi na baadhi ya vivinjari.
+Ove metode ne rade sa nekim pregledačima.
 
 #### --answer--
 
-Njia hizi huondoa maudhui kutoka kwenye mti wa ufikikaji, na kufanya isiwezekane kwa visomaji vya skrini kupata maudhui yaliyofichwa.
+Ove metode uklanjaju sadržaj iz stabla pristupačnosti i onemogućavaju čitačima ekrana pristup skrivenom sadržaju.
 
 ### --question--
 
 #### --text--
 
-Mti wa ufikikaji ni nini?
+Šta je stablo pristupačnosti?
 
 #### --distractors--
 
-Uwiano wa kuona wa mpangilio wa ukurasa wa mtandao.
+Vizuelni odnos/proporcije rasporeda web stranice.
 
----
+[No Swahili text provided.]
 
-Muundo unaotumiwa na visomaji vya skrini kusoma maudhui ya maandishi ya ukurasa wa mtandao.
+Struktura koja se koristi od strane čitača ekrana za čitanje tekstualnog sadržaja veb stranice.
 
----
+[No Swahili text provided.]
 
-Nakili ya mti wa DOM.
+Kopija drva od DOM.
 
 #### --answer--
 
-Muundo unaotumiwa na visomaji vya skrini kufasiri na kuingiliana na maudhui kwenye ukurasa wa mtandao.
+Struktura koja je korišćena od strane čitača ekrana za interpretaciju i interakciju sa sadržajem na web stranici.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo inahakikisha kuwa picha ina upana wa kiwango cha chini cha `400px`, lakini inapanuka zaidi wakati upana wa eneo la kuona ni zaidi ya `1000px`?
+Koji od sljedećih osigurava da slika ima minimalnu širinu od `400px`, ali se više proširi kada je širina vidljivog područja veća od `1000px`?
 
 #### --distractors--
 
@@ -137,7 +137,7 @@ img {
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 img {
@@ -145,7 +145,7 @@ img {
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 img {
@@ -165,17 +165,17 @@ img {
 
 #### --text--
 
-Ni ipi kati ya thamani za `scroll-behavior` inayoelekeza tabia ya kuvinjari kwa utulivu?
+Koji od vrednosti `scroll-behavior` ukazuje ponašanje pregledača za stabilnost?
 
 #### --distractors--
 
 `auto`
 
----
+[No Swahili text provided.]
 
 `inherit`
 
----
+[No Swahili text provided.]
 
 `revert`
 
@@ -187,17 +187,17 @@ Ni ipi kati ya thamani za `scroll-behavior` inayoelekeza tabia ya kuvinjari kwa 
 
 #### --text--
 
-Ni kipengele gani kati ya zifuatazo kinatumika kugundua upendeleo wa mtumizi kuhusu michoro ya kusogea?
+Koja je karakteristika među sledećim koja se koristi za otkrivanje preferencija korisnika u vezi sa pokretnim grafikama?
 
 #### --distractors--
 
 `prefers-contrast`
 
----
+[No Swahili text provided.]
 
 `display-mode`
 
----
+[No Swahili text provided.]
 
 `animation`
 
@@ -209,42 +209,42 @@ Ni kipengele gani kati ya zifuatazo kinatumika kugundua upendeleo wa mtumizi kuh
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni tatizo la ufikikaji la sifa ya `placeholder` katika kipengele cha `input`?
+Koji od sledećih je problem pristupa/dostupnosti za svojstvo `placeholder` u elementu `input`?
 
 #### --distractors--
 
-Maandishi ya kiwakilishi yanazuia visomaji vya skrini kusoma maandishi ya lebo ya ingizo.
+Tekst naslovnika sprečava čitače ekrana da pročitaju tekst etikete polja za unos.
 
----
+[No Swahili text provided.]
 
-Maandishi ya kiwakilishi yanazuia visomaji vya skrini kusoma thamani ya ingizo.
+Tekst zamenača sprečava čitače ekrana da pročitaju vrednost unosa.
 
----
+[No Swahili text provided.]
 
-Maandishi ya kiwakilishi ni madogo mno kusomeka.
+Napisi skraćenica su previše mali za čitanje.
 
 #### --answer--
 
-Maandishi ya kiwakilishi yanaweza kuchanganywa na thamani halisi ya ingizo.
+Predstavljajući tekst može se kombinovati sa stvarnom vrednošću unosa.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `hidden` hufanya nini?
+Svojstvo `hidden`, šta radi?
 
 #### --distractors--
 
-Huficha maudhui na kuonyesha wakati wa kupeleka kipanya juu.
+Skriv sadržaj i prikazuj kada se miša pređe preko njega.
 
----
+[No Swahili text provided.]
 
-Huficha maudhui tu kutoka kwenye mti wa ufikikaji.
+Skriva sadržaj samo sa stabla pristupa.
 
----
+[No Swahili text provided.]
 
-Huficha maudhui kwa kuona, lakini maudhui yapo kwenye mti wa ufikikaji.
+Sakrij sadržaj za pregled, ali se sadržaj nalazi na grani pristupačnosti.
 
 #### --answer--
 
-Huficha maudhui kwa kuona na pia kutoka kwenye mti wa ufikikaji.
+Sakrij sadržaj takođe vidljivo i sa grane navigacije.

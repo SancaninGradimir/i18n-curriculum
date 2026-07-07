@@ -8,13 +8,13 @@ dashedName: tuples
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu tuple katika Python na jinsi zinavyotofautiana na orodha.
+U ovom videu, naučićete se o tupelima u Python i kako se razlikuju od lista.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuunda tuple?
+Koji od sljedećih načina je ispravan način za kreiranje tupa?
 
 ## --answers--
 
@@ -22,19 +22,19 @@ Ni ipi kati ya zifuatazo njia sahihi ya kuunda tuple?
 coordinates = [4, 5]
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 coordinates = (4, 5)
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 coordinates = <4, 5>
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 coordinates = /4, 5/

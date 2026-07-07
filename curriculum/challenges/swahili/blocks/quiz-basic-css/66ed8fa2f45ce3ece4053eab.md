@@ -1,13 +1,13 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: Jaribio fupi la misingi ya CSS
+title: Pokušaj sa osnovama CSS-a
 challengeType: 8
 dashedName: quiz-basic-css
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,19 +17,19 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-CSS inasimamia nini?
+CSS šta upravlja?
 
 #### --distractors--
 
-Cascading Style Script
+Kaskadni stilski skript
 
----
+[No Swahili text provided.]
 
-Concatenating Style Script
+Konkatenacija Stil Skeripte
 
----
+[No Swahili text provided.]
 
-Castor Sage Style
+Kastor Vile Stil
 
 #### --answer--
 
@@ -39,17 +39,17 @@ Cascading Style Sheets
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni sheria sahihi ya CSS?
+Koji od sledećih je tačno pravilo za CSS?
 
 #### --distractors--
 
 `p=red`
 
----
+[No Swahili text provided.]
 
 `p (color: red)`
 
----
+[No Swahili text provided.]
 
 `{p color: red;}`
 
@@ -61,39 +61,39 @@ Ni ipi kati ya zifuatazo ni sheria sahihi ya CSS?
 
 #### --text--
 
-`<meta name="viewport">` hufanya nini?
+`<meta name="viewport">` šta radiš?
 
 #### --distractors--
 
-Inaunganisha majalada ya mitindo ya nje na ukurasa wa mtandao kwa muundo unaobadilika.
+Povezuje eksterne stilizovane galerije i veb stranicu sa dinamičnim dizajnom.
 
----
+[No Swahili text provided.]
 
-Inaeleza metadata inayotumika na mashine za utafutaji kuorodhesha ukurasa wa mtandao.
+Opisuje metadata koja se koristi od strane pretraživača za indeksiranje web stranice.
 
----
+[No Swahili text provided.]
 
-Inaeleza usimbaji wa herufi unaotumika kwenye ukurasa wa mtandao.
+Objašnjava kodiranje znakova koje se koristi na web stranici.
 
 #### --answer--
 
-Inadhibiti umbo na ukubwa wa ukurasa wa mtandao kwenye saizi tofauti za skrini.
+Kontroliše oblik i veličinu web stranice na različitim veličinama ekrana.
 
 ### --question--
 
 #### --text--
 
-Sintaksia gani ni sahihi kutumia CSS ndani ya mstari?
+Koja je sintaksa pravilna za korišćenje CSS unutar linije?
 
 #### --distractors--
 
 `<p color =  blue></p>`
 
----
+[No Swahili text provided.]
 
 `<p><style = blue></p>`
 
----
+[No Swahili text provided.]
 
 `p {color: blue;}`
 
@@ -105,39 +105,39 @@ Sintaksia gani ni sahihi kutumia CSS ndani ya mstari?
 
 #### --text--
 
-Unapotumia CSS ya ndani, kipengele cha `style` kimewekwa wapi ndani ya HTML?
+Koristeći interni CSS, gde je element `style` postavljen unutar HTML?
 
 #### --distractors--
 
-Ndani ya kipengele cha `meta`.
+Unutar elementa `meta`.
 
----
+[No Swahili text provided.]
 
-Ndani ya kipengele cha `script`.
+Unutar elementa `script`.
 
----
+[No Swahili text provided.]
 
-Ndani ya kipengele cha `body`.
+Unutar elementa `body`.
 
 #### --answer--
 
-Ndani ya kipengele cha `head`.
+Unutar elementa `head`.
 
 ### --question--
 
 #### --text--
 
-Ni sheria gani sahihi ya kuweka upana na urefu katika CSS?
+Koja je pravilna pravila za postavljanje širine i visine u CSS?
 
 #### --distractors--
 
 `height-width: 50px;`
 
----
+[No Swahili text provided.]
 
 `width-and-height: 50px;`
 
----
+[No Swahili text provided.]
 
 `flex-width: 50px; flex-height: 50px;`
 
@@ -149,17 +149,17 @@ Ni sheria gani sahihi ya kuweka upana na urefu katika CSS?
 
 #### --text--
 
-Kichaguzi gani kinawalenga vipengele vya `h1` tu wakati viko ndani ya `div`?
+Koji selektor cilja na elemente `h1` samo kada su unutar `div`?
 
 #### --distractors--
 
 `div, h1 {}`
 
----
+[No Swahili text provided.]
 
 `div ~ h1 {}`
 
----
+[No Swahili text provided.]
 
 `div + h1 {}`
 
@@ -171,17 +171,17 @@ Kichaguzi gani kinawalenga vipengele vya `h1` tu wakati viko ndani ya `div`?
 
 #### --text--
 
-Kichaguzi gani ni sahihi kuwafikia watoto wa moja kwa moja wa `footer`?
+Koje birače je pravilno kontaktirati direktne potomke od `footer`?
 
 #### --distractors--
 
 `footer ~ ul {}`
 
----
+[No Swahili text provided.]
 
 `footer + ul {}`
 
----
+[No Swahili text provided.]
 
 `footer ul {}`
 
@@ -193,17 +193,17 @@ Kichaguzi gani ni sahihi kuwafikia watoto wa moja kwa moja wa `footer`?
 
 #### --text--
 
-Kichaguzi gani ni sahihi kuwafikia ndugu wa karibu wa `img`?
+Koja je prava metoda za kontaktiranje bliskih rođaka `img`?
 
 #### --distractors--
 
 `img h1 {}`
 
----
+[No Swahili text provided.]
 
 `img > h1 {}`
 
----
+[No Swahili text provided.]
 
 `img ~ h1 {}`
 
@@ -215,17 +215,17 @@ Kichaguzi gani ni sahihi kuwafikia ndugu wa karibu wa `img`?
 
 #### --text--
 
-Kichaguzi gani ni sahihi kuwafikia ndugu wote waliotanguliwa na kipengele cha `img`?
+Koje je pravo da stignemo do svih braće koje su prethodno bile dostupne sa elementom `img`?
 
 #### --distractors--
 
 `img > caption {}`
 
----
+[No Swahili text provided.]
 
 `img caption {}`
 
----
+[No Swahili text provided.]
 
 `img + caption {}`
 
@@ -237,61 +237,61 @@ Kichaguzi gani ni sahihi kuwafikia ndugu wote waliotanguliwa na kipengele cha `i
 
 #### --text--
 
-Ni tamko gani NI SAHIHI kuhusu vipengele vya ngazi ya block?
+Koja je izjava/informacija o karakteristikama na nivou bloka?
 
 #### --distractors--
 
-Vipengele vya ngazi ya block huwekwa wima kwa chaguo-msingi.
+Elementi na nivou bloka su podrazumevano postavljeni vertikalno.
 
----
+[No Swahili text provided.]
 
-Sifa za `width` na `height` kawaida hazitumiki kwa vipengele vya ngazi ya block isipokuwa ukipanga sifa yao ya `display` kuwa `inline-block`.
+Svojstva za `width` i `height` obično se ne koriste za elemente nivoa bloka, osim ako ne postavite njihovo svojstvo od `display` na `inline-block`.
 
----
+[No Swahili text provided.]
 
-Vipengele vya ngazi ya block haviwezi kuwa na vipengele vya mstari mmoja ndani yao.
+Komponente nivoa bloka ne mogu sadržavati jednolinijske komponente unutar sebe.
 
 #### --answer--
 
-Vipengele vya ngazi ya block huanza kwenye mstari mpya na huchukua upana mzima wa kontena lao.
+Elementi blok nivoa počinju na novom redu i zauzimaju punu širinu svog kontejnera.
 
 ### --question--
 
 #### --text--
 
-Ni tamko gani NI SAHIHI unapotumia thamani ya `inline-block`?
+Ne koristi neispravnu vrednost kada koristiš `inline-block`?
 
 #### --distractors--
 
-Vipengele huwekwa wima, kila mara vikichukua upana mzima wa kontena lao.
+Predmeti se postavljaju vertikalno, uvek zauzimajući celu širinu svog kontejnera.
 
----
+[No Swahili text provided.]
 
-Vipengele huunganishwa wima lakini haviwezi kutumia nafasi ya ndani au ukingo wima.
+Elementi su povezani vertikalno, ali ne mogu da koriste unutrašnji prostor niti vertikalnu ivicu.
 
----
+[No Swahili text provided.]
 
-Vipengele hufuata mipangilio ya upana na urefu lakini haviwezi kuwa na vipengele vingine ndani yao.
+Elementi prate podešavanja širine i visine, ali ne mogu sadržavati druge elemente unutar sebe.
 
 #### --answer--
 
-Vipengele huendelea kuwa ndani ya mstari mmoja lakini huruhusu kuweka upana na urefu.
+Elementi ostaju unutar jedne linije, ali omogućavaju podešavanje širine i visine.
 
 ### --question--
 
 #### --text--
 
-Kichaguzi kipi kina sifa ya juu zaidi kati ya vifuatavyo?
+Koji selektor ima najbolju specifikaciju među sljedećim?
 
 #### --distractors--
 
 `div`
 
----
+[No Swahili text provided.]
 
 `h1`
 
----
+[No Swahili text provided.]
 
 `p`
 
@@ -303,17 +303,17 @@ Kichaguzi kipi kina sifa ya juu zaidi kati ya vifuatavyo?
 
 #### --text--
 
-Kichaguzi kipi kina sifa ya chini zaidi kati ya vifuatavyo?
+Koja je najniža karakteristika među sledećim?
 
 #### --distractors--
 
 `#id`
 
----
+[No Swahili text provided.]
 
 `.class`
 
----
+[No Swahili text provided.]
 
 `div h1`
 
@@ -325,23 +325,23 @@ Kichaguzi kipi kina sifa ya chini zaidi kati ya vifuatavyo?
 
 #### --text--
 
-Kichaguzi cha `*` hufanya nini?
+Šta radi Kichaguzi za `*`?
 
 #### --distractors--
 
-Hulenga baadhi ya vipengele kwenye ukurasa.
+Cilja na neke elemente na stranici.
 
----
+[No Swahili text provided.]
 
-Hulenga vipengele vyenye watoto kwenye ukurasa.
+Ciljajte elemente sa potomkom na stranici.
 
----
+[No Swahili text provided.]
 
-Hulenga vipengele vyote vya `p` kwenye ukurasa.
+Selektujte sve elemente od `p` na stranici.
 
 #### --answer--
 
-Hulenga vipengele vyote kwenye ukurasa.
+Odaberi sve elemente na stranici.
 
 ### --question--
 
@@ -351,57 +351,57 @@ Hulenga vipengele vyote kwenye ukurasa.
 
 #### --distractors--
 
-Hufanya sheria ya CSS ifanye kazi kwa kipekee kwa mitindo ya ndani ya mstari na kupuuza mitindo iliyotangazwa kwenye majalada ya mitindo ya nje au ya ndani.
+Pravilo CSS radi isključivo za inline stilove i ignoriše stilove definisane u eksternim ili internim listovima stilova.
 
----
+[No Swahili text provided.]
 
-Huzuia sifa nyingine zote za CSS zilizotumika kwa kipengele hicho, na kufanya sheria hii iwe pekee inayobadilisha mtindo wa kipengele.
+Onemogućava sve ostale atribute za CSS koji su korišćeni za taj element, i čini ovo pravilo jedinim koje menja stil elementa.
 
----
+[No Swahili text provided.]
 
-Hutumika kwa kichaguzi fulani au kundi la vipengele.
+Služi za određeni selektor ili grupu komponenti.
 
 #### --answer--
 
-Hughairi thamani nyingine yoyote iliyotumika kwa sifa hiyo kwa kichaguzi hicho.
+Ne koristiti nijednu drugu vrednost koja je primenjena na taj atribut za ovaj izbor/biranje.
 
 ### --question--
 
 #### --text--
 
-Algoriti ya CSS Cascade hufanya kazi vipi?
+Kako funkcioniše algoritama CSS Cascade?
 
 #### --distractors--
 
-Huamua mitindo ya kipengele kulingana na mpangilio wa tamko, bila kuzingatia mambo mengine.
+Određuje stil elementa prema redosledu izgovora, bez obzimanja od drugih faktora.
 
----
+[No Swahili text provided.]
 
-Hutumia mitindo kulingana na mpangilio wa kuandikwa tu, bila kuzingatia sifa.
+Koristi šablone samo prema redosledu pisanja, bez obzira na karakteristike.
 
----
+[No Swahili text provided.]
 
-Hutumia mitindo kwa kuzingatia sifa pekee, bila kuzingatia asili na umuhimu.
+Koristiš stilove samo uzimajući u obzir karakteristike, bez obzira na poreklo i značaj.
 
 #### --answer--
 
-Huamua mitindo ya kipengele kulingana na sifa na mpangilio wa tamko.
+Određuje stilove elemenata prema atributima i redosledu izgovora.
 
 ### --question--
 
 #### --text--
 
-Ni sheria gani hutumia `32px` ya ukingo kwa pande zote?
+Koje pravilo koristi `32px` za sve strane?
 
 #### --distractors--
 
 `margin-top: 32px;`
 
----
+[No Swahili text provided.]
 
 `margin: 32px 0;`
 
----
+[No Swahili text provided.]
 
 `margin: 0 32px;`
 
@@ -413,17 +413,17 @@ Ni sheria gani hutumia `32px` ya ukingo kwa pande zote?
 
 #### --text--
 
-Ni sheria gani hutumia `24px` ya nafasi ya ndani juu na chini?
+Koje je pravilo koje koristi `24px` za unutrašnji prostor gore i dole?
 
 #### --distractors--
 
 `padding: 24px;`
 
----
+[No Swahili text provided.]
 
 `padding-top-bottom: 24px;`
 
----
+[No Swahili text provided.]
 
 `padding: 0 24px;`
 
@@ -435,23 +435,23 @@ Ni sheria gani hutumia `24px` ya nafasi ya ndani juu na chini?
 
 #### --text--
 
-Kwa `padding: 10px 20px 30px 40px`, ni mpangilio gani sahihi wa thamani?
+Za `padding: 10px 20px 30px 40px`, koji je ispravan format vrednosti?
 
 #### --distractors--
 
-Kulia, Juu, Kushoto, Chini.
+Desno, Gore, Levo, Dole.
 
----
+[No Swahili text provided.]
 
-Juu, Kushoto, Chini, Kulia.
+Gore, Levo, Dole, Desno.
 
----
+[No Swahili text provided.]
 
-Juu, Chini, Kulia, Kushoto.
+Gore, Dole, Desno, Levo.
 
 #### --answer--
 
-Juu, Kulia, Chini, Kushoto.
+Gore, Desno, Dole, Levo.
 
 ## --quiz--
 
@@ -459,29 +459,29 @@ Juu, Kulia, Chini, Kushoto.
 
 #### --text--
 
-Sehemu kuu za sheria ya CSS ni zipi?
+Glavni dijelovi propisa CSS jesu li?
 
 #### --distractors--
 
-Vipengele na sifa za kipengele
+Karakteristike i svojstva elementa
 
----
+[No Swahili text provided.]
 
-Mitindo na majalada
+Stili i uzorci
 
----
+[No Swahili text provided.]
 
-Scripts na thamani
+Skripte na thamani
 
 #### --answer--
 
-Vichaguzi na sehemu za tamko
+Glasači i delovi deklaracije
 
 ### --question--
 
 #### --text--
 
-Sintaksia gani sahihi kwa sheria ya CSS?
+Koja je tačna sintaksa za pravilo CSS?
 
 #### --distractors--
 
@@ -491,7 +491,7 @@ body [
 ]
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 font-family {
@@ -499,7 +499,7 @@ font-family {
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 body {
@@ -519,39 +519,39 @@ body {
 
 #### --text--
 
-Mitindo ya kivinjari kwa chaguo-msingi ni nini?
+Šta su podrazumevani stilovi pregledača?
 
 #### --distractors--
 
-Vipengele vya HTML vyenye sifa za mtindo sawa bila kujali kivinjari.
+Elementi za HTML sa sličnim stilskim karakteristikama, bez obzira na pretraživač.
 
----
+[No Swahili text provided.]
 
-Ni mitindo muhimu unayopaswa kutumia kwa vipengele maalum vya HTML.
+Važni stilovi koje trebate koristiti za specifične komponente HTML.
 
----
+[No Swahili text provided.]
 
-Ni mandhari za rangi kwa vivinjari mbalimbali.
+Dizajni boja za različite pretraživače.
 
 #### --answer--
 
-Sheria za CSS ambazo vivinjari hutumia moja kwa moja.
+Pravila za CSS koja pretraživači koriste direktno.
 
 ### --question--
 
 #### --text--
 
-Thamani ya chaguo-msingi kwa sifa ya `width` ni ipi?
+Koja je zadajna vrednost za atribut `width`?
 
 #### --distractors--
 
 `none`
 
----
+[No Swahili text provided.]
 
 `0`
 
----
+[No Swahili text provided.]
 
 `100%`
 
@@ -563,61 +563,61 @@ Thamani ya chaguo-msingi kwa sifa ya `width` ni ipi?
 
 #### --text--
 
-Sifa ya `min-height` inaeleza nini?
+Šta atribut `min-height` opisuje?
 
 #### --distractors--
 
-Urefu wa kuanzia kwa kipengele.
+Početna dužina za element.
 
----
+[No Swahili text provided.]
 
-Urefu wa kipengele.
+Dužina elementa.
 
----
+[No Swahili text provided.]
 
-Urefu wa juu zaidi kwa kipengele.
+Maksimalna visina za element.
 
 #### --answer--
 
-Kiwango cha chini cha urefu kwa kipengele.
+Minimalna visina za element.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo NI SAHIHI kuhusu kichaguzi cha ulimwengu `*`?
+Koji od sljedećih JE ISPRAVNO o globalnom izboru `*`?
 
 #### --distractors--
 
-Ina sifa ya juu zaidi kwa sababu inaweza kutengeneza mitindo kwa vipengele vyote kwenye ukurasa.
+Ima najvišu funkcionalnost jer može kreirati stilove za sve elemente na stranici.
 
----
+[No Swahili text provided.]
 
-Inachangia 1 kwa sehemu zote za thamani ya sifa.
+Doprinosim 1 za sve dijelove vrijednosti atributa.
 
----
+[No Swahili text provided.]
 
-Haiwezi kuweka upya mitindo katika vivinjari tofauti.
+Ne možete resetovati stilove u različitim pregledačima.
 
 #### --answer--
 
-Ina thamani ya chini kabisa ya sifa kati ya vichaguzi vyote.
+Ima najnižu vrednost karakteristika među svim kandidatima.
 
 ### --question--
 
 #### --text--
 
-Kichaguzi gani kinawalenga vipengele vya `li` kwa ajili ya orodha iliyopangwa?
+Koji selektor cilja elemente `li` za strukturisani spisak?
 
 #### --distractors--
 
 `li {}`
 
----
+[No Swahili text provided.]
 
 `ul li {}`
 
----
+[No Swahili text provided.]
 
 `ol + li {}`
 
@@ -629,17 +629,17 @@ Kichaguzi gani kinawalenga vipengele vya `li` kwa ajili ya orodha iliyopangwa?
 
 #### --text--
 
-Kichaguzi gani kinawalenga vipengele vya aya vya kipengele cha `div`?
+Koji selektor cilja na elemente paragrafa komponente `div`?
 
 #### --distractors--
 
 `p div {}`
 
----
+[No Swahili text provided.]
 
 `div, p {}`
 
----
+[No Swahili text provided.]
 
 `p, div {}`
 
@@ -655,63 +655,63 @@ Kichaguzi gani kinawalenga vipengele vya aya vya kipengele cha `div`?
 
 #### --distractors--
 
-Nafasi ndani ya kipengele.
+Prostor unutar elementa.
 
----
+[No Swahili text provided.]
 
-Kati ya maudhui na mpaka.
+Između sadržaja i granice.
 
----
+[No Swahili text provided.]
 
-Kwenye mpaka wa kipengele.
+Na granici elementa.
 
 #### --answer--
 
-Nafasi nje ya kipengele.
+Prostor van elementa.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `padding` huweka mtindo wapi?
+Gde svojstvo `padding` postavlja stil?
 
 #### --distractors--
 
-Kati ya mpaka la kipengele na vipengele vinavyoizunguka.
+Između granice elementa i elemenata koji ga okružuju.
 
----
+[No Swahili text provided.]
 
-Nafasi nje ya kipengele.
+Prostor izvan elementa.
 
----
+[No Swahili text provided.]
 
-Kwenye mpaka wa kipengele.
+Na granici elementa.
 
 #### --answer--
 
-Nafasi ndani ya kipengele.
+Prostor unutar elementa.
 
 ### --question--
 
 #### --text--
 
-Ni tamko gani NI SI SAHIHI kuhusu vipengele vya ngazi ya block?
+Da li znate o komponentama na nivou bloka?
 
 #### --distractors--
 
-Vinaweza kunyoosha kufikia upana wa kontena lao.
+Može se istegnuti da dostigne širinu njihovog kontejnera.
 
----
+[No Swahili text provided.]
 
-Vipengele vya kawaida vya ngazi ya block ni `div`, `p`, na `section`.
+Standardni elementi nivoa bloka su `div`, `p`, i `section`.
 
----
+[No Swahili text provided.]
 
-Vipengele vya ngazi ya block huanza kwenye mstari mpya na huchukua upana mzima wa kontena lao.
+Elementi blok nivoa počinju na novom redu i zauzimaju punu širinu svog kontejnera.
 
 #### --answer--
 
-Haviwezi kuchukua upana mzima unaopatikana kwa sababu vimezuiwa kufanya hivyo.
+Ne možete uzeti celu dostupnu širinu jer vam je to onemogućeno.
 
 ### --question--
 
@@ -721,57 +721,57 @@ Ni tamko gani NI SI SAHIHI unapotumia thamani ya `inline-block`?
 
 #### --distractors--
 
-Vipengele vya `inline-block` hufanya kazi kama vipengele vya mstari mmoja.
+Elementi `inline-block` funkcionišu kao jednoredni elementi.
 
----
+[No Swahili text provided.]
 
-Vinaweza kuwa na sifa za `width` na `height`.
+Može imati karakteristike od `width` i `height`.
 
----
+[No Swahili text provided.]
 
-Vipengele huendelea kuwa ndani ya mstari mmoja lakini huruhusu kuweka `width` na `height`.
+Elementi ostaju unutar jedne linije, ali dozvoljavaju umetanje `width` i `height`.
 
 #### --answer--
 
-Hawashiriki sifa na vipengele vya mstari mmoja au vya ngazi ya block.
+Delive svojstva i elemente jedne linije ili nivoa bloka.
 
 ### --question--
 
 #### --text--
 
-Ni ipi NI SAHIHI kuhusu neno kuu la `!important`?
+Nije nično o glavnoj reči `!important`?
 
 #### --distractors--
 
-Zinatumika kutengeneza maoni kwa sifa muhimu ya CSS.
+Koristi se za kreiranje komentara o važnoj karakteristiku CSS.
 
----
+[No Swahili text provided.]
 
-Huhakikisha sifa ya CSS ina sintaksia sahihi.
+Proverite svojstvo CSS da ima ispravnu sintaksu.
 
----
+[No Swahili text provided.]
 
-Hufanya sheria za CSS ziwe rahisi kudumishwa.
+To čini da pravila za CSS budu laka za održavanje.
 
 #### --answer--
 
-Hughairi sifa za vichaguzi vingine.
+Hughairi o osobinama drugih birača.
 
 ### --question--
 
 #### --text--
 
-Ni tabia gani huandamana na jina la kichaguzi cha darasa la vitu?
+Koja osobina prati naziv selektora klase objekata?
 
 #### --distractors--
 
 `#`
 
----
+[No Swahili text provided.]
 
 `$`
 
----
+[No Swahili text provided.]
 
 `*`
 
@@ -787,57 +787,57 @@ Ni ipi NI SI SAHIHI kuhusu vipengele vya ngazi ya mstari mmoja?
 
 #### --distractors--
 
-Vinachukua nafasi tu wanayohitaji.
+Uzimaju samo prostor koji im treba.
 
----
+[No Swahili text provided.]
 
-Haviwezi kuanza kwenye mstari mpya.
+Ne možete početi na novoj liniji.
 
----
+[No Swahili text provided.]
 
-Vipengele vya kawaida vya mstari mmoja ni `span` na `img`.
+Standardni elementi jedne linije su `span` i `img`.
 
 #### --answer--
 
-Huwaanza kila mara kwenye mstari mpya.
+Uvek počinje na novoj liniji.
 
 ### --question--
 
 #### --text--
 
-Mitindo ya ndani ya CSS hupatikaje?
+Kako doći do unutrašnjih stilova CSS?
 
 #### --distractors--
 
-Ni mitindo muhimu kwa mradi, hivyo haishirikiwa nje.
+Ovo su važne stilove za projekat, pa se ne dele spolja.
 
----
+[No Swahili text provided.]
 
-Kwa kuwa ni msingi wa mtindo wa mradi, huhifadhiwa kwenye faili la `styles.css` ili kurasa nyingine za mtandao ziweze kuifikia.
+Pošto je to osnova projektnog šablona, sačuvano je u fajl `styles.css` kako bi druge veb stranice mogle da mu pristupe.
 
----
+[No Swahili text provided.]
 
-Huhifadhiwa ndani ya kipengele cha `body` wakati kuna ukurasa mmoja tu wa mtandao wa kupangilia.
+Sačuvan je unutar elementa `body` kada postoji samo jedna stranica za raspoređivanje mreže.
 
 #### --answer--
 
-Inaandikwa ndani ya sehemu ya `style` ndani ya kipengele cha `head`.
+Napisano je unutar dela `style` u komponenti `head`.
 
 ### --question--
 
 #### --text--
 
-Ni mpangilio gani wa sifa ya `padding` unapotumia sintaksia fupi?
+Koja je konfiguracija atributa `padding` kada koristite kratku sintaksu?
 
 #### --distractors--
 
 `top`, `bottom`, `left`, `right`
 
----
+[No Swahili text provided.]
 
 `left`, `right`, `top`, `bottom`
 
----
+[No Swahili text provided.]
 
 `right`, `top`, `left`, `bottom`
 
@@ -849,17 +849,17 @@ Ni mpangilio gani wa sifa ya `padding` unapotumia sintaksia fupi?
 
 #### --text--
 
-Ni mpangilio gani wa sifa ya `margin` unapotumia sintaksia fupi?
+Šta je podešavanje atributa `margin` kada koristite kratku sintaksu?
 
 #### --distractors--
 
 `left`, `right`, `top`, `bottom`
 
----
+[No Swahili text provided.]
 
 `right`, `top`, `left`, `bottom`
 
----
+[No Swahili text provided.]
 
 `top`, `bottom`, `left`, `right`
 
@@ -871,39 +871,39 @@ Ni mpangilio gani wa sifa ya `margin` unapotumia sintaksia fupi?
 
 #### --text--
 
-Mitindo ya ndani ya mstari wa CSS hutumika kwa nini?
+Zašto se koriste interni stilovi linije CSS?
 
 #### --distractors--
 
-Hutumiwa kutengeneza mitindo kwa vipengele vya mstari mmoja tu.
+Koristi se za kreiranje šablona samo za jedan linijski element.
 
----
+[No Swahili text provided.]
 
-Hutumiwa kutengeneza mitindo kwa vipengele tu wakati vyote viko kwenye mstari mmoja wa eneo la kuona la kivinjari.
+Koristi se za stilizovanje komponenata samo kada su sve na jednoj liniji unutar vidljivog područja pregledača.
 
----
+[No Swahili text provided.]
 
-Hutumiwa kutatua tatizo la mgawanyiko wa majukumu.
+Koristi se za rešavanje problema raspodele odgovornosti.
 
 #### --answer--
 
-Hutumiwa kutengeneza mitindo moja kwa moja ndani ya kipengele, badala ya kutumia CSS ya ndani au ya nje.
+Koristi se za kreiranje stilova direktno unutar elemenata, umesto korišćenja CSS interno ili eksterno.
 
 ### --question--
 
 #### --text--
 
-Ni alama gani huandamana na kichaguzi cha ID?
+Koji znak prati polje za ID?
 
 #### --distractors--
 
 `.`
 
----
+[No Swahili text provided.]
 
 `*`
 
----
+[No Swahili text provided.]
 
 `$`
 

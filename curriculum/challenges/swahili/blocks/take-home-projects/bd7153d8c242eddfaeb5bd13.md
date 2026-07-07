@@ -1,6 +1,6 @@
 ---
 id: bd7153d8c242eddfaeb5bd13
-title: Jenga mchezo wa roguelike wa kuchunguza ngome
+title: Izgradite roguelike igru za istraživanje tvrđave
 challengeType: 3
 forumTopicId: 302355
 dashedName: build-a-roguelike-dungeon-crawler-game
@@ -8,17 +8,17 @@ dashedName: build-a-roguelike-dungeon-crawler-game
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
+**Cilj:** Izgradite program koji radi ovako: <a href="https://codepen.io/freeCodeCamp/full/apLXEJ/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/apLXEJ/</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Završite korisničke priče ispod i prođite sve testove/specifikacije. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-**Hadithi ya mtumiaji:** Nina afya, ngazi, na silaha. Naweza kuchukua silaha bora zaidi. Naweza kuchukua vitu vya afya.
+**Priča korisnika:** Imam zdravlje, nivo i oružje. Mogu uzeti bolje oružje. Mogu uzeti predmete za zdravlje.
 
-**Hadithi ya mtumiaji:** Vitu vyote na maadui kwenye ramani vimepangwa kwa bahati nasibu.
+**Priča korisnika:** Svi predmeti i neprijatelji na mapi su nasumično raspoređeni.
 
-**Hadithi ya mtumiaji:** Naweza kusogea kwenye ramani, kugundua vitu.
+**Priča korisnika:** Mogu se kretati po mapi i otkriti predmete.
 
-**Hadithi ya mtumiaji:** Naweza kusogea popote ndani ya mipaka ya ramani, lakini siwezi kupita maadui hadi niwashinde.
+**Priča korisnika:** Mogu se kretati bilo gde unutar granica mape, ali ne mogu da prođem pored neprijatelja dok ih ne pobedim.
 
 **Hadithi ya mtumiaji:** Sehemu kubwa ya ramani imefichwa. Ninapochukua hatua, nafasi zote zilizo ndani ya idadi fulani ya nafasi kutoka kwangu zinafunuliwa.
 
@@ -26,13 +26,13 @@ Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia mak
 
 **Hadithi ya mtumiaji:** Ninapopigana na adui, tunachukua zamu kuumizana hadi mmoja wetu apoteze. Mimi huumiza kulingana na ngazi yangu na silaha yangu. Adui huumiza kulingana na ngazi yake. Uumizaji ni wa bahati nasibu ndani ya kiwango fulani.
 
-**Hadithi ya mtumiaji:** Ninapompata na kumshinda bosi, ninashinda.
+**Priča korisnika:** Kada ga pronađem i pobedim bossa, ja pobeđujem.
 
-**Hadithi ya mtumiaji:** Mchezo unapaswa kuwa na changamoto, lakini kwa nadharia unaweza kushindaniwa.
+**Priča korisnika:** Igra bi trebalo da ima izazov, ali u teoriji ga je moguće pobediti.
 
-Ukiisha, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada završiš, ubaci link svog projekta na CodePen i klikni na dugme „Završio sam ovaj izazov“.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu tako što ćete ga podeliti na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

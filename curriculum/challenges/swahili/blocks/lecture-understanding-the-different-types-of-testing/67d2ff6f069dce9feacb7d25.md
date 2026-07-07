@@ -9,7 +9,7 @@ dashedName: what-is-compatibility-testing
 
 Unapojenga programu za mtandao kwa kiwango kikubwa, utahitaji kufikiria zaidi ya mazingira yako binafsi ya kompyuta. Je, programu hizi zitafanya kazi vipi kwenye vifaa mbalimbali, mifumo ya uendeshaji, na vivinjari? Hapa ndipo upimaji wa ulinganifu unapoingia.
 
-Lengo la upimaji wa ulinganifu ni kuona jinsi programu zako zinavyofanya kazi vizuri katika mazingira tofauti ya kompyuta. Hii huwapa timu uwezo wa kugundua hitilafu kabla hazijafika kwenye uzalishaji na itasaidia kuchangia uzinduzi laini wa bidhaa.
+Cilj kompatibilnog testiranja je da se vidi kako vaše aplikacije rade dobro u različitim računarskim okruženjima. Ovo daje timovima mogućnost otkrivanja grešaka pre nego što stignu do produkcije i pomoći će u glatkom lansiranju proizvoda.
 
 Aina tofauti za upimaji wa ulinganifu ni pamoja na ulinganifu wa nyuma na wa mbele, upimaji wa vifaa, mifumo ya uendeshaji, mitandao, vivinjari, na vifaa vya mkononi.
 
@@ -19,13 +19,13 @@ Aina inayofuata ya upimaji ni kwa ajili ya vifaa. Upimaji wa ulinganifu wa vifaa
 
 Aina nyingine ya upimaji wa ulinganifu ni kwa mifumo ya uendeshaji. Hutaki kubuni programu inayofanya kazi vizuri kwenye vifaa vya Mac lakini ina hitilafu kwenye Windows au kinyume chake. Pia unahitaji kuzingatia usambazaji wa Linux kama Ubuntu na Fedora.
 
-Aina inayofuata ya upimaji ni upimaji wa ulinganifu wa mitandao. Utakuwa na watumizi wanaofanya kazi na kasi tofauti za mtandao, itifaki, mipangilio ya usalama, na zaidi. Kwa hivyo, timu za programu zitahitaji kuwa makini na hali zote hizi tofauti wakati wa kupima.
+Sljedeći faza testiranja je testiranje mrežne kompatibilnosti. Imaćete korisnike koji rade sa različitim brzinama mreže, protokolima, sigurnosnim podešavanjima i više. Stoga, razvojni timovi će morati da budu pažljivi u svim ovim različitim uslovima tokom testiranja.
 
-Kisha, kuna upimaji wa ulinganifu wa vivinjari. Kuna vivinjari maarufu kadhaa sokoni kama Google Chrome, Safari, Firefox, na vingine. Kwa kuwa vivinjari vyote hufanya kazi kwa njia tofauti kidogo, ni muhimu kupima programu yako ya mtandao kwa kina na kuhakikisha programu zako za mtandao zinafanya kazi kwa uthabiti katika vivinjari vingi.
+Zatim, postoji testiranje kompatibilnosti pretraživača. Na tržištu postoji nekoliko popularnih pregledača kao što su Google Chrome, Safari, Firefox i drugi. Pošto svi pregledači rade malo drugačije, važno je detaljno testirati vašu web aplikaciju i osigurati da vaše veb aplikacije pouzdano funkcionišu u više pregledača.
 
-Aina ya mwisho ya upimaji ni upimaji wa vifaa vya mkononi. Kulikuwa na wakati katika ukuzaji wa mtandao ambapo wasanidi programu wengi hawakufikiria kupima kwa ajili ya vifaa vya mkononi. Hii ilikuwa kwa sababu, mwanzoni mwa miaka ya 2000, vifaa vya mkononi havikuwa na nguvu au kutumika sana kama ilivyo leo. Lakini sasa, mamilioni ya watu hutembelea tovuti kwa kutumia simu na vidonge. Kwa hivyo, ni muhimu kuhakikisha kuwa programu zako zinafanya kazi kwenye aina mbalimbali za vifaa vya Android na iOS.
+Zadnja vrsta testiranja je testiranje na mobilnim uređajima. Postojalo je vreme u web razvoju kada mnogi programeri nisu razmišljali o testiranju za mobilne uređaje. To je bilo zato što, početkom 2000-ih godina, mobilni uređaji nisu bili toliko moćni niti široko korišćeni kao danas. Ali sada, milioni ljudi posećuju sajtove koristeći telefone i tablete. Stoga je važno osigurati da vaše aplikacije rade na različitim vrstama uređaja za Android i iOS.
 
-Hizo ni baadhi tu ya aina za upimaji utakazohitaji kuzingatia unapoendelea kujenga programu zako. Ingawa hii inaweza kuonekana kama kazi ya ziada, ni muhimu kufanya upimaji wa ulinganifu kwa sababu unataka kuhakikisha programu zako zinafanya kazi katika mazingira mbalimbali ya kompyuta.
+Ovo su samo neki tipovi testiranja koje ćete morati uzeti u obzir dok nastavite da gradite svoje programe. Iako ovo može izgledati kao dodatni posao, važno je obaviti testiranje kompatibilnosti jer želite da osigurate da vaši programi rade u različitim računarskim okruženjima.
 
 # --questions--
 
@@ -35,31 +35,31 @@ Lengo kuu la upimaji wa ulinganifu ni lipi?
 
 ## --answers--
 
-Kuhakikisha kuwa programu zako hazina makosa ya upatikanaji.
+Osigurati da vaši programi nemaju greške pristupa.
 
 ### --feedback--
 
-Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
+Vratite se na početak lekcije gde je ovo diskutovano.
 
----
+[No Swahili text provided.]
 
-Kuhakikisha kuwa programu zako hazina makosa ya linting na muundo.
-
-### --feedback--
-
-Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
-
----
-
-Kuhakikisha kuwa programu zako zinafanya kazi katika mazingira mbalimbali ya kompyuta.
-
----
-
-Kuhakikisha kuwa programu zako zinafanya kazi tu kwa usambazaji tofauti wa Linux.
+Osigurajte da vaši programi nemaju linting greške i probleme sa strukturom.
 
 ### --feedback--
 
-Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
+Vratite se na početak lekcije gde je ovo diskutovano.
+
+[No Swahili text provided.]
+
+Osigurati da vaši programi funkcionišu u različitim računarskim okruženjima.
+
+[No Swahili text provided.]
+
+Osigurati da vaše aplikacije rade samo na različitim Linux distribucijama.
+
+### --feedback--
+
+Vratite se na početak lekcije gde je ovo diskutovano.
 
 ## --video-solution--
 
@@ -67,35 +67,35 @@ Rejelea mwanzo wa funzo ambapo hili lilijadiliwa.
 
 ## --text--
 
-Ni ipi kati ya zifuatazo inahusu wakati programu za sasa zina ulinganifu na matoleo ya awali?
+Koja od sledećih se tiče kada su trenutne verzije softvera kompatibilne sa prethodnim izdanjima?
 
 ## --answers--
 
-Ulinganifu wa prosesa (CPU)
+Ekvivalentnost procesora (CPU)
 
 ### --feedback--
 
-Fikiria jinsi programu itakavyofanya kazi na matoleo ya zamani.
+Razmislite kako će program da radi/funkcioniše sa starijim verzijama.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa upatikanaji
-
-### --feedback--
-
-Fikiria jinsi programu itakavyofanya kazi na matoleo ya zamani.
-
----
-
-Ulinganifu wa mbele
+Sinhronizacija dostupnosti
 
 ### --feedback--
 
-Fikiria jinsi programu itakavyofanya kazi na matoleo ya zamani.
+Razmislite kako će aplikacija funkcionisati sa starijim verzijama.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa nyuma
+Prednje poravnanje
+
+### --feedback--
+
+Razmislite kako će program da radi/funkcioniše sa starijim verzijama.
+
+[No Swahili text provided.]
+
+Stražnje poravnanje
 
 ## --video-solution--
 
@@ -103,35 +103,35 @@ Ulinganifu wa nyuma
 
 ## --text--
 
-Ni ipi kati ya zifuatazo HAIJALENGWA kawaida katika upimaji wa ulinganifu?
+Koja od sledećih stvari se obično NE radi u testiranju korelacije?
 
 ## --answers--
 
-Mifumo ya uendeshaji ya vifaa vya mkononi
+Sistemi operaterizacije mobilnih uređaja
 
 ### --feedback--
 
-Moja ya chaguzi hizi inahusu kumbukumbu ya kompyuta.
+Ovaj moj izbor se tiče memorije računara.
 
----
+[No Swahili text provided.]
 
-Ukubwa wa RAM
+Veličina RAM-a
 
----
+[No Swahili text provided.]
 
-Usanidi wa vifaa
-
-### --feedback--
-
-Moja ya chaguzi hizi inahusu kumbukumbu ya kompyuta.
-
----
-
-Mazingira ya mtandao
+Konfiguracija uređaja
 
 ### --feedback--
 
-Moja ya chaguzi hizi inahusu kumbukumbu ya kompyuta.
+Ovo odabrano iz opcija se tiče memorije računara.
+
+[No Swahili text provided.]
+
+Mrežno okruženje
+
+### --feedback--
+
+Moja od ovih opcija se tiče memorije računara.
 
 ## --video-solution--
 

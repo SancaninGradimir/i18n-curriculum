@@ -1,30 +1,30 @@
 ---
 id: 66cc1deb1f04647f2aabee2b
-title: Hatua 15
+title: Korak 15
 challengeType: 1
 dashedName: step-15
 ---
 
 # --description--
 
-Kama utaangalia kwenye konsoli, utaona thamani ya `Infinity`. `Infinity` ni thamani maalum katika JavaScript inayowakilisha nambari kubwa kuliko nambari nyingine yoyote.
+Kada pogledate u konzoli, videćete vrednost `Infinity`. `Infinity` je posebna vrednost u JavaScript koja predstavlja broj veći od bilo kog drugog broja.
 
-Mgawanyiko kwa sifuri si operesheni halali katika hisabati.
+Deljenje sa nulom nije validna operacija u matematici.
 
-Ili kushughulikia kesi hii ya kipekee, unapaswa kusahihisha kitendakazi chako cha `calculateQuotient` badala yake kihakikishe kama `num2` ni sifuri.
+Da biste obradili ovaj jedinstveni slučaj, trebalo bi da ispravite svoju funkciju od `calculateQuotient` umesto toga osiguravanjem da je `num2` nula.
 
-Kama ni hivyo, kitendakazi kinapaswa kurudisha mfuatano wa herufi `"Error: Division by zero"`. Vinginevyo, kinapaswa kurudisha matokeo ya kugawanya `num1` kwa `num2`.
+Ako je tako, funkcija treba da vrati niz karaktera `"Error: Division by zero"`. Inače, treba da vrati rezultat deljenja `num1` sa `num2`.
 
 # --hints--
 
-Kitendakazi chako cha `calculateQuotient` kinapaswa kurudisha mfuatano wa herufi `"Error: Division by zero"` ikiwa `num2` ni sifuri.
+Vaša funkcija za `calculateQuotient` treba da vrati string `"Error: Division by zero"` ako je `num2` nula.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 0), 'Error: Division by zero');
 assert.strictEqual(calculateQuotient(3, 0), 'Error: Division by zero');
 ```
 
-Kitendakazi chako cha `calculateQuotient` kinapaswa kurudisha matokeo ya kugawanya `num1` kwa `num2` ikiwa `num2` si sifuri.
+Tvoja funkcija za `calculateQuotient` treba da vrati rezultat deljenja `num1` sa `num2` ako `num2` nije nula.
 
 ```js
 assert.strictEqual(calculateQuotient(10, 2), 5);

@@ -1,6 +1,6 @@
 ---
 id: 69ae7684b4a814be6a4f2be9
-title: Mkaguzi wa MCP
+title: Inspektor MCP
 challengeType: 11
 videoId: OIr0TIWc0Bs
 dashedName: mcp-inspector
@@ -8,29 +8,29 @@ dashedName: mcp-inspector
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu Mkaguzi wa MCP.
+U ovom videu, naučićete o MCP inspektoru/revizoru.
 
 # --questions--
 
 ## --text--
 
-Kitendakazi kikuu cha Mkaguzi wa MCP ni kipi?
+Koja je glavna funkcija Inspektora MCP-a?
 
 ## --answers--
 
-Sehemu inayohifadhi seti za data na uingizaji kwa ajili ya upokezi.
+Sekcija koja skladišti setove podataka i unose za prijem.
 
----
+[No Swahili text provided.]
 
-Kipengele kinachotengeneza moja kwa moja maelekezo kwa programu za AI.
+Funkcija koja automatski generiše promptove za AI aplikacije.
 
----
+[No Swahili text provided.]
 
-Chombo kinachotumika kufundisha LLM mpya moja kwa moja kwenye seva ya MCP.
+Alat koji se koristi za treniranje novog LLM-a direktno na MCP serveru.
 
----
+[No Swahili text provided.]
 
-Vifaa vinavyotumika kuchunguza na kutafuta makosa kwenye seva na wateja wa MCP.
+Uređaji koji se koriste za proveru i pronalaženje grešaka na serverima i klijentima MCP-a.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae6a09b4a814be6a4f2bde
-title: "Je, hifadhidata za vector ni zipi?"
+title: Šta je vektorska baza podataka?
 challengeType: 11
 videoId: kCGgKYMam7o
 dashedName: what-are-vector-databases
@@ -8,29 +8,29 @@ dashedName: what-are-vector-databases
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu hifadhidata za vector.
+U ovom videu, naučićete o vektor bazama podataka.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI mfano wa algoriti maarufu ya kielezo?
+Koji od sledećih nije primer poznatog model algoritma?
 
 ## --answers--
 
-Database Indexing Algorithm (DIA)
+Algoritam indeksiranja baze podataka (DIA)
 
----
+[No Swahili text provided.]
 
 Hierarchical Navigable Small World (HNSW)
 
----
+[No Swahili text provided.]
 
-Inverted File Index (IVF)
+Inverzni indeks fajlova (IVF)
 
----
+[No Swahili text provided.]
 
-Locality-Sensitive Hashing (LSH)
+Lokalno osetljivo hešovanje (LSH)
 
 ## --video-solution--
 

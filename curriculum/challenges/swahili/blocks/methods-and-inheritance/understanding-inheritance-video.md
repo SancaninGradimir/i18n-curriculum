@@ -1,6 +1,6 @@
 ---
 id: 69ae9ce3a9e6da4eb0d5f7f8
-title: Kuelewa urithi
+title: Razumeti nasleđe
 challengeType: 11
 videoId: 5SehMN6vRgA
 dashedName: understanding-inheritance
@@ -8,29 +8,29 @@ dashedName: understanding-inheritance
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu urithi.
+U ovom videu, naučićete o nasleđu.
 
 # --questions--
 
 ## --text--
 
-Urithi ni nini?
+Šta je nasleđe?
 
 ## --answers--
 
-Uwezo wa darasa la watoto kupata sifa za kipengele na njia za darasa la mzazi.
+Sposobnost detetove klase da dobije atribute elementa i metode klase roditelja.
 
----
+[No Swahili text provided.]
 
-Njia ya kitu kufuta moja kwa moja sifa za kipengele za darasa la mzazi.
+Način na koji objekat automatski briše svojstva atributa roditeljske klase.
 
----
+[No Swahili text provided.]
 
-Mchakato ambapo darasa linaweza kutumia vigezo vya kimataifa tu.
+Proces gde klasa može da koristi samo globalne parametre.
 
----
+[No Swahili text provided.]
 
-Mchakato wa kunakili njia kutoka kwa kitu kimoja kwenda kwa kitu kingine kisichohusiana nacho.
+Proces kopiranja putanje sa jednog objekta na drugi objekat koji nije povezan s njim.
 
 ## --video-solution--
 

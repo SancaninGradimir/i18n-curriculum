@@ -1,6 +1,6 @@
 ---
 id: 672bbeaa5afdc5a98d5ab8ff
-title: Ni mifano gani ya darasa la bandia la eneo?
+title: Koja su primjeri umjetne/veštačke klase za područje?
 challengeType: 19
 dashedName: what-are-examples-of-location-pseudo-classes
 ---
@@ -36,9 +36,9 @@ a:link {
 
 :::
 
-Katika kesi hii, kiungo chochote ambacho mtumizi hajakibofya bado kitaonekana rangi ya magenta. Mara mtumizi anapobofya kiungo, mtindo wa `:link` hautatumika tena, na darasa la bandia la `:visited` linaanza kutumika. Darasa la bandia la `:visited` linaanza kufanya kazi baada ya mtumizi kubofya kiungo, hivyo unaweza kulitumia kulenga viungo ambavyo mtumizi tayari amevibofya.
+U ovom slučaju, bilo koji link koji korisnik još nije kliknuo biće vidljiv u boji magenta. Kada korisnik klikne na link, stil ``:link`` više se neće koristiti, a pseudo-klasa ``:visited`` počinje da deluje. Pseudo-klasa ``:visited`` postaje aktivna nakon što korisnik klikne na link, pa ga možete koristiti za ciljanje linkova koje je korisnik već kliknuo.
 
-Hapa kuna mfano wa kubadilisha hali ya kiungo kilichobofyanwa kuwa rangi ya `purple`:
+Ovo je primer za promenu stanja kliknutog elementa na boju `purple`:
 
 :::interactive_editor
 
@@ -78,9 +78,9 @@ a:any-link {
 
 Darasa la bandia la `:local-link` linalenga viungo vinavyoelekeza kwenye hati ile ile. Linaweza kuwa na manufaa unapotaka kutofautisha viungo vya ndani na viungo vya nje. Kwa sasa, hakuna kivinjari kinachounga mkono darasa la bandia la `:local-link`.
 
-Darasa la bandia la `:target` huchagua kipengele kinacholingana na kitambulisho cha kipande cha URL ya sasa, kwa mfano, `#section1`. Ni muhimu sana kwa kurasa zilizo na urambazaji ndani ya ukurasa.
+Sintetička klasa ``:target`` selektuje element koji odgovara ID-u trenutnog elementa `URL`, na primer, ``#section1``. Vrlo je važno za stranice sa internom navigacijom.
 
-Hapa kuna mfano wa HTML unaowakilisha urambazaji ndani ya ukurasa. CSS inatumia darasa la bandia la `:target` kupamba sehemu inayolingana na mahali mtumizi anapoelekezwa:
+Ovde je primer HTML koji predstavlja navigaciju unutar stranice. CSS koristi pseudo-klasu `:target` za stilizovanje sekcije koja odgovara mestu gde je korisnik upućen:
 
 :::interactive_editor
 
@@ -114,13 +114,13 @@ section:target {
 
 :::
 
-Mtumizi anapobofya moja ya viungo vya urambazaji, rangi ya nyuma ya sehemu husika itabadilika kuwa kijani.
+Kada korisnik klikne na jedan od navigacionih linkova, pozadinska boja odgovarajućeg dela će se promeniti u zelenu.
 
 # --questions--
 
 ## --text--
 
-Ni darasa gani la bandia linaloruhusu kupamba kipengele kinacholingana na kitambulisho cha kipande cha URL ya sasa, kama `#section1`?
+Šta je lažna klasa koja omogućava stilizovanje elementa koji odgovara ID-u trenutnog komada, kao što je URL, poput `#section1`?
 
 ## --answers--
 
@@ -128,27 +128,27 @@ Ni darasa gani la bandia linaloruhusu kupamba kipengele kinacholingana na kitamb
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viungo vya ndani ya ukurasa.
+Zamislite kako možete istaknuti određeni deo prilikom navigacije kroz interne linkove na stranici.
 
----
+[No Swahili text provided.]
 
 `:focus`
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viungo vya ndani ya ukurasa.
+Razmislite kako možete istaknuti određeni deo dok pretražujete pomoću internih linkova stranice.
 
----
+[No Swahili text provided.]
 
 `:target`
 
----
+[No Swahili text provided.]
 
 `:checked`
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viungo vya ndani ya ukurasa.
+Zamislite kako možete istaknuti određeni deo prilikom navigacije kroz interne linkove na stranici.
 
 ## --video-solution--
 
@@ -156,31 +156,31 @@ Fikiria jinsi unavyoweza kuangazia sehemu maalum wakati wa kuvinjari kupitia viu
 
 ## --text--
 
-Darasa la bandia hutumika lini hasa?
+Gde se veštačka učionica koristi, posebno?
 
 ## --answers--
 
-Wakati wa kupamba vipengele kulingana na uhusiano wao wa ndugu.
+Kada dekorisać elemente u skladu sa njihovim vezama/povezanjima.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na mwingiliano wa mtumizi.
+Razmislite kako možete prilagoditi linkove i ciljane komponente na osnovu interakcije korisnika.
 
----
+[No Swahili text provided.]
 
-Wakati wa kutumia mitindo kulingana na kama kiungo kimebofyanwa au kipengele kiko makini kwa sasa.
+Prilikom primene stilova na osnovu toga da li je link kliknut ili element trenutno fokusiran.
 
----
+[No Swahili text provided.]
 
-Wakati wa kupamba vipengele kulingana na sifa za kipengele cha mzazi.
+Kada se prilagođavaju elementi u skladu sa svojstvima roditeljskog elementa.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na mwingiliano wa mtumizi.
+Razmislite kako možete stilizovati ciljane linkove i elemente na osnovu interakcije korisnika.
 
----
+[No Swahili text provided.]
 
-Wakati wa kurekebisha mpangilio wa ukurasa wa mtandao kwa njia ya mabadiliko ya moja kwa moja.
+Prilikom izmene rasporeda web stranice putem direktnih promena.
 
 ### --feedback--
 
@@ -200,27 +200,27 @@ Ni darasa gani la bandia lililoundwa kulenga viungo vinavyoelekeza kwenye hati i
 
 ### --feedback--
 
-Fikiria darasa la bandia lililokusudiwa kutofautisha viungo vya ndani na viungo vya nje, ingawa bado halijaungwa mkono.
+Zamislite veštačku klasu dizajniranu da razlikuje unutrašnje i spoljašnje organe, iako još uvek nije podržana.
 
----
+[No Swahili text provided.]
 
 `:local-link`
 
----
+[No Swahili text provided.]
 
 `:visited`
 
 ### --feedback--
 
-Fikiria darasa la bandia lililokusudiwa kutofautisha viungo vya ndani na viungo vya nje, ingawa bado halijaungwa mkono.
+Zamislite veštačku strukturu namenjenu za razlikovanje unutrašnjih i spoljašnjih organa, iako još uvek nije potkrepljena.
 
----
+[No Swahili text provided.]
 
 `:target`
 
 ### --feedback--
 
-Fikiria darasa la bandia lililokusudiwa kutofautisha viungo vya ndani na viungo vya nje, ingawa bado halijaungwa mkono.
+Zamislite veštačku klasu koja je namenjena da razlikuje unutrašnje i spoljašnje karakteristike, iako još uvek nije podržana.
 
 ## --video-solution--
 

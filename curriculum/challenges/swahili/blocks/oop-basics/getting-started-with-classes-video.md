@@ -1,6 +1,6 @@
 ---
 id: 69ae96daa9e6da4eb0d5f7f4
-title: Kuanzisha na darasa la vitu
+title: Početi sa klasom objekata
 challengeType: 11
 videoId: _066KcCuaYM
 dashedName: getting-started-with-classes
@@ -8,13 +8,13 @@ dashedName: getting-started-with-classes
 
 # --description--
 
-Katika video hii, utafundishwa misingi ya OOP kwa kuanza kufanya kazi na madarasa ya vitu katika Python.
+U ovom videu, naučićete osnove OOP-a kako da počnete raditi sa klasama objekata u Python.
 
 # --questions--
 
 ## --text--
 
-Ni njia gani kati ya zifuatazo ndiyo sahihi ya kuongeza njia katika darasa la vitu?
+Koji je način među sledećim za dodavanje metode u klasu objekata?
 
 ## --answers--
 
@@ -24,7 +24,7 @@ class Dog:
         print("Woof!")
 ```
 
----
+[No Swahili text provided.]
 
 ```py
 class Dog:
@@ -32,7 +32,7 @@ class Dog:
         print("Woof!")
 ```
 
----
+[No Swahili text provided.]
 
 ```py
 class Dog:
@@ -40,7 +40,7 @@ class Dog:
         print("Woof!")
 ```
 
----
+[No Swahili text provided.]
 
 ```py
 class Dog:

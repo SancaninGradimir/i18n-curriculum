@@ -1,6 +1,6 @@
 ---
 id: 698de0ca7932b3cc4b19c938
-title: Kuhakikisha Usahihi wa Merge Sort
+title: Osiguravanje tačnosti Merge Sort-a
 challengeType: 11
 videoId: UHAYHvqxVKY
 dashedName: ensuring-the-correctness-of-merge-sort
@@ -8,29 +8,29 @@ dashedName: ensuring-the-correctness-of-merge-sort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutathmini algoriti ya merge sort na kubaini usahihi wake.
+U ovom videu, naučićete kako da procenite merge sort algoritam i utvrdite njegovu tačnost.
 
 # --questions--
 
 ## --text--
 
-Ni mbinu gani inayotumika katika kitendakazi cha `verify_sorted`?
+Koji metod se koristi u funkciji za `verify_sorted`?
 
 ## --answers--
 
-recursion
+rekurzija
 
----
+[No Swahili text provided.]
 
-dynamic programming
+dinamičko programiranje
 
----
+[No Swahili text provided.]
 
-iteration
+iteracija
 
----
+[No Swahili text provided.]
 
-backtracking
+povratno praćenje
 
 ## --video-solution--
 

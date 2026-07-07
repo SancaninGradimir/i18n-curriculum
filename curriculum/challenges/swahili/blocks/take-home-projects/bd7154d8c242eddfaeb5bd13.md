@@ -1,6 +1,6 @@
 ---
 id: bd7154d8c242eddfaeb5bd13
-title: Jenga mchezo wa maisha
+title: Igra života Џенга
 challengeType: 3
 forumTopicId: 302362
 dashedName: build-the-game-of-life
@@ -8,36 +8,36 @@ dashedName: build-the-game-of-life
 
 # --description--
 
-**Lengo:** Jenga programu inayofanana kiutendaji na hii: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
+**Cilj:** Izgradite program koji je funkcionalno sličan ovome: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
 Mchezo wa Maisha ni automaton ya seli iliyoundwa na mwanahesabu Mwingereza John Horton Conway. Ni <em>mchezo usio na mchezaji</em>, maana yake mabadiliko yake hutegemea hali yake ya awali, bila hitaji la ingizo zaidi. Unashirikiana na Mchezo wa Maisha kwa kuunda usanidi wa awali na kuangalia jinsi unavyobadilika.
 
-Ulimwengu wa Mchezo wa Maisha ni gridi isiyo na kikomo, ya pande mbili, yenye seli za mstatili, kila moja ikiwa katika mojawapo ya hali mbili zinazowezekana, zenye watu au zisizo na watu. Kila seli hushirikiana na majirani zake nane, ambao ni seli zilizo wima, mlalo, au kidirisha.
+Svet igre života je beskonačna, dvodimenzionalna mreža sa pravougaono ćelijama, svaka u kojem od dva moguća stanja: popunjena ili prazna. Svaka ćelija komunicira sa svojim osam suseda, koji su ćelijama vertikalno, horizontalno ili dijagonalno.
 
-Kila hatua ya wakati, mabadiliko yafuatayo hutokea:
+Svaki korak vremena, sledeće promene se dešavaju:
 
-- Seli yoyote hai yenye majirani wachache kuliko wawili huaga dunia, kama vile kwa ukosefu wa watu.
-- Seli yoyote hai yenye majirani wawili au watatu huendelea kuishi hadi kizazi kinachofuata.
-- Seli yoyote hai yenye majirani zaidi ya watatu huaga dunia, kama vile kwa watu wengi sana.
-- Seli yoyote iliyokufa yenye majirani watatu hasa hugeuka kuwa seli hai, kama vile kwa uzazi.
+- Svaka živa ćelija sa manje od dve komšije umire, kao da je zbog nedostatka ljudi.
+- Svaka živa ćelija sa dve ili tri komšije nastavlja da živi do sledeće generacije.
+- Svaka živa ćelija sa više od tri komšije umire, kao da je zbog previše ljudi.
+- Svaka mrtva ćelija sa tačno tri komšije pretvara se u živu ćeliju, kao da je zbog reprodukcije.
 
 Timiza hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**Hadithi ya mtumiaji:** Ninapofika kwa mara ya kwanza kwenye mchezo, utaanzisha bodi kwa bahati nasibu na kuanza kucheza.
+**Scenario korisnika:** Kada prvi put pristupim igri, sistem će inicijalizovati dasku nasumično i početi da se igra.
 
 **Hadithi ya mtumiaji:** Naweza kuanza na kusitisha bodi.
 
-**Hadithi ya mtumiaji:** Naweza kuandaa bodi.
+**Priča korisnika:** Mogu napraviti dasku.
 
 **Hadithi ya mtumiaji:** Naweza kufuta bodi.
 
 **Hadithi ya mtumiaji:** Ninapobofya anza, mchezo utaendelea kucheza.
 
-**Hadithi ya mtumiaji:** Kila wakati bodi inapo badilika, naweza kuona ni vizazi vingapi vimepita.
+**Istorija korisnika:** Svaki put kada se ploča menja, mogu da vidim koliko je generasi prošlo.
 
-Ukipomaliza, jumuisha kiungo cha mradi wako na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada budete spremni, uključite link svog projekta i kliknite na dugme „Završio sam ovaj izazov“.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu deleći ga na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

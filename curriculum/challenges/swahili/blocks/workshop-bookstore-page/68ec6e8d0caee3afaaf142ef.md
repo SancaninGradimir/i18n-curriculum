@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Hatua 8
+title: Korak 8
 challengeType: 0
 dashedName: step-8
 ---
 
 # --description--
 
-Unaweza kuongeza vipengele vingi ndani ya kipengele cha `div` ili kupanga pamoja maudhui yanayohusiana. Ndani ya kipengele chenye `class` ya `card-container`, tengeneza kipengele kingine cha `div`. `div` hii itawakilisha kadi ya kitabu cha kwanza.
+Možete dodati više elemenata unutar elementa `div` kako biste zajedno organizovali relevantan sadržaj. Unutar elementa sa `class` od `card-container`, kreirajte još jedan element `div`. Ovo `div` će predstavljati prvu karticu knjige.
 
-Ongeza sifa ya kipengele ya `class` kwa kipengele hiki kipya cha `div` na weka thamani ya sifa ya kipengele ya `class` kuwa `card`.
+Dodaj atribut elementa ``class`` za ovaj novi element ``div``, i postavi vrednost atributa elementa ``class`` na ``card``.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `div` kilichopangwa ndani ya kipengele chenye darasa la vitu la `card-container`.
+Trebalo bi da imaš element sa `div` postavljen unutar elementa sa klasom objekta `card-container`.
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Kipengele chako kipya cha `div` kinapaswa kuwa na sifa ya kipengele ya `class`.
+Tvoja nova komponenta sa `div` treba da ima svojstvo komponente `class`.
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Kipengele chako kipya cha `div` kinapaswa kuwa na sifa ya kipengele ya `class` yenye thamani ya `card`.
+Tvoj novi element `div` mora imati atribut elementa `class` sa vrednošću `card`.
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));

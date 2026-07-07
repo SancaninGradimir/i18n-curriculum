@@ -1,13 +1,13 @@
 ---
 id: 672bc4ff5e7a4bbdee8ba013
-title: "Ni rangi gani zilizotajwa kwa jina katika CSS, na lini kuzitumia?"
+title: Koje boje su navedene po imenu u CSS-u, i kada treba da se koriste?
 challengeType: 19
 dashedName: what-are-named-colors-in-css
 ---
 
 # --interactive--
 
-Katika CSS, rangi zina jukumu muhimu katika kubuni ukurasa wa mtandao, kuboresha usomaji, kuweka hisia, na kuboresha uzoefu wa mtumizi. Njia moja rahisi ya kufafanua rangi katika CSS ni kwa kutumia rangi zilizotajwa kwa jina. Rangi zilizotajwa kwa jina ni majina ya rangi yaliyotangazwa awali yanayotambulika na vivinjari. Hapa kuna mfano wa kutumia rangi iliyotajwa kwa jina kwa kipengele cha aya:
+U CSS, boje imaju važnu ulogu u dizajniranju web stranica, poboljšanju čitljivosti, postavljanju raspoloženja i unapređenju korisničkog iskustva. Jedan jednostavan način za definisanje boja u CSS je korišćenjem imenovanih boja. Imenovane boje su unapred definisana imena boja koja prepoznaju pregledači. Evo primera korišćenja imenovane boje za paragraf element:
 
 :::interactive_editor
 
@@ -26,9 +26,9 @@ p {
 
 Katika mfano huu, tunatumia rangi iliyotajwa kwa jina `red` kupamba maandishi katika aya.
 
-Rangi zilizotajwa kwa jina katika CSS ni mkusanyiko wa majina 140 ya kawaida ya rangi kama `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, na kadhalika. Majina haya ni rahisi kutumia na hufanya msimbo wako usomeke zaidi, na pia yanaelezea yenyewe.
+Boje navedene po imenu u CSS su kolekcija od 140 standardnih imena boja kao što su `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, itd. Ova imena su laka za upotrebu i čine vaš kod čitljivijim, a takođe opisuju sebe.
 
-Rangi zilizotajwa kwa jina ni muhimu kwa ajili ya kuunda mfano wa haraka, miundo rahisi, na kuboresha usomaji wa msimbo. Hapa kuna mfano mwingine wa kutumia rangi zilizotajwa kwa jina kwa kichaguzi cha `h1`:
+Boje navedene po imenu su važne za kreiranje brvih primera, jednostavnih struktura i poboljšanje čitljivosti koda. Evo još jednog primera korišćenja boja navedenih po imenu za selektor `h1`:
 
 :::interactive_editor
 
@@ -46,13 +46,13 @@ h1 {
 
 :::
 
-Katika mfano huu, maandishi ya kichwa cha sehemu yatapambwa kwa rangi ya navy, na nyuma kuwa na rangi ya kijivu nyepesi. Usomaji wa msimbo unaboreshwa kwa sababu rangi zilizotajwa kwa jina hutoa ufahamu wa haraka wa mtindo unaokusudiwa.
+U ovom primeru, tekst zaglavlja sekcije će biti obojen tamno plavom bojom, a pozadina će imati svetlo sivu boju. Čitljivost koda je poboljšana jer navedene boje pružaju brzo razumevanje nameravanog stila.
 
 Rangi zilizotajwa kwa jina katika CSS ni rahisi lakini zina mipaka, kwa kuwa kuna chaguzi 140 tu zinazopatikana. Huenda zisitoe kivuli sahihi kinachohitajika kwa miundo ya kina zaidi.
 
-Rangi zilizotajwa kwa jina katika CSS ni njia nzuri ya kutumia rangi haraka na kwa kueleweka. Ingawa ni muhimu kwa miundo ya msingi, kuunda mfano, na kuboresha usomaji wa msimbo, wigo wao mdogo hufanya zisifae kwa miundo tata inayohitaji udhibiti wa rangi kwa usahihi.
+Boje pomenute po imenu u CSS su dobar način za brzo i razumljivo korišćenje boja. Iako su važne za osnovne strukture, kreiranje primera i poboljšanje čitljivosti koda, njihov ograničen opseg čini ih neprikladnim za složene strukture koje zahtevaju preciznu kontrolu boja.
 
-Kwa kuelewa nguvu na mipaka ya rangi zilizotajwa kwa jina, unaweza kuamua ni lini ni bora kuzitumia badala ya mifano ya rangi ya kina kama RGB au HSL, ambayo utajifunza kuhusu katika funzo zijazo.
+Da biste razumeli snagu i granice boja koje su nazvane, možete odlučiti kada je bolje koristiti ih umesto modela dubine boje kao što su RGB ili HSL, o čemu ćete naučiti u budućim časovima.
 
 # --questions--
 
@@ -62,31 +62,31 @@ Ni faida gani kuu ya kutumia rangi zilizotajwa kwa jina katika CSS?
 
 ## --answers--
 
-Rangi zilizotajwa kwa jina zinakuwezesha kuunda mchanganyiko wa rangi.
+Boje pomenute po imenu omogućavaju vam da kreirate mešavinu boja.
 
 ### --feedback--
 
 Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
 
----
+[No Swahili text provided.]
 
-Rangi zilizotajwa kwa jina ni rahisi kuandika na hufanya msimbo usomeke zaidi.
+Boje navedene po imenu su jednostavne za pisanje i čine kod čitljivijim.
 
----
+[No Swahili text provided.]
 
-Rangi zilizotajwa kwa jina hutoa wigo mpana zaidi wa chaguzi za rangi kuliko nambari za hex.
-
-### --feedback--
-
-Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
-
----
-
-Rangi zilizotajwa kwa jina ni njia sahihi zaidi ya kufafanua rangi katika muundo wa mtandao.
+Nazivane boje pružaju širiji raspon izbora boja od heks kodova.
 
 ### --feedback--
 
-Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
+Razmislite o jednostavnosti i čitljivosti boja koje su nazvane po imenu.
+
+[No Swahili text provided.]
+
+Imenovane boje su najprecizniji način za definisanje boja u web dizajnu.
+
+### --feedback--
+
+Razmislite o jednostavnosti i čitljivosti boja koje su navedene po imenu.
 
 ## --video-solution--
 
@@ -94,35 +94,35 @@ Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
 
 ## --text--
 
-Katika hali gani rangi zilizotajwa kwa jina huenda zisiwe chaguo bora?
+U kojim okolnostima boje navedene po imenu možda nisu najbolji izbor?
 
 ## --answers--
 
-Unapohitaji kuunda mfano wa haraka wa muundo.
+Kada vam je potrebno kreirati brzi primer strukture/dizajna.
 
 ### --feedback--
 
-Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
+Razmislite o granicama boja navedenih po imenu u najsloženijim strukturama.
 
----
+[No Swahili text provided.]
 
-Unapokuwa na muundo unaohitaji kivuli maalum au cha kina cha rangi.
+Ako ima dizajn koji zahteva specifičnu nijansu ili dubinu boje.
 
----
+[No Swahili text provided.]
 
-Unapokuwa na muundo unaohusisha rangi za msingi tu.
-
-### --feedback--
-
-Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
-
----
-
-Unaposhirikiana na wengine katika mradi rahisi.
+Ako ima dizajn koji koristi samo primarne boje.
 
 ### --feedback--
 
-Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
+Razmislite o granicama boja navedenih po imenu u najkompleksnijim dizajnovima.
+
+[No Swahili text provided.]
+
+Kada sarađujete sa drugima na jednostavnom projektu.
+
+### --feedback--
+
+Razmislite o granicama boja koje su po imenu navedene u najsloženijim strukturama.
 
 ## --video-solution--
 
@@ -130,7 +130,7 @@ Fikiria kuhusu mipaka ya rangi zilizotajwa kwa jina katika miundo tata zaidi.
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ni mfano wa rangi iliyotajwa kwa jina katika CSS?
+Koja od sljedećih je primjer boje pomenut po imenu u CSS?
 
 ## --answers--
 
@@ -138,27 +138,27 @@ Ni ipi kati ya zifuatazo ni mfano wa rangi iliyotajwa kwa jina katika CSS?
 
 ### --feedback--
 
-Rangi zilizotajwa kwa jina ni maneno yanayoelezea, si nambari.
+Boje pomenute po imenu su opisne reči, a ne brojevi.
 
----
+[No Swahili text provided.]
 
 `rgb(255, 99, 71)`
 
 ### --feedback--
 
-Rangi zilizotajwa kwa jina ni maneno yanayoelezea, si nambari.
+Boje pomenute po nazivu su opisne reči, a ne brojevi.
 
----
+[No Swahili text provided.]
 
 `tomato`
 
----
+[No Swahili text provided.]
 
 `hsl(120, 100%, 50%)`
 
 ### --feedback--
 
-Rangi zilizotajwa kwa jina ni maneno yanayoelezea, si nambari.
+Boje pomenute po imenu su opisne reči, a ne brojevi.
 
 ## --video-solution--
 

@@ -1,44 +1,44 @@
 ---
 id: 5efae0543cbd2bbdab94e333
-title: Hatua 32
+title: Korak 32
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-Ili kuboresha Ufikikaji wa picha uliyoongeza, ongeza sifa ya kipengele ya `alt` yenye maandishi:
+Da poboljšate pristup slici koju ste dodali, dodajte atribut elementa `alt` sa tekstom:
 
 `Two tabby kittens sleeping together on a couch.`
 
 # --hints--
 
-Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
+Tvoj element `figure` mora imati oznaku za otvaranje. Oznake za otvaranje imaju ovu sintaksu: `<elementName>`.
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-Kipengele chako cha `figure` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Vaš element ``figure`` treba da ima zatvarajući tag. Zatvarajući tagovi su ``/`` odmah nakon karaktera ``<``.
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-Kipengele cha `figure` kinapaswa kuwepo juu kabisa ya lebo ya kufunga ya kipengele cha `section` cha mwisho.
+Element `figure` mora biti smješten direktno iznad zatvarajućeg atributa posljednjeg elementa `section`.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-Kipengele cha `img` cha Cats kinapaswa kupangwa ndani ya kipengele cha `figure`.
+Element `img` za Cats mora biti smešten unutar elementa `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-Picha ya tatu inapaswa kuwa na sifa ya kipengele ya `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Treća slika treba da ima atribut elementa `src` postavljen na `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Kipengele cha `img` cha Cats kinapaswa kuwa na sifa ya kipengele ya `alt` yenye thamani ya `Two tabby kittens sleeping together on a couch.`
+Element za `img` mačeva treba da ima svojstvo elementa `alt` sa vrednošću `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

@@ -1,13 +1,13 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: Jaribio fupi la JavaScript ya kitendakazi ya daraja la juu
+title: Pokušao sam sa funkcionionim JavaScript fajlom za visoki most
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,51 +17,51 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Ni taarifa gani kati ya zifuatazo kuhusu kitendakazi za daraja la juu za JavaScript SI za kweli?
+Koje od sledećih informacija o funkcionalnostima nadvišnog mosta JavaScript su tačne?
 
 #### --distractors--
 
-Kitendakazi za daraja la juu zinaweza kuongeza sana usomaji na utunzaji wa msimbo kwa kuwezesha mbinu za programu utendaji.
+Funkcije višegrdišta mogu značajno povećati čitljivost i održivost koda omogućavanjem programskih funkcionalnih metoda.
 
----
+[No Swahili text provided.]
 
-Kitendakazi za daraja la juu kama map, filter, na reduce ni zana zenye nguvu za usimamizi wa safu ya data, lakini si za kipekee kwa programu utendaji.
+Funkcije višegrade, kao što su map, filter i reduce, su moćna sredstva za upravljanje nizovima podataka, ali nisu ekskluzivni za funkcionalno programiranje.
 
----
+[No Swahili text provided.]
 
-Kitendakazi za daraja la juu zinaweza kuleta ugumu katika kuelewa msimbo, lakini pia zinaweza kusababisha suluhisho zenye dhihirisho na ufupi zaidi.
+Funkcije višeg nivoa mogu stvoriti poteškoće u razumevanju koda, ali takođe mogu rezultirati rešenjima sa većom ekspresivnošću i konciznošću.
 
 #### --answer--
 
-Vitendakazi vyote katika JavaScript, ikiwa ni pamoja na vile ambavyo havichukui au kurudisha vitendakazi vingine, vinaweza kuainishwa kama vitendakazi vya daraja la juu.
+Sve funkcije u JavaScript, uključujući one koje ne pozivaju niti vraćaju druge funkcije, mogu se klasifikovati kao visoko-nivočne funkcije.
 
 ### --question--
 
 #### --text--
 
-Kitendakazi cha kiwanda ni nini katika muktadha wa vitendakazi vya daraja la juu?
+Šta je industrijska funkcija u kontekstu visokonivojnih funkcija?
 
 #### --distractors--
 
-Kitendakazi kinachotengeneza vigezo vipya.
+Funkcija koja kreira nove parametre.
 
----
+[No Swahili text provided.]
 
-Kitendakazi kinachofanya kazi tu na mfuatano wa herufi.
+Funkcija koja radi samo sa nizom znakova.
 
----
+[No Swahili text provided.]
 
-Kitendakazi kinachotengeneza maoni ya msimbo moja kwa moja.
+Funkcija koja direktno generiše komentare koda.
 
 #### --answer--
 
-Kitendakazi kinachorudisha kitendakazi kipya kulingana na vigezo maalum
+Funkcija koja vraća novu funkciju na osnovu specifičnih parametara
 
 ### --question--
 
 #### --text--
 
-Baada ya utekelezaji wa msimbo, thamani ya `forEachRes` na `mapRes` itakuwa nini?
+Nakon izvršavanja koda, koja će biti vrednost `forEachRes` i `mapRes`?
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -78,23 +78,23 @@ const mapRes = numbers.map(num => {
 
 `forEachRes` ni `undefined` na `mapRes` ni `[1,2,3,4,5]`
 
----
+[No Swahili text provided.]
 
 `forEachRes` ni `0` na `mapRes` ni `[1,2,3,4,5]`
 
----
+[No Swahili text provided.]
 
 `forEachRes` ni `5` na `mapRes` ni `[1,2,3,4,5]`
 
 #### --answer--
 
-`forEachRes` ni `undefined` na `mapRes` ni `[6,7,8,9,10]`
+`forEachRes` je `undefined` i `mapRes` je `[6,7,8,9,10]`
 
 ### --question--
 
 #### --text--
 
-Matokeo ya msimbo huu ni yapi?
+Šta su rezultati ovog koda?
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,13 +102,13 @@ Matokeo ya msimbo huu ni yapi?
 
 #### --distractors--
 
-Vipengele visivyotegemezwa kwa safu ya data kupanga, hivyo hitilafu.
+Elementi koji nisu pouzdani za sortiranje niza podataka, stoga je greška.
 
----
+[No Swahili text provided.]
 
-Wito wa kurudisha haujatolewa, hivyo hitilafu.
+Poziv za vraćanje nije dostupan, stoga greška.
 
----
+[No Swahili text provided.]
 
 ```js
 [empty, 'a', 'b', undefined, { '20': 5 }]
@@ -124,95 +124,95 @@ Wito wa kurudisha haujatolewa, hivyo hitilafu.
 
 #### --text--
 
-Ni ipi kati ya zifuatazo inayoelezea kitendakazi cha mwitiko katika JavaScript?
+Ili izaberete funkciju odgovora u JavaScript?
 
 #### --distractors--
 
-Kitendakazi kinachoitwa mara moja baada ya tamko.
+Funkcija koja se poziva jednom nakon izjave.
 
----
+[No Swahili text provided.]
 
-Kitendakazi kinachoitwa kwa muktadha maalum.
+Funkcija koja se naziva u specifičnom kontekstu.
 
----
+[No Swahili text provided.]
 
-Kitendakazi kinachorudisha kitendakazi kingine.
+Funkcija koja vraća drugu funkciju.
 
 #### --answer--
 
-Kitendakazi kinachopitishwa kama hoja kwa kitendakazi kingine, ili kitekekelezwe na mantiki ya kitendakazi hicho.
+Funkcija koja se prosleđuje kao argument drugoj funkciji, kako bi bila izvršena logikom te funkcije.
 
 ### --question--
 
 #### --text--
 
-Matokeo ya kutumia `reduce()` kwenye safu ya data ni yapi?
+Šta su rezultati korišćenja `reduce()` u redovima podataka?
 
 #### --distractors--
 
-Thamani ya kweli au siyo kweli inayoonyesha kama kuna vipengele vinavyokidhi sharti.
+Istinitostna vrednost koja ukazuje da li postoje elementi koji zadovoljavaju uslov.
 
----
+[No Swahili text provided.]
 
-Safu ya data yenye vipengele vyote vimepunguzwa kwa kitendakazi cha mwitiko kilichobainishwa.
+Redovi podataka sa svim atributima su smanjeni/filtrirani pomoću definisane funkcije okidača.
 
----
+[No Swahili text provided.]
 
-Safu ya thamani za kweli au siyo kweli.
+Reda vrednosti tačno ili netačno.
 
 #### --answer--
 
-Inatofautiana kulingana na thamani ya mwanzo ya mkusanyaji na kitendakazi cha mwitiko.
+Razlikuje se u zavisnosti od početne vrednosti akumulatora i impulsne funkcije.
 
 ### --question--
 
 #### --text--
 
-Njia ya `sort()` hufanya nini ikiwa hakuna kitendakazi cha kulinganisha kilichotolewa katika upangaji wa nambari?
+Putanja `sort()` šta radi ako nije dostupan komparator tokom sortiranja brojeva?
 
 #### --distractors--
 
-Inajaza nafasi tupu na `null`.
+Popunjava prazan prostor sa `null`.
 
----
+[No Swahili text provided.]
 
-Inarudisha safu ya herufi maalum.
+Obnavlja red specijalnih znakova.
 
----
+[No Swahili text provided.]
 
-Inapanga safu kwa mpangilio wa kinyume.
+Sleže redove u opadajućem redosledu.
 
 #### --answer--
 
-Inapanga safu kama mfuatano wa herufi kulingana na vitengo vya msimbo wa UTF-16.
+Raspoređuje sekvencu kao niz karaktera prema UTF-16 kodnim jedinicama.
 
 ### --question--
 
 #### --text--
 
-Madhumuni ya njia ya `some()` katika JavaScript ni yapi?
+Koja je svrha putanje za `some()` u JavaScript?
 
 #### --distractors--
 
-Kutengeneza safu mpya yenye matokeo ya kitendakazi kilichotumika kwa kila kipengele.
+Napravite novi red sa rezultatima funkcije primenjenom na svaki element.
 
----
+[No Swahili text provided.]
 
-Kupitia safu ya data bila kutoa matokeo.
+Prolazak kroz red podataka bez izbacivanja rezultata.
 
----
+[No Swahili text provided.]
 
-Kupunguza safu ya data kuwa thamani moja kulingana na kitendakazi cha mwitiko.
+Agregovati red podataka u jednu vrednost prema funkciji agregacije.
 
 #### --answer--
 
-Kuhakikisha kama kuna vipengele vyovyote katika safu vinavyopitisha jaribio lililobainishwa.
+Proveriti da li postoji bilo koji element u nizu koji prolazi definisani test.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni mfano halali wa uunganishaji wa mfululizo wa njia?
+Koji je od sledećih validan primer serijskog spajanja?
 
 #### --distractors--
 
@@ -220,13 +220,13 @@ Ni ipi kati ya zifuatazo ni mfano halali wa uunganishaji wa mfululizo wa njia?
 Math.random();
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 array.push(1).pop();
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 console.log('Hello');
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-Matokeo ya msimbo ufuatao ni yapi?
+Šta je rezultat sledećeg koda?
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -256,11 +256,11 @@ numbers.forEach(function(number) {
 
 `2 4 8 10`
 
----
+[No Swahili text provided.]
 
 `null null null null`
 
----
+[No Swahili text provided.]
 
 `1 2 4 5`
 
@@ -272,105 +272,105 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Ni faida gani ya uunganishaji wa mfululizo wa njia?
+Koja je prednost serijskog povezivanja rute?
 
 #### --distractors--
 
-Huboresha utendaji kwa kupunguza muda wa utekelezaji wa vitendakazi.
+Poboljšava performanse smanjenjem vremena izvršavanja funkcija.
 
----
+[No Swahili text provided.]
 
-Hutoa kuondoa haja ya vigezo vya muda mfupi, lakini inaweza kuongeza matumizi ya kumbukumbu katika baadhi ya matukio.
+Uklanja potrebu za kratkoročnim parametrima, ali može povećati potrošnju memorije u nekim slučajevima.
 
----
+[No Swahili text provided.]
 
-Huruhusu usimamizi wa makosa na kurekebisha makosa kwa urahisi zaidi.
+Omogući upravljanje greškama i popravku grešaka sa većom lakoćom.
 
 #### --answer--
 
-Hutoa sintaksia rahisi na msimbo unaosomeka kwa kuruhusu shughuli nyingi katika usemi mmoja.
+Pruža jednostavnu sintaksu i čitljiv kod omogućavanjem više operacija u jednom izrazu.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kupanga safu ya vitu kwa sifa maalum kwa kutumia njia ya `sort`?
+Kako možete sortirati listu stavki po specifičnim kriterijumima koristeći metodu `sort`?
 
 #### --distractors--
 
-Njia ya `sort` haiwezi kupanga vitu.
+Put za `sort` ne može da organizuje stvari.
 
----
+[No Swahili text provided.]
 
-Tumia njia ya `reverse` baada ya kupanga.
+Koristi putanju `reverse` nakon podešavanja.
 
----
+[No Swahili text provided.]
 
-Badilisha vitu kuwa mfuatano wa herufi na upange.
+Promeni stvar u niz slova i rasporedi ih.
 
 #### --answer--
 
-Tumia kitendakazi cha kulinganisha kinacholinganishwa thamani za sifa.
+Koristite funkciju poređenja koja poredi vrednosti atributa.
 
 ### --question--
 
 #### --text--
 
-Katika uunganishaji wa mfululizo wa njia, ni tabia gani ya kawaida ya kuboresha uwazi na kurekebisha makosa?
+Kada se povezuju sekvencijalne rute, koja je uobičajena karakteristika za poboljšanje transparentnosti i ispravljanje grešaka?
 
 #### --distractors--
 
-Tumia njia chache katika mfululizo.
+Koristi nekoliko puteva u nizu.
 
----
+[No Swahili text provided.]
 
-Epuka kuunganisha njia zinazorudisha thamani za msingi tu.
+Izbegavajte povezivanje putanja koje vraćaju samo osnovne vrednosti.
 
----
+[No Swahili text provided.]
 
-Tumia njia zilizojengwa ndani pekee.
+Koristi samo interne puteve.
 
 #### --answer--
 
-Gawanya mfululizo mrefu katika hatua nyingi.
+Podeli dugu sekvencu na mnogo koraka.
 
 ### --question--
 
 #### --text--
 
-Ni hasara gani inayoweza kutokea kwa kutumia uunganishaji wa mfululizo wa njia kupita kiasi katika msimbo wako?
+Koji je gubitak koji se može desiti korišćenjem sekvencijalnog povezivanja više puteva u vašem kodu?
 
 #### --distractors--
 
-Hufanya msimbo uendeshwe polepole.
+Neka se kod izvršava sporo.
 
----
+[No Swahili text provided.]
 
-Huzuia matumizi ya maoni.
+Korišćenje komentara je onemogućeno.
 
----
+[No Swahili text provided.]
 
-Hufanya faili kuwa kubwa zaidi.
+Naterati fajl da bude veći.
 
 #### --answer--
 
-Inaweza kufanya msimbo kuwa mgumu zaidi kutafuta makosa.
+Može učiniti kod teži za pronalaženje grešaka.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani utatumia kuhakikisha kama vipengele vyote katika safu ni mfuatano wa herufi?
+Koji način ćeš koristiti da proverićeš da li su svi elementi u nizu sekvenca slova?
 
 #### --distractors--
 
 `some()`
 
----
+[No Swahili text provided.]
 
 `everyInstance()`
 
----
+[No Swahili text provided.]
 
 `filter()`
 
@@ -382,7 +382,7 @@ Ni njia gani utatumia kuhakikisha kama vipengele vyote katika safu ni mfuatano w
 
 #### --text--
 
-Thamani ya `originalArray` itakuwa nini baada ya msimbo ufuatao kutekelezwa?
+Koja će biti vrednost `originalArray` nakon izvršavanja sledećeg koda?
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -394,22 +394,21 @@ filteredArray[0].id = 4;
 
 `[{ id: 1 }, { id: 2 }, { id: 3 }]`
 
----
+[No Swahili text provided.]
 
 `[{ id: 1 }]`
 
----
+[No Swahili text provided.]
 
 `[{ id: 4 }, { id: 2 }, { id: 3 }]`
 
 #### --answer--
 
-`[{ id: 1 }, { id: 4 }, { id: 3 }]`
-### --question--
+`[{ id: 1 }, { id: 4 }, { id: 3 }]`### --question--
 
 #### --text--
 
-Thamani ya `shortWords` itakuwa nini baada ya msimbo ufuatao kutekelezwa?
+Šta će biti vrednost za `shortWords` nakon izvršavanja sledećeg koda?
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -420,11 +419,11 @@ const shortWords = words.filter(word => word.length <= 5);
 
 `[]`
 
----
+[No Swahili text provided.]
 
 `['pear', 'kiwi']`
 
----
+[No Swahili text provided.]
 
 `['apple', 'banana']`
 
@@ -436,64 +435,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-Madhumuni ya kutoa thamani ya mwanzo kama hoja kwa njia ya `reduce()` ni yapi?
+Koja je svrha pružanja početne vrednosti kao argumenta putem `reduce()`?
 
 #### --distractors--
 
-Kuweka urefu wa safu ya data.
+Postavljanje visine reda sa podacima.
 
----
+[No Swahili text provided.]
 
-Kudhibiti idadi ya marudio.
+Kontrolisati broj ponavljanja.
 
----
+[No Swahili text provided.]
 
-Kubainisha aina ya thamani inayorudishwa na kitendakazi.
+Specificirati tip vrednosti koji je vraćen od strane funkcije.
 
 #### --answer--
 
-Kufafanua thamani ya kuanzia kwa mkusanyaji.
+Definisati početnu vrednost za kolektor.
 
 ### --question--
 
 #### --text--
 
-Je, njia ya `map` inaweza kutumika kwa vitu ambavyo si safu ya data?
+Da li putanja `map` može biti korišćena za stvari koje nisu red podataka?
 
 #### --distractors--
 
-Ndiyo, inaweza kutumika kwa kitu chochote.
+Da, može se koristiti za sve.
 
----
+[No Swahili text provided.]
 
-Ndiyo, lakini tu kwa vitu vyenye sifa za nambari.
+Da, ali samo za stvari sa numeričkim karakteristikama.
 
----
+[No Swahili text provided.]
 
-Inategemea toleo la JavaScript.
+Zavisi od verzije JavaScript.
 
 #### --answer--
 
-Hapana, imeundwa mahsusi kwa safu ya data.
+Ne, je specifično kreirano za red podataka.
 
 ### --question--
 
 #### --text--
 
-Madhumuni kuu ya njia ya `map` katika JavaScript ni yapi?
+Koja je glavna svrha putanje `map` u JavaScript?
 
 #### --distractors--
 
-Kupanga safu na kurudisha safu mpya huku ikidumisha mpangilio wa awali.
+Preuređivanje redova i vraćanje novih redova uz održavanje originalnog rasporeda.
 
----
+[No Swahili text provided.]
 
-Kuchuja vipengele kutoka safu na kuondoa au kuongeza vipengele kulingana na sharti.
+Filtrisanje elemenata iz niza i uklanjanje ili dodavanje elemenata u zavisnosti od uslova.
 
----
+[No Swahili text provided.]
 
-Kutafuta kipengele maalum katika safu na kurudisha kielezo chake pamoja na kipengele.
+Pronaći specifičan element u nizu i vratiti njegovo predstavljanje zajedno sa elementom.
 
 #### --answer--
 
-Kutengeneza safu mpya yenye matokeo ya wito wa kitendakazi kilichotolewa kwa kila kipengele katika safu ya kuanzia.
+Kreira novi red sa rezultatima poziva funkcije za svaki element u početnom redu.

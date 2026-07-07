@@ -1,6 +1,6 @@
 ---
 id: edeae16d4bf9505165740c75
-title: Kusakinisha Python na PyCharm
+title: Instaliranje Pythona i PyCharma
 challengeType: 11
 videoId: RgGQJDOms1M
 dashedName: installing-python-and-pycharm
@@ -8,29 +8,29 @@ dashedName: installing-python-and-pycharm
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kusakinisha Python na PyCharm kwenye kompyuta yako.
+U ovom videu, naučićete kako da instalirate Python i PyCharm na vaš računar.
 
 # --questions--
 
 ## --text--
 
-PyCharm hutumika kwa ajili gani?
+Za šta se koristi PyCharm?
 
 ## --answers--
 
-Ni lugha ya programu inayofanana na Python inayotumika kuendeleza programu za simu za mkononi.
+Programski jezik sličan Python koji se koristi za razvoj mobilnih aplikacija.
 
----
+[No Swahili text provided.]
 
-Ni maktaba ya Python inayotumika kwa uchambuzi wa data.
+To je biblioteka Python koja se koristi za analizu podataka.
 
----
+[No Swahili text provided.]
 
-Ni IDE inayotumika kuendesha programu za Python.
+To je IDE koji se koristi za pokretanje programa za Python.
 
----
+[No Swahili text provided.]
 
-Ni mfumo wa uendeshaji ulioundwa kwa ajili ya wasanidi programu.
+Ime operativni sistem napravljen za programere.
 
 ## --video-solution--
 

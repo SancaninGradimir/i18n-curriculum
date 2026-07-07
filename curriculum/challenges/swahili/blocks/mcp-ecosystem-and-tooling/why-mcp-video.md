@@ -1,6 +1,6 @@
 ---
 id: 69ae766ab4a814be6a4f2be3
-title: Kwa nini MCP?
+title: Zašto MCP?
 challengeType: 11
 videoId: G1bjz6QcgRU
 dashedName: why-mcp
@@ -8,29 +8,29 @@ dashedName: why-mcp
 
 # --description--
 
-Katika video hii, utaanzishwa na MCP.
+U ovom videu, bićete predstavljeni od strane MCP.
 
 # --questions--
 
 ## --text--
 
-MCP inasimamia nini?
+MCP šta upravlja?
 
 ## --answers--
 
-Model Cascade Protocol
+Model Kaskadni Protokol
 
----
+[No Swahili text provided.]
 
-Model Control Protocol
+Protokol kontrole modela
 
----
+[No Swahili text provided.]
 
 Model Context Protocol
 
----
+[No Swahili text provided.]
 
-Model Communication Protocol
+Protokol komunikacije modela
 
 ## --video-solution--
 

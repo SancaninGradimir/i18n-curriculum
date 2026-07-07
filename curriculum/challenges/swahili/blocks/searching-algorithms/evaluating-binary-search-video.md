@@ -1,6 +1,6 @@
 ---
 id: 698dc20d7932b3cc4b19c91f
-title: Kutathmini utafutaji wa binary
+title: Evaluacija binarnog pretraživanja
 challengeType: 11
 videoId: dnVWNeBCOEA
 dashedName: evaluating-binary-search
@@ -8,29 +8,29 @@ dashedName: evaluating-binary-search
 
 # --description--
 
-Katika video hii, utafundishwa zaidi kuhusu algoriti ya utafutaji wa binary.
+U ovom videu, naučićete više o binarnom algoritmu pretraživanja.
 
 # --questions--
 
 ## --text--
 
-Ni hali gani inapaswa kuwa kweli ili utafutaji wa binary ufanye kazi?
+Koji uslov mora biti tačan da bi binarna pretraga funkcionisala?
 
 ## --answers--
 
-Data inapaswa kuwa na maingizo chini ya 1,000.
+Podaci bi trebalo da imaju unos ispod 1.000.
 
----
+[No Swahili text provided.]
 
-Data inapaswa kuwa na maingizo zaidi ya 1,000.
+Podaci bi trebalo da imaju više od 1.000 unosa.
 
----
+[No Swahili text provided.]
 
-Data inapaswa kuwa haijapangwa.
+Podaci bi trebalo da budu neorganizovani.
 
----
+[No Swahili text provided.]
 
-Data inapaswa kuwa imepangwa.
+Podaci bi trebali biti organizovani.
 
 ## --video-solution--
 

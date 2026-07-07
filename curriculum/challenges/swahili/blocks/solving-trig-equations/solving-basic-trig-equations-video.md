@@ -1,6 +1,6 @@
 ---
 id: 699e71f58f18cf77dfce5c16
-title: Kutatua Mlinganyo Msingi wa Trigonometri
+title: Rešavanje osnovnih trigonometrijskih jednačina
 challengeType: 11
 videoId: JfTpmqwIzzc
 dashedName: solving-basic-trig-equations
@@ -8,29 +8,29 @@ dashedName: solving-basic-trig-equations
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutatua mlinganyo wa msingi wa trigonometri.
+U ovom videu, naučićete kako da rešite osnovnu trigonometrijsku jednačinu.
 
 # --questions--
 
 ## --text--
 
-Hatua ya kwanza ilikuwa gani katika kutatua mlinganyo wa trig katika mfano wa kwanza?
+Koja je bila korak bio u rešavanju trigonometrijskog jednačine u prvom primeru?
 
 ## --answers--
 
-Kutenganisha kitendakazi cha cosine.
+Razlaganje kosinus funkcije.
 
----
+[No Swahili text provided.]
 
-Kuinua kiwango cha kitendakazi cha cosine.
+Povećajte nivo funkcije kosinus.
 
----
+[No Swahili text provided.]
 
-Kupunguza kiwango cha kitendakazi cha cosine.
+Smanite vrednost kosinus funkcije.
 
----
+[No Swahili text provided.]
 
-Kubadilisha kitendakazi cha cosine na kitendakazi cha sine.
+Promeniti kosinus funkciju i sinus funkciju.
 
 ## --video-solution--
 

@@ -1,13 +1,13 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: Jaribio fupi la maktaba na mifumo wa kazi ya CSS
+title: Pokušaj korišćenja biblioteke za rad sa CSS sistemima
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+Da bi prošao kratki test, moraš tačno odgovoriti na najmanje 9 od 10 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,41 +17,41 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Mfumo wa kazi wa CSS ni nini?
+Šta je sistem rada za CSS?
 
 #### --distractors--
 
-Chombo cha kurekebisha makosa ya CSS.
+Alat za ispravljanje grešaka CSS.
 
----
+[No Swahili text provided.]
 
-Chombo cha kuchambua faili za CSS.
+Alat za analizu fajlova CSS.
 
----
+[No Swahili text provided.]
 
-Kipanga muundo cha faili za CSS.
+Organizujte strukturu fajlova za CSS.
 
 #### --answer--
 
-Maktaba ya mitindo ya CSS.
+Biblioteka stilova CSS.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni mfumo maarufu wa kazi wa CSS unaolenga matumizi ya huduma kwanza?
+Koji od navedenog predstavlja popularan operativni model za CSS koji se fokusira na korišćenje usluga kao prvi prioritet?
 
 #### --distractors--
 
-Template CSS
+Šablon CSS
 
----
+[No Swahili text provided.]
 
-Loading CSS
+Učitavanje CSS
 
----
+[No Swahili text provided.]
 
-Minimal CSS
+Minimalan CSS
 
 #### --answer--
 
@@ -61,63 +61,63 @@ Tailwind CSS
 
 #### --text--
 
-Hasara gani ipo kwa mifumo ya kazi ya CSS?
+Da li je prisutna/postoji [Hasara] za sisteme funkcionisanja CSS?
 
 #### --distractors--
 
-Sehemu chache sana.
+Vrlo malo delova.
 
----
+[No Swahili text provided.]
 
-Hakuna chaguzi za kubinafsisha.
+Nema opcija za detaljnije pregledavanje.
 
----
+[No Swahili text provided.]
 
-Uboreshaji wa msaada wa kivinjari.
+Poboljšanje podrške pretraživača.
 
 #### --answer--
 
-Inaweza kuongeza ukubwa wa faili za CSS.
+Može povećati veličinu fajlova za CSS.
 
 ### --question--
 
 #### --text--
 
-SCSS inasimama kwa nini?
+SCSS zašto ne radi?
 
 #### --distractors--
 
 Super Cascading Style Sheets.
 
----
+[No Swahili text provided.]
 
-Structured CSS.
+Strukturirani CSS.
 
----
+[No Swahili text provided.]
 
-Simple CSS.
+Jednostavan CSS.
 
 #### --answer--
 
-Sassy CSS.
+Razigrana CSS.
 
 ### --question--
 
 #### --text--
 
-Ni kipengele gani kati ya zifuatazo ni cha Sass?
+Koja od sledećih karakteristika pripada Sass-u?
 
 #### --distractors--
 
-Maoni
+Komentari
 
----
+[No Swahili text provided.]
 
-Kuchambua CSS.
+Analizirati CSS.
 
----
+[No Swahili text provided.]
 
-CSS ndani ya mstari.
+CSS unutar linije.
 
 #### --answer--
 
@@ -127,7 +127,7 @@ Mixins
 
 #### --text--
 
-Ni njia gani sahihi ya kutumia madarasa ya huduma katika Tailwind CSS?
+Koji je ispravan način za korišćenje klasa usluga u Tailwind-u CSS?
 
 #### --distractors--
 
@@ -137,7 +137,7 @@ Ni njia gani sahihi ya kutumia madarasa ya huduma katika Tailwind CSS?
 </button>
 ```
 
----
+[No Swahili text provided.]
 
 ```html
 <button class="blue text font-size hover round-btn margin-full">
@@ -145,7 +145,7 @@ Ni njia gani sahihi ya kutumia madarasa ya huduma katika Tailwind CSS?
 </button>
 ```
 
----
+[No Swahili text provided.]
 
 
 ```html
@@ -167,39 +167,39 @@ Ni njia gani sahihi ya kutumia madarasa ya huduma katika Tailwind CSS?
 
 #### --text--
 
-Ni aina gani mbili za mifumo ya kazi ya CSS?
+Koje su dve vrste radnih sistema za CSS?
 
 #### --distractors--
 
-Mifumo ya kazi ya CSS inayolenga kompyuta kibao kwanza na mifumo ya kazi ya CSS inayotegemea sehemu.
+Operativni sistemi za CSS koji ciljaju tablete prvenstveno, i operativni sistemi za CSS zavisne od komponenti.
 
----
+[No Swahili text provided.]
 
-Mifumo ya kazi ya CSS inayolenga huduma kwanza na mifumo ya kazi ya CSS inayopakia polepole.
+Radni sistemi za CSS koji prioritetizuju usluge i radni sistemi za CSS koji se sporo učitavaju.
 
----
+[No Swahili text provided.]
 
-Mifumo ya kazi ya CSS midogo na mifumo ya kazi ya CSS inayolenga huduma kwanza.
+Sistemi rada za CSS male i sistemi rada za CSS usmereni na uslugu.
 
 #### --answer--
 
-Mifumo ya kazi ya CSS inayolenga huduma kwanza na mifumo ya kazi ya CSS inayotegemea sehemu.
+Sistemi rada za CSS koji ciljaju usluge prvo i sistemi rada za CSS koji zavise od delova.
 
 ### --question--
 
 #### --text--
 
-Ni kiambatisho gani cha faili kwa SCSS?
+Koja je ekstenzija fajla za SCSS?
 
 #### --distractors--
 
 `.sass`
 
----
+[No Swahili text provided.]
 
 `.scsss`
 
----
+[No Swahili text provided.]
 
 `.css`
 
@@ -211,7 +211,7 @@ Ni kiambatisho gani cha faili kwa SCSS?
 
 #### --text--
 
-Ni njia gani sahihi ya kufafanua kigezo katika SCSS?
+Koji je ispravan način da se definiše varijabla u SCSS-u?
 
 #### --distractors--
 
@@ -223,7 +223,7 @@ header {
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 >primary-color: #3498eb;
@@ -233,7 +233,7 @@ header {
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 ?primary-color: #3498eb;
@@ -257,7 +257,7 @@ header {
 
 #### --text--
 
-Ni njia gani sahihi ya kufafanua mixin?
+Koji je ispravan način za definisanje mixina?
 
 #### --distractors--
 
@@ -269,7 +269,7 @@ Ni njia gani sahihi ya kufafanua mixin?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 >mixin center-flex {
@@ -279,7 +279,7 @@ Ni njia gani sahihi ya kufafanua mixin?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 mixin center-flex {

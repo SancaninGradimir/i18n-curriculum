@@ -1,6 +1,6 @@
 ---
 id: 594db4d0dedb4c06a2a4cefd
-title: Tatizo la Babbage
+title: Babbageov problem
 challengeType: 1
 forumTopicId: 302229
 dashedName: babbage-problem
@@ -15,17 +15,17 @@ Charles Babbage, akitazama mbele kwa aina za matatizo ambayo Mashine yake ya Uch
   <footer style='margin-left: 2em;'>Babbage, barua kwa Lord Bowden, 1837; angalia Hollingdale na Tootill, <i>Electronic Computers</i>, toleo la pili, 1970, uk. 125.</footer>
 </blockquote>
 
-Alidhani jibu linaweza kuwa 99,736, ambalo mraba wake ni 9,947,269,696; lakini hakuweza kuwa na uhakika.
+Mislio je da odgovor može biti 99,736, čiji je kvadrat 9.947.269.696; ali nije mogao biti siguran.
 
-Zoezi ni kugundua kama Babbage alikuwa na jibu sahihi.
+Zadatak je da se otkrije da li je Babbage imao tačan odgovor.
 
 # --instructions--
 
-Tekeleza kitendakazi kurudisha nambari kamili ndogo kabisa inayokidhi tatizo la Babbage. Ikiwa Babbage alikuwa sahihi, rudisha nambari ya Babbage.
+Implementiraj funkciju koja vraća najmanji ceo broj koji rešava Babbageov problem. Ako je Babbage bio u pravu, vrati Babbageov broj.
 
 # --hints--
 
-`babbage` inapaswa kuwa kitendakazi.
+`babbage` Treba da bude funkcija.
 
 ```js
 assert(typeof babbage === 'function');

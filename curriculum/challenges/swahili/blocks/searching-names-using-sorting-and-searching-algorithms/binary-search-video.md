@@ -1,6 +1,6 @@
 ---
 id: 698dea3f7932b3cc4b19c94b
-title: Utafutaji wa binary
+title: Binarna pretraga
 challengeType: 11
 videoId: VZ1u8vgVJwo
 dashedName: binary-search
@@ -8,29 +8,29 @@ dashedName: binary-search
 
 # --description--
 
-Katika video hii, utarudia algoriti ya utafutaji wa binary na jinsi inavyofanya kazi katika kutafuta kupitia orodha ya majina.
+U ovom videu ćete pregledati binarni algoritam za pretragu i kako funkcioniše prilikom traženja kroz listu imena.
 
 # --questions--
 
 ## --text--
 
-Ni lini unaweza kutumia algoriti ya utafutaji wa binary badala ya algoriti ya utafutaji wa mstari?
+Kada možeš da koristiš binarni algoritam za pretraživanje umesto linearnog algoritma za pretraživanje?
 
 ## --answers--
 
-Wakati orodha haijapangwa na inabadilika mara kwa mara.
+Pošto lista nije organizovana i često se menja.
 
----
+[No Swahili text provided.]
 
-Wakati unahitaji kukagua kila kipengele moja baada ya kingine.
+Kada je potrebno da proverite svaki element jedan po drugom.
 
----
+[No Swahili text provided.]
 
-Wakati unajua unatafuta kupitia orodha kubwa ya matokeo yaliyopangwa.
+Kada znate da tražite kroz veliku listu sortiranih rezultata.
 
----
+[No Swahili text provided.]
 
-Wakati seti ya data ni ndogo sana na utendaji hauna umuhimu.
+Kada je skup podataka veoma mali i performanse nisu bitne.
 
 ## --video-solution--
 

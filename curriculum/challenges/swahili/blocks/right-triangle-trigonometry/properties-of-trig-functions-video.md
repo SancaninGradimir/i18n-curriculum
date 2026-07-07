@@ -1,6 +1,6 @@
 ---
 id: 699e5ba78f18cf77dfce5c10
-title: Sifa za kitendakazi za trigonometri
+title: Svojstva funkcija iz trigonometrije
 challengeType: 11
 videoId: x0_G0dA02uU
 dashedName: properties-of-trig-functions
@@ -8,29 +8,29 @@ dashedName: properties-of-trig-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu sifa za kitendakazi za trigonometri.
+U ovom videu, naučićete o funkcionalskim svojstvima trigonometrije.
 
 # --questions--
 
 ## --text--
 
-Sifa gani ya Pythagorean ya kitendakazi za trigonometri?
+Koja je Pitagorejeva identiteta za trigonometrijske funkcije?
 
 ## --answers--
 
-Kwa pembe yoyote, mraba wa sine ya pembe ukiondoa mraba wa cosine ya pembe ni sawa na 1.
+Za svaki ugao, sinus kvadrat ugla minus kosinus kvadrat ugla je jednako 1.
 
----
+[No Swahili text provided.]
 
-Kwa pembe yoyote, sine ya pembe pamoja na cosine ya pembe ni sawa na 1.
+Za bilo koji ugao, sinus ugla zajedno sa kosinusom ugla je jednak 1.
 
----
+[No Swahili text provided.]
 
-Kwa pembe yoyote, mraba wa sine ya pembe pamoja na mraba wa cosine ya pembe ni sawa na 1.
+Za bilo koji ugao, kvadrat sinusa ugla plus kvadrat kosinusa ugla je jednak 1.
 
----
+[No Swahili text provided.]
 
-Kwa pembe yoyote, mraba wa tangent ya pembe pamoja na mraba wa cosine ya pembe ni sawa na 1.
+Za bilo koji ugao, kvadrat tangensa ugla plus kvadrat kosinusa ugla je jednak 1.
 
 ## --video-solution--
 

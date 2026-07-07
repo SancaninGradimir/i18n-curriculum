@@ -1,6 +1,6 @@
 ---
 id: 6ec8578710ffa3471b74888e
-title: Kujenga kalkuleta ya msingi
+title: Graditi osnovni kalkulator
 challengeType: 11
 videoId: vA10XU1O3QQ
 dashedName: building-a-basic-calculator
@@ -8,27 +8,27 @@ dashedName: building-a-basic-calculator
 
 # --description--
 
-Katika video hii, utaweka programu ya kalkuleta ya msingi inayoweza kufanya operesheni za kuongeza, kutoa, kuzidisha, na kugawanya.
+U ovom videu, ćete kreirati osnovni kalkulator program koji može da izvrši operacije sabiranja, oduzimanja, množenja i deljenja.
 
 # --questions--
 
 ## --text--
 
-Ni kitendakazi gani kinachotumika kubadilisha mfuatano wa herufi kuwa nambari kamili?
+Koja funkcija se koristi za konverziju sekvence slova u kompletan broj?
 
 ## --answers--
 
 `convert()`
 
----
+[No Swahili text provided.]
 
 `str()`
 
----
+[No Swahili text provided.]
 
 `integer()`
 
----
+[No Swahili text provided.]
 
 `int()`
 

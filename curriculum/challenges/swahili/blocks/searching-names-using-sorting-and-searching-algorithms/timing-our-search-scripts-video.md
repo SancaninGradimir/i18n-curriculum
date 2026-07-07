@@ -1,6 +1,6 @@
 ---
 id: 698dea447932b3cc4b19c94c
-title: Kupima Muda wa Skripti Zetu za Utafutaji
+title: Testiranje vremena naših skripti za pretragu
 challengeType: 11
 videoId: F_YLFplzb94
 dashedName: timing-our-search-scripts
@@ -8,29 +8,29 @@ dashedName: timing-our-search-scripts
 
 # --description--
 
-Katika video hii, utaona jinsi algoriti za utafutaji wa binary na linear zinavyofanya kazi na orodha ya majina na jinsi matokeo yanavyolinganishwa.
+U ovom videu, videćete kako binarni i linearni algoritmi pretrage funkcionišu sa listom imena i kako se rezultati poređuju.
 
 # --questions--
 
 ## --text--
 
-Nini kilitokea wakati muda wa algoriti za utafutaji wa binary na linear ulipolinganishwa kwenye orodha ya majina?
+Šta se desilo kada su vremena binarnog i linearnog algoritma pretraživanja upoređena na listi imena?
 
 ## --answers--
 
-Utafutaji wa linear ulichukua nusu ya muda wa utafutaji wa binary kukamilika.
+Linearna pretraga je trajala pola vremena binarne pretrage.
 
----
+[No Swahili text provided.]
 
-Utafutaji wa binary ulichukua nusu ya muda wa utafutaji wa linear kukamilika.
+Binarna pretraga je trajala polovinu vremena linearnog pretraživanja da bi se završila.
 
----
+[No Swahili text provided.]
 
-Algoriti zote mbili zilichukua muda sawa kukamilika.
+Oba algoritma su trajala isto vreme da bi se završila.
 
----
+[No Swahili text provided.]
 
-Algoriti zote mbili zilishindikana na hakuna matokeo yaliyoonyeshwa.
+Oba algoritma su naišla na grešku i nije prikazano nijedno rezultata.
 
 ## --video-solution--
 

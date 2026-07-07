@@ -8,29 +8,29 @@ dashedName: quicksort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi algoriti ya quicksort inavyofanya kazi.
+U ovom videu, naučićete kako algoritam QuickSort funkcioniše.
 
 # --questions--
 
 ## --text--
 
-Ni mbinu gani inayotumika katika algoriti ya quicksort?
+Koja metoda se koristi u quicksort algoritmu?
 
 ## --answers--
 
-recursion
+rekurzija
 
----
+[No Swahili text provided.]
 
-iteration with nested loops
+Iteracija sa ugniježđenim petljama
 
----
+[No Swahili text provided.]
 
-hashing
+hešovanje
 
----
+[No Swahili text provided.]
 
-dynamic programming
+dinamičko programiranje
 
 ## --video-solution--
 

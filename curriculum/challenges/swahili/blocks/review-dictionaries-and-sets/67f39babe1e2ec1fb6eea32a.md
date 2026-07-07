@@ -1,15 +1,15 @@
 ---
 id: 67f39babe1e2ec1fb6eea32a
-title: Ukaguzi wa Kamusi na Seti
+title: Pregled Rečnika i Skupa
 challengeType: 31
 dashedName: review-dictionaries-and-sets
 ---
 
 # --description--
 
-## Kamusi
+## Rečnik
 
-- **Kamusi**: Kamusi ni miundo ya data iliyojengwa ndani inayohifadhi makusanyo ya jozi za ufunguo-thamani. Funguo zinapaswa kuwa aina za data zisizobadilika. Hii ni sintaksia ya jumla ya kamusi ya Python:
+- **Rečnik**: Rečnik je ugrađena struktura podataka koja skladišti kolekcije parova ključ-vrednost. Ključevi moraju biti nemjenjivi tipovi podataka. Ovo je opšta sintaksa rečnika za Python:
 
 ```python
 dictionary = {
@@ -18,27 +18,27 @@ dictionary = {
 }
 ```
 
-- **`dict()` Kijenzi**: Kijenzi cha `dict()` ni njia mbadala ya kujenga kamusi. Unapita orodha ya tuple kama hoja kwa kijenzi cha `dict()`. Tuple hizi zinafunguo kama kipengele cha kwanza na thamani kama kipengele cha pili.
+- **`dict()` Konstruktor**: Konstruktor za `dict()` je alternativa za kreiranje rečnika. Prošle je lista tupola kao argument konstruktoru `dict()`. Ovi tupi imaju ključe kao prvi element i vrednost kao drugi element.
 
 ```python
 pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
 ```
 
-- **Uandishi wa mabano**: Ili kupata thamani ya jozi ya ufunguo-thamani, unaweza kutumia sintaksia inayojulikana kama uandishi wa mabano.
+- **Notacija vitičastih zagrada (Bracket Notation)**: Da biste dobili vrednost para ključ-vrednost, možete koristiti sintaksu poznatu kao notacija vitičastih zagrada.
 
 ```python
 dictionary[key]
 ```
 
-## Njia za kawaida za kamusi
+## Uobičajeni načini za rečnik
 
-- **Njia ya `get()`**: Njia ya `get()` inarudisha thamani inayohusiana na ufunguo. Ni sawa na uandishi wa mabano, lakini inakuwezesha kuweka thamani ya chaguo-msingi, kuzuia makosa ikiwa ufunguo haupo.
+- **Njia ya `get()`**: Njia ya `get()` vraća vrednost povezana sa ključem. Slično je korišćenju zagrada, ali vam omogućava da postavite podrazumevanu vrednost, sprečavajući greške ako ključ ne postoji.
 
 ```python
 dictionary.get(key, default)
 ```
 
-- **Njia za `keys()` na `values()`**: Njia za `keys()` na `values()` hurudisha kitu cha mtazamo chenye funguo zote na thamani zote katika kamusi, mtawalia. Kitu cha mtazamo ni njia ya kuona yaliyomo katika kamusi bila kuunda nakala tofauti ya data.
+- **Njia za `keys()` na `values()`**: Putevi za `keys()` na `values()` vraćaju objekat pogleda sa svim ključevima i vrednostima u rečniku, po odelima. Objekt pogleda je način za pregledavanje sadržaja rečnika bez kreiranja zasebne kopije podataka.
 
 ```python
 pizza = {
@@ -54,41 +54,41 @@ pizza.values()
 # dict_values(['Margherita Pizza', 8.9, 250])
 ```
 
-- **Njia ya `items()`**: Njia ya `items()` hurudisha kitu cha mtazamo chenye jozi zote za ufunguo-thamani katika kamusi, ikijumuisha funguo na thamani.
+- **Metoda `items()`**: Metoda `items()` vraća objekat pogleda koji sadrži sve parove ključ-vrednost u rečniku, uključujući ključeve i vrednosti.
 
 ```python
 pizza.items()
 # dict_items([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250)])
 ```
 
-- **Njia ya `clear()`**: Njia ya `clear()` huondoa jozi zote za ufunguo-thamani kutoka kamusi.
+- **Njia ya `clear()`**: Metoda `clear()` uklanja sve parove ključ-vrednost iz mape.
 
 ```python
 pizza.clear()
 ```
 
-- **Njia ya `pop()`**: Njia ya `pop()` huondoa jozi ya ufunguo-thamani yenye ufunguo uliotajwa kama hoja ya kwanza na hurudisha thamani yake. Ikiwa ufunguo haupo, hurudisha thamani ya chaguo-msingi iliyotajwa kama hoja ya pili. Ikiwa ufunguo haupo na thamani ya chaguo-msingi haijatolewa, `KeyError` hutolewa.
+- **Metoda `pop()`**: Metoda `pop()` uklanja par ključ-vrednost sa ključem navedenim kao prvi argument i vraća njegovu vrednost. Ako ključ ne postoji, vraća podrazumevanu vrednost navedenu kao drugi argument. Ako ključ ne postoji i nije navedena podrazumevana vrednost, `KeyError` se vraća.
 
 ```python
 pizza.pop('price', 10)
 pizza.pop('total_price') # KeyError
 ```
 
-- **Njia ya `popitem()`**: Katika Python 3.7 na zaidi, njia ya `popitem()` huondoa kipengele cha mwisho kilichowekwa.
+- **Metoda za `popitem()`**: U Python 3.7 i više, metoda `popitem()` uklanja poslednji postavljen element.
 
 ```python
 pizza.popitem()
 ```
 
-- **Njia ya `update()`**: Njia ya `update()` husahihisha jozi za ufunguo-thamani kwa jozi za ufunguo-thamani za kamusi nyingine. Ikiwa zinafunguo sawa, thamani zao hubadilishwa. Funguo mpya zitaongezwa kama jozi mpya za ufunguo-thamani.
+- **Metoda `update()`**: Metoda `update()` spaja parove ključ-vrednost sa parovima ključ-vrednost drugog rečnika. Ako imaju iste ključeve, njihove vrednosti se ažuriraju. Novi ključevi će biti dodati kao novi parovi ključ-vrednost.
 
 ```python
 pizza.update({ 'price': 15, 'total_time': 25 })
 ```
 
-## Kurudia juu ya kamusi
+## Pregled rečnika
 
-- **Kurudia juu ya thamani**: Ikiwa unahitaji kurudia juu ya thamani katika kamusi, unaweza kuandika mzunguko wa `for` na `values()` kupata thamani zote za kamusi.
+- **Iteiranje po vrednostima**: Ako vam je potrebno iterirati po vrednostima u rečniku, možete napisati petlju sa `for` i `values()` da dobijete sve vrednosti rečnika.
 
 ```python
 products = {
@@ -102,7 +102,7 @@ for price in products.values():
     print(price)
 ```
 
-Matokeo:
+Rezultati:
 
 ```md
 990
@@ -111,7 +111,7 @@ Matokeo:
 70
 ```
 
-- **Kurudia juu ya funguo**: Ikiwa unahitaji kurudia juu ya funguo katika kamusi ya `products` hapo juu, unaweza kuandika `products.keys()` au `products` moja kwa moja.
+- **Iteracija po ključevima**: Ako vam je potrebno da iterirate po ključevima u sözlüku `products` iznad, možete direktno napisati `products.keys()` ili `products`.
 
 ```python
 for product in products.keys():
@@ -123,7 +123,7 @@ for product in products:
     print(product)
 ```
 
-Matokeo:
+Rezultati:
 
 ```md
 Laptop
@@ -132,14 +132,14 @@ Tablet
 Headphones
 ```
 
-- **Kurudia juu ya jozi za ufunguo-thamani**: Ikiwa unahitaji kurudia juu ya funguo na thamani zao kwa wakati mmoja, unaweza kurudia juu ya `products.items()`. Unapata tuple binafsi zenye funguo na thamani zao.
+- **Iteriranje po parovima ključ-vrednost**: Ako vam je potrebno da iterirate preko ključeva i njihovih vrednosti istovremeno, možete iterirati preko `products.items()`. Dobijate pojedinačne tuple sa njihovim ključevima i vrednostima.
 
 ```python
 for product in products.items():
     print(product)
 ```
 
-Matokeo:
+Rezultati:
 
 ```md
 ('Laptop', 990)
@@ -148,14 +148,14 @@ Matokeo:
 ('Headphones', 70)
 ```
 
-Ili kuhifadhi ufunguo na thamani katika vigezo tofauti vya mzunguko, unahitaji kuvitenganisha kwa koma. Kigezo cha kwanza huhifadhi ufunguo, na cha pili huhifadhi thamani.
+Da biste sačuvali ključ i vrednost u različitim parametrima ciklusa, morate ih razdvojiti zarezom. Prvi parametar čuva ključ, a drugi vrednost.
 
 ```python
 for product, price in products.items():
     print(product, price)
 ```
 
-Matokeo:
+Rezultati:
 
 ```md
 Laptop 990
@@ -164,16 +164,16 @@ Tablet 250
 Headphones 70
 ```
 
-- **Kitendakazi cha `enumerate()`**: Ikiwa unahitaji kurudia juu ya kamusi huku ukifuatilia kielezo, unaweza kuita kitendakazi cha `enumerate()`. Kitendakazi hurudisha kitu cha `enumerate`, ambacho huweka nambari kwa kila kipengele, kama kielezo. Unaweza kuanza kielezo kutoka nambari yoyote, lakini kwa chaguo-msingi huanza kutoka 0.
+- **Funkcija za `enumerate()`**: Ako vam je potrebno iterirati preko rečnika dok pratite indeks, možete pozvati funkciju `enumerate()`. Funkcija vraća objekat `enumerate`, koji dodeljuje broj svakom elementu kao indeks. Možete početi indeks od bilo kog broja, ali podrazumevano počinje od 0.
 
-Kuweka kielezo na kipengele katika vigezo tofauti vya mzunguko ni njia ya kawaida ya kutumia `enumerate()`. Kwa mfano, kwa `products.items()`, unaweza kupata jozi nzima ya ufunguo-thamani pamoja na kielezo:
+Postavljanje obrasca i elementa u različite parametre ciklusa je uobičajen način za korišćenje `enumerate()`. Na primer, za `products.items()`, možete dobiti ceo par ključ-vrednost zajedno sa obrascem:
 
 ```python
 for index, product in enumerate(products.items()):
     print(index, product)
 ```
 
-Matokeo:
+Rezultati:
 
 ```md
 0 ('Laptop', 990)
@@ -182,14 +182,14 @@ Matokeo:
 3 ('Headphones', 70)
 ```
 
-Ili kubadilisha thamani ya mwanzo ya hesabu, unaweza kupita hoja ya pili kwa `enumerate()`. Kwa mfano, hapa tunaanza hesabu kutoka 1.
+Da biste promenili početnu vrednost izračunavanja, možete preskočiti drugi argument pomoću `enumerate()`. Na primer, ovde započinjemo proračun od 1.
 
 ```python
 for index, product in enumerate(products.items(), 1):
     print(index, product)
 ```
 
-Matokeo:
+Rezultati:
 
 ```md
 1 ('Laptop', 990)
@@ -198,47 +198,47 @@ Matokeo:
 4 ('Headphones', 70)
 ```
 
-## Seti
+## Skup
 
-- **Seti**: Seti ni miundo ya data iliyojengwa ndani katika Python ambayo hairuhusu thamani rudufu. Seti ni zinazobadilika na hazina mpangilio, maana yake vipengele vyake havihifadhiwi kwa mpangilio maalum, hivyo huwezi kutumia vielezo au funguo kuzipata. Pia, seti zinaweza kuwa na thamani za aina za data zisizobadilika tu, kama nambari, mfuatano wa herufi, na tuple.
+- **Skup**: Skup je struktura podataka kreirana unutar `Python` koja ne dozvoljava duplikate vrednosti. Škupi su promenljivi i bez redosleda, što znači da se njihovi elementi ne čuvaju u određenom redosledu, pa ga ne možete pristupiti pomoću indeksa ili ključeva. Takođe, skupovi mogu sadržati samo vrednosti nemenjivih tipova podataka, kao što su brojevi, niz znakova i tuple.
 
-- **Kufafanua seti**: Ili kufafanua seti, unahitaji kuandika vipengele vyake ndani ya mabano ya mviringo na kuvitenganisha kwa koma.
+- **Definisati skup**: Da biste definisali skup, morate napisati njegove elemente unutar vitičastih zagrada i razdvojiti ih zarezima.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
 ```
 
-- **Kufafanua seti tupu**: Ikiwa unahitaji kufafanua seti tupu, lazima utumie kitendakazi cha `set()`. Kuandika mabano ya mviringo tupu pekee kutaunda kamusi moja kwa moja.
+- **Definisanje praznog skupa**: Ako je potrebno definisati prazan skup, morate koristiti funkciju `set()`. Samo pisanje praznih vitičastih zagrada će direktno kreirati rječnik.
 
 ```python
 set() # Set
 {}    # Dictionary
 ```
 
-## Njia za kawaida za seti
+## Opšte metode za skupove
 
-- **Njia ya `add()`**: Unaweza kuongeza kipengele kwenye seti kwa njia ya `add()`, ukipita kipengele kipya kama hoja.
+- **Način za `add()`**: Možete dodati element u skup koristeći `add()`, prosleđujući novi element kao argument.
 
 ```python
 my_set.add(6)
 ```
 
-- **Njia za `remove()` na `discard()`**: Kuondoa kipengele kutoka seti, unaweza kutumia njia ya `remove()` au njia ya `discard()`, ukipita kipengele unachotaka kuondoa kama hoja. Njia ya `remove()` itatoa `KeyError` ikiwa kipengele hakipatikani, wakati njia ya `discard()` haitatoa.
+- **Metode za `remove()` i `discard()`**: Za uklanjanje elemenata iz skupa, možete koristiti metodu `remove()` ili metodu `discard()`, prosleđujući element koji želite ukloniti kao argument. Metoda `remove()` će vratiti `KeyError` ako element nije pronađen, dok metoda `discard()` neće vraćati.
 
 ```python
 my_set.remove(4)
 my_set.discard(4)
 ```
 
-- **Njia ya `clear()`**: Njia ya `clear()` huondoa vipengele vyote kutoka seti.
+- **Metoda za `clear()`**: Metoda za `clear()` uklanja sve elemente iz skupa.
 
 ```python
 my_set.clear()
 ```
 
-## Operesheni za kihesabu za seti
+## Operacije sa skupovima
 
-- **Njia za `issubset()` na `issuperset()`**: Njia za `issubset()` na `issuperset()` huangalia kama seti ni seti ndogo au seti kubwa ya seti nyingine, mtawalia.
+- **Njia za `issubset()` na `issuperset()`**: Njia za `issubset()` i `issuperset()` proverava da li je skup podskup ili nadskup drugog skupa, respektivno.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -248,7 +248,7 @@ print(your_set.issubset(my_set)) # True
 print(my_set.issuperset(your_set)) # True
 ```
 
-- **Njia ya `isdisjoint()`**: Njia ya `isdisjoint()` huangalia kama seti mbili hazina vipengele vinavyofanana.
+- **Metoda `isdisjoint()`**: Metoda `isdisjoint()` proverava da li dva skupa nemaju identične elemente.
 
 ```python
 my_set = {1, 2, 3}
@@ -257,7 +257,7 @@ your_set = {4, 5, 6}
 print(my_set.isdisjoint(your_set)) # True
 ```
 
-- **Kipengele cha muungano (`|`)**: Kipengele cha muungano `|` hurudisha seti mpya yenye vipengele vyote kutoka seti zote mbili.
+- **Funkcija spajanja (`|`)**: Funkcija spajanja `|` vraća novi skup sa svim elementima iz oba skupa.
 
 ```python
 my_set = {1, 2, 3}
@@ -266,7 +266,7 @@ your_set = {4, 5, 6}
 my_set | your_set # {1, 2, 3, 4, 5, 6}
 ```
 
-- **Kipengele cha mkusanyiko (`&`)**: Kipengele cha mkusanyiko `&` hurudisha seti mpya yenye vipengele vinavyopatikana katika seti zote.
+- **Kolekciona funkcija (`&`)**: Kolekciona funkcija `&` vraća novi set sa komponentama dostupnim u svim setovima.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -275,7 +275,7 @@ your_set = {2, 3, 4, 6}
 my_set & your_set # {2, 3, 4}
 ```
 
-- **Kipengele cha tofauti (`-`)**: Kipengele cha tofauti `-` hurudisha seti mpya yenye vipengele vya seti ya kwanza ambavyo havipo katika seti nyingine.
+- **Diferencijalni element (`-`)**: Diferencijalni element `-` vraća novi set sa elementima prvog seta koji nisu u drugom setu.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -284,7 +284,7 @@ your_set = {2, 3, 4, 6}
 my_set - your_set # {1, 5}
 ```
 
-- **Kipengele cha tofauti ya usawa (`^`)**: Kipengele cha tofauti ya usawa `^` hurudisha seti mpya yenye vipengele vilivyoko katika seti ya kwanza au ya pili, lakini si zote mbili.
+- **Karakteristika simetrične razlike (`^`)**: Karakteristika simetrične razlike `^` vraća novi skup sa elementima koji su u prvom ili drugom skupu, ali ne i u oba.
 
 ```python
 my_set = {1, 2, 3, 4, 5}
@@ -293,33 +293,33 @@ your_set = {2, 3, 4, 6}
 my_set ^ your_set # {1, 5, 6}
 ```
 
-- **Kipengele cha `in`**: Unaweza kuangalia kama kipengele kiko katika seti au la kwa kutumia kipengele cha `in`.
+- **Funkcija `in`**: Možete proveriti da li je funkcija u skupu ili ne koristeći funkciju `in`.
 
 ```python
 print(5 in my_set) # True
 ```
 
-## Maktaba ya kawaida ya Python
+## Standardna biblioteka za Python
 
-- **Maktaba ya kawaida ya Python**: Maktaba hukupa msimbo uliotangulia kuandikwa na unaoweza kutumika tena, kama vitendakazi, madarasa, na miundo ya data, ambayo unaweza kutumia tena katika miradi yako. Python ina maktaba pana ya kawaida yenye moduli zilizojengwa ndani zinazotekeleza suluhisho za viwango kwa changamoto na zoezi nyingi. Mifano ya moduli maarufu zilizojengwa ndani ni `math`, `random`, `re` (mfupi wa "usemi wa kawaida"), na `datetime`.
+- **Standardna biblioteka za Python**: Biblioteka vam pruža prethodno napisani i ponovno upotrebljiv kod, kao što su funkcije, klase i strukture podataka, koje možete koristiti u svojim projektima. Python ima široku standardnu biblioteku sa ugrađenim modulima koji implementiraju rešenja standarda za brojne izazove i vežbe. Primeri popularnih ugrađenih modula su `math`, `random`, `re` (skraćeno za "standardni izraz"), i `datetime`.
 
-## Kauli ya import
+## Izjava o import
 
-- **Kauli ya import**: Ili kupata vipengele vilivyofafanuliwa katika moduli zilizojengwa ndani, unatumia kauli ya import. Kauli za import kwa kawaida huandikwa juu ya faili. Kauli za import hufanya kazi sawa kwa vitendakazi, madarasa, constants, vigezo, na vipengele vingine vyote vilivyofafanuliwa katika moduli.
+- **Deklaracija import**: Da biste pristupili elementima definisanim u ugrađenim modulima, koristite deklaraciju import. Deklaracije import obično se pišu na vrhu fajla. Deklaracije import funkcionišu isto za funkcije, klase, konstante, parametre i sve ostale elemente definisane u modulu.
 
-- **Kauli ya msingi ya import**: Unaweza kutumia neno kuu la `import` ikifuatiwa na jina la moduli:
+- **Osnovna fraza za import**: Možete koristiti glavnu reč `import` praćenu nazivom modula:
 
 ```python
 import module_name
 ```
 
-Kisha, ikiwa unahitaji kuita kitendakazi kutoka moduli hiyo, utatumia uandishi wa nukta, na jina la moduli likifuatiwa na jina la kitendakazi.
+Zatim, ako treba da pozoveš funkciju iz tog modula, koristićeš tačkasto zapisivanje, sa imenom modula praćenim imenom funkcije.
 
 ```python
 module_name.function_name()
 ```
 
-Kwa mfano, utaandika yafuatayo katika msimbo wako kuleta moduli ya `math` na kupata mzizi wa mraba wa 36:
+Na primer, napisaćete sledeće u svoj kod da učitate modul `math` i da dobijete kvadratni koren 36:
 
 ```python
 import math
@@ -327,31 +327,31 @@ import math
 math.sqrt(36)
 ```
 
-- **Kuleta moduli kwa jina tofauti**: Ikiwa unahitaji kuleta moduli kwa jina tofauti (inayojulikana pia kama "jina la utani"), unaweza kutumia `as` ikifuatiwa na jina la utani mwishoni mwa kauli ya import. Hii hutumika mara nyingi kwa majina marefu ya moduli au kuepuka migongano ya majina.
+- **Importovanje modula pod drugačijim imenom**: Ako je potrebno uvesti module pod drugačijim imenom (poznato i kao "alias"), možete koristiti `as` praćen aliasom na kraju deklaracije/izjave import. Ovo se često koristi za duža imena modula ili za izbegavanje kolizija imena.
 
 ```python
 import module_name as module_alias
 ```
 
-Kwa mfano, kurejelea moduli ya `math` kama `m` katika msimbo wako, unaweza kuweka jina la utani kama hii:
+Na primer, ako se referencirate na modul `math` kao `m` u vašem kodu, možete postaviti alias ovako:
 
 ```python
 import math as m
 ```
 
-Kisha, unaweza kupata vipengele vya moduli kwa kutumia jina la utani:
+Zatim, možete dobiti komponente modula koristeći alias:
 
 ```python
 m.sqrt(36)
 ```
 
-- **Kuleta vipengele maalum**: Ikiwa hautaji kila kitu kutoka moduli, unaweza kuleta vipengele maalum kwa kutumia `from`. Katika kesi hii, kauli ya import huanza na `from`, ikifuatiwa na jina la moduli, kisha neno kuu la `import` na hatimaye majina ya vipengele unavyotaka kuleta.
+- **Uključivanje specifičnih elemenata**: Ako ne treba sve iz modula, možete uključiti specifične elemente koristeći `from`. U ovom slučaju, izjava import počinje sa `from`, praćeno nazivom modula, zatim glavnom rečju `import` i na kraju nazivima elemenata koje želite uključiti.
 
 ```python
 from module_name import name1, name2
 ```
 
-Kisha, unaweza kutumia majina haya bila kiambishi awali cha moduli katika script yako ya Python. Kwa mfano:
+Zatim, možete koristiti ova imena bez prefiksa modula u vašem skriptu za Python. Na primer:
 
 ```python
 from math import radians, sin, cos
@@ -364,36 +364,34 @@ cos_value = cos(angle_radians)
 
 print(sine_value) # 0.6427876096865393
 print(cos_value)  # 0.766044443118978
-```
- 
-Hii ni msaada, lakini inaweza kusababisha migongano ya majina ikiwa tayari una vitendakazi au vigezo vyenye majina sawa. Tafadhali zingatia hili unapoamua aina gani ya kauli ya import unayotaka kutumia.
+```Ovo je napomena, ali može izazvati kolizije imena ako već imate funkcije ili parametre sa istim imenima. Molimo vas da ovo uzmete u obzir kada odlučujete koji tip deklaracije import želite koristiti.
 
-Ikiwa unahitaji kuweka majina haya na majina ya utani, unaweza pia kufanya hivyo, ukitumia neno kuu la `as` ikifuatiwa na jina la utani.
+Ako trebate postaviti ova imena i nadimke, možete to takođe učiniti koristeći glavnu reč `as` praćen nadimkom.
 
 ```python
 from module_name import name1 as alias1, name2 as alias2
 ```
 
-- **Kauli ya import yenye nyota (`*`)**: Nyota inamwambia Python unataka kuleta kila kitu katika moduli hiyo, lakini unataka kuileta ili usihitaji kutumia jina la moduli kama kiambishi awali.
+- **Izjava za import sa zvezdom (`*`)**: Zvezda govori Python da želiš da sve prebaciš u taj modul, ali želiš da ga prebaciš tako da ne moraš da koristiš ime modula kao prefiks.
 
 ```python
 from module_name import *
 ```
 
-Kwa mfano, ikiwa utatumia hii kuleta moduli ya `math`, utaweza kuita kitendakazi chochote kilichofafanuliwa katika moduli hiyo bila kutaja jina la moduli kama kiambishi awali.
+Na primer, ako koristite ovo za učitavanje modula ``math``, moći ćete da pozovete bilo koju funkciju definisanu u tom modulu bez navođenja imena modula kao prefiksa.
 
 ```python
 from math import *
 print(sqrt(36))  # 6.0
 ```
 
-Hata hivyo, hii kwa kawaida haipendekezwi kwa sababu inaweza kusababisha migongano ya majina na kufanya iwe vigumu kujua majina yanatoka wapi.
+Međutim, ovo se obično ne preporučuje jer može uzrokovati kolizije imena i otežati određivanje odakle ta imena potiču.
 
 ## `if __name__ == '__main__'`
 
-- **Kigezo cha `__name__`**: `__name__` ni kigezo maalum kilichojengwa ndani katika Python. Wakati faili ya Python inatekelezwa moja kwa moja, Python huweka thamani ya kigezo hiki kuwa mfuatano wa herufi `"__main__"`. Lakini ikiwa faili ya Python inaletwa kama moduli katika script nyingine ya Python, thamani ya kigezo cha `__name__` huwekwa kuwa jina la moduli hiyo.
+- **Kigezo cha `__name__`**: `__name__` je posebna varijabla ugrađena u Python. Kada se fajl Python izvrši direktno, Python postavlja vrednost ove varijable na niz znakova `"__main__"`. Ali ako se fajl Python učita kao modul u drugi skript Python, vrednost varijable `__name__` se postavlja na ime tog modula.
 
-Hii ndiyo sababu mara nyingi utapata masharti haya katika script za Python. Yana msimbo unaotaka kuendeshwa **tu** ikiwa script ya Python inaendeshwa kama programu kuu.
+To je razlog da često naiđete na ove uslove u skriptama za Python. One imaju kod koji se želi pokrenuti **samo** ako je skripta za Python izvršena kao glavni program.
 
 ```python
 if __name__ == '__main__': 
@@ -402,4 +400,4 @@ if __name__ == '__main__':
 
 # --assignment--
 
-Kagua mada na dhana za kamusi na seti.
+Pregledajte teme i pojmove za rečnik u skupu/setu.

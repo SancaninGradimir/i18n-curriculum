@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: Step 5
+title: Korak 5
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Ifuatayo, ndani ya kipengele cha `div`, ongeza kipengele kingine cha `div` na kimpatie darasa la vitu la `marker`.
+U sledećem elementu od `div`, dodaj drugi element sa `div` i dodeli mu klasu `marker`.
 
 # --hints--
 
-Kipengele chako kipya cha `div` kinapaswa kuwa na lebo ya kufungua.
+Tvoja nova karakteristika `div` treba da ima oznaku za otvaranje.
 
 ```js
 assert.exists([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-Kipengele chako kipya cha `div` kinapaswa kuwa na lebo ya kufunga.
+Vaša nova funkcionalnost za `div` bi trebalo da ima zatvarajući tag.
 
 ```js
 assert.exists([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-Unapaswa kupanga ndani kipengele chako kipya cha `div` ndani ya `div` yenye darasa la vitu la `container`.
+Trebalo bi da ga smestite unutar vašeg novog elementa `div`, unutar `div` koji ima klasu objekta `container`.
 
 ```js
 assert.strictEqual(document.querySelector('.container')?.children[0]?.localName, 'div');
 ```
 
-Unapaswa kumpa kipengele chako kipya cha `div` darasa la vitu la `marker`.
+Treba da mu dodaš svoj novi atribut iz klase entiteta `div` i `marker`.
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];

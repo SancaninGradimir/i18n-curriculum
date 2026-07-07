@@ -1,6 +1,6 @@
 ---
 id: 69ae6a0eb4a814be6a4f2bdf
-title: Kugawanya vipande
+title: Razdvajanje komada
 challengeType: 11
 videoId: tFUkvObOaHc
 dashedName: chunking
@@ -8,29 +8,29 @@ dashedName: chunking
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu kugawanya vipande.
+U ovom videu, naučićete o deljenju delova.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI aina ya kawaida ya kugawanya vipande?
+Da li je [SI] među sledećim uobičajen način za deljenje delova?
 
 ## --answers--
 
-Kugawanya vipande vya ukubwa thabiti
+Deljenje komadi jednake veličine
 
----
+[No Swahili text provided.]
 
-Kugawanya vipande kwa maana
+Deljenje delova po smislu
 
----
+[No Swahili text provided.]
 
-Kugawanya vipande kwa njia ya mawakala
+Razdvajanje komada agentima
 
----
+[No Swahili text provided.]
 
-Kugawanya vipande kwa lengo
+Deljenje delova prema cilju
 
 ## --video-solution--
 

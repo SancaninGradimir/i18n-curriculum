@@ -1,6 +1,6 @@
 ---
 id: 69ae5c768491ca1dcd31440e
-title: RAG ni nini?
+title: RAG šta je?
 challengeType: 11
 videoId: XIU4eBuFVgM
 dashedName: what-is-rag
@@ -8,29 +8,29 @@ dashedName: what-is-rag
 
 # --description--
 
-Katika video hii, utafundishwa zaidi kuhusu RAG.
+U ovom videu, naučićete više o RAG-u.
 
 # --questions--
 
 ## --text--
 
-Sehemu ya upokeaji habari ya RAG hufanya kazi vipi?
+Kako funkcioniše deo za dohvaćanje informacija u RAG sistemu?
 
 ## --answers--
 
-Inazalisha muktadha mpya ndani kabla ya kujibu swali.
+Generiše novi kontekst pre odgovaranja na pitanje.
 
----
+[No Swahili text provided.]
 
-Inachukua taarifa kutoka kwenye data ya mafunzo ya mfano wa lugha kutoa muktadha kwa mfano wa lugha.
+Uzima informacije iz treniranih podataka jezičnog modela kako bi pružio kontekst za jezični model.
 
----
+[No Swahili text provided.]
 
-Inachukua nyaraka zinazohusiana kutoka kwenye hifadhidata ya maarifa kutoa muktadha kwa mfano wa lugha.
+Izvlači povezane dokumente iz baze znanja kako bi pružio kontekst, na primer za jezik.
 
----
+[No Swahili text provided.]
 
-Inachukua nyaraka zinazohusiana kutoka kwenye mtandao kutoa muktadha kwa mfano wa lugha.
+Dohvata povezane dokumente sa mreže/interneta da pruži kontekst, na primer za jezik.
 
 ## --video-solution--
 

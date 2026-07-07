@@ -1,6 +1,6 @@
 ---
 id: 698de83d7932b3cc4b19c93d
-title: Kutathmini wakati wa utekelezaji
+title: Procena vremena implementacije
 challengeType: 11
 videoId: 4eQyFkVtkvk
 dashedName: evaluating-the-runtime
@@ -8,27 +8,27 @@ dashedName: evaluating-the-runtime
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutathmini wakati wa utekelezaji kwa algoriti ya merge sort kwenye orodha zilizounganishwa.
+U ovom videu ćete naučiti kako da procenite vreme izvršavanja za algoritam merge sort na sortiranim listama.
 
 # --questions--
 
 ## --text--
 
-Je, wakati wa utekelezaji wa kitendakazi cha `split` katika utekelezaji wa merge sort ni gani?
+Kada je vreme izvršenja funkcije `split` tokom izvršavanja merge sort-a?
 
 ## --answers--
 
 `O(k log)`
 
----
+[No Swahili text provided.]
 
 `O(log n)`
 
----
+[No Swahili text provided.]
 
 `O(k n)`
 
----
+[No Swahili text provided.]
 
 `O(k log n)`
 

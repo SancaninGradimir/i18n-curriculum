@@ -1,6 +1,6 @@
 ---
 id: 699e78258f18cf77dfce5c18
-title: Utambulisho wa trigonometri
+title: Trigonometrijski identiteti
 challengeType: 11
 videoId: m4rl9OE5XTY
 dashedName: trig-identities
@@ -8,29 +8,29 @@ dashedName: trig-identities
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu utambulisho wa trigonometri.
+U ovom videu, naučićete o trigonometrijskim identitetima.
 
 # --questions--
 
 ## --text--
 
-Kwa nini mlinganyo wa pili katika mfano wa kwanza unaitwa utambulisho?
+Zašto se druga jednačina u prvom primeru naziva identitet?
 
 ## --answers--
 
-Kitendakazi chake cha tangent na cotangent ni sawa.
+Funkcija njegovog tangensa i kotangensa je jednaka.
 
----
+[No Swahili text provided.]
 
-Kitendakazi chake cha cosine na secant ni sawa.
+Njegov kosinus i sekans su jednaki.
 
----
+[No Swahili text provided.]
 
-Inashikilia thamani zote za kigezo.
+Drži sve vrednosti za parametar.
 
----
+[No Swahili text provided.]
 
-Hainashikilia thamani yoyote ya kigezo.
+Ne drži nikakvu vrednost parametra.
 
 ## --video-solution--
 

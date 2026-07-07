@@ -1,31 +1,31 @@
 ---
 id: 63bf5cf03b50bf36cfbe94ea
-title: Step 39
+title: Korak 39
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-Sasa umeisha jaribu thamani ya `entryDropdown.value`, unaweza kuondoa tamko la `console.log`.
+Sada je istekla proba vrednosti `entryDropdown.value`, možete ukloniti deklaraciju `console.log`.
 
-Hatua yako inayofuata ni kuruhusu watumizi kuongeza maingizo kwenye kielekezi cha kalori. Tangaza kitendakazi tupu `addEntry`. Kitendakazi hiki hakipaswi kuchukua vigezo vyovyote.
+Tvoj sledeći korak je dozvoliti korisnicima da dodaju unose u kalorijski indikator. Objavite praznu funkciju `addEntry`. Ova funkcija ne bi trebalo da prima nikakve parametre.
 
 # --hints--
 
-Unapaswa kuondoa tamko la `console.log`.
+Treba da uklonite deklaraciju `console.log`.
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-Unapaswa kutangaza kitendakazi cha `addEntry`.
+Trebalo bi da objaviš funkciju `addEntry`.
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-Kitendakazi chako cha `addEntry` hakipaswi kuchukua vigezo vyovyote.
+Tvoja funkcija za `addEntry` ne sme da uzme nikakve parametre.
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);

@@ -1,6 +1,6 @@
 ---
 id: 69ae7688b4a814be6a4f2bea
-title: Kujenga mteja wa MCP
+title: Izgradnja klijenta MCP
 challengeType: 11
 videoId: pzvQoPwNQN0
 dashedName: building-an-mcp-client
@@ -8,29 +8,29 @@ dashedName: building-an-mcp-client
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kujenga mteja wa MCP.
+U ovom videu, naučićete kako da izgradite MCP klijenta.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo SI mfano wa kipengele cha mteja wa MCP?
+Koja od sljedećih nije primjer klijentske karakteristike za MCP?
 
 ## --answers--
 
-Roots
+Koreni
 
----
+[No Swahili text provided.]
 
-Sampling
+Uzorkovanje
 
----
+[No Swahili text provided.]
 
-Observability
+Observabilnost
 
----
+[No Swahili text provided.]
 
-Elicitation
+Izvlačenje
 
 ## --video-solution--
 

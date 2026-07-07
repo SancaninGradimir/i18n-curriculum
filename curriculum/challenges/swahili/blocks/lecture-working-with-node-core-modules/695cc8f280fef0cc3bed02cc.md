@@ -7,11 +7,11 @@ dashedName: what-is-the-stream-module-and-how-does-it-work
 
 # --description--
 
-Moduli ya mwisho ya msingi ya Node.js tutakayochunguza ni `stream`. Moduli hii inakusaidia kushughulikia data kwa ufanisi, hasa wakati data ni kubwa mno kusoma kwa mara moja, kama vile kusoma faili kubwa la maandishi au kupakua video kubwa.
+Najnoviji osnovni modul za Node.js koji proučavamo je `stream`. Ovaj modul vam pomaže da efikasno rukujete podacima, posebno kada su podaci preveliki za čitanje odjednom, kao što je čitanje velike tekstualne datoteke ili preuzimanje velikog videa.
 
-Badala ya kusubiri kusoma au kuandika data yote kabla ya kufanya kitu chochote, streams huchakata vipande vya data vinavyowasili, kama vile unavyoweza kuanza kutazama video ya YouTube kabla video nzima haijamalizika kupakia.
+Umesto da čekaš da pročitaš ili napišeš sve podatke pre nego što uradiš bilo šta, streamovi obrađuju delove dolaznih podataka, kao što možeš da počneš gledati YouTube video pre nego što je celokupan video završen sa učitavanjem.
 
-Kuna aina nne kuu za streams katika Node.js: readable, writable, duplex, na transform:
+Postoje četiri glavna tipa streamova u Node.js: čitljivi (readable), upisivi (writable), dupleksni (duplex) i transform (transform):
 
 - Readable streams hukuruhusu kusoma data kwa vipande (kwa mfano, kusoma faili kubwa).
 - Writable streams hukuruhusu kuandika data kwa vipande (kwa mfano, kuhifadhi faili).
@@ -28,7 +28,7 @@ Mara nyingi, huna haja ya kuunda madarasa ya stream maalum mwenyewe. Kwa shughul
 
 Njia hizi mbili zinachukua njia ya faili kusoma au kuandika. Hii inamaanisha pia unahitaji moduli za `fs` na `path` kutekeleza streaming mara nyingi.
 
-Hapa ni jinsi unavyoweza kusoma data kutoka kwa faili, sema faili la `input.txt`:
+Evo kako možete čitati podatke iz fajla, na primer iz fajla `input.txt`:
 
 ```js
 const fs = require("fs");
@@ -93,7 +93,7 @@ eaque doloribus assumenda, minima fuga tempore, porro, debitis rem harum in
 */
 ```
 
-Ili kutekeleza writable stream, hasa unapokuwa unasoma kutoka faili moja na kuandika kwenye nyingine, unahitaji kuunda kwanza read stream, kisha write stream:
+Da biste implementirali writable stream, posebno kada čitate iz jednog fajla i pišete u drugi, morate prvo kreirati read stream, a zatim write stream:
 
 ```js
 const fs = require("fs");
@@ -109,7 +109,7 @@ const readInputFileStream = fs.createReadStream(inputFilePath);
 const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 ```
 
-Kisha, tumia njia ya `.pipe()` kuunganisha readable stream na writable stream. Hii inaruhusu Node.js kusoma data kutoka chanzo na kuandika kwenye mahali pa mwisho, kipande kwa kipande:
+Zatim, koristi metod `.pipe()` za povezivanje *readable stream*-a i *writable stream*-a. Ovo omogućava Node.js da čita podatke iz izvora i piše ih na odredište, deo po deo:
 
 ```js
 const fs = require("fs");
@@ -128,7 +128,7 @@ const writeOutputFileStream = fs.createWriteStream(outputFilePath);
 readInputFileStream.pipe(writeOutputFileStream);
 ```
 
-Baadaye unaweza kusikiliza matukio ya `finish` na `error` kwenye writable stream ili kujua wakati streaming imekamilika au kama kuna tatizo:
+Kasnije možete pratiti događaje za `finish` i `error` na writable streamu da biste znali kada je striming završen ili da li postoji problem:
 
 ```js
 const fs = require("fs");
@@ -154,41 +154,41 @@ writeOutputFileStream.on("error", (err) => {
 });
 ```
 
-Tukio la `finish` linakuambia kuwa stream imekamilika na hakuna data zaidi ya kuandika, wakati tukio la error linakusaidia kugundua matatizo yanayoweza kutokea wakati wa kuandika, kama vile matatizo ya ruhusa au saraka zilizokosekana.
+Događaj `finish` vam govori da je stream završen i da nema više podataka za pisanje, dok vas događaj greške pomaže da otkrijete probleme koji mogu nastati tokom zapisa, kao što su problemi sa dozvolom ili nedostajućim direktorijumima.
 
 # --questions--
 
 ## --text--
 
-Ni zipi kati ya hizi ni aina nne kuu za streams?
+Da li su ovo četiri glavna tipa streamova?
 
 ## --answers--
 
-Streams za Request, Response, Event, na Error.
+Streamovi za Request, Response, Event, i Error.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
+Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
----
+[No Swahili text provided.]
 
-Streams za Readable, Editable, Duplex, na Transform.
-
-### --feedback--
-
-Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
-
----
-
-Streams za Data, File, HTTP, na Buffer.
+Streamovi za Readable, Editable, Duplex i Transform.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
+Razmislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
----
+[No Swahili text provided.]
 
-Streams za Readable, Writable, Duplex, na Transform.
+Streamovi za Podatke, Datoteke, HTTP, u Buffer.
+
+### --feedback--
+
+Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
+
+[No Swahili text provided.]
+
+Streamovi za Readable, Writable, Duplex i Transform.
 
 ## --video-solution--
 
@@ -196,13 +196,13 @@ Streams za Readable, Writable, Duplex, na Transform.
 
 ## --text--
 
-Nini hukuruhusu kutekeleza stream maalum ya readable na writable?
+Šta omogućava implementaciju specifičnog streama koji je čitljiv i upisan/zapisiv?
 
 ## --answers--
 
-Moduli ya `stream` kwa kutumia madarasa ya Readable na Writable.
+Moduli `stream` koristeći Readable i Writable klase.
 
----
+[No Swahili text provided.]
 
 Moduli ya `http`.
 
@@ -210,21 +210,21 @@ Moduli ya `http`.
 
 Fikiria moduli inayotoa madarasa ya msingi kwa kuunda streams maalum.
 
----
+[No Swahili text provided.]
 
-Moduli ya `fs` kwa kutumia `createReadStream()` na `createWriteStream()`.
-
-### --feedback--
-
-Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
-
----
-
-Moduli ya matukio.
+Moduli `fs` koristeći `createReadStream()` i `createWriteStream()`.
 
 ### --feedback--
 
-Fikiria jinsi Node.js inavyoshughulikia kusoma, kuandika, na kubadilisha data.
+Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
+
+[No Swahili text provided.]
+
+Modul događaja.
+
+### --feedback--
+
+Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
 ## --video-solution--
 
@@ -242,25 +242,25 @@ Ni matukio gani unaweza kutumia kwenye writable stream kujua wakati streaming im
 
 Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
 
----
+[No Swahili text provided.]
 
 `finish` na `error`.
 
----
+[No Swahili text provided.]
 
 `start` na `stop`.
 
 ### --feedback--
 
-Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
+Razmislite o događajima *writable stream*-a koji signaliziraju završetak i neuspeh.
 
----
+[No Swahili text provided.]
 
-`done` na `fail`.
+`done` i `fail`.
 
 ### --feedback--
 
-Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
+Razmislite o događajima *writable stream*-a koji signaliziraju završetak i neuspeh.
 
 ## --video-solution--
 

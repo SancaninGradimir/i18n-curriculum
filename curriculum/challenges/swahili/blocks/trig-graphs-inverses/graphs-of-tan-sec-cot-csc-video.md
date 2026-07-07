@@ -1,6 +1,6 @@
 ---
 id: 699e69e18f18cf77dfce5c13
-title: "Michoro ya Tan, Sec, Cot, Csc"
+title: Grafici Tan, Sec, Cot, Csc
 challengeType: 11
 videoId: -AGLDRcJ4hk
 dashedName: graphs-of-tan-sec-cot-csc
@@ -8,27 +8,27 @@ dashedName: graphs-of-tan-sec-cot-csc
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuchora michoro ya kitendakazi za tangent, secant, cotangent, na cosecant. 
+U ovom videu, naučićete kako da nacrtate grafikone funkcija tangensa, sekansa, kotangensa i koskanusa.
 
 # --questions--
 
 ## --text--
 
-Mwelekeo ungekuwa upi wakati pembe ni sifuri kwa mfano wa kwanza wa mchoro ulioonyeshwa kwenye video?
+Koji bi bio smer kada je ugao nula za prvi primer dijagrama prikazanog u videu?
 
 ## --answers--
 
 1
 
----
+[No Swahili text provided.]
 
 2
 
----
+[No Swahili text provided.]
 
 0
 
----
+[No Swahili text provided.]
 
 -1
 

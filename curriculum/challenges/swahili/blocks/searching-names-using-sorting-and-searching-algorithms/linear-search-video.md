@@ -1,6 +1,6 @@
 ---
 id: 698dea367932b3cc4b19c949
-title: Utafutaji wa mstari
+title: Pretraživanje linije
 challengeType: 11
 videoId: aC9uj1nYJLI
 dashedName: linear-search
@@ -8,29 +8,29 @@ dashedName: linear-search
 
 # --description--
 
-Katika video hii, utaangalia jinsi utafutaji wa mstari unavyofanya kazi kwenye orodha ya majina.
+U ovom videu, ćete videti kako radi pretraživanje stringa na spisku imena.
 
 # --questions--
 
 ## --text--
 
-Ni lini unaweza kutumia utafutaji wa mstari badala ya utafutaji wa binary?
+Kada se može koristiti linearna pretraga umesto binarne pretrage?
 
 ## --answers--
 
-Wakati orodha ni kubwa sana na tayari imepangwa.
+Pošto je lista vrlo velika i već je organizovana.
 
----
+[No Swahili text provided.]
 
-Ikiwa unahitaji ugumu wa wakati wa logarithmic.
+Ako vam je potreban logaritamski složenost vremena.
 
----
+[No Swahili text provided.]
 
-Ikiwa unajua orodha haijapangwa.
+Ako znate da lista nije sortirana.
 
----
+[No Swahili text provided.]
 
-Wakati unaweza kugawanya seti ya data mara kwa mara nusu.
+Kada možete da ponovljeno podelite skup podataka na pola.
 
 ## --video-solution--
 

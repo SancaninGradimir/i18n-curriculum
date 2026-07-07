@@ -1,6 +1,6 @@
 ---
 id: 698de9ea7932b3cc4b19c93f
-title: Kupanga na kutafuta
+title: Planiranje i pretraživanje
 challengeType: 11
 videoId: j0NR0IDAU-0
 dashedName: sorting-and-searching
@@ -8,29 +8,29 @@ dashedName: sorting-and-searching
 
 # --description--
 
-Katika video hii, mwalimu Jay McGavren atazungumzia kile unachotarajia katika sehemu inayofuata ya kozi kuhusu algoriti za kupanga na kutafuta.
+U ovom videu, predavač Jay McGavren će govoriti o tome šta očekujete u sledećem delu kursa o algoritmima za sortiranje i pretraživanje.
 
 # --questions--
 
 ## --text--
 
-Ni algoriti gani ya kupanga ungetumia ikiwa unataka kutafuta orodha kubwa iliyopangwa ya vitu kwa ufanisi katika muda mfupi?
+Koji sortirujući algoritam bi koristili ako žele da efikasno pretraže veliku, sortiranu listu stavki u kraćem roku?
 
 ## --answers--
 
-linear search
+linearna pretraga
 
----
+[No Swahili text provided.]
 
-binary search
+pretraga binarnom deljenjem
 
----
+[No Swahili text provided.]
 
-beam search
+pretraživanje zakačišta (ili beam search)
 
----
+[No Swahili text provided.]
 
-dynamic search
+dinamički pretraga
 
 ## --video-solution--
 

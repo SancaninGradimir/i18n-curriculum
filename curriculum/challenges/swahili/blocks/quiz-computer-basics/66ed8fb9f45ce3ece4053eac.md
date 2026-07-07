@@ -1,13 +1,13 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Jaribio fupi la misingi ya kompyuta
+title: Kratki test osnova kompjutera
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,105 +17,105 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Ni sehemu gani ya kompyuta inayotumika kuunganisha sehemu nyingine za ndani pamoja?
+Koja je komponenta računara koja se koristi za povezivanje drugih internih delova zajedno?
 
 #### --distractors--
 
-Prosesa (CPU)
+Proces (CPU)
 
----
+[No Swahili text provided.]
 
-Kadi ya picha
+Fotografska kartica
 
----
+[No Swahili text provided.]
 
-Kumbukumbu
+Sjećanje
 
 #### --answer--
 
-Motherboard
+matična ploča
 
 ### --question--
 
 #### --text--
 
-Nini maana ya zana za msanidi programu za kivinjari?
+Šta znače alati za razvoj aplikacija za pretraživač?
 
 #### --distractors--
 
-Zana za kuhariri mipangilio ya kivinjari na kusimamia wasifu wa watumizi.
+Alati za uređivanje podešavanja pretraživača i upravljanje korisničkim profilima.
 
----
+[No Swahili text provided.]
 
-Zana za kuzuia matangazo na kuboresha utendaji wa ukurasa wa mtandao.
+Alati za blokiranje oglasa i poboljšanje performansi veb stranica.
 
----
+[No Swahili text provided.]
 
-Programu za kusimamia nyongeza na viendelezi vya kivinjari.
+Program za upravljanje dodacima i ekstenzijama pretraživača.
 
 #### --answer--
 
-Vipengele vilivyojengwa ndani ya vivinjari vinavyosaidia wasanidi programu kutafuta makosa na kukagua tovuti.
+Funkcije ugrađene u pretraživače koje pomažu programerima da pronađu greške i inspekuju veb stranice.
 
 ### --question--
 
 #### --text--
 
-Ni muunganisho gani wa ISP ambao kwa kawaida huwa wa kasi zaidi?
+Koja ISP konekcija je obično najbrža?
 
 #### --distractors--
 
 DSL
 
----
+[No Swahili text provided.]
 
-Satellite
+Satelit
 
----
+[No Swahili text provided.]
 
-Cable
+Kablo
 
 #### --answer--
 
-Fiber optic
+Optičko vlakno
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SIyo mbinu salama wakati wa kuingia akaunti?
+Koji od sledećih nije siguran način prilikom prijavljivanja na nalog?
 
 #### --distractors--
 
-Kutumia skana ya alama za vidole au uso.
+Koristeći skener otisaka prsta ili lica.
 
----
+[No Swahili text provided.]
 
-Kutengeneza nenosiri refu na tata kama `@ppl3_+B@nana34823`.
+Kreiranje lozinke koja je dugačka i složena kao `@ppl3_+B@nana34823`.
 
----
+[No Swahili text provided.]
 
-Kuweka uthibitisho wa hatua mbili (2FA).
+Podesiti dvofaktorsku autentikaciju (2FA).
 
 #### --answer--
 
-Kutumia nywila zinazotegemea taarifa binafsi kama tarehe ya kuzaliwa.
+Korišćenje lozinki koje se oslanjaju na lične podatke, kao što je datum rođenja.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SIyo kivinjari cha mtandao?
+Koji od sljedećih nije web pretraživač?
 
 #### --distractors--
 
 Safari
 
----
+[No Swahili text provided.]
 
 Opera
 
----
+[No Swahili text provided.]
 
 Microsoft Edge
 
@@ -127,17 +127,17 @@ Google Drive
 
 #### --text--
 
-Unapohitaji kuhariri kipande cha msimbo, ni ipi kati ya zifuatazo unazotegemea kutumia zaidi?
+Kada treba da urediš deo koda, na šta se najviše oslanjaš iz sledećeg?
 
 #### --distractors--
 
 Node Package Manager
 
----
+[No Swahili text provided.]
 
 Microsoft Edge
 
----
+[No Swahili text provided.]
 
 GitHub
 
@@ -149,17 +149,17 @@ Visual Studio Code
 
 #### --text--
 
-Ni ipi kati ya zifuatazo hutumika hasa kusimamia mafaili yaliyohifadhiwa kwenye diski kuu ya ndani?
+Koji od sledećih se koristi posebno za upravljanje fajlovima sačuvanim na interni tvrdi disk?
 
 #### --distractors--
 
 Dropbox
 
----
+[No Swahili text provided.]
 
 Microsoft OneDrive
 
----
+[No Swahili text provided.]
 
 Google Drive
 
@@ -171,105 +171,105 @@ Windows File Explorer
 
 #### --text--
 
-Ni nini si mbinu nzuri wakati wa kuitia majina mafaili?
+Šta je dobro da se zapamti kada se imenuju fajlovi?
 
 #### --distractors--
 
-Kuweka mstari chini au alama ya mnyororo kati ya maneno.
+Postavljanje podvučene linije ili donje crte između reči.
 
----
+[No Swahili text provided.]
 
-Kutumia mtindo thabiti wa camelCase.
+Korišćenje doslednog stila camelCase.
 
----
+[No Swahili text provided.]
 
-Kuweka nambari ya toleo mwishoni mwa hati kama `summaryReport_v2.docx`.
+Postaviti broj verzije na kraju dokumenta kao `summaryReport_v2.docx`.
 
 #### --answer--
 
-Kutumia majina yasiyoelezea kama `file1.txt`.
+Koristi imena koja ne opisuju kao `file1.txt`.
 
 ### --question--
 
 #### --text--
 
-Nini maana ya neno "jina la kikoa"?
+Šta znači reč "domena ime"?
 
 #### --distractors--
 
-Aina ya programu inayosimamia mafaili ya tovuti na hifadhidata.
+Vrsta programa koji upravlja web fajlovima i bazom podataka.
 
----
+[No Swahili text provided.]
 
-Mahali halisi pa seva ya mtandao katika kituo cha data.
+Fizička lokacija mrežne usluge u centru podataka.
 
----
+[No Swahili text provided.]
 
-Hakuna kati ya chaguzi zingine.
+Nema među ostalim opcijama.
 
 #### --answer--
 
-Anwani inayotumika kutambua tovuti kwenye mtandao.
+Adresa koja se koristi za identifikovanje veb stranice na mrežama (ili: Adresa za identifikaciju web sajta u mreži).
 
 ### --question--
 
 #### --text--
 
-Ni njia gani ya kutuma faili kwenye Recycle Bin/Trash?
+Koja je način za slanje fajla u Kante za smeće (Recycle Bin/Trash)?
 
 #### --distractors--
 
-Chaguzi zote zingine.
+Sve ostale opcije.
 
----
+[No Swahili text provided.]
 
-Kubofya kitufe cha `Backspace` kwenye kibodi.
+Pritisnite dugme `Backspace` na tastaturi.
 
----
+[No Swahili text provided.]
 
-Kuhamisha faili kwenye folda ya Archived.
+Premestiti fajl u mapu Arhivirano.
 
 #### --answer--
 
-Bofya kulia juu yake na chagua chaguo la Futa/Hamisha kwenye takataka.
+Desni klik na njega i odaberite opciju Brisanje/Premještanje u smeće.
 
 ### --question--
 
 #### --text--
 
-RAM ni nini?
+Šta je RAM?
 
 #### --distractors--
 
-Itifaki ya mtandao inayotumika kuhamisha mafaili kati ya vifaa.
+Mrežni protokol koji se koristi za prenos fajlova između uređaja.
 
----
+[No Swahili text provided.]
 
-Kifaa cha kuhifadhi cha kudumu kinachotumika kuhifadhi mafaili na programu.
+Trajni uređaj za skladištenje koji se koristi za čuvanje fajlova i programa.
 
----
+[No Swahili text provided.]
 
-Sehemu ya kompyuta inayohusika na kuzalisha picha na kuonyesha michoro.
+Komponenta računara odgovorna za generisanje slika i prikazivanje crteža/grafike.
 
 #### --answer--
 
-Kumbukumbu ya muda kwa upatikanaji wa haraka wa data na prosesa.
+Keš memorija za brzi pristup podacima i procesima.
 
 ### --question--
 
 #### --text--
 
-Ni aina gani ya faili itakayofaa zaidi kwa kuandika faili la `README`?
+Koja vrsta fajla bi bila najprikladnija za pisanje fajla `README`?
 
 #### --distractors--
 
 `.php`
 
----
+[No Swahili text provided.]
 
 `.html`
 
----
+[No Swahili text provided.]
 
 `.json`
 
@@ -281,149 +281,149 @@ Ni aina gani ya faili itakayofaa zaidi kwa kuandika faili la `README`?
 
 #### --text--
 
-Nini maana ya Mazingira ya Ukuzaji Yaliyojumuishwa (IDE)?
+Šta znači Integrisano razvojno okruženje (IDE)?
 
 #### --distractors--
 
-Jukwaa lililoundwa kwa ajili ya kupeleka na kuhudumia programu za mtandao.
+Platforma kreirana za razlaganje i hostovanje web aplikacija.
 
----
+[No Swahili text provided.]
 
-Aina ya kifaa cha vifaa kinachotumika kwa ajili ya kupima na kurekebisha mizunguko ya umeme.
+Vrsta uređaja koji se koristi za merenje i regulisanje električnih kola.
 
----
+[No Swahili text provided.]
 
-Mfumo wa udhibiti wa toleo unaosaidia wasanidi programu kufuatilia mabadiliko ya msimbo wa chanzo wakati wa ukuzaji wa programu.
+Sistem za kontrolu verzija pomažu programerima da prate promene izvornog koda tokom razvoja aplikacije.
 
 #### --answer--
 
-Programu inayojumuisha zana za kuandika, kurekebisha makosa, na kuendesha msimbo.
+Program koji uključuje alate za pisanje, ispravljanje grešaka i pokretanje koda.
 
 ### --question--
 
 #### --text--
 
-Programu gani inakuwezesha kuangalia maudhui ya mtandaoni?
+Koji program vam omogućava da gledate online sadržaje?
 
 #### --distractors--
 
-Mtaonyesha maudhui ya mtandao
+Prikaz sadržaja mreže
 
----
+[No Swahili text provided.]
 
-Mafuta ya utafutaji
+Ulje za pretragu
 
----
+[No Swahili text provided.]
 
-Tovuti
+Sajt
 
 #### --answer--
 
-Kivinjari cha mtandao
+Web pretraživač
 
 ### --question--
 
 #### --text--
 
-Programu gani inaorodhesha kurasa za mtandao zinazohusiana na hoja ya mtumizi?
+Koji program prikazuje veb stranice povezane sa korisničkim pitanjem/temom?
 
 #### --distractors--
 
-Mtafuta ukurasa
+Traži stranicu
 
----
+[No Swahili text provided.]
 
-Kivinjari cha mtandao
+Pregledač internet-a
 
----
+[No Swahili text provided.]
 
-Tovuti
+Sajt
 
 #### --answer--
 
-Mafuta ya utafutaji
+Ulje za pretraživanje
 
 ### --question--
 
 #### --text--
 
-Ni seti gani ya kurasa za mtandao chini ya jina moja la kikoa?
+Je li to skup web stranica pod jednim domenom?
 
 #### --distractors--
 
-Kivinjari cha mtandao
+Web pregledač
 
----
+[No Swahili text provided.]
 
-Kiungo cha mtandao
+Mrežna veza
 
----
+[No Swahili text provided.]
 
-Mafuta ya utafutaji
+Istraživačko ulje
 
 #### --answer--
 
-Tovuti
+Sajt
 
 ### --question--
 
 #### --text--
 
-Ili kutafuta msemo halisi, unapaswa kuzungusha hoja yako ya utafutaji na nini?
+Da biste pronašli tačnu frazu, morate kombinovati vaš pretraživački pojam sa čime?
 
 #### --distractors--
 
-Mabano ya kawaida
+Obični ugljohi
 
----
+[No Swahili text provided.]
 
-Mabano
+Palice
 
----
+[No Swahili text provided.]
 
-Alama za mshazari
+Znakovi za crtežača
 
 #### --answer--
 
-Alama za nukuu
+Simboli za navodnike
 
 ### --question--
 
 #### --text--
 
-Ni ipi SIyo njia ya kusakinisha kivinjari cha mtandao?
+Koji je način za instaliranje internet pretraživača?
 
 #### --distractors--
 
-Kutumia meneja wa kifurushi.
+Koristi paket menadžera.
 
----
+[No Swahili text provided.]
 
-Kupakua moja kwa moja kutoka kwenye tovuti.
+Preuzmite ga direktno sa sajta.
 
----
+[No Swahili text provided.]
 
-Kutumia Duka la Programu kama Microsoft Store.
+Korišćenje prodavnice aplikacija kao Microsoft Store.
 
 #### --answer--
 
-Kubofya kitufe cha Mtandao/Intaneti katika Mipangilio.
+Kliknite na dugme za Mreža/Internet u Podešavanjima.
 
 ### --question--
 
 #### --text--
 
-Ni muundo gani kati ya zifuatazo hauhifadhi ubora wa picha baada ya kubana?
+Koji format iz navedenih ne čuva kvalitet slike nakon kompresije?
 
 #### --distractors--
 
-Chaguzi zote zingine.
+Sve ostale opcije.
 
----
+[No Swahili text provided.]
 
 PNG
 
----
+[No Swahili text provided.]
 
 SVG
 
@@ -435,23 +435,23 @@ JPEG
 
 #### --text--
 
-Ni sehemu gani kati ya zifuatazo ziko kwenye soketi kwenye motherboard?
+Koja komponenta/koji deo iz navedenog se nalazi u soketu na matičnoj ploči?
 
 #### --distractors--
 
-Kipanga-njia
+Putanja
 
----
+[No Swahili text provided.]
 
-Kibodi
+Tastatura
 
----
+[No Swahili text provided.]
 
-Diski kuu (HDD)
+Hard disk (HDD)
 
 #### --answer--
 
-Prosesa (CPU)
+Proces (CPU)
 
 ## --quiz--
 
@@ -459,61 +459,61 @@ Prosesa (CPU)
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni sehemu ya msingi ya kompyuta?
+Koja od sljedećih je osnovni dio računara?
 
 #### --distractors--
 
-Msimamizi wa maneno
+Administrator reči
 
----
+[No Swahili text provided.]
 
-Msimamizi wa kazi
+Upravnik rada
 
----
+[No Swahili text provided.]
 
-Msimamizi wa kumbukumbu
+Administrator memorije
 
 #### --answer--
 
-Kitengo cha usindikaji mkuu
+Centralna procesorska jedinica
 
 ### --question--
 
 #### --text--
 
-Ni kifaa gani cha kuonyesha kinachotumika kwa kompyuta?
+Koji je tip prikazačkog uređaja koji se koristi za računar?
 
 #### --distractors--
 
-Fimbo ya kuonyesha kompyuta
+Kućica za prikaz računara
 
----
+[No Swahili text provided.]
 
-Kifaa kinachoweza kufungwa na kutolewa kinachotumika katika maonyesho ya PowerPoint
+Uređaj koji se može uključiti i isključiti, koristi se u prezentacijama PowerPoint-a
 
----
+[No Swahili text provided.]
 
-Kipiga mionzi cha laser
+Puca laserski zrakopjev
 
 #### --answer--
 
-Panya au touchpad
+Miš ili touchpad
 
 ### --question--
 
 #### --text--
 
-Ni aina gani ya ISP?
+Kakva je vrsta ISP-a?
 
 #### --distractors--
 
-Satellite
+Satelit
 
----
+[No Swahili text provided.]
 
-Fiber optic
+Optičko vlakno
 
----
+[No Swahili text provided.]
 
 Dial-up
 
@@ -525,39 +525,39 @@ Tier 1
 
 #### --text--
 
-Ni mbinu gani bora wakati wa kuitia majina mafaili kwa programu ya mtandao?
+Koji je najbolji način imenovanja fajlova za web aplikaciju?
 
 #### --distractors--
 
-Kutumia herufi maalum.
+Korišćenje posebnih slova.
 
----
+[No Swahili text provided.]
 
-Kutumia nafasi kutenganisha maneno.
+Upotrebiti razmak za razdvajanje reči.
 
----
+[No Swahili text provided.]
 
-Kutumia maneno ya jumla.
+Koristiti opšte reči.
 
 #### --answer--
 
-Kutumia alama za mnyororo badala ya nafasi.
+Koristiti znakove pipe umesto razmaka.
 
 ### --question--
 
 #### --text--
 
-Ni aina gani ya faili inayotumika sana wakati wa kufanya kazi na programu za mtandao?
+Koji je tip fajla koji se najčešće koristi prilikom rada sa mrežnim aplikacijama?
 
 #### --distractors--
 
 `.xls`
 
----
+[No Swahili text provided.]
 
 `.aud`
 
----
+[No Swahili text provided.]
 
 `.doc`
 
@@ -569,17 +569,17 @@ Ni aina gani ya faili inayotumika sana wakati wa kufanya kazi na programu za mta
 
 #### --text--
 
-Ni aina gani ya faili ya kawaida kwa faili la video?
+Koji je uobičajeni tip fajla za video?
 
 #### --distractors--
 
 `.vid`
 
----
+[No Swahili text provided.]
 
 `.mp3`
 
----
+[No Swahili text provided.]
 
 `.wav`
 
@@ -591,17 +591,17 @@ Ni aina gani ya faili ya kawaida kwa faili la video?
 
 #### --text--
 
-Ni aina gani ya faili hutumika sana kwa mafaili ya picha?
+Koja vrsta fajla se najviše koristi za slike?
 
 #### --distractors--
 
 `.pix`
 
----
+[No Swahili text provided.]
 
 `.ppg`
 
----
+[No Swahili text provided.]
 
 `.gfi`
 
@@ -613,17 +613,17 @@ Ni aina gani ya faili hutumika sana kwa mafaili ya picha?
 
 #### --text--
 
-Microsoft Edge ni kivinjari cha mtandao cha chaguo-msingi cha mfumo gani wa uendeshaji?
+Microsoft Edge je pregledač za internet podrazumevan za koji operativni sistem?
 
 #### --distractors--
 
 Linux
 
----
+[No Swahili text provided.]
 
 macOS
 
----
+[No Swahili text provided.]
 
 Unix
 
@@ -635,39 +635,39 @@ Windows
 
 #### --text--
 
-Nini maana ya mafuta ya utafutaji?
+Šta znači istraživačko gorivo?
 
 #### --distractors--
 
-Sehemu ya diski kuu ya kompyuta.
+Deo hard diska računara.
 
----
+[No Swahili text provided.]
 
-Programu ya hali ya juu inayotumika tu na watafiti wa kitaaluma.
+Napredni program koji je korišćen samo od strane akademskih istraživača.
 
----
+[No Swahili text provided.]
 
-Zana ya kutafuta sehemu za mtandao.
+Alat za pronalaženje mrežnih komponenti.
 
 #### --answer--
 
-Zana ya mtandao inayotumika kutafuta taarifa kwenye mtandao.
+Mrežni alat koji se koristi za pretraživanje informacija u mreži.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SIyo aina ya kivinjari?
+Koja od sledećih nije vrsta pretraživača?
 
 #### --distractors--
 
 Google Chrome
 
----
+[No Swahili text provided.]
 
 Mozilla Firefox
 
----
+[No Swahili text provided.]
 
 Microsoft Edge
 
@@ -679,105 +679,105 @@ GitHub
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SIyo huduma ya kuhudumia hifadhidata kwa njia ya wingu?
+Koji od sljedećih nije usluga za upravljanje bazom podataka u oblaku?
 
 #### --distractors--
 
 GitHub
 
----
+[No Swahili text provided.]
 
 GitLab
 
----
+[No Swahili text provided.]
 
 Bitbucket
 
 #### --answer--
 
-Ona
+Pogledi
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SIyo sehemu kuu ya mazingira ya ukuzaji yaliyojumuishwa?
+Koja od sljedećih nije glavni dio uključenog razvojnog okruženja?
 
 #### --distractors--
 
-Zana ya kuandika.
+Alat za pisanje.
 
----
+[No Swahili text provided.]
 
-Zana ya kupima msimbo.
+Alat za merenje koda.
 
----
+[No Swahili text provided.]
 
-Zana ya kurekebisha makosa ya msimbo.
+Alat za popravku kodnih grešaka.
 
 #### --answer--
 
-Zana ya kuhifadhi msimbo.
+Alat za skladištenje koda.
 
 ### --question--
 
 #### --text--
 
-Ni mbinu gani bora ya kuitia majina mafaili?
+Koji je najbolji način za imenovanje fajlova?
 
 #### --distractors--
 
-Kutengeneza script inayotumia majina sawa ya mafaili kwa miradi yote.
+Kreiranje skripte koja koristi iste imena fajlova za sve projekte.
 
----
+[No Swahili text provided.]
 
-Kuitia jina faili kuu jina sawa na la folda ilipo.
+Daj glavnom fajlu ime koje je isto kao naziv foldera u kojem se nalazi.
 
----
+[No Swahili text provided.]
 
-Kutumia mfululizo wa nambari za kipekee mwishoni mwa jina la faili.
+Korišćenje sekvence jedinstvenih brojeva na kraju imena fajla.
 
 #### --answer--
 
-Kutumia jina linaloelezea faili kila moja.
+Koristeći ime koje opisuje svaki fajl.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani iliyojengwa ndani unayotumia kutafuta mafaili kwenye kompyuta yako?
+Koja je ugrađena putanja koju koristiš za pretraživanje fajlova na tvom računaru?
 
 #### --distractors--
 
-Google au Firefox
+Google ili Firefox
 
----
+[No Swahili text provided.]
 
-Mafuta ya utafutaji
+Istraživačko ulje
 
----
+[No Swahili text provided.]
 
 GitHub
 
 #### --answer--
 
-Mchunguzi wa faili
+Inspektor fajlova
 
 ### --question--
 
 #### --text--
 
-Ni mbinu gani ya kawaida ya utafutaji wa aina za faili?
+Koji je uobičajen metod za pretraživanje po tipovima fajlova?
 
 #### --distractors--
 
 `site:`
 
----
+[No Swahili text provided.]
 
 `typeof:`
 
----
+[No Swahili text provided.]
 
 `type:`
 
@@ -789,17 +789,17 @@ Ni mbinu gani ya kawaida ya utafutaji wa aina za faili?
 
 #### --text--
 
-Ni ukurasa gani wa chaguo-msingi kwa tovuti?
+Koja je zadajna stranica za veb sajt?
 
 #### --distractors--
 
 `styles.css`
 
----
+[No Swahili text provided.]
 
 `main.html`
 
----
+[No Swahili text provided.]
 
 `home.html`
 
@@ -811,83 +811,83 @@ Ni ukurasa gani wa chaguo-msingi kwa tovuti?
 
 #### --text--
 
-Ni wasimamizi gani wa faili unaweza kutumia kuunda, kuhamisha, na kufuta mafaili?
+Koji menadžer fajlova možete koristiti za kreiranje, premeštanje i brisanje fajlova?
 
 #### --distractors--
 
-Google au Bing
+Google ili Bing
 
----
+[No Swahili text provided.]
 
-Windows au macOS
+Windows ili macOS
 
----
+[No Swahili text provided.]
 
 Findex au Firefox
 
 #### --answer--
 
-Explorer au Finder
+Explorer ili Finder
 
 ### --question--
 
 #### --text--
 
-Git ni nini?
+Git Šta je to?
 
 #### --distractors--
 
-Mahali pa kuhifadhi msimbo wa chanzo kwa njia ya katikati.
+Centralno mesto za skladištenje izvornog koda.
 
----
+[No Swahili text provided.]
 
-Zana ya kuongeza, kusahihisha, na kufuta maktaba na utegemezi wa miradi.
+Alat za dodavanje, ispravljanje i brisanje biblioteka i zavisnosti projekata.
 
----
+[No Swahili text provided.]
 
-Huduma ya kuhudumia hifadhidata kwa njia ya wingu.
+Usluga za čuvanje baze podataka u oblaku.
 
 #### --answer--
 
-Mfumo wa udhibiti wa toleo unaosaidia kufuatilia mabadiliko na kushirikiana na wengine.
+Sistem kontrole verzija pomaže u praćenju promena i saradnji sa drugima.
 
 ### --question--
 
 #### --text--
 
-Kumbukumbu ya upatikanaji wa nasibu ni nini?
+Šta je memorija slučajnog pristupa?
 
 #### --distractors--
 
-Mahali pa kuhifadhi wa kudumu pa kuhifadhi data.
+Trajno mesto za skladištenje podataka.
 
----
+[No Swahili text provided.]
 
-Njia ya kupoteza data kwa kufuata mfululizo.
+Metoda gubljenja podataka po sekvenci.
 
----
+[No Swahili text provided.]
 
-Prosesa inayotumika kuzalisha nywila.
+Proces koji se koristi za generisanje lozinke.
 
 #### --answer--
 
-Mahali pa kuhifadhi kwa muda kwa kitengo cha usindikaji mkuu cha kompyuta.
+Privremeno skladište za centralnu procesorsku jedinicu računara.
 
 ### --question--
 
 #### --text--
 
-Ni muundo gani wa faili hutumika kubana mafaili?
+Koji je format fajla koji se koristi za kompresovanje fajlova?
 
 #### --distractors--
 
 `TTF`
 
----
+[No Swahili text provided.]
 
 `MOV`
 
----
+[No Swahili text provided.]
 
 `ZAP`
 

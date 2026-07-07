@@ -1,6 +1,6 @@
 ---
 id: 698dbf2b7932b3cc4b19c91d
-title: Kueleza algoriti
+title: Objašnjava algoritam
 challengeType: 11
 videoId: qH-e5VMAYwQ
 dashedName: defining-an-algorithm
@@ -8,29 +8,29 @@ dashedName: defining-an-algorithm
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu algoriti ya utafutaji inayotumika sana.
+U ovom videu, naučićete o algoritmu pretrage koji se često koristi.
 
 # --questions--
 
 ## --text--
 
-Jina la algoriti inayozungumziwa katika video ni lipi?
+Koje je ime algoritma spomenutog u videu?
 
 ## --answers--
 
-Optical Search 
+Optička pretraga
 
----
+[No Swahili text provided.]
 
-Linear Search
+Linearna pretraga
 
----
+[No Swahili text provided.]
 
-Linked list Search
+Lista poveznih elemenata Pretraga
 
----
+[No Swahili text provided.]
 
-Triad Search
+Pretraga Triade
 
 ## --video-solution--
 

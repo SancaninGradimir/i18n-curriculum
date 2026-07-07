@@ -1,6 +1,6 @@
 ---
 id: 698dc4a27932b3cc4b19c920
-title: Ufanisi wa algoriti
+title: Efikasnost algoritma
 challengeType: 11
 videoId: EHxx4yawPT0
 dashedName: efficiency-of-an-algorithm
@@ -8,29 +8,29 @@ dashedName: efficiency-of-an-algorithm
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupima ufanisi wa algoriti.
+U ovom videu ćete naučiti kako da izmerite efikasnost algoritma.
 
 # --questions--
 
 ## --text--
 
-Nini maana ya noti ya Big O?
+Šta znači Big O nota?
 
 ## --answers--
 
-Noti inayotumika kuhesabu anwani ya kumbukumbu ya vigezo katika programu.
+Napomena koja se koristi za izračunavanje adrese memorije parametara u programu.
 
----
+[No Swahili text provided.]
 
-Muda halisi wa utekelezaji wa programu unaopimwa kwa sekunde.
+Stvarno vreme izvršavanja programa, mereno u sekundama.
 
----
+[No Swahili text provided.]
 
-Njia ya kutafuta makosa katika mifumo mikubwa ya programu.
+Metoda za pronalaženje grešaka u velikim softverskim sistemima.
 
----
+[No Swahili text provided.]
 
-Ufafanuzi wa nadharia wa ugumu wa algoriti kama kitendakazi cha ukubwa.
+Definicija teorije kompleksnosti algoritama kao funkcije veličine.
 
 ## --video-solution--
 

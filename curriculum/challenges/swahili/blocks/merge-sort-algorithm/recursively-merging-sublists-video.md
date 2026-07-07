@@ -1,6 +1,6 @@
 ---
 id: 698ddfc37932b3cc4b19c937
-title: Kuunganisha kwa kurudia kwa orodha ndogo ndogo
+title: Spajanje ponavljajućih malih spiskova
 challengeType: 11
 videoId: aLZglY5hO-A
 dashedName: recursively-merging-sublists
@@ -8,29 +8,29 @@ dashedName: recursively-merging-sublists
 
 # --description--
 
-Katika video hii, utafundishwa zaidi kuhusu algoriti ya merge sort na utaona jinsi ya kuunganisha kwa kurudia orodha ndogo ndogo.
+U ovom videu, naučićete više o algoritmu merge sort i videćete kako da se ponovnim spajanjem kombinuju male liste.
 
 # --questions--
 
 ## --text--
 
-Nini kusudi la kitendakazi cha merge katika algoriti ya merge sort?
+Šta je svrha funkcije spajanja (merge) u algoritmu Merge Sort?
 
 ## --answers--
 
-Inachanganya orodha ndogo ndogo mbili zilizopangwa kuwa orodha moja iliyopangwa.
+Spaja dve male liste u jednu organizovanu listu.
 
----
+[No Swahili text provided.]
 
-Inagawanya orodha kuwa orodha ndogo ndogo.
+Podeljuje listu u manje liste.
 
----
+[No Swahili text provided.]
 
-Huchagua kipengele kikubwa zaidi kutoka kwenye orodha.
+Izaberite najveći element sa liste.
 
----
+[No Swahili text provided.]
 
-Inageuza mpangilio wa orodha.
+Invertovanje redosleda liste.
 
 ## --video-solution--
 

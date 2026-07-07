@@ -1,6 +1,6 @@
 ---
 id: 697fe6c932baa3841ab62a65
-title: Mfasiri wa Python
+title: Python interpeter
 challengeType: 11
 videoId: -c1vFEsIod4
 dashedName: python-interpreter
@@ -8,29 +8,29 @@ dashedName: python-interpreter
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na mfasiri wa Python.
+U ovom videu, naučićete kako da radite sa prevodiocem Python.
 
 # --questions--
 
 ## --text--
 
-Mfasiri wa Python ni nini?
+Šta je prevodilac za Python?
 
 ## --answers--
 
-Hii ni programu inayosoma na kutekeleza msimbo wa Python.
+Ovo je program koji čita i izvršava kod Python.
 
----
+[No Swahili text provided.]
 
-Hii ni programu inayotafsiri Python kuwa Java au C++.
+Ovo je programa koja prevodi Python u Java ili C++.
 
----
+[No Swahili text provided.]
 
-Hii ni maktaba inayohifadhi kitendakazi za Python.
+Ovo je biblioteka koja čuva funkcije za Python.
 
----
+[No Swahili text provided.]
 
-Hii ni programu inayotunga msimbo wa Python kwa niaba yako.
+Ovo je program koji generiše kod Python u vaše ime.
 
 ## --video-solution--
 

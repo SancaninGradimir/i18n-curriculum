@@ -1,6 +1,6 @@
 ---
 id: 699e69db8f18cf77dfce5c12
-title: Michoro ya kazi za sinusoidal
+title: Grafici sinusoidnih funkcija
 challengeType: 11
 videoId: Jif_m8LkyMA
 dashedName: graphs-of-sinusoidal-functions
@@ -8,29 +8,29 @@ dashedName: graphs-of-sinusoidal-functions
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu michoro ya kazi za sinusoidal.
+U ovom videu, naučićete o grafikama sinusaoidnih funkcija.
 
 # --questions--
 
 ## --text--
 
-Kazi za sinusoidal zinahusiana na nini?
+Čime su sinusoidske funkcije povezane?
 
 ## --answers--
 
-Zinahusiana na tangent na cotangent.
+Povezano sa tangensom i kotangensom.
 
----
+[No Swahili text provided.]
 
-Zinahusiana na secant na cosecant.
+Povezano sa sekansom i kosekansom.
 
----
+[No Swahili text provided.]
 
-Zinahusiana na tangent na secant.
+Povezano sa tangensom i sekansom.
 
----
+[No Swahili text provided.]
 
-Zinahusiana na sine na cosine.
+Povezano sa sinusom i kosinusom.
 
 ## --video-solution--
 

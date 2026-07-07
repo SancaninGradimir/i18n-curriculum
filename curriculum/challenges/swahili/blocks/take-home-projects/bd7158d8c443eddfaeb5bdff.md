@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdff
-title: Tengeneza programu ya kuratibu maisha ya usiku
+title: Napravi program za koordinaciju noćnog života
 challengeType: 4
 forumTopicId: 302351
 dashedName: build-a-nightlife-coordination-app
@@ -8,21 +8,21 @@ dashedName: build-a-nightlife-coordination-app
 
 # --description--
 
-Tengeneza programu kamili ya JavaScript inayofanya kazi kama ifuatavyo: <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi huu.
+Napravite kompletnu aplikaciju koja funkcioniše na sledeći način: JavaScript <a href="https://yoyo44.herokuapp.com/" target="_blank" rel="noopener noreferrer nofollow">https://yoyo44.herokuapp.com/</a>. Koristite svoj omiljeni alat za izradu sajtova da završite ovaj projekat.
 
-Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
+Evo specifičnih korisničkih priča koje morate implementirati za ovaj projekat:
 
-**Hadithi ya mtumiaji:** Kama mtumiaji ambaye hajathibitishwa, unaweza kuona baa zote katika eneo lako.
+**Korisnička priča:** Kao nepotvrđeni korisnik, možete videti sve sekcije u vašem području.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kujiongeza kwenye baa kuonyesha kuwa utaenda huko usiku wa leo.
+**Priča korisnika:** Ako je korisnik autentifikovan, možete se dodati na traku koja pokazuje da ćete ići tamo večeras.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kujiondoa kwenye baa ikiwa hutaki tena kwenda huko.
+**Profil korisnika:** Kao verifikovani korisnik, možete se ukloniti sa trake ako više ne želite ići tamo.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji ambaye hajathibitishwa, unapoingia kwenye akaunti, huna haja ya kutafuta tena.
+**Priča korisnika:** Kao neverifikovani korisnik, kada se prijavite na nalog, više vam nije potrebno da pretražujete.
 
-**Kidokezo:** Jaribu kutumia API ya Yelp kupata maeneo katika miji ambayo watumiaji wako wanatafuta. Ukitumia API ya Yelp, hakikisha unaeleza hivyo katika programu yako.
+**Napomena:** Pokušajte da koristite API od Yelp-a kako biste pronašli lokacije u gradovima koje vaši korisnici traže. Kada koristite API od Yelp-a, uverite se da to objašnjavate u svojoj aplikaciji.
 
-Ukipomaliza, hakikisha kuna toleo linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake katika sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako katika sehemu ya Kiungo cha GitHub.
+Nakon što završite, uverite se da je radna verzija vašeg projekta sačuvana na javnom mestu. Zatim pošaljite njegovo URL u sekciju Link ka rešenju. Opciono, pošaljite takođe i link ka izvornom kodu vašeg projekta u sekciju Link ka GitHub.
 
 # --solutions--
 

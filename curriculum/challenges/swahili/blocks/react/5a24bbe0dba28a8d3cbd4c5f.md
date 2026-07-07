@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5f
-title: Onyesha vipengele vya HTML kwenye DOM
+title: Prikaži HTML elemente u DOM-u
 challengeType: 6
 forumTopicId: 301406
 dashedName: render-html-elements-to-the-dom
@@ -8,19 +8,19 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-Hadi sasa, umejifunza kwamba JSX ni chombo rahisi cha kuandika HTML inayosomeka ndani ya JavaScript. Kwa kutumia React, tunaweza kuonyesha JSX hii moja kwa moja kwenye HTML DOM kwa kutumia API ya kuonyesha ya React inayojulikana kama ReactDOM.
+Sada ste naučili da je JSX jednostavan alat za pisanje HTML koji se čita unutar JavaScript. Koristeći React, možemo prikazati ovaj JSX direktno na HTML DOM koristeći renderujući API od React poznat kao ReactDOM.
 
-ReactDOM hutoa njia rahisi ya kuonyesha vipengele vya React kwenye DOM ambayo inaonekana hivi: `ReactDOM.render(componentToRender, targetNode)`, ambapo hoja ya kwanza ni kipengele cha React au sehemu unayotaka kuonyesha, na hoja ya pili ni nodi ya DOM unayotaka kuonyesha sehemu hiyo ndani yake.
+ReactDOM pruža jednostavan način za prikazivanje komponenti od React u DOM, što izgleda ovako: `ReactDOM.render(componentToRender, targetNode)`, gde je prvi argument komponenta za React ili deo koji želite prikazati, a drugi argument je čvor od DOM u kojem želite da prikažete taj deo.
 
 Kama unavyotarajia, `ReactDOM.render()` lazima iitwe baada ya tamko la vipengele vya JSX, kama vile unavyotakiwa kutangaza vigezo kabla ya kuvitumia.
 
 # --instructions--
 
-Mhariri wa msimbo una sehemu rahisi ya JSX. Tumia njia ya `ReactDOM.render()` kuonyesha sehemu hii kwenye ukurasa. Unaweza kupitisha vipengele vya JSX vilivyotangazwa moja kwa moja kama hoja ya kwanza na tumia `document.getElementById()` kuchagua nodi ya DOM kuonyesha vipengele hivyo ndani yake. Kuna `div` yenye `id='challenge-node'` inayopatikana kwa ajili yako kutumia. Hakikisha haukubadili thabiti ya `JSX`.
+Editor koda ima jednostavnu sekciju za JSX. Koristite metodu ``ReactDOM.render()`` da prikažete ovaj deo na stranici. Možete proslediti deklarisane JSX komponente direktno kao prvi argument i koristiti ``document.getElementById()`` za odabir čvora `DOM` kako biste prikazali te komponente unutar njega. Dostupan je ``div`` sa ``id='challenge-node'`` za vašu upotrebu. Uverite se da ne menjate konstantu ``JSX``.
 
 # --hints--
 
-Thabiti `JSX` inapaswa kurudisha kipengele cha `div`.
+Stabilno `JSX` mora da vrati funkcionalnost od `div`.
 
 ```js
 assert(JSX.type === 'div');
@@ -32,7 +32,7 @@ assert(JSX.type === 'div');
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-`div` inapaswa kuwa na lebo ya `p` kama kipengele cha pili.
+`div` treba da ima oznaku od `p` kao drugi element.
 
 ```js
 assert(JSX.props.children[1].type === 'p');

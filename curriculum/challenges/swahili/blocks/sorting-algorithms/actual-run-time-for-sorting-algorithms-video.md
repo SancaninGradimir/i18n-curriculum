@@ -1,6 +1,6 @@
 ---
 id: 698dea167932b3cc4b19c947
-title: Muda halisi wa kuendesha algoriti za kupanga
+title: Stvarni vremenski period izvršavanja sortiranih algoritama
 challengeType: 11
 videoId: AcHX25M4Cvk
 dashedName: actual-run-time-for-sorting-algorithms
@@ -8,29 +8,29 @@ dashedName: actual-run-time-for-sorting-algorithms
 
 # --description--
 
-Katika video hii, utaangalia muda halisi wa kuendesha algoriti za merge sort, quicksort na selection sort.
+U ovom videu, ćete videti stvarno vreme izvršavanja algoritama merge sort, quicksort i selection sort.
 
 # --questions--
 
 ## --text--
 
-Nini kilitokea katika maonyesho wakati algoriti za quicksort na merge sort zilipolinganishwa na seti ya data yenye nambari milioni 1?
+Šta se dešava na izložbi kada se algoritmi quicksort i merge sort porede sa setom podataka od milion broja?
 
 ## --answers--
 
-Quicksort na merge sort zilikuwa sawa kwa muda wao.
+Quicksort na merge sort bili su adekvatni za svoje vreme.
 
----
+[No Swahili text provided.]
 
-Quicksort ilikuwa polepole kidogo katika kupanga nambari kuliko merge sort.
+Quicksort je bio malo sporiji u sortiranju brojeva od merge sort-a.
 
----
+[No Swahili text provided.]
 
-Quicksort ilikuwa haraka kidogo katika kupanga nambari kuliko merge sort.
+Quicksort je bio malo brži u sortiranju brojeva od merge sort-a.
 
----
+[No Swahili text provided.]
 
-Quicksort na merge sort zote zilishindikana na hazikutoa taarifa yoyote.
+Quicksort na merge sort sve su bile povezane i nisu pružile nikakvu informaciju.
 
 ## --video-solution--
 

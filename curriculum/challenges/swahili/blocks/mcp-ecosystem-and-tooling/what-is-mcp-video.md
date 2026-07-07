@@ -1,6 +1,6 @@
 ---
 id: 69ae766eb4a814be6a4f2be4
-title: MCP ni nini?
+title: Šta je MCP?
 challengeType: 11
 videoId: OaK6n8Yg3fA
 dashedName: what-is-mcp
@@ -8,29 +8,29 @@ dashedName: what-is-mcp
 
 # --description--
 
-Katika video hii, utaendelea kujifunza kuhusu MCP.
+U ovom videu, ćећete nastaviti da učite o MCP.
 
 # --questions--
 
 ## --text--
 
-MCP ni nini?
+MCP šta je?
 
 ## --answers--
 
-Lugha ya programu inayotumika mahsusi kwa ajili ya ukuzaji wa AI.
+Programski jezik koji se koristi posebno za razvoj AI-ja.
 
----
+[No Swahili text provided.]
 
-Jukwaa la wingu la kuhudumia programu za AI.
+Platforma u oblaku za pokretanje aplikacija za veštačku inteligenciju.
 
----
+[No Swahili text provided.]
 
-Seti ya viwango vinavyoelezea jinsi programu za AI zinavyoweza kushirikiana.
+Skup standarda koji opisuju kako aplikacije veštačke inteligencije mogu sarađivati.
 
----
+[No Swahili text provided.]
 
-Aina ya mfano wa kujifunza kwa mashine kwa ajili ya kutabiri bei za hisa.
+Vrsta modela mašinskog učenja za predviđanje cena akcija.
 
 ## --video-solution--
 

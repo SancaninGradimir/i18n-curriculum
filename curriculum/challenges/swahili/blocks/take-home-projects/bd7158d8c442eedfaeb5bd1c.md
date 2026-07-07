@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eedfaeb5bd1c
-title: Jenga mchezo wa Tic Tac Toe
+title: Igra Jenga za Tic Tac Toe
 challengeType: 3
 forumTopicId: 302358
 dashedName: build-a-tic-tac-toe-game
@@ -8,19 +8,19 @@ dashedName: build-a-tic-tac-toe-game
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
+**Cilj:** Napravite program koji funkcioniše kao ovo: <a href="https://codepen.io/freeCodeCamp/full/KzXQgy/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/KzXQgy/</a>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Dopunite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-**Hadithi ya mtumiaji:** Naweza kucheza mchezo wa Tic Tac Toe na kompyuta.
+**Priča korisnika:** Mogu igrati igru Tic Tac Toe sa računarom.
 
-**Hadithi ya mtumiaji:** Mchezo wangu utaanzishwa upya mara tu utakapoisha ili niweze kucheza tena.
+**Korisnička priča:** Moja igra će se ponovo pokrenuti čim završi, kako bih mogao da igram ponovo.
 
-**Hadithi ya mtumiaji:** Naweza kuchagua kama nataka kucheza kama X au O.
+**Priča korisnika:** Mogu da izaberem ako želim da igram kao X ili O.
 
-Ukipata kazi, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada dobijete zadatak, uključite link svog projekta na CodePen i kliknite na dugme "Završio sam ovaj izazov".
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu deljenjem ga na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

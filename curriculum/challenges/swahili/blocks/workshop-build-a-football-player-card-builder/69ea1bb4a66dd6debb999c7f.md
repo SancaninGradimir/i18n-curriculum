@@ -1,28 +1,28 @@
 ---
 id: 69ea1bb4a66dd6debb999c7f
-title: Hatua 49
+title: Korak 49
 challengeType: 0
 dashedName: step-49
 ---
 
 # --description--
 
-Sasa utashughulikia uchaguzi wa nafasi ya mchezaji. Lazima ubadilishe ingizo kuwa chaguo la kuchagua, kisha upitie safu ya data ya nafasi halali za mpira wa miguu kama thamani za chaguo la kuchagua.
+Sada ćeš raditi sa odabirom pozicije igrača. Moraš da promeniš unos u padajući meni, a zatim da iteriraš kroz niz podataka validnih pozicija fudbala kao vrednosti za taj izbor.
 
-Kuanza, tengeneza safu ya data `POSITIONS` yenye mfuatano wa herufi wa `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST`, na `CF`. Ongeza `as const` mara moja baada ya mabano ya mraba ya kufunga ili Typescript ipunguze aina kutoka `string[]` ya jumla kuwa tuple isiyobadilika ya thamani hizo halisi za mfuatano wa herufi.
+Počnite, kreirajte niz podataka `POSITIONS` sa sekvencijom znakova `GK`, `CB`, `LB`, `RB`, `CDM`, `CM`, `CAM`, `LW`, `RW`, `ST`, i `CF`. Dodajte `as const` odmah nakon zatvornih uglastih zagradi kako bi TypeScript smanjio tip sa opšteg `string[]` u nemjenjivi tupel tih specifičnih vrednosti stringova.
 
-Hii inamaanisha TypeScript inajua kwa usahihi ni mfuatano gani wa herufi unaoruhusiwa, badala ya kujua tu ni safu fulani ya mfuatano wa herufi.
+Ovo znači TypeScript zna tačno koji niz slova je dozvoljen, umesto da samo zna da je neki red niza slova.
 
 # --hints--
 
-Unapaswa kutangaza thabiti `POSITIONS`.
+Trebalo bi da objaviš stabilan `POSITIONS`.
 
 ```js
 const explorer = await __helpers.Explorer(code);
 assert.exists(explorer.variables.POSITIONS);
 ```
 
-Safu yako ya data `POSITIONS` inapaswa kuwa na mfuatano wote wa mfuatano wa herufi wa nafasi za mpira wa miguu zinazohitajika tumia `as const` kupunguza aina yake kuwa tuple isiyobadilika ya mfuatano wa herufi.
+Vaš niz podataka `POSITIONS` mora sadržati sve potrebne sekvence znakova za pozicije fudbala; koristite `as const` da ga smanjite na nepromenljiv tuple sekvenci znakova.
 
 ```js
 const explorer = await __helpers.Explorer(code);

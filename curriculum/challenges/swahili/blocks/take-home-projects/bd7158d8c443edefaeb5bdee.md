@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443edefaeb5bdee
-title: Jenga safu ya upunguzaji ya utafutaji wa picha
+title: Kreiraj sloj filtracije za pretraživanje slika
 challengeType: 4
 forumTopicId: 302361
 dashedName: build-an-image-search-abstraction-layer
@@ -8,17 +8,17 @@ dashedName: build-an-image-search-abstraction-layer
 
 # --description--
 
-Jenga programu kamili ya JavaScript inayokuwezesha kutafuta picha kama hii: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> na kuvinjari hoja za utafutaji za hivi karibuni kama hii: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>. Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi huu.
+Napravi kompletan program koji ti omogućava pretraživanje slika kao što je ovo: JavaScript inayokuwezesha kutafuta picha kama hii: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> i pregledavanje nedavne istorije pretrage kao što je ovo: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>. Koristi svoj omiljeni web-konstruktor da završiš ovaj projekat.
 
-Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
+Evo specifičnih priča korisnika koje morate implementirati za ovaj projekat:
 
-**Hadithi ya mtumiaji:** Unaweza kupata URL za picha, maelezo na URL za kurasa kwa seti ya picha zinazohusiana na mfuatano wa herufi wa utafutaji uliotolewa.
+**Priča korisnika:** Možete dobiti URL za slike, opise i URL za stranice za set slika povezanih sa sekvencom pretraživačkih karaktera koja je data.
 
-**Hadithi ya mtumiaji:** Unaweza kuruka kurasa kupitia majibu kwa kuongeza kigezo cha `?page=2` kwenye URL.
+**Priča korisnika:** Možete preskočiti stranice kroz odgovore dodavanjem parametra `?page=2` u URL.
 
-**Hadithi ya mtumiaji:** Unaweza kupata orodha ya mfuatano wa herufi wa utafutaji uliowasilishwa hivi karibuni zaidi.
+**Istorija korisnika:** Možete pronaći listu najnovije podnetih pretraga.
 
-Ukipomaliza, hakikisha kuna onyesho linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake kwenye sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako kwenye sehemu ya Kiungo cha GitHub.
+Po završetku, uverite se da je demonstracija vašeg funkcionalnog projekta sačuvana na javno mesto. Zatim pošaljite URL u sekciju Link ka rešenju (Solution Link). Opciono, pošaljite i link ka izvornom kodu vašeg projekta u sekciju Link za GitHub.
 
 # --solutions--
 

@@ -1,6 +1,6 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Step 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
@@ -13,7 +13,7 @@ Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kw
 
 # --hints--
 
-Kipengele chako cha tatu cha `tr` kinapaswa kuwa na kipengele cha `th`.
+Vaš treći element `tr` mora imati atribut/element `th`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -22,7 +22,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.isNotNull(tableRow?.querySelector('th'));
 ```
 
-Kipengele chako cha `th` kinapaswa kuwa na maandishi ya `Credit The outstanding balance on our credit card.`.
+Vaše polje `th` trebalo bi da ima tekst od `Credit The outstanding balance on our credit card.`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -34,7 +34,7 @@ assert.strictEqual(
 );
 ```
 
-Unapaswa kuzungusha maandishi ya `The outstanding balance on our credit card.` ndani ya kipengele cha `span`.
+Trebalo bi da obavijete tekst iz `The outstanding balance on our credit card.` unutar elementa `span`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -57,7 +57,7 @@ assert.isTrue(
 );
 ```
 
-Unapaswa kuwa na vipengele vitatu vya `td`.
+Trebalo bi da ima tri elementa za `td`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -66,7 +66,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.lengthOf(tableRow?.querySelectorAll('td'), 3);
 ```
 
-Kipengele chako cha kwanza cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Prvi element tvog `td` mora imati tekst `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -75,7 +75,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[0]?.textContent.trim(), '$50');
 ```
 
-Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Tvoj drugi element za `td` treba da ima tekst od `$50`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

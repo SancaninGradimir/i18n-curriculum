@@ -1,13 +1,13 @@
 ---
 id: 66ed8fd0f45ce3ece4053eaf
-title: Jaribio fupi la wachaguzi wa sifa za kipengele za CSS
+title: Kratak test selektora svojstava elemenata CSS
 challengeType: 8
 dashedName: quiz-css-attribute-selectors
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+Da bi prošao kratki test, moraš tačno odgovoriti na najmanje 9 od 10 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,29 +17,29 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Wachaguzi wa sifa za kipengele za CSS hutumika kwa ajili gani?
+Selektori svojstava elementa za CSS, za šta se koriste?
 
 #### --distractors--
 
-Kuweka mitindo kwa vipengele kulingana na jina la lebo yao.
+Postavljanje stilova za elemente u zavisnosti od imena njihove etikete.
 
----
+[No Swahili text provided.]
 
-Kuweka mitindo kwa vipengele kulingana na jina la darasa lao la vitu.
+Postavljanje stilova elemenata na osnovu naziva klase predmeta.
 
----
+[No Swahili text provided.]
 
-Kuweka mitindo kwa vipengele kulingana na kipengele mzazi wao.
+Postavljanje stilova za elemente u odnosu na njihov roditeljski element.
 
 #### --answer--
 
-Kuweka mitindo kwa vipengele kulingana na sifa zao za kipengele.
+Postavljanje stilova elemenata na osnovu njihovih svojstava.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo isiyotachaguliwa na kichaguzi hiki cha CSS?
+Koji/Koja je među sljedećim koji nije izabran ovim selektorom CSS?
 
 ```css
 [title~="flower"] {
@@ -53,13 +53,13 @@ Ni ipi kati ya zifuatazo isiyotachaguliwa na kichaguzi hiki cha CSS?
 <img src="img1.jpg" title="clematis flower" width="150" height="113">
 ```
 
----
+[No Swahili text provided.]
 
 ```html
 <img src="img2.jpg" title="flower" width="150" height="113">
 ```
 
----
+[No Swahili text provided.]
 
 ```html
 <img src="img2.jpg" title="FLOWERS of flower" width="150" height="113">
@@ -75,7 +75,7 @@ Ni ipi kati ya zifuatazo isiyotachaguliwa na kichaguzi hiki cha CSS?
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na vipengele vyote vya `p` vyenye sifa ya `lang` iliyowekwa kuwa `"fr"`?
+Koji je selektor za CSS koji odgovara svim elementima `p` sa atributom `lang` postavljenim na `"fr"`?
 
 #### --distractors--
 
@@ -83,13 +83,13 @@ Ni kichaguzi gani cha CSS kinacholingana na vipengele vyote vya `p` vyenye sifa 
 p[lang-="fr"] { color: blue; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 p[lang~="fr"] { color: blue; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 p[lang=="fr"] { color: blue; }
@@ -105,7 +105,7 @@ p[lang="fr"] { color: blue; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na vipengele vyote vya `a` vyenye sifa ya `href`?
+Koji selektor za CSS odgovara svim elementima od `a` koji imaju atribut `href`?
 
 #### --distractors--
 
@@ -113,13 +113,13 @@ Ni kichaguzi gani cha CSS kinacholingana na vipengele vyote vya `a` vyenye sifa 
 a(href) { color: green; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 a { color: green; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 a[href~=""] { color: green; }
@@ -135,7 +135,7 @@ a[href] { color: blue; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na orodha zilizopangwa zenye nambari za Kirumi kubwa?
+Koji selektor CSS odgovara strukturiranim listama sa velikim rimskim brojevima?
 
 #### --distractors--
 
@@ -143,13 +143,13 @@ Ni kichaguzi gani cha CSS kinacholingana na orodha zilizopangwa zenye nambari za
 ol[type="a"] { border-color: black; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 ol[type="A"] { border-color: black; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 ol[type="i"] { border-color: black; }
@@ -165,29 +165,29 @@ ol[type="I"] { border-color: black; }
 
 #### --text--
 
-Sifa ya `data-lang` hutumika kwa kawaida kwa ajili gani?
+Za šta se svojstvo `data-lang` obično koristi?
 
 #### --distractors--
 
-Kubainisha lugha ya hati.
+Identifikujte jezik dokumenta.
 
----
+[No Swahili text provided.]
 
-Kufafanua usimbaji wa herufi wa hati.
+Definisanje kodovanja karaktera dokumenta.
 
----
+[No Swahili text provided.]
 
-Kuweka lugha ya kipengele kulingana na kipengele mzazi wake.
+Postavljanje jezika elementa u skladu sa njegovim roditeljskim elementom.
 
 #### --answer--
 
-Kuhifadhi data maalum kwenye kipengele cha HTML ambacho CSS au JavaScript vinaweza kutumia.
+Sačuvajte specifične podatke u komponentu HTML koju mogu koristiti CSS ili JavaScript.
 
 ### --question--
 
 #### --text--
 
-Ni kichaguzi gani cha CSS unapaswa kutumia kuweka mtindo kwa vipengele vya `img` tu ikiwa sifa yao ya `alt` ni sawa na `"code"`?
+Koji selektor za CSS treba da koristiš za postavljanje stila za elemente sa `img`, samo ako je njihov atribut `alt` jednak `"code"`?
 
 #### --distractors--
 
@@ -195,13 +195,13 @@ Ni kichaguzi gani cha CSS unapaswa kutumia kuweka mtindo kwa vipengele vya `img`
 img[alt~="code"] { border: 1px solid red; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 img[alt=="code"] { border: 1px solid red; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 img[alt*="code"] { border: 1px solid red; }
@@ -217,7 +217,7 @@ img[alt="code"] { border: 1px solid red; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS kinacholingana na orodha zilizopangwa zenye aina ya nambari za tarakimu?
+Koji je selektor za CSS koji odgovara strukturiranim listama sa tipom digitalnih brojeva?
 
 #### --distractors--
 
@@ -225,13 +225,13 @@ Ni kichaguzi gani cha CSS kinacholingana na orodha zilizopangwa zenye aina ya na
 ol[type="i"] { color: purple; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 ol[type="I"] { color: purple; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 ol[type="a"] { color: purple; }
@@ -247,7 +247,7 @@ ol[type="1"] { color: purple; }
 
 #### --text--
 
-Ni ipi kati ya wachaguzi wa CSS zifuatazo ungetumia kuweka mtindo kwa vipengele vya `a` vyenye sifa za `href` na `title` zote mbili?
+Koji od sledećih selektora za CSS biste koristili da postavite stil za elemente `a` koji imaju oba svojstva `href` i `title`?
 
 #### --distractors--
 
@@ -255,13 +255,13 @@ Ni ipi kati ya wachaguzi wa CSS zifuatazo ungetumia kuweka mtindo kwa vipengele 
 a[href] a[title] { text-decoration: underline dotted; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 a[href]a[title] { text-decoration: underline dotted; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 a[href].[title] { text-decoration: underline dotted; }
@@ -277,7 +277,7 @@ a[href][title] { text-decoration: underline dotted; }
 
 #### --text--
 
-Ni kichaguzi gani cha CSS ungetumia ikiwa unatengeneza mtandao wa mkahawa na unataka kuweka mtindo kwa vipengele vyote vyenye darasa la vitu la `menu-item` ambavyo vina sifa ya `data-special`?
+Koji selektor za CSS bi koristio ako praviš web-stranicu za restoran i želiš primeniti stil na sve elemente koji imaju klasu stvari `menu-item` a koji imaju atribut `data-special`?
 
 #### --distractors--
 
@@ -285,13 +285,13 @@ Ni kichaguzi gani cha CSS ungetumia ikiwa unatengeneza mtandao wa mkahawa na una
 menu-item[data-special] { background-color: blue; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 #menu-item[data-special] { background-color: blue; }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 [data-special="menu-item"] { background-color: blue; }

@@ -1,6 +1,6 @@
 ---
 id: bd7198d8c242eddfaeb5bd13
-title: Onyesha Ukaribu wa Kitaifa kwa Grafu Inayoongozwa na Nguvu
+title: Pokažite nacionalnu bliskost za grafikon vođen snagom
 challengeType: 3
 forumTopicId: 302367
 dashedName: show-national-contiguity-with-a-force-directed-graph
@@ -8,21 +8,21 @@ dashedName: show-national-contiguity-with-a-force-directed-graph
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
+**Cilj:** Napravi program koji funkcioniše na način sličan ovom: <https://codepen.io/freeCodeCamp/full/XWEONRz>.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Dopunite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-**Hadithi ya mtumiaji:** Naweza kuona grafu inayoongozwa na nguvu inayoonyesha ni nchi zipi zinazoshirikiana mipaka.
+**Priča korisnika:** Mogu da vidim grafik koji je baziran na podacima i pokazuje koje zemlje dele granice.
 
-**Hadithi ya mtumiaji:** Naweza kuona bendera ya kila nchi kwenye nodi yake.
+**Priča korisnika:** Mogu da vidim zastavu svake zemlje na njegovom čvoru.
 
-**Kidokezo:** Hapa kuna seti ya data unayoweza kutumia kujenga hii: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
+**Napomena:** Ovde je skup podataka koji možete koristiti za izradu ovoga: <https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json>
 
-**Kidokezo:** Unaweza kutengeneza spritesheet ya bendera za kitaifa kwenye <https://www.flag-sprites.com>.
+**Napomena:** Možete kreirati *spritesheet* nacionalnih zastava na <https://www.flag-sprites.com>.
 
-Ukipomaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Nakon što završiš, uključi link svog projekta na CodePen i klikni na dugme "Završio sam ovaj izazov".
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu deljenjem ga na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

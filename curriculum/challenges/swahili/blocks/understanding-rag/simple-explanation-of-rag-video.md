@@ -1,6 +1,6 @@
 ---
 id: 69ae5c6d8491ca1dcd31440c
-title: Maelezo rahisi ya RAG
+title: Jednostavno objašnjenje RAG-a
 challengeType: 11
 videoId: _KPPqvJ9ig4
 dashedName: simple-explanation-of-rag
@@ -8,29 +8,29 @@ dashedName: simple-explanation-of-rag
 
 # --description--
 
-Katika video hii, utaanzishwa kwa dhana ya RAG.
+U ovom videu, biće predstavljen koncept RAG.
 
 # --questions--
 
 ## --text--
 
-RAG inasimamia nini?
+Šta RAG upravlja/pokriva?
 
 ## --answers--
 
-Retrieval-Augmented Generation
+Dohvaćanje-pojačano generisanje
 
----
+[No Swahili text provided.]
 
-Recursive Attention Generation
+Rekurzivno generisanje pažnje
 
----
+[No Swahili text provided.]
 
-Recurrent Adversarial Generation
+Rekurentna adversijalna generacija
 
----
+[No Swahili text provided.]
 
-Response-Action Generation
+Generisanje Odgovora Akcije
 
 ## --video-solution--
 

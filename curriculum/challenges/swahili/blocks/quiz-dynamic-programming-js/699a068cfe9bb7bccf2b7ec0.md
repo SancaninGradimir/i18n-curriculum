@@ -1,13 +1,13 @@
 ---
 id: 699a068cfe9bb7bccf2b7ec0
-title: Jaribio fupi la programu inayobadilika
+title: Pokušao sam sa programom koji se menja
 challengeType: 8
 dashedName: quiz-dynamic-programming-js
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 yaliyo hapa chini.
+Da bi prošao kratki test, moraš tačno odgovoriti na najmanje 9 od 10 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,218 +17,218 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 9 kati ya 10 y
 
 #### --text--
 
-Ni sifa gani mbili muhimu lazima ziwepo katika tatizo ili programu inayobadilika iwe njia bora ya kutatua?
+Koje su dve važne karakteristike koje moraju postojati u problemu da bi adaptivni program bio najbolji način rešavanja?
 
 #### --distractors--
 
-Muda wa utekelezaji wa haraka na matumizi madogo ya kumbukumbu
+Brzo vreme izvršavanja i niska potrošnja memorije
 
----
+[No Swahili text provided.]
 
-Uwezo wa kurudia na mizunguko ya kurudia
+Sposobnost ponavljanja i ciklusi ponavljanja
 
----
+[No Swahili text provided.]
 
-Usindikaji mfululizo na kompyuta sambamba
+Sekvencijalna obrada i paralelni računar
 
 #### --answer--
 
-Matatizo yanayojirudia na muundo bora wa sehemu ndogo
+Ponovljajući problemi i poboljšani dizajn malih delova
 
 ### --question--
 
 #### --text--
 
-Tofauti kuu kati ya mbinu za memoization na tabulation katika programu inayobadilika ni ipi?
+Koja je glavna razlika između metoda memoizacije i tabulacije u dinamičkom programiranju?
 
 #### --distractors--
 
-Memoization hutumia jedwali za hash wakati tabulation hutumia safu za data, na kufanya iwe bora zaidi.
+Memoizacija koristi hash tabele dok tabulacija koristi nizove podataka, što čini proces efikasnijim.
 
----
+[No Swahili text provided.]
 
-Memoization ni ya haraka lakini hutumia kumbukumbu na mizunguko ya prosesa (CPU) zaidi kuliko tabulation.
+Memoizacija je brža, ali troši više memorije i ciklusa procesora (CPU) od tabulacije.
 
----
+[No Swahili text provided.]
 
-Memoization inaweza kutatua matatizo rahisi zaidi kuliko tabulation.
+Memoizacija može rešiti probleme lakše od tabulacije.
 
 #### --answer--
 
-Memoization ni mbinu ya juu-chini inayotumia kurudia, wakati tabulation ni mbinu ya chini-juu inayotumia mizunguko.
+Memoizacija je top-down pristup koji koristi rekursiju, dok je tabulacija bottom-up pristup koji koristi petlje.
 
 ### --question--
 
 #### --text--
 
-Kwa nini suluhisho za kurudia zisizo na ufanisi kwa matatizo ya programu inayobadilika kawaida huwa na ugumu wa muda wa mzunguko wa eksponentiali?
+Zašto neefikasna rekurzivna rešenja za dinamičke probleme imaju eksponencijalnu vremensku složenost?
 
 #### --distractors--
 
-Kwa sababu hutumia kiasi cha kumbukumbu cha eksponentiali kuhifadhi vigezo.
+Zato što koristi eksponencijalnu količinu memorije za skladištenje parametara.
 
----
+[No Swahili text provided.]
 
-Kwa sababu zinahitaji kupanga data kwa muda wa eksponentiali.
+Zato što zahtevaju eksponencijalnu obradu podataka.
 
----
+[No Swahili text provided.]
 
-Kwa sababu lazima zikague mchanganyiko wote unaowezekana wa ingizo.
+Zato što moraju proveriti sve moguće kombinacije ulaza.
 
 #### --answer--
 
-Kwa sababu kila wito wa kurudia hugawanyika mara nyingi, na kusababisha matatizo yanayojirudia kukaguliwa tena mara kwa mara.
+Jer svaki ponovljeni poziv se često razdvaja/ogranačava, uzrokujući ponavljajuće probleme koji moraju biti redovno proveravani.
 
 ### --question--
 
 #### --text--
 
-Nini maana ya muundo bora wa sehemu ndogo katika muktadha wa programu inayobadilika?
+Šta znači optimalan dizajn komponenti u kontekstu dinamične aplikacije?
 
 #### --distractors--
 
-Algoriti lazima itumie muundo wa data bora zaidi uliopo.
+Algoritmi moraju da koriste najbolju postojeću strukturu podataka.
 
----
+[No Swahili text provided.]
 
-Suluhisho lazima lipunguze ugumu wa muda na nafasi kwa wakati mmoja.
+Rešenje mora smanjiti težinu i prostor istovremeno.
 
----
+[No Swahili text provided.]
 
-Tatizo lazima liwe na suluhisho moja la kipekee na bora.
+Problem mora imati jedno jedinstveno i najbolje rešenje.
 
 #### --answer--
 
-Suluhisho bora linaweza kujengwa kutoka kwa suluhisho bora za matatizo yake madogo.
+Optimalno rešenje se može izgraditi iz optimalnih rešenja njegovih manjih problema.
 
 ### --question--
 
 #### --text--
 
-Unapotekeleza memoization, nini hutokea wakati kitendakazi kinapoitwa na vigezo ambavyo tayari vimehesabiwa?
+Kada implementirate memoizaciju, šta se dešava kada funkcija bude pozvana sa parametrima koji su već izračunati?
 
 #### --distractors--
 
-Kitendakazi kinahesabu tena matokeo ili kuhakikisha usahihi.
+Funkcija ponovno računa rezultate da bi osigurala tačnost.
 
----
+[No Swahili text provided.]
 
-Kitendakazi kinachukua wastani wa matokeo ya zamani na mapya kwa usahihi bora.
+Funkcija koja izračunava prosečnu vrednost starih i novih rezultata sa većom tačnošću.
 
----
+[No Swahili text provided.]
 
-Hitilafu hutupwa kwa sababu mahesabu rudufu hayaruhusiwi.
+Greška je bacena jer se ne dozvoljava reversna kalkulacija.
 
 #### --answer--
 
-Matokeo yaliyohifadhiwa hurudishwa mara moja bila kuhesabu tena.
+Sačuvani rezultati se vraćaju odmah bez ponovnog računanja.
 
 ### --question--
 
 #### --text--
 
-Nini faida kuu ya kutumia tabulation badala ya memoization?
+Koja je glavna prednost korišćenja tabulacije umesto memorizacije?
 
 #### --distractors--
 
-Tabulation daima inahitaji kumbukumbu kidogo kuliko memoization.
+Tabulacija uvek zahteva manje memorije od memoizacije.
 
----
+[No Swahili text provided.]
 
-Tabulation inaweza kutatua darasa pana zaidi la matatizo.
+Tabulacija može rešiti širi spektar problema.
 
----
+[No Swahili text provided.]
 
-Tabulation daima ni rahisi zaidi kutekeleza na kuelewa.
+Tabulacija je uvek lakša za implementaciju i razumevanje.
 
 #### --answer--
 
-Tabulation huzuia mzigo wa kurudia na hutoa utekelezaji wa mfululizo unaoweza kutabirika.
+Tabulacija sprečava ponovni opterećivanje i pruža predvidljivo sekvencijalno izvršavanje.
 
 ### --question--
 
 #### --text--
 
-Katika suluhisho la programu inayobadilika la chini-juu, kwa nini kesi za msingi huanzishwa kwanza?
+U rešenju donji-kaversoj dinamike, zašto se bazni slučajevi inicijalizuju prvi?
 
 #### --distractors--
 
-Ili kugawa kumbukumbu kwa ufanisi kwa muundo wa data.
+Da efikasno alocira memoriju za strukturu podataka.
 
----
+[No Swahili text provided.]
 
-Kuzuia mizunguko isiyoisha katika algoriti.
+Preventovanje beskonačnih petlji u algoritmu.
 
----
+[No Swahili text provided.]
 
-Kuboresha ugumu wa muda wa algoriti.
+Poboljšanje vremenske složenosti algoritma.
 
 #### --answer--
 
-Ili kutoa thamani za msingi ambazo matatizo makubwa zaidi yote yanajengwa juu yake.
+Da bi se pružile osnovne vrednosti na kojima su izgrađeni svi najveći problemi.
 
 ### --question--
 
 #### --text--
 
-Programu inayobadilika hubadilishaje ugumu wa muda wa matatizo yanayoonyesha matatizo yanayojirudia?
+Kako adaptivni program menja nivo težine problema koji pokazuju ponavljajuće probleme?
 
 #### --distractors--
 
-Kutoka polynomial hadi logarithmic kwa kugawanya tatizo kwa ufanisi.
+Od polinoma do logaritamskih funkcija za efikasno rešavanje problema.
 
----
+[No Swahili text provided.]
 
-Kutoka quadratic hadi linear kwa kuboresha miundo ya mizunguko.
+Od kvadratnog do linearnog za poboljšanje struktura kola.
 
----
+[No Swahili text provided.]
 
-Kutoka linear hadi constant kwa kutumia jedwali za hash.
+Od linear do constant uz korišćenje hash tabela.
 
 #### --answer--
 
-Kutoka eksponentiali hadi polynomial kwa kuhifadhi na kutumia tena suluhisho za matatizo madogo.
+Od eksponencijalnog do polinomialnog za skladištenje i ponovno korišćenje rešenja podproblema.
 
 ### --question--
 
 #### --text--
 
-Ni mabadiliko gani ambayo programu inayobadilika kawaida hufanya ili kufanikisha ugumu bora wa muda?
+Koje promene obično pravi program koji se menja kako bi postigao optimalnu složenost tokom vremena?
 
 #### --distractors--
 
-Inakataa usomaji wa msimbo kwa ajili ya utekelezaji wa haraka.
+Odbija čitanje koda radi brze implementacije.
 
----
+[No Swahili text provided.]
 
-Inahitaji algoriti ngumu zaidi ambazo ni vigumu kudumisha.
+Zahteva više kompleksnih algoritama koje je teško održavati.
 
----
+[No Swahili text provided.]
 
-Inapunguza ukubwa wa matatizo yanayoweza kutatuliwa.
+Smanjuje obim rešivih problema.
 
 #### --answer--
 
-Inatumia nafasi ya ziada kuhifadhi matokeo ya kati.
+Koristi dodatni prostor za skladištenje međurezultata.
 
 ### --question--
 
 #### --text--
 
-Katika hali gani programu inayobadilika HAIFAI kuwa njia sahihi ya algoriti?
+U kojem stanju je dinamički program HAIFAI pravi metod za algoritma?
 
 #### --distractors--
 
-Wakati tatizo linahitaji kupata suluhisho bora.
+Kada je problem potreban da pronađe najbolje rešenje.
 
----
+[No Swahili text provided.]
 
-Wakati tatizo linaweza kugawanywa kuwa matatizo madogo.
+Kada se problem može podeliti na manje probleme.
 
----
+[No Swahili text provided.]
 
-Wakati ugumu wa nafasi lazima upunguzwe.
+Kompleksnost prostora mora biti smanjena.
 
 #### --answer--
 
-Wakati matatizo madogo ni huru na hayajirudii.
+Kada su male nevolje besplatne i se ne ponavljaju.

@@ -1,6 +1,6 @@
 ---
 id: 699e782a8f18cf77dfce5c19
-title: Utambulisho wa Pythagorean
+title: Pitagoreina teorema
 challengeType: 11
 videoId: C1i_FlxW_uE
 dashedName: pythagorean-identities
@@ -8,27 +8,27 @@ dashedName: pythagorean-identities
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu utambulisho wa Pythagorean.
+Na ovom videu ćete naučiti o Pitagorinom identitetu.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ni mfano wa utambulisho wa Pythagorean?
+Koji od sledećih je primer Pitagorinog identiteta?
 
 ## --answers--
 
 $\sec^2(x) + \tan^2(x) = 1$
 
----
+[No Swahili text provided.]
 
 $\tan^2(x) + 1 = \sec^2(x)$
 
----
+[No Swahili text provided.]
 
 $\csc^2(x) + \cot^2(x) = 1$
 
----
+[No Swahili text provided.]
 
 $\cot^2(x) - 1 = \csc^2(x)$
 

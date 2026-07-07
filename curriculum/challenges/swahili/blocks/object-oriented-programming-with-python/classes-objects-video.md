@@ -1,6 +1,6 @@
 ---
 id: a0339c4075344cbfc2cd939c
-title: Madarasa la vitu na vitu
+title: Kategorije raznih stvari
 challengeType: 11
 videoId: fR3dh5_MPJs
 dashedName: classes-and-objects
@@ -8,29 +8,29 @@ dashedName: classes-and-objects
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kuunda madarasa la vitu na vitu katika Python kuandika programu zinazotumia mbinu ya vitu.
+U ovom videu, naučićete kako da kreirate klase objekata i stvari u Python da pišete programe koji koriste objektnu metodologiju.
 
 # --questions--
 
 ## --text--
 
-Jukumu la `def __init__(self):` ndani ya darasa la vitu ni lipi?
+Koja je funkcija `def __init__(self):` unutar klase objekata?
 
 ## --answers--
 
-Inawakilisha kitendakazi cha kuita njia.
+Predstavlja funkciju za pozivanje metode.
 
----
+[No Swahili text provided.]
 
-Inaelezea aina ya darasa la vitu.
+Objašnjava vrstu klase objekata.
 
----
+[No Swahili text provided.]
 
-Inaruhusu darasa la vitu kurithi njia kutoka kwa darasa lingine.
+Omogućava klasama da naslede metode iz druge klase.
 
----
+[No Swahili text provided.]
 
-Inawakilisha njia ya kuanzisha.
+Predstavlja način za inicijalizaciju.
 
 ## --video-solution--
 

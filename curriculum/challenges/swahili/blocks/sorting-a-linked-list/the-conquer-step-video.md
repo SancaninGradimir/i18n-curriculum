@@ -1,6 +1,6 @@
 ---
 id: 698de74b7932b3cc4b19c93c
-title: Hatua ya kushinda
+title: Korak pobede
 challengeType: 11
 videoId: 4-ycdUhn30U
 dashedName: the-conquer-step
@@ -8,29 +8,29 @@ dashedName: the-conquer-step
 
 # --description--
 
-Katika video hii, utafundishwa kutekeleza algoriti ya merge sort kwenye orodha zilizounganishwa kwa kufanya zoezi la hatua ya kushinda.
+U ovom videu ćete naučiti kako da implementirate Merge Sort algoritam na sortirane liste radeći vežbu koraka osvajanja.
 
 # --questions--
 
 ## --text--
 
-Nini kusudi la kitendakazi cha `merge` katika utekelezaji huu wa merge sort?
+Koja je namena funkcije `merge` u ovoj implementaciji merge sort-a?
 
 ## --answers--
 
-Kusudi ni kugawanya orodha iliyounganishwa kuwa orodha ndogo ndogo kwa ajili ya kupanga kwa njia ya kurudia.
+Cilj je podeliti povezanu listu na manje liste radi iterativnog sortiranja.
 
----
+[No Swahili text provided.]
 
-Kusudi ni kuchagua nodi kutoka kila orodha bila kupanga na kuziunganisha.
+Cilj je odabrati čvor iz svake liste bez sortiranja i spajanja ih.
 
----
+[No Swahili text provided.]
 
-Kusudi ni kuunganisha orodha mbili zilizounganishwa, kupanga kwa data iliyomo kwenye nodi na kurudisha orodha mpya iliyounganishwa.
+Svrha je spajati dve povezane liste, sortirati podatke sadržane u čvorovima i vratiti novu spojenu listu.
 
----
+[No Swahili text provided.]
 
-Kusudi ni kupanga upya nodi katika orodha iliyounganishwa kwa mpangilio wa kinyume na kurudisha matokeo.
+Cilj je ponovo organizovati čvorove u spojenu listu u obrnutom redosledu i vratiti rezultate.
 
 
 ## --video-solution--

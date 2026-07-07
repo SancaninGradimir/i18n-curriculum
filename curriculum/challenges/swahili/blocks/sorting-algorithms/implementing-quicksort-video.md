@@ -1,6 +1,6 @@
 ---
 id: 698dea0c7932b3cc4b19c945
-title: Kutekeleza quicksort
+title: Implementiraj quicksort
 challengeType: 11
 videoId: 7k5rxhK3X_Y
 dashedName: implementing-quicksort
@@ -8,13 +8,13 @@ dashedName: implementing-quicksort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutekeleza algoriti ya quicksort kwa Python.
+U ovom videu, naučićete kako da implementirate quicksort algoritam za Python.
 
 # --questions--
 
 ## --text--
 
-Ni kesi gani ya msingi kwa utekelezaji huu wa quicksort katika Python?
+Koji je osnovni slučaj za ovu implementaciju quicksort-a u Python?
 
 ## --answers--
 
@@ -23,7 +23,7 @@ while len(values) > 1:
     values.pop()
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 for i in range(len(values)):
@@ -31,14 +31,14 @@ for i in range(len(values)):
         values[i] -= 1
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 for i in range(len(values)):
     values[i] += 1
 ```
 
----
+[No Swahili text provided.]
 
 ```python
 if len(values) <= 1:

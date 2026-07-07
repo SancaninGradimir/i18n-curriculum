@@ -1,19 +1,19 @@
 ---
 id: 686daa7ed79ceacd0b264e7d
-title: Hatua 2
+title: Korak 2
 challengeType: 0
 dashedName: step-2
 ---
 
 # --description--
 
-Unapaswa kupanga ndani kipengele kimoja cha `path` ndani ya kipengele chako cha `svg` ili kutoa umbo la picha.
+Trebalo bi da smestite unutar jedne komponente `path` u vašu komponentu `svg` kako biste prikazali sliku.
 
-Unda kipengele cha `path`.
+Kreiraj element za `path`.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `path` kilichopangwa ndani ya kipengele chako cha `svg`.
+Trebalo bi da imaš element `path` postavljen unutar tvog elementa `svg`.
 
 ```js
 const path = document.querySelector('svg path');

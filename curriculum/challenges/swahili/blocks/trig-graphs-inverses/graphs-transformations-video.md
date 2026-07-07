@@ -1,6 +1,6 @@
 ---
 id: 699e69e58f18cf77dfce5c14
-title: "Michoro ya Mabadiliko ya Tan, Sec, Cot, Csc"
+title: Grafici transformacija za Tan, Sec, Cot, Csc
 challengeType: 11
 videoId: 07CAThFU14c
 dashedName: graphs-of-transformations-of-tan-sec-cot-csc
@@ -8,29 +8,29 @@ dashedName: graphs-of-transformations-of-tan-sec-cot-csc
 
 # --description--
 
-Katika video hii, utajifunza jinsi ya kuchora michoro ya mabadiliko ya kitendakazi za tangent, secant, cotangent, na cosecant.
+U ovom videu, naučićete kako da nacrtate grafikone transformacija funkcija tangensa, sekansa, kotangensa i kosekansa.
 
 # --questions--
 
 ## --text--
 
-Je, umbo la mchoro wa pili unaoonyeshwa kwenye video ni lipi?
+Kakav je oblik drugog crteža prikazanog u videu?
 
 ## --answers--
 
-Mchoro wa secant.
+Dijagram sekansa.
 
----
+[No Swahili text provided.]
 
-Mchoro wa tangent.
+Crtež tangente.
 
----
+[No Swahili text provided.]
 
-Mchoro wa sinusoidal.
+Sinusoidalni crtež.
 
----
+[No Swahili text provided.]
 
-Mchoro wa cosecant.
+Graf kosekansa.
 
 ## --video-solution--
 

@@ -1,6 +1,6 @@
 ---
 id: 69ae96dfa9e6da4eb0d5f7f5
-title: Kutumia kijenzi
+title: Koristeći komponentu
 challengeType: 11
 videoId: CDFRHw4SACU
 dashedName: using-constructors
@@ -8,13 +8,13 @@ dashedName: using-constructors
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na kijenzi katika madarasa ya vitu.
+U ovom videu, naučićete kako da radite sa komponentama u klasama objekata.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuandika kijenzi?
+Koja od sljedećih je ispravan način za pisanje komponente?
 
 ## --answers--
 
@@ -27,7 +27,7 @@ class Dog:
         print(f"{self.name} says: Woof!")
 ```
 
----
+[No Swahili text provided.]
 
 ```py
 class Dog:
@@ -38,7 +38,7 @@ class Dog:
         print(f"{self.name} says: Woof!")
 ```
 
----
+[No Swahili text provided.]
 
 ```py
 class Dog:
@@ -49,7 +49,7 @@ class Dog:
         print(f"{self.name} says: Woof!")
 ```
 
----
+[No Swahili text provided.]
 
 ```py
 class Dog:

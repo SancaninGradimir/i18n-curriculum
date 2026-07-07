@@ -1,13 +1,13 @@
 ---
 id: 66ed8fc9f45ce3ece4053eae
-title: Jaribio fupi la michoro ya CSS
+title: Pokušaj sa CSS crtežima/grafikom
 challengeType: 8
 dashedName: quiz-css-animations
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,61 +17,61 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Lengo la sifa ya `transform` katika CSS ni nini?
+Svrha atributa `transform` u CSS jeste?
 
 #### --distractors--
 
-Kubadilisha uonekano wa kipengele.
+Menjajte izgled elementa.
 
----
+[No Swahili text provided.]
 
-Kutumia athari ya kuona kwa maandishi.
+Koristiti vizuelni prikaz teksta.
 
----
+[No Swahili text provided.]
 
-Kuweka vipimo vya kipengele.
+Postavite dimenzije elementa.
 
 #### --answer--
 
-Kubadilisha nafasi, ukubwa, na umbo la kipengele.
+Menja poziciju, veličinu i oblik elementa.
 
 ### --question--
 
 #### --text--
 
-Sifa ya CSS `animation-direction` inaathirije michoro?
+Da li karakteristika CSS `animation-direction` utiče na crteže?
 
 #### --distractors--
 
-Inaeleza kama michoro inapaswa kurudiwa.
+Objašnjava kako se crtež treba ponoviti.
 
----
+[No Swahili text provided.]
 
-Inaweka muda wa michoro.
+Postavljam vremenski okvir za crteže.
 
----
+[No Swahili text provided.]
 
-Inaeleza kasi ya michoro.
+Objašnjava brzinu crteža.
 
 #### --answer--
 
-Inaeleza jinsi michoro inavyopaswa kuchezwa.
+Objašnjava kako se crteži treba igrati.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS inayofanya michoro ifanyike mara 3?
+Koja je karakteristika CSS koja uzrokuje da se crtež izvrši tri puta?
 
 #### --distractors--
 
 `animation-repeat: 3`
 
----
+[No Swahili text provided.]
 
 `animation-loop: 3`
 
----
+[No Swahili text provided.]
 
 `animation-delay: 3`
 
@@ -83,17 +83,17 @@ Ni sifa gani ya CSS inayofanya michoro ifanyike mara 3?
 
 #### --text--
 
-Ni kitendakazi gani cha wakati wa CSS kinachofanya michoro ifanye kwa kasi thabiti kutoka mwanzo hadi mwisho?
+Koja je funkcija za period CSS koja čini da crteži rade konstantnom brzinom od početka do kraja?
 
 #### --distractors--
 
 `ease`
 
----
+[No Swahili text provided.]
 
 `ease-in`
 
----
+[No Swahili text provided.]
 
 `ease-in-out`
 
@@ -105,105 +105,105 @@ Ni kitendakazi gani cha wakati wa CSS kinachofanya michoro ifanye kwa kasi thabi
 
 #### --text--
 
-Kanuni ya at ya `@keyframes` inaeleza nini katika CSS?
+Šta Kanun za `@keyframes` objašnjava u CSS?
 
 #### --distractors--
 
-Rangi za mchanganyiko wa rangi wa CSS.
+Boje za mešavinu boja CSS.
 
----
+[No Swahili text provided.]
 
-Pembe za mzunguko wa CSS.
+Roze za ciklus CSS.
 
----
+[No Swahili text provided.]
 
-Vipimo vya kipengele.
+Merenja elementa.
 
 #### --answer--
 
-Hatua za michoro ya CSS.
+Koraci crteža za CSS.
 
 ### --question--
 
 #### --text--
 
-Lengo la kitendakazi cha `translateX()` katika CSS ni nini?
+Svrha funkcije za `translateX()` u CSS je šta?
 
 #### --distractors--
 
-Hubadilisha uwazi wa kipengele.
+Promeni vidljivost elementa.
 
----
+[No Swahili text provided.]
 
-Hubadilisha mzunguko wa kipengele.
+Promeni elementni ciklus.
 
----
+[No Swahili text provided.]
 
-Hubadilisha nafasi ya kipengele wima.
+Promeni poziciju vertikalnog elementa.
 
 #### --answer--
 
-Hubadilisha nafasi ya kipengele usawa.
+Promeni poziciju elementa jednako.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SIYO tatizo linaloweza kutokea na michoro ya CSS?
+Ko od sljedećih NIJE problem koji može nastati sa crteža CSS?
 
 #### --distractors--
 
-Inaweza kusababisha usumbufu au madhara kwa watumizi fulani.
+Može uzrokovati neprijatnost ili štetu određenim korisnicima.
 
----
+[No Swahili text provided.]
 
-Watumizi wanaweza kuipata kuwa ya kuvuruga.
+Korisnici mogu to smatrati uznemirujućim.
 
----
+[No Swahili text provided.]
 
-Matumizi kupita kiasi yanaweza kusababisha utendaji mbaya.
+Prekomerna upotreba može uzrokovati loše performanse.
 
 #### --answer--
 
-Inaweza kuboresha uzoefu wa mtumizi.
+Može poboljšati korisničko iskustvo.
 
 ### --question--
 
 #### --text--
 
-Kanuni ya at ya `@keyframes` imewekwa wapi?
+Gde je kanun za ata `@keyframes` postavljen?
 
 #### --distractors--
 
-Ndani ya kipengele cha `body` cha faili ya HTML.
+Unutar elementa `body` datoteke HTML.
 
----
+[No Swahili text provided.]
 
-Ndani ya kipengele cha `head` cha faili ya HTML.
+Unutar elementa `head` datoteke HTML.
 
----
+[No Swahili text provided.]
 
-Ndani ya ufafanuzi wa darasa la vitu la CSS.
+Unutar definicije klase objekata CSS.
 
 #### --answer--
 
-Kiwango cha juu kabisa, nje ya vichaguzi vyovyote vya CSS.
+Najviši mogući nivo, izvan bilo kojeg selektora za CSS.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS inayokuwezesha kusitisha na kuendelea na michoro?
+Koja je karakteristika CSS koja vam omogućava da pauzirate i nastavite crteže?
 
 #### --distractors--
 
 `animation-timing-function`
 
----
+[No Swahili text provided.]
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-direction`
 
@@ -215,29 +215,29 @@ Ni sifa gani ya CSS inayokuwezesha kusitisha na kuendelea na michoro?
 
 #### --text--
 
-Ni thamani gani inapaswa kuwekwa kwa sifa ya `animation-name` katika CSS?
+Koja vrednost treba da se postavi za atribut `animation-name` u CSS?
 
 #### --distractors--
 
-Muda wa michoro kwa sekunde.
+Okviri po sekundama.
 
----
+[No Swahili text provided.]
 
-Kitendakazi cha wakati kinachotumika kwa michoro.
+Vremenska funkcija za crteže.
 
----
+[No Swahili text provided.]
 
-Kuchelewesha kabla ya michoro kuanza kwa sekunde.
+Odlaganje pre početka grafike za sekunde.
 
 #### --answer--
 
-Jina la michoro lililoelezwa na `@keyframes`.
+Ime crteža definisano sa `@keyframes`.
 
 ### --question--
 
 #### --text--
 
-Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
+Kako pravilo za `@keyframe` funkcioniše za nacrtovani element?
 
 ```css
 @keyframes animation {
@@ -252,35 +252,35 @@ Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
 
 #### --distractors--
 
-Hubadilisha kipengele kwa mzunguko wa digrii 90 kwa mwelekeo wa saa.
+Promeni komponentu za ugao od 90 stepeni u smeru kazaljke na satu.
 
----
+[No Swahili text provided.]
 
-Hubadilisha rangi ya kipengele kuwa buluu.
+Promeni boju elementa u plavu.
 
----
+[No Swahili text provided.]
 
-Hubadilisha ukubwa wa kipengele kuwa asilimia 50 ya ukubwa wa awali kisha asilimia 100 ya ukubwa wa awali.
+Promeni veličinu elementa u 50% od originalne veličine, a zatim u 100% od originalne veličine.
 
 #### --answer--
 
-Hubadilisha kipengele usawa kutoka -50px hadi 100px, kulingana na mahali kilipo mwanzo.
+Promeni element od -50px do 100px, u zavisnosti od početne pozicije.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS inaeleza jinsi michoro inavyosonga kwa muda?
+Koji je atribut CSS koji objašnjava kako crteži kreću tokom vremena?
 
 #### --distractors--
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-fill-mode`
 
----
+[No Swahili text provided.]
 
 `animation-iteration-count`
 
@@ -292,7 +292,7 @@ Ni sifa gani ya CSS inaeleza jinsi michoro inavyosonga kwa muda?
 
 #### --text--
 
-Ni sifa gani ya CSS hutumika kuonyesha kuwa michoro inapaswa kuchukua sekunde 5 kukamilika?
+Koje svojstvo CSS se koristi da pokaže da crteži bi trebalo da traju 5 sekundi za završetak?
 
 #### --distractors--
 
@@ -300,13 +300,13 @@ Ni sifa gani ya CSS hutumika kuonyesha kuwa michoro inapaswa kuchukua sekunde 5 
 animation-name: 5s;
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 animation-delay: 5s;
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 animation-timing-function: 5s;
@@ -322,7 +322,7 @@ animation-duration: 5s;
 
 #### --text--
 
-`50%` inawakilisha nini katika kanuni ya at ya CSS `@keyframe` ifuatayo?
+`50%` šta predstavlja u pravilu za CSS `@keyframe` sledeće?
 
 ```css
 @keyframes animation {
@@ -340,79 +340,79 @@ animation-duration: 5s;
 
 #### --distractors--
 
-Mahali pa kuanza kwa michoro.
+Mesto za početak crteža.
 
----
+[No Swahili text provided.]
 
-Mahali pa mwisho wa michoro.
+Mesto za kraj crteža.
 
----
+[No Swahili text provided.]
 
-Kasi ya michoro.
+Brzina crtanja.
 
 #### --answer--
 
-Mahali pa katikati ya michoro.
+Mesto u sredini crteža.
 
 ### --question--
 
 #### --text--
 
-Nini kitakachotokea wakati sifa ya `transform: translateX(200px);` itatumika?
+Šta će se desiti kada se atribut `transform: translateX(200px);` koristi?
 
 #### --distractors--
 
-Kipengele kitahamia 200px kushoto.
+Element će se premestiti za 200px ulevo.
 
----
+[No Swahili text provided.]
 
-Kipengele kitahamia 200px chini.
+Element će se pomeriti 200px dole.
 
----
+[No Swahili text provided.]
 
-Kipengele kitazunguka digrii 200 kwa mwelekeo wa saa.
+Element će se okretati za 200 stepeni po časovnom smeru.
 
 #### --answer--
 
-Kipengele kitahamia 200px kulia.
+Element će se pomeriti za 200px u desnu stranu.
 
 ### --question--
 
 #### --text--
 
-Michoro itafanyaje ikiwa `animation-iteration-count` itakuwa `infinite`?
+Kako će crteži raditi ako `animation-iteration-count` bude `infinite`?
 
 #### --distractors--
 
-Itacheza mara moja kisha kusimama.
+Plesaj jednom, a onda stani.
 
----
+[No Swahili text provided.]
 
-Itasitishwa baada ya mzunguko wa kwanza.
+Zaustaviće se nakon prvog ciklusa.
 
----
+[No Swahili text provided.]
 
-Itasimama baada ya mizunguko mitatu.
+To će stajati nakon tri kruga.
 
 #### --answer--
 
-Itarudiwa bila kikomo.
+Biće ponovljeno neograničeno.
 
 ### --question--
 
 #### --text--
 
-Kichaguzi gani cha `@keyframes` kinaeleza mahali pa kuanza kwa michoro?
+Koji element od `@keyframes` pokazuje početno mesto za crteže?
 
 #### --distractors--
 
 `50%`
 
----
+[No Swahili text provided.]
 
 `25%`
 
----
+[No Swahili text provided.]
 
 `100%`
 
@@ -424,39 +424,39 @@ Kichaguzi gani cha `@keyframes` kinaeleza mahali pa kuanza kwa michoro?
 
 #### --text--
 
-Ni sifa gani zinaweza kuwekwa kwa kutumia sifa fupi ya `animation` ya CSS?
+Koje atribute se mogu postaviti koristeći kratki atribut od `animation` za CSS?
 
 #### --distractors--
 
-Jina tu la michoro.
+Samo ime za crteže.
 
----
+[No Swahili text provided.]
 
-Jina na muda wa michoro.
+Ime na sredini crteža.
 
----
+[No Swahili text provided.]
 
-Jina, muda, na kuchelewesha kwa michoro.
+Ime, vreme, i kašnjenje sa crtežima.
 
 #### --answer--
 
-Sifa zote za michoro.
+Sva svojstva crteža.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS hutumika kutekeleza michoro iliyobainishwa na kanuni ya at ya `@keyframes`?
+Koje svojstvo CSS se koristi za izvršavanje crteža definisanih pravilom umetnosti od `@keyframes`?
 
 #### --distractors--
 
 `animation-duration`
 
----
+[No Swahili text provided.]
 
 `apply`
 
----
+[No Swahili text provided.]
 
 `translate`
 
@@ -468,17 +468,17 @@ Ni sifa gani ya CSS hutumika kutekeleza michoro iliyobainishwa na kanuni ya at y
 
 #### --text--
 
-Ni sifa gani ya CSS inaruhusu kuweka muda kabla ya michoro kuanza?
+Koja je funkcija CSS koja dozvoljava postavljanje kašnjenja pre nego što crteži počnu?
 
 #### --distractors--
 
 `animation-fill-mode`
 
----
+[No Swahili text provided.]
 
 `animation-timing-function`
 
----
+[No Swahili text provided.]
 
 `animation-iteration-count`
 
@@ -492,39 +492,39 @@ Ni sifa gani ya CSS inaruhusu kuweka muda kabla ya michoro kuanza?
 
 #### --text--
 
-Sifa ya CSS `animation-delay` hufanya nini?
+Svojstvo od CSS `animation-delay`, šta radi?
 
 #### --distractors--
 
-Inaweka muda wa michoro.
+Postavljam vremenski okvir za crteže.
 
----
+[No Swahili text provided.]
 
-Inaeleza kitendakazi cha wakati.
+Objašnjava funkciju vremena.
 
----
+[No Swahili text provided.]
 
-Inaeleza mwelekeo wa michoro.
+Opisuje pravac crteža.
 
 #### --answer--
 
-Inachelewesha kuanza kwa michoro.
+Odlaže početak crteža.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya michoro inaeleza jinsi kipengele kinavyopaswa kupambwa kabla na baada ya michoro?
+Koja je karakteristika crteža koja objašnjava kako element treba da bude ukrašen pre i posle crteža?
 
 #### --distractors--
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-direction`
 
----
+[No Swahili text provided.]
 
 `animation-iteration-count`
 
@@ -536,39 +536,39 @@ Ni sifa gani ya michoro inaeleza jinsi kipengele kinavyopaswa kupambwa kabla na 
 
 #### --text--
 
-Kwa nini michoro ya CSS inapaswa kutumika kwa kiasi?
+Zašto crteži CSS treba koristiti umereno?
 
 #### --distractors--
 
-Michoro mingi ya CSS inaweza kusababisha mitindo kuvunjika na mitindo isiyo thabiti katika vivinjari tofauti.
+Mnoge grafike za CSS mogu uzrokovati pokvariti stilove i nestaljive stilove u različitim pregledačima.
 
----
+[No Swahili text provided.]
 
-Michoro mingi ya CSS inaweza kusababisha nafasi za chini au kutokuwepo kabisa katika matokeo ya injini za utafutaji.
+Mnogi rezultati za CSS mogu uzrokovati nisko rangiranje ili potpun nedostatak u rezultatima pretraživača.
 
----
+[No Swahili text provided.]
 
-Michoro mingi ya CSS itasababisha seva kuanguka moja kwa moja na kuongeza hatari za usalama.
+Mnoge šeme od CSS će uzrokovati da server odmah padne i povećati sigurnosne rizike.
 
 #### --answer--
 
-Michoro mingi ya CSS inaweza kusababisha utendaji mbaya na inaweza kuwa ya kuvuruga au kuwa tatizo kwa watumizi wenye mahitaji fulani ya ufikikaji.
+Previše dijagrama CSS može uzrokovati loše performanse i može biti remetljivo ili predstavljati problem za korisnike sa određenim potrebama pristupa.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya michoro inaamua kama michoro itachezwa mbele, nyuma, au kubadilishana?
+Koje svojstvo crteža određuje da li će biti prikazani ispred, iza ili razmenjeni?
 
 #### --distractors--
 
 `animation-fill-mode`
 
----
+[No Swahili text provided.]
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-timing-function`
 
@@ -580,17 +580,17 @@ Ni sifa gani ya michoro inaamua kama michoro itachezwa mbele, nyuma, au kubadili
 
 #### --text--
 
-Ni media query gani ya CSS inagundua kama mtumizi ameomba michoro au athari za mwendo kidogo?
+Koji je medijski upit CSS detektuje da li je korisnik tražio crteže ili male pokretne efekte?
 
 #### --distractors--
 
 `reduce-motion`
 
----
+[No Swahili text provided.]
 
 `min-motion-preference`
 
----
+[No Swahili text provided.]
 
 `motion-preferences`
 
@@ -602,17 +602,17 @@ Ni media query gani ya CSS inagundua kama mtumizi ameomba michoro au athari za m
 
 #### --text--
 
-Ni sifa gani inaweka ni mara ngapi `animation` inarudiwa?
+Koji atribut određuje koliko puta se ponavlja `animation`?
 
 #### --distractors--
 
 `animation-duration`
 
----
+[No Swahili text provided.]
 
 `animation-count`
 
----
+[No Swahili text provided.]
 
 `animation-delay`
 
@@ -624,17 +624,17 @@ Ni sifa gani inaweka ni mara ngapi `animation` inarudiwa?
 
 #### --text--
 
-Ni kanuni gani ya CSS hutumika kufafanua hatua na mitindo ya michoro katika sehemu mbalimbali za muda wake?
+Koji je princip CSS koji se koristi za definisanje koraka i stilova crteža u različitim periodima?
 
 #### --distractors--
 
 `@style`
 
----
+[No Swahili text provided.]
 
 `@transition`
 
----
+[No Swahili text provided.]
 
 `@transform`
 
@@ -646,17 +646,17 @@ Ni kanuni gani ya CSS hutumika kufafanua hatua na mitindo ya michoro katika sehe
 
 #### --text--
 
-Ndani ya media query ya `reduced‑motion`, tamko gani linazima mabadiliko ya hatua?
+U okviru media upita `reduced‑motion`, koje promene koraka su prikazane?
 
 #### --distractors--
 
 `animation: none;`
 
----
+[No Swahili text provided.]
 
 `transition: remove;`
 
----
+[No Swahili text provided.]
 
 `animation-play-state: paused;`
 
@@ -668,105 +668,105 @@ Ndani ya media query ya `reduced‑motion`, tamko gani linazima mabadiliko ya ha
 
 #### --text--
 
-Sifa ya `animation-play-state` inakuwezesha kufanya nini?
+Šta vam omogućava funkcija `animation-play-state`?
 
 #### --distractors--
 
-Kuweka ni mara ngapi michoro inarudiwa.
+Koliko puta se crteži ponavljaju.
 
----
+[No Swahili text provided.]
 
-Kuweka muda wa michoro kukamilika.
+Postaviti rok za završetak crteža.
 
----
+[No Swahili text provided.]
 
-Kudhibiti mwelekeo wa michoro.
+Kontrolisanje smjera crteža.
 
 #### --answer--
 
-Kusitisha na kuendelea na michoro.
+Zaustavite i nastavite sa crtežima.
 
 ### --question--
 
 #### --text--
 
-Ni tabia gani nzuri wakati wa kufanya kazi na michoro?
+Kakva je dobra funkcionalnost pri radu sa crtežima?
 
 #### --distractors--
 
-Tumia rangi nyingi zinazong'aa na mwendo wa haraka ili kuvutia macho.
+Koristi mnogo sjajnih boja i brzi pokreti da privuče pogled.
 
----
+[No Swahili text provided.]
 
-Epuka kujaribu michoro kwenye vifaa au saizi tofauti za skrini.
+Izbegavajte testiranje dizajna na uređajima ili sa različitim veličinama ekrana.
 
----
+[No Swahili text provided.]
 
-Fanya michoro idumu muda mrefu iwezekanavyo ili watumizi waiangalie.
+Nacrtajte slike da traju što duže moguće ili da ih korisnici gledaju.
 
 #### --answer--
 
-Epuka maudhui yanayong'aa zaidi ya mara tatu kwa sekunde ili kuzuia kusababisha kifafa au usumbufu.
+Izbegavajte sadržaj koji treperi više od tri puta u sekundi kako biste sprečili epileptične napade ili nelagodu.
 
 ### --question--
 
 #### --text--
 
-Kwa nini tamko la `!important` linatumika katika kanuni za CSS?
+Zašto se deklaracija `!important` koristi u pravilima CSS?
 
 #### --distractors--
 
-Kuzuia media queries nyingine kupakia.
+Sprečiti učitavanje drugih media queries.
 
----
+[No Swahili text provided.]
 
-Kukataza mitindo kwa kipengele cha mtoto wa kwanza.
+Ograničavanje stilova za element prvog deteta.
 
----
+[No Swahili text provided.]
 
-Kufanya tafutizi ya hitilafu ya CSS iwe rahisi.
+Olako učiniti pronalaženje greške CSS.
 
 #### --answer--
 
-Kuhakikisha kanuni hizi zinapata kipaumbele juu ya mitindo mingine.
+Osigurati da ova pravila imaju prioritet nad ostalim stilovima.
 
 ### --question--
 
 #### --text--
 
-`animation-iteration-count: 1 !important;` huhakikisha nini katika CSS?
+`animation-iteration-count: 1 !important;` šta proveravate u CSS?
 
 #### --distractors--
 
-Michoro imesitishwa.
+Crteži su zaustavljeni.
 
----
+[No Swahili text provided.]
 
-Michoro inaendelea bila kikomo.
+Crteži nastavljaju se bez kraja.
 
----
+[No Swahili text provided.]
 
-Michoro hubadilisha mwelekeo kila mzunguko.
+Uzorci menjaju smer svaki ciklus.
 
 #### --answer--
 
-Michoro yoyote inayorudiwa huchezwa mara moja tu.
+Svaka ponovljena melodija se svira samo jednom.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS hutumika kuonyesha muda gani michoro inapaswa kuchukua kukamilika?
+Koje svojstvo CSS se koristi za prikaz koliko vremena bi crtež trebalo da traje do završetka?
 
 #### --distractors--
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-timing-function`
 
----
+[No Swahili text provided.]
 
 `animation-iteration-count`
 
@@ -778,17 +778,17 @@ Ni sifa gani ya CSS hutumika kuonyesha muda gani michoro inapaswa kuchukua kukam
 
 #### --text--
 
-Ni sifa gani SIYO sehemu ya sifa fupi ya `animation`?
+Šta je ovo svojstvo koje nije deo kratkog svojstva za `animation`?
 
 #### --distractors--
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-timing-function`
 
----
+[No Swahili text provided.]
 
 `animation-direction`
 
@@ -800,29 +800,29 @@ Ni sifa gani SIYO sehemu ya sifa fupi ya `animation`?
 
 #### --text--
 
-Kanuni ya `@keyframes` inaeleza nini?
+Pravilo za `@keyframes`, šta objašnjava?
 
 #### --distractors--
 
-Kitendakazi cha wakati wa michoro.
+Funkcija vremena crteža.
 
----
+[No Swahili text provided.]
 
-Hali ya kawaida ya kipengele.
+Podrazumevano stanje elementa.
 
----
+[No Swahili text provided.]
 
-Media queries za michoro.
+Media queries za crteže.
 
 #### --answer--
 
-Mfululizo wa mitindo katika sehemu tofauti za michoro.
+Serija stilova u različitim delovima crteža.
 
 ### --question--
 
 #### --text--
 
-Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
+Kako pravilo za `@keyframe` funkcioniše za nacrtovani element?
 
 ```css
 @keyframes fade-in {
@@ -837,57 +837,57 @@ Kanuni ya at ya `@keyframe` inafanyaje kwa kipengele kilichochorwa?
 
 #### --distractors--
 
-Hubadilisha ukubwa wa kipengele kutoka 0% hadi 100%.
+Promeni veličinu elementa od 0% do 100%.
 
----
+[No Swahili text provided.]
 
-Hubadilisha kipengele kutoka kushoto kwenda kulia.
+Promeni element od leve ka desnoj strani.
 
----
+[No Swahili text provided.]
 
-Hubadilisha rangi ya maandishi kuwa nyeusi.
+Promeni boju teksta u crnu.
 
 #### --answer--
 
-Hufanya kipengele kuonekana kwa kupunguza uwazi polepole.
+Element postaje vidljiv postepenim smanjenjem neprozirnosti.
 
 ### --question--
 
 #### --text--
 
-Katika kanuni ya fremu muhimu, `100%` inawakilisha nini?
+U pravilu važnog okvira, `100%` šta predstavlja?
 
 #### --distractors--
 
-Mwanzo wa michoro.
+Početak crteža.
 
----
+[No Swahili text provided.]
 
-Mahali pa katikati.
+Centralno mesto.
 
----
+[No Swahili text provided.]
 
-Kitendakazi cha kupunguza kasi.
+Funkcija za smanjenje brzine.
 
 #### --answer--
 
-Mwisho wa michoro.
+Kraj crteža.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani hudhibiti kasi ya `animation` kwa muda wake?
+Koja funkcija kontroliše brzinu `animation` tokom svog perioda?
 
 #### --distractors--
 
 `animation-duration`
 
----
+[No Swahili text provided.]
 
 `animation-delay`
 
----
+[No Swahili text provided.]
 
 `animation-iteration-count`
 
@@ -899,29 +899,29 @@ Ni sifa gani hudhibiti kasi ya `animation` kwa muda wake?
 
 #### --text--
 
-Wasanidi programu wanapaswa kuzingatia nini wanapotekeleza michoro ili kudumisha ufikikaji?
+Šta programeri treba da uzmu u obzir kada implementiraju crteže kako bi održavali pristupačnost?
 
 #### --distractors--
 
-Kutegemea JavaScript kabisa kwa michoro yote.
+Morate da zavisite potpuno od JavaScript za sve crteže.
 
----
+[No Swahili text provided.]
 
-Kuongeza michoro mingi na yenye nguvu kwa athari.
+Dodavanje mnogo i snažnih ilustracija radi efekta.
 
----
+[No Swahili text provided.]
 
-Kujumuisha athari nzito, za haraka, na za kushangaza tu.
+Sastoji se samo od snažnih, brzih i iznenađujućih efekata.
 
 #### --answer--
 
-Kutumia athari nyepesi, kwa makusudi, kuheshimu mapendeleo, na kutoa udhibiti kwa mtumizi.
+Upotreba suptilnih efekata, namerno, poštovanje preferencija i pružanje kontrole korisniku.
 
 ### --question--
 
 #### --text--
 
-Ni sintaksia gani sahihi ya kusogeza kipengele kutoka kushoto?
+Koja je tačna sintaksa za pomeranje elementa sa leve strane?
 
 #### --distractors--
 
@@ -936,7 +936,7 @@ Ni sintaksia gani sahihi ya kusogeza kipengele kutoka kushoto?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 @keyframes slide-in {
@@ -949,7 +949,7 @@ Ni sintaksia gani sahihi ya kusogeza kipengele kutoka kushoto?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 @keyframes slide-in {

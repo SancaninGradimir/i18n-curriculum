@@ -1,15 +1,15 @@
 ---
 id: 671a98fbaabfba994e3d9a7c
-title: Ukagua wa vigezo vya CSS
+title: Provera CSS parametara
 challengeType: 31
 dashedName: review-css-variables
 ---
 
 # --interactive--
 
-## Sifa maalum za CSS (vigezo vya CSS)
+## Specifične karakteristike za CSS (parametri CSS)
 
-- **Ufafanuzi**: Sifa maalum za CSS, zinazojulikana pia kama vigezo vya CSS, ni vitu vilivyoainishwa na waandishi wa CSS vinavyoshikilia thamani maalum zinazotumika tena katika hati nzima. Ni kipengele chenye nguvu kinachoruhusu mitindo kuwa na ufanisi zaidi, rahisi kudumishwa, na yenye kubadilika. Sifa maalum ni muhimu hasa katika kuunda miundo inayoweza kubadilishwa mandhari. Unaweza kuainisha seti ya sifa kwa mandhari tofauti:
+- **Definicija**: Specifični atributi za CSS, poznati takođe kao parametri CSS, su elementi definisani od strane autora CSS koji sadrže specifične vrednosti koje se ponovo koriste u celom dokumentu. To je moćna karakteristika koja omogućava stilovima da budu efikasniji, lakši za održavanje i fleksibilniji. Specifični atributi su posebno korisni pri kreiranju prilagodljivih struktura tema. Možete definisati set atributa za različite teme:
 
 ```css
 :root {
@@ -28,9 +28,9 @@ body {
 }
 ```
 
-## Sheria ya `@property`
+## Zakon o `@property`
 
-- **Ufafanuzi**: Sheria ya `@property` ni kipengele chenye nguvu cha CSS kinachomruhusu msanidi programu kuainisha sifa maalum kwa udhibiti mkubwa juu ya tabia zao, ikiwa ni pamoja na jinsi zinavyobadilika kwa uhuishaji na thamani zao za awali.
+- **Definicija**: Pravilo za `@property` je moćna funkcija od CSS koja omogućava programeru da definiše specifična svojstva radi većeg kontrole nad njihovim ponašanjem, uključujući kako se menjaju sa animacijom i njihovim početnim vrednostima.
 
 ```css
 @property --property-name {
@@ -40,11 +40,11 @@ body {
 }
 ```
 
-- **`--property-name`**: Huu ni jina la sifa maalum unayoainisha. Kama sifa zote maalum, lazima ianze na alama mbili za mnyororo.
-**`syntax`**: Hii inaainisha aina ya sifa, ambayo inaweza kuwa vitu kama `<color>`, `<length>`, `<number>`, `<percentage>`, au aina ngumu zaidi.
-- **`inherits`**: Hii inaeleza kama sifa inapaswa kurithi thamani yake kutoka kwa kipengele mzazi.
-- **`initial-value`**: Hii inaweka thamani ya msingi ya sifa.
-- **Mfano wa mwelekeo wa rangi ukitumia Sheria ya `@property`**: Mfano huu huunda mwelekeo wa rangi unaobadilika kwa uhuishaji taratibu wakati kipengele kinapobofyanwa.
+- **`--property-name`**: Ovo je ime specifičnog svojstva koje definišete. Kao i sva specifična svojstva, mora početi sa dve lančane oznake.
+**`syntax`**: Ovo definiše tip svojstva, koje mogu biti stvari kao što su `<color>`, `<length>`, `<number>`, `<percentage>`, ili složeniji tipovi.
+- **`inherits`**: Ovo objašnjava da li svojstvo treba da nasledi svoju vrednost od roditeljskog elementa.
+- **`initial-value`**: Ovo postavlja podrazumevanu vrednost svojstva.
+- **Primer gradijenta boje korišćenjem `@property`**: Ovaj primer kreira gradijent boje koji se menja blagom animacijom kada se element klikne.
 
 :::interactive_editor
 
@@ -75,7 +75,7 @@ body {
 
 :::
 
-- **Njia mbadala**: Unapotumia sifa maalum, unaweza kutoa thamani ya njia mbadala kwa kutumia kitendakazi cha `var()`, kama unavyofanya na sifa maalum za kawaida:
+- **Alternativni put**: Kada koristite specifičan atribut, možete pružiti vrednost alternativnog puta koristeći funkciju `var()`, kao što radite sa uobičajenim atributima:
 
 ```css
 .button {
@@ -85,4 +85,4 @@ body {
 
 # --assignment--
 
-Kagua mada na dhana za vigezo vya CSS.
+Proverite temu i koncepte parametara za CSS.

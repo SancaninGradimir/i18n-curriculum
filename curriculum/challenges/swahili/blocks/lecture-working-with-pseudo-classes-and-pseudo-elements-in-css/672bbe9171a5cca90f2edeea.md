@@ -1,19 +1,19 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: Ni mifano gani ya darasa la bandia la kitendo cha mtumizi kwa kipengele?
+title: Koje su primere veštačke klase akcije korisnika za karakteristiku/funkciju?
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-Maoni ya mtumizi ni kipengele muhimu katika muundo wa mtandao. Kwa mfano, ni muhimu kwa watumizi kupokea dalili za kuona wanaposhirikiana na vipengele kwenye tovuti, kama vile kuvinjari kitufe au kubofya kiungo. Maoni haya husaidia watumizi kuelewa hali ya vipengele vinavyoshirikiana, kama kuonyesha kama kiungo kimebofyanwa au la.
+Povratne informacije korisnika su važan element u dizajnu veb stranice. Na primer, važno je da korisnici dobiju vizuelne indikacije kada interaguju sa elementima na veb stranici, kao što je naleti na dugme ili klikatanje na link. Ove povratne informacije pomažu korisnicima da razumeju stanje interaktivnih elemenata, kao što je prikazivanje da li je link kliknut ili ne.
 
-Darasa la bandia la kitendo cha mtumizi katika CSS ni maneno maalum yanayokuwezesha kutoa maoni haya bila haja ya JavaScript au lugha nyingine za programu.
+Darasa la bandia za radnji korisnika u CSS su specijalne reči koje mu omogućavaju da pruži ove komentare bez potrebe za JavaScript ili drugim programskim jezicima.
 
-Darasa hizi la bandia ni pamoja na `:hover`, `:active`, `:focus`, na `:visited`, miongoni mwa zingine. Zinakuwezesha kubadilisha muonekano wa vipengele kulingana na mwingiliano wa mtumizi, kuboresha uzoefu wa mtumizi kwa ujumla.
+Ove pseudo-klase uključuju `:hover`, `:active`, `:focus`, i `:visited`, među ostalnim. One omogućavaju menjanje izgleda elemenata u zavisnosti od interakcije korisnika, poboljšavajući ukupno korisničko iskustvo.
 
-Tuchunguze baadhi ya darasa la bandia la kitendo cha mtumizi tulizonazo na tuone jinsi zinavyofanya kazi.
+Neka pregledamo neke veštačke klase korisničkog ponašanja koje imamo i da vidimo kako funkcionišu.
 
 Darasa la bandia la `:active` linaweka mitindo wakati kipengele kinapowashwa na mtumizi. Kwa mfano, mtumizi anapobofya kitufe au kiungo, hutoa maoni ya kuona mara moja, kuonyesha watumizi kuwa vitendo vyao vinatambuliwa.
 
@@ -32,7 +32,7 @@ a:active {
 
 :::
 
-Darasa la bandia la `:hover` linaanzishwa mtumizi anapovinjari kipengele kwa panya au kifaa kingine cha kuonyesha. Wasanidi programu mara nyingi hulitumia kuunda maoni ya kuona kwa vitufe, viungo, au kipengele chochote kinachotakiwa kujibu makini ya mtumizi. Hapa kuna kitufe ambacho mtumizi atavinjari kabla ya kubofya:
+Pseudo-klasa za `:hover` se aktivira kada korisnik pređe mišem ili drugim pokazivačem preko elementa. Razvojari ga često koriste za kreiranje vizuelnog povratnog informacija za dugmiće, link ili bilo koji element koji treba da reaguje na pažnju korisnika. Evo dugmeta preko koje će korisnik preći mišem pre klika:
 
 :::interactive_editor
 
@@ -92,9 +92,9 @@ a:visited {
 
 Darasa la bandia la `:checked` katika CSS linakuwezesha kuweka mitindo kwa vipengele vya fomu kama kisanduku cha kuchagua na kitufe cha radio wakati vimechaguliwa (vimekaguliwa). Darasa hili la bandia ni muhimu kwa kubinafsisha muonekano wa vipengele hivi ili kuboresha uzoefu wa mtumizi, ingawa vivinjari hutoa mitindo ya msingi kwao.
 
-Hapa kuna mfano wa kisanduku cha kuchagua kukubaliana na masharti kwenye tovuti.
+Ovo je primer čekmarke za saglasnost sa uslovima na veb stranici.
 
-**KUMBUKA**: Baadhi ya CSS katika mfano huu hutumia sifa ambazo bado hazijafundishwa. Hii ni kwa ajili ya kukupa wazo la jinsi ya kuunda kisanduku cha kuchagua kilichobinafsishwa. Utajifunza jinsi yote haya yanavyofanya kazi katika mafundisho na warsha zijazo.
+**NAPOMENA**: Neki od CSS u ovom primeru koriste svojstva koja još nisu data za učenje. Ovo je da vam damo ideju kako kreirati prilagođeni padajući meni (ili okvir za izbor). Naučićete kako sve ovo funkcioniše na budućim časovima i radionicama.
 
 :::interactive_editor
 
@@ -151,48 +151,48 @@ Hapa kuna mfano wa kisanduku cha kuchagua kukubaliana na masharti kwenye tovuti.
 
 :::
 
-Katika mfano huu, tunatumia sifa ya `appearance` kuwekwa kuwa `none` kuondoa mtindo wa msingi unaotolewa na kivinjari kwa sehemu za ingizo za kisanduku cha kuchagua. Mtumizi anapokagua kisanduku, kitakuwa na rangi ya nyuma ya `green`.
+U ovom primeru, koristimo atribut `appearance` postavljen na `none` da ukloni osnovni stil koji je dostavljen od strane pretraživača za polja unosa u izbirnoj kutiji. Kada korisnik pregleda kutiju, imaće pozadinsku boju `green`.
 
-Mifano mingine ya darasa la bandia la kitendo ni:
+Ostali primjeri umjetne klase akcije su:
 
-- `:focus-within`: kwa kuweka mitindo kwa kipengele wakati yeye au mzao wake wowote wanapopata makini.
-- `:enabled`: kwa kuwalenga vitufe vya fomu au vipengele vingine vilivyo hai kwa sasa.
-- `:disabled`: kwa kuwalenga vitufe vya fomu au vipengele vingine vilivyozimwa.
-- `:target`: kwa kuweka mitindo kwa kipengele kinacholengwa na kipande cha URL (sehemu ya URL baada ya alama ya `#`).
+- `:focus-within`: za postavljanje stilova elementu kada je ili bilo koji od njegovih potomaka fokusiran.
+- `:enabled`: za ciljanje dugmadi forme ili drugih elemenata koji su trenutno aktivni.
+- `:disabled`: za ciljanje dugmadi forme ili drugih deaktiviranih elemenata.
+- `:target`: za postavljanje stilova elementu koji je ciljan delom URL (delom URL nakon oznake `#`).
 
 # --questions--
 
 ## --text--
 
-Darasa la bandia la kitendo cha mtumizi linakuwezesha kufanya nini?
+Šta vam veštačka klasa korisničkog ponašanja omogućava?
 
 ## --answers--
 
-Zinawezesha michoro na mabadiliko ya mtindo.
+Omogućava crteže i izmene stila.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
+Razmislite kako možete sarađivati sa korisnicima koristeći samo CSS.
 
----
+[No Swahili text provided.]
 
-Zinawezesha kubadilisha muundo wa DOM kwa njia ya mabadiliko ya wakati halisi.
-
-### --feedback--
-
-Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
-
----
-
-Zinafikisha maoni kwa mtumizi bila kutegemea JavaScript.
-
----
-
-Zinawezesha kuweka mtindo kwa kipengele cha mwisho katika orodha.
+Omogućava menjanje strukture DOM u realnom vremenu.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
+Razmislite kako možete da sarađujete sa korisnicima koristeći CSS samo.
+
+[No Swahili text provided.]
+
+Dostavlja komentare korisniku bez zavisnosti od JavaScript.
+
+[No Swahili text provided.]
+
+Omogućava vam da postavite stil za poslednji element u listi.
+
+### --feedback--
+
+Razmislite kako možete sarađivati sa korisnicima koristeći samo CSS.
 
 ## --video-solution--
 
@@ -200,31 +200,31 @@ Fikiria jinsi unavyoweza kushirikiana na watumizi kwa kutumia CSS tu.
 
 ## --text--
 
-Darasa la bandia la `:checked` hufanya nini katika CSS?
+Šta je lažna baza podataka ``:checked`` u `CSS` radi?
 
 ## --answers--
 
-Huchagua kipengele wakati kimezimwa.
+Izaberite element kada je onemogućen.
 
 ### --feedback--
 
-Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
+Razmislite kako forme obrađuju izbor korisnika.
 
----
+[No Swahili text provided.]
 
-Huchagua kipengele wakati kinavinjariwa.
+Izaberite element dok ga pregledavate.
 
 ### --feedback--
 
-Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
+Razmislite kako forme obrađuju izbor korisnika.
 
----
+[No Swahili text provided.]
 
-Huweka mitindo kwa vipengele kama kisanduku cha kuchagua au kitufe cha radio ambavyo vimekaguliwa.
+Postavlja stilove za elemente kao što su polje za označavanje ili radio dugme koja su odabrana.
 
----
+[No Swahili text provided.]
 
-Huweka mtindo kwa kipengele kinapopata makini.
+Primjenjuje stil za element kada primi fokus.
 
 ### --feedback--
 
@@ -236,35 +236,35 @@ Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
 
 ## --text--
 
-Darasa la bandia la `:focus` hufanya nini?
+Šta radi lažna klasa `:focus`?
 
 ## --answers--
 
-Huchagua kipengele wakati kinavinjariwa na panya.
+Selektuje element kada ga mišem pređete.
 
 ### --feedback--
 
-Fikiria jinsi watumizi wanavyorambaza fomu kwa kutumia kibodi.
+Zamislite kako korisnici navigiraju po obrascima koristeći tastaturu.
 
----
+[No Swahili text provided.]
 
-Huweka mitindo wakati kipengele kinapopata makini, kawaida kupitia urambazaji wa kibodi au bofya.
+Postavlja se stil kada element dobije fokus, obično putem navigacije tastaturom ili klikom.
 
----
+[No Swahili text provided.]
 
-Huchagua kipengele baada ya fomu kuwasilishwa.
-
-### --feedback--
-
-Fikiria jinsi watumizi wanavyorambaza fomu kwa kutumia kibodi.
-
----
-
-Huweka mitindo kwa kipengele kinapozimwa.
+Izaberite polje nakon slanja forme.
 
 ### --feedback--
 
-Fikiria jinsi watumizi wanavyorambaza fomu kwa kutumia kibodi.
+Razmislite kako korisnici navigiraju po formularima koristeći tastaturu.
+
+[No Swahili text provided.]
+
+Postavlja stil za element kada se isključuje.
+
+### --feedback--
+
+Razmislite kako korisnici navigiraju po formularima koristeći tastaturu.
 
 ## --video-solution--
 

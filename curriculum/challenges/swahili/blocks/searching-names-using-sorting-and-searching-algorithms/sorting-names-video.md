@@ -1,6 +1,6 @@
 ---
 id: 698dea3b7932b3cc4b19c94a
-title: Kupanga majina
+title: Poređivati imena
 challengeType: 11
 videoId: DpuNKrUDr40
 dashedName: sorting-names
@@ -8,27 +8,27 @@ dashedName: sorting-names
 
 # --description--
 
-Katika video hii, uta tekeleza algoriti ya quicksort katika Python kupanga orodha ya majina.
+U ovom videu, ćete implementirati algoritam quicksort-a u Python da biste sortirali listu imena.
 
 # --questions--
 
 ## --text--
 
-Ni alama gani mwalimu anayotumia katika video kuelekeza upya matokeo ya programu kwenda faili nyingine katika linux?
+Koju komandu profesor koristi u videu da preusmeri izlaz programa u drugi fajl u Linuksu?
 
 ## --answers--
 
 `>`
 
----
+[No Swahili text provided.]
 
 `<<`
 
----
+[No Swahili text provided.]
 
 `|`
 
----
+[No Swahili text provided.]
 
 `?`
 

@@ -1,19 +1,19 @@
 ---
 id: 6852ea0c3cadb54e897acdac
-title: Hatua 1
+title: Korak 1
 challengeType: 20
 dashedName: step-1
 ---
 
 # --description--
 
-Katika warsha hii, utaunda *Msimulizi wa Barua Pepe* unaosimuliza kutuma, kupokea, na kusimamia barua pepe kati ya watumizi tofauti. Utajifunza kuhusu madarasa ya vitu, vitu, na jinsi ya kupanga msimbo kwa njia ya kuzingatia vitu.
+U ovoj radionici, kreiraćete *Simulators e-pošte* koji simulira slanje, primanje i upravljanje e-porukama između različitih korisnika. Naučićete o klasama objekata, objektima i kako strukturirati kod koristeći pristup usmeren na objekte.
 
-Anza kwa kuunda darasa la vitu linaloitwa `Email` kwa kutumia neno kuu la `class`.
+Počnite kreiranjem klase pod nazivom `Email`, koristeći glavni ključni izraz `class`.
 
 # --hints--
 
-Unapaswa kuunda darasa la vitu linaloitwa `Email`.
+Trebalo bi da kreirate klasu objekata nazvanu `Email`.
 
 ```js
 ({

@@ -7,9 +7,9 @@ dashedName: what-is-the-path-module-and-how-does-it-work
 
 # --description--
 
-Moduli ya Node.js `path` inakuwezesha kufanya kazi na mafaili na njia za saraka. Inatoa njia kadhaa muhimu za kushughulikia na kubadilisha saraka, ikiwa ni pamoja na kuunganisha, kawaisha, na kutatua saraka katika majukwaa na mifumo tofauti ya uendeshaji.
+Modul Node.js `path` omogućava vam da radite sa fajlovima i putanjama direktorijuma. Pruža nekoliko važnih načina za rukovanje i manipulisanje direktorijumima, uključujući spajanje, navigaciju i rešavanje putanja u različitim platformama i operativnim sistemima.
 
-Ili kutumia moduli ya `path`, unaweza kuileta (import) hivi:
+Kada koristite modul za `path`, ga možete dovesti (import) na ovaj način:
 
 ```js
 const path = require("path");
@@ -33,7 +33,7 @@ console.log(__dirname);
 
 Pia unapaswa kujua kuhusu njia za jamaa na njia kamili.
 
-Njia ya jamaa inaelekeza faili au folda kulingana na saraka yako ya kazi ya sasa. Kwa mfano, `./assets/src/text-files`.
+Relativna putanja pokazuje na datoteku ili fasciklu u odnosu na vaš trenutni radni direktorijum. Na primer, `./assets/src/text-files`.
 
 Njia kamili, kwa upande mwingine, hutoa anwani kamili ya faili au folda kutoka mzizi wa mfumo wako, kama `/Users/johndoe/projects/app/assets/src/text-files.`
 
@@ -49,37 +49,37 @@ console.log(path.basename(__filename)); // script.js
 console.log(path.dirname(__dirname)); // node-path
 ```
 
-`extname()` inarudisha kiendelezi cha faili ya sasa:
+`extname()` Vraća nastavak trenutne datoteke:
 
 ```js
 console.log(path.extname(__filename)); // .js
 ```
 
-Unaweza pia kubainisha faili tofauti ili kurudisha kiendelezi chake:
+Takođe možete specificirati različite fajlove radi vraćanja njegove ekstenzije:
 
 ```js
 console.log(path.extname('text-files/text1.txt')); // .txt
 ```
 
-Njia ya `join()` huchukua sehemu zote za njia unazozipatia na kuziunganisha kuwa njia moja safi, iliyokawaishwa.
+Njia ya `join()` uzima sve dijelove putanja koje mu date i spaja ih u jednu čistu, izglavljenu putanju.
 
-Hii inaweza kuwa muhimu ikiwa unataka kuunganisha mafaili yanayohusiana katika saraka tofauti ili uweze kufanya kazi nayo pamoja:
+Ovo može biti korisno ako želite da spojite povezane fajlove iz različitih direktorijuma kako biste mogli da radite sa njima zajedno:
 
 ```js
 const joinedPath = path.join("src", "assets", "text-files");
 console.log(joinedPath); // src/assets/text-files
 ```
 
-Windows hutumia mkwaju wa nyuma kutenganisha saraka, hivyo matokeo yatakuwa `src\assets\text-files`.
+Windows koristi backslash za razdvajanje direktorijuma, pa će rezultat biti `src\assets\text-files`.
 
-Zaidi ya hayo, njia ya `join()` huondoa mkwaju mbaya na kuondoa ziada:
+Osim toga, metoda za `join()` uklanja loške fleke i višak:
 
 ```js
 const wrongPath = path.join("/src//", "assets", "text-files");
 console.log(wrongPath); // /src/assets/text-files
 ```
 
-Njia ya `resolve()` hubadilisha mfululizo wa sehemu za njia kuwa njia kamili. Huanza kutoka saraka yako ya kazi ya sasa na matokeo yake ni njia kamili inayoweka alama mahali halisi kwenye kifaa:
+Njia ya `resolve()` pretvara niz komponenti putanje u apsolutnu putanju. Kreće se iz vašeg trenutnog radnog direktorijuma i rezultat je apsolutna putanja koja označava stvarni položaj na uređaju:
 
 ```js
 const absolutePath = path.resolve("assets", "src", "text-files");
@@ -87,11 +87,11 @@ console.log(absolutePath);
 // /Users/user/Desktop/fCC/script-code/node/node-path/assets/src/text-files
 ```
 
-Tofauti kati ya `join()` na `resolve()` ni kwamba `join()` huunda njia ya jamaa, wakati `resolve()` inarudisha njia kamili.
+Razlika između `join()` i `resolve()` je u tome što `join()` stvara relativni put, dok `resolve()` vraća apsolutni put.
 
-Mwishowe, kuna njia za `parse()` na `format()`.
+Na kraju, postoje načini za `parse()` i `format()`.
 
-`parse()` huchukua saraka au faili na kurudisha kitu chenye mgawanyo wa sehemu zake, kama mzizi wa mfumo, saraka yake, kiendelezi, na jina la faili:
+`parse()` uzima direktorijum ili fajl i vraća nešto što je sastavljeno od delova, kao što su sistemski koren, njegov put (direktorijum), poddirektorijum/komponenta, i ime fajla:
 
 ```js
 const parsedFile = path.parse(__filename);
@@ -108,7 +108,7 @@ console.log(parsedFile);
 */
 ```
 
-`format()`, kwa upande mwingine, huunda njia kutoka kwa kitu chenye saraka, jina, na kiendelezi:
+`format()`, sa druge strane, stvara putanju od nečega što ima direktorijum, ime i ekstenziju:
 
 ```js
 const formattedDirectory = path.format({
@@ -124,7 +124,7 @@ console.log(formattedDirectory); // /users/johndoe/docs/file.txt
 
 ## --text--
 
-Tofauti gani kati ya `path.dirname()` na `path.extname()` katika Node.js?
+Koja je razlika između `path.dirname()` i `path.extname()` u Node.js?
 
 ## --answers--
 
@@ -134,25 +134,25 @@ Tofauti gani kati ya `path.dirname()` na `path.extname()` katika Node.js?
 
 Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
 
----
+[No Swahili text provided.]
 
 `dirname()` inarudisha njia kamili ya faili, wakati `extname()` inarudisha jina la saraka.
 
 ### --feedback--
 
-Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
+Makini je ipi koja obrađuje direktorijume i ipi koja obrađuje ekstenzije fajlova.
 
----
+[No Swahili text provided.]
 
 `dirname()` inarudisha jina la saraka la njia, wakati `extname()` inarudisha kiendelezi cha faili.
 
----
+[No Swahili text provided.]
 
 `dirname()` na `extname()` zote hurejesha thamani ile ile lakini kwa miundo tofauti.
 
 ### --feedback--
 
-Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
+Makini je ono što obrađuje direktorijume i ono što obrađuje ekstenzije fajlova.
 
 ## --video-solution--
 
@@ -160,7 +160,7 @@ Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya fai
 
 ## --text--
 
-Ni njia gani ya `path` huunda njia kamili ya faili kutoka kwa kitu chenye vigezo vya saraka, jina, na kiendelezi?
+Koji je način ``path`` koji kreira punu putanju fajla iz objekta sa parametrima direktorijuma, imena i ekstenzije?
 
 ## --answers--
 
@@ -168,27 +168,27 @@ Ni njia gani ya `path` huunda njia kamili ya faili kutoka kwa kitu chenye vigezo
 
 ### --feedback--
 
-Fikiria ni nini kinyume cha `parse()`.
+Razmisli šta je suprotno od `parse()`.
 
----
+[No Swahili text provided.]
 
 `path.format()`
 
----
+[No Swahili text provided.]
 
 `path.resolve()`
 
 ### --feedback--
 
-Fikiria ni nini kinyume cha `parse()`.
+Razmisli šta je suprotno od `parse()`.
 
----
+[No Swahili text provided.]
 
 `path.join()`
 
 ### --feedback--
 
-Fikiria ni nini kinyume cha `parse()`.
+Šta je suprotno od `parse()`.
 
 ## --video-solution--
 
@@ -196,35 +196,35 @@ Fikiria ni nini kinyume cha `parse()`.
 
 ## --text--
 
-Vigezo vya kimataifa vya Node.js `__filename` na `__dirname` vinatoa upatikanaji wa nini?
+Međunarodni standardi za Node.js `__filename` i `__dirname`, šta obezbeđuju pristup?
 
 ## --answers--
 
-Njia kamili ya faili ya sasa na saraka inayoshikilia faili hiyo.
+Puni put trenutne datoteke i direktorijuma koji sadrži tu datoteku.
 
----
+[No Swahili text provided.]
 
-Jina la moduli ya sasa na utegemezi wake.
-
-### --feedback--
-
-Fikiria ni vigezo gani vinakupa njia kamili za faili na saraka moja kwa moja bila kutumia moduli ya path.
-
----
-
-Njia ya jamaa kuelekea saraka ya usakinishaji ya Node.js.
+Ime trenutnog modula i njegova zavisnost.
 
 ### --feedback--
 
-Fikiria ni vigezo gani vinakupa njia kamili za faili na saraka moja kwa moja bila kutumia moduli ya path.
+Razmislite o parametrima koji vam daju pune putanje do fajlova i direktorijuma direktno bez korišćenja Path modula.
 
----
+[No Swahili text provided.]
 
-URL ya seva ya mtandao inayotumika na jina la mwenyeji wake.
+Putanja do instalacionog direktorijuma Node.js.
 
 ### --feedback--
 
-Fikiria ni vigezo gani vinakupa njia kamili za faili na saraka moja kwa moja bila kutumia moduli ya path.
+Razmislite o kojim parametrima dobijate pune putanje do fajlova i direktorijuma direktno, bez korišćenja path modula.
+
+[No Swahili text provided.]
+
+URL mrežnog servera koji se koristi uz njegovo ime domaćina.
+
+### --feedback--
+
+Razmislite o tome koji parametri vam daju pune putanje do fajlova i direktorijuma direktno bez korišćenja path modula.
 
 ## --video-solution--
 

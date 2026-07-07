@@ -1,21 +1,21 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Hatua 30
+title: Korak 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Kabla hujaingia sana katika mtindo wako, unapaswa kutumia darasa la `sr-only`. Unaweza kutumia CSS kuficha kabisa vipengele vyenye darasa hili kutoka kwenye ukurasa wa kuona, lakini bado vitatangazwa na visomaji vya skrini.
+Kada se mnogo uklopi u vaš stil, trebalo bi da koristite klasu `sr-only`. Možete koristiti CSS da potpuno sakrijete elemente sa ovom klasom sa vidljivog dela stranice, ali će ih i dalje objaviti čitači ekrana.
 
-CSS unayotarajia kuandika ni seti ya kawaida ya sifa zinazotumika kuhakikisha vipengele vimefichwa kabisa kwa macho.
+CSS Ono što se očekuje da napišete je standardni skup svojstava koji se koristi za osiguravanje da su elementi potpuno skriveni od vida.
 
-Kichaguzi cha `span[class~="sr-only"]` kitachagua kipengele chochote cha `span` ambacho sifa ya `class` _inajumuisha_ `sr-only`. Unda kichaguzi hicho, na kipa sifa ya `border` yenye thamani ya `0`.
+Selektor za `span[class~="sr-only"]` će izabrati bilo koji element od `span` koji svojstvo `class` _uključuje_ `sr-only`. Kreiraj taj selektor, i svojstvo od `border` sa vrednošću `0`.
 
 # --hints--
 
-Unapaswa kuwa na kichaguzi cha `span[class~="sr-only"]`.
+Trebalo bi da imaš birač za `span[class~="sr-only"]`.
 
 ```js
 assert.isNotNull(
@@ -23,7 +23,7 @@ assert.isNotNull(
 );
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `border` yenye thamani ya `0`.
+Vaš selektor za `span[class~="sr-only"]` mora imati svojstvo `border` sa vrednošću `0`.
 
 ```js
 assert.strictEqual(

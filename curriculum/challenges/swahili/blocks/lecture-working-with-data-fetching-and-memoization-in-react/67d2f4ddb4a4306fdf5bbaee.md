@@ -1,6 +1,6 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: "Memoization ni nini, na Hook ya useMemo inafanya kazi vipi?"
+title: "Šta je Memoization, i kako funkcioniše Hook useMemo?"
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
@@ -9,35 +9,35 @@ dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 
 Kadiri programu yako ya React inavyokua, upitishaji upya usiohitajika na mahesabu ghali yanaweza kupunguza utendaji, na kusababisha masasisho ya UI kuwa polepole na matumizi ya rasilimali kuongezeka.
 
-Hii inaweza kuwa tatizo hasa katika programu zilizo na usimamizi mgumu wa hali, orodha kubwa, vitendakazi vinavyohitaji mahesabu mazito, na sehemu nyingi zenye mzazi mmoja.
+Ovo može biti problem posebno u aplikacijama koje imaju složeno upravljanje stanjem, velike liste, funkcije koje zahtevaju intenzivne proračune i mnogo sekcija sa jednim roditeljem.
 
-Hii huleta haja ya kuboresha programu yako ya React kwa utendaji bora kwa kupunguza mahesabu rudufu na kuhakikisha mwingiliano laini zaidi.
+Ovo omogućava poboljšanje vašeg programa React radi boljih performansi, smanjenjem redundantnih proračuna i osiguravanjem glatkijeg interfejsa.
 
-React inatatua tatizo hili kwa mchakato unaoitwa memoization, mbinu inayohifadhi thamani na vitendakazi ili kuzuia mahesabu yasiyo ya lazima, ili programu yako iwe haraka na inayojibadilisha kulingana na kifaa.
+React rešava ovaj problem procesom koji se zove memoizacija, metodom koja skladišti vrednosti i funkcije kako bi sprečila nepotrebne proračune, tako da je vaš program brz i prilagodljiv uređaju.
 
-Kwa ufafanuzi, memoization ni mbinu ya kuboresha utendaji ambapo matokeo ya wito wa vitendakazi ghali huhifadhiwa (kumbukwa) kulingana na hoja maalum. Wakati hoja zile zile zinapotolewa tena, matokeo yaliyohifadhiwa hurudishwa badala ya kuhesabu tena kitendakazi hicho.
+Za pojašnjenje, memoizacija je tehnika za poboljšanje performansi gde se rezultati pozivanja skupih funkcija skladište (memoriraju) na osnovu specifičnih argumenata. Kada se ponovo pruže isti argumenti, vraćaju se sačuvani rezultati umesto da se funkcija ponovno izvrši/izračuna.
 
-Mchakato wa memoization hufanyika kwa njia hii:
+Proces memoizacije odvija se na ovaj način:
 
 - Hifadhi matokeo ya wito wa vitendakazi pamoja na hoja zake za ingizo.
 
-- Kabla ya kutekeleza kitendakazi, angalia kama matokeo kwa hoja za sasa tayari yapo kwenye hifadhi.
+- Pre izvršavanja funkcije, proverite da li rezultati za trenutne argumente već postoje u skladištu.
 
-- Ikiwa yapo, rudisha matokeo yaliyohifadhiwa badala ya kuendesha mahesabu tena.
+- Ukoliko je dostupan, vratite sačuvane rezultate umesto ponovnog izvršavanja kalkulacija.
 
-- Ikiwa hayapo, hesabu matokeo, uyahifadhi kwenye hifadhi, kisha uyarudishe.
+- Ako nije dostupan, izračunaj rezultat, sačuvaj ga u skladište, a zatim ga vrati.
 
-Ili kuboresha uzoefu wa msanidi programu na memoization, React hutoa zana tatu – `React.memo` (au `memo`), `useMemo` na `useCallback`. 
+Za poboljšanje iskustva programera (developer experience) uz memoizaciju, React nudi tri alata – `React.memo` (ili `memo`), `useMemo` na `useCallback`.
 
-Kama unavyoweza kubashiri, `useMemo` na `useCallback` zote ni hooks, lakini `React.memo` ni kifuniko cha sehemu, sehemu ya daraja la juu (HOC).
+Kako možete da pogodite, `useMemo` i na `useCallback` su sve hookovi, ali `React.memo` je omotač komponente, deo višeslojnog mosta (HOC).
 
-Katika funzo lijalo, tutaangalia jinsi hook ya `useCallback` na `React.memo` zinavyofanya kazi.
+U sledećoj lekciji, videćemo kako hook-ovi za `useCallback` i `React.memo` funkcionišu.
 
-`useMemo` inakuwezesha kuhifadhi thamani zilizohesabiwa wakati `useCallback` hufanya vivyo hivyo kwa rejea za vitendakazi.
+`useMemo` omogućava vam da sačuvate izračunate vrednosti kada `useCallback` radi isto i za reference funkcija.
 
-Ikiwa unajiuliza thamani zilizohesabiwa na rejea za vitendakazi ni nini, thamani zilizohesabiwa zinahusu matokeo ya kutekeleza kitendakazi, wakati rejea za vitendakazi ni viashiria vya vitendakazi – kitu cha kitendakazi katika kumbukumbu.
+Ako se pitate šta su izračunate vrednosti i reference na funkcije, izračunate vrednosti se odnose na rezultate izvršavanja funkcije, dok su reference na funkcije pokazivači na funkcije – objekat funkcije u memoriji.
 
-Tuchunguze jinsi ya kutumia hook ya `useMemo` kwanza. Hii ndiyo sintaksia ya msingi ya hook ya `useMemo`:
+Pogledajmo kako da koristimo hook `useMemo` prvo. Ovo je osnovna sintaksa za hook `useMemo`:
 
 ```js
 const memoizedValue = useMemo(
@@ -48,9 +48,9 @@ const memoizedValue = useMemo(
 );
 ```
 
-Unaweza kuona kinachohitajika ni kufunika hook ya `useMemo` karibu na kitendakazi.
+Potrebno je pokriti hak `useMemo` blizu funkcije.
 
-Sehemu hii ya `ExpensiveSquare` itapokea vigezo vya `num` ambavyo itatumia kuhesabu mraba:
+Ovaj deo ``ExpensiveSquare`` primaće parametre za ``num``, koje će koristiti za izračunavanje kvadrata:
 
 ```jsx
 function ExpensiveSquare({ num }) {
@@ -69,7 +69,7 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Hii ni sehemu ya `App` ambapo `ExpensiveSquare` inatumika:
+Ovo je deo `App` gde se koristi `ExpensiveSquare`:
 
 ```jsx
 import { useState, useEffect } from "react";
@@ -96,9 +96,9 @@ function App() {
 export default App;
 ```
 
-`timer` katika `useEffect`, inayoendesha kila sekunde moja, itafanya kitendakazi cha `calculateSquare` kitekeke wakati wowote kinapoendeshwa, hata kama hauongezi thamani ya hali ya `num`.
+`timer` u `useEffect`, koji radi svake sekunde, izvršiće funkciju `calculateSquare` svaki put kada se pokrene, čak i ako ne dodaje vrednost stanja `num`.
 
-Ili kutatua tatizo hili, tunaweza kutumia hook ya `useMemo` kwa kufunika wito wa kitendakazi ndani yake na kubainisha mabadiliko ya `num` kama utegemezi:
+Da bismo rešili ovaj problem, možemo koristiti hook `useMemo` za obavijanje poziva funkcije unutar njega i specificirati promenu `num` kao zavisnost:
 
 ```jsx
 // import the useMemo hook
@@ -124,41 +124,41 @@ function ExpensiveSquare({ num }) {
 export default ExpensiveSquare;
 ```
 
-Hii itahakikisha kitendakazi kinahifadhiwa kwa kuhifadhi matokeo. Hata kama sehemu ya `ExpensiveSquare` bado inapitisha upya kila wakati hali ya mzazi `timer` inaposasishwa, mahesabu ya `calculateSquare` hufanyika tena tu wakati wa onyesho la awali na wakati `num` inabadilika.
+Ovo osigurava da je funkcija sačuvana skladištenjem rezultata. Čak i ako deo `ExpensiveSquare` i dalje ponovo obrađuje svaki put kada se stanje roditelja `timer` ažurira, proračuni za `calculateSquare` će se izvršiti samo prilikom prvog prikaza i kada `num` promeni.
 
 # --questions--
 
 ## --text--
 
-Memoization ni nini katika React?
+Memoizacija šta je u React?
 
 ## --answers--
 
-Mbinu inayohifadhi thamani na vitendakazi ili kuzuia mahesabu yasiyo ya lazima.
+Metoda koja sačuvava vrednost i funkcionalnosti radi sprečavanja nepotrebnih proračuna.
 
----
+[No Swahili text provided.]
 
-Mbinu inayokuwezesha kusimamia masasisho ya hali ya sehemu ili kuzuia mahesabu yasiyo ya lazima.
-
-### --feedback--
-
-Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
-
----
-
-Mchakato wa kulinganisha Virtual DOM na DOM halisi.
+Metoda koja omogućava upravljanje delimičnim ažuriranjima stanja radi sprečavanja nepotrebnih proračuna.
 
 ### --feedback--
 
-Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
+Pomaže u poboljšanju performansi čuvanjem prethodno izračunatih rezultata.
 
----
+[No Swahili text provided.]
 
-Njia ya kushughulikia athari za pembeni katika sehemu za kitendakazi.
+Proces poređenja Virtual DOM sa DOM stvarnog.
 
 ### --feedback--
 
-Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
+Pomaže u poboljšanju performansi čuvanjem prethodno izračunatih rezultata.
+
+[No Swahili text provided.]
+
+Način rukovanja sporednim efektima u funkcionalskim oblastima.
+
+### --feedback--
+
+Pomaže u poboljšanju performansi čuvanjem prethodno izračunatih rezultata.
 
 ## --video-solution--
 
@@ -166,35 +166,35 @@ Husaidia kuboresha utendaji kwa kuhifadhi matokeo yaliyohesabiwa awali.
 
 ## --text--
 
-Tofauti gani kati ya thamani zilizohesabiwa na rejea za vitendakazi?
+Koja je razlika između izračunatih vrednosti i referenci funkcija?
 
 ## --answers--
 
-Thamani zilizohesabiwa ni vitu vya kitendakazi, wakati rejea za vitendakazi ni matokeo ya utekelezaji.
+Izračunate vrednosti su funkcionalni elementi, dok su reference funkcija rezultati izvršenja.
 
 ### --feedback--
 
-Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
+Moj je rezultat funkcije, drugi je samo indikator te funkcije.
 
----
+[No Swahili text provided.]
 
-Thamani zilizohesabiwa ni matokeo ya kutekeleza kitendakazi, wakati rejea za vitendakazi ni vitu vya kitendakazi katika kumbukumbu.
+Izračunate vrednosti su rezultati izvršavanja funkcije, dok su reference na funkcije funkcionalni objekti u memoriji.
 
----
+[No Swahili text provided.]
 
-Thamani zilizohesabiwa na rejea za vitendakazi ni vitu sawa.
-
-### --feedback--
-
-Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
-
----
-
-Rejea za vitendakazi huhifadhi thamani zilizohesabiwa.
+Vrednosti izračunate i reference zaposlenika su iste.
 
 ### --feedback--
 
-Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
+Ovo je rezultat funkcije, a drugo je samo indikator te funkcije.
+
+[No Swahili text provided.]
+
+Registrar za funkcije čuva izračunate vrednosti.
+
+### --feedback--
+
+Jedno su rezultati funkcije, a drugi samo indikatori te funkcije.
 
 ## --video-solution--
 
@@ -202,7 +202,7 @@ Moja ni matokeo ya kitendakazi, jingine ni kiashiria tu cha kitendakazi hicho.
 
 ## --text--
 
-Ni ipi kati ya hizi SI mojawapo ya zana ambazo React hutoa kwa memoization?
+Koja je od ovih alata koje React pruža za memoizaciju?
 
 ## --answers--
 
@@ -210,25 +210,25 @@ Ni ipi kati ya hizi SI mojawapo ya zana ambazo React hutoa kwa memoization?
 
 ### --feedback--
 
-Zana za memoization zinazingatia kuhifadhi thamani na vitendakazi, wakati chaguo hili linashughulikia athari za pembeni.
+Alati za memoizaciju se fokusiraju na skladištenje vrednosti i funkcije, dok ova opcija rukuje nuspojavama.
 
----
+[No Swahili text provided.]
 
 `useMemo`
 
 ### --feedback--
 
-Zana za memoization zinazingatia kuhifadhi thamani na vitendakazi, wakati chaguo hili linashughulikia athari za pembeni.
+Alati za memoizaciju fokusiraju se na skladištenje vrednosti i funkcija, dok ova opcija obrađuje sporedne efekte.
 
----
+[No Swahili text provided.]
 
 `useCallback`
 
 ### --feedback--
 
-Zana za memoization zinazingatia kuhifadhi thamani na vitendakazi, wakati chaguo hili linashughulikia athari za pembeni.
+Alati za memoizaciju fokusiraju se na skladištenje vrednosti i funkcije, dok ova opcija obrađuje sporedne efekte.
 
----
+[No Swahili text provided.]
 
 `useEffect`
 

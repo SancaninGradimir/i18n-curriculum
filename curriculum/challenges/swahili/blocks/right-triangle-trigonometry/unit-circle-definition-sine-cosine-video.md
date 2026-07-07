@@ -1,6 +1,6 @@
 ---
 id: 699e5ba28f18cf77dfce5c0f
-title: Ufafanuzi wa mduara wa kitengo wa sine na cosine
+title: Definicija jedinice kružnice sinusa i kosinusa
 challengeType: 11
 videoId: zt4bkQc1nSw
 dashedName: unit-circle-definition-sine-cosine
@@ -8,29 +8,29 @@ dashedName: unit-circle-definition-sine-cosine
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia mduara wa kitengo kupata sine na cosine za pembe.
+U ovom videu, naučićete kako da koristite jedinčni krug da pronađete sin i kosinus ugla.
 
 # --questions--
 
 ## --text--
 
-Mduara wa kitengo ni nini?
+Šta je obim jedinice?
 
 ## --answers--
 
-Mduara wenye mduara wa nambari 0.
+Krug sa brojem nula.
 
----
+[No Swahili text provided.]
 
-Mduara wenye mduara wa nambari 1.
+Krug sa krugom broja 1.
 
----
+[No Swahili text provided.]
 
-Mduara wenye mduara wa nambari 2.
+Krug broj 2.
 
----
+[No Swahili text provided.]
 
-Mduara wenye mduara wa nambari 0.5.
+Krug sa krugom od broja 0.5.
 
 ## --video-solution--
 

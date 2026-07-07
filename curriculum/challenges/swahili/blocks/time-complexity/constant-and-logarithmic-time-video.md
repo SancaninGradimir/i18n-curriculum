@@ -1,6 +1,6 @@
 ---
 id: 698dc59b7932b3cc4b19c921
-title: Muda wa Kudumu na wa Logarithmic
+title: Konstantno i Logaritamsko
 challengeType: 11
 videoId: KOMvBi-DabE
 dashedName: constant-and-logarithmic-time
@@ -8,27 +8,27 @@ dashedName: constant-and-logarithmic-time
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda wa kudumu na wa logarithmic kwa algoriti.
+U ovom videu, naučićete o konstantnom i logaritamskom vremenu za algoritme.
 
 # --questions--
 
 ## --text--
 
-Ni ipi kati ya zifuatazo ndiyo njia sahihi ya kuwakilisha muda wa kudumu katika noti ya Big O?
+Koji od sljedećih je tačan način za predstavljanje složenosti vremena u Big O notaciji?
 
 ## --answers--
 
 `O(n)`
 
----
+[No Swahili text provided.]
 
 `O(1)`
 
----
+[No Swahili text provided.]
 
 `O(C)`
 
----
+[No Swahili text provided.]
 
 `O(0)`
 

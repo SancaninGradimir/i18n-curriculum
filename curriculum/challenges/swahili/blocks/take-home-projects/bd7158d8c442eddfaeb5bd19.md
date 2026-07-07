@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd19
-title: Tengeneza mtazamaji wa Wikipedia
+title: Napravi pregledača Wikipedije
 challengeType: 3
 forumTopicId: 302360
 dashedName: build-a-wikipedia-viewer
@@ -8,21 +8,21 @@ dashedName: build-a-wikipedia-viewer
 
 # --description--
 
-**Lengo:** Tengeneza programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
+**Cilj:** Napravi program koji radi kao ovo: <a href="https://codepen.io/freeCodeCamp/full/wGqEga/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/wGqEga/</a>.
 
-Programu ya MediaWiki inaendesha Wikipedia, na inakusaidia kukusanya na kupanga maarifa na kuyafanya kupatikana kwa watu.
+Softver MediaWiki pokreće Wikipedia, i pomaže vam da sakupljate i organizujete znanje i učinite ga dostupnim ljudima.
 
-Kwa kutumia API ya MediaWiki, tengeneza upya kitendakazi cha utafutaji na kitendakazi cha makala za bahati nasibu, kama ilivyo kwenye mfano wa programu hapo juu. Unaweza kutumia Wikipedia kama chanzo chako cha data.
+Korišćenjem API od MediaWiki, ponovo kreiraj funkciju pretrage i funkciju nasumičnih članaka, kao što je prikazano u gornjem primeru programa. Možete koristiti Wikipedia kao izvor podataka.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API zozote unazohitaji. Toa mtindo wako binafsi.
+Završite korisničke priče ispod i prođite sve testove. Koristite bilo koje biblioteke ili API koja vam zatreba. Pružite svoj sopstveni stil.
 
-**Hadithi ya mtumiaji:** Naweza kutafuta maingizo ya Wikipedia kwenye kisanduku cha utafutaji na kuona maingizo yanayotokea ya Wikipedia.
+**Priča korisnika:** Mogu pretraživati članke Wikipedije u okviru za pretragu i videti rezultirajuće članke Wikipedije.
 
 **Hadithi ya mtumiaji:** Naweza kubofya kitufe kuona maingizo ya Wikipedia ya bahati nasibu.
 
-Ukipata kazi, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada dobijete zadatak, uključite link svog projekta na CodePen i kliknite na dugme "Završio sam ovaj izazov".
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu tako što ćete ga podeliti na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

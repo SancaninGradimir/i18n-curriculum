@@ -1,13 +1,13 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: Jaribio fupi la CSS Grid
+title: Pokušaj sa CSS Grid-om
 challengeType: 8
 dashedName: quiz-css-grid
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,39 +17,39 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-CSS Grid ni nini?
+CSS Šta je Grid?
 
 #### --distractors--
 
-Njia inayotumika kuonyesha majedwali kwenye mtandao.
+Način korišćenja za prikazivanje tabela na internetu.
 
----
+[No Swahili text provided.]
 
-Njia inayotumika kuweka picha kwa mpangilio wa tiles.
+Način postavljanja slika u mozaičnom (tile) rasporedu.
 
----
+[No Swahili text provided.]
 
-Njia ya kuonyesha mipaka kuzunguka vipengele vya HTML.
+Način za prikazivanje granica oko elemenata HTML.
 
 #### --answer--
 
-Mpangilio wa pande mbili kwa hati za HTML.
+Dvostrano podešavanje za dokumente HTML.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo njia sahihi ya kuunda chombo cha gridi?
+Koji je ispravan način/metoda među sledećim za kreiranje alata mrežne strukture (grid tool)?
 
 #### --distractors--
 
 `display: grid-area;`
 
----
+[No Swahili text provided.]
 
 `grid: grid-template;`
 
----
+[No Swahili text provided.]
 
 `grid-template: set;`
 
@@ -61,83 +61,83 @@ Ni ipi kati ya zifuatazo njia sahihi ya kuunda chombo cha gridi?
 
 #### --text--
 
-Sifa ya `grid-template-columns` hufanya nini?
+Šta radi karakteristika `grid-template-columns`?
 
 #### --distractors--
 
-Huweka safu mbili na mistari mitatu kwa chombo cha gridi.
+Podešavate dve redne i tri kolone za mrežni alat.
 
----
+[No Swahili text provided.]
 
-Huweka safu zote za mpangilio wa gridi kuwa na urefu thabiti.
+Podesite sve redove mrežnog rasporeda da imaju fiksnu visinu.
 
----
+[No Swahili text provided.]
 
-Huunda chombo cha mpangilio wa gridi wa safu mbili.
+Kreiraj alat za dvoredni mrežni raspored.
 
 #### --answer--
 
-Huweka idadi ya safu katika mpangilio wa gridi.
+Postavlja broj redova u mrežni raspored (grid layout).
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-template-rows` hufanya nini?
+Šta radi atribut `grid-template-rows`?
 
 #### --distractors--
 
-Hubainisha ukubwa na mahali pa kipande cha gridi katika mpangilio wa gridi.
+Odredite veličinu i poziciju ćelije mreže u mrežnom rasporedu.
 
----
+[No Swahili text provided.]
 
-Huunda kiolezo cha kuunda mistari mipya ya gridi.
+Generiše alat za kreiranje novih mrežnih linija.
 
----
+[No Swahili text provided.]
 
-Hubainisha ukubwa wa mstari wa chaguo-msingi katika chombo cha gridi.
+Definišite veličinu podrazumevane linije u alatki za mrežu.
 
 #### --answer--
 
-Hubainisha idadi na urefu wa kila mstari katika mpangilio wa gridi.
+Utvrdite broj i dužinu svake linije u mrežnom rasporedu.
 
 ### --question--
 
 #### --text--
 
-Kitendakazi cha `minmax()` hufanya nini?
+Funkcija `minmax()`, šta radi?
 
 #### --distractors--
 
-Hubadilisha kati ya thamani ya kwanza na ya pili, kulingana na nafasi iliyopo.
+Prebacuje između prve i druge vrednosti, u zavisnosti od trenutne pozicije.
 
----
+[No Swahili text provided.]
 
-Hurudisha wastani wa ingizo mbili.
+Izračunaj prosek dva unosa.
 
----
+[No Swahili text provided.]
 
-Huweka ukubwa wa chini kabisa wa kipengele kwa kivinjari kinachofanya kazi kwa hali ya skrini kamili.
+Postavlja minimalnu veličinu elementa za pregledač koji radi u režimu punog ekrana.
 
 #### --answer--
 
-Huweka ukubwa wa chini na juu kwa njia ya mstari.
+Postavlja donju i gornju granicu linijom.
 
 ### --question--
 
 #### --text--
 
-Ni kifupi gani cha sifa za `column-gap` na `row-gap`?
+Koje su kratke opise karakteristika za `column-gap` i `row-gap`?
 
 #### --distractors--
 
 `gap-column-row`
 
----
+[No Swahili text provided.]
 
 `gutters`
 
----
+[No Swahili text provided.]
 
 `grid-gap`
 
@@ -149,39 +149,39 @@ Ni kifupi gani cha sifa za `column-gap` na `row-gap`?
 
 #### --text--
 
-Tofauti gani kati ya gridi ya wazi na gridi ya wazi kabisa?
+Koja je razlika između otvorene mreže i potpuno otvorene mreže?
 
 #### --distractors--
 
-Gridi za wazi hutumia sifa ya `grid-template-columns` wakati gridi za wazi kabisa hutumia sifa ya `grid-template-rows`.
+Otvorene mreže koriste svojstvo ya `grid-template-columns` dok potpuno otvorene mreže koriste svojstvo ya `grid-template-rows`.
 
----
+[No Swahili text provided.]
 
-Gridi za wazi kabisa hutumia sifa ya `grid-template-columns` wakati gridi za wazi hutumia sifa ya `grid-template-rows`.
+Potpuno otvorene mreže koriste atribut `grid-template-columns` dok potpuno otvorene mreže koriste atribut `grid-template-rows`.
 
----
+[No Swahili text provided.]
 
-Gridi za wazi hutumia sifa za `grid-template-columns` au `grid-template-rows` kuunda safu wakati mistari na safu huundwa moja kwa moja katika gridi za wazi kabisa.
+Otvorene mreže koriste svojstva `grid-template-columns` ili `grid-template-rows` za kreiranje redova kada se linije i kolone automatski kreiraju u potpuno otvorene mreže.
 
 #### --answer--
 
-Gridi za wazi kabisa hutumia sifa za `grid-template-columns` au `grid-template-rows` kuunda safu wakati mistari na safu huundwa moja kwa moja katika gridi za wazi.
+Potpuno otvorene mreže koriste svojstva `grid-template-columns` ili `grid-template-rows` za kreiranje redova kada se redovi i kolone automatski kreiraju u otvorenim mrežama.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya vitengo ifuatayo inawakilisha sehemu ya nafasi ndani ya chombo cha gridi?
+Koji od sledećih elemenata predstavlja deo prostora unutar grid kontejnera?
 
 #### --distractors--
 
 `fractional`
 
----
+[No Swahili text provided.]
 
 `frac`
 
----
+[No Swahili text provided.]
 
 `f`
 
@@ -193,61 +193,61 @@ Ni ipi kati ya vitengo ifuatayo inawakilisha sehemu ya nafasi ndani ya chombo ch
 
 #### --text--
 
-Mistari ya gridi ni nini?
+Šta su mrežne linije?
 
 #### --distractors--
 
-Kifupi cha mistari na safu.
+Redovi i kolone.
 
----
+[No Swahili text provided.]
 
-Mipaka ya kipengele cha gridi.
+Granice elementa mreže.
 
----
+[No Swahili text provided.]
 
-Mistari ambayo safu na mistari ya gridi huundwa.
+Linije gde se stvaraju redovi i mrežne linije.
 
 #### --answer--
 
-Mistari ambayo kila kipande cha gridi huanza na kumalizika.
+Linije koje svaki deo mreže počinje i završava.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-column` hufanya nini?
+Šta svojstvo `grid-column` radi?
 
 #### --distractors--
 
-Huongeza kipengele kipya cha gridi kama mtoto wa kipengele kinachotumika.
+Dodaj novi mrežni element/komponentu kao dete korišćenog elementa.
 
----
+[No Swahili text provided.]
 
-Hulinganisha maandishi ndani ya kipande cha gridi kwa wima.
+Poravnajte tekst unutar ćelije mreže vertikalno.
 
----
+[No Swahili text provided.]
 
-Huweka safu mbili kwa chombo cha gridi.
+Postavlja dva reda za alat mrežice.
 
 #### --answer--
 
-Huambia kipande cha gridi mstari wa gridi ambamo kinapaswa kuanza na kumalizika.
+Indikuje segment mrežne linije na mestu gde treba da počne i završi.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kuunda safu nne za upana sawa?
+Možete li kreirati četiri reda iste širine?
 
 #### --distractors--
 
 `grid-template-columns: repeat(4);`
 
----
+[No Swahili text provided.]
 
 `grid-template-columns: repeat(1, 4);`
 
----
+[No Swahili text provided.]
 
 `grid-template-columns: repeat(1fr, 4);`
 
@@ -259,51 +259,51 @@ Unawezaje kuunda safu nne za upana sawa?
 
 #### --text--
 
-Sifa ya `grid-template-areas` hufanya nini?
+Šta radi atribut `grid-template-areas`?
 
 #### --distractors--
 
-Inatumika kubainisha mahali kipande kinaanza kwenye mstari katika chombo cha gridi.
+Koristi se za određivanje mesta gde komad počinje na liniji u gridškom alatu.
 
----
+[No Swahili text provided.]
 
-Inatumika kuunda mapengo kati ya njia katika chombo.
+Koristi se za stvaranje razmaka između putanja unutar uređaja.
 
----
+[No Swahili text provided.]
 
-Inatumika kurudia sehemu katika orodha ya njia.
+Koristi se za ponavljanje dela u spisku ruta.
 
 #### --answer--
 
-Inatumika kutoa jina kwa vipengele unavyopanga kwenye gridi.
+Koristi se za imenovanje elemenata koje raspoređujete na mreži.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-auto-flow` hufanya nini?
+Šta radi karakteristika `grid-auto-flow`?
 
 #### --distractors--
 
-Hudhibiti mpangilio wa vipengele vya gridi vinavyoonyeshwa.
+Kontrolišite raspored prikazanih elemenata mreže.
 
----
+[No Swahili text provided.]
 
-Hubadilisha nafasi kati ya vipengele vya gridi.
+Promenite poziciju između elemenata mreže.
 
----
+[No Swahili text provided.]
 
-Hurekebisha kipengele kiendane na gridi moja kwa moja.
+Podesite element da se poravna na grid/mrežu direktno.
 
 #### --answer--
 
-Hudhibiti jinsi vipengele vinavyojiingiza moja kwa moja kwenye gridi.
+Kontrolišite kako se elementi automatski ubacuju u mrežu/grid.
 
 ### --question--
 
 #### --text--
 
-Ni ipi njia sahihi ya kutumia sifa ya `grid-template-areas`?
+Koji je tačan način korišćenja funkcije/svojstva za `grid-template-areas`?
 
 #### --distractors--
 
@@ -321,7 +321,7 @@ Ni ipi njia sahihi ya kutumia sifa ya `grid-template-areas`?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .container {
@@ -337,7 +337,7 @@ Ni ipi njia sahihi ya kutumia sifa ya `grid-template-areas`?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .container {
@@ -368,7 +368,7 @@ Ni ipi njia sahihi ya kutumia sifa ya `grid-template-areas`?
 
 #### --text--
 
-Ni ipi njia sahihi ya kufanya kazi na sifa ya `grid-auto-flow`?
+Koji je ispravan način za rad sa svojstvom od `grid-auto-flow`?
 
 #### --distractors--
 
@@ -381,7 +381,7 @@ Ni ipi njia sahihi ya kufanya kazi na sifa ya `grid-auto-flow`?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .social-icons {
@@ -392,7 +392,7 @@ Ni ipi njia sahihi ya kufanya kazi na sifa ya `grid-auto-flow`?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .social-icons {
@@ -418,17 +418,17 @@ Ni ipi njia sahihi ya kufanya kazi na sifa ya `grid-auto-flow`?
 
 #### --text--
 
-Ni ipi kati ya sifa zifuatazo si sifa halali ya gridi?
+Koji od sledećih nije važeći atribut mreže?
 
 #### --distractors--
 
 `gap`
 
----
+[No Swahili text provided.]
 
 `grid-column`
 
----
+[No Swahili text provided.]
 
 `grid-template-columns`
 
@@ -440,17 +440,17 @@ Ni ipi kati ya sifa zifuatazo si sifa halali ya gridi?
 
 #### --text--
 
-Ni sifa gani kati ya hizi inaweza kutumika kuweka vipengele katikati ndani ya kipengele cha gridi?
+Koji od ovih svojstava se može koristiti za centriranje elemenata unutar elementa mreže/grid-a?
 
 #### --distractors--
 
 `allow-items`
 
----
+[No Swahili text provided.]
 
 `set-items`
 
----
+[No Swahili text provided.]
 
 `center-items`
 
@@ -462,17 +462,17 @@ Ni sifa gani kati ya hizi inaweza kutumika kuweka vipengele katikati ndani ya ki
 
 #### --text--
 
-Ni thamani gani kati ya zifuatazo ni sahihi kutumia na sifa ya `grid-auto-columns`?
+Koja vrednost među sledećim je pravilna za korišćenje sa atributom `grid-auto-columns`?
 
 #### --distractors--
 
 `grid-auto-columns: unset-grid;`
 
----
+[No Swahili text provided.]
 
 `grid-auto-columns: revert-grid;`
 
----
+[No Swahili text provided.]
 
 `grid-auto-columns: set-content(20%);`
 
@@ -484,29 +484,29 @@ Ni thamani gani kati ya zifuatazo ni sahihi kutumia na sifa ya `grid-auto-column
 
 #### --text--
 
-Mistari ya gridi ni nini?
+Šta su mrežne linije?
 
 #### --distractors--
 
-Kifupi cha mistari na safu.
+Redovi i kolone.
 
----
+[No Swahili text provided.]
 
-Mistari ambayo unaweza kuhuisha harakati za vipengele vya gridi.
+Linije koje možete animirati kretanjem elemenata mreže.
 
----
+[No Swahili text provided.]
 
-Mistari ambayo kila kipande cha gridi huanza na kumalizika.
+Linije koje svaki deo mreže počinje i završava.
 
 #### --answer--
 
-Nafasi kati ya mistari miwili ya gridi inayopakana.
+Razmak između dve susedne mreže linije.
 
 ### --question--
 
 #### --text--
 
-Ni ipi njia sahihi ya kutumia kitendakazi cha `minmax()`?
+Koji je ispravan način za korišćenje funkcije `minmax()`?
 
 #### --distractors--
 
@@ -518,7 +518,7 @@ Ni ipi njia sahihi ya kutumia kitendakazi cha `minmax()`?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .container {
@@ -528,7 +528,7 @@ Ni ipi njia sahihi ya kutumia kitendakazi cha `minmax()`?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .container {
@@ -554,61 +554,61 @@ Ni ipi njia sahihi ya kutumia kitendakazi cha `minmax()`?
 
 #### --text--
 
-Unawezaje kuweka kipande cha gridi ndani ya mpangilio uliofafanuliwa na `grid-template-areas`?
+Da li možete postaviti delo mreže unutar rasporeda definisanog sa `grid-template-areas`?
 
 #### --distractors--
 
-Kwa kubainisha moja kwa moja ukubwa na mahali pa kipande ndani ya gridi kwa kutumia `grid-template-rows` na `grid-template-columns`.
+Za direktno određivanje veličine i lokacije komada unutar mreže koristeći `grid-template-rows` i `grid-template-columns`.
 
----
+[No Swahili text provided.]
 
-Kwa kutumia sifa ya `grid-area` na kubainisha nafasi za kuanzia na kumalizika kwa safu na mstari.
+Koristeći atribut `grid-area` i navođenje početnih i krajnjih pozicija za redove i kolone.
 
----
+[No Swahili text provided.]
 
-Kwa kuweka `grid-area` na kuratibu za pikseli waziwazi.
+Postavljanjem `grid-area` i koordiniranjem jasnih pikselnih koordina.
 
 #### --answer--
 
-Kwa kuweka eneo lililopewa jina kwenye sifa ya `grid-area` ya kipande.
+Podešavanjem imenovanog područja u atributu `grid-area` komada.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `grid-auto-rows` hudhibiti nini?
+Svojstvo `grid-auto-rows` šta kontroliše?
 
 #### --distractors--
 
-Urefu wa mistari iliyobainishwa waziwazi.
+Dužina jasno definisanih linija.
 
----
+[No Swahili text provided.]
 
-Upana wa juu kabisa wa safu za gridi.
+Maksimalna širina redova grilje (ili mreže).
 
----
+[No Swahili text provided.]
 
-Mapengo kati ya mistari.
+Razmaci između linija.
 
 #### --answer--
 
-Ukubwa wa mistari iliyoundwa kwa njia isiyo wazi.
+Veličina linija formiranih nejasnim putem.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ungetumia kufanya kipande cha gridi kizunguke mistari mingi?
+Koja funkcija biste koristili da napravite da mrežni deo kruži oko mnogo linija?
 
 #### --distractors--
 
 `grid-row-span`
 
----
+[No Swahili text provided.]
 
 `row-span`
 
----
+[No Swahili text provided.]
 
 `span-rows`
 
@@ -620,39 +620,39 @@ Ni sifa gani ungetumia kufanya kipande cha gridi kizunguke mistari mingi?
 
 #### --text--
 
-Nini huainisha gridi ya wazi kabisa?
+Šta definiše potpuno otvorenu mrežu?
 
 #### --distractors--
 
-Mistari inayoundwa moja kwa moja ili kufaa maudhui.
+Linije koje se generišu automatski da odgovaraju sadržaju.
 
----
+[No Swahili text provided.]
 
-Mistari yaliyobainishwa na kitengo cha `fr`.
+Linije identifikovane od strane jedinice `fr`.
 
----
+[No Swahili text provided.]
 
-Mistari yaliyoongezwa kwa `grid-auto-flow`.
+Linije dodate za `grid-auto-flow`.
 
 #### --answer--
 
-Mistari iliyowekwa waziwazi na `grid-template-columns` au `grid-template-rows`.
+Linije koje su jasno definisane sa `grid-template-columns` ili `grid-template-rows`.
 
 ### --question--
 
 #### --text--
 
-Ni thamani gani ya `grid-auto-flow` itafanya vipengele vipya kujaza safu kwanza?
+Koja je vrednost `grid-auto-flow` da novi elementi popune red prvo?
 
 #### --distractors--
 
 `row`
 
----
+[No Swahili text provided.]
 
 `vertical`
 
----
+[No Swahili text provided.]
 
 `row dense`
 
@@ -664,39 +664,39 @@ Ni thamani gani ya `grid-auto-flow` itafanya vipengele vipya kujaza safu kwanza?
 
 #### --text--
 
-Madhumuni ya `grid-template-areas` ni yapi?
+Šta je svrha `grid-template-areas`?
 
 #### --distractors--
 
-Kuunda mistari isiyo wazi moja kwa moja.
+Kreirati nevidljive linije direktno.
 
----
+[No Swahili text provided.]
 
-Kubadilisha kitengo cha `fr`.
+Menjajte jedinicu za `fr`.
 
----
+[No Swahili text provided.]
 
-Kuweka thamani za `z-index`.
+Postavljanje vrednosti za `z-index`.
 
 #### --answer--
 
-Kuwa ramani ya kuona ya vipengele kwenye maeneo ya gridi yaliyopewa majina.
+Biti vizuelna mapa komponenti na imenovanim mrežnim oblastima.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kufanya kipande cha gridi kuanza kwenye mstari wa safu wa 2 na kumalizika kwenye mstari wa safu wa 4?
+Kako se može napraviti komad mreže da počne sa reda 2 i završi na redu 4?
 
 #### --distractors--
 
 `grid-column: 2 / span 4;`
 
----
+[No Swahili text provided.]
 
 `grid-column: start 2 / end 4;`
 
----
+[No Swahili text provided.]
 
 `grid-column: from 2 to 4;`
 
@@ -708,29 +708,29 @@ Unawezaje kufanya kipande cha gridi kuanza kwenye mstari wa safu wa 2 na kumaliz
 
 #### --text--
 
-Athari ya `grid-template-columns: 1fr 2fr 1fr` ni ipi?
+Učinak od `grid-template-columns: 1fr 2fr 1fr` je šta?
 
 #### --distractors--
 
-Huunda safu tatu za upana sawa.
+Napravite tri reda jednake širine.
 
----
+[No Swahili text provided.]
 
-Hufanya safu ya katikati kuwa mara tatu pana zaidi kuliko zingine.
+Učinite srednji red tri puta širim nego ostali.
 
----
+[No Swahili text provided.]
 
-Hulazimisha safu zote kuwa na upana wa `1fr` tu.
+Naterujem sve redove da imaju širinu samo od `1fr`.
 
 #### --answer--
 
-Huunda safu tatu ambapo safu ya katikati ni mara mbili pana kuliko zile za pembeni.
+Napravi tri reda gde je srednji red dvostruko širi od bočnih.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
+Kako možete kreirati grid sa 3 reda koji imaju istu širinu kao razmak od `20px` između njih?
 
 #### --distractors--
 
@@ -741,7 +741,7 @@ Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
 } 
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .container {
@@ -750,7 +750,7 @@ Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .container {
@@ -773,73 +773,73 @@ Unawezaje kuunda gridi yenye safu 3 za upana sawa na pengo la `20px` kati yao?
 
 #### --text--
 
-`repeat(3, minmax(100px, 1fr))` huunda nini?
+`repeat(3, minmax(100px, 1fr))` Šta stvara?
 
 #### --distractors--
 
-Safu tatu ambazo haziwezi kupungua chini ya `100px`.
+Tri reda koji ne mogu da padnu ispod `100px`.
 
----
+[No Swahili text provided.]
 
-Safu tatu za `100px` thabiti.
+Tri reda za `100px` stabilne.
 
----
+[No Swahili text provided.]
 
-Mistari mitatu yenye urefu wa juu kabisa wa `1fr`.
+Tri linije sa najvišom dužinom od `1fr`.
 
 #### --answer--
 
-Safu tatu zinazokua kwa uwiano lakini hazitapungua chini ya `100px`.
+Tri reda koji rastu proporcionalno, ali neće opadati ispod `100px`.
 
 ### --question--
 
 #### --text--
 
-Ni taarifa gani kuhusu gridi zisizo wazi ni kweli?
+Koje informacije o nejasnim mrežama su istinite?
 
 #### --distractors--
 
-Gridi zisizo wazi hazizingatii sifa ya `gap`.
+Neprišćene mreže ne poštuju svojstvo `gap`.
 
----
+[No Swahili text provided.]
 
-Mistari isiyo wazi lazima ibainishwe na `grid-template-areas`.
+Nedefinisana struktura mora biti definisana pomoću `grid-template-areas`.
 
----
+[No Swahili text provided.]
 
-Mistari isiyo wazi inaweza kuundwa tu kwa kutumia sifa ya `grid-auto-flow`.
+Nejasna linija može se kreirati samo korišćenjem svojstva `grid-auto-flow`.
 
 #### --answer--
 
-Mistari isiyo wazi huundwa wakati maudhui hayafai mistari iliyobainishwa wazi.
+Nedefinisane linije nastaju kada sadržaj ne odgovara jasno definisanim redovima.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `place-items` hufanya nini katika CSS Grid?
+Šta karakteristika `place-items` radi u CSS mreži (Grid)?
 
 #### --distractors--
 
-Huweka ukubwa wa vipengele vya gridi moja kwa moja kulingana na nafasi iliyopo.
+Postavlja veličinu elemenata mrežice direktno u skladu sa dostupnim prostorom.
 
----
+[No Swahili text provided.]
 
-Hudhibiti maelezo ya safu na mistari ya kiolezo cha gridi.
+Kontrolišite podešavanja redova i linija mrežnog panela.
 
----
+[No Swahili text provided.]
 
-Hurekebisha mpangilio wa vipengele vya gridi ndani ya kontena.
+Prilagođava raspored elemenata mreže unutar kontejnera.
 
 #### --answer--
 
-Ni kifupi cha kuoanisha vipengele vya gridi katika mwelekeo wa mstari na ndani ya mstari.
+To je metoda za poravnavanje elemenata mreže u linearnom pravcu i duž linije.
 
 ### --question--
 
 #### --text--
 
-CSS hii inafanikaje?
+CSS Kako ovo radi?
 
 ```css
 .container {
@@ -849,79 +849,79 @@ CSS hii inafanikaje?
 
 #### --distractors--
 
-Huunda safu za `150px` thabiti zinazozidi ukubwa wa kontena.
+Kreira redove za `150px` fiksne koje nadmašuju veličinu kontejnera.
 
----
+[No Swahili text provided.]
 
-Huunda safu ambazo ni za upana wa `1fr` tu bila kujali maudhui.
+Kreiraj redove koji imaju širinu od `1fr` samo bez obzira na sadržaj.
 
----
+[No Swahili text provided.]
 
-Huunda safu moja kwa kila `150px` ya upana uliopo.
+Kreirajte jedan red za svaki `150px` postojeće širine.
 
 #### --answer--
 
-Huunda safu zinazobadilika ambazo angalau ni `150px` na hupungua wakati nafasi ni ndogo.
+Kreira dinamičke redove koji su najmanje `150px` i smanjuju se kada je prostor mali.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kuunda mipangilio ya gridi isiyo sawa?
+Da li možete kreirati nepravilne postavke mreže?
 
 #### --distractors--
 
-Kwa kutumia vitengo vya `fr` pekee.
+Korišćenje jedinica `fr` samo.
 
----
+[No Swahili text provided.]
 
-Kwa kuchanganya vitengo vya urefu tofauti katika `grid-template-columns`.
+Kada se kombinuju različite jedinice dužine u `grid-template-columns`.
 
----
+[No Swahili text provided.]
 
-Kwa kuweka `grid-asymmetric: true`.
+Za postavljanje `grid-asymmetric: true`.
 
 #### --answer--
 
-Kwa kubainisha ukubwa tofauti kwa kila mstari.
+Za određivanje različitih veličina za svaku liniju.
 
 ### --question--
 
 #### --text--
 
-`grid-column-start: 2` hufanya nini kwa kipande cha gridi?
+`grid-column-start: 2` Šta radi sa delom mreže?
 
 #### --distractors--
 
-Hufanya kipande kizunguke safu 2.
+Neka deo kruži po redu 2.
 
----
+[No Swahili text provided.]
 
-Hukiondoa kwa pikseli 2.
+Uklanjanje po pikselu 2.
 
----
+[No Swahili text provided.]
 
-Hukiweka kuanzia mstari wa pili wa gridi wima.
+Postavite počevši od druge vertikalne mrežne linije.
 
 #### --answer--
 
-Hufanya kipande kuanza kwenye mstari wa safu wa pili.
+Napraviću komadić da počne na drugom redu.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ungetumia kudhibiti tabia ya kuzidi katika mistari ya gridi?
+Koji atribut biste koristili da kontrolišete ponašanje prelivanja u mrežnim linijama/gridu?
 
 #### --distractors--
 
 `grid-overflow`
 
----
+[No Swahili text provided.]
 
 `track-sizing`
 
----
+[No Swahili text provided.]
 
 `fit-content`
 
@@ -933,7 +933,7 @@ Ni sifa gani ungetumia kudhibiti tabia ya kuzidi katika mistari ya gridi?
 
 #### --text--
 
-Matokeo ya msimbo ufuatao yatakuwa yapi?
+Koji će biti rezultat sledećeg koda?
 
 ```css
 .container {
@@ -946,35 +946,35 @@ Matokeo ya msimbo ufuatao yatakuwa yapi?
 
 #### --distractors--
 
-Kontena litakuwa na safu tatu za upana sawa, na mistari miwili yenye urefu wa `150px` kila moja.
+Kontejner će biti u tri reda jednake širine, i dve linije, svaka dužine `150px`.
 
----
+[No Swahili text provided.]
 
-Kontena litakuwa na safu tatu, zote zikiwa na upana wa `100px`, na mistari miwili yenye urefu wa `150px`.
+Kontejner će biti u tri reda, svi sa širinom `100px`, i dva poprečna reza (linije) dužine `150px`.
 
----
+[No Swahili text provided.]
 
-Kontena litakuwa na mistari miwili, kila moja ikiwa na urefu wa `1fr`.
+Kontejner će imati dvije linije, svaka sa dužinom od `1fr`.
 
 #### --answer--
 
-Kontena litakuwa na safu tatu: 100px, `1fr` na `2fr` upana na mistari miwili: moja auto na moja yenye urefu wa `150px`.
+Kontejner će imati tri reda: 100px, `1fr` na `2fr` širina i dva reda: jedan auto i jedan sa visinom od `150px`.
 
 ### --question--
 
 #### --text--
 
-Unawezaje kufanya kipande cha gridi kizunguke mistari yote iliyopo?
+Možete li napraviti da deo mreže okruži sve postojeće linije?
 
 #### --distractors--
 
 `grid-row: full;`
 
----
+[No Swahili text provided.]
 
 `grid-row: auto / -1;`
 
----
+[No Swahili text provided.]
 
 `grid-row: 1 / span infinite;`
 
@@ -986,17 +986,17 @@ Unawezaje kufanya kipande cha gridi kizunguke mistari yote iliyopo?
 
 #### --text--
 
-Ni sifa gani hudhibiti ulinganifu wa vipengele vya gridi kando ya mwelekeo wa mstari?
+Koja svojstvo kontroliše poravnanje elemenata mreže duž pravca linije?
 
 #### --distractors--
 
 `justify-items`
 
----
+[No Swahili text provided.]
 
 `place-items`
 
----
+[No Swahili text provided.]
 
 `align-content`
 
@@ -1008,17 +1008,17 @@ Ni sifa gani hudhibiti ulinganifu wa vipengele vya gridi kando ya mwelekeo wa ms
 
 #### --text--
 
-Unawezaje kuhakikisha kipande cha gridi kinabaki kwenye safu ya kwanza bila kujali mabadiliko ya gridi?
+Kako možete osigurati da deo mreže ostane u prvom redu, bez obzira na promene grida/mreže?
 
 #### --distractors--
 
 `grid-column: fixed;`
 
----
+[No Swahili text provided.]
 
 `grid-column: first;`
 
----
+[No Swahili text provided.]
 
 `grid-lock: column;`
 

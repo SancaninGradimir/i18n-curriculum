@@ -1,26 +1,26 @@
 ---
 id: 686daa7ed79ceacd0b264e7f
-title: Hatua 4
+title: Korak 4
 challengeType: 0
 dashedName: step-4
 ---
 
 # --description--
 
-Hatua inayofuata ni kuweka sifa za kipengele za `width` na `height` kwa kipengele cha `svg`. Kwa kuwa unaunda ikoni, thamani zote mbili zinapaswa kuwekwa ndogo.
+Sledeći korak je postaviti atribute elemenata za `width` i `height` za element `svg`. Pošto kreirate ikonu, obe vrednosti bi trebalo postaviti u malim slovima.
 
-Weka thamani zote mbili kuwa `24`.
+Postavi obe vrednosti na `24`.
 
 # --hints--
 
-Kipengele chako cha `svg` kinapaswa kuwa na sifa ya kipengele ya `width` yenye thamani `24`.
+Vaš element od `svg` treba da ima svojstvo elementa `width` sa vrednošću `24`.
 
 ```js
 const svg = document.querySelector('svg');
 assert.strictEqual(svg.getAttribute('width'), '24');
 ```
 
-Kipengele chako cha `svg` kinapaswa kuwa na sifa ya kipengele ya `height` yenye thamani `24`.
+Element vašeg `svg` mora imati atribut elementa `height` sa vrednošću `24`.
 
 ```js
 const svg = document.querySelector('svg');

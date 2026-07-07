@@ -1,19 +1,19 @@
 ---
 id: 6996cdf1f60cbc30eeeae1c9
-title: Hatua 12
+title: Korak 12
 challengeType: 1
 dashedName: step-12
 ---
 
 # --description--
 
-Ikiwa sharti katika `else if` ni kweli, sahihisha thamani ya kigezo `low` kwa kuongeza `1` kwenye kigezo `mid`.
+Ako je uslov u `else if` istinit, podesi vrednost parametra `low` dodavanjem `1` na parametar `mid`.
 
-Hii itaongeza utafutaji upande wa kulia wa maeneo ya sasa ya utafutaji katika orodha, kwa sababu ikiwa `value` ni kubwa kuliko `valueAtMiddle`, ina maana `value` lazima iwe upande wa kulia wa eneo la sasa la utafutaji.
+Ovo će dodati pretragu na desnu stranu trenutnih područja pretraživanja u spisku, jer ako `value` je veće od `valueAtMiddle`, to znači da `value` mora biti na desnoj strani trenutnog područja pretraživanja.
 
 # --hints--
 
-Unapaswa kusahihisha kigezo `low` kuwa `mid + 1`.
+Trebalo bi da popraviš parametar `low` u `mid + 1`.
 
 ```js
 assert.match(__helpers.removeJSComments(String(binarySearch)), /low\s*=\s*mid\s*\+\s*1/);

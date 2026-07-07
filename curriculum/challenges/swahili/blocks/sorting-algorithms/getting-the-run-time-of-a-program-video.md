@@ -1,6 +1,6 @@
 ---
 id: 698de9fa7932b3cc4b19c942
-title: Kupata Muda wa Kutekeleza Programu
+title: Dostupanje vremena za izvršavanje programa
 challengeType: 11
 videoId: mc0l9RHWjT0
 dashedName: getting-the-run-time-of-a-program
@@ -8,27 +8,27 @@ dashedName: getting-the-run-time-of-a-program
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kupima muda wa utekelezaji wa algoriti ya selection sort.
+U ovom videu, naučićete kako da izmerite vreme izvršavanja algoritma selection sort.
 
 # --questions--
 
 ## --text--
 
-Ni amri gani ya unix ambayo mwalimu anaitumia kuendesha programu na kuangalia muda wa utekelezaji wa algoriti ya selection sort?
+Koja je Unix komanda koju nastavnik koristi za pokretanje programa i proveru vremena izvršavanja algoritma selection sort?
 
 ## --answers--
 
 `check`
 
----
+[No Swahili text provided.]
 
 `run`
 
----
+[No Swahili text provided.]
 
 `time`
 
----
+[No Swahili text provided.]
 
 `set`
 

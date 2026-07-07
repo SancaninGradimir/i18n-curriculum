@@ -1,6 +1,6 @@
 ---
 id: 69ae7672b4a814be6a4f2be5
-title: Miundo ya MCP
+title: Modeli MCP
 challengeType: 11
 videoId: i0sJXMyGLQY
 dashedName: mcp-architecture
@@ -8,29 +8,29 @@ dashedName: mcp-architecture
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu miundo ya MCP.
+U ovom videu, naučićete o strukturama MCP-a.
 
 # --questions--
 
 ## --text--
 
-Sehemu ya rasilimali za seva ya MCP hutumika kwa ajili gani?
+Za šta se deo resursa MCP servera koristi?
 
 ## --answers--
 
-Hii hutumika kuendesha LLMs na kushughulikia maswali ya AI kwa wakati halisi.
+Ovo se koristi za pokretanje LLM-ova i obradu pitanja veštačke inteligencije u realnom vremenu.
 
----
+[No Swahili text provided.]
 
-Sehemu hii hushughulikia muunganisho wa mtandao na uthibitisho wa utambulisho wa mtumizi kwa seva.
+Ovaj deo obrađuje mrežnu konekciju i autentifikaciju identiteta korisnika za server.
 
----
+[No Swahili text provided.]
 
-Hii hutumika kufuatilia utendaji wa seva na kuzalisha kumbukumbu za mfumo.
+Ovo se koristi za praćenje performansi servera i generisanje sistemskih logova.
 
----
+[No Swahili text provided.]
 
-Hii hutumika kuhifadhi na kusimamia mali au data ambazo programu za AI zinaweza kupata upatikanaji. 
+Ovo se koristi za skladištenje i upravljanje resursima ili podacima kojima aplikacije veštačke inteligencije mogu pristupiti.
 
 ## --video-solution--
 

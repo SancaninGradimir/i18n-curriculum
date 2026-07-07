@@ -1,28 +1,28 @@
 ---
 id: 68f1196f0fedc6f6ecc9aba6
-title: Hatua 4
+title: Korak 4
 challengeType: 20
 dashedName: step-4
 ---
 
 # --description--
 
-Katika Python, kidokezo cha aina ya kurudisha kinaonyesha aina inayotarajiwa kurudishwa na kitendakazi au njia. Unafanya hivi kwa kuongeza `-> return_type` baada ya orodha ya vigezo katika ufafanuzi wa njia.
+U Python, indikator tipa povratne vrednosti pokazuje očekivani tip koji će vratiti funkcija ili metoda. To radite dodavanjem `-> return_type` nakon spiska parametara u definiciji metode.
 
-Hapa kuna mfano wa njia yenye vidokezo vya aina ya kigezo na aina ya kurudisha ambapo aina ya kurudisha ni `bool`:
+Ovo je primer metode sa parametrima i tipovima, gde je tip povratne vrednosti `bool`:
 
 ```py
 def example_method(self, value: int) -> bool:
   pass
 ```
 
-Vidokezo vingine vya aina ya kurudisha ambavyo unaweza kutumia ni pamoja na `str`, `None`, `float` na zaidi.
+Ostali tipovi referenci za povrat koje možete koristiti uključuju `str`, `None`, `float` i slično.
 
-Katika njia ya `__init__` iliyopo, ongeza kidokezo cha aina ya kurudisha cha `None` kwa kuwa vijenzi havirudishi thamani.
+U postojećoj putanji ``__init__``, dodajte tip podskup za vraćanje od ``None`` jer komponente ne vraćaju vrednosti.
 
 # --hints--
 
-Njia yako ya `__init__` inapaswa kuwa na kidokezo cha aina ya kurudisha cha `None`.
+Tvoja putanja za `__init__` bi trebalo da ima indikator tipa povratka `None`.
 
 ```js
 ({

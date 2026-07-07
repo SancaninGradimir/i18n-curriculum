@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd1f
-title: Tumia API ya JSON ya Twitch
+title: Koristi Twitch JSON API
 challengeType: 3
 forumTopicId: 19541
 dashedName: use-the-twitch-json-api
@@ -8,25 +8,25 @@ dashedName: use-the-twitch-json-api
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kwa njia inayofanana na hii: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
+**Cilj:** Napravi program koji funkcioniše na način sličan ovom: <a href="https://codepen.io/freeCodeCamp/full/Myvqmo/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/Myvqmo/</a>.
 
-API ya Twitch ni API ya RESTful inayowezesha wasanidi programu kujenga muunganisho bunifu kwa ajili ya jamii kubwa ya Twitch.
+API iz Twicha je API na RESTful način koji omogućava programerima da kreiraju inovativne veze za veliku Twitch zajednicu.
 
-Kamilisha hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Dopunite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-**Hadithi ya mtumiaji:** Naweza kuona kama freeCodeCamp kwa sasa inatiririsha moja kwa moja kwenye Twitch.tv.
+**Priča korisnika:** Mogu da vidim kako freeCodeCamp trenutno streamuje uživo na Twitch.tv.
 
-**Hadithi ya mtumiaji:** Naweza kubofya matokeo ya hali na kupelekwa moja kwa moja kwenye kituo cha freeCodeCamp cha Twitch.tv.
+**Priča korisnika:** Mogu da kliknem na rezultat stanja i prebacujem se direktno na kanal freeCodeCamp-a na Twitch.tv.
 
-**Hadithi ya mtumiaji:** Ikiwa mtumiaji wa Twitch kwa sasa anatiririsha, naweza kuona maelezo zaidi kuhusu kile wanachotiririsha.
+**Priča korisnika:** Ako je korisnik na Twitchu trenutno u emisiji/streamingu, mogu da vidim više detalja o tome šta streamuju.
 
-**Kibukizi:** Hii ni safu ya majina ya watumiaji wa Twitch.tv ambao hutiririsha mara kwa mara: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
+**Streameri:** Ovo je lista korisničkih imena sa Twitch.tv koji redovno emituju: `["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"]`
 
-**SASISHA:** Kutokana na mabadiliko ya masharti ya matumizi ya API, Twitch.tv inahitaji ufunguo wa API, lakini tumetengeneza mbinu mbadala. Tumia <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> badala ya URL ya msingi ya API ya Twitch na bado utaweza kupata taarifa za akaunti, bila haja ya kujiandikisha kwa ufunguo wa API.
+**SASISHA:** Zbog promena uslova korišćenja API, Twitch.tv zahteva ključ API, ali smo kreirali alternativnu metodu. Koristite <a href="https://twitch-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://twitch-proxy.freecodecamp.rocks/</a> umesto osnovnog URL za Twitch API i i dalje ćete moći da dobijete informacije o nalogu, bez potrebe za registracijom sa ključem API.
 
-Ukiwa umemaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada završite, uključite link svog projekta na CodePen i kliknite na dugme "Završio sam ovaj izazov".
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Možete dobiti povratne informacije o svom projektu deljenjem ga na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp</a>.
 
 # --solutions--
 

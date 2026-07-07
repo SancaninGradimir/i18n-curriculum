@@ -1,13 +1,13 @@
 ---
 id: 66edc31c44f1b9c1d5c5ebca
-title: Jaribio fupi la mfuatano wa herufi za JavaScript
+title: Pokušaj snimka sekvence karakterâ iz JavaScript-a
 challengeType: 8
 dashedName: quiz-javascript-strings
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,61 +17,61 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Thamani ya return kwa njia ya `includes()` ni ipi?
+Vrednost return putem `includes()` je?
 
 #### --distractors--
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha mfuatano huo. Vinginevyo, hurudisha `undefined`.
+Ako se podstring znakova pronađe unutar niza, ta funkcija vraća taj niz. Inače, vraća `undefined`.
 
----
+[No Swahili text provided.]
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha `true`. Vinginevyo, hurudisha mfuatano tupu.
+Ako je podstring znakova pronađen unutar sekvence, ta funkcija vraća `true`. Inače, vraća prazan string.
 
----
+[No Swahili text provided.]
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha mfuatano huo. Vinginevyo, hurudisha `null`.
+Ako je mali deo sekvence karaktera pronađen unutar sekvence, ta funkcija vraća tu sekvencu. Inače, vraća `null`.
 
 #### --answer--
 
-Ikiwa sehemu ndogo ya mfuatano wa herufi inapatikana ndani ya mfuatano, njia hiyo hurudisha `true`. Vinginevyo, hurudisha `false`.
+Ako se podstring znakova pronađe unutar niza, ta metoda vraća `true`. Inače, vraća `false`.
 
 ### --question--
 
 #### --text--
 
-Ni chaguo gani linaonyesha uingizaji wa thamani wa mfuatano wa herufi?
+Koja opcija prikazuje unos vrednosti sekvence slova?
 
 #### --distractors--
 
 `"Hello, " + user + "!"`
 
----
+[No Swahili text provided.]
 
 `"Hello, $user!"`
 
----
+[No Swahili text provided.]
 
-`` `Hello, {user}!` ``
+`` `Zdravo, {user}!` ``
 
 #### --answer--
 
-`` `Hello, ${user}!` ``
+`` `Zdravo, ${user}!` ``
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya hizi ni tabia ya kuanzisha mstari mpya (newline character)?
+Da li je neko od ovih svojstvo za započinjanje novog reda (znak za novi red)?
 
 #### --distractors--
 
 `\newline`
 
----
+[No Swahili text provided.]
 
 `\new`
 
----
+[No Swahili text provided.]
 
 `\line`
 
@@ -83,61 +83,61 @@ Ni ipi kati ya hizi ni tabia ya kuanzisha mstari mpya (newline character)?
 
 #### --text--
 
-Ni taarifa gani kati ya hizi ni sahihi kuhusu mfuatano wa herufi?
+Koja informacija među ovim je tačna o sekvenci slova?
 
 #### --distractors--
 
-Mfuatano wa herufi ni wa kubadilika na unaweza kubadilishwa baada ya kuundwa.
+Niz karaktera je promenljiv i može se promeniti nakon kreiranja.
 
----
+[No Swahili text provided.]
 
-Mfuatano wa herufi ni aina zisizo za msingi (non primitive data types).
+Niz znakova su neprimitivni tipovi podataka (non primitive data types).
 
----
+[No Swahili text provided.]
 
-Mfuatano wa herufi unaweza kuundwa kwa kutumia nukuu moja tu.
+Sekvenca slova može se kreirati koristeći samo jedan navodnik.
 
 #### --answer--
 
-Mfuatano wa herufi ni wa kutobadilika (immutable).
+Niz karaktera je nepromenljiv (immutable).
 
 ### --question--
 
 #### --text--
 
-ASCII inasimamia nini?
+Šta pokriva ASCII?
 
 #### --distractors--
 
-American Standard Code for Internet Information
+Američki standardni kod for Informacije o internetu
 
----
+[No Swahili text provided.]
 
-Advanced Systematic Code for Internal Interchange
+Napredni sistematski kod for Interna razmena
 
----
+[No Swahili text provided.]
 
-Automatic Standard Code for Internal Information
+Automatski standardni kod for Interna informacija
 
 #### --answer--
 
-American Standard Code for Information Interchange
+Američki standardni kod for Razmena informacija
 
 ### --question--
 
 #### --text--
 
-Ni njia gani kati ya hizi huchukua sehemu ya mfuatano wa herufi na kurudisha mfuatano mpya?
+Koji metod među ovim uzima deo niza znakova i vraća novi niz?
 
 #### --distractors--
 
 `trim()`
 
----
+[No Swahili text provided.]
 
 `indexOf()`
 
----
+[No Swahili text provided.]
 
 `prompt()`
 
@@ -149,29 +149,29 @@ Ni njia gani kati ya hizi huchukua sehemu ya mfuatano wa herufi na kurudisha mfu
 
 #### --text--
 
-Kusudi la njia ya `prompt()` ni lipi?
+Svrha puta `prompt()` je li?
 
 #### --distractors--
 
-Inaonyesha ujumbe kwenye konsoli.
+Prikazuje poruku u konzoli.
 
----
+[No Swahili text provided.]
 
-Inaonyesha kisanduku cha tahadhari chenye ujumbe.
+Prikazuje opreznu kutiju sa porukom.
 
----
+[No Swahili text provided.]
 
-Inaonyesha kisanduku cha uthibitisho chenye ujumbe.
+Prikazuje okvir za potvrdu sa porukom.
 
 #### --answer--
 
-Inaonyesha kisanduku cha mazungumzo kinachosubiri ingizo la mtumizi.
+Prikazuje okvir za razgovor koji čeka unos korisnika.
 
 ### --question--
 
 #### --text--
 
-Ni njia gani sahihi ya kupata herufi ya tatu ya mfuatano wa herufi?
+Koji je ispravan način da se dobije treći slovo sekvence karaktera?
 
 #### --distractors--
 
@@ -180,14 +180,14 @@ const developer = "Jessica";
 developer[3];
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const developer = "Jessica";
 developer[-1];
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const developer = "Jessica";
@@ -205,17 +205,17 @@ developer[2];
 
 #### --text--
 
-Unawezaje kupata thamani ya ASCII ya herufi ya kwanza katika mfuatano wa herufi `"hello"`?
+Kako dobiti ASCII vrednost prvog slova u nizu karaktera `"hello"`?
 
 #### --distractors--
 
 `"hello".charCode(0)`
 
----
+[No Swahili text provided.]
 
 `"hello".codeAt(0)`
 
----
+[No Swahili text provided.]
 
 `"hello".getCharIndex(0)`
 
@@ -227,17 +227,17 @@ Unawezaje kupata thamani ya ASCII ya herufi ya kwanza katika mfuatano wa herufi 
 
 #### --text--
 
-Ni njia gani unaweza kutumia kupata herufi inayolingana na thamani ya ASCII?
+Koja metoda se može koristiti za dobijanje karaktera koji odgovara ASCII vrednosti?
 
 #### --distractors--
 
 `toASCII()`
 
----
+[No Swahili text provided.]
 
 `toChar()`
 
----
+[No Swahili text provided.]
 
 `toCode()`
 
@@ -249,7 +249,7 @@ Ni njia gani unaweza kutumia kupata herufi inayolingana na thamani ya ASCII?
 
 #### --text--
 
-Ni mfano gani kati ya `indexOf` utaandika `-1` kwenye konsoli?
+Koji primer između `indexOf` ćete napisati `-1` u konzoli?
 
 #### --distractors--
 
@@ -258,14 +258,14 @@ const organization = "freeCodeCamp";
 console.log(organization.indexOf("e"));
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const organization = "freeCodeCamp";
 console.log(organization.indexOf("f"));
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const organization = "freeCodeCamp";
@@ -283,17 +283,17 @@ console.log(organization.indexOf("c"));
 
 #### --text--
 
-Unawezaje kuangalia kama mfuatano wa herufi `"JavaScript"` una `"Script"`?
+Možete li proveriti da li niz znakova `"JavaScript"` sadrži `"Script"`?
 
 #### --distractors--
 
 `"JavaScript".has("Script")`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".contains("Script")`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".exists("Script")`
 
@@ -305,17 +305,17 @@ Unawezaje kuangalia kama mfuatano wa herufi `"JavaScript"` una `"Script"`?
 
 #### --text--
 
-Ni ipi kati ya hizi huchukua sehemu ndogo ya mfuatano wa herufi `"Script"` kutoka kwa mfuatano wa herufi `"JavaScript"`?
+Koja od ovih uzima podstring iz niza znakova `"Script"` iz niza znakova `"JavaScript"`?
 
 #### --distractors--
 
 `"JavaScript".find(5)`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".extract(4)`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".cut(5)`
 
@@ -327,17 +327,17 @@ Ni ipi kati ya hizi huchukua sehemu ndogo ya mfuatano wa herufi `"Script"` kutok
 
 #### --text--
 
-Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi kubwa?
+Da li možete da promenite niz slova `"JavaScript"` u velika slova?
 
 #### --distractors--
 
 `"JavaScript".upper()`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".toUpper()`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".convertUpper()`
 
@@ -349,17 +349,17 @@ Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi kubwa?
 
 #### --text--
 
-Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi ndogo?
+Da li možete da promenite niz slova `"JavaScript"` u mala slova?
 
 #### --distractors--
 
 `"JavaScript".lower()`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".toLower()`
 
----
+[No Swahili text provided.]
 
 `"JavaScript".convertLower()`
 
@@ -371,17 +371,17 @@ Unawezaje kubadilisha mfuatano wa herufi `"JavaScript"` kuwa herufi ndogo?
 
 #### --text--
 
-Ni ipi kati ya hizi itabadilisha `"dogs"` kuwa `"cats"` katika mfuatano wa herufi `"I love dogs"`.
+Koja od ovoga će promeniti `"dogs"` u `"cats"` u nizu karaktera `"I love dogs"`.
 
 #### --distractors--
 
 `"I love dogs".slice("dogs", "cats")`
 
----
+[No Swahili text provided.]
 
 `"I love dogs".replaceWith("dogs", "cats")`
 
----
+[No Swahili text provided.]
 
 `"I love dogs".find("dogs", "cats")`
 
@@ -393,17 +393,17 @@ Ni ipi kati ya hizi itabadilisha `"dogs"` kuwa `"cats"` katika mfuatano wa heruf
 
 #### --text--
 
-Ni njia gani hutumika kurudia mfuatano wa herufi mara nambari fulani?
+Koji metod se koristi za ponavljanje niza slova određen broj puta?
 
 #### --distractors--
 
 `times()`
 
----
+[No Swahili text provided.]
 
 `repeatTimes()`
 
----
+[No Swahili text provided.]
 
 `repeatNumber()`
 
@@ -415,17 +415,17 @@ Ni njia gani hutumika kurudia mfuatano wa herufi mara nambari fulani?
 
 #### --text--
 
-Nini msimbo ufuatao utarudisha: `"abc".repeat(3)`?
+Koji sledeći kod će vratiti: `"abc".repeat(3)`?
 
 #### --distractors--
 
 `"abcabc"`
 
----
+[No Swahili text provided.]
 
 `"abcabcabcabc"`
 
----
+[No Swahili text provided.]
 
 It will throw an error.
 
@@ -437,17 +437,17 @@ It will throw an error.
 
 #### --text--
 
-Ni njia gani itafuta nafasi tupu mwanzoni na mwishoni mwa mfuatano wa herufi?
+Koji metod pronalazi prazne prostore u početku i na kraju niza znakova?
 
 #### --distractors--
 
 `strip()`
 
----
+[No Swahili text provided.]
 
 `removeWhitespace()`
 
----
+[No Swahili text provided.]
 
 `trimWhitespace()`
 
@@ -459,7 +459,7 @@ Ni njia gani itafuta nafasi tupu mwanzoni na mwishoni mwa mfuatano wa herufi?
 
 #### --text--
 
-Ni sintaksia gani sahihi ya kuepuka nukuu?
+Koja je ispravna sintaksa za izbegavanje navodnika?
 
 #### --distractors--
 
@@ -467,13 +467,13 @@ Ni sintaksia gani sahihi ya kuepuka nukuu?
 "She said, ?"Hello!?""
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 "She said, ."Hello!.""
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 "She said, //"Hello!//""

@@ -1,6 +1,6 @@
 ---
 id: 697fe5c032baa3841ab62a64
-title: Urithi
+title: Nasleđe
 challengeType: 11
 videoId: uHdNSULVpgY
 dashedName: inheritance
@@ -8,29 +8,29 @@ dashedName: inheritance
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu urithi katika uprogramaji unaozingatia vitu.
+U ovom videu, naučićete o nasleđivanju u objektno orijentisanom programiranju.
 
 # --questions--
 
 ## --text--
 
-Urithi ni nini katika uprogramaji unaozingatia vitu?
+Šta je nasleđivanje u objektno orijentisanom programiranju?
 
 ## --answers--
 
-Hii ni pale darasa la vitu linapotumia tena msimbo kutoka kwa kitendakazi.
+Ovo je mesto gde klasa objekata ponovo koristi kod iz funkcije.
 
----
+[No Swahili text provided.]
 
-Hii ni pale darasa la vitu linapotengeneza nakala ya darasa lingine.
+Ovo je mesto gde klasa stvari kreira kopiju druge klase.
 
----
+[No Swahili text provided.]
 
-Hii ni pale darasa la vitu linaporithi vigezo na tabia kutoka kwa darasa lingine.
+Ovo je mesto gde klasa nasleđuje svojstva i ponašanja iz druge klase.
 
----
+[No Swahili text provided.]
 
-Hii ni pale darasa la vitu linapoficha njia zake na vigezo vyake kutoka kwa madarasa mengine.
+Ovo je mesto gde klasa skriva svoje metode i atribute od drugih klasa.
 
 ## --video-solution--
 

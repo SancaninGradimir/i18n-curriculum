@@ -1,6 +1,6 @@
 ---
 id: 69ae767fb4a814be6a4f2be8
-title: Kujenga seva ya MCP
+title: Izgraditi MCP server
 challengeType: 11
 videoId: lidIujhu3XY
 dashedName: building-an-mcp-server
@@ -8,29 +8,29 @@ dashedName: building-an-mcp-server
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kujenga seva ya MCP.
+U ovom videu ćete naučiti kako da izgradite MCP server.
 
 # --questions--
 
 ## --text--
 
-Ni sehemu gani tatu za seva ya MCP?
+Koji od tri dela je za MCP uslugu?
 
 ## --answers--
 
 CPU, GPU, na RAM
 
----
+[No Swahili text provided.]
 
-Watumizi, Ruhusa, na Rekodi
+Korisnici, Dopuštenje, i Rekordi
 
----
+[No Swahili text provided.]
 
-Rasilimali, Vifaa, Maelekezo
+Resursi, Oprema, Uputstva
 
----
+[No Swahili text provided.]
 
-Ingizo, Matokeo, na Mtandao
+Ulaz, Izlaz, i Mreža
 
 ## --video-solution--
 

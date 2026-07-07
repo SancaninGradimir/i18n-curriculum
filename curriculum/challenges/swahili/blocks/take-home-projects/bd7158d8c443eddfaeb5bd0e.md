@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bd0e
-title: Chati ya soko la hisa
+title: Čat berze
 challengeType: 4
 forumTopicId: 302363
 dashedName: chart-the-stock-market
@@ -8,19 +8,19 @@ dashedName: chart-the-stock-market
 
 # --description--
 
-Jenga programu kamili ya JavaScript inayofanana kiutendaji na hii: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Tumia mtengenezaji wa tovuti unayempenda kukamilisha mradi huu.
+Napravite kompletnu aplikaciju za JavaScript koja je funkcionalno slična ovoj: <a href="https://chart-the-stock-market.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://chart-the-stock-market.freecodecamp.rocks/</a>. Koristite omiljeni alat za izradu veb-sajtova da dovršite ovaj projekat.
 
-Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
+Evo specifičnih priča korisnika koje morate implementirati za ovaj projekat:
 
-**Hadithi ya mtumiaji:** Unaweza kuona chati inayoonyesha mwelekeo wa hivi karibuni wa kila hisa iliyoongezwa.
+**Priča korisnika:** Možete videti grafikon koji pokazuje nedavni trend svake dodate akcije.
 
-**Hadithi ya mtumiaji:** Unaweza kuongeza hisa mpya kwa jina la alama yao.
+**Korisnička priča:** Možete dodati nove akcije po njihovom simbolu.
 
-**Hadithi ya mtumiaji:** Unaweza kuondoa hisa.
+**Priča korisnika:** Možete ukloniti akcije.
 
-**Hadithi ya mtumiaji:** Unaweza kuona mabadiliko kwa wakati halisi wakati mtumiaji mwingine yeyote anaongeza au kuondoa hisa. Kwa hili utahitaji kutumia Web Sockets.
+**Priča korisnika:** Možete videti promene u realnom vremenu kada bilo koji drugi korisnik dodaje ili uklanja akciju. Za ovo će vam trebati koristiti Web Sockets.
 
-Ukipomaliza, hakikisha kuna onyesho linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake katika sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako katika sehemu ya Kiungo cha GitHub.
+Kada završite, osigurajte da je demonstracija vašeg projekta sačuvana na javno mesto. Zatim pošaljite URL u sekciju Link ka rešenju. Opciono, takođe pošaljite link ka izvornom kodu vašeg projekta u sekciju Link za GitHub.
 
 # --solutions--
 

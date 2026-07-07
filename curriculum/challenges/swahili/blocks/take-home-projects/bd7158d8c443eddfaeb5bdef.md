@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c443eddfaeb5bdef
-title: Tengeneza programu ya kupigia kura
+title: Napravi program za glasanje
 challengeType: 4
 forumTopicId: 302359
 dashedName: build-a-voting-app
@@ -8,27 +8,27 @@ dashedName: build-a-voting-app
 
 # --description--
 
-Tengeneza programu ya JavaScript ya full-stack ambayo inaendeshwa kwa njia inayofanana na hii: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Tumia kivinjari cha tovuti unachotaka kukamilisha mradi huu.
+Izgradite pun-stack aplikaciju JavaScript koja radi na način sličan ovom: <a href="https://voting-app.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://voting-app.freecodecamp.rocks/</a>. Koristite web pretraživač koji želite da završite ovaj projekat.
 
-Hapa kuna hadithi za mtumiaji maalum unazopaswa kutekeleza kwa mradi huu:
+Evo specifičnih priča korisnika koje morate implementirati za ovaj projekat:
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kuhifadhi kura zangu na kurudi baadaye kupata upatikanaji wake.
+**Priča korisnika:** Kao verifikovani korisnik, možete sačuvati moje glasove i vratiti se kasnije da dobijete pristup.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kushiriki kura zangu na marafiki zangu.
+**Profil korisnika:** Kao verifikovani korisnik, možete podeliti moje glasove sa svojim prijateljima.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza kuona matokeo ya jumla ya kura zangu.
+**Korisnička priča:** Kao verifikovani korisnik, možete videti ukupne rezultate mojih glasova.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza futa kura ambazo nimeamua sitaki tena.
+**Priča korisnika:** Kao verifikovani korisnik, možete obrisati glasove koje sam odlučio da više ne želim.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, unaweza tengeneza kura yenye idadi yoyote ya vitu vinavyowezekana.
+**Priča korisnika:** Kao autentifikovani korisnik, možete kreirati glasovanje sa bilo kojim brojem mogućih stavki.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji asiye imethibitishwa au aliye imethibitishwa, unaweza kuona na kupiga kura kwenye kura za kila mtu.
+**Priča korisnika:** Bilo da je korisnik neverificiran ili verifikovan, možete videti i glasati za glasa svakoga.
 
-**Hadithi ya mtumiaji:** Kama mtumiaji asiye imethibitishwa au aliye imethibitishwa, unaweza kuona matokeo ya kura kwa njia ya chati. (Hii inaweza kutekelezwa kwa kutumia Chart.js au Google Charts.)
+**Priča korisnika:** Kada je korisnik neautentifikovan ili autentifikovan, možete videti rezultate glasanja putem grafikona. (Ovo se može implementirati korišćenjem Chart.js ili Google Charts.)
 
-**Hadithi ya mtumiaji:** Kama mtumiaji aliye imethibitishwa, ikiwa hupendi chaguzi kwenye kura, unaweza tengeneza chaguo jipya.
+**Priča korisnika:** Ako je korisnik verifikovan, ako vam se ne sviđaju opcije u anketi, možete kreirati novu opciju.
 
-Ukipata kazi, hakikisha kuna onyesho linalofanya kazi la mradi wako limehifadhiwa mahali pa umma. Kisha wasilisha URL yake kwenye sehemu ya Kiungo cha Suluhisho. Kwa hiari, pia wasilisha kiungo cha msimbo wa chanzo wa mradi wako kwenye sehemu ya Kiungo cha GitHub.
+Kada dobijete posao, osigurajte da je funkcionalna demonstracija vašeg projekta sačuvana na javno mesto. Zatim pošaljite URL njegovu vezu u sekciju "Link ka rešenju". Opciono, pošaljite i vezu izvornog koda vašeg projekta u sekciju "Link ka GitHub".
 
 # --solutions--
 

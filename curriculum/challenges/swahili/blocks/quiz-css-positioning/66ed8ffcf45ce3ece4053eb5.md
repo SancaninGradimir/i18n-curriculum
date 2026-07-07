@@ -1,13 +1,13 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: Jaribio fupi la ulinganifu wa CSS
+title: Pokušaj za CSS skaliranje/izravnavanje (alignment)
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,17 +17,17 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SI thamani halali ya sifa ya `position`?
+Nije ni jedna od sljedećih vrijednosti za atribut `position`?
 
 #### --distractors--
 
 `fixed`
 
----
+[No Swahili text provided.]
 
 `absolute`
 
----
+[No Swahili text provided.]
 
 `relative`
 
@@ -39,29 +39,29 @@ Ni ipi kati ya zifuatazo SI thamani halali ya sifa ya `position`?
 
 #### --text--
 
-Lengo kuu la sifa ya `float` katika CSS ni lipi?
+Koja je glavna svrha svojstva `float` u CSS?
 
 #### --distractors--
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka moja kwa moja upande wa juu wa kulia wa ukurasa wa mtandao.
+Floats se koriste za uklanjanje elementa iz njegovog normalnog toka na stranici i postavljanje ga direktno u gornji desni deo web stranice.
 
----
+[No Swahili text provided.]
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka juu ya kontena lake.
+Floats se koriste za uklanjanje elementa iz normalnog toka na stranici i postavljanje ga iznad njegovog kontejnera.
 
----
+[No Swahili text provided.]
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka moja kwa moja upande wa chini wa kulia wa ukurasa wa mtandao.
+Floats se koriste da uklone element iz normalnog toka na stranici i postavi ga direktno u donji desni deo veb stranice.
 
 #### --answer--
 
-Floats hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka upande wa kushoto au kulia wa kontena lake.
+Floats se koriste za uklanjanje elementa iz normalnog toka na stranici i postavljanje ga sa lijeve ili desne strane njegovog kontejnera.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaofanya kipengele cha sanduku kuruka upande wa kushoto?
+Koji od sledećih primera uzrokuje da element kutije/kontejnera skače na lijevu stranu?
 
 #### --distractors--
 
@@ -75,7 +75,7 @@ Ni mfano gani kati ya zifuatazo unaofanya kipengele cha sanduku kuruka upande wa
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box {
@@ -87,7 +87,7 @@ Ni mfano gani kati ya zifuatazo unaofanya kipengele cha sanduku kuruka upande wa
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box {
@@ -115,39 +115,39 @@ Ni mfano gani kati ya zifuatazo unaofanya kipengele cha sanduku kuruka upande wa
 
 #### --text--
 
-Jukumu la sifa ya `clear` ni lipi?
+Funkcija svojstva `clear` je lipljiva?
 
 #### --distractors--
 
-Inatumika kuamua kama kipengele kinahitaji kuhamishwa chini ya ukurasa.
+Koristi se za određivanje da li je element potreban za premeštanje ispod stranice.
 
----
+[No Swahili text provided.]
 
-Inatumika kuamua kama kipengele kinahitaji kufutwa kabisa kutoka kwenye ukurasa.
+Koristi se za određivanje da li je element potrebno potpuno ukloniti sa stranice.
 
----
+[No Swahili text provided.]
 
-Inatumika kuamua kama kipengele kinahitaji kufungwa juu ya ukurasa.
+Koristi se za određivanje da li je potrebno zatvoriti element na stranici.
 
 #### --answer--
 
-Inatumika kuamua kama kipengele kinahitaji kuhamishwa chini ya maudhui yaliyopangwa kuruka.
+Koristi se za određivanje da li je element potrebno premestiti ispod sadržaja koji će biti preskočen.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani ya CSS inayotumika kudhibiti mpangilio wa wima wa vipengele vyenye nafasi maalum vinavyokutana kwenye ukurasa?
+Koje je svojstvo CSS koje se koristi za kontrolisanje vertikalnog rasporeda elemenata sa posebnim pozicioniranjem koji su na stranici?
 
 #### --distractors--
 
 `position`
 
----
+[No Swahili text provided.]
 
 `bg-green`
 
----
+[No Swahili text provided.]
 
 `float`
 
@@ -159,7 +159,7 @@ Ni sifa gani ya CSS inayotumika kudhibiti mpangilio wa wima wa vipengele vyenye 
 
 #### --text--
 
-Sintaksia sahihi ya ulinganifu wa nafasi ni ipi kati ya zifuatazo?
+Koja je ispravna sintaksa za poređenje među sledećim?
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Sintaksia sahihi ya ulinganifu wa nafasi ni ipi kati ya zifuatazo?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .relative {
@@ -181,7 +181,7 @@ Sintaksia sahihi ya ulinganifu wa nafasi ni ipi kati ya zifuatazo?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .relative {
@@ -205,17 +205,17 @@ Sintaksia sahihi ya ulinganifu wa nafasi ni ipi kati ya zifuatazo?
 
 #### --text--
 
-Ni sifa gani ya CSS unayotumia kuweka kipengele mahali fulani kwenye ukurasa ili kisihamie wakati wa kusogeza ukurasa?
+Koji je atribut CSS koji koristiš da zadržiš element na određenom mestu na stranici kako se ne bi pomerio prilikom skrolovanja?
 
 #### --distractors--
 
 `position: no-scroll;`
 
----
+[No Swahili text provided.]
 
 `position: relative;`
 
----
+[No Swahili text provided.]
 
 `display: block;`
 
@@ -227,39 +227,39 @@ Ni sifa gani ya CSS unayotumia kuweka kipengele mahali fulani kwenye ukurasa ili
 
 #### --text--
 
-Ulinganifu wa nafasi wa absolute hufanya nini kwa kipengele?
+Šta apso-lutno mapiranje pozicije radi elementu?
 
 #### --distractors--
 
-Ulinganifu wa absolute hutumika kuamua kama kipengele kinahitaji kuhamishwa chini ya maudhui yaliyopangwa kuruka.
+Absolutno pozicioniranje se koristi za određivanje da li element treba biti premješten ispod sadržaja koji preskače tok.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa absolute hutumika kuweka kipengele ndani ya mtiririko wa kawaida wa hati.
+Apsolutno pozicioniranje se koristi za postavljanje elementa unutar normalnog toka dokumenta.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa absolute hutumika kudhibiti mpangilio wa wima wa vipengele vyenye nafasi maalum vinavyokutana kwenye ukurasa.
+Apsolutno poravnanje se koristi za kontrolu vertikalnog rasporeda elemenata sa specifičnim pozicioniranjem koji su na stranici.
 
 #### --answer--
 
-Ulinganifu wa absolute hukuruhusu kuondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati, na kufanya kitendeke huru kutoka kwa vipengele vingine.
+Apsolutno poravnanje omogućava uklanjanje elementa iz normalnog toka dokumenta, i omogućavanje da deluje nezavisno od drugih elemenata.
 
 ### --question--
 
 #### --text--
 
-Ni sifa gani kati ya zifuatazo SI sifa halali unazoweza kutumia kwa ulinganifu wa absolute?
+Koje svojstvo među sledećim je važeće svojstvo koje možete koristiti za apsolutno poređenje?
 
 #### --distractors--
 
 `right`
 
----
+[No Swahili text provided.]
 
 `bottom`
 
----
+[No Swahili text provided.]
 
 `top`
 
@@ -271,29 +271,29 @@ Ni sifa gani kati ya zifuatazo SI sifa halali unazoweza kutumia kwa ulinganifu w
 
 #### --text--
 
-Tofauti kuu kati ya ulinganifu wa relative na absolute ni ipi?
+Koja je glavna razlika između relativnog i apsolutnog poređenja?
 
 #### --distractors--
 
-Ulinganifu wa absolute huweka kipengele katika nafasi ya kushikamana wakati ulinganifu wa relative huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Apsolutno pozicioniranje postavlja element na fiksnoj poziciji, dok relativno pozicioniranje uklanja element iz normalnog toka dokumenta.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa relative huweka kipengele katika nafasi ya kudumu wakati ulinganifu wa absolute huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Relativno usklađivanje postavlja element na trajno mesto, dok apsolutno usklađivanje uklanja element iz normalnog toka dokumenta.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa absolute huweka kipengele ndani ya mtiririko wa kawaida wa hati wakati ulinganifu wa relative huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Apsolutno upoređivanje ubacuje element u normalan tok dokumenta, dok relativno upoređivanje uklanja element iz normalnog toka dokumenta.
 
 #### --answer--
 
-Ulinganifu wa relative huweka kipengele ndani ya mtiririko wa kawaida wa hati wakati ulinganifu wa absolute huondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati.
+Relativno poravnanje ubacuje element u normalni tok dokumenta, dok apsolutno poravnanje uklanja element iz normalnog toka dokumenta.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaonyesha kuweka sanduku upande wa juu kushoto wa ukurasa?
+Koji primer iz sledećih pokazuje kako postaviti kutiju u gornji levi ugao stranice?
 
 #### --distractors--
 
@@ -308,7 +308,7 @@ Ni mfano gani kati ya zifuatazo unaonyesha kuweka sanduku upande wa juu kushoto 
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box {
@@ -321,7 +321,7 @@ Ni mfano gani kati ya zifuatazo unaonyesha kuweka sanduku upande wa juu kushoto 
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box {
@@ -351,29 +351,29 @@ Ni mfano gani kati ya zifuatazo unaonyesha kuweka sanduku upande wa juu kushoto 
 
 #### --text--
 
-Njia gani ya ulinganifu huruhusu kipengele kushikamana na nafasi maalum tu wakati unaposogeza ukurasa kupita sehemu fulani?
+Koja metoda poravnanja omogućava elementu da se pričvrsti samo za određenu poziciju kada skrolovanje stranice prođe pored nekog dela?
 
 #### --distractors--
 
-Ulinganifu wa float.
+Poređenje float-a.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa fixed.
+Fiksno poravnanje
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa absolute.
+Apsolutna korespondencija.
 
 #### --answer--
 
-Ulinganifu wa sticky.
+Podudarnost za lepljivo/Sticky podudarnost.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani sahihi wa kutumia ulinganifu wa sticky?
+Kakav je tačan primer korišćenja *sticky* upoređivanja/matching-a?
 
 #### --distractors--
 
@@ -388,7 +388,7 @@ Ni mfano gani sahihi wa kutumia ulinganifu wa sticky?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box {
@@ -401,7 +401,7 @@ Ni mfano gani sahihi wa kutumia ulinganifu wa sticky?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box {
@@ -430,51 +430,51 @@ Ni mfano gani sahihi wa kutumia ulinganifu wa sticky?
 
 #### --text--
 
-Tofauti kati ya ulinganifu wa sticky na fixed ni ipi?
+Koja je razlika između sticky i fiksne sinkronizacije?
 
 #### --distractors--
 
-Vipengele vya sticky vinaweza kutumika tu katika mpangilio wa jedwali wakati vipengele vya fixed vinaweza kutumika katika aina yoyote ya mpangilio wa CSS.
+Sticky elementi se mogu koristiti samo u tabelarnom rasporedu, dok fiksni elementi mogu se koristiti u bilo kom tipu rasporeda od CSS.
 
----
+[No Swahili text provided.]
 
-Vipengele vya sticky vitabaki katika nafasi ile ile wakati vipengele vya fixed vitashikamana na sehemu fulani kisha vitendeke kama vipengele vya relative.
+Sticky elementi će ostati na istoj poziciji dok se fiksni elementi pričvršćuju za određeni deo, a zatim će se ponašati kao relativni elementi.
 
----
+[No Swahili text provided.]
 
-Vipengele vya fixed vitawekwa kulingana na nafasi yake ya kawaida wakati vipengele vya sticky vitashikamana tu na sehemu fulani kisha vitendeke kama vipengele vya relative.
+Fixed elementi će biti postavljeni na osnovu njihove uobičajene pozicije, dok se sticky elementi samo pričvršćuju za određenu sekciju i ponašaju kao relativni elementi.
 
 #### --answer--
 
-Vipengele vya fixed vitabaki katika nafasi ile ile kwenye skrini wakati vipengele vya sticky vitashikamana tu na sehemu fulani kisha vitendeke kama vipengele vya relative.
+Fiksirani elementi će ostati na istom mestu na ekranu, dok će se „sticky“ elementi samo pričvršćivati za određeni deo, a zatim će delovati kao relativni elementi.
 
 ### --question--
 
 #### --text--
 
-Changamoto gani `clearfix` ilitatua wakati wa kufanya kazi na floats?
+Koja je poteškoća `clearfix` da reši kada radiš sa floatovima?
 
 #### --distractors--
 
-`clearfix` ilisaidia kutatua tatizo la vipengele vilivyopangwa kuruka kuondolewa kutoka kwenye mtiririko wa kawaida wa hati na kuwekwa katika nafasi ya kudumu kwenye ukurasa.
+`clearfix` pomoglo da se reši problem elemenata koji su programirani za preskakanje, uklanjajući ih iz normalnog protoka dokumenta i postavljajući ih na fiksnu poziciju na stranici.
 
----
+[No Swahili text provided.]
 
-`clearfix` ilisaidia kutatua tatizo la vipengele vilivyopangwa kuruka kutokuwa vinayojibadilisha kulingana na kifaa katika mpangilio wa simu na kompyuta kibao.
+`clearfix` Pomaže da reši problem elemenata koji su postavljeni da preskoče, jer se ne prilagođavaju uređaju u rasporedu za telefone i tablete.
 
----
+[No Swahili text provided.]
 
-`clearfix` ilisaidia kutatua tatizo la vipengele vilivyopangwa kuruka kupotea kutoka kwenye ukurasa.
+`clearfix` Pomaže u rešavanju problema elemenata koji su namenjeni za preskakanje ili nestajanje sa stranice.
 
 #### --answer--
 
-`clearfix` ilisaidia kutatua tatizo la kuungana na kushuka kwa vipengele vilivyopangwa kuruka wakati vipengele vingi vilivyopangwa kuruka vilipangwa kando kando.
+`clearfix` Pomoglo je u rešavanju problema spajanja i padanja elemenata koji skaču, kada su više takvih elemenata postavljena jedan pored drugog.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani sahihi wa kutumia `clearfix` hack?
+Koji je tačan primer za korišćenje `clearfix` hak?
 
 #### --distractors--
 
@@ -487,7 +487,7 @@ Ni mfano gani sahihi wa kutumia `clearfix` hack?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .clearfix::after {
@@ -498,7 +498,7 @@ Ni mfano gani sahihi wa kutumia `clearfix` hack?
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .clearfix::before {
@@ -521,29 +521,29 @@ Ni mfano gani sahihi wa kutumia `clearfix` hack?
 
 #### --text--
 
-Ulinganifu wa static ni nini?
+Šta je static?
 
 #### --distractors--
 
-Huu hutumika kuondoa kipengele kutoka kwenye mtiririko wake wa kawaida kwenye ukurasa na kuuweka moja kwa moja upande wa juu wa kulia wa ukurasa wa mtandao.
+Koristi se za uklanjanje elementa iz njegovog standardnog toka na stranici i postavljanje ga direktno u gornji desni deo web stranice.
 
----
+[No Swahili text provided.]
 
-Huu hukuruhusu kuondoa kipengele kutoka kwenye mtiririko wa kawaida wa hati, na kufanya kitendeke huru kutoka kwa vipengele vingine.
+Ovo vam omogućava da uklonite element iz standardnog toka dokumenta i da ga izolujete od drugih elemenata.
 
----
+[No Swahili text provided.]
 
-Huu huruhusu kipengele kushikamana na nafasi maalum tu wakati unaposogeza ukurasa kupita sehemu fulani.
+Ovo omogućava elementu da ostane fiksiran samo na određnoj poziciji kada skrolujete stranicu preko određenog dela.
 
 #### --answer--
 
-Huu ni mtiririko wa kawaida wa hati. Vipengele huwekwa kutoka juu hadi chini na kushoto hadi kulia mfululizo.
+Ovo je standardan tok dokumenta. Elementi se postavljaju odozgo prema dole i od leve ka desnoj sekvencijalno.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaoweka navbar juu ya ukurasa kwa kutumia ulinganifu wa fixed?
+Koji od navedenih primera postavlja navigacionu traku (navbar) na vrh stranice koristeći fiksno pozicioniranje?
 
 #### --distractors--
 
@@ -555,7 +555,7 @@ Ni mfano gani kati ya zifuatazo unaoweka navbar juu ya ukurasa kwa kutumia uling
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .navbar {
@@ -564,7 +564,7 @@ Ni mfano gani kati ya zifuatazo unaoweka navbar juu ya ukurasa kwa kutumia uling
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .navbar {
@@ -588,17 +588,17 @@ Ni mfano gani kati ya zifuatazo unaoweka navbar juu ya ukurasa kwa kutumia uling
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni thamani halali ya sifa ya `z-index`?
+Koja od sledećih je validna vrednost atributa za `z-index`?
 
 #### --distractors--
 
 `12.0`
 
----
+[No Swahili text provided.]
 
 `none`
 
----
+[No Swahili text provided.]
 
 `up`
 
@@ -610,17 +610,17 @@ Ni ipi kati ya zifuatazo ni thamani halali ya sifa ya `z-index`?
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni thamani ya msingi ya sifa ya `position`?
+Koja od sljedećih je podrazumevana vrijednost svojstva `position`?
 
 #### --distractors--
 
 `inherit`
 
----
+[No Swahili text provided.]
 
 `initial`
 
----
+[No Swahili text provided.]
 
 `relative`
 
@@ -634,17 +634,17 @@ Ni ipi kati ya zifuatazo ni thamani ya msingi ya sifa ya `position`?
 
 #### --text--
 
-Ni thamani gani ya `position` inayo kuruhusu kurekebisha nafasi ya kipengele kwa `top` na `left` huku ikibaki ndani ya mtiririko wa kawaida wa hati?
+Koja je vrednost `position` koja omogućava podešavanje položaja elementa za `top` i `left` dok ostaje unutar normalnog protoka dokumenta?
 
 #### --distractors--
 
 `position: absolute;`
 
----
+[No Swahili text provided.]
 
 `position: static;`
 
----
+[No Swahili text provided.]
 
 `position: fixed;`
 
@@ -656,29 +656,29 @@ Ni thamani gani ya `position` inayo kuruhusu kurekebisha nafasi ya kipengele kwa
 
 #### --text--
 
-Je, kipengele chenye `position: sticky;` hujitendeaje mwanzoni?
+Kako se funkcija sa `position: sticky;` ponaša u početku?
 
 #### --distractors--
 
-Hutendeka kama kipengele cha `fixed` hadi nafasi ya kusogeza ukurasa itakapofikiwa.
+Radiće kao element od `fixed` do pozicije skrolovanja stranice kada se ona dostigne.
 
----
+[No Swahili text provided.]
 
-Hutolewa kila mara kutoka kwenye mtiririko wa kawaida wa hati.
+Izvlači se svaki put iz uobičajenog protoka dokumenata.
 
----
+[No Swahili text provided.]
 
-Hutendeka kama kipengele cha `absolute` ndani ya mzazi wake.
+Deluje kao element `absolute` unutar svog roditeljskog elementa.
 
 #### --answer--
 
-Hutendeka kama kipengele cha `relative` hadi nafasi maalum ya kusogeza ukurasa itakapofikiwa.
+Radi kao komponenta od `relative` do posebne tačke za pomeranje/skrolovanje stranice kada se ona dostigne.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani kati ya zifuatazo unaonyesha matumizi sahihi na yenye ufanisi ya sifa ya `z-index` kufanya `.box-two` ionekane juu ya `.box-one`?
+Koji od sljedećih primjera pokazuje ispravnu i efikasnu upotrebu atributa `z-index` za prikazivanje `.box-two` iznad `.box-one`?
 
 #### --distractors--
 
@@ -693,7 +693,7 @@ Ni mfano gani kati ya zifuatazo unaonyesha matumizi sahihi na yenye ufanisi ya s
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box-one {
@@ -706,7 +706,7 @@ Ni mfano gani kati ya zifuatazo unaonyesha matumizi sahihi na yenye ufanisi ya s
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .box-one {
@@ -736,51 +736,51 @@ Ni mfano gani kati ya zifuatazo unaonyesha matumizi sahihi na yenye ufanisi ya s
 
 #### --text--
 
-Sifa ya `z-index` hutumika kwa nini katika CSS?
+Zašto se svojstvo `z-index` koristi u CSS?
 
 #### --distractors--
 
-Huweka kiwango cha kuongezwa ukurasa.
+Postavite nivo dodavanja stranica.
 
----
+[No Swahili text provided.]
 
-Hudhibiti ulinganifu wa usawa wa vipengele ndani ya chombo cha kubadilika.
+Kontrolisati konzistentnost jednakosti komponenti unutar promenljivog kontejnera.
 
----
+[No Swahili text provided.]
 
-Hufafanua nafasi kati ya maudhui ya kipengele na mpaka wake.
+Definiše razmak između sadržaja elementa i njegove granice.
 
 #### --answer--
 
-Hudhibiti mpangilio wa wima wa vipengele vyenye nafasi maalum vinavyokutana.
+Podesite vertikalno poravnanje elemenata sa posebnim razmakom koji se sastaju.
 
 ### --question--
 
 #### --text--
 
-Unapotumia `top: 10%;` kwa kipengele chenye `position: fixed;`, `10%` huhesabiwa kulingana na nini?
+Kada koristiš `top: 10%;` za funkciju sa `position: fixed;`, `10%` se računa na osnovu čega?
 
 #### --distractors--
 
-Urefu wa kipengele chenyewe.
+Dužina samog elementa.
 
----
+[No Swahili text provided.]
 
-Urefu wa kontena la mzazi wake.
+Dužina kontejnera njegovog/njegovoj roditelja.
 
----
+[No Swahili text provided.]
 
-Upana wa eneo la kuona.
+Širina vidnog polja.
 
 #### --answer--
 
-Urefu wa eneo la kuona.
+Dužina vidljivog područja.
 
 ### --question--
 
 #### --text--
 
-Ni mfano gani wa msimbo unaotumia sifa ya `z-index` kuweka kipengele cha juu ya maudhui mengine?
+Koji primer koda koristi atribut `z-index` za postavljanje elementa na vrh drugog sadržaja?
 
 #### --distractors--
 
@@ -791,7 +791,7 @@ Ni mfano gani wa msimbo unaotumia sifa ya `z-index` kuweka kipengele cha juu ya 
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .overlay {
@@ -801,7 +801,7 @@ Ni mfano gani wa msimbo unaotumia sifa ya `z-index` kuweka kipengele cha juu ya 
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .overlay {
@@ -825,17 +825,17 @@ Ni mfano gani wa msimbo unaotumia sifa ya `z-index` kuweka kipengele cha juu ya 
 
 #### --text--
 
-Ni sifa gani ya CSS inayotumika kudhibiti kama kipengele kinapaswa kuhamishwa chini ya vipengele vilivyopangwa kuruka?
+Koja je svojstvo CSS koje se koristi za određivanje da li element treba da bude pomeren ispod elemenata koji su postavljeni za preskočenje?
 
 #### --distractors--
 
 `float`
 
----
+[No Swahili text provided.]
 
 `overflow`
 
----
+[No Swahili text provided.]
 
 `display`
 
@@ -847,73 +847,73 @@ Ni sifa gani ya CSS inayotumika kudhibiti kama kipengele kinapaswa kuhamishwa ch
 
 #### --text--
 
-Je, kipengele chenye `position: relative;` na `bottom: 25px;` kitawekwa wapi?
+Gde ćemo postaviti element sa `position: relative;` i `bottom: 25px;`?
 
 #### --distractors--
 
-Kitaelea 25px chini kutoka kwenye nafasi yake ya kawaida.
+Pomerić će se za 25px dole od svoje uobičajene pozicije.
 
----
+[No Swahili text provided.]
 
-Kitaelea 25px kulia kutoka kwenye nafasi yake ya kawaida.
+Preмести se 25px udesno od svoje normalne pozicije.
 
----
+[No Swahili text provided.]
 
-Kitawekwa 25px kutoka chini ya eneo la kuona.
+Postaviti na 25 piksela od dna vidljivog područja.
 
 #### --answer--
 
-Kitaelea 25px juu kutoka kwenye nafasi yake ya kawaida.
+Poplivaće 25px gore od svoje uobičajene pozicije.
 
 ### --question--
 
 #### --text--
 
-Sifa ya `z-index` itahusu vipengele vyenye sifa gani ya CSS tu?
+Svojstvo `z-index` da li će se odnositi samo na elemente koji imaju svojstvo CSS?
 
 #### --distractors--
 
-Thamani ya `float` tofauti na `none`.
+Vrednost `float` različita od `none`.
 
----
+[No Swahili text provided.]
 
-Thamani ya `display` ya `inline-block`.
+Vrednost `display` od `inline-block`.
 
----
+[No Swahili text provided.]
 
-Seti ya `background-color`.
+Skup `background-color`.
 
 #### --answer--
 
-Thamani ya `position` tofauti na `static`.
+Vrednost `position` različito od `static`.
 
 ### --question--
 
 #### --text--
 
-Matokeo gani yatakuwa ya kutumia `float: right;` kwa nembo katika kichwa?
+Kakav će biti rezultat korišćenjem `float: right;` za logo u zaglavlju?
 
 #### --distractors--
 
-Nembo italingana kulia, lakini itabaki katika mtiririko wa kawaida wa hati, kuzuia maudhui mengine kuzunguka.
+Logo će biti poravnat desno, ali će ostati u normalnom toku dokumenta, sprečavajući da drugi sadržaj obavija oko njega.
 
----
+[No Swahili text provided.]
 
-Nembo itatolewa kutoka kwenye mtiririko na kuwekwa upande wa kulia wa eneo lote la kivinjari, si kontena lake.
+Nembo će biti uklonjen iz toka i postavljen sa desne strane cele površine pregledača, a ne u njegov kontejner.
 
----
+[No Swahili text provided.]
 
-Nembo itakuwa kipengele cha kiwango cha block kinachochukua upana wote wa kichwa, na kusukuma vipengele vingine chini yake.
+Nembo će biti standardni blok element koji zauzima punu širinu zaglavlja i gura druge elemente ispod sebe.
 
 #### --answer--
 
-Nembo itatolewa kutoka kwenye mtiririko wake wa kawaida na kuwekwa upande wa kulia wa kontena lake, na maudhui mengine kuzunguka karibu nayo.
+Nembo će biti izvučen iz svog normalnog toka i postavljen na desnu stranu njegovog kontejnera, sa drugim sadržajem oko njega.
 
 ### --question--
 
 #### --text--
 
-Ni msimbo gani wa CSS utaweka kipengele kikiwa kimefungwa juu ya eneo la kuona mara tu kinaposogezwa?
+Koji je kod za CSS koji će postaviti element kada bude preklopljen preko vidljivog područja čim se pomeri?
 
 #### --distractors--
 
@@ -924,7 +924,7 @@ Ni msimbo gani wa CSS utaweka kipengele kikiwa kimefungwa juu ya eneo la kuona m
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .header {
@@ -933,7 +933,7 @@ Ni msimbo gani wa CSS utaweka kipengele kikiwa kimefungwa juu ya eneo la kuona m
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .header {
@@ -955,29 +955,29 @@ Ni msimbo gani wa CSS utaweka kipengele kikiwa kimefungwa juu ya eneo la kuona m
 
 #### --text--
 
-Lengo maalum la `clear: both;` katika CSS ni lipi?
+Koja je specifična svrha `clear: both;` u CSS?
 
 #### --distractors--
 
-Inafuta sifa ya `float` kwenye kipengele chenyewe, kurudisha kwenye mtiririko wa kawaida wa hati.
+Brisanje atributa `float` sa samog elementa, vraćanjem u normalan tok dokumenta.
 
----
+[No Swahili text provided.]
 
-Inafuta sifa zote za `clear` zilizopokelewa kutoka kwa mzazi, kurudisha tabia ya kawaida ya kuruka.
+Briše sve atribute za `clear` naslijeđene od roditelja, vraćajući normalno ponašanje skakanja.
 
----
+[No Swahili text provided.]
 
-Inafuta tu vipengele vilivyopangwa kuruka upande wa kulia, kuruhusu vipengele vilivyopangwa kuruka upande wa kushoto kubaki kama vilivyo.
+Briše samo elemente koji su namenjeni za pomeranje u desnu stranu, dozvoljavajući elementima namenjenim za pomeranje u levu stranu da ostanu nepromenjene.
 
 #### --answer--
 
-Inahakikisha kipengele kinawekwa chini ya vipengele vyovyote vilivyopangwa kuruka vinavyoonekana kabla yake upande wa kushoto na kulia.
+Osigurava da je element postavljen ispod svih elemenata koje se raspoređuju/koji plivaju koji su vidljivi sa leve i desne strane pre njega.
 
 ### --question--
 
 #### --text--
 
-Kwa msimbo ufuatao, `.child` itawekwa wapi?
+Za sledeći kod, `.child`, gde će biti postavljen?
 
 ```css
 .parent {
@@ -992,25 +992,25 @@ Kwa msimbo ufuatao, `.child` itawekwa wapi?
 
 #### --distractors--
 
-Itawekwa 10px kutoka juu ya kipengele cha `.parent`, kwani ulinganifu wa `absolute` daima ni kulingana na mzazi wa moja kwa moja.
+Postaviće se 10px od vrha elementa `.parent`, jer je poravnanje `absolute` uvek bazirano na direktnom roditelju.
 
----
+[No Swahili text provided.]
 
-Itabaki katika nafasi yake ya kawaida ya static kwa sababu thamani ya `absolute` si halali bila sifa ya `z-index`.
+Ostaje na svojoj uobičajenoj poziciji od static jer je vrednost `absolute` nije validna bez atributa `z-index`.
 
----
+[No Swahili text provided.]
 
-Itawekwa 10px kutoka juu ya dirisha la kivinjari, ikibaki imesimama mahali hata wakati mtumizi anaposogeza ukurasa.
+Biće postavljeno 10px od vrha prozora pretraživača, ostajući fiksirano čak i kada korisnik skroluje stranicu.
 
 #### --answer--
 
-Itawekwa 10px kutoka juu ya kontena la awali la kuingiza, kama vile `<body>`, kwa sababu mzazi wake hana nafasi maalum.
+Postaviće se 10px od vrha početnog kontejnera za unos, kao što je `<body>`, jer njegov roditelj nema specifičan prostor.
 
 ### --question--
 
 #### --text--
 
-Mabadiliko gani yatakuwa na msimbo ufuatao kwa kipengele cha `.box`?
+Koja će promena imati sledeći kod za element `.box`?
 
 ```css
 .box {
@@ -1022,35 +1022,35 @@ Mabadiliko gani yatakuwa na msimbo ufuatao kwa kipengele cha `.box`?
 
 #### --distractors--
 
-Kipengele kitabaki katika mtiririko wake wa kawaida lakini kitawekwa pembeni kwa 50px kutoka juu na kushoto, kusukuma vipengele vingine mbali.
+Element će ostati u svom normalnom toku, ali će biti pomeren za 50px od vrha i leve strane, što će gurati druge elemente dalje.
 
----
+[No Swahili text provided.]
 
-Kipengele kitawekwa kwa kudumu kwenye eneo la kuona na kitabaki 50px kutoka juu na 50px kutoka kushoto, hata wakati ukurasa unasogezwa.
+Element će biti trajno postavljen u vidljivo područje i ostaje 50px od vrha i 50px od leve strane, čak i kada se stranica skroluje.
 
----
+[No Swahili text provided.]
 
-Kipengele kitawekwa kulingana na sehemu yake ya kuanzia, kikisogea 50px chini na 50px kulia bila kuondoka kwenye mtiririko wa hati.
+Element će se postaviti u zavisnosti od svoje početne pozicije, pomerajući se za 50 piksela dole i 50 piksela desno bez izlaska iz protoka dokumenta.
 
 #### --answer--
 
-Kipengele kitaondolewa kutoka kwenye mtiririko wa kawaida na kuwekwa 50px kutoka juu na 50px kutoka kushoto kwa mzazi wake mwenye nafasi maalum wa karibu zaidi.
+Element će biti uklonjen iz normalnog toka i postavljen 50px od vrha i 50px od leve strane svog roditeljskog elementa sa specifičnim najbližim položajem.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya thamani za `position` inayoondoa kipengele kabisa kutoka kwenye mtiririko wa kawaida wa hati?
+Koji od vrednosti `position` potpuno uklanja element iz normalnog protoka dokumenta?
 
 #### --distractors--
 
 `position: static;`
 
----
+[No Swahili text provided.]
 
 `position: relative;`
 
----
+[No Swahili text provided.]
 
 `position: inherit;`
 
@@ -1062,7 +1062,7 @@ Ni ipi kati ya thamani za `position` inayoondoa kipengele kabisa kutoka kwenye m
 
 #### --text--
 
-Kwa vipengele vya `.parent` na `.child`, ni msimbo gani wa CSS utaweka `.child` kwa usahihi 20px kutoka kona ya juu kushoto ya kipengele cha `.parent`?
+Za elemente ``.parent`` i ``.child``, koji je kod `CSS` koji postavlja ``.child`` sa preciznošću od 20px od gornjeg levog ugla elementa ``.parent``?
 
 #### --distractors--
 
@@ -1077,7 +1077,7 @@ Kwa vipengele vya `.parent` na `.child`, ni msimbo gani wa CSS utaweka `.child` 
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .parent {
@@ -1090,7 +1090,7 @@ Kwa vipengele vya `.parent` na `.child`, ni msimbo gani wa CSS utaweka `.child` 
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .parent {
@@ -1120,29 +1120,29 @@ Kwa vipengele vya `.parent` na `.child`, ni msimbo gani wa CSS utaweka `.child` 
 
 #### --text--
 
-Tofauti kati ya ulinganifu wa `static` na `relative` ni ipi?
+Koja je razlika između `static` i `relative`?
 
 #### --distractors--
 
-Ulinganifu wa `static` huondoa kipengele kutoka kwenye mtiririko wa hati, wakati ulinganifu wa `relative` huuweka ndani ya mtiririko.
+Pazmanje od `static` uklanja element iz toka dokumenta, dok pazmanje od `relative` postavlja ga u tok.
 
----
+[No Swahili text provided.]
 
-Kipengele chenye `position: static;` kinaweza kuhamishwa kwa vigezo vya `top` na `left`, wakati `position: relative;` haiwezi.
+Element sa `position: static;` može se prebaciti na parametre `top` i `left`, kada `position: relative;` ne može.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa `static` ni kwa vipengele vya kiwango cha block, wakati ulinganifu wa `relative` ni kwa vipengele vya ndani ya mstari tu.
+Poravnanje za `static` je za elemente na nivou bloka, dok poravnanje za `relative` je samo za inline elemente.
 
 #### --answer--
 
-Vyote huweka kipengele ndani ya mtiririko wa kawaida wa hati, lakini `relative` huruhusu kipengele kuhamishwa mbali na nafasi yake ya awali.
+Sve postavljaju element unutar normalnog toka dokumenta, ali `relative` dozvoljava elementu da se premesti daleko od svoje prvobitne pozicije.
 
 ### --question--
 
 #### --text--
 
-Ni msimbo gani wa CSS unaofanya picha kuruka upande wa kushoto, kuruhusu maudhui mengine kuzunguka karibu nayo?
+Koji je kod CSS koji čini da slika klizi ulevo, omogućavajući drugim sadržajima da se kreću oko nje?
 
 #### --distractors--
 
@@ -1153,7 +1153,7 @@ Ni msimbo gani wa CSS unaofanya picha kuruka upande wa kushoto, kuruhusu maudhui
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .image {
@@ -1161,7 +1161,7 @@ Ni msimbo gani wa CSS unaofanya picha kuruka upande wa kushoto, kuruhusu maudhui
 }
 ```
 
----
+[No Swahili text provided.]
 
 ```css
 .image {
@@ -1181,39 +1181,39 @@ Ni msimbo gani wa CSS unaofanya picha kuruka upande wa kushoto, kuruhusu maudhui
 
 #### --text--
 
-Tofauti kati ya ulinganifu wa `absolute` na `fixed` ni ipi?
+Šta je razlika između `absolute` i `fixed`?
 
 #### --distractors--
 
-Ulinganifu wa `absolute` ni kulingana na eneo la kuona, wakati ulinganifu wa `fixed` ni kulingana na mzazi mwenye nafasi maalum.
+Podudarnost za `absolute` je bazirana na vidljivom području, dok je podudarnost za `fixed` bazirana na roditeljskom elementu sa posebnim statusom.
 
----
+[No Swahili text provided.]
 
-Ulinganifu wa `absolute` huweka kipengele ndani ya mtiririko wa kawaida wa hati, wakati ulinganifu wa `fixed` huondoa kutoka kwenye mtiririko.
+Podudarnost `absolute` ubacuje element unutar standardnog toka dokumenta, dok podudarnost `fixed` uklanja iz toka.
 
----
+[No Swahili text provided.]
 
-Vyote vimewekwa kulingana na eneo la kuona, lakini vipengele vya `fixed` vitasogeza pamoja na ukurasa wakati vipengele vya `absolute` havitasogeza.
+Sve je postavljeno u skladu sa vidljivim područjem, ali elementi `fixed` će se skrolovati sa stranicom kada elementi `absolute` neće se skrolovati.
 
 #### --answer--
 
-Ulinganifu wa `absolute` ni kulingana na mzazi mwenye nafasi maalum wa karibu, wakati ulinganifu wa `fixed` ni kulingana na eneo la kuona la kivinjari.
+Usklađivanje za `absolute` je zasnovano na roditeljskom elementu sa specifičnom bliskom pozicijom, dok je usklađivanje `fixed` zasnovano na vidljivom području pregledača.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya thamani za `position` huweka kipengele katika mtiririko wa kawaida wa hati na kuzuia vigezo kama `top` na `left` kuathiri?
+Koje od vrednosti za `position` ubacuje element u normalan tok dokumenta i sprečava da parametri kao što su `top` i `left` utiču?
 
 #### --distractors--
 
 `position: relative;`
 
----
+[No Swahili text provided.]
 
 `position: absolute;`
 
----
+[No Swahili text provided.]
 
 `position: fixed;`
 

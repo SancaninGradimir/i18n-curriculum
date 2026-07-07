@@ -1,6 +1,6 @@
 ---
 id: 698dc6467932b3cc4b19c922
-title: Muda wa mstari na wa mraba
+title: Vrsta linije i vrsta kvadrata
 challengeType: 11
 videoId: jS7vtk-JLZ0
 dashedName: linear-and-quadratic-time
@@ -8,29 +8,29 @@ dashedName: linear-and-quadratic-time
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda wa mstari na wa mraba.
+U ovom videu ćete naučiti o linearnom i kvadratnom vremenu.
 
 # --questions--
 
 ## --text--
 
-Nini maana ya mraba?
+Šta znači kvadrat?
 
 ## --answers--
 
-Operesheni iliyoinuliwa kwa nguvu ya kwanza.
+Operacija pokrenuta prvoj snagom.
 
----
+[No Swahili text provided.]
 
-Operesheni iliyoinuliwa kwa nguvu ya tatu.
+Operacija izvedena trećom snagom.
 
----
+[No Swahili text provided.]
 
-Operesheni iliyoinuliwa kwa nguvu ya pili.
+Operacija povišena sa drugom moći.
 
----
+[No Swahili text provided.]
 
-Operesheni iliyoinuliwa kwa nguvu ya kumi.
+Operacija povećana za deset puta.
 
 ## --video-solution--
 

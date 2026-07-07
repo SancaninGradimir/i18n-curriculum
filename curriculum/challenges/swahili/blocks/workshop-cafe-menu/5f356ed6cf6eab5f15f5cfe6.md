@@ -1,43 +1,43 @@
 ---
 id: 5f356ed6cf6eab5f15f5cfe6
-title: Step 16
+title: Korak 16
 challengeType: 0
 dashedName: step-16
 ---
 
 # --description--
 
-Kipengele cha `div` kinatumiwa hasa kwa madhumuni ya mpangilio wa muundo, tofauti na vipengele vingine vya maudhui ulivyotumia hadi sasa. Ongeza kipengele cha `div` ndani ya kipengele cha `body` kisha hamisha vipengele vyote vingine ndani ya `div` mpya.
+Element `div` se koristi isključivo za potrebe strukturalnog rasporeda, za razliku od drugih elemenata sadržaja koje ste do sada koristili. Dodajte element `div` unutar elementa `body`, a zatim premestite sve ostale elemente u novi `div`.
 
-Ndani ya lebo ya kufungua ya `div`, ongeza sifa ya kipengele ya `id` yenye thamani ya `menu`.
+Unutar otvarajućeg oznakovanja za `div`, dodaj atribut elementu `id` sa vrednošću `menu`.
 
 # --hints--
 
-Leboa ya kufungua ya `<div>` inapaswa kuwa na sifa ya kipengele ya `id` iliyowekwa kuwa `menu`.
+Pokretanje za `<div>` mora imati svojstvo elementa `id` postavljeno na `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');
 ```
 
-Unapaswa kuwa na lebo ya kufunga ya `</div>`.
+Trebalo bi da imaš oznaku za zatvaranje `</div>`.
 
 ```js
 assert.match(code, /<\/div>/i);
 ```
 
-Hupaswi kubadilisha kipengele chako cha `body` kilichopo. Hakikisha hujafuta lebo ya kufunga.
+Ne smete da menjate vaš deo `body` koji se nalazi. Uverite se da niste izbrisali oznaku zatvaranja.
 
 ```js
 assert.lengthOf(document.querySelectorAll('body'), 1);
 ```
 
-Kipengele chako cha `div` kinapaswa kupangwa ndani ya `body`.
+Vaša komponenta od `div` mora biti postavljena unutar `body`.
 
 ```js
 assert.equal(document.querySelector('div')?.parentElement?.tagName, 'BODY');
 ```
 
-Unapaswa kuhamisha vipengele vyote vingine ndani ya `div` mpya.
+Morate prebaciti sve ostale elemente unutar `div` novog.
 
 ```js
 assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);

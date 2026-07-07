@@ -1,6 +1,6 @@
 ---
 id: 5eb3e4af7d0e7b760b46cedc
-title: Muungano wa seti
+title: Unija skupova
 challengeType: 1
 forumTopicId: 385319
 dashedName: set-consolidation
@@ -8,58 +8,58 @@ dashedName: set-consolidation
 
 # --description--
 
-Ikiwa kuna seti mbili za vitu na ikiwa kitu chochote kiko katika seti yoyote ya hizo mbili, basi matokeo ya kutumia *muungano* kwa seti hizo ni seti ya seti ambazo zina:
+Ako postoje dva skupa stvari i ako je bilo šta u bilo kom od ta dva skupa, onda rezultat korišćenjem *unije* za te skupove je skup skupova koji imaju:
 
 <ul>
-  <li>Seti mbili za ingizo ikiwa hakuna kitu chochote kinachoshirikiwa kati ya seti hizo mbili za vitu.</li>
-  <li>Seti moja ambayo ni muungano wa seti hizo mbili za ingizo ikiwa zinashiriki kitu chochote.</li>
+  <li>Dve ulazne skupine ako nema ništa zajedničkog između te dve skupe stavki/objekata.</li>
+  <li>Jedna skupina koja je unija tih dve ulazne skupine ako dele nešto zajedničko.</li>
 </ul>
 
-Ikiwa kuna seti N za vitu ambapo N > 2 basi matokeo ni sawa na kubadilisha mara kwa mara mchanganyiko wote wa seti mbili kwa muungano wao hadi muungano zaidi kati ya jozi za seti hauwezekani tena. Ikiwa N &lt; 2 basi muungano haina maana kali na ingizo linaweza kurudishwa kama lilivyo.
+Ako postoji setova N elemenata gde je N > 2, rezultat je ekvivalentno ponovnom menjanju svih kombinacija od dva skupa po njihovom uniji sve dok više unija između parova skupova nije moguće. Ako je N &lt; 2, onda unija nema smisla i unos može biti vraćen takav kakav jeste.
 
-Hapa kuna mifano:
+Evo primera:
 
-**Mfano 1:**
+**Primer 1:**
 
-Ikiwa seti mbili `{A,B}` na `{C,D}` basi hakuna kipengele chochote kinachoshirikiwa kati ya seti hizo na matokeo ni sawa na ingizo.
+Ako dve skupa `{A,B}` i `{C,D}`, onda nema zajedničkih elemenata između ova dva skupa, a rezultat je jednak ulazu.
 
-**Mfano 2:**
+**Primer 2:**
 
-Ikiwa seti mbili `{A,B}` na `{B,D}` basi kuna kipengele kinachoshirikiwa `B` kati ya seti hizo na matokeo ni seti moja `{B,D,A}`. (Kumbuka kuwa mpangilio wa vitu katika seti hauna maana: `{A,B,D}` ni sawa na `{B,D,A}` na `{D,A,B}`, nk).
+Ako postoje dva skupa `{A,B}` i `{B,D}`, postoji zajednički element `B` između tih skupova, a rezultat je jedan skup `{B,D,A}`. (Napomena da redosled elemenata u skupu nije bitan: `{A,B,D}` је исто као `{B,D,A}` и `{D,A,B}`, i sl.).
 
-**Mfano 3:**
+**Primer 3:**
 
-Ikiwa seti tatu `{A,B}` na `{C,D}` na `{D,B}` basi hakuna kipengele kinachoshirikiwa kati ya seti `{A,B}` na `{C,D}` lakini seti `{A,B}` na `{D,B}` zinashiriki kipengele kinachounganisha kutoa matokeo `{B,D,A}`. Kwa kuchunguza matokeo haya na seti iliyobaki, `{C,D}`, zinashiriki kipengele na hivyo kuungana kuwa matokeo ya mwisho ya seti moja `{A,B,C,D}`
+Ako tri seta `{A,B}` i `{C,D}` i `{D,B}`, onda nema zajedničkog elementa između seta `{A,B}` i `{C,D}`, ali setovi `{A,B}` i `{D,B}` dele povezujući element koji proizvodi rezultate `{B,D,A}`. Analiziranjem ovih rezultata i preostalog seta, `{C,D}`, oni dele element i time se spajaju u konačni rezultat jednog seta `{A,B,C,D}`
 
-**Mfano 4:**
+**Primer 4:**
 
-Muungano wa seti tano:
+Unija pet skupova:
 
-`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, na `{F,G,H}`
+`{H,I,K}`, `{A,B}`, `{C,D}`, `{D,B}`, i `{F,G,H}`
 
-Ni seti mbili:
+Dva seta:
 
-`{A, C, B, D}`, na `{G, F, I, H, K}`
+`{A, C, B, D}`, i `{G, F, I, H, K}`
 
 # --instructions--
 
-Andika kitendakazi kinachopokea safu ya mfuatano wa herufi kama kigezo. Kila mfuatano wa herufi unawakilisha seti na herufi zinawakilisha vitu vya seti hiyo. Kitendakazi kinapaswa kurudisha safu ya safu za data zenye seti zilizounganishwa. Kumbuka: Kila seti inapaswa kupangwa kwa mpangilio.
+Napišite funkciju koja prima niz sekvenci karaktera kao argument. Svaka sekvenca karaktera predstavlja skup, a karakteri predstavljaju elemente tog skupa. Funkcija treba da vrati niz nizova podataka koji sadrže povezane skupove. Napomena: Svaki skup mora biti sortiran.
 
 # --hints--
 
-`setConsolidation` inapaswa kuwa kitendakazi.
+`setConsolidation` Trebalo bi da bude funkcija.
 
 ```js
 assert(typeof setConsolidation === 'function');
 ```
 
-`setConsolidation(["AB", "CD"])` inapaswa kurudisha safu ya data.
+`setConsolidation(["AB", "CD"])` Trebalo bi da vrati red podataka.
 
 ```js
 assert(Array.isArray(setConsolidation(['AB', 'CD'])));
 ```
 
-`setConsolidation(["AB", "CD"])` inapaswa kurudisha `[["C", "D"], ["A", "B"]]`.
+`setConsolidation(["AB", "CD"])` trebalo bi vratiti `[["C", "D"], ["A", "B"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD']), [
@@ -68,19 +68,19 @@ assert.deepEqual(setConsolidation(['AB', 'CD']), [
 ]);
 ```
 
-`setConsolidation(["AB", "BD"])` inapaswa kurudisha `[["A", "B", "D"]]`.
+`setConsolidation(["AB", "BD"])` trebalo bi da vrati `[["A", "B", "D"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'BD']), [['A', 'B', 'D']]);
 ```
 
-`setConsolidation(["AB", "CD", "DB"])` inapaswa kurudisha `[["A", "B", "C", "D"]]`.
+`setConsolidation(["AB", "CD", "DB"])` trebalo bi vratiti `[["A", "B", "C", "D"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['AB', 'CD', 'DB']), [['A', 'B', 'C', 'D']]);
 ```
 
-`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` inapaswa kurudisha `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
+`setConsolidation(["HIK", "AB", "CD", "DB", "FGH"])` trebalo bi da vrati `[["F", "G", "H", "I", "K"], ["A", "B", "C", "D"]]`.
 
 ```js
 assert.deepEqual(setConsolidation(['HIK', 'AB', 'CD', 'DB', 'FGH']), [

@@ -8,29 +8,29 @@ dashedName: bogosort
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kufanya kazi na algoriti ya bogosort.
+U ovom videu, naučićete kako da radite sa Bogosort algoritmom.
 
 # --questions--
 
 ## --text--
 
-Algoriti ya bogosort hufanya kazi vipi?
+Kako radi Bogosort algoritam?
 
 ## --answers--
 
-Inabadilisha mara kwa mara vipengele vinavyopakana kwa mpangilio wa kutabirika hadi vipangwe.
+Periodično menja susjedne elemente po predvidljivom redosledu sve dok nisu raspoređeni.
 
----
+[No Swahili text provided.]
 
-Inagawanya orodha vipande viwili, hupanga kila moja kwa njia ya kurudia, kisha huunganisha.
+Deli list na dva dela, organizuje svako po ponavljajućem obrascu, a zatim ih spaja.
 
----
+[No Swahili text provided.]
 
-Inachanganya orodha kwa bahati nasibu hadi ipangwe kwa bahati.
+Mešamo listu nasumično dok ga ne poređate nasumično.
 
----
+[No Swahili text provided.]
 
-Huchagua kipengele kidogo zaidi na kuviweka kwa mpangilio, kama selection sort.
+Izabira najmanji element i postavlja ih u redosled, kao selection sort.
 
 ## --video-solution--
 

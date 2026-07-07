@@ -1,6 +1,6 @@
 ---
 id: 5a24bbe0dba28a8d3cbd4c5d
-title: Unda sehemu tata ya JSX
+title: Kreiraj složen deo JSX-a
 challengeType: 6
 forumTopicId: 301382
 dashedName: create-a-complex-jsx-element
@@ -8,15 +8,15 @@ dashedName: create-a-complex-jsx-element
 
 # --description--
 
-Changamoto ya mwisho ilikuwa mfano rahisi wa JSX, lakini JSX inaweza pia wakilisha HTML tata zaidi.
+Poslednji izazov bio je jednostavan primer JSX-a, ali JSX može da predstavlja i HTML nešto kompleksnije.
 
-Jambo muhimu la kujua kuhusu JSX zilizopangwa ndani ni kwamba lazima zirudishe sehemu moja tu.
+Važno je znati o ugnježdjenom JSX-u da on mora da vrati samo jedan element.
 
 Sehemu hii moja ya mzazi itazunguka ngazi zote nyingine za sehemu zilizopangwa ndani.
 
-Kwa mfano, sehemu kadhaa za JSX zilizoandikwa kama ndugu bila sehemu ya mzazi itakayozunguka hazitatafsiriwa.
+Na primer, nekoliko JSX elemenata napisano kao braća bez roditeljskog elementa koji ih obuhvata neće biti obrađeno/renderovano.
 
-Hapa kuna mfano:
+Evo primera:
 
 **JSX halali:**
 
@@ -28,7 +28,7 @@ Hapa kuna mfano:
 </div>
 ```
 
-**JSX isiyo halali:**
+**Nevažeći JSX:**
 
 ```jsx
 <p>Paragraph One</p>
@@ -38,39 +38,39 @@ Hapa kuna mfano:
 
 # --instructions--
 
-Fafanua constant mpya `JSX` inayonyesha `div` ambayo ina sehemu zifuatazo kwa mpangilio:
+Definišite novu konstantu `JSX` koja prikazuje `div`, a koja ima sledeće delove po redu:
 
-`h1`, `p`, na orodha isiyopangwa inayojumuisha vitu vitatu vya `li`. Unaweza kuweka maandishi yoyote unayotaka ndani ya kila sehemu.
+`h1`, `p`, i neuređeni spisak koji sadrži tri stavke od `li`. Možete umetnuti bilo koji tekst koji želite u svaki odeljak.
 
-**Kumbuka:** Unaponyesha sehemu nyingi kama hizi, unaweza kuzizunguka zote kwa mabano ya kawaida, lakini si sharti kabisa. Pia angalia changamoto hii inatumia lebo ya `div` kuzunguka sehemu zote za watoto ndani ya sehemu moja ya mzazi. Ukiondoa `div`, JSX haitatafsiri tena. Kumbuka hili, kwani litahusiana pia unaporudisha sehemu za JSX katika sehemu za React.
+**Napomena:** Kada prikazujete mnogo delova kao ovakvi, možete ih sve obuhvatiti običnim zagradama, ali nije nužno. Proverite takođe da ova preporuka koristi oznaku `div` za obuhvat svih child komponenti unutar jedne parent komponente. Ako uklonite `div`, JSX više neće biti interpretiran. Zapamtite ovo, jer će biti važno i kada vraćate JSX delove u delove React.
 
 # --hints--
 
-Constant `JSX` inapaswa kurudisha sehemu ya `div`.
+Konstanta `JSX` treba da vrati deo od `div`.
 
 ```js
 assert(JSX.type === 'div');
 ```
 
-`div` inapaswa kuwa na lebo ya `h1` kama sehemu ya kwanza.
+`div` trebalo bi imati oznaku `h1` kao prvi deo.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
 ```
 
-`div` inapaswa kuwa na lebo ya `p` kama sehemu ya pili.
+`div` mora imati oznaku `p` kao drugi deo.
 
 ```js
 assert(JSX.props.children[1].type === 'p');
 ```
 
-`div` inapaswa kuwa na lebo ya `ul` kama sehemu ya tatu.
+`div` mora imati oznaku `ul` kao treći deo.
 
 ```js
 assert(JSX.props.children[2].type === 'ul');
 ```
 
-`ul` inapaswa kuwa na sehemu tatu za `li`.
+`ul` mora imati tri dijela od `li`.
 
 ```js
 assert(

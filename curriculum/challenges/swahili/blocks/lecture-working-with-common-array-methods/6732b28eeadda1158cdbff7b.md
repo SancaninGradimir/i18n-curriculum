@@ -1,15 +1,15 @@
 ---
 id: 6732b28eeadda1158cdbff7b
-title: Jinsi ya Kukagua Ikiwa Safu ya Data Ina Thamani Fulani?
+title: Kako proveriti da li red podataka ima određenu vrednost?
 challengeType: 19
 dashedName: how-can-you-check-if-an-array-contains-a-certain-value
 ---
 
 # --interactive--
 
-Katika JavaScript, njia ya `includes()` ni njia rahisi na yenye ufanisi ya kukagua ikiwa safu ya data ina thamani maalum. Njia hii hurudisha thamani ya kweli au siyo kweli: `true` ikiwa safu ya data ina kipengele kilichotajwa, na `false` vinginevyo.
+U JavaScript, metoda `includes()` je jednostavan i efikasan način za proveru da li red podataka ima određenu vrednost. Ova metoda vraća vrednost tačno ili netačno: `true` ako red podataka sadrži pomenuti element, i `false` inače.
 
-Njia ya `includes()` ni muhimu hasa unapohitaji kuthibitisha haraka uwepo wa kipengele katika safu ya data bila kujua nafasi yake halisi. Tuanze na mfano wa jinsi ya kutumia njia ya `includes()`:
+Metoda `includes()` je važna posebno kada treba brzo da se proveri postojanje elemenata u redovima podataka bez znanja njihove stvarne pozicije. Počnimo sa primerom kako koristiti metodu `includes()`:
 
 :::interactive_editor
 
@@ -21,9 +21,9 @@ console.log(fruits.includes("grape"));  // false
 
 :::
 
-Katika mfano huu, tuna safu ya matunda. Tunatumia njia ya `includes()` kukagua ikiwa `banana` iko katika safu ya data. Inarudisha `true` kwa sababu `banana` kwa kweli ipo. Kisha tunakagua `grape`, ambayo inarudisha `false` kwa sababu haipo katika safu ya data.
+U ovom primeru, imamo niz voća. Koristimo metodu `includes()` da proverimo da li `banana` postoji u nizu podataka. Vraća `true` jer `banana` zaista postoji. Zatim proveravamo `grape`, što vraća `false` jer nije u nizu podataka.
 
-Njia ya `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi. Hii inamaanisha kuwa `Banana` yenye herufi kubwa B na `banana` yenye herufi ndogo zote zinachukuliwa kuwa thamani tofauti. Hapa kuna mfano unaoonyesha hili:
+Metoda za `includes()` je osetljiva na mala i velika slova prilikom obrade niza znakova. To znači da su `Banana` sa velikim slovom B i `banana` sa svim malim slovima smatrani različitim vrednostima. Evo primera koji to pokazuje:
 
 :::interactive_editor
 
@@ -35,9 +35,9 @@ console.log(fruits.includes("Banana")); // false
 
 :::
 
-Katika kesi hii, `banana` (zote kwa herufi ndogo) hupatikana katika safu ya data, lakini `Banana` (ikiwa na herufi ya kwanza kubwa) haipo, hivyo wito wa pili wa `includes()` unarudisha `false`.
+U ovom slučaju, `banana` (sve u malim slovima) nalazi se u redu podataka, ali `Banana` (sa velikom početnom slovom) nije prisutno, pa drugi poziv od `includes()` vraća `false`.
 
-Njia ya `includes()` pia inaweza kupokea kigezo cha pili cha hiari kinachoelezea nafasi katika safu ya data kuanzia ambapo utaanza kutafuta. Hii ni muhimu ikiwa unataka kukagua uwepo wa kipengele katika sehemu maalum ya safu ya data. Hapa ni jinsi unavyoweza kutumia kipengele hiki:
+Funkcija `includes()` takođe može primiti drugi opcioni parametar koji opisuje početnu poziciju u nizu podataka od koje želite da počnete pretraživati. Ovo je korisno ako želite da proverite postojanje elementa u određenom delu niza podataka. Evo kako možete koristiti ovu funkciju:
 
 :::interactive_editor
 
@@ -49,11 +49,11 @@ console.log(numbers.includes(30, 4)); // true
 
 :::
 
-Kwa wito wa kwanza wa `console.log`, tunatafuta nambari `30` kuanzia kielezo `3`. Katika kesi hii, kuna nambari `30` inayojitokeza baada ya kielezo `3`, hivyo njia ya `includes()` inarudisha `true`.
+Sa prvim pozivom od `console.log`, tražimo broj `30` počevši od modela `3`. U ovom slučaju, postoji broj `30` koji se pojavljuje nakon modela `3`, stoga putanja `includes()` vraća `true`.
 
-Hali hiyo hiyo ni kweli kwa wito wa pili wa `console.log`. Tunatafuta nambari `30` kuanzia kielezo `4`. Kwa kuwa nambari `30` inaonekana baada ya kielezo hicho, basi itarudisha `true`.
+Isto važi za drugi poziv od `console.log`. Tražimo broj `30` počevši od modela `4`. Pošto se broj `30` pojavljuje nakon tog modela, onda će vratiti `true`.
 
-Ni muhimu kutambua kuwa `includes()` hutumia kulinganisha kwa usawa mkali (`===`), ambayo inamaanisha inaweza kutofautisha kati ya aina tofauti. Kwa mfano:
+Važno je znati da `includes()` koristi striktno poređenje jednakosti (`===`), što znači da može razlikovati različite tipove. Na primer:
 
 :::interactive_editor
 
@@ -65,15 +65,15 @@ console.log(mixedArray.includes("2")); // true
 
 :::
 
-Katika kesi hii, nambari `2` na mfuatano wa herufi `"2"` zinachukuliwa kuwa aina tofauti za data. Hivyo, wito wa kwanza wa `console.log` utarudisha `false`, wakati wito wa pili wa `console.log` utarudisha `true`.
+U ovom slučaju, broj `2` i niz slova `"2"` smatraju se različitim vrstama podataka. Stoga, prvi poziv `console.log` će vratiti `false`, dok drugi poziv `console.log` će vratiti `true`.
 
-Njia ya `includes()` ni chombo chenye nguvu cha kukagua uwepo wa vipengele katika safu za data. Ni rahisi kutumia, yenye ufanisi, na inaweza kukuokoa kuandika mizunguko au masharti magumu zaidi ya kutafuta katika safu za data. Iwe unafanya kazi na mfuatano wa herufi, nambari, au aina mchanganyiko za data, `includes()` hutoa njia rahisi ya kuthibitisha ikiwa thamani ipo katika safu yako ya data.
+Metoda `includes()` je moćan alat za proveru postojanja elemenata u nizovima podataka. Lako je za korišćenje, efikasan je, i može vas spasiti od pisanja složenih petlji ili uslova za pretraživanje u nizovima podataka. Bilo da radite sa sekvencama slova, brojeva ili mešovitim tipovima podataka, `includes()` pruža jednostavan način da potvrdite da li vrednost postoji u vašem nizu podataka.
 
 # --questions--
 
 ## --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Šta će biti rezultat sledećeg koda?
 
 ```js
 let arr = [1, 2, 3, 4, 5];
@@ -86,13 +86,13 @@ console.log(arr.includes(3, 3));
 
 ### --feedback--
 
-Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
+Drugi parametar `includes()` opisuje početnu poziciju za pretraživanje.
 
----
+[No Swahili text provided.]
 
 `false`
 
----
+[No Swahili text provided.]
 
 `undefined`
 
@@ -100,13 +100,13 @@ Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafu
 
 Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
 
----
+[No Swahili text provided.]
 
-Hii itatupa kosa.
+Ovo će nam otpasti kosu.
 
 ### --feedback--
 
-Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
+Drugi parametar `includes()` opisuje početnu poziciju za pretraživanje.
 
 ## --video-solution--
 
@@ -114,7 +114,7 @@ Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafu
 
 ## --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Šta će biti rezultat sledećeg koda?
 
 ```js
 let arr = ["a", "b", "c", "d", "e"];
@@ -127,27 +127,27 @@ console.log(arr.includes("C"));
 
 ### --feedback--
 
-Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi.
+Zapamtite da `includes()` ima osetljivost na mala i velika slova prilikom obrade niza znakova.
 
----
+[No Swahili text provided.]
 
 `false`
 
----
+[No Swahili text provided.]
 
 `undefined`
 
 ### --feedback--
 
-Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi.
+Zapamtite da `includes()` ima osetljivost na mala i velika slova prilikom obrade niza karaktera.
 
----
+[No Swahili text provided.]
 
-Hii itatupa kosa.
+Ovo će nam otpasti kosu.
 
 ### --feedback--
 
-Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughulikia mfuatano wa herufi.
+Zapamtite da `includes()` ima osetljivost na mala i velika slova prilikom obrade niza znakova.
 
 ## --video-solution--
 
@@ -155,7 +155,7 @@ Kumbuka kuwa `includes()` ina hisia kwa herufi ndogo na kubwa wakati wa kushughu
 
 ## --text--
 
-Nini kitakuwa matokeo ya msimbo ufuatao?
+Šta će biti rezultat sledećeg koda?
 
 ```js
 let arr = [1, "2", 3, "4", 5];
@@ -168,27 +168,27 @@ console.log(arr.includes("3"));
 
 ### --feedback--
 
-Njia ya `includes()` hutumia usawa mkali (`===`) kwa ajili ya kulinganisha.
+Putanja `includes()` koristi strogu jednakost (`===`) za poređenje.
 
----
+[No Swahili text provided.]
 
 `false`
 
----
+[No Swahili text provided.]
 
 `undefined`
 
 ### --feedback--
 
-Njia ya `includes()` hutumia usawa mkali (`===`) kwa ajili ya kulinganisha.
+Putanja `includes()` koristi strogu jednakost (`===`) za poređenje.
 
----
+[No Swahili text provided.]
 
-Hii itatupa kosa.
+Ovo će nam otpasti kosu.
 
 ### --feedback--
 
-Njia ya `includes()` hutumia usawa mkali (`===`) kwa ajili ya kulinganisha.
+Način `includes()` koristi strogu jednakost (`===`) za poređenje.
 
 ## --video-solution--
 

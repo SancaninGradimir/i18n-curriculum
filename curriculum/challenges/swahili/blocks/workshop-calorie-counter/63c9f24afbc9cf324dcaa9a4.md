@@ -1,31 +1,31 @@
 ---
 id: 63c9f24afbc9cf324dcaa9a4
-title: Step 95
+title: Korak 95
 challengeType: 0
 dashedName: step-95
 ---
 
 # --description--
 
-Unahitaji pia kufuta maandishi ya kipengee cha `output`. Unaweza kufanya hivi kwa kuweka sifa ya `innerText` kuwa mfuatano wa herufi tupu.
+Takođe je potrebno izbrisati tekst elementa ``output``. To možete učiniti postavljanjem atributa ``innerText`` na prazan niz karaktera.
 
-Tofauti kati ya `innerText` na `innerHTML` ni kwamba `innerText` haitonyesha vipengee vya HTML, bali itaonyesha lebo na maudhui kama maandishi ghafi.
+Razlika između `innerText` i `innerHTML` je u tome što `innerText` neće prikazati elemente HTML, već će prikazati oznaku i sadržaj kao sirov tekst.
 
 # --hints--
 
-Kitendakazi chako cha `clearForm` kinapaswa kupata upatikanaji wa sifa ya `innerText` ya kipengee cha `output`.
+Vaša komponenta za `clearForm` mora imati pristup svojstvu `innerText` elementa `output`.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Kitendakazi chako cha `clearForm` kinapaswa kuweka sifa ya `innerText` ya kipengee cha `output` kuwa mfuatano wa herufi tupu.
+Vaša funkcija za `clearForm` treba da postavi svojstvo `innerText` elementa `output` na prazan niz znakova.
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-Unapaswa kubadilisha `output` baada ya kubadilisha `budgetNumberInput`.
+Treba da promeniš `output` nakon promene `budgetNumberInput`.
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));

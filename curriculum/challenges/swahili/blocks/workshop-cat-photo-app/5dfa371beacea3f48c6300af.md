@@ -1,28 +1,28 @@
 ---
 id: 5dfa371beacea3f48c6300af
-title: Hatua 21
+title: Korak 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-Unapoongeza kipengele cha kichwa cha sehemu cha daraja la chini kwenye ukurasa, inamaanisha kuwa unaanza sehemu ndogo mpya.
+Kada dodate element zaglavlja sekcije nižeg nivoa na stranici, to znači da započinjete novu podsekciju.
 
-Baada ya kipengele cha `h2` cha pili cha `section`, ongeza kipengele cha `h3` chenye maandishi haya:
+Nakon elementa `h2` drugog od `section`, dodajte element `h3` sa ovim tekstom:
 
 `Things cats love:`
 
 # --hints--
 
-Kipengele cha `section` cha pili kinaonekana kukosekana au hakina lebo ya kufungua na lebo ya kufunga zote mbili.
+Drugi element `section` izgleda da nedostaje, ili nema ni oznaku za otvaranje, niti oznaku za zatvaranje.
 
 ```js
 assert.exists(document.querySelectorAll('main > section')[1]);
 assert.lengthOf(code.match(/\<\/section>/g), 2);
 ```
 
-Inapaswa kuwepo kipengele cha `h3` juu kidogo ya lebo ya kufunga ya kipengele cha `section` cha pili.
+Trebalo bi da postoji element `h3` malo iznad oznake za zatvaranje elemenata `section` drugog.
 
 ```js
 assert.equal(
@@ -31,13 +31,13 @@ assert.equal(
 );
 ```
 
-Kipengele chako cha `h3` kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Vaš element za `h3` bi trebalo da ima zatvarajući tag. Zatvarajući tagovi imaju `/` odmah nakon karaktera `<`.
 
 ```js
 assert.lengthOf(code.match(/<\/h3>/g), 1);
 ```
 
-Kipengele cha `h3` kilicho juu kidogo ya lebo ya kufunga ya kipengele cha `section` cha pili kinapaswa kuwa na maandishi ya `Things cats love:`. Hakikisha unajumuisha nukta mwishoni mwa maandishi.
+Element ``h3`` koji je malo iznad oznake zatvaranja elementa ``section`` drugog treba da ima tekst ``Things cats love:``. Osigurajte da uključite tačku na kraju teksta.
 
 ```js
 assert.equal(

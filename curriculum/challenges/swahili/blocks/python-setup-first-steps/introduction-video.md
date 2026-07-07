@@ -1,6 +1,6 @@
 ---
 id: 05b8c9b04c6df84636956fab
-title: Utangulizi
+title: Uvod
 challengeType: 11
 videoId: EgQZWE8in68
 dashedName: introduction
@@ -8,29 +8,29 @@ dashedName: introduction
 
 # --description--
 
-Katika video hii, mwalimu Mike Dane anaeleza kwanini unapaswa kujifunza Python.
+U ovom videu, učitelj Mike Dane objašnjava zašto bi trebalo da naučiš Python.
 
 # --questions--
 
 ## --text--
 
-Ni sababu gani moja ya kujifunza Python?
+Koji je razlog za učenje Python?
 
 ## --answers--
 
-Inahitajika kujifunza kabla ya lugha nyingine yoyote ya programu.
+Potrebno je da naučite pre bilo kog drugog programskog jezika.
 
----
+[No Swahili text provided.]
 
-Ni mojawapo ya lugha maarufu zaidi za programu zinazotumika katika sekta.
+To je jedan od najpopularnijih programskih jezika koji se koriste u sektoru.
 
----
+[No Swahili text provided.]
 
-Ni lugha ya programu yenye kasi zaidi kwa aina zote za programu.
+To je programski jezik sa najbržom brzinom za sve vrste programa.
 
----
+[No Swahili text provided.]
 
-Inatumika tu kwa programu ngumu za michezo.
+Koristi se samo za kompleksne igre.
 
 ## --video-solution--
 

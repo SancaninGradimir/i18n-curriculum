@@ -1,6 +1,6 @@
 ---
 id: bd7158d8c442eddfaeb5bd10
-title: Onyesha hali ya hewa ya eneo lako
+title: Prikaži vremensku prognozu za vašu lokaciju
 challengeType: 3
 forumTopicId: 302368
 dashedName: show-the-local-weather
@@ -8,21 +8,21 @@ dashedName: show-the-local-weather
 
 # --description--
 
-**Lengo:** Jenga programu inayofanya kazi kama hii: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
+**Cilj:** Napravi program koji radi ovako: <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/bELRjV</a>.
 
-**Sera #1:** Usitazame msimbo wa mradi wa mfano. Jifunze mwenyewe.
+**Serija #1:** Pogledajte kod projekta primera. Naučite sami.
 
 **Sera #2:** Timiza hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
 
-**Hadithi ya mtumiaji:** Naweza kuona hali ya hewa katika eneo langu la sasa.
+**Korisnička priča:** Mogu da vidim vremenske prilike na svojoj trenutnoj lokaciji.
 
-**Hadithi ya mtumiaji:** Naweza kuona ikoni tofauti au picha ya nyuma (mfano mlima wenye theluji, jangwa joto) kulingana na hali ya hewa.
+**Priča korisnika:** Mogu da vidim različite ikone ili pozadinsku sliku (primer snežna planina, vruća pustinja) u zavisnosti od vremena.
 
-**Hadithi ya mtumiaji:** Naweza bonyeza kitufe kubadilisha kati ya Fahrenheit na Celsius.
+**Priča korisnika:** Mogu pritisnuti dugme da prebacujem između Fahrenheita i Celzija.
 
-**Kumbuka:** Vivinjari vingi vya intaneti sasa vinahitaji muunganisho wa HTTP Secure (`https://`) kupata eneo la mtumiaji kupitia HTML5 Geolocation. Kwa sababu hii, tunapendekeza kutumia HTML5 Geolocation kupata eneo la mtumiaji kisha tumia freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> ambayo inatumia muunganisho wa HTTP Secure kwa hali ya hewa. Pia, hakikisha unajiunga na <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> kupitia `https://`.
+**Napomena:** Mnogi internet pretraživači sada zahtevaju konekciju HTTP Secure (`https://`) da bi dobili lokaciju korisnika putem HTML5 Geolocation. Zbog toga, preporučujemo korišćenje HTML5 Geolocation za dobijanje lokacije korisnika, a zatim koristiti freeCodeCamp Weather API <a href="https://weather-proxy.freecodecamp.rocks/" target="_blank" rel="noopener noreferrer nofollow">https://weather-proxy.freecodecamp.rocks/</a> koji koristi konekciju HTTP Secure za vremenske informacije. Takođe, uverite se da se registrujete na <a href="https://codepen.io" target="_blank" rel="noopener noreferrer nofollow">CodePen.io</a> putem `https://`.
 
-Ukipata kazi, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada završiš zadatak, zalijepi link svog projekta na CodePen i klikni na dugme "Završio sam ovaj izazov".
 
 Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
 

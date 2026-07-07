@@ -1,6 +1,6 @@
 ---
 id: 69ae767ab4a814be6a4f2be7
-title: Kutumia seva za MCP
+title: Koristeći server za MCP
 challengeType: 11
 videoId: PlILctA_czg
 dashedName: using-mcp-servers
@@ -8,29 +8,29 @@ dashedName: using-mcp-servers
 
 # --description--
 
-Katika video hii, utafundishwa jinsi ya kutumia seva za MCP.
+U ovom videu ćete naučiti kako da koristite MCP servere.
 
 # --questions--
 
 ## --text--
 
-Ni mambo gani ya kuzingatia unapotumia seva za MCP za mbali?
+Šta treba uzeti u obzir prilikom korišćenja daljinskih MCP servera?
 
 ## --answers--
 
-Unahitaji kushughulikia imani, usiri wa data, idhini na uthibitisho wa utambulisho.
+Morate da rukujete poverenjem, tajnošću podataka, ovlašćenjima i autentikacijom identiteta.
 
----
+[No Swahili text provided.]
 
-Unahitaji tu kuwa na wasiwasi kuhusu kasi ya usindikaji na matumizi ya kumbukumbu ya seva.
+Treba vam samo da se brinete o brzini obrade i potrošnji memorije servera.
 
----
+[No Swahili text provided.]
 
-Unahitaji kuhakikisha seva inaendesha toleo la hivi karibuni la LLM yako kwa ndani.
+Morate osigurati da server pokreće najnoviju verziju vašeg LLM-a lokalno.
 
----
+[No Swahili text provided.]
 
-Unahitaji kuhakikisha seva ina nafasi ya kutosha ya diski kwa ajili ya kumbukumbu za muda mfupi.
+Morate osigurati da server ima dovoljno diskovnog prostora za privremene logove.
 
 ## --video-solution--
 

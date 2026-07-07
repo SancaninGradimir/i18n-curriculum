@@ -1,6 +1,6 @@
 ---
 id: 698dc79f7932b3cc4b19c924
-title: Muda wa mfululizo wa eksponenti
+title: Serija eksponenata
 challengeType: 11
 videoId: GNnxIIYwYFM
 dashedName: exponential-time
@@ -8,29 +8,29 @@ dashedName: exponential-time
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu muda wa mfululizo wa eksponenti. 
+U ovom videu, će vam biti objašnjeno o eksponencijalnim nizovima.
 
 # --questions--
 
 ## --text--
 
-Ni miongoni mwa matatizo maarufu yafuatayo ni mfano wa algoriti ya mfululizo wa eksponenti?
+Da li je među sledećim poznatim problemima primer algoritma eksponencijalnog niza?
 
 ## --answers--
 
-Traveling Salesman
+Putnik prodavnica (or) Prodavac putnika
 
----
+[No Swahili text provided.]
 
-Dijkstra Algorithm
+Algoritam Dijkstre
 
----
+[No Swahili text provided.]
 
 Merge Sort
 
----
+[No Swahili text provided.]
 
-Fibonacci Sequence
+Fibonaccijev niz
 
 ## --video-solution--
 

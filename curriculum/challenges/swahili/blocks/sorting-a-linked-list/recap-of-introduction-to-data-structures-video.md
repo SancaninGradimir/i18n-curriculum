@@ -1,6 +1,6 @@
 ---
 id: 698de8fd7932b3cc4b19c93e
-title: Muhtasari wa Utangulizi wa Miundo ya Data
+title: Sažetak uvodnih modela podataka
 challengeType: 11
 videoId: KUG1HNrchK0
 dashedName: recap-of-introduction-to-data-structures
@@ -8,29 +8,29 @@ dashedName: recap-of-introduction-to-data-structures
 
 # --description--
 
-Katika video hii, utakagua tena dhana ulizojifunza kuhusu miundo ya data.
+U ovom videu ćete ponovo pregledati koncepte koje ste naučili o strukturama podataka.
 
 # --questions--
 
 ## --text--
 
-Ni jina gani la muundo wa data katika Python ambalo linafanana na safu za data na linaweza kuhifadhi mfululizo wa vipengele?
+Koje je ime strukture podataka u Python koja liči na nizove podataka i može skladištiti sekvencu elemenata?
 
 ## --answers--
 
 tuples
 
----
+[No Swahili text provided.]
 
-lists
+liste
 
----
+[No Swahili text provided.]
 
-dictionaries
+rečnici
 
----
+[No Swahili text provided.]
 
-sets
+skupovi
 
 ## --video-solution--
 

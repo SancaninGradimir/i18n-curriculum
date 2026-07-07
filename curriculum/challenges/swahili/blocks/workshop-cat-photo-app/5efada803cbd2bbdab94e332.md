@@ -1,13 +1,13 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Step 31
+title: Korak 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Ndani ya kipengele cha `figure` ulichojiongeza, panga ndani kipengele cha `img` chenye sifa ya kipengele cha `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Unutar elementa za `figure` koji je dodat, postavite unutar elementa `img` koji ima svojstvo elementa `src` koje je postavljeno na `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
@@ -17,19 +17,19 @@ Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufungua. Lebo z
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Vaš drugi element za `figure` treba da ima zatvarajući tag. Zatvarajući tagovi su `/` odmah nakon slova `<`.
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-Kipengele cha `figure` cha pili kinapaswa kuwepo juu ya lebo ya kufunga ya kipengele cha `section` cha pili. Umeviweka kwa mpangilio usio sahihi.
+Drugi element ``figure`` treba da bude iznad zatvarajuće oznake drugog elementa ``section``. Postavili ste ga u pogrešnom redosledu.
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-Unapaswa kuwa na kipengele cha `img` cha tatu kilichopangwa ndani ya kipengele cha `figure`.
+Trebalo bi da imaš element `img` kao treći, postavljen unutar elemenata `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert.exists(
 );
 ```
 
-Picha ya tatu inapaswa kuwa na sifa ya kipengele `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Treća slika treba da ima atribut elementa `src` postavljenog na `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +47,7 @@ assert.equal(
 );
 ```
 
-Ingawa umeweka sifa ya kipengele cha `src` ya picha mpya kuwa URL sahihi, inashauriwa kila mara kuzunguka thamani ya sifa ya kipengele na alama za nukuu.
+Iako ste postavili atribut elementa `src` nove slike da bude URL tačan, savetuje se uvek okružiti vrednost atributa elementa navodnicima.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);

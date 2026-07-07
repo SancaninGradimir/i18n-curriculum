@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-Ili kuzuia maudhui ya maandishi kuzidi, mpe kichaguzi chako cha `span[class~="sr-only"]` sifa ya `overflow` iliyowekwa kuwa `hidden` na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+Da bi se sprečilo da tekstualni sadržaj pređe, dodelite svom selektoru `span[class~="sr-only"]` svojstvo `overflow` postavljeno na `hidden` i svojstvo `white-space` postavljeno na `nowrap`.
 
 # --hints--
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `overflow` iliyowekwa kuwa `hidden`.
+Tvoj selektor za `span[class~="sr-only"]` mora imati svojstvo `overflow` postavljeno na `hidden`.
 
 ```js
 assert.strictEqual(
@@ -22,7 +22,7 @@ assert.strictEqual(
 );
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+Tvoj selektor za `span[class~="sr-only"]` mora imati svojstvo `white-space` postavljeno na `nowrap`.
 
 ```js
 assert.strictEqual(

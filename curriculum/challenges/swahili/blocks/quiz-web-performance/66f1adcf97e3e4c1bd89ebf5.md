@@ -1,13 +1,13 @@
 ---
 id: 66f1adcf97e3e4c1bd89ebf5
-title: Jaribio fupi la utendaji wa mtandao
+title: Kratak test performansi mreže
 challengeType: 8
 dashedName: quiz-web-performance
 ---
 
 # --description--
 
-Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 yaliyo hapa chini.
+Da biste položili kratki test, morate tačno odgovoriti na najmanje 18 od 20 pitanja koja su navedena ispod.
 
 # --quizzes--
 
@@ -17,39 +17,39 @@ Ili kupita jaribio fupi, lazima ujibu kwa usahihi angalau maswali 18 kati ya 20 
 
 #### --text--
 
-Tofauti kuu kati ya utendaji halisi na utendaji unaoonekana katika ukuzaji wa mtandao ni upi?
+Koja je glavna razlika između stvarnih performansi i prikazanih performansi u razvoju mreže?
 
 #### --distractors--
 
-Utendaji halisi unazingatia idadi ya maombi ya HTTP yanayotolewa na kivinjari, wakati utendaji unaoonekana unategemea kasi ya kuonyesha CSS.
+Stvarna performansa zavisi od broja zahteva za HTTP koje šalje pretraživač, dok zapažena performansa zavisi od brzine prikazivanja CSS.
 
----
+[No Swahili text provided.]
 
-Utendaji halisi ni kuhusu muda wa kupakia tu, wakati utendaji unaoonekana unahusiana na vipengele vya kuona kama michoro na viashiria vya upakiaji.
+Stvarni učinak se tiče samo vremena učitavanja, dok se percipirani učinak odnosi na vidljive elemente kao što su grafici i indikatori učitavanja.
 
----
+[No Swahili text provided.]
 
-Utendaji halisi unajumuisha tu muda wa usindikaji upande wa seva, wakati utendaji unaoonekana ni upande wa mteja pekee.
+Stvarni učinak obuhvata samo vreme obrade na strani servera, dok je vidljivi učinak samo sa strane klijenta.
 
 #### --answer--
 
-Utendaji halisi ni jinsi haraka maudhui yanavyopakiwa, wakati utendaji unaoonekana ni jinsi watumiaji wanavyodhani ukurasa unapakia haraka.
+Stvarna performansa je koliko brzo se sadržaj učitava, dok je vidljiva performansa kako korisnici *osećaju* da stranica brzo učitava.
 
 ### --question--
 
 #### --text--
 
-Ni kipimo gani kinachoonyesha vyema jinsi maudhui yanavyoonekana haraka kwenye ukurasa wa mtandao?
+Koji metrika najbolje pokazuje kako se sadržaj brzo pojavljuje na veb stranici?
 
 #### --distractors--
 
-Time to Interactive (TTI)
+Vreme do interaktivnosti (TTI)
 
----
+[No Swahili text provided.]
 
-Page Load Time (PLT)
+Vreme učitavanja stranice (PLT)
 
----
+[No Swahili text provided.]
 
 Last Contentful Paint (LCP)
 
@@ -61,83 +61,83 @@ First Contentful Paint (FCP)
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SI njia ya kupunguza muda wa upakiaji wa ukurasa?
+Koji od sledećih nije način za smanjenje vremena učitavanja stranice?
 
 #### --distractors--
 
-Kuboresha mali za vyombo vya habari.
+Unapređenje materijala za medije.
 
----
+[No Swahili text provided.]
 
-Kutumia uhifadhi wa kivinjari.
+Koristi keš memoriju pretraživača.
 
----
+[No Swahili text provided.]
 
-Kupunguza ukubwa na kusanifu mafaili.
+Smanjite veličinu i optimizujte fajlove.
 
 #### --answer--
 
-Kutumia mafaili ya JPEG pekee.
+Koristiti samo JPEG fajlove.
 
 ### --question--
 
 #### --text--
 
-"Time to usable" ni nini?
+"Time to usable" šta je?
 
 #### --distractors--
 
-Ni muda kuanzia mtumiaji anapotoa ombi la ukurasa hadi anapoweza kuingiliana na fomu kwenye ukurasa.
+Vreme je od trenutka kada korisnik traži stranicu do trenutka kada može da interaktuje sa formularom na toj stranici.
 
----
+[No Swahili text provided.]
 
-Ni muda unaochukua picha zote na michoro kuwa tayari na kutumika.
+Treba vreme da se sve slike i crteži pripreme za upotrebu.
 
----
+[No Swahili text provided.]
 
-Huu ni muda unaochukua CSS zote na michoro ya JavaScript kupakia kwenye skrini.
+Ovo je vreme potrebno za učitavanje svih CSS i crteža od JavaScript na ekran.
 
 #### --answer--
 
-Ni muda kuanzia mtumiaji anapotoa ombi la ukurasa hadi anapoweza kuingiliana nalo kwa maana.
+To je period koji počinje kada korisnik podnese zahtev za stranicu, sve dok ne bude u stanju da sa njom smisleno interaguje.
 
 ### --question--
 
 #### --text--
 
-First Contentful Paint (FCP) hupima nini?
+First Contentful Paint (FCP) šta meri?
 
 #### --distractors--
 
-Muda wa jumla wa kupakia mafaili yote ya JavaScript kwenye ukurasa.
+Ukupno vreme za učitavanje svih fajlova JavaScript na stranicu.
 
----
+[No Swahili text provided.]
 
-Ucheleweshaji kabla mtumiaji aweze kuingiliana na vipengele vyovyote kwenye ukurasa.
+Kašnjenje pre nego što korisnik može da interaguje sa bilo kojim elementima na stranici.
 
----
+[No Swahili text provided.]
 
-Muda unaochukua majedwali yote ya mitindo kupakia kikamilifu na kutumika.
+Vreme koje je potrebno za potpuno učitavanje svih tabela stilova i korišćenje ih.
 
 #### --answer--
 
-Muda unaochukua kipande cha kwanza cha maandishi au picha kuonyesha.
+Vreme potrebnog za prikaz prvog dela teksta ili slike.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SI chombo kinachotumika mara nyingi kupima utendaji?
+Koji od sledećih nije alat koji se često koristi za merenje performansi?
 
 #### --distractors--
 
 Chrome DevTools
 
----
+[No Swahili text provided.]
 
-Lighthouse
+Svetionik
 
----
+[No Swahili text provided.]
 
 WebPageTest
 
@@ -149,149 +149,149 @@ WebMeasure
 
 #### --text--
 
-Performance Web APIs hutumika kwa ajili gani?
+Za šta se koriste Performance Web API-ji?
 
 #### --distractors--
 
-Inatumika kupima utendaji wa michoro ya CSS pekee.
+Koristi se za testiranje performansi crteža CSS samo.
 
----
+[No Swahili text provided.]
 
-Inatumika kuharakisha utendaji wa ukurasa wa mtandao moja kwa moja.
+Koristi se za ubrzanje performansi web stranice direktno.
 
----
+[No Swahili text provided.]
 
-Inatoa jedwali la kina la vipimo vya utendaji kwa mtumiaji.
+Pruža detaljnu tabelu pokazatelja performansi za korisnika.
 
 #### --answer--
 
-Inamruhusu msanidi programu kufuatilia ufanisi wa upakiaji na majibu ya ukurasa wa mtandao moja kwa moja kutoka kwenye msimbo.
+Dozvoljavam programeru da prati efikasnost učitavanja i odgovor web stranice direktno iz koda.
 
 ### --question--
 
 #### --text--
 
-Ni mkakati gani unaweza kuboresha kwa ufanisi utendaji unaoonekana?
+Koja strategija može efikasno poboljšati vidljive performanse?
 
 #### --distractors--
 
-Kutumia picha kubwa kuboresha ubora wa jumla wa kuona.
+Korišćenjem velike slike za poboljšanje ukupnog vizuelnog kvaliteta.
 
----
+[No Swahili text provided.]
 
-Kupakia mitindo ya CSS mwishoni ili kuipa kipaumbele kuonyesha maudhui.
+Učitati stilove CSS na kraju ili dati prioritet prikazivanju sadržaja.
 
----
+[No Swahili text provided.]
 
-Kupakia awali skiripti zote kuhakikisha ziko tayari zinapohitajika.
+Učitati sve skripte unapred kako bi se osiguralo da su spremne kada su potrebne.
 
 #### --answer--
 
-Kuonyesha muundo wa upakiaji wakati maudhui yanapopatikana.
+Prikazivanje strukture učitavanja kada su sadržaji dostupni.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo inahusu muda unaochukua ombi kusafiri kati ya kivinjari na seva?
+Koja od sledećih stavki se tiče vremena koje zahtev prolazi između klijenta i servera?
 
 #### --distractors--
 
-rendering
+renderovanje
 
----
+[No Swahili text provided.]
 
 INP
 
----
+[No Swahili text provided.]
 
 CDN
 
 #### --answer--
 
-latency
+Задинскост
 
 ### --question--
 
 #### --text--
 
-Kuboresha CSS kunaathirije utendaji wa ukurasa?
+Da li CSS utiče na performanse stranice?
 
 #### --distractors--
 
-Inazuia kivinjari kutekeleza JavaScript zisizohitajika.
+Sistem sprečava izvršavanje nepotrebnih JavaScript.
 
----
+[No Swahili text provided.]
 
-Inapunguza ukubwa wa mafaili ya picha.
+Smanjuje veličinu fajlova sa fotografijama.
 
----
+[No Swahili text provided.]
 
-Inaboresha upakiaji wa picha kwa njia ya lazy loading.
+Poboljšava učitavanje slika korišćenjem lazy loading-a.
 
 #### --answer--
 
-Inaharakisha uchambuzi wa HTML.
+Ubrzanje analize HTML.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo inaonyesha muda ambao nyuzi kuu zimezuiwa na kazi nzito za JavaScript?
+Koji od sledećih pokazuje vreme kada glavni niti su blokirani teškim radom JavaScript?
 
 #### --distractors--
 
-Source order
+Izvorni redosled
 
----
+[No Swahili text provided.]
 
 Bounce rate
 
----
+[No Swahili text provided.]
 
 WebPageTest
 
 #### --answer--
 
-Total Blocking Time
+Ukupno vreme blokiranja
 
 ### --question--
 
 #### --text--
 
-Unapopima Interaction to Next Paint (INP), ni nini kinachopimwa?
+Kada merite Interaction to Next Paint (INP), šta se meri?
 
 #### --distractors--
 
-Muda unaochukua ukurasa kupakia mitindo na picha zote baada ya mwingiliano wa mtumiaji.
+Vreme potrebno za učitavanje stranice sa svim stilovima i slikama nakon interakcije korisnika.
 
----
+[No Swahili text provided.]
 
-Ucheleweshaji kati ya mwingiliano wa mtumiaji na uwezo wa kivinjari kurekodi ingizo lijalo la mtumiaji.
+Kašnjenje između interakcije korisnika i sposobnosti pregledača za beleženje unosa podataka korisnika.
 
----
+[No Swahili text provided.]
 
-Muda kati ya utekelezaji wa JavaScript na kivinjari kuonyesha tena maudhui ya ukurasa.
+Vreme između izvršavanja JavaScript u pretraživaču za ponovno prikazivanje sadržaja stranice.
 
 #### --answer--
 
-Muda kati ya mwingiliano wa mtumiaji na kivinjari kujibu kwa kuonyesha fremu ijayo.
+Vreme između interakcije korisnika i pregledača, uz odgovor prikazivanjem sledećeg kadra.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya APIs zifuatazo inakupa alama za wakati za usahihi mkubwa (kwa millisekunde) kupima muda wa sehemu tofauti za tovuti yako kupakia?
+Koji od sledećih API-ja vam daje vremenske mjerenje sa visokom preciznošću (u milisekundama) za merenje vremena učitavanja različitih delova vaše veb stranice?
 
 #### --distractors--
 
 `performance.delay()`
 
----
+[No Swahili text provided.]
 
 `performance.previous()`
 
----
+[No Swahili text provided.]
 
 `performance.next()`
 
@@ -303,29 +303,29 @@ Ni ipi kati ya APIs zifuatazo inakupa alama za wakati za usahihi mkubwa (kwa mil
 
 #### --text--
 
-Ni ipi kati ya APIs zifuatazo inakupa mgawanyo wa kila hatua ya upakiaji wa ukurasa kutoka DNS lookup hadi `DOMContentLoaded`?
+Koja od sledećih API-ja vam daje pregled svakog koraka učitavanja stranice, od DNS upita do `DOMContentLoaded`?
 
 #### --distractors--
 
-Permit Timing API
+Vremenski okvir dozvole API
 
----
+[No Swahili text provided.]
 
-Performance Text API
+Performansni tekst API
 
----
+[No Swahili text provided.]
 
-Perform Timing API
+Izvršiti vremensko određivanje API
 
 #### --answer--
 
-Performance Timing API
+Merjenje performansi API
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo husikiliza matukio ya utendaji kama vile mabadiliko ya mpangilio, kazi ndefu, na mwingiliano wa mtumiaji?
+Koji od sljedećih prati događaje performansi, kao što su promjene rasporeda, dugotrajni zadaci i interakcija korisnika?
 
 #### --distractors--
 
@@ -339,7 +339,7 @@ const observer = new PermitObserve((list) => {
 observer.observe({ type: "longtask", buffered: true });
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const observer = new PerformObserver((list) => {  
@@ -351,7 +351,7 @@ const observer = new PerformObserver((list) => {
 observer.observe({ type: "longtask", buffered: true });
 ```
 
----
+[No Swahili text provided.]
 
 ```js
 const observer = new PermitObserver((list) => {  
@@ -379,51 +379,51 @@ observer.observe({ type: "longtask", buffered: true });
 
 #### --text--
 
-Lazy loading ya picha huongezaje utendaji wa ukurasa?
+Kako lazy loading slika poboljšava performanse stranice?
 
 #### --distractors--
 
-Inahakikisha picha zote zinapakia mara moja kwa uzoefu bora wa mtumiaji.
+Osigurava da se sve slike učitaju odmah za bolje korisničko iskustvo.
 
----
+[No Swahili text provided.]
 
-Inapunguza ukubwa wa mafaili ya picha kuharakisha upakiaji.
+Smanjuje veličinu fajlova slika kako bi se ubrzalo učitavanje.
 
----
+[No Swahili text provided.]
 
-Inapakia awali picha kuzuia ucheleweshaji wowote wa upakiaji.
+Učitavaju se slike unapred kako bi se sprečilo bilo kakvo kašnjenje pri učitavanju.
 
 #### --answer--
 
-Inachelewesha upakiaji wa picha zisizo za lazima hadi zipo kwenye mtazamo.
+Odlaže učitavanje nepotrebnih slika dok ne dođu u vidokrug.
 
 ### --question--
 
 #### --text--
 
-Code splitting ni nini?
+Šta je *code splitting*?
 
 #### --distractors--
 
-Inahusisha kugawanya msimbo wako wa React katika moduli zinazofanya kazi muhimu tu.
+To uključuje razdvajanje vašeg koda React u module koji obavljaju samo kritične funkcije.
 
----
+[No Swahili text provided.]
 
-Inahusisha kugawanya msimbo wako wa HTML katika moduli zinazofanya kazi zisizo muhimu tu.
+Uključuje razdvajanje vašeg koda od HTML u samo nebitne funkcionalne module.
 
----
+[No Swahili text provided.]
 
-Inahusisha kugawanya msimbo wako wa CSS katika moduli zinazofanya kazi muhimu na zisizo muhimu.
+Uključuje razdvajanje vašeg koda CSS u module koji obavljaju kritične i nekritične funkcije.
 
 #### --answer--
 
-Inahusisha kugawanya msimbo wako wa JavaScript katika moduli zinazofanya kazi muhimu na zisizo muhimu.
+Uključuje podelu vašeg koda od JavaScript u module koji obavljaju kritične i nekritične funkcije.
 
 ### --question--
 
 #### --text--
 
-Ni ipi kati ya zifuatazo ni njia sahihi ya kupakia picha kwa lazy load?
+Koja je od sledećih metoda ispravan način za učitavanje slika sa lazy load-om?
 
 #### --distractors--
 
@@ -431,13 +431,13 @@ Ni ipi kati ya zifuatazo ni njia sahihi ya kupakia picha kwa lazy load?
 <img src="placeholder.jpg" lazy="loading">
 ```
 
----
+[No Swahili text provided.]
 
 ```html
 <img src="placeholder.jpg" load="lazy">
 ```
 
----
+[No Swahili text provided.]
 
 ```html
 <img src="placeholder.jpg" lazy="load">
@@ -453,42 +453,42 @@ Ni ipi kati ya zifuatazo ni njia sahihi ya kupakia picha kwa lazy load?
 
 #### --text--
 
-Ni ipi kati ya zifuatazo SI njia ya kuboresha INP?
+Koja od sljedećih NIJE način za poboljšanje INP-a?
 
 #### --distractors--
 
-Kupunguza kazi ya nyuzi kuu kwa kugawanya kazi ndefu za JavaScript.
+Smanjite opterećenje glavnih niti deljenjem dugotrajnih zadataka JavaScript.
 
----
+[No Swahili text provided.]
 
-Kuboresha mshughulikiaji wa matukio.
+Poboljšanje hendlera događaja.
 
----
+[No Swahili text provided.]
 
-Kuchelewesha au kupakia kwa lazy mali nzito.
+Kašnjenje ili učitavanje teških lenjih resursa.
 
 #### --answer--
 
-Kutumia picha za PNG na JPEG pekee.
+Koristite slike samo u JPEG formatu za PNG.
 
 ### --question--
 
 #### --text--
 
-Kwa nini ufanisi wa nishati ni kipengele muhimu cha utendaji wa mtandao?
+Zašto je energetska efikasnost važan aspekt performansi mreže?
 
 #### --distractors--
 
-Huinua mvuto wa jumla wa kuona wa ukurasa wa mtandao.
+Poboljšajte ukupnu vizuelnu privlačnost web stranice.
 
----
+[No Swahili text provided.]
 
-Inapunguza idadi ya JavaScript inayotumika kwenye ukurasa wa mtandao.
+Smanjuje broj JavaScript koji se koristi na web stranici.
 
----
+[No Swahili text provided.]
 
-Inapunguza idadi ya mafaili ya CSS yanayohitajika na kufanya CSS yako ifanye kazi kwa kasi zaidi.
+Smanjuje broj fajlova za CSS koji su potrebni i omogućava da vaš CSS radi brže.
 
 #### --answer--
 
-Inapunguza mzigo kwenye vifaa, kuokoa nishati na kuboresha uendelevu.
+Smanjuje opterećenje uređaja, štedi energiju i poboljšava održivost.

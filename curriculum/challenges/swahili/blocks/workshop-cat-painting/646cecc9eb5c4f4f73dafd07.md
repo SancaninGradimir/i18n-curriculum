@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Step 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Hamisha sikio la kushoto kwa kuweka sifa ya position kuwa `absolute`, sifa ya `top` kuwa `-26px`, na sifa ya `left` kuwa `-31px`.
+Premestiti levi uho postavljanjem atributa pozicije na `absolute`, atribut za `top` na `-26px`, i atribut za `left` na `-31px`.
 
 # --hints--
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `position` iliyowekwa kuwa `absolute`. Usisahau kuongeza nukta ya nusu.
+Tvoj selektor `.cat-left-ear` mora imati svojstvo `position` koje je postavljeno na `absolute`. Ne zaboravi da dodaš decimalnu tačku.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position, 'absolute')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `top` iliyowekwa kuwa `-26px`
+Vaš [objekat] sa `.cat-left-ear` mora imati svojstvo `top` postavljeno na `-26px`
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top, '-26px')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `left` iliyowekwa kuwa `-31px`
+Vaš selektor za `.cat-left-ear` mora imati svojstvo `left` postavljeno na `-31px`
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left, '-31px')
