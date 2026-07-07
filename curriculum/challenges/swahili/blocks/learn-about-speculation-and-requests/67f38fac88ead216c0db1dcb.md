@@ -11,7 +11,7 @@ lang: en-US
 
 # --instructions--
 
-Slušajte audio odgovor na pitanje ispod.
+Slušaj audio odgovor na pitanje dole.
 
 # --questions--
 
@@ -49,7 +49,7 @@ Jessica odgovara na pitanje Jakea, potvrđujući da još nije proverila, ali da 
 
 `No, I didn't` Potvrđuje da još uvek nije pregledano.
 
-`I'll do that` pokazuje nameru da izvrši zadatak uskoro.
+`I'll do that` to pokazuje nameru da obavi zadatak ubrzo.
 
 # --scene--
 

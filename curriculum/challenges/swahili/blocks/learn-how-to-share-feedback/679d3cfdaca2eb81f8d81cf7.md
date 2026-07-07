@@ -1,50 +1,49 @@
 ---
 id: 679d3cfdaca2eb81f8d81cf7
-title: Zoezi la 97
+title: Vežba 97
 challengeType: 19
 dashedName: task-97
 lang: en-US
 ---
-
-<!-- (Audio) Maria: Can you look into it and see what's causing the problem? -->
+<!-- (Audio) Maria: Možete li da pogledate i saznate šta uzrokuje problem? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Maria anamuomba James afanye nini?
+Šta Marija traži od Džejmsa da uradi?
 
 ## --answers--
 
-Kurekebisha tatizo mara moja.
+Popraviti problem odmah.
 
 ### --feedback--
 
-Maria haumuombi James kurekebisha tatizo mara moja.
+Marija ne traži od Jemsa da popravi problem odmah.
 
 ---
 
-Kuripoti tatizo kwa mteja.
+Izvestite o problemu klijentu.
 
 ### --feedback--
 
-Maria hakutaja kumjulisha mteja.
+Maria nije obavestila klijenta.
 
 ---
 
-Kuchunguza tatizo.
+Istraživanje problema.
 
 ---
 
-Kupuuzia tatizo kwa sasa.
+Trenutno ignorišem problem.
 
 ### --feedback--
 
-Maria haumuombi James kupuuza tatizo.
+Maria ne traži od Jamesa da ignoriše problem.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ Maria haumuombi James kupuuza tatizo.
 
 # --explanation--
 
-`Can` hutumika sana kuomba kwa heshima, kuomba mtu afanye jambo kwa njia isiyo rasmi. Kwa mfano:
+`Can` Koristi se često za ljubazno traženje, molbu nekoga da nešto uradi na neformalan način. Primer:
 
-`Can you send me the report by noon?` - Hii ni njia ya heshima ya kumuomba mtu atume ripoti.
+`Can you send me the report by noon?` - Ovo je pristojan način da se nekome zatraži slanje izveštaja.
 
-Katika mazungumzo haya, Maria anamuomba James achunguze tatizo.
+Tokom ovog razgovora, Marija traži od Jamesa da ispita problem.
 
 # --scene--
 

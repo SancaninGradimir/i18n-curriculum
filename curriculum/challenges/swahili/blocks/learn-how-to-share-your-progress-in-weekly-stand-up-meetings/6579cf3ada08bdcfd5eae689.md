@@ -1,34 +1,33 @@
 ---
 id: 6579cf3ada08bdcfd5eae689
-title: Zoezi la 5
+title: Vežba 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
 ---
-
-<!-- (Audio) Sophie: Sure, Bob. I could use some help with a coding problem. -->
+<!-- (Audio) Sophie: Naravno, Bob. Potrebna mi je pomoć oko programskog problema. -->
 
 # --description--
 
-Katika mazungumzo haya, Sophie anafanya ombi kwa Bob. Kuelewa asili ya ombi lake ni muhimu kwa mawasiliano na ushirikiano mzuri wa timu, hasa katika mazingira ya kiufundi ambapo kutatua matatizo pamoja ni jambo la kawaida.
+U ovom razgovoru, Sophie pravi zahtev Bobu. Razumevanje prirode njenog zahteva je važno za komunikaciju i dobro timsko samarbeđanje, posebno u tehničkim okruženjima gde je zajedničko rešavanje problema uobičajeno.
 
 # --questions--
 
 ## --text--
 
-Sophie anaomba nini katika mazungumzo yake na Bob?
+Šta Sofije traži u razgovoru sa Bobom?
 
 ## --answers--
 
-Anamuomba msaada kuhusu tatizo la kuandika programu
+Tražim pomoć oko problema sa programiranjem/pisanjem programa
 
 ---
 
-Anataka Bob atatue tatizo hilo kwa niaba yake
+Želi da Bob reši taj problem u njegovo ime
 
 ### --feedback--
 
-Sophie anaomba msaada, si lazima Bob atatue tatizo hilo peke yake kabisa.
+Sophie traži pomoć, nije neophodno da Bob sam reši taj problem.
 
 ---
 
@@ -36,11 +35,11 @@ Anatoa msaada kwa Bob kuhusu tatizo fulani
 
 ### --feedback--
 
-Sophie ndiye anayeomba msaada, siyo kutoa msaada.
+Sophie je ona koja traži pomoć, a ne ona koja daje pomoć.
 
 ---
 
-Anazungumzia mradi wa baadaye
+Razgovaramo o budućem projektu
 
 ### --feedback--
 

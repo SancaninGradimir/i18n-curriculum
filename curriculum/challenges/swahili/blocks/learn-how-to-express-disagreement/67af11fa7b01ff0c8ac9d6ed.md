@@ -1,16 +1,15 @@
 ---
 id: 67af11fa7b01ff0c8ac9d6ed
-title: Zoezi la 45
+title: Vežba 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
 ---
-
 <!-- READING -->
 
 # --instructions--
 
-Soma maandishi na jibu swali lililopo hapa chini.
+Pročitajte tekst i odgovorite na pitanje koje je navedeno/nalazi se ispod.
 
 # --questions--
 
@@ -46,7 +45,7 @@ Ili kuboresha faraja na kuzuia maumivu ya mgongo.
 
 ---
 
-Kununua mapambo kwa ofisi yao ya nyumbani.
+Kupovati dekoracije za njihov kućni kabinet.
 
 ### --feedback--
 
@@ -54,11 +53,11 @@ Makala haijajadili samani zinazoboresha mapambo.
 
 ---
 
-Kuvutia wenzake kazini.
+Privuci svoje kolege na poslu.
 
 ### --feedback--
 
-Sababu iliyotolewa katika makala si kuhusu muonekano.
+Razlog naveden u članku nije o izgledu.
 
 ## --video-solution--
 
@@ -66,6 +65,6 @@ Sababu iliyotolewa katika makala si kuhusu muonekano.
 
 # --explanation--
 
-Makala inaeleza kuwa `a bad chair and desk can cause health problems` na kufanya iwe vigumu kuwa makini. Hii ndiyo sababu baadhi ya wafanyakazi wanapendelea kutumia ruzuku hiyo kwa samani za ofisi badala ya teknolojia.
+Makala objašnjava da `a bad chair and desk can cause health problems` i čini teško da se koncentriše. Zato neki zaposleni više vole da koriste tu subvenciju za kancelarijski nameštaj umesto tehnologije.
 
-Makini na jinsi makala inavyosisitiza ergonomics na ustawi kama sababu kuu za kuchagua samani badala ya kompyuta.
+Obrati pažnju na to kako članak naglašava ergonomiju i blagostanje kao glavne razloge za biranje nameštaja umesto računara.

@@ -1,26 +1,26 @@
 ---
 id: 65b006efc74c675c2bdfccba
-title: Hatua 33
+title: Korak 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-Kwa hali ya mwisho, utahitaji kukagua kama mchezaji ana nafasi ya `x` ambayo imezidi ukingo wa kulia wa turubai ya kuchora. Ikiwa imezidi, utahitaji kuweka nafasi ya `x` ya mchezaji kuwa thamani ya juu kabisa ili mchezaji asiende kwa bahati mbaya nje ya skrini upande wa kulia.
+Na kraju, moraš proveriti da li je pozicija `x` igrača koja prelazi desnu ivicu crtaćeg platna. Ako pređe, moraš postaviti poziciju `x` igrača na maksimalnu vrednost kako bi se sprečilo da igrač slučajno izađe van ekrana sa desne strane.
 
-Ndani ya njia yako ya `update`, tengeneza usemi wa `if` unaokagua kama `this.position.x >= canvas.width - this.width * 2`.
+Unutar vaše putanje za `update`, kreiraj statement koji proverava da li `if` je kao `this.position.x >= canvas.width - this.width * 2`.
 
 # --hints--
 
-Unapaswa kuwa na usemi mwingine wa `if` ndani ya njia yako ya `update`.
+Trebalo bi da imaš drugi izraz za `if` unutar svog puta `update`.
 
 ```js
 const player = new Player();
 assert.lengthOf(player?.update?.toString().match(/if\s*\(\s*.*\s*\)\s*{/g), 4);
 ```
 
-Usemi wako wa `if` unapaswa kukagua kama `this.position.x >= canvas.width - this.width * 2`.
+Vaše korišćenje od `if` mora da proveri kao `this.position.x >= canvas.width - this.width * 2`.
 
 ```js
 const player = new Player();

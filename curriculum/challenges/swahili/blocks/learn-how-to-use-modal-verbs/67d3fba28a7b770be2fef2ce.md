@@ -1,24 +1,23 @@
 ---
 id: 67d3fba28a7b770be2fef2ce
-title: Zoezi la 6
+title: Vežbanje 6
 challengeType: 19
 dashedName: task-6
 lang: en-US
 ---
-
-<!-- (Audio) Jessica: Hi Mark, we need to talk about security protocols for the new project. There are a few things you must do to ensure compliance. -->
+<!-- (Audio) Jessica: Zdravo Mark, moramo da pričamo o sigurnosnim protokolima for projektu za new. Postoji nekoliko stvari koje morate do da biste osigurali usklađenost. -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Mark hapendi kuzungumza na Jessica na anataka kujua anapaswa kufanya nini. Atasema nini?
+Mark ne voli da razgovara sa Jessicom i želi da zna šta bi trebalo da uradi. Šta će reći?
 
 ## --answers--
 
@@ -30,7 +29,7 @@ EN415e8cd4
 
 ### --feedback--
 
-Jibu hili halilingani na utayari wa Mark wa kuzungumza.
+Ovaj odgovor ne odgovara spremnosti Marka da govori.
 
 ---
 
@@ -46,11 +45,11 @@ EN61f614de
 
 # --explanation--
 
-Jibu sahihi linaonyesha kwamba Mark yuko tayari kuzungumza na anataka kujua hatua zinazohitajika.
+Tačan odgovor pokazuje da je Mark spreman da razgovara i želi da sazna potrebne korake.
 
-`Sure, Jessica` inaonyesha kukubaliana na utayari wa kuzungumza.
+`Sure, Jessica` pokazuje saglasnost sa spremnošću za razgovor.
 
-`What do I need to do?` inaonyesha kwamba Mark anauliza maelekezo, ambayo yanalingana na kauli ya Jessica kuhusu anachopaswa kufanya ili kuhakikisha ufuataji.
+`What do I need to do?` pokazuje da Mark traži uputstva, što odgovara izjavi Jessike o tome šta bi trebalo da uradi kako bi osigurao praćenje.
 
 # --scene--
 

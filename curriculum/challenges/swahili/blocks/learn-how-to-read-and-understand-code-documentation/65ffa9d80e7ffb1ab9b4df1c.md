@@ -1,16 +1,15 @@
 ---
 id: 65ffa9d80e7ffb1ab9b4df1c
-title: Zoezi la 11
+title: Vežba 11
 challengeType: 22
 dashedName: task-11
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: Once you've found the section you need, you should start by reading the introductory paragraphs to get an overview of what the documentation covers. -->
+<!-- (Audio) Sarah: Kada pronađete odeljak koji vam treba, trebalo bi da počnete čitanjem uvodnih pasusa radi get pregleda onoga što dokumentacija pokriva. -->
 
 # --description--
 
-Sikiliza sauti na ukamilishe sentensi.
+Slušaj zvuk i dovrši rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi.
 
 ### --feedback--
 
-Inaonyesha kuwa kitendo kinachofuata hufanyika mara tu sehemu inapopatikana. Andika neno hili kwa herufi kubwa mwanzoni.
+Pokazuje da sledeća akcija se dešava čim je prostor dostupan. Napiši ovu reč velikim slovom na početku.
 
 ---
 
@@ -32,7 +31,7 @@ Inaonyesha kuwa kitendo kinachofuata hufanyika mara tu sehemu inapopatikana. And
 
 ### --feedback--
 
-Hutumiwa hapa kumaanisha kupata au kugundua sehemu inayohitajika katika nyaraka.
+Koristi se ovde što znači pronalaženje ili lociranje potrebnog dela u dokumentu.
 
 ---
 
@@ -40,7 +39,7 @@ Hutumiwa hapa kumaanisha kupata au kugundua sehemu inayohitajika katika nyaraka.
 
 ### --feedback--
 
-Neno hili linahusu aya za mwanzo zinazotoa ufahamu wa msingi kuhusu sehemu hiyo.
+Ovo se odnosi na uvodne stihove koji pružaju osnovno razumevanje tog dela.
 
 ---
 
@@ -48,7 +47,7 @@ Neno hili linahusu aya za mwanzo zinazotoa ufahamu wa msingi kuhusu sehemu hiyo.
 
 ### --feedback--
 
-Linamaanisha kile nyaraka zinajumuisha au kushughulikia kwa upande wa maudhui.
+Odnosi se na ono što dokumenti sadrže ili obrađuju u pogledu sadržaja.
 
 # --scene--
 

@@ -1,17 +1,17 @@
 ---
 id: 65ef1a1fcb527bba0ca82ccf
-title: Hatua 6
+title: Korak 6
 challengeType: 20
 dashedName: step-6
 ---
 
 # --description--
 
-Ikiwa `square_target` ni sawa na `1`, tangaza kigezo `root` na weka thamani `1` . Pia, chapisha ujumbe `'The square root of {square_target} is 1'`. Kumbuka kuunda ujumbe kwa kutumia mfuatano wa herufi wa f-string.
+Ako je `square_target` jednako `1`, deklariraj parametar `root` i postavi vrednost `1`. Takođe, ispiši poruku `'The square root of {square_target} is 1'`. Zapamti da kreiraš poruku koristeći f-string formatiranje.
 
 # --hints--
 
-Unapaswa kuondoa neno kuu `pass`.
+Treba da uklonite glavnu reč `pass`.
 
 ```js
 ({
@@ -22,7 +22,7 @@ Unapaswa kuondoa neno kuu `pass`.
 })
 ```
 
-Unapaswa kuweka thamani `1` kwa kigezo `root` na kuchapisha ujumbe `'The square root of {square_target} is 1'` ndani ya mwili wa `if`.
+Treba da postavite vrednost `1` za parametar `root` i odštampate poruku `'The square root of {square_target} is 1'` unutar tela `if`.
 
 ```js
 

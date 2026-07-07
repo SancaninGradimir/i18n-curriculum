@@ -1,27 +1,27 @@
 ---
 id: 61fda339eadcfd92a6812bed
-title: Hatua 30
+title: Korak 30
 challengeType: 0
 dashedName: step-30
 ---
 
 # --description--
 
-Kabla hujaingia sana katika mtindo wako, unapaswa kutumia darasa la `sr-only`. Unaweza kutumia CSS kuficha kabisa vipengele vyenye darasa hili kutoka kwenye ukurasa unaoonekana, lakini bado vitatangazwa na visomaji vya skrini.
+Ako je vrlo integrisano u vaš stil, trebalo bi da koristite klasu `sr-only`. Možete koristiti CSS da potpuno sakrijete elemente sa ovom klasom sa vidljive stranice, ali će i dalje biti objavljeni od strane čitača ekrana.
 
-CSS unayotarajia kuandika ni seti ya kawaida ya sifa zinazotumika kuhakikisha vipengele vimefichwa kabisa kwa mtazamo wa macho.
+CSS Ono što ste spremni da napišete je standardni skup atributa koji se koristi za osiguravanje da su elementi potpuno skriveni od vida.
 
-Kichaguzi cha `span[class~="sr-only"]` kitachagua kipengele chochote cha `span` ambacho `class` *inajumuisha* `sr-only`. Unda kichaguzi hicho, na kipa sifa ya `border` yenye thamani ya `0`.
+Selektor za `span[class~="sr-only"]` će izabrati bilo koji element od `span` koji `class` *uključuje* `sr-only`. Kreiraj taj selektor, i atributni selektor za `border` sa vrednošću `0`.
 
 # --hints--
 
-Unapaswa kuwa na kichaguzi cha `span[class~="sr-only"]`.
+Trebalo bi da imaš birač za `span[class~="sr-only"]`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]'));
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `border` yenye thamani ya `0`.
+Vaš selektor za `span[class~="sr-only"]` mora imati svojstvo `border` sa vrednošću `0`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('border-width') === '0px');

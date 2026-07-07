@@ -1,16 +1,15 @@
 ---
 id: 678a5e7dffffba38c5ad16c4
-title: Zoezi la 17
+title: Vežba 17
 challengeType: 22
 dashedName: task-17
 lang: en-US
 ---
-
 <!-- (audio) Linda: In my case, I prefer Python because it's great for data analysis. Plus, it's really good for building prototypes quickly. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kitu ni kinachofaa sana au kinachofanya kazi vizuri kwa kusudi fulani.
+Ovaj dvoredni izraz znači da je nešto veoma pogodno ili da dobro funkcioniše za određenu svrhu.
 
 ---
 
@@ -32,15 +31,15 @@ Usemi huu wa maneno mawili unamaanisha kitu ni kinachofaa sana au kinachofanya k
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kitu kinachofaa au kinachosaidia kwa kazi au hali fulani.
+Ovaj izraz od dve reči znači nešto što je odgovarajuće ili korisno za određeni posao ili situaciju.
 
 # --explanation--
 
-Zote `great for` na `good for` zinamaanisha kitu kinachosaidia sana, kinachofaa au kinachofanya kazi vizuri kwa kusudi fulani. Kwa mfano:
+Sve `great for` na `good for` znače nešto što je veoma korisno, prikladno ili dobro funkcioniše za određenu svrhu. Na primer:
 
-- `This new software is great for managing large projects.` - Hii inamaanisha programu ni inayofaa sana na yenye ufanisi kwa kusimamia miradi mikubwa.
+- `This new software is great for managing large projects.` - Ovo znači da je program vrlo pogodan i efikasan za upravljanje velikim projektima.
 
-- `Cloud storage is good for backing up large volumes of data.` - Hii inamaanisha hifadhi ya wingu ni yenye ufanisi mkubwa na inayofaa kuhifadhi salama kiasi kikubwa cha data.
+- `Cloud storage is good for backing up large volumes of data.` - Ovo znači da je skladištenje u oblaku veoma efikasno i pogodno za sigurno skladištenje velike količine podataka.
 
 # --scene--
 

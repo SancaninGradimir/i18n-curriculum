@@ -1,25 +1,25 @@
 ---
 id: 65c4f3aee69d11dcfdbcfc00
-title: Hatua 18
+title: Korak 18
 challengeType: 20
 dashedName: step-18
 ---
 
 # --description--
 
-Sasa, ndani ya njia ya `insert`, unahitaji kuita njia ya msaada `_insert()` ambayo tuliitekeleza awali.  
-Hapa, `_insert` imejifunga utekelezaji wa mantiki ya kuingiza. Hii ni muhimu kwa ajili ya kurudia na kwa kuweka maelezo ya utekelezaji yakiwa yamefichwa kutoka kwa mtumizi.
+Sada, unutar metode `insert`, morate pozvati pomoćnu funkciju `_insert()` koju smo ranije implementirali.
+Ovde, `_insert` je obavio *wrapping* izvršavanja logike unosa. Ovo je važno za ponovnu upotrebu i za skrivanje detalja implementacije od korisnika.
 
-Futa `pass` na weka thamani ya `self._insert(self.root, key)` kwa `self.root`.
+Postavi `pass` na vrednost od `self._insert(self.root, key)` za `self.root`.
 
-Kumbuka kwamba:
+Zapamtite da:
 
-- `self.root` hupitisha nodi mzizi wa mti kama hoja ya kwanza. Hii ni mwanzo wa mchakato wa kuingiza.
-- `key`: hupitisha thamani ya `key` unayotaka kuingiza kama hoja ya pili.
+- `self.root` prosleđuje čvor korena drveta kao prvi argument. Ovo je početak procesa unosa.
+- `key`: prosleđuje vrednost `key` koju želite da unesete kao drugi argument.
 
 # --hints--
 
-Unapaswa kuondoa neno la `pass` kutoka kwenye njia ya `insert`.
+Trebalo bi da uklonite reč `pass` iz puta `insert`.
 
 ```js
 ({
@@ -34,7 +34,7 @@ Unapaswa kuondoa neno la `pass` kutoka kwenye njia ya `insert`.
 
 ```
 
-Unapaswa kuita njia ya `_insert()` kwa kurudia ukitumia `self._insert()`
+Trebalo bi da pozoveš putanju `_insert()` za ponavljanje korišćenjem `self._insert()`
 
 ```js
 ({ test: () =>
@@ -47,7 +47,7 @@ Unapaswa kuita njia ya `_insert()` kwa kurudia ukitumia `self._insert()`
 })
 ```
 
-Unapaswa kupitisha `self.root` na `key` kwenye wito wako wa `_insert()`.
+Morate proslediti `self.root` i `key` u vašem pozivu od `_insert()`.
 
 ```js
 ({ test: () =>
@@ -60,7 +60,7 @@ Unapaswa kupitisha `self.root` na `key` kwenye wito wako wa `_insert()`.
 })
 ```
 
-Unapaswa kuweka thamani ya return ya wito wako wa `_insert()` kwa `self.root`.
+Treba da postavite vrednost return za vaš poziv `_insert()` za `self.root`.
 
 ```js
 ({ test: () =>

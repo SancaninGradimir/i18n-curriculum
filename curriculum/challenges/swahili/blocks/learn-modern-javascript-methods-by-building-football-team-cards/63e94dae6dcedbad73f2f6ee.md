@@ -1,15 +1,15 @@
 ---
 id: 63e94dae6dcedbad73f2f6ee
-title: Hatua 24
+title: Korak 24
 challengeType: 0
 dashedName: step-24
 ---
 
 # --description--
 
-`arr` ina mfululizo wa vitu ambavyo kila kimoja kina sifa za `name`, `position`, `number`, `isCaptain` na `nickname`. Ili kupata upatikanaji wa kila sifa hizo ndani ya kitendakazi cha mwitiko, utahitaji kutumia ufumbuzi wa muundo wa vitu ili kuzifungua kuwa vigezo.
+`arr` ima niz stavki, svaka od kojih poseduje svojstva ``name``, ``position``, ``number``, ``isCaptain`` i ``nickname``. Da biste pristupili svim ovim svojstvima unutar funkcije povratne pozive (callback), biće vam potrebno da koristite rešenje objektnog modela kako biste ih otvorili u parametre.
 
-Hapa kuna mfano:
+Evo primera:
 
 ```js
 function myExampleFunction({ name, age, job, city }) {
@@ -17,11 +17,11 @@ function myExampleFunction({ name, age, job, city }) {
 }
 ```
 
-Ndani ya orodha ya vigezo katika kitendakazi cha mwitiko kwa njia ya `map`, fungua sifa zote 5 za vitu kutoka kwa vitu vilivyoko `arr` kwa kutumia ufumbuzi wa muundo wa vitu.
+Unutar liste parametara u funkciji odgovora putem `map`, retvori sva 5 svojstava objekata iz objekata koji su na `arr` koristeći rešenje modela objekata.
 
 # --hints--
 
-Unapaswa kufungua sifa zote 5 za vitu kutoka kwa vitu vilivyoko `arr` kwa kutumia ufumbuzi wa muundo wa vitu.
+Trebalo bi da otvorite sva 5 svojstava objekata iz objekata koji se nalaze `arr` koristeći rešenje strukture objekata.
 
 ```js
 

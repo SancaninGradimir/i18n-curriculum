@@ -1,18 +1,18 @@
 ---
 id: 66df6aad5cfef4692e2e2a5a
-title: Zoezi la 74
+title: Vežba 74
 challengeType: 22
 dashedName: task-74
 lang: en-US
 ---
 <!--
-AUDIO REFERENCE:
-Linda: Not yet, but I anticipate we'll start receiving more detailed reports as more users navigate the updated interface.
+AUDIO REFERENCIJA:
+Linda: Još ne, ali očekujem da ćemo početi da primamo detaljnije izveštaje as više korisnika navigira ažuriranim interfejsom.
 -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -34,7 +34,7 @@ Neno linaloonyesha matendo mawili yanayotokea kwa wakati mmoja au tendo moja lin
 
 ### --feedback--
 
-Neno linaloashiria kiasi au idadi kubwa zaidi.
+Termin koji označava najvišu vrednost ili najveći broj.
 
 ---
 
@@ -50,7 +50,7 @@ Neno linalorejelea watu wanaotumia na kuvinjari kiolesura kilichosasishwa.
 
 ### --feedback--
 
-Neno linalomaanisha kuzunguka au kupitia kitu, kama tovuti au programu.
+Termin koji znači prolaziti ili navigirati kroz nešto, kao što je veb stranica ili aplikacija.
 
 # --explanation--
 
@@ -58,7 +58,7 @@ Neno linalomaanisha kuzunguka au kupitia kitu, kama tovuti au programu.
 
 - `As I was walking home, they called me.` - Walikupigia simu wakati ulipokuwa unarudi nyumbani.
 
-- `You will get better at coding as you practice more.` - Utaimarika wakati au mara unapotumia mazoezi zaidi.
+- `You will get better at coding as you practice more.` - Oslabiće se ponekad ili često kada koristite više vežbanja.
 
 # --scene--
 

@@ -1,38 +1,37 @@
 ---
 id: 67a9f44e6dcabb0c402a9bfb
-title: Zoezi la 5
+title: Vežba 5
 challengeType: 19
 dashedName: task-5
 lang: en-US
 ---
-
-<!-- (Audio) Bob: Do you think that's a good idea? -->
+<!-- (Audio) Bob: Misliš li da je to dobra ideja? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Bob anataka kujua nini?
+Šta Bob želi da zna?
 
 ## --answers--
 
-Je, wafanyakazi tayari wamekununua samani za ofisi.
+Da li su zaposleni već kupili nameštaj za kancelariju?
 
 ### --feedback--
 
-Bob haulizi kuthibitisha ununuzi.
+Bob ne može da potvrdi kupovinu.
 
 ---
 
-Gharama ya samani za ofisi.
+Trošak namještaja za kancelariju.
 
 ### --feedback--
 
-Bob haulizi kuhusu bei.
+Bob ne pita o ceni.
 
 ---
 
@@ -44,7 +43,7 @@ Bob haongei kuhusu mabadiliko ya ruzuku.
 
 ---
 
-Je, Anna anafikiri kutumia ruzuku kwa ajili ya samani za ofisi ni wazo nzuri.
+Da li misli Ana da je korišćenje subvencija za kancelarijski nameštaj dobra ideja?
 
 ## --video-solution--
 
@@ -52,7 +51,7 @@ Je, Anna anafikiri kutumia ruzuku kwa ajili ya samani za ofisi ni wazo nzuri.
 
 # --explanation--
 
-Bob anauliza, `Do you think that's a good idea?` Hii ni njia ya kuuliza maoni ya mtu kuhusu pendekezo au mpango. Hapa kuna njia nyingine za kuuliza maoni:
+Bob pita, `Do you think that's a good idea?` Ovo je način da se traži tuđe mišljenje o predlogu ili planu. Evo drugih načina za traženje mišljenja:
 
 - `Do you think this will work?`
 
@@ -60,7 +59,7 @@ Bob anauliza, `Do you think that's a good idea?` Hii ni njia ya kuuliza maoni ya
 
 - `How do you feel about this plan?`
 
-Katika mazungumzo haya, Bob anarejelea wafanyakazi kutumia ruzuku ya kazi ya mbali kununua samani za ofisi. Badala ya kutoa maoni yake mwenyewe, anauliza Anna anafikiri nini.
+Tokom ovog razgovora, Bob pominje zaposlene koji koriste subvenciju za rad na daljinu da kupe kancelarijski nameštaj. Umesto da iznese sopstveno mišljenje, pita Anu šta misli.
 
 # --scene--
 

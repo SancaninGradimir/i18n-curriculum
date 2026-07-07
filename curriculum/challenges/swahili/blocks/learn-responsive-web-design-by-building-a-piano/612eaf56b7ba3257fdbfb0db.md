@@ -1,25 +1,25 @@
 ---
 id: 612eaf56b7ba3257fdbfb0db
-title: Hatua 21
+title: Korak 21
 challengeType: 0
 dashedName: step-21
 ---
 
 # --description--
 
-Piano inahitaji nembo ya freeCodeCamp ili iwe rasmi.
+Piano mu treba logo freeCodeCamp-a ili da bude zvaničan.
 
-Ongeza kipengele cha `img` kabla ya kipengele chako cha `.keys`. Mpe `img` `class` ya `logo`, na weka `src` kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Mpe maandishi ya `alt` ya `freeCodeCamp Logo`.
+Dodajte element `img` pre vašeg elementa `.keys`. Postavite `img` `class` od `logo`, i postavite `src` na `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`. Postavite tekst `alt` od `freeCodeCamp Logo`.
 
 # --hints--
 
-Unapaswa kuongeza kipengele kipya cha `img`.
+Trebalo bi da dodaš novu komponentu/funkciju `img`.
 
 ```js
 assert(document.querySelectorAll('img')?.length === 1);
 ```
 
-Kipengele chako cha `img` kinapaswa kuja kabla ya kipengele chako cha kwanza cha `.keys`.
+Element za `img` mora da dođe pre vašeg prvog elementa `.keys`.
 
 ```js
 const img = document.querySelector('img');
@@ -27,27 +27,27 @@ assert(img?.nextElementSibling?.className === 'keys');
 assert(img?.previousElementSibling === null);
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na `class` iliyowekwa kuwa `logo`.
+Vaša komponenta za `img` treba da ima `class` podešeno na `logo`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.className === 'logo');
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
+Vaš element za `img` mora imati `src` postavljen na `https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg`.
 
 ```js
 const img = document.querySelector('img');
 assert(img?.getAttribute('src') === 'https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg');
 ```
 
-Kipengele chako cha `img` kinapaswa kuwa na sifa ya `alt` iliyowekwa kuwa `freeCodeCamp Logo`.
+Element vašeg `img` treba da ima svojstvo `alt`, postavljeno na `freeCodeCamp Logo`.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt')?.toLowerCase() === 'freecodecamp logo');
 ```
 
-Kumbuka kuwa herufi kubwa na tahajia ni muhimu.
+Zapamtite da su velika i mala slova važna.
 
 ```js
 assert(document.querySelector('img')?.getAttribute('alt') === 'freeCodeCamp Logo');

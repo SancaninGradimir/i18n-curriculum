@@ -1,6 +1,6 @@
 ---
 id: 67d78c94b686ce3bddcaf8ab
-title: Zoezi la 117
+title: Vežba 117
 challengeType: 22
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 

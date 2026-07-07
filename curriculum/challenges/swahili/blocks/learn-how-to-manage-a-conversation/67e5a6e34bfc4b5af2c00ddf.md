@@ -1,16 +1,15 @@
 ---
 id: 67e5a6e34bfc4b5af2c00ddf
-title: Zoezi la 51
+title: Vežba 51
 challengeType: 22
 dashedName: task-51
 lang: en-US
 ---
-
-<!-- (Audio) Jessica: Well, we've discovered a critical bug that might affect the user interface. -->
+<!-- (Audio) Jessica: Pa, otkrili smo kritičnu grešku koja bi mogla da utiče na korisnički interfejs. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -36,7 +35,7 @@ Hii inamaanisha kubadilisha au kuathiri jambo fulani. Mara nyingi hutumika kuele
 
 # --explanation--
 
-`Critical` inamaanisha jambo la muhimu sana au la dharura. Kwa mfano:
+`Critical` to znači nešto veoma važno ili hitno. Na primer:
 
 `We have a critical deadline tomorrow.` – Hii inamaanisha tarehe ya mwisho ni muhimu sana na haiwezi kukosekana.
 

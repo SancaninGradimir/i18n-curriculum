@@ -1,23 +1,23 @@
 ---
 id: 64dceadec3c9cf2ca7b56de6
-title: Hatua 25
+title: Korak 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Ifuatayo, chini ya usemi uliopangwa ndani wa `elif`, ongeza usemi mwingine wa `if` ambao unapaswa kutekelezwa wakati `forward` ni `True`. Ndani ya sharti hili, chapisha f-string ifuatayo: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
+Sledeće, unutar izraza definisanog u `elif`, dodajte još jedan izraz od `if` koji bi trebalo da se izvrši kada `forward` je `True`. U ovom uslovu, ispišite sledeći f-string: `f'Moving disk {rods[source][-1]} from {source} to {target}'`.
 
 # --hints--
 
-Unapaswa kuongeza usemi wa `if` kutekelezwa wakati `forward` ni `True` baada ya sehemu ya `elif`.
+Trebalo bi dodati izjavu za `if` koja se izvršava kada je `forward` na `True` nakon sekcije od `elif`.
 
 ```js
 ({ test: () => assert.match(code, /^\s{12}if\s+forward(\s*==\s*True)?\s*:/m) })
 ```
 
-Unapaswa kuchapisha mfuatano wa herufi uliotolewa ndani ya usemi wako mpya wa `if`.
+Trebalo bi da odštampate niz slova koji je dat unutar vašeg novog izjava `if`.
 
 ```js
 ({ test: () => assert.match(code, /if\s+forward(\s*==\s*True)?\s*:\s+print\s*\(\s*f('|")Moving\sdisk\s\{\s*rods\s*\[\s*source\s*\]\s*\[\s*-\s*1\s*\]\s*\}\sfrom\s\{\s*source\s*\}\sto\s\{\s*target\s*\}\2\s*\)/) })

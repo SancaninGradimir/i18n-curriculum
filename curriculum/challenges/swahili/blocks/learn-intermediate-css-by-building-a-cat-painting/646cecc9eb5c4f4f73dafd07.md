@@ -1,29 +1,29 @@
 ---
 id: 646cecc9eb5c4f4f73dafd07
-title: Hatua 25
+title: Korak 25
 challengeType: 0
 dashedName: step-25
 ---
 
 # --description--
 
-Hamisha sikio la kushoto kwa kuweka sifa ya position kuwa `absolute`, sifa ya `top` kuwa `-26px`, na sifa ya `left` kuwa `-31px`.
+Premesti levi uho postavljanjem svojstva pozicije na `absolute`, svojstvo `top` na `-26px`, i svojstvo `left` na `-31px`.
 
 # --hints--
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `position` iliyowekwa kuwa `absolute`. Usisahau kuongeza nukta ya nusu.
+Vaš selektor za `.cat-left-ear` treba da ima svojstvo od `position`, postavljeno na `absolute`. Ne zaboravite da dodate decimalnu tačku.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.position === 'absolute')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `top` iliyowekwa kuwa `-26px`
+Vaš selektor za `.cat-left-ear` mora imati svojstvo `top` postavljeno na `-26px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.top === '-26px')
 ```
 
-Kichaguzi chako cha `.cat-left-ear` kinapaswa kuwa na sifa ya `left` iliyowekwa kuwa `-31px`
+Vaš selektor za `.cat-left-ear` mora imati svojstvo `left` postavljeno na `-31px`
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.cat-left-ear')?.left === '-31px')

@@ -1,6 +1,6 @@
 ---
 id: 678e0cbc0d01a2a5aea8dcec
-title: Zoezi la 47
+title: Vežba 47
 challengeType: 19
 dashedName: task-47
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Slušaj audio snimak i odgovori na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Kwa nini Jake anapendelea kutumia Visual Studio Code?
+Zašto Jake više voli da koristi Visual Studio Code?
 
 ## --answers--
 

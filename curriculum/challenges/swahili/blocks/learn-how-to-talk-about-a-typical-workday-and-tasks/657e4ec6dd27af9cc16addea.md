@@ -1,52 +1,51 @@
 ---
 id: 657e4ec6dd27af9cc16addea
-title: Zoezi la 79
+title: Vežba 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
 ---
-
-<!-- (audio) James: Compliance is when we put specific rules, policies, and regulations that are important to our industry into practice. It helps promote ethics at the workplace. -->
+<!-- (audio) James: Komplijansa je kada sprovodimo specifična pravila, politike i propise koji su važni za našu industriju. To pomaže u podizanju etike na radnom mestu. -->
 
 # --description--
 
-`Regulations` ni sheria rasmi zinazotolewa na serikali au mamlaka. Zimeundwa kudhibiti jinsi kitu kinavyofanya kazi au jinsi watu wanavyotenda, hasa katika biashara. Kwa mfano:
+`Regulations` Ovo su zvanični zakoni koje izdaju vlada ili vlasti. Kreirani su da kontrolišu kako nešto funkcioniše ili kako ljudi postupaju, posebno u poslovanju. Na primer:
 
-`Health and safety regulations ensure a safe workplace.` - Hii ina maana sheria za afya na usalama husaidia kufanya mahali pa kazi kuwa salama kwa kila mtu.
+`Health and safety regulations ensure a safe workplace.` - To znači da zakoni o zdravlju i bezbednosti pomažu da se radno mesto učini sigurnim za sve.
 
 # --questions--
 
 ## --text--
 
-`regulations` kwa kawaida ni nini katika muktadha wa biashara?
+`regulations` Šta je to obično u poslovnom kontekstu?
 
 ## --answers--
 
-Mapendeleo binafsi.
+Lične postavke.
 
 ### --feedback--
 
-`Regulations` ni sheria rasmi, si mapendeleo binafsi.
+`Regulations` to je zvaničan zakon, nije lično pravilo.
 
 ---
 
-Makubaliano yasiyo rasmi ya timu.
+Neformalan sporazum tima.
 
 ### --feedback--
 
-`Regulations` ni rasmi zaidi kuliko makubaliano yasiyo rasmi.
+`Regulations` je zvaničnije od neformalnog sporazuma.
 
 ---
 
-Sheria rasmi zilizowekwa na mamlaka.
+Zvanični zakoni uspostavljeni od strane vlasti.
 
 ---
 
-Mapendekezo ya shughuli za burudani.
+Predlozi zabavnih aktivnosti.
 
 ### --feedback--
 
-`Regulations` ni kuhusu mwenendo wa kitaalamu, si burudani.
+`Regulations` radi se o profesionalnim trendovima, a ne o zabavi.
 
 ## --video-solution--
 

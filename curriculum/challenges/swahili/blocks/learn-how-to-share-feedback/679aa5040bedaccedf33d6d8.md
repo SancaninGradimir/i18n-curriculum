@@ -1,22 +1,21 @@
 ---
 id: 679aa5040bedaccedf33d6d8
-title: Zoezi la 45
+title: Vežba 45
 challengeType: 19
 dashedName: task-45
 lang: en-US
 ---
-
-<!-- (Audio) Brian: If we all agreed on everything, we might miss important details, don't you think? -->
+<!-- (Audio) Brian: Ako se svi složimo oko svega, možemo propustiti važne detalje, zar ne misliš? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Kwa nini Brian anadhani si nzuri wakati kila mtu anafikiri kwa njia ile ile?
+Zašto Brian misli da nije dobro kada svi razmišljaju na isti način?
 
 ## --answers--
 
@@ -24,7 +23,7 @@ Kwa sababu wanaweza kupuuzia maelezo muhimu.
 
 ---
 
-Kwa sababu ingefanya maamuzi kuwa ya haraka zaidi.
+Zato što bi učinilo odluke brže.
 
 ### --feedback--
 
@@ -32,11 +31,11 @@ Brian hasemi kwamba makubaliano ni ya manufaa.
 
 ---
 
-Kwa sababu mizozo daima husababisha matatizo.
+Jer konflikti uvek uzrokuju probleme.
 
 ### --feedback--
 
-Brian anasema kwamba mizozo fulani ni ya manufaa, si kwamba husababisha matatizo.
+Brian kaže da neki sukobi su korisni, a ne da izazivaju probleme.
 
 ---
 
@@ -54,9 +53,9 @@ Brian hasemi kuhusu watu kukataa kugawisha maoni yao.
 
 Muundo `if + verb in the Simple Past` ukifuatiwa na `might` katika kifungu cha matokeo hutumika kuelezea hali ya dhana yenye matokeo yanayowezekana. Kwa mfano:
 
-`If you studied more, you might pass the exam.` - Hii ina maana kuna uwezekano wa kupita ikiwa mtu atajifunza zaidi.
+`If you studied more, you might pass the exam.` - Ovo znači da postoji mogućnost prolaska ako neko nauči više.
 
-Katika mazungumzo haya, `If we all agreed on everything, we might miss important details` inaonyesha matokeo mabaya yanayowezekana ya makubaliano kamili.
+U ovoj diskusiji, `If we all agreed on everything, we might miss important details` pokazuje moguće loše rezultate kompletnog sporazuma.
 
 # --scene--
 

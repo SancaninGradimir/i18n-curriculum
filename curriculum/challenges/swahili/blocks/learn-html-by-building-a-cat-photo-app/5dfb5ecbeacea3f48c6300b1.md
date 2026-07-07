@@ -1,15 +1,15 @@
 ---
 id: 5dfb5ecbeacea3f48c6300b1
-title: Hatua 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Kipengele cha `li` kinatumika kuunda kipengee cha orodha katika orodha iliyopangwa au isiyopangwa.
+Kipengele `li` se koristi za kreiranje stavke liste u uređeno ili neuređeno spisku.
 
-Hapa kuna mfano wa vipengee vya orodha katika orodha isiyopangwa:
+Ovde je primer elemenata liste u neuređenu listu:
 
 ```html
 <ul>
@@ -18,24 +18,24 @@ Hapa kuna mfano wa vipengee vya orodha katika orodha isiyopangwa:
 </ul>
 ```
 
-Ndani ya kipengele cha `ul`, panga ndani vipengee vitatu vya orodha kuonyesha vitu vitatu vinavyopendwa na paka:
+Unutar elementa `ul`, uključite tri stavke liste da prikaže tri stvari koje mačke vole:
 
 `catnip`
 
 `laser pointers`
 
-`lasagna` 
+`lasagna`
 
 # --hints--
 
-Unapaswa kuwa na vipengele vitatu vya `li`. Kila kipengele cha `li` kinapaswa kuwa na lebo yake ya kufungua na lebo ya kufunga.
+Trebalo bi da imaš tri elementa `li`. Svaki element `li` treba da ima svoju oznaku za otvaranje i oznaku za zatvaranje.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'),3)
 assert.lengthOf(code.match(/<\/li\>/g),3);
 ```
 
-Unapaswa kuwa na vipengele vitatu vya `li` vyenye maandishi `catnip`, `laser pointers` na `lasagna` kwa mpangilio wowote. Huenda umeacha baadhi ya maandishi au kuna makosa ya tahajia.
+Trebalo bi da imaš tri elementa sa tekstom `li`, `catnip`, `laser pointers` i `lasagna` u bilo kom redosledu. Možda si propustio neki tekst ili imaš greške u kucanju.
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-Vipengele vitatu vya `li` vinapaswa kuwekwa kati ya lebo ya kufungua na lebo ya kufunga ya kipengele cha `ul`.
+Tri elementa za `li` treba da budu postavljeni između otvarajućeg i zatvarajućeg taga elementa `ul`.
 
 ```js
 assert(

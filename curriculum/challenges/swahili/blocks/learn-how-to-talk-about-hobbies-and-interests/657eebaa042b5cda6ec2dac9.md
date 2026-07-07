@@ -1,18 +1,17 @@
 ---
 id: 657eebaa042b5cda6ec2dac9
-title: Zoezi la 59
+title: Vežba 59
 challengeType: 22
 dashedName: task-59
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: Are you kidding? -->
+<!-- (Audio) Sarah: Šališ se? -->
 
 # --description--
 
-`Are you kidding?` hutumika kudhihirisha kutoamini, mshangao, au wakati mwingine kuthibitisha kama mtu anacheka tu.
+`Are you kidding?` Koristi se za pokazivanje nedoverja, iznenađenja, ili ponekad da bi se potvrdilo da li neko samo smeje.
 
-Kama rafiki yako anakuambia alimuona mbwa akipanda skateboard barabarani, unaweza kushangaa na kusema `Are you kidding?` kuuliza kama anasema kwa kweli au anacheka tu.
+Ako ti prijatelj kaže da je video psa kako vozi na skejtbord ulicom, možeš biti iznenađen i reći `Are you kidding?` pitajući da li govori istinu ili samo se šali.
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ Kama rafiki yako anakuambia alimuona mbwa akipanda skateboard barabarani, unawez
 
 ### --feedback--
 
-Kitenzi hiki hutumika katika usemi kudhihirisha kutoamini au mshangao kama jibu kwa kauli. Kinaishia kwa `-ing`.
+Ovaj glagol se koristi u govoru za izražavanje nedovjerenja ili iznenađenja kao odgovor na izjavu. Kinaishia kwa `-ing`.
 
 # --scene--
 

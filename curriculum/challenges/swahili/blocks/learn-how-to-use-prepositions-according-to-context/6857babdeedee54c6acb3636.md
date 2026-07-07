@@ -1,50 +1,49 @@
 ---
 id: 6857babdeedee54c6acb3636
-title: Zoezi la 134
+title: Vežba 134
 challengeType: 19
 dashedName: task-134
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: If you head straight down this corridor and turn left at the break area, you'll see them stored right across from the coffee machine. -->
+<!-- (Audio) Sarah: Ako krenete pravo niz this hodnik i skrenete levo na break područje, videćete ih sačuvane direktno preko from mašine za kafu. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Wapi sasa hivi monitor zimehifadhiwa?
+Gde su sada sačuvani monitori?
 
 ## --answers--
 
-Mwisho wa eneo la maegesho.
+Kraj parking zone.
 
 ### --feedback--
 
-Sarah hakutaja eneo la maegesho.
+Sarah nije spomenula parking područje.
 
 ---
 
-Ndani ya chumba cha IT.
+Unutar IT sobe.
 
 ### --feedback--
 
-Zilihamishwa kutoka ndani ya chumba cha IT mapema.
+Premeštene su iz unutrašnjosti IT sobe rano.
 
 ---
 
-Kando ya dawati la usalama.
+Sa strane stola za bezbednost.
 
 ### --feedback--
 
-Hakuna maelezo kuhusu dawati la usalama.
+Nema objašnjenja o sigurnosnoj ladici.
 
 ---
 
-Karibu na mashine ya kahawa.
+Blizu mašine za kafu.
 
 ## --video-solution--
 
@@ -52,9 +51,9 @@ Karibu na mashine ya kahawa.
 
 # --explanation--
 
-Sarah anatoa maelekezo wazi yanayomalizika na rejea: `the coffee machine`.
+Sara daje jasna uputstva koja se završavaju referencom: `the coffee machine`.
 
-Anaeleza kwamba baada ya kwenda moja kwa moja kwenye korido na kugeuka kushoto, monitor zinaweza kupatikana zikiwa zimewekwa kinyume na mashine ya kahawa, na kufanya mashine ya kahawa kuwa alama ya karibu na inayoonekana kwa urahisi ya kuzitafuta.
+Objašnjava da, nakon što se prođe pravo kroz hodnik i skrene ulevo, monitori se mogu naći postavljeni nasuprot mašini za kafu, čime mašina za kafu postaje blagodetni i lako vidljiv orijentir za njihovo pronalaženje.
 
 # --scene--
 

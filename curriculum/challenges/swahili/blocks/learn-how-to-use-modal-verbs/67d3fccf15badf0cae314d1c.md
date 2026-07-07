@@ -1,16 +1,15 @@
 ---
 id: 67d3fccf15badf0cae314d1c
-title: Zoezi la 7
+title: Vežba 7
 challengeType: 22
 dashedName: task-7
 lang: en-US
 ---
-
-<!-- (Audio) Mark: Sure, Jessica. What do I need to do? -->
+<!-- (Audio) Mark: Naravno, Jessica. Šta do I need to do? -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Kitenzi hiki kinaonyesha hitaji, maana kuna jambo linalohitajika kufanyika.
+Ovaj glagol pokazuje potrebu, što znači da je potrebno nešto učiniti.
 
 ---
 
@@ -32,15 +31,15 @@ Kitenzi hiki kinaonyesha hitaji, maana kuna jambo linalohitajika kufanyika.
 
 ### --feedback--
 
-Kitenzi hiki huambatana na `need` wakati wa kuuliza kuhusu kitendo.
+Ovaj glagol je povezan sa `need` prilikom ispitivanja akcije.
 
 # --explanation--
 
-`Need to` hutumika wakati wa kuuliza kuhusu vitendo vinavyohitajika. Kinafuatwa na aina ya msingi ya kitenzi (`do`). Kwa mfano:
+`Need to` Koristi se kada se pita za potrebne radnje. Praćen je osnovnim tipom glagola (`do`). Primer:
 
-- `We need to do more testing before releasing the app.` - Ni lazima kupima programu kabla ya kuizindua.
+- `We need to do more testing before releasing the app.` - Morate testirati program pre lansiranja.
 
-- `We need to do some updates to fix the bugs.` - Ni lazima kusahihisha mfumo ili kutatua matatizo.
+- `We need to do some updates to fix the bugs.` - Neophodno je da se popravi sistem kako bi se rešili problemi.
 
 # --scene--
 

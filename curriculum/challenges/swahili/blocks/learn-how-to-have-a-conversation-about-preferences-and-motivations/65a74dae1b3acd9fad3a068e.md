@@ -1,18 +1,17 @@
 ---
 id: 65a74dae1b3acd9fad3a068e
-title: Zoezi la 132
+title: Vežba 132
 challengeType: 22
 dashedName: task-132
 lang: en-US
 ---
-
-<!-- (Audio) Tom: For me, I like the idea of practicing my skills and getting recognition for my contributions. -->
+<!-- (Audio) Tom: Za mene, sviđa mi se ideja vežbanja svojih veština i dobijanja priznanja for za moje doprinose. -->
 
 # --description--
 
-`To recognize` inamaanisha kumtambua mtu au kitu kutoka zamani, au kutambua kuwepo au uhalali wa kitu. Kwa mfano, `I recognize your efforts in completing this project.`
+`To recognize` znači prepoznavanje osobe ili stvari iz prošlosti, ili utvrđivanje postojanja ili validnosti nečega. Na primer, `I recognize your efforts in completing this project.`
 
-`Recognition` ni nomino ya `recognize` na inahusu kitendo cha kutambua au kutoa sifa kwa mtu kwa juhudi au mafanikio yake. Kwa mfano, `He received recognition for his innovative work.`
+`Recognition` je imenica od `recognize`, što se tiče čina prepoznavanja ili dodeljivanja pohvale nekome za njegov trud ili postignuće. Na primer, `He received recognition for his innovative work.`
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ lang: en-US
 
 ### --feedback--
 
-Kitenzi hiki kinamaanisha kufanya shughuli au mazoezi mara kwa mara ili kuboresha au kudumisha ujuzi wa mtu.
+Ovaj termin znači redovno obavljati aktivnosti ili vežbe kako bi se poboljšale ili održale nečije veštine.
 
 ---
 
@@ -34,7 +33,7 @@ Kitenzi hiki kinamaanisha kufanya shughuli au mazoezi mara kwa mara ili kuboresh
 
 ### --feedback--
 
-Nomino hii inahusu kitendo au mchakato wa kutambua juhudi, mafanikio, au sifa za mtu.
+Ova imenica se odnosi na čin ili proces prepoznavanja truda, dostignuća ili osobina pojedinca.
 
 # --scene--
 

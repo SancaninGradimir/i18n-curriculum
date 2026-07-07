@@ -1,6 +1,6 @@
 ---
 id: 67ddb23caaa58aa09eabf0f8
-title: Zoezi la 33
+title: Vežba 33
 challengeType: 22
 dashedName: task-33
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ina maana kwa sasa na inaonyesha hali inaweza kubadilika baadaye.
+Ovo je trenutno važno, i ukazuje da se stanje može promeniti kasnije.
 
 # --explanation--
 
-`For now` ina maana kwa wakati huu au kwa sasa. Inaashiria kuwa mambo yamekamilika kwa sasa, lakini huenda yakatokea zaidi baadaye. Kwa mfano:
+`For now` to znači u ovom trenutku ili za sada. Ukazuje da su stvari gotovne/završene za sada, ali bi se nešto više moglo dogoditi kasnije. Na primer:
 
-`Let's stop working here for now and continue tomorrow.` - Hii ina maana wanapumzika kwa sasa, lakini wataendelea baadaye.
+`Let's stop working here for now and continue tomorrow.` - To znači da trenutno odmaraju, ali nastaviće kasnije.
 
 # --scene--
 

@@ -1,20 +1,19 @@
 ---
 id: 65a4f2c2d1bbdfbe82cb3fdd
-title: Zoezi la 94
+title: Vežba 94
 challengeType: 22
 dashedName: task-94
 lang: en-US
 ---
-
-<!-- (Audio) Bob: Hey, Sarah, do you know what really gets me excited about tech? It's all those amazing gadgets! -->
+<!-- (Audio) Bob: Hej, Sara, do znaš šta me zaista uzbuđuje u tehnologiji? To su sve ti neverovatni gadžeti! -->
 
 # --description--
 
-`gadget` ni chombo kidogo au kifaa, mara nyingi chenye werevu au kipya, kinachofanya kitendakazi fulani au kurahisisha jambo fulani.
+`gadget` je mali alat ili uređaj, često pametan ili nov, koji obavlja neku funkciju ili pojednostavljuje nešto.
 
-Katika teknolojia, vifaa vidogo vinaweza kujumuisha vitu kama simu za mkononi, saa za mkononi za kisasa, au kifaa chochote cha kielektroniki chenye ubunifu na kizuri.
+U tehnologiji, mali uređaji mogu uključivati stvari kao što su mobilni telefoni, moderne satove za ručnu upotrebu, ili bilo koji elektronski uređaj sa kreativnim i lepim dizajnom.
 
-Kwa mfano, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
+Na primer, `My new fitness tracker gadget helps me keep track of my steps and exercise.`
 
 # --fillInTheBlank--
 
@@ -28,7 +27,7 @@ Kwa mfano, `My new fitness tracker gadget helps me keep track of my steps and ex
 
 ### --feedback--
 
-Neno hili linamaanisha kitu kinachosababisha hisia au mwitikio. Hapa, linatumika kuelezea kile kinachomfurahisha Bob kuhusu teknolojia. Limeunganishwa kwa mtu wa tatu wingi.
+Ova reč znači nešto što izaziva osećaj ili reakciju. Ovde se koristi za opisivanje onoga što Bob čini srećnim u vezi sa tehnologijom. Konjugovano je za treće lice množine.
 
 ---
 
@@ -36,7 +35,7 @@ Neno hili linamaanisha kitu kinachosababisha hisia au mwitikio. Hapa, linatumika
 
 ### --feedback--
 
-Neno hili linatumika kuonyesha vitu maalum vinavyotajwa, katika kesi hii, vifaa vidogo. Ni wingi wa `that`.
+Ova reč se koristi za prikazivanje specifičnih stvari koje su pomenute, u ovom slučaju, manjih uređaja. To je množina od `that`.
 
 ---
 
@@ -44,7 +43,7 @@ Neno hili linatumika kuonyesha vitu maalum vinavyotajwa, katika kesi hii, vifaa 
 
 ### --feedback--
 
-Neno hili linahusu vifaa vidogo vya kielektroniki au zana ambazo ni muhimu au za kuvutia. Mara nyingi hutumika kuzungumzia vitu vya teknolojia vinavyovutia. Lipo katika wingi.
+Ova reč se odnosi na male elektronske uređaje ili alate koji su važni ili zanimljivi. Često se koristi za razgovor o fascinantnim tehnološkim predmetima. Nalazi se u množini.
 
 # --scene--
 

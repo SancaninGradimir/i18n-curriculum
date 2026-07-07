@@ -7,7 +7,7 @@ dashedName: step-22
 
 # --description--
 
-U narednim koracima, naučićete kako da utvrdite da li je dužina niza podataka parno ili neparno brojevi, zajedno sa načinom pronalaženja medijane. Zatim ćete moći da koristite ono što ste naučili u funkciji `getMedian`.
+U narednim koracima, naučićete kako da utvrdite da li je dužina niza podataka parna ili neparna, zajedno sa načinom pronalaženja medijane. Zatim ćete moći da koristite ono što ste naučili u funkciji `getMedian`.
 
 Da biste proverili da li je broj par ili neparizan, možete koristiti <dfn>opereta wa moduli</dfn> `%`. Opereta wa moduli vraća ostatak deljenja dva broja.
 
@@ -27,7 +27,7 @@ Kreiraj parametar nazvan `isEven`. Zatim koristi modulo operator da proveri da l
 
 Za vaš parametar `isEven`, unesite vrednost parametra `isEven` u konzolu.
 
-Otvori konzolu da vidiš rezultate.
+Otvorite konzolu da vidite rezultate.
 
 # --hints--
 

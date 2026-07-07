@@ -9,7 +9,7 @@ lang: en-US
 
 # --instructions--
 
-Poslušaj zvuk i dovrši rečenicu ispod.
+Slušajte zvuk i dovršite rečenicu ispod.
 
 # --fillInTheBlank--
 

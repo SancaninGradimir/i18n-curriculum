@@ -1,6 +1,6 @@
 ---
 id: 680cad23e2d58a1ef7c2edfb
-title: Zoezi la 19
+title: Vežba 19
 challengeType: 22
 dashedName: task-19
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -32,7 +32,7 @@ Neno hili hutumika kuonyesha vitu maalum vilivyo karibu na msemaji.
 
 ### --feedback--
 
-Neno hili mchanganyiko lina maana ya kitu kinachoweza kushughulikia kazi, hifadhi, au nishati nyingi. Kumbuka kutumia `-`.
+Ova složena reč znači nešto što može da rukuje velikom količinom posla, skladišta ili energije. Zapamtite da koristite `-`.
 
 # --explanation--
 

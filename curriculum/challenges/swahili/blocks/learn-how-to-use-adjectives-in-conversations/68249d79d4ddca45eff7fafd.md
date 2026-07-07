@@ -1,50 +1,49 @@
 ---
 id: 68249d79d4ddca45eff7fafd
-title: Zoezi la 144
+title: Vežba 144
 challengeType: 19
 dashedName: task-144
 lang: en-US
 ---
-
-<!-- (Audio) Jessica: Fantastic, James. I'll put all this information into a report and talk about it with the team tomorrow. This feedback should help us know what to do next. -->
+<!-- (Audio) Jessica: Fantastično, James. Sve informacije u this ću staviti u izveštaj i razgovarati o tome sa timom sutra. Ova povratna informacija bi trebalo da nam pomogne da znamo šta dalje do. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jessica anapanga kufanya nini na taarifa hizo?
+Jessica, šta planira da uradi sa ovim podacima?
 
 ## --answers--
 
-Zisahau kwa sasa na subiri maoni zaidi.
+Za sada ćemo zaboraviti i čekati više komentara.
 
 ### --feedback--
 
-Jessica anasema atapanga taarifa na kuishirikisha, si kuisahau.
+Jessica kaže da će organizovati i podeliti informacije, nije da je zaboravila.
 
 ---
 
-Panga taarifa hizo katika ripoti na zungumze na wengine.
+Organizuj te informacije u izveštaj i razgovaraj o njima sa drugima.
 
 ---
 
-Waombe watumizi kujaribu tena kabla ya kufanya mabadiliko.
+Molimo korisnike da pokušaju ponovo pre nego što izvrše promene.
 
 ### --feedback--
 
-Hakusema chochote kuhusu kujaribu tena au maoni ya watumizi.
+Nije ništa rekao o ponovnom pokušaju ili korisničkim komentarima.
 
 ---
 
-Tuma moja kwa moja kwa mteja bila kupitia ukaguzi.
+Pošalji direktno klijentu bez provere.
 
 ### --feedback--
 
-Jessica anapanga kuzungumza na timu yake kwanza, si kutuma moja kwa moja kwa mteja.
+Jessica planira da prvo razgovara sa svojim timom, a ne da ga pošalje direktno klijentu.
 
 ## --video-solution--
 
@@ -52,9 +51,9 @@ Jessica anapanga kuzungumza na timu yake kwanza, si kutuma moja kwa moja kwa mte
 
 # --explanation--
 
-Jessica anasema atakuwa `put all this information into a report` na `talk about it with the team tomorrow`. Hii inaonyesha anapanga kupanga maelezo na kuzungumza na timu yake.
+Jessica kaže da će biti `put all this information into a report` i `talk about it with the team tomorrow`. Ovo pokazuje da organizuje detalje i razgovara sa svojim timom.
 
-Anasema pia maoni `should help`, ikimaanisha yatasaidia kuelekeza hatua zao zinazofuata.
+Takođe navodi komentare `should help`, što znači da će im pomoći u usmeravanju njihovih sledećih koraka.
 
 # --scene--
 

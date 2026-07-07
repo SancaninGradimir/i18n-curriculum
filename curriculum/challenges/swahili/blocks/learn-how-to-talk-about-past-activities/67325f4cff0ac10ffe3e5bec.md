@@ -1,50 +1,49 @@
 ---
 id: 67325f4cff0ac10ffe3e5bec
-title: Zoezi la 114
+title: Vežba 114
 challengeType: 19
 dashedName: task-114
 lang: en-US
 ---
-
-<!-- (audio) James: It's interesting to think about it. I used to just write code without thinking much about the end user. -->
+<!-- (audio) James: Zanimljivo je razmišljati o tome. Ranije sam samo pisao kod bez mnogo razmišljanja o krajnjem korisniku. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-James anafafanua nini kuhusu mtazamo wake wa kuandika msimbo?
+Šta James objašnjava o svom pristupu kodiranju?
 
 ## --answers--
 
-Tabia aliyokuwa nayo zamani.
+Navika koju je imala ranije.
 
 ---
 
-Kitu anachopanga kufanya siku za usoni.
+Ono što namerava da uradi pred svima.
 
 ### --feedback--
 
-James hatazungumzii mipango ya baadaye; anatafakari kuhusu kile alichokifanya zamani.
+James ne govori o planovima za budućnost; razmišlja o onome što je uradio u prošlosti.
 
 ---
 
-Tabia anaendelea nayo sasa.
+I dalje nastavlja sa tom navikom.
 
 ### --feedback--
 
-James anatumia usemi `used to`, unaoonyesha anafafanua jambo alilofanya zamani, si sasa hivi.
+James koristi frazu `used to`, pokazujući da objašnjava nešto što je uradio u prošlosti, a ne trenutno.
 
 ---
 
-Mchakato ambaye hakuwahi kufuata.
+Proces koji nikad nije pratio.
 
 ### --feedback--
 
-James anaelezea tabia aliyokuwa nayo hapo awali, hivyo si jambo ambalo hakuwahi kulifanya.
+James opisuje ponašanje koje je imao ranije, dakle, to nije nešto što nikada nije uradio.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ James anaelezea tabia aliyokuwa nayo hapo awali, hivyo si jambo ambalo hakuwahi 
 
 # --explanation--
 
-James anasema, `I used to just write code without thinking much about the end user.`
+James kaže, `I used to just write code without thinking much about the end user.`
 
-`Used to` inaonyesha tabia au tendo la zamani ambalo si kweli tena.
+`Used to` pokazuje naviku ili čin iz prošlosti koji više nije istinit.
 
-Sentensi hii inaonyesha kwamba hapo awali aliandika msimbo bila kuzingatia mtumizi wa mwisho lakini tangu wakati huo ameanza kubadilisha mtazamo wake.
+Ova rečenica ukazuje da je ranije pisao kod bez obzira na krajnjeg korisnika, ali je od tog vremena počeo da menja svoj stav.
 
 # --scene--
 

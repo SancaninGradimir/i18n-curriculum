@@ -1,16 +1,15 @@
 ---
 id: 678e5a7c4de8c4ccf4ed6ca9
-title: Zoezi la 66
+title: Vežba 66
 challengeType: 22
 dashedName: task-66
 lang: en-US
 ---
-
-<!-- (audio) Jake: Okay, let's agree to disagree. -->
+<!-- (audio) Jake: U redu, let se slažu da se ne slažu. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Neno hili linamaanisha kuwa na maoni sawa au kufikia uelewa wa pamoja.
+Ovaj termin znači imati isto mišljenje ili postići zajedničko razumevanje.
 
 ---
 
@@ -32,17 +31,17 @@ Neno hili linamaanisha kuwa na maoni sawa au kufikia uelewa wa pamoja.
 
 ### --feedback--
 
-Neno hili linamaanisha kuwa na maoni tofauti au kutokubaliana.
+Ova reč znači imati različita mišljenja ili neslaganje.
 
 # --explanation--
 
-`Agree` linamaanisha kukubaliana au kuwa na maoni sawa na mtu mwingine. Kwa mfano:  
+`Agree` To znači slagati se ili imati isto mišljenje kao neko drugi. Na primer:
 
-`We both agree that improving security is important.` - Hii ina maana kwamba unashiriki maoni sawa kuhusu usalama na mtu mwingine.
+`We both agree that improving security is important.` - Ovo znači da deliš isto mišljenje o bezbednosti sa nekim drugim.
 
-`Disagree` linamaanisha kuwa na maoni tofauti au kutokubaliana. Kwa mfano:  
+`Disagree` To znači imati različita mišljenja ili se ne slagati. Na primer:
 
-`Jake and Maria disagree on which software to use.` - Hii inaonyesha kwamba Jake na Maria wana maoni tofauti kuhusu uchaguzi wa programu.
+`Jake and Maria disagree on which software to use.` - Ovo pokazuje da Jake i Maria imaju različita mišljenja o izboru programa.
 
 # --scene--
 

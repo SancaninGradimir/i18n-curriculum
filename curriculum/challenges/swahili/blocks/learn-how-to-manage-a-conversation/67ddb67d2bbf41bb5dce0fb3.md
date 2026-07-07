@@ -1,50 +1,49 @@
 ---
 id: 67ddb67d2bbf41bb5dce0fb3
-title: Zoezi la 36
+title: Vežba 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
 ---
-
-<!-- (Audio) James: No problem. Talk to you later. -->
+<!-- (Audio) James: Nema problema. Razgovaraćemo kasnije. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Tunaweza kufikia hitimisho gani kutoka kwa jibu la James?
+Kakak conclusion možemo izvući iz odgovora Jemesa?
 
 ## --answers--
 
-Anahitaji kutatua tatizo kwanza.
+Mora prvo da reši problem.
 
 ### --feedback--
 
-James hasemi chochote kuhusu tatizo jingine.
+James govori nešto o drugom problemu.
 
 ---
 
-Anamaliza mazungumzo kwa njia ya kirafiki.
+Završava razgovor na prijateljski način.
 
 ---
 
-Anataka kupanga mkutano sasa.
+Želi da zakazuje sastanak sada.
 
 ### --feedback--
 
-Hakuna mazungumzo kuhusu kupanga kitu chochote.
+Nema razgovora o planiranju bilo čega.
 
 ---
 
-Anaomba msaada zaidi.
+Traži više pomoći.
 
 ### --feedback--
 
-James haombi msaada.
+James ne traži pomoć.
 
 ## --video-solution--
 
@@ -52,9 +51,9 @@ James haombi msaada.
 
 # --explanation--
 
-Katika mazungumzo, mara nyingi huachwa maneno wakati maana ni wazi. Katika `Talk to you later`, somo `I'll` (kifupisho cha `I will`) limeachwa. Sentensi kamili ingekuwa `I'll talk to you later`. Aina hii ya kuachwa maneno ni ya kawaida katika mazungumzo ya kawaida. Mfano mwingine:
+U konverzaciji, često se izostavljaju reči kada je značenje jasno. U `Talk to you later`, izostavljen je termin `I'll` (skraćenica od `I will`). Cela rečenica bi bila `I'll talk to you later`. Ovaj tip izostavljanja reči je uobičajen u svakodnevnom razgovoru. Drug primer:
 
-`See you tomorrow!` - Hii ni njia fupi ya kusema `I'll see you tomorrow`.
+`See you tomorrow!` - Ovo je kratak način da se kaže `I'll see you tomorrow`.
 
 # --scene--
 

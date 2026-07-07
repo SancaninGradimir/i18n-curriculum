@@ -1,16 +1,15 @@
 ---
 id: 67d83cac8f7ced9c5df81df9
-title: Zoezi la 144
+title: Vežba 144
 challengeType: 22
 dashedName: task-144
 lang: en-US
 ---
-
-<!-- (audio) Lisa: This will help us understand the extent of the breach and what they might have taken. -->
+<!-- (audio) Lisa: Ovo će nam pomoći da razumemo opseg proboja i šta je možda ukradeno. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Kitenzi hiki cha modal kinadhihirisha uwezekano au kutokuwa na uhakika kuhusu tukio la zamani.
+Ovaj modalni glagol ukazuje na mogućnost ili nesigurnost u vezi sa prošlim događajem.
 
 ---
 
@@ -32,15 +31,15 @@ Kitenzi hiki cha modal kinadhihirisha uwezekano au kutokuwa na uhakika kuhusu tu
 
 ### --feedback--
 
-Kitenzi hiki ni aina ya `Past Perfect`, kinachotumika kuzungumzia jambo ambalo linaweza kuwa limetokea zamani. Tumia maneno mawili.
+Ovaj glagol je vrsta `Past Perfect`, koji se koristi za razgovaranje o nečemu što je moglo da se dogodi u prošlosti. Koristi dve reči.
 
 # --explanation--  
 
-`Might` kinadhihirisha uwezekano.  
+`Might` Otkriva mogućnost.
 
-`Have taken` ni aina ya `Past Perfect` ya `take`, kinachotumika kuzungumzia tendo la zamani linaloweza kutokea. Kwa mfano:
+`Have taken` je vrsta `Past Perfect` od `take`, koji se koristi za razgovor o prošlim ili potencijalnim događajima. Na primer:
 
-`The attacker might have taken sensitive files.` - Hujui kwa hakika, lakini kuna uwezekano.
+`The attacker might have taken sensitive files.` - Nije sigurno, ali postoji mogućnost.
 
 # --scene--
 

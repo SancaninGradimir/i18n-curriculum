@@ -1,6 +1,6 @@
 ---
 id: 694acade1d4afdbce71e5840
-title: Napravi plan putovanja sa vremenskom prognozom
+title: Napravite plan putovanja sa vremenskom prognozom
 challengeType: 27
 dashedName: build-a-travel-weather-planner
 ---
@@ -89,7 +89,7 @@ Trebalo bi da imaš parametar nazvan `has_ride_share_app`.
 ({ test: () => runPython(`assert _Node(_code).has_variable("has_ride_share_app")`) })
 ```
 
-Trebalo bi da unesete vrednost tačno ili nije za vaš kriterijum `has_ride_share_app`.
+Morate uneti vrednost Tačno ili Nije za vaš kriterijum `has_ride_share_app`.
 
 ```js
 ({ test: () => runPython(`assert isinstance(has_ride_share_app, bool)`) })

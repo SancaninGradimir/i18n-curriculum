@@ -1,31 +1,31 @@
 ---
 id: 65afeb7ab6867b43dacbf32b
-title: Hatua 10
+title: Korak 10
 challengeType: 0
 dashedName: step-10
 ---
 
 # --description--
 
-Unapobuni mchezo, utahitaji kuhakikisha kuwa ukubwa wa vipengele katika mchezo unajibadilisha kulingana na kifaa na unaendana na ukubwa tofauti wa skrini.
+Kada dizajnirate igru, moraćete osigurati da se veličina elemenata u igri prilagođava uređaju i da je kompatibilna sa različitim veličinama ekrana.
 
-Anza kwa kuunda kitendakazi cha mshale kinachoitwa `proportionalSize` kinachopokea kigezo cha `size`.
+Počnite kreiranjem strelične funkcije nazvanoj `proportionalSize` koja prima parametar `size`.
 
 # --hints--
 
-`proportionalSize` inapaswa kuwa kitendakazi.
+`proportionalSize` To bi trebalo da bude funkcija.
 
 ```js
 assert.isFunction(proportionalSize);
 ```
 
-Kitendakazi chako cha `proportionalSize` kinapaswa kutumia sintaksia ya mshale.
+Tvoja funkcija za `proportionalSize` treba da koristi sintaksu sa strelicom.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*.*\s*\)?\s*=>/);
 ```
 
-Kitendakazi chako cha `proportionalSize` kinapaswa kuwa na kigezo cha `size`.
+Vaša funkcija za `proportionalSize` mora imati parametar `size`.
 
 ```js
 assert.match(code, /const\s+proportionalSize\s*=\s*\(?\s*size\s*\)?\s*=>/);

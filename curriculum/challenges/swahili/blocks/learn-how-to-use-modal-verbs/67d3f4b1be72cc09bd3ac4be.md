@@ -1,16 +1,15 @@
 ---
 id: 67d3f4b1be72cc09bd3ac4be
-title: Zoezi la 4
+title: Vežba 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
 ---
-
-<!-- (Audio) Jessica: There are a few things you must do to ensure compliance. -->
+<!-- (Audio) Jessica: Postoji nekoliko stvari koje morate do da biste osigurali usklađenost. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Kitenzi hiki cha modal kinadhihirisha lazima au wajibu.
+Ovaj modalni glagol izražava neophodnost ili obavezu.
 
 ---
 
@@ -32,17 +31,17 @@ Kitenzi hiki cha modal kinadhihirisha lazima au wajibu.
 
 ### --feedback--
 
-Kitenzi hiki kinafuata `must` kuonyesha kitendo kinachohitajika.
+Ova sintaksa prati `must` da prikaže potrebnu akciju.
 
 # --explanation--
 
-`Must` ni kitenzi cha modal kinachotumika kuonyesha lazima au wajibu. Kwa mfano:
+`Must` je modalni glagol koji se koristi za pokazivanje neophodnosti ili obaveze. Primer:
 
-- `You must wear a seatbelt while driving.` - Inahitajika.
+- `You must wear a seatbelt while driving.` - Potrebno je.
 
-- `We must submit the report by Friday.` - Ni lazima.
+- `We must submit the report by Friday.` - To je neophodno.
 
-Vitenzi vya modal huambatana daima na aina ya msingi ya kitenzi (bila `to`).
+Modalni glagoli su uvek praćeni osnovnim oblicima glagola (bez `to`).
 
 # --scene--
 

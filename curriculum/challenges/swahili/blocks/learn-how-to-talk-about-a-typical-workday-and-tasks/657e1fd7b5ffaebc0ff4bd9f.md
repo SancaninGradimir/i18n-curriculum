@@ -1,6 +1,6 @@
 ---
 id: 657e1fd7b5ffaebc0ff4bd9f
-title: Zoezi la 26
+title: Vežba 26
 challengeType: 19
 dashedName: task-26
 lang: en-US
@@ -10,41 +10,41 @@ lang: en-US
 
 # --description--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Kwa nini Tom anamsifu Sophie?
+Zašto Tom hvali Sofiju?
 
 ## --answers--
 
-Kwa kumpa programu ya usimamizi wa muda.
+Za program upravljanja vremenom.
 
 ### --feedback--
 
-Tom anamsifu Sophie kwa vidokezo, si kwa kumpa programu.
+Tom hvali Sofiju komplimentima, a ne davanjem programa.
 
 ---
 
-Kwa sababu anapata vidokezo vya Sophie kuwa msaada.
+Zato što dobija napomene od Sofije koje su mu/joj pomoć.
 
 ---
 
-Kwa kumualika chakula cha mchana.
+Za pozivanje na ručak.
 
 ### --feedback--
 
-Anamshukuru kwa ushauri, si kwa mwaliko wa chakula cha mchana.
+Zahvaljujem mu/јој na savetu, ne za poziv na ručak.
 
 ---
 
-Kwa kumsaidia na mradi.
+Da pomognem sa projektom.
 
 ### --feedback--
 
-Shukrani za Tom zinahusiana na vidokezo kuhusu upangaji, si msaada wa mradi maalum.
+Hvala na Tomu je vezano za napomene o planiranju, a ne za pomoć za određeni projekat.
 
 ## --video-solution--
 

@@ -1,16 +1,15 @@
 ---
 id: 67dd5cfeacc0cad2fc967438
-title: Zoezi la 16
+title: Vežba 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
 ---
-
-<!-- (Audio) James: By the way, did we decide on the deadline for the first phase? -->
+<!-- (Audio) James: Inače, da li smo odlučili za rok for prve faze? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
@@ -32,7 +31,7 @@ James hakutaja kufuta mradi.
 
 ---
 
-Kama Alice ndiye anayehusika na awamu ya kwanza.
+Alice je ta koja je odgovorna za prvu fazu.
 
 ### --feedback--
 
@@ -52,7 +51,7 @@ James hasemi kuhusu awamu ya mwisho.
 
 # --explanation--
 
-`By the way` hutumika kuanzisha mada mpya lakini inayohusiana katika mazungumzo. Mara nyingi huleta jambo ambalo msemaji alilikumbuka tu au anataka kuthibitisha. Kwa mfano:
+`By the way` Koristi se za uvođenje nove, ali povezane teme u razgovoru. Često spominje nešto što je govornik tek primetio ili želi da potvrdi. Na primer:
 
 `By the way, have you seen the updated report?` – Hii huanzisha swali jipya linalohusiana na kile kilichokuwa kinajadiliwa tayari.
 

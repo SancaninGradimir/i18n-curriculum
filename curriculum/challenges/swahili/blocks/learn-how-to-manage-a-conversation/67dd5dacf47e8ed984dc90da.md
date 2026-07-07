@@ -1,24 +1,23 @@
 ---
 id: 67dd5dacf47e8ed984dc90da
-title: Zoezi la 17
+title: Vežba 17
 challengeType: 19
 dashedName: task-17
 lang: en-US
 ---
-
-<!-- (Audio) James: By the way, did we decide on the deadline for the first phase? -->
+<!-- (Audio) James: Inostalo, da li smo odlučili o roku for za prvu fazu? -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Alice angeweza kujibu kwa kifupi vipi kwamba hakuna uamuzi kuhusu tarehe ya mwisho kwa sasa?
+Može li Alice kratko da odgovori da nema odluke o roku u ovom trenutku?
 
 ## --answers--
 
@@ -38,7 +37,7 @@ EN391abad4
 
 ### --feedback--
 
-Hii haina uhusiano na swali kuhusu kuweka tarehe ya mwisho.
+Ovo nema veze sa pitanjem o postavljanju krajnjeg roka.
 
 ## --video-solution--
 
@@ -46,7 +45,7 @@ Hii haina uhusiano na swali kuhusu kuweka tarehe ya mwisho.
 
 # --explanation--
 
-`Not yet` ni njia fupi na ya asili ya kusema kwamba jambo halijatokea au kukamilika hadi sasa, lakini linaweza kutokea baadaye. Kwa mfano:
+`Not yet` je kratak i prirodan način da se kaže da nešto nije dogodilo ili završeno do sada, ali bi moglo se desiti kasnije. Primer:
 
 - **Meneja:** `Have you sent the email?` - Hapa, mtu anauliza kuhusu barua pepe ambayo inapaswa kutumwa.
 

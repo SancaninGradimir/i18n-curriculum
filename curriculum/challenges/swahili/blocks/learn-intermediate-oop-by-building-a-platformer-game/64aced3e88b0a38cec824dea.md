@@ -1,19 +1,19 @@
 ---
 id: 64aced3e88b0a38cec824dea
-title: Hatua 43
+title: Korak 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-Hatua inayofuata ni kusahisha nafasi ya mchezaji anapohamia ndani ya mchezo.
+Sledeći korak je prilagođavanje pozicije igrača kada se pomera unutar igre.
 
-Chini ya `ctx.clearRect()`, fanya wito wa njia ya `update()` kwa mchezaji.
+Pod `ctx.clearRect()`, pozovi metodu `update()` za igrača.
 
 # --hints--
 
-Unapaswa kufanya wito wa njia ya `update()` kwa mchezaji.
+Treba da pozoveš metodu `update()` za igrača.
 
 ```js
 assert.match(code, /\s*player\s*\.\s*update\s*\(\s*\)\s*;?/);

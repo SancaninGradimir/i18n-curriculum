@@ -1,23 +1,23 @@
 ---
 id: 61fdaf9ff894b6a084ecdc1b
-title: Hatua 33
+title: Korak 33
 challengeType: 0
 dashedName: step-33
 ---
 
 # --description--
 
-Ili kuzuia maudhui ya maandishi kuzidi, mpe kichaguzi chako cha `span[class~="sr-only"]` sifa ya `overflow` iliyowekwa kuwa `hidden` na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+Da bi se sprečilo da sadržaj teksta pređe, dodelite svom selektoru `span[class~="sr-only"]` svojstvo `overflow` postavljeno na `hidden` i svojstvo `white-space` postavljeno na `nowrap`.
 
 # --hints--
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `overflow` iliyowekwa kuwa `hidden`.
+Vaš selektor za `span[class~="sr-only"]` mora imati svojstvo `overflow` postavljeno na `hidden`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('overflow') === 'hidden');
 ```
 
-Kichaguzi chako cha `span[class~="sr-only"]` kinapaswa kuwa na sifa ya `white-space` iliyowekwa kuwa `nowrap`.
+Vaš selektor za `span[class~="sr-only"]` mora imati svojstvo `white-space` postavljeno na `nowrap`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('span[class~="sr-only"]')?.getPropertyValue('white-space') === 'nowrap');

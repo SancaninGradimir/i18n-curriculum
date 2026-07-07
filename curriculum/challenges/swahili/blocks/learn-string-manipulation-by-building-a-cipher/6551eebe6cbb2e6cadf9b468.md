@@ -1,13 +1,13 @@
 ---
 id: 6551eebe6cbb2e6cadf9b468
-title: Hatua 2
+title: Korak 2
 challengeType: 20
 dashedName: step-2
 ---
 
 # --description--
 
-Vigezo vinaweza kuhifadhi thamani za aina tofauti za data. Umeweka thamani ya nambari kamili, lakini ikiwa unataka wakilisha maandishi, unahitaji kuweka thamani ya mfuatano wa herufi. Mfuatano wa herufi ni mfululizo wa herufi uliofungwa na alama za nukuu moja au alama za nukuu maradufu, lakini huwezi kuanza mfuatano wa herufi kwa alama moja za nukuu na kuumaliza kwa alama za nukuu maradufu au kinyume chake:
+Parametri mogu čuvati vrednosti različitih tipova podataka. Postavili ste vrednost celog broja, ali ako želite tekstualnu reprezentaciju (string), morate postaviti niz znakova. Niz znakova je sekvenca karaktera koja je obuhvaćena jednim ili dvostrukim navodnicima, ali ne možete početi niz sa jednim navodnikom i završiti ga sa dvostrukim navodnikom ili obrnuto:
 
 ```py
 string_1 = "I am a string"
@@ -15,30 +15,30 @@ string_2 = 'I am also a string'
 string_3 = 'This is not valid"
 ```
 
-Futa vigezo vyako vya `number` na thamani yake. Kisha, tangaza kigezo kingine kinachoitwa `text` na weka thamani ya mfuatano wa herufi `'Hello World'` katika kigezo hiki.
+Izbrišite vaše parametre za `number` i njegovu vrednost. Zatim, deklarišite drugi parametar nazvan `text` i postavite vrednost niza karaktera `'Hello World'` u ovaj parametar.
 
 # --hints--
 
-Haupaswi kuwa na `number = 5` katika msimbo wako.
+Ne bi trebalo da imaš `number = 5` u svom kodu.
 
 ```js
 const commentless_code = __helpers.python.removeComments(code);
 assert.isFalse(/number\s*=\s*5/.test(commentless_code))
 ```
 
-Unapaswa kutangaza kigezo kinachoitwa `text`. Zingatia kuweka jina la kigezo mwanzoni mwa mstari.
+Trebalo bi da objavite parametar koji se zove `text`. Obratite pažnju na postavljanje imena parametra na početku linije.
 
 ```js
 assert.match(code, /^text\s*=/m)
 ```
 
-Unapaswa kuweka thamani ya mfuatano wa herufi `'Hello World'` katika kigezo chako cha `text`. Kumbuka kutumia alama moja za nukuu au alama za nukuu maradufu kufunga mfuatano wa herufi na zingatia herufi kubwa na ndogo.
+Treba da postavite vrednost nizu znakova `'Hello World'` u vašem parametru `text`. Zapamtite da koristite pojedinačne navodne ili dvostruke navodne oznake za obavijanje niza znakova i obratite pažnju na velika i mala slova.
 
 ```js
 assert.match(code, /^text\s*=\s*("|')Hello World\1\s*(#.*)?$/m)
 ```
 
-Msimbo wako una sintaksia isiyo sahihi na/au uelekezaji usio sahihi.
+Vaš kod ima netačan sintaksa i/ili pogrešan ukazivač.
 
 ```js
 ({test: () => assert(true) })

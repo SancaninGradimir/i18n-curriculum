@@ -1,6 +1,6 @@
 ---
 id: 66234ab7decaffe8ecb8327d
-title: Zoezi la 56
+title: Vežba 56
 challengeType: 22
 dashedName: task-56
 lang: en-US

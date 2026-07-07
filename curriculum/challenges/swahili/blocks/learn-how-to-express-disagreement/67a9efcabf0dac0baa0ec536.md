@@ -1,16 +1,15 @@
 ---
 id: 67a9efcabf0dac0baa0ec536
-title: Zoezi la 4
+title: Vežba 4
 challengeType: 22
 dashedName: task-4
 lang: en-US
 ---
-
-<!-- (Audio) Bob: It seems most people prefer using it for office furniture. -->
+<!-- (Audio) Bob: Čini se da većina ljudi više voli koristiti for kancelarijski nameštaj. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Fikiria kile watu wanachohitaji kuboresha eneo lao la kazi nyumbani. Hii ni pamoja na meza, viti, na rafu.
+Razmislite o tome šta je ljudima potrebno za unapređenje radnog prostora kod kuće. Ovo uključuje stolove, stolice i police.
 
 # --explanation--
 
-`Office furniture` inahusu meza, viti, rafu, na vitu vingine vinavyotumika katika eneo la kazi.
+`Office furniture` Radi se o stolovima, sedišta, policama i drugim predmetima koji se koriste u radnom prostoru.
 
-Katika mazungumzo haya, Bob anazungumzia jinsi wafanyakazi wanavyotumia kifurushi chao cha fedha za kazi ya mbali. Kwa kuwa kufanya kazi nyumbani kunahitaji mpangilio mzuri na unaofaa, watu wengi hutumia kifurushi hicho kununua samani za ofisi kama vile viti vya ergonomic au meza kubwa.
+U ovom razgovoru, Bob govori o tome kako zaposleni koriste svoj fond sredstava za rad na daljinu. Pošto je rad od kuće potreban dobar i odgovarajući aranžman, mnogi ljudi koriste taj paket da kupe kancelarijski nameštaj kao što su ergonomske stolice ili veliki radni sto.
 
 # --scene--
 

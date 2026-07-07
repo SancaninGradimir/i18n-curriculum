@@ -1,6 +1,6 @@
 ---
 id: 67c03f86bccfec0be6de656b
-title: Zoezi la 113
+title: Vežba 113
 challengeType: 19
 dashedName: task-113
 lang: en-US
@@ -10,25 +10,25 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Anna anawasilisha nini?
+Šta Ana predstavlja/predaje?
 
 ## --answers--
 
-Anakataa kabisa maoni ya Bob na hafurahii wasiwasi wake.
+Potpuno odbija mišljenje Boba i nije zadovoljan njegovom brigom.
 
 ### --feedback--
 
-Anna anakubali hoja ya Bob kabla ya kutoa maoni yake mwenyewe.
+Ana je prihvatila argument Boba pre nego što iznese svoje mišljenje.
 
 ---
 
-Anaelewa wasiwasi wa Bob lakini bado anaamini kubadilika ni chaguo bora zaidi.
+On razume Bobovu zabrinutost, ali i dalje veruje da je promena najbolja opcija.
 
 ---
 
@@ -36,15 +36,15 @@ Hafahamu wasiwasi wa Bob.
 
 ### --feedback--
 
-Anna anaelewa hoja ya Bob.
+Ana razume Bov argument.
 
 ---
 
-Anakubaliana na Bob na kubadilisha mawazo yake.
+Slaže se sa Bobom i menja svoje ideje.
 
 ### --feedback--
 
-Anna hakubaliani kabisa na Bob.
+Anna se uopšte ne slaže sa Bobom.
 
 ## --video-solution--
 
@@ -52,7 +52,7 @@ Anna hakubaliani kabisa na Bob.
 
 # --explanation--
 
-Anna anatumia `I see your point, but` kuonyesha kwamba anaelewa wasiwasi wa Bob huku akitoa maoni tofauti.
+Anna koristi `I see your point, but` da pokaže da razume Bobovu zabrinutost, istovremeno dajući drugačije mišljenje.
 
 Anaamini kwamba kubadilika ni suluhisho bora kuliko kubaki na kundi moja.
 

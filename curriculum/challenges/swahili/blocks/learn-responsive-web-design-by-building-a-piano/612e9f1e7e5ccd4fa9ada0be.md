@@ -1,23 +1,23 @@
 ---
 id: 612e9f1e7e5ccd4fa9ada0be
-title: Hatua 17
+title: Korak 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Toa `.key` vigezo vya `margin` vya `2px` na sifa ya `float` iliyowekwa kuwa `left`.
+Pružite `.key` parametre za `margin` od `2px` i svojstvo `float` koje je postavljeno na `left`.
 
 # --hints--
 
-Kichaguzi chako cha `.key` kinapaswa kuwa na sifa ya `margin` iliyowekwa kuwa `2px`.
+Tvoj selektor za `.key` mora imati svojstvo `margin` postavljeno na `2px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.margin === '2px');
 ```
 
-Kichaguzi chako cha `.key` kinapaswa kuwa na sifa ya `float` iliyowekwa kuwa `left`.
+Tvoj selektor za `.key` mora imati svojstvo `float` postavljeno na `left`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('.key')?.float === 'left');

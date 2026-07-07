@@ -31,7 +31,7 @@ Ovaj izraz od dve reči odnosi se na bezbednosnu ranjivost u sistemu koja nije p
 
 `Vulnerability` Odnosi se na ranjivost u sistemu koja može biti zloupotrebljena.
 
-Takođe, `unpatched vulnerability` je sigurnosna ranjivost koja nije popravljena ili ažurirana. Hakeri mogu koristiti ovu ranjivost za napad na sistem. Na primer:
+Takođe, `unpatched vulnerability` je sigurnosna ranjivost koja nije popravljena niti ažurirana. Hakeri mogu koristiti ovu ranjivost za napad na sistem. Na primer:
 
 `We need to fix the unpatched vulnerability now.` - Tim zna za sigurnosni problem, ali još uvek nije popravljen.
 

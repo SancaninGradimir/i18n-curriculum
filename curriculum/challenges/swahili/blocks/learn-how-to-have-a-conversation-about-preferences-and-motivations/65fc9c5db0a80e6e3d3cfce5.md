@@ -1,12 +1,11 @@
 ---
 id: 65fc9c5db0a80e6e3d3cfce5
-title: Zoezi la 37
+title: Vežba 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
 ---
-
-<!-- (Audio) Brian: Yeah, wow. You know what? This was really a motivating talk. Thanks for sharing your thoughts. -->
+<!-- (Audio) Brian: Wow. Znate šta? Ovo je zaista motivacionan razgovor. Hvala vam for na podeljenju vaših misli. -->
 
 # --description--
 
@@ -24,7 +23,7 @@ Katika sehemu hii ya mazungumzo, Brian anazungumzia jinsi mazungumzo yalivyomfan
 
 ### --feedback--
 
-Neno hili linamaanisha kitu kinachokupa nguvu au sababu ya kufanya jambo fulani. Ni kama wakati maneno ya mtu yanakufanya utake kujitahidi zaidi.
+Ova reč znači nešto što ti daje snagu ili razlog za uraditi neku stvar. To je kao kada te čije reči nateraju da želiš da se više potrudiš.
 
 ---
 
@@ -32,7 +31,7 @@ Neno hili linamaanisha kitu kinachokupa nguvu au sababu ya kufanya jambo fulani.
 
 ### --feedback--
 
-Neno hili linamaanisha kutoa kitu unachomiliki kwa wengine. Ni kama unapomwambia mtu mawazo au hisia zako.
+Ova reč znači dati nešto što posedujete drugima. To je kao kada kažeš nekome svoje misli ili osećanja.
 
 # --scene--
 

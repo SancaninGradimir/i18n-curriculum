@@ -23,7 +23,7 @@ Slušajte audio i dovršite sledeću rečenicu.
 
 ### --feedback--
 
-Ovo je kratka forma za nešto što znači poruku ili sadržaj kreiran za promociju proizvoda, usluge ili događaja. Koristite množinu.
+Ovo je kratka forma za nešto što predstavlja poruku ili sadržaj kreiran za promociju proizvoda, usluge ili događaja. Koristite množinu.
 
 # --explanation--
 

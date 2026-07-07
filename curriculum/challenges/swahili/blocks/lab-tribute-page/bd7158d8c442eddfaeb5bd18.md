@@ -13,15 +13,15 @@ saveSubmissionToDB: true
 
 Priče o korisniku:
 
-1. Ukurasa wako wa heshima unapaswa kuwa na kipengele cha `main` chenye `id` inayolingana ya `main`, ambayo ina vipengele vyote vingine.
-1. Unapaswa kuona kipengele chenye `id` ya `title`, kinachojumuisha mfuatano wa herufi (yaani maandishi), kinachoelezea somo la ukurasa wa heshima (mfano "Dr. Norman Borlaug").
-1. Unapaswa kuona kipengele cha `figure` au `div` chenye `id` ya `img-div`.
-1. Ndani ya kipengele cha `#img-div`, unapaswa kuona kipengele cha `img` chenye `id="image"` inayolingana.
-1. Ndani ya kipengele cha `#img-div`, unapaswa kuona kipengele chenye `id="img-caption"` inayolingana kinachojumuisha maelezo ya maandishi yanayoelezea picha iliyoonyeshwa katika `#img-div`.
-1. Unapaswa kuona kipengele chenye `id="tribute-info"` inayolingana, kinachojumuisha maelezo ya maandishi yanayoelezea somo la ukurasa wa heshima.
-1. Unapaswa kuona kipengele cha `a` chenye `id="tribute-link"` inayolingana, kinachounganisha na tovuti ya nje, kinachojumuisha taarifa za ziada kuhusu somo la ukurasa wa heshima. KUNYONYESHA: Lazima upatie kipengele chako sifa ya `target` na uiweke kuwa `_blank` ili kiungo chako kifunguke kwenye kichupo kipya.
-1. `#image` yako inapaswa kutumia mali za `max-width` na `height` kubadilika ukubwa kulingana na upana wa kipengele cha mzazi wake, bila kuzidi ukubwa wake wa awali.
-1. Kipengele chako cha `img` kinapaswa kuwekwa katikati ndani ya kipengele cha mzazi wake.
+1. Tvoja stranica počasti treba da ima element sa `main` koji odgovara za `id` i `main`, koji sadrži sve ostale elemente.
+1. Treba da vidiš element sa `id` za `title`, koji sadrži niz slova (tj. tekst) koji opisuje temu stranice počasti (npr. "Dr. Norman Borlaug").
+1. Treba da vidiš element sa `figure` ili `div` koji ima `id` za `img-div`.
+1. Unutar elementa `#img-div`, treba da vidiš element sa `img` koji odgovara za `id="image"`.
+1. Unutar elementa `#img-div`, treba da vidiš element sa `id="img-caption"` koji odgovara i koji sadrži tekstualni opis slike prikazane u `#img-div`.
+1. Treba da vidiš element sa `id="tribute-info"` koji odgovara i koji sadrži tekstualni opis teme stranice počasti.
+1. Treba da vidiš element sa `a` koji odgovara za `id="tribute-link"`, povezan sa eksternom stranicom, i koji sadrži dodatne informacije o temi stranice počasti. NAPOMENA: Moraš dodeliti svom elementu atribut `target` i postaviti ga na `_blank` kako bi se tvoj link otvorio u novom tabu.
+1. Tvoj `#image` treba da koristi svojstva `max-width` i `height` za skaliranje veličine u zavisnosti od širine svog roditeljskog elementa, bez prelaska svoje početne veličine.
+1. Tvoj element `img` treba da bude centriran unutar svog roditeljskog elementa.
 
 **Napomena:** Uverite se da povezujete vaš stilski fajl (stylesheet) u HTML i koristite CSS.
 

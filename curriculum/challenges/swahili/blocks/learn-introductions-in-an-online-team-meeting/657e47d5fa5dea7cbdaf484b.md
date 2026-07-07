@@ -1,6 +1,6 @@
 ---
 id: 657e47d5fa5dea7cbdaf484b
-title: "Dialogue 5: Meeting a Client"
+title: "Dialog 5: Sastanak sa klijentom"
 challengeType: 21
 dashedName: dialogue-meeting-a-client
 lang: en-US
@@ -8,11 +8,11 @@ lang: en-US
 
 # --description--
 
-Tazama video hapa chini ili kuelewa muktadha wa mafundisho yajayo.
+Pogledajte video dole/ispod kako biste razumeli kontekst predstojećih lekcija.
 
 # --assignment--
 
-Tazama video.
+Gledaj video.
 
 # --scene--
 

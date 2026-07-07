@@ -1,16 +1,15 @@
 ---
 id: 68555dfadef342c2db9b5abf
-title: Zoezi la 83
+title: Vežba 83
 challengeType: 22
 dashedName: task-83
 lang: en-US
 ---
-
-<!-- (Audio) David: What about testing? The last update brought up some unexpected challenges. -->
+<!-- (Audio) David: Šta je sa testiranjem? Poslednje ažuriranje je predstavilo neke neočekivane izazove. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kuanzisha au kusababisha jambo kuonekana au kuwa tatizo. Neno la kwanza ni umbo la wakati uliopita la `bring`.
+Ova dvoslovna fraza znači pokrenuti ili uzrokovati da nešto se pojavi ili postane problem. Prva reč je forma prošlog vremena za `bring`.
 
 ---
 
@@ -32,15 +31,15 @@ Usemi huu wa maneno mawili unamaanisha kuanzisha au kusababisha jambo kuonekana 
 
 ### --feedback--
 
-Neno hili linamaanisha jambo lilitokea ambalo halikupangwa au kutabirika. Linaishia na `-ed`.
+Ovaj termin znači događaj koji se desio i koji nije bio planiran ili predvidljiv. Završava sa `-ed`.
 
 # --explanation--
 
-`Brought up` inamaanisha kusababisha jambo kuonekana, hasa tatizo au hitilafu. Hapa, `brought` ni umbo la wakati uliopita la `bring`. Kwa mfano:
+`Brought up` znači izazvati pojavu nečega, posebno problema ili greške. Ovde, `brought` je forma prošlog vremena od `bring`. Na primer:
 
-`The new feature brought up several bugs.` – Hii inamaanisha kipengele kilisababisha hitilafu kuonekana.
+`The new feature brought up several bugs.` – Ovo znači da je element izazvao pojavu greške.
 
-`Unexpected` inaelezea jambo linalotokea bila onyo au mpango. Kwa mfano:
+`Unexpected` opisuje događaj koji se dešava bez upozorenja ili plana. Na primer:
 
 `We had an unexpected delay due to server issues.` – Hii inamaanisha kucheleweshwa hakukutabirika.
 

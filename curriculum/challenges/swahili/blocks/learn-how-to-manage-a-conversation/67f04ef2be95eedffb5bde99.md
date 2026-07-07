@@ -1,16 +1,15 @@
 ---
 id: 67f04ef2be95eedffb5bde99
-title: Zoezi la 103
+title: Vežba 103
 challengeType: 22
 dashedName: task-103
 lang: en-US
 ---
-
-<!-- (Audio) Brian: Is there anything else slowing you down? -->
+<!-- (Audio) Brian: Da li nešto else usporava? -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Ikifuatiwa na `down`, hii inamaanisha kufanya kitu kiende au kitokee polepole zaidi kuliko kawaida. Tumia fomu ya `-ing`.
+Nakon `down`, ovo znači da nešto treba da se desi ili da prođe sporije nego obično. Koristite obrazac `-ing`.
 
 # --explanation--
 
-`To slow down` inamaanisha kupunguza mwendo au kufanya kitu kitokee polepole zaidi. Katika muktadha wa kazi au mradi, inaweza kumaanisha chochote kinachochelewesha maendeleo. Kwa mfano:
+`To slow down` to znači smanjiti brzinu ili učiniti da nešto se dešava sporije. U kontekstu posla ili projekta, može značiti bilo šta što usporava napredak. Na primer:
 
-`Traffic is slowing down the delivery.` – Hii inamaanisha utoaji unachukua muda mrefu zaidi kwa sababu ya msongamano wa magari.  
+`Traffic is slowing down the delivery.` – Ovo znači da odlazak traje duže zbog saobraćnog gužvovanja.
 
 # --scene--
 

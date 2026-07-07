@@ -8,7 +8,7 @@ dashedName: build-a-boilerplate
 
 # --description--
 
-U ovom kursu sa 170 lekcija, naučićete komande terminala za kreiranje osnovne strukture veb stranice koristeći samo liniju komandi.
+Na ovom kursu od 170 lekcija, naučićete komande terminala za kreiranje osnovne strukture web stranice koristeći samo командну liniju.
 
 # --instructions--
 

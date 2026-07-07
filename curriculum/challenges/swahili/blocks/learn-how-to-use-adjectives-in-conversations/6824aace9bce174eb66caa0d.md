@@ -1,22 +1,21 @@
 ---
 id: 6824aace9bce174eb66caa0d
-title: Zoezi la 149
+title: Lekcija 149
 challengeType: 19
 dashedName: task-149
 lang: en-US
 ---
-
 <!-- READING -->
 
 # --instructions--
 
-Soma maandishi na ujibu swali lililopo hapa chini.
+Pročitajte tekst i odgovorite na pitanje koje se nalazi ispod.
 
 # --questions--
 
 ## --text--
 
-Jessica alituma barua pepe kwa timu siku iliyofuata, akifupisha mazungumzo yake na James kuhusu toleo jipya la programu.
+Jessica je poslala mejl timu sledećeg dana, sažimajući svoj razgovor sa Jamesom o novoj verziji softvera.
 
 `Hi team,`
 
@@ -50,35 +49,35 @@ Jessica alituma barua pepe kwa timu siku iliyofuata, akifupisha mazungumzo yake 
 
 `Jessica`
 
-Jessica aliripoti nini kuhusu utulivu wa programu?
+Šta je Jessica izvestila o stabilnosti programa?
 
 ## --answers--
 
-Sasa inahitaji masasisho zaidi ili kubaki imara.
+Trenutno zahteva više ažuriranja kako bi ostao stabilan.
 
 ### --feedback--
 
-Jessica hakutaja hitaji la masasisho zaidi.
+Jessica nije spomenula potrebu za više ažuriranja.
 
 ---
 
-Inakosa mara chache na ina hitilafu chache kubwa.
+Propušta nekoliko puta i ima nekoliko velikih grešaka.
 
 ---
 
-Inafanya kazi sawa na toleo la zamani kwa upande wa utulivu.
+Radi isto kao i starija verzija u smislu stabilnosti.
 
 ### --feedback--
 
-Anasema wazi toleo jipya ni `much more stable`.
+Jasno kaže da je nova verzija `much more stable`.
 
 ---
 
-Bado ina hitilafu nyingi kubwa na mara nyingi haifanyi kazi.
+Još ima mnogo velikih grešaka i često ne radi.
 
 ### --feedback--
 
-Jessica anaripoti matatizo kidogo na kukosa kazi kidogo, si hitilafu za mara kwa mara.
+Jessica prijavljuje manje probleme i blage kvarove/manjak funkcionisanja, a ne učestale greške.
 
 ## --video-solution--
 
@@ -86,6 +85,6 @@ Jessica anaripoti matatizo kidogo na kukosa kazi kidogo, si hitilafu za mara kwa
 
 # --explanation--
 
-Katika sehemu ya `Stability`, Jessica anasema toleo jipya `doesn't crash as often` na wameona `fewer serious problems`.
+U sekciji za `Stability`, Jessica kaže nova verzija `doesn't crash as often` i videli su `fewer serious problems`.
 
-Hii ina maana ni ya kuaminika zaidi na imara kuliko hapo awali.
+Ovo znači da je pouzdanije i stabilnije od ranije.

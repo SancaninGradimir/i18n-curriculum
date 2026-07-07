@@ -1,18 +1,17 @@
 ---
 id: 6629ce6bffd1efa9c6c57eaa
-title: Zoezi la 1
+title: Vežba 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
 ---
-
-<!-- (Audio) Brian: Hey, Sophie. How's it going? -->
+<!-- (Audio) Brian: Hej, Sofije. Kako si? -->
 
 # --description--
 
-Usemi `how's it going?` ni njia ya kawaida ya kumuuliza mtu hali yake au kinachoendelea katika maisha yake. Mara nyingi hutumika kama salamu ya kirafiki.
+Izraz `how's it going?` je uobičajen način da se pita nekoga kako mu je ili šta se dešava u njegovom životu. Često se koristi kao prijateljski pozdrav.
 
-Kwa mfano, unapoona rafiki wa zamani, unaweza kusema `Hey, how's it going? I haven't seen you for a while!` Hii ni njia ya kawaida ya kumuuliza kuhusu maisha yake. Ikiwa unataka kumuuliza kuhusu jambo maalum, kama kazi yake mpya, unaweza kusema `How's it going with your new job?`
+Na primer, kada sretne starog prijatelja, možeš reći `Hey, how's it going? I haven't seen you for a while!` Ovo je uobičajen način da pitaš o njegovom životu. Ako želiš da pitaš o nečemu specifičnom, kao što je njegov novi posao, možeš reći `How's it going with your new job?`
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ Kwa mfano, unapoona rafiki wa zamani, unaweza kusema `Hey, how's it going? I hav
 
 ### --feedback--
 
-Kifupisho hiki hutumika sana katika salamu zisizo rasmi. Andika herufi kubwa kwa neno la kwanza.
+Ova skraćenica se često koristi u neformalnim pozdravima. Napišite veliko slovo za prvu reč.
 
 ---
 
@@ -34,7 +33,7 @@ Kifupisho hiki hutumika sana katika salamu zisizo rasmi. Andika herufi kubwa kwa
 
 ### --feedback--
 
-Neno hili linakamilisha salamu ya kawaida isiyo rasmi inayouliza kuhusu hali ya mtu kwa ujumla.
+Ova reč popunjava uobičajen, neformalni pozdrav koji pita za opšte stanje osobe.
 
 # --scene--
 

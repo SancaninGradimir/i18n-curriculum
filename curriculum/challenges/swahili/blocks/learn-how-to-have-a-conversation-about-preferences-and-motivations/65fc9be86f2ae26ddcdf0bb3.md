@@ -1,6 +1,6 @@
 ---
 id: 65fc9be86f2ae26ddcdf0bb3
-title: Zoezi la 36
+title: Vežba 36
 challengeType: 19
 dashedName: task-36
 lang: en-US
@@ -17,11 +17,11 @@ Sikiliza Maria na jibu swali.
 
 ## --text--
 
-Nini kinaweza kuongeza motisha yao kulingana na Maria?
+Šta bi moglo da poveća njihovu motivaciju prema Mariji?
 
 ## --answers--
 
-Kuwa na timu kubwa
+Imati veliki tim
 
 ### --feedback--
 
@@ -41,7 +41,7 @@ Kuona timu ikiwa na msukumo
 
 ---
 
-Kutatua matatizo haraka
+Rešiti probleme brzo
 
 ### --feedback--
 

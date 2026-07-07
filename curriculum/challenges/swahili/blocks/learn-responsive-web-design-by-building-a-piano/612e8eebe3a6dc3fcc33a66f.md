@@ -1,35 +1,35 @@
 ---
 id: 612e8eebe3a6dc3fcc33a66f
-title: Hatua 11
+title: Korak 11
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Sasa lenga kipengele chako cha `#piano` kwa kutumia kichaguzi cha `id`. Weka sifa ya `background-color` kuwa `#00471b`, sifa ya `width` kuwa `992px` na sifa ya `height` kuwa `290px`.
+Sada ciljaj svoj element `#piano` koristeći selektor `id`. Postavi atribut `background-color` na `#00471b`, atribut `width` na `992px` i atribut `height` na `290px`.
 
 # --hints--
 
-Unapaswa kuwa na kichaguzi cha `#piano`.
+Trebalo bi da imaš birač za `#piano`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano'));
 ```
 
-Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `background-color` iliyowekwa kuwa `#00471b`.
+Vaš selektor za `#piano` mora imati svojstvo `background-color` postavljeno na `#00471b`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.backgroundColor === 'rgb(0, 71, 27)');
 ```
 
-Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `width` iliyowekwa kuwa `992px`.
+Tvoj selektor za `#piano` mora imati svojstvo `width` postavljeno na `992px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.width === '992px');
 ```
 
-Kichaguzi chako cha `#piano` kinapaswa kuwa na sifa ya `height` iliyowekwa kuwa `290px`.
+Tvoj selektor za `#piano` mora imati svojstvo od `height` postavljeno na `290px`.
 
 ```js
 assert(new __helpers.CSSHelp(document).getStyle('#piano')?.height === '290px');

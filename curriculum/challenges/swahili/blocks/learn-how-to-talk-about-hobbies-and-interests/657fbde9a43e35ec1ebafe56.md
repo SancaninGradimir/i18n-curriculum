@@ -1,50 +1,49 @@
 ---
 id: 657fbde9a43e35ec1ebafe56
-title: Zoezi la 77
+title: Vežba 77
 challengeType: 19
 dashedName: task-77
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: There's a big convention next month. Would you like to come? -->
+<!-- (Audio) Sarah: Sljedećeg meseca je velika konvencija. Da li bi želeo/želela da dođeš? -->
 
 # --description--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Usemi `Would you like to come?` unadhihirisha nini katika muktadha huu?
+Izjava `Would you like to come?` šta otkriva u ovom kontekstu?
 
 ## --answers--
 
-Kupuuza mwaliko.
+Ignorisati pozivnicu.
 
 ### --feedback--
 
-Usemi huu hauimaanishi kusema "hapana". Ni kuhusu kutoa mwaliko.
+Ovaj izraz ne znači reći "ne". Radi se o davanju pozivnice/poziva.
 
 ---
 
-Kutoa mwaliko.
+Dati poziv.
 
 ---
 
-Kuonyesha shukrani.
+Pokazivanje zahvalnosti.
 
 ### --feedback--
 
-Usemi huu hauimaanishi "asante". Ni kuhusu kualika mtu.
+Ovaj izraz ne znači "asante". Radi se o pozivanju nekog.
 
 ---
 
-Kuomba taarifa.
+Tražiti informacije.
 
 ### --feedback--
 
-Usemi huu si swali la kupata taarifa, bali ni mwaliko wa heshima kwa tukio.
+Ovaj izraz nije pitanje za dobijanje informacija, već je poziv časti na događaj.
 
 ## --video-solution--
 

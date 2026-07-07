@@ -1,22 +1,21 @@
 ---
 id: 685a6b1bbaea710fbdf98bc4
-title: Zoezi la 42
+title: Vežba 42
 challengeType: 22
 dashedName: task-42
 lang: en-US
 ---
-
 <!-- REVIEW -->
 
 # --description--
 
-Huu ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
+Ovo je pregled svih razgovora koje ste upravo pročitali.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Napišite sledeće reči ili rečenice na pravo mesto:
 
-`last month`, `a while since`, `next phase`, `good news`, `yesterday`, na `green light`.
+`last month`, `a while since`, `next phase`, `good news`, `yesterday`, i `green light`.
 
 # --fillInTheBlank--
 
@@ -40,7 +39,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Njia ya kusema imepita muda tangu jambo fulani litokee.
+Prošlo je vreme otkako se nešto dogodilo.
 
 ---
 
@@ -48,7 +47,7 @@ Njia ya kusema imepita muda tangu jambo fulani litokee.
 
 ### --feedback--
 
-Siku kabla ya leo.
+Juče.
 
 ---
 
@@ -56,7 +55,7 @@ Siku kabla ya leo.
 
 ### --feedback--
 
-Taarifa chanya au yenye furaha.
+Pozitivne ili srećne informacije.
 
 ---
 
@@ -64,7 +63,7 @@ Taarifa chanya au yenye furaha.
 
 ### --feedback--
 
-Mwezi kabla ya mwezi wa sasa.
+Mesec pre trenutnog meseca.
 
 ---
 
@@ -72,7 +71,7 @@ Mwezi kabla ya mwezi wa sasa.
 
 ### --feedback--
 
-Ruhusa ya kuanza jambo fulani.
+Dozvola za početak nekog posla/nečega.
 
 ---
 
@@ -80,4 +79,4 @@ Ruhusa ya kuanza jambo fulani.
 
 ### --feedback--
 
-Sehemu au hatua inayofuata katika mpango au mradi.
+Sledeći deo ili korak u planu ili projektu.

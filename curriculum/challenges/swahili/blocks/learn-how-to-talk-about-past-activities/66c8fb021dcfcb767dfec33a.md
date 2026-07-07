@@ -1,61 +1,59 @@
 ---
 id: 66c8fb021dcfcb767dfec33a
-title: Zoezi la 16
+title: Vežba 16
 challengeType: 19
 dashedName: task-16
 lang: en-US
 ---
-<!-- (Audio) Linda: No, we haven't. But we've solved similar issues on other projects. -->
+<!-- (Audio) Linda: Ne, nismo. Ali rešili smo slične probleme na drugim projektima. -->
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Slušaj audio snimak i odgovori na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Ni taarifa gani ifuatayo ni kweli?
+Da li je sledeća informacija tačna?
 
 ## --answers--
 
-Hawajawahi kutatua matatizo kama haya hapo awali.
+Nikada nismo rešavali ovakve problemi ranije.
 
 ### --feedback--
 
-Fikiria kama Linda anataja uzoefu wowote na matatizo yanayofanana.
+Zamisli da Linda spomene bilo kakvo iskustvo sa sličnim problemima.
 
 ---
 
-Wamekwisha kutatua tatizo hili hasa kwenye mradi mwingine.
+Oni su već rešili ovaj problem na drugom projektu.
 
 ### --feedback--
 
-Fikiria kama Linda anasema kuwa na uzoefu na tatizo hili hasa au tatizo linalofanana.
+Zamislite da Linda kaže da ima iskustva sa ovim konkretnim problemom ili sličnim problemom.
 
 ---
 
-Hawajatatua tatizo hili hasa, lakini wamewahi kutatua matatizo yanayofanana hapo awali.
+Nisu rešili ovaj specifičan problem, ali su ranije rešavali slične probleme.
 
 ---
 
-Wamewahi kutatua tatizo hili mara nyingi hapo awali.
+Jeste li već nekada rešavali ovaj problem mnogo puta ranije?
 
 ### --feedback--
 
-Fikiria kama Linda anazungumzia kutatua tatizo hili hasa au tatizo linalofanana.
-  
-## --video-solution--
+Zamislite da Linda govori o rešavanju ovog konkretnog problema ili sličnog problema.## --video-solution--
 
 3
 
 # --explanation--
 
-Ili kupata jibu sahihi, makini kama Linda anazungumzia kutatua `exact issue` au `similar issues`. 
+Da biste dobili tačan odgovor, obratite pažnju na ono o čemu Lina govori u vezi rešavanja `exact issue` ili `similar issues`.
 
-Linda anafafanua wazi kuwa hawajatatua tatizo hili hasa hapo awali, lakini pia anataja kuwa wamewahi kutatua matatizo yanayofanana zamani. 
+Linda jasno objašnjava da nisu rešavali ovaj specifični problem ranije, ali pominje i da su ranije rešavale slične probleme.
 
-Jibu sahihi linapaswa kuonyesha usawa huu—kukubali hakuna tatizo hasa lililotatuliwa lakini kuthibitisha uzoefu wa zamani na matatizo yanayohusiana.
+Ispravan odgovor bi trebalo da pokaže ovu ravnotežu—priznanje da nije rešen specifičan problem, ali potvrđivanje prethodnog iskustva i srodnih problema.
 
 # --scene--
 

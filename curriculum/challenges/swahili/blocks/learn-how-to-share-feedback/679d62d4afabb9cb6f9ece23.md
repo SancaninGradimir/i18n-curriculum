@@ -1,50 +1,49 @@
 ---
 id: 679d62d4afabb9cb6f9ece23
-title: Zoezi la 106
+title: Vežba 106
 challengeType: 19
 dashedName: task-106
 lang: en-US
 ---
-
-<!-- (Audio) Maria: If we rush, it could lead to more problems. -->
+<!-- (Audio) Maria: Ako požurimo, to bi moglo dovesti do više problema. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Maria anataka kuepuka kufanya nini, na kwa nini?
+Maria želi da izbegne šta da radi, i zašto?
 
 ## --answers--
 
-Anataka kuepuka kutatua tatizo.
+Želi da izbegne rešavanje problema.
 
 ### --feedback--
 
-Maria hasemi kwamba wasitatue tatizo.
+Maria kaže da neće rešiti problem.
 
 ---
 
-Anataka kuepuka kuomba msaada.
+Želi da izbegne da traži pomoć.
 
 ### --feedback--
 
-Maria hakutaja kuomba msaada.
+Marija nije spomenula da traži pomoć.
 
 ---
 
-Anataka kuepuka kuharaka kwa sababu inaweza kusababisha matatizo zaidi.
+Želi da izbegne žurbu jer to može izazvati više problema.
 
 ---
 
-Anataka kuepuka kusasisha programu.
+Želim da izbegnem ažuriranje programa.
 
 ### --feedback--
 
-Maria hasemi kwamba wanapaswa kuepuka kusasisha.
+Marija kaže da bi trebalo da izbegnu ažuriranje.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ Maria hasemi kwamba wanapaswa kuepuka kusasisha.
 
 # --explanation--
 
-`To lead to problems` ina maana kwamba kitendo au uamuzi unaweza kusababisha matatizo au matokeo mabaya. Kwa mfano:
+`To lead to problems` to znači da akcija ili odluka može izazvati probleme ili loše posledice. Na primer:
 
-`Skipping the testing phase can lead to serious problems in the software.` - Hii ina maana kwamba kutofanya majaribio ipasavyo kunaweza kusababisha matatizo makubwa ya kiufundi.
+`Skipping the testing phase can lead to serious problems in the software.` - To znači da neizvođenje testova na odgovarajući način može izazvati ozbiljne tehničke probleme.
 
-Katika mazungumzo haya, Maria ana wasiwasi kwamba kuharaka kunaweza kuleta matatizo zaidi.
+U ovoj diskusiji, Mariji je zabrinuto da žurba može izazvati još više problema.
 
 # --scene--
 

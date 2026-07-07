@@ -1,18 +1,17 @@
 ---
 id: 657eecb3b368badb3cc7fe4c
-title: Zoezi la 61
+title: Vežba 61
 challengeType: 22
 dashedName: task-61
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: I go to at least one convention every year. It's the best moment of the year for me. -->
+<!-- (Audio) Sarah: Posećujem barem jednu konferenciju svake godine. To je najbolji trenutak godine for me. -->
 
 # --description--
 
-`At least` hutumika unapotaka kusema kiasi kidogo kabisa au nambari ya kitu ni sawa au inatosha. Ni kama kusema "si chini ya kiasi hiki". Kwa mfano:
+`At least` Koristi se kada želite da kažete vrlo malu količinu ili da je broj nečega jednak ili dovoljan. To je kao da kažete "nije manje od ove količine". Na primer:
 
-`I study English for at least 30 minutes every day.` - Hii ina maana unatumia dakika 30 au zaidi kusoma Kiingereza kila siku, lakini kamwe si chini ya dakika 30.
+`I study English for at least 30 minutes every day.` - To znači da koristiš 30 minuta ili više za čitanje engleskog svakog dana, ali nikada manje od 30 minuta.
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ lang: en-US
 
 ### --feedback--
 
-Maneno haya mawili huunda usemi wa kihesabu unaoonyesha kiwango cha chini.
+Ovi dva termina čine matematički izraz koji pokazuje minimalnu vrednost.
 
 # --scene--
 

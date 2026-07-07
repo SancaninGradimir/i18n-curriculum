@@ -9,7 +9,7 @@ lang: en-US
 
 # --instructions--
 
-Slušajte audio odgovor na pitanje ispod.
+Slušaj audio odgovor na pitanje dole.
 
 # --questions--
 
@@ -39,7 +39,7 @@ Jake pita o nekoj osobi.
 
 ---
 
-Kako funkcionišu sigurnosne ažuriranje.
+Kako funkcionisanje sigurnosnih ažuriranja?
 
 ### --feedback--
 
@@ -53,9 +53,9 @@ Jake misli da Jessica zna za sigurnosne ažuriranje.
 
 Jake želi da zna da li je neko potvrdio da su sva ažuriranja instalirana.
 
-Kwa `Have you checked...?` pita da li je Jessica istražila nešto.
+Pitaj `Have you checked...?`, pitaj da li je Jessica nešto istražila.
 
-Za `whether all security updates were applied` pita da li su ažuriranja uspešno instalirana.
+Za `whether all security updates were applied` se pita da li su ažuriranja uspešno instalirana.
 
 # --scene--
 

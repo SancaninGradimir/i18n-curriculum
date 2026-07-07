@@ -1,25 +1,25 @@
 ---
 id: 65823bbbdb4eaa4f9d20a0fb
-title: Hatua 25
+title: Korak 25
 challengeType: 20
 dashedName: step-25
 ---
 
 # --description--
 
-Katika kitendakazi cha `total_expenses`, sasa utaunganisha kitendakazi cha lambda. Badilisha `pass` na kitendakazi cha lambda chenye `expense` kama kigezo chake.
+U funkciji `total_expenses`, sada ćete dodati lambda funkciju. Zamenite `pass` sa lambda funkcijom koja ima `expense` kao svoj parametar.
 
-`expense` inatarajiwa kuwa kamusi, na kitendakazi chako cha lambda kinapaswa kurudisha thamani ya ufunguo wa `'amount'` katika kamusi ya `expense`.
+`expense` se očekuje da je rečnik, i tvoja lambda funkcija treba da vrati vrednost ključa `'amount'` iz rečnika `expense`.
 
 # --hints--
 
-Unapaswa kuunda kitendakazi cha `lambda` kinachotumia kigezo cha `expense` na kurudisha `expense['amount']` katika kitendakazi chako cha `total_expenses`.
+Treba da kreiraš `lambda` koji koristi parametar `expense` i vrati `expense['amount']` u tvojoj funkciji `total_expenses`.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("total_expenses").has_stmt("lambda expense: expense['amount']")`)) })
 ```
 
-Haupasi kuwa na `pass` katika kitendakazi chako cha `total_expenses`.
+Treba ti da imaš `pass` u tvojoj funkciji od `total_expenses`.
 
 ```js
 ({ test: () => assert.isFalse(runPython(`_Node(_code).find_function("total_expenses").has_pass()`)) })

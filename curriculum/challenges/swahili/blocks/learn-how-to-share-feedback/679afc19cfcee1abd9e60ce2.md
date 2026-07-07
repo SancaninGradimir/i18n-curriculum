@@ -1,50 +1,49 @@
 ---
 id: 679afc19cfcee1abd9e60ce2
-title: Zoezi la 61
+title: Vežba 61
 challengeType: 19
 dashedName: task-61
 lang: en-US
 ---
-
-<!-- (Audio) Brian: If people don't feel valued, they might lose motivation, right? -->
+<!-- (Audio) Brian: Ako se ljudi ne osećaju ceno, mogu izgubiti motivaciju, zar ne? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Brian anaamini nini kinaweza kutokea ikiwa hatutamsikiliza mtu yeyote katika timu anayekataa?
+Šta misliš, Brian, šta bi se desilo ako ne slušamo nekog člana tima koji otpori?
 
 ## --answers--
 
-Wanaweza kupoteza motisha.
+Mogu izgubiti motivaciju.
 
 ---
 
-Wataacha kuwa na mizozo.
+Oni će prestati sa sukobima.
 
 ### --feedback--
 
-Kukataa maoni ya watu hakusimamishi mizozo; inaweza tu kuwafanya watu wasihusike.
+Odbijanje mišljenja ljudi ne sprečava sukobe; to samo može učiniti da se ljudi udalje.
 
 ---
 
-Watafanya kazi kwa bidii zaidi kuthibitisha hoja yao.
+Oni će naporanije raditi da dokažu svoj argument.
 
 ### --feedback--
 
-Brian hapendekezi kwamba kuhisi kutothaminiwa kunawafanya watu kufanya kazi kwa bidii zaidi.
+Brian predlaže da osećaj necenjenosti tera ljude da rade napornije.
 
 ---
 
-Watakubali kila kitu moja kwa moja.
+Prihvati sve direktno.
 
 ### --feedback--
 
-Kusikiliza watu si kuwafanya wakubali kila kitu — inaweza kuwafanya wasihusike badala yake.
+Slušanje ljudi nije naterati ih da prihvate sve — to može navesti na disengagovanje umesto toga.
 
 ## --video-solution--
 
@@ -52,13 +51,13 @@ Kusikiliza watu si kuwafanya wakubali kila kitu — inaweza kuwafanya wasihusike
 
 # --explanation--
 
-`To feel valued` inaelezea hisia unazopata unapohisi kwamba mawazo, jitihada, na michango yako inathaminiwa. Kwa mfano:
+`To feel valued` Objašnjava osećaj koji doživite kada osetite da su vaše ideje, napori i doprinosi cenjeni. Na primer:
 
-`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - Hii ina maana mtazamo wa meneja wa mradi unaleta matokeo mazuri kwa timu.
+`The project manager always dedicates some time during the meeting to hear what we have to say. This makes everyone in the team feel valued.` - To znači da perspektiva projekt-menadžera donosi dobre rezultate timu.
 
-Brian anapendekeza kwamba ikiwa maoni ya wanatimu yatakataa, wanaweza kuhisi hawana umuhimu. Ikiwa wanatimu wanahisi wanathaminiwa, wana uwezekano mkubwa wa kuendelea kushiriki na kuchangia mawazo mapya.
+Brian predlaže da ako su mišljenja članova tima odbijena, mogu se osećati da nisu važni. Ako članovi tima osete da su cenjeni, imaju veliku verovatnoću da će nastaviti da učestvuju i doprinose novim idejama.
 
-Kwa upande mwingine, ikiwa watu wanahisi maoni yao hayana maana, wanaweza kutohusika na kupoteza motisha ya kuchangia, jambo ambalo linaweza kuathiri ushirikiano wa timu na uzalishaji kwa ujumla.
+S druge strane, ako ljudi osećaju da njihova mišljenja nemaju smisla, mogu se distancirati i izgubiti motivaciju za doprinos, što može uticati na timsku saradnju i ukupnu produktivnost.
 
 # --scene--
 

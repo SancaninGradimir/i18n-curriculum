@@ -1,6 +1,6 @@
 ---
 id: 67e6a8ecaee3ff6cec47cc3e
-title: Zoezi la 75
+title: Vežba 75
 challengeType: 19
 dashedName: task-75
 lang: en-US
@@ -10,13 +10,13 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Kwa nini Jessica anataka kuelezea hitilafu kwa timu haraka?
+Zašto Jessica želi da objasni grešku timu brzo?
 
 ## --answers--
 
@@ -24,23 +24,23 @@ Kwa sababu anataka kurudi kwenye mada kuu ya mkutano.
 
 ---
 
-Kwa sababu anataka kuondoka mkutanoni mapema.
+Zato što želi da napusti sastanak rano.
 
 ### --feedback--
 
-Jessica hakutaja kuondoka mkutanoni.
+Jessica nije pomenula da napušta sastanak.
 
 ---
 
-Kwa sababu timu tayari inajua kuhusu hitilafu hiyo.
+Zato što tim već zna za tu grešku.
 
 ### --feedback--
 
-Jessica anaelezea hitilafu kwa sababu inaweza kuathiri timu.
+Jessica objašnjava grešku jer to može da utiče na tim.
 
 ---
 
-Kwa sababu hufikirii hitilafu hiyo ni muhimu.
+Jer ne misliš da je ta greška važna.
 
 ### --feedback--
 
@@ -52,7 +52,7 @@ Jessica anadhani suala hilo ni muhimu, lakini pia anataka kuheshimu ajenda ya mk
 
 # --explanation--
 
-`So we can` hutumika kuonyesha kusudi — ina maana kitu kinachofuata unachotaja ndicho unachokusudia kufanya. Hii inaelezea kwa nini mtu anafanya jambo fulani. Kwa mfano:
+`So we can` Koristi se za pokazivanje namere — to znači da je ono što spomenuješ sledeće ono što želiš da uradiš. Ovo objašnjava zašto neko nešto radi. Primer:
 
 `I'll finish this now so we can start the next task.` – Hii ina maana msemaji anataka kumaliza jambo moja ili kuanza lingine hivi karibuni.
 

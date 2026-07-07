@@ -1,23 +1,23 @@
 ---
 id: 64fad9cd2eeb1e7ca2ca8c8b
-title: Hatua 36
+title: Korak 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Tumia sintaksia ya mshale kuunda kitendakazi cha `updateTaskContainer`. Kisha hamisha `taskData.forEach()` na yaliyomo kutoka kwenye msikilizaji wa tukio la `taskForm` la `submit` ndani ya kitendakazi kilichoundwa kipya.
+Koristite sintaksu strelice za kreiranje funkcije `updateTaskContainer`. Zatim prebacite `taskData.forEach()` i sadržaj iz slušaoca događaja `taskForm` za `submit` unutar kreirane funkcije.
 
 # --hints--
 
-Unapaswa kutumia `const` na sintaksia ya mshale kuunda kitendakazi cha `updateTaskContainer`.
+Trebalo bi da koristiš `const` sa sintaksom strelice kako bi kreirao funkciju `updateTaskContainer`.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-Unapaswa kuhamisha `taskData.forEach()` na yaliyomo ndani ya kitendakazi cha `updateTaskContainer()`.
+Trebalo bi da prebaciš `taskData.forEach()` u sadržaj funkcije `updateTaskContainer()`.
 
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)

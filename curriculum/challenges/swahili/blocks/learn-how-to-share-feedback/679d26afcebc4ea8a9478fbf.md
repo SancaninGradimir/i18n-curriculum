@@ -1,50 +1,49 @@
 ---
 id: 679d26afcebc4ea8a9478fbf
-title: Zoezi la 91
+title: Vežba 91
 challengeType: 19
 dashedName: task-91
 lang: en-US
 ---
-
-<!-- (Audio) James: Absolutely. Do you think we need to update the software again? -->
+<!-- (Audio) James: Apsolutno. Misliš li da moramo ponovo ažurirati softver? -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Je, James ana uhakika kwamba wanahitaji kusahihisha toleo la programu?
+Da li je James siguran da moraju ispraviti verziju programa?
 
 ## --answers--
 
-Sio kweli kabisa, kwa sababu anauliza maoni ya Maria.
+Nije sasvim tačno, jer pita za mišljenje Marije.
 
 ---
 
-Ndiyo, tayari ameamua kusasisha programu hiyo.
+Da, već je odlučio da ažurira taj program.
 
 ### --feedback--
 
-James anauliza Maria kuhusu hilo, kwa hivyo huenda bado hajafikia uamuzi.
+James pita Mariju o tome, pa je moguće da još uvek nije donela/donela odluku.
 
 ---
 
-Ndiyo, tayari ameanza kusasisha programu hiyo.
+Da, već je započeo/la da ažurira tu aplikaciju.
 
 ### --feedback--
 
-James anauliza kama wanapaswa kusasisha programu hiyo au la.
+James pita da li treba da ažuriraju tu aplikaciju ili ne.
 
 ---
 
-Kinyume chake, ana uhakika hawapaswi kusasisha programu hiyo.
+Naprotiv tome, on je siguran da ne bi trebalo da ažuriraju taj program.
 
 ### --feedback--
 
-James hapingi kabisa wazo hilo; kwa kweli anauliza maoni ya Maria kuhusu mada hiyo.
+James se uopšte ne protivi toj ideji; zapravo pita za mišljenje Marije o tom pitanju.
 
 ## --video-solution--
 
@@ -52,9 +51,9 @@ James hapingi kabisa wazo hilo; kwa kweli anauliza maoni ya Maria kuhusu mada hi
 
 # --explanation--
 
-`To update` inamaanisha kubadilisha au kuboresha programu kwa kutoa toleo jipya. Sasisho linaweza kujumuisha kurekebisha hitilafu, kuongeza vipengele vipya, au kuboresha utendaji. Kwa mfano:
+`To update` to znači menjanje ili poboljšanje programa izlaskom nove verzije. Ažuriranje može uključivati popravku grešaka, dodavanje novih funkcija ili poboljšanje performansi. Na primer:
 
-`The company released an update to fix security vulnerabilities in the app.` - Hii inamaanisha toleo jipya lilizinduliwa ili kushughulikia masuala ya usalama.
+`The company released an update to fix security vulnerabilities in the app.` - Ovo znači da je izbađena nova verzija ili rešava pitanja bezbednosti.
 
 # --scene--
 

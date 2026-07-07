@@ -1,26 +1,25 @@
 ---
 id: 683d4ae3cbcc8c94e78aade1
-title: Zoezi la 19
+title: Vežba 19
 challengeType: 19
 dashedName: task-19
 lang: en-US
 ---
-
-<!-- (Audio) Bob: Exactly. It's in the back, next to the emergency exit. -->
+<!-- (Audio) Bob: Tačno. Nalazi se na zadnjem delu, pored izlaza za hitnu evakuaciju. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Bob anafafanua nini?
+Šta Bob objašnjava?
 
 ## --answers--
 
-Kwamba mlango wa dharura umefungwa.
+Hitni izlaz je zatvoren.
 
 ### --feedback--
 
@@ -32,7 +31,7 @@ Kwamba mlango wa nyuma unahitaji kufungwa upya.
 
 ### --feedback--
 
-Bob hakutaja chochote kuhusu kufungwa au mlango wa nyuma unahitaji matengenezo.
+Bob nije spomenuo ništa o zaključavanju ili da zadnja vrata zahtevaju popravke.
 
 ---
 
@@ -44,7 +43,7 @@ Hakuna mazungumzo kuhusu usafi katika sentensi ya Bob.
 
 ---
 
-Kwamba kitu kipo karibu na mlango wa dharura.
+Nešto je blizu hitnih izlaznih vrata.
 
 ## --video-solution--
 
@@ -52,7 +51,7 @@ Kwamba kitu kipo karibu na mlango wa dharura.
 
 # --explanation--
 
-Bob anasema, `Exactly. It's in the back, next to the emergency exit`. Hii ina maana anathibitisha mahali pa kitu - karibu kabisa na mlango wa dharura.
+Bob kaže, `Exactly. It's in the back, next to the emergency exit`. Ovo znači da potvrđuje lokaciju stvari - veoma blizu izlaznih vrata.
 
 Hakuzungumzii kuhusu matengenezo, usafi, au matatizo.
 

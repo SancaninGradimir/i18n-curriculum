@@ -1,16 +1,15 @@
 ---
 id: 656bbfaf6cbc3f1418acca3c
-title: Zoezi la 6
+title: Vežbanje 6
 challengeType: 22
 dashedName: task-6
 lang: en-US
 ---
-
-<!-- (Audio) Sarah: Sure, Bob. What's the problem? -->
+<!-- (Audio) Sarah: Naravno, Bob. Šta je problem? -->
 
 # --description--
 
-Sikiliza sauti na ukamilishe sentensi.
+Slušaj zvuk i dovrši rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi.
 
 ### --feedback--
 
-`What` na `is` ni kwa fomu fupi. Kumbuka kuandika `What` kwa herufi kubwa.
+`What` na `is` je za kratku formu. Zapamtite da pišete `What` velikim slovima.
 
 # --scene--
 

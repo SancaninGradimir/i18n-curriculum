@@ -1,16 +1,15 @@
 ---
 id: 657ec6ac4de4eac8bab2f2a7
-title: Zoezi la 39
+title: Vežba 39
 challengeType: 22
 dashedName: task-39
 lang: en-US
 ---
-
-<!-- (Audio) Linda: Okay, it's a bike date then. -->
+<!-- (Audio) Linda: U redu, znači to je sastanak na biciklu. -->
 
 # --description--
 
-Neno `date` linaweza kutumika katika muktadha tofauti. Ingawa mara nyingi linahusu mkutano wa kimapenzi kati ya watu wawili, linaweza pia kumaanisha tu miadi au tukio lililopangwa kati ya marafiki au wenzake kazini. Kwa mfano:
+Reč `date` se može koristiti u različitim kontekstima. Iako često odnosi na romantični sastanak između dve osobe, takođe može značiti samo sastanak ili događaj koji je organizovan između prijatelja ili kolega sa posla. Na primer:
 
 `Let's set a date for our next meeting.` - Hapa, `date` inatumika kwa njia isiyo ya kimapenzi, ikimaanisha kuchagua siku ya mkutano.
 
@@ -34,7 +33,7 @@ Neno hili linaelezea aina ya shughuli iliyopangwa, likionyesha kuwa ni matembezi
 
 ### --feedback--
 
-Neno hili linahusu mkutano au tukio lililopangwa.
+Ova reč se odnosi na zakazan sastanak ili događaj.
 
 # --scene--
 

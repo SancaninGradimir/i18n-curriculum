@@ -11,7 +11,7 @@ Sada koristi klasu `established` za tekst `Est. 2020`.
 
 # --hints--
 
-Trebalo bi da postavite `class` elementa `p` na `established`.
+Trebalo bi da postavite element `class` na `p` u `established`.
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);

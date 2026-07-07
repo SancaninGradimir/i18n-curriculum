@@ -1,16 +1,15 @@
 ---
 id: 67dbf936fe4d33ccbccae40d
-title: Zoezi la 1
+title: Vežba 1
 challengeType: 22
 dashedName: task-1
 lang: en-US
 ---
-
-<!-- (Audio) Alice: Hey, James. Sorry for the interruption earlier. -->
+<!-- (Audio) Alice: Hej, Džejms. Žao mi je zbog prekida ranije. for -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,13 +23,13 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Hii hutumika kuomba msamaha kwa jambo lililotokea. Usisahau kuandika herufi kubwa mwanzoni.
+Ovo se koristi za izvinjenje zbog nečega što se desilo. Nemoj zaboraviti da napišeš veliko slovo na početku.
 
 # --explanation--
 
-`To be sorry for something` hutumika unapokuwa unamuomba msamaha mtu kwa kitendo kilichoweza kusababisha urahisi au madhara. Kwa mfano:
+`To be sorry for something` Koristi se kada tražite izvinjenje od nekoga za čin koji je mogao uzrokovati neprijatnost ili štetu. Primer:
 
-`I'm sorry for being late to the meeting.` - Hii ina maana msemaji anasikitika kuchelewa na anaomba msamaha. Angalia kwamba `being` iko katika fomu ya `-ing` kwa sababu iko mara moja baada ya `for` (kitenzi cha awali).
+`I'm sorry for being late to the meeting.` - Ovo znači da govornik žali što je kasnio i traži izvinjenje. Proverite da `being` jeste u formi `-ing` jer se nalazi odmah nakon `for` (prethodni glagol).
 
 # --scene--
 

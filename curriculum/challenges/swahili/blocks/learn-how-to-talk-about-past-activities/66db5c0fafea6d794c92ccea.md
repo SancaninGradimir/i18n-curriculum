@@ -1,24 +1,24 @@
 ---
 id: 66db5c0fafea6d794c92ccea
-title: Zoezi la 58
+title: Vežba 58
 challengeType: 19
 dashedName: task-58
 lang: en-US
 ---
 <!--
 AUDIO REFERENCE:
-Linda: Yes. The navigation bar and footer adjustments have already made a big difference.
+Linda: Da. Prilagođavanja navigacione trake i podnožja već su napravila veliku razliku.
 -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Je, vipengele vilivyosasishwa vinafanya kazi vipi?
+Kako funkcionišu ažurirane karakteristike?
 
 ## --answers--
 
@@ -26,11 +26,11 @@ Havifanyi kazi ipasavyo kwenye vifaa vyote, na hii imeleta tofauti kubwa.
 
 ### --feedback--
 
-Linda hakutaja matatizo yoyote kuhusu marekebisho hayo.
+Linda nije spomenula nikakve probleme u vezi tih korekcija.
 
 ---
 
-Vinahitaji marekebisho zaidi ili kufanya kazi ipasavyo na hii haijaleta tofauti yoyote.
+Potrebno mu je više prilagođavanja da bi funkcionisao kako treba, a ovo nije napravilo nikakvu razliku.
 
 ### --feedback--
 
@@ -38,7 +38,7 @@ Linda hakutaja haja ya marekebisho zaidi.
 
 ---
 
-Vinazua matatizo mapya kwenye muonekano wa mtumiaji na hii imeleta tofauti kubwa.
+Stvaraju nove probleme na korisničkom interfejsu, i ovo je donelo veliku razliku.
 
 ### --feedback--
 
@@ -60,7 +60,7 @@ Linda anatumia usemi `have already made a big difference`.
 
 `Made a big difference` inaashiria mabadiliko muhimu au yanayoonekana. Wakati kitu kina `made a big difference` katika muktadha mzuri, kawaida ina maana kuwa mabadiliko hayo ni ya msaada au yenye ufanisi.
 
-Hivyo, jibu la Linda linaonyesha kuwa vipengele vilivyosasishwa vinafanya kazi vizuri na vimeboresha hali.
+Dakle, odgovor Linde pokazuje da ažurirani elementi dobro funkcionišu i poboljšali su stanje.
 
 # --scene--
 

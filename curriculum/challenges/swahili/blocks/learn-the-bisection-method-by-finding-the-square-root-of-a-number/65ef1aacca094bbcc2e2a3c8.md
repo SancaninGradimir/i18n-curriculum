@@ -1,25 +1,25 @@
 ---
 id: 65ef1aacca094bbcc2e2a3c8
-title: Hatua 9
+title: Korak 9
 challengeType: 20
 dashedName: step-9
 ---
 
 # --description--
 
-Katika Python, kitendakazi cha `max()` hurejesha thamani kubwa zaidi kati ya thamani za ingizo.
+U Python, funkcija `max()` vraća najveću vrednost među ulaznim vrednostima.
 
 ```python
 max(1, 2, 3) # Output: 3
 ```
 
-Vigezo `low` na `high` vitatumika kufafanua kipindi cha awali ambacho mzizi wa mraba uko ndani yake.
+Parametri `low` i `high` će se koristiti za definisanje početnog intervala unutar kojeg se nalazi kvadratni koren.
 
-Ndani ya kifungu cha `else`, anzisha kigezo `low` kwa `0` na kigezo `high` kiwe thamani kubwa zaidi kati ya `1` au `square_target` kwani mzizi wa mraba wa nambari huwa mdogo au sawa na nambari yenyewe.
+Unutar klauzule od `else`, inicijalizuj parametar `low` za `0` i parametar `high` neka bude veća vrednost između `1` ili `square_target` jer kvadratni koren broja je manji ili jednak samom broju.
 
 # --hints--
 
-Unapaswa kuondoa neno kuu la `pass`.
+Trebalo bi da uklonite glavnu reč `pass`.
 
 ```js
 ({
@@ -30,7 +30,7 @@ Unapaswa kuondoa neno kuu la `pass`.
 })
 ```
 
-Unapaswa kutangaza kigezo `low` na kuweka thamani yake kuwa `0`.
+Treba da deklariš parametar `low` i postaviš mu vrednost `0`.
 
 ```js
 ({
@@ -41,7 +41,7 @@ Unapaswa kutangaza kigezo `low` na kuweka thamani yake kuwa `0`.
 
 ```
 
-Unapaswa kutangaza kigezo `high` na kutumia kitendakazi cha `max()` kuweka thamani yake kuwa thamani kubwa kati ya `1` na `square_target`.
+Trebalo bi da deklarišete parametar `high` i koristeći funkciju `max()`, postavite njegovu vrednost na veliku vrednost između `1` i `square_target`.
 
 ```js
 

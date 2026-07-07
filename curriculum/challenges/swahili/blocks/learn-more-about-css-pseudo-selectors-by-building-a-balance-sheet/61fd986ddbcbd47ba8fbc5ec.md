@@ -1,13 +1,13 @@
 ---
 id: 61fd986ddbcbd47ba8fbc5ec
-title: Hatua 23
+title: Korak 23
 challengeType: 0
 dashedName: step-23
 ---
 
 # --description--
 
-Ndani ya `tr` ya tatu, ongeza kipengele cha `th` chenye maandishi `Credit The outstanding balance on our credit card.`. Zungusha maandishi hayo, isipokuwa `Credit `, ndani ya kipengele cha `span` chenye sifa ya `class` iliyowekwa kuwa `description`.
+Unutar trećeg `tr`, dodaj element sa `th` koji ima tekst `Credit The outstanding balance on our credit card.`. Umoteriš taj tekst, osim `Credit `, unutar elementa sa `span` koji ima atribut `class` postavljen na `description`.
 
 Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kwa mpangilio: `$50`, `$50`, na `$75`. Toa sifa ya `td` yenye thamani ya `class` kwa kipengele cha tatu cha `current`.
 
@@ -19,31 +19,31 @@ Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kw
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th'));
 ```
 
-Kipengele chako cha `th` kinapaswa kuwa na maandishi ya `Credit The outstanding balance on our credit card.`.
+Vaše polje za `th` mora imati tekst od `Credit The outstanding balance on our credit card.`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th')?.innerText === 'Credit The outstanding balance on our credit card.');
 ```
 
-Unapaswa kuzungusha maandishi ya `The outstanding balance on our credit card.` ndani ya kipengele cha `span`.
+Treba vam da umotate tekst od `The outstanding balance on our credit card.` unutar elementa `span`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.textContent === 'The outstanding balance on our credit card.');
 ```
 
-Kipengele chako cha `span` kinapaswa kuwa na sifa ya `class` iliyowekwa kuwa `description`.
+Vaš element `span` mora imati svojstvo `class` postavljeno na `description`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th > span')?.classList?.contains('description'));
 ```
 
-Unapaswa kuwa na vipengele vitatu vya `td`.
+Trebalo bi da imaš tri elementa od `td`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td').length === 3);
 ```
 
-Kipengele chako cha kwanza cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Prvi deo vašeg `td` treba da sadrži tekst `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[0]?.textContent === '$50');
@@ -55,7 +55,7 @@ Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi ya `$50`.
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[1]?.textContent === '$50');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na maandishi ya `$75`.
+Vaš treći element od `td` mora imati tekst `$75`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');

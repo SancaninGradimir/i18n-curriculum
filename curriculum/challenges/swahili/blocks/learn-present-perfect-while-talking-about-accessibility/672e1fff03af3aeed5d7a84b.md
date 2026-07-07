@@ -1,6 +1,6 @@
 ---
 id: 672e1fff03af3aeed5d7a84b
-title: Zoezi la 117
+title: Vežba 117
 challengeType: 19
 dashedName: task-117
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
@@ -20,7 +20,7 @@ Anna anafikiri nini kuhusu mawazo ya James, na anapendekeza nini?
 
 ## --answers--
 
-Hana makubaliano na mawazo ya James na anapendekeza kuanzisha njia mpya.
+Hana se slaže sa idejama Jejmsa i predlaže da započne novi pristup.
 
 ### --feedback--
 
@@ -28,11 +28,11 @@ Anna anaonyesha makubaliano na James, si kutokubaliana, na anataka kufuatilia ma
 
 ---
 
-Anafikiri mawazo ya James ni ya kuchanganya na anapendekeza kuzingatia malengo ya ufikikaji pekee.
+Misli da su Jamesove ideje zbunjujuće i predlaže da se fokusiraju samo na ciljeve dostupnosti/pristupačnosti.
 
 ### --feedback--
 
-Anna haoni mawazo ya James kama ya kuchanganya; anakubaliana na anataka kufuatilia maendeleo ya malengo yao ya pamoja.
+Anna ne vidi ideje Jejmisa kao zbunjujuće; ona se slaže i želi pratiti napredak njihovih zajedničkih ciljeva.
 
 ---
 
@@ -44,7 +44,7 @@ Anafikiri mawazo ya James hayahitajiki na anapendekeza kusitisha mradi.
 
 ### --feedback--
 
-Anna hapendekezi kusitisha; anasaidia mawazo ya James na anataka kufuatilia taarifa.
+Anna ne preporučuje zaustavljanje; pomaže Jamesovim mislima i želi da prati informacije.
 
 ## --video-solution--
 

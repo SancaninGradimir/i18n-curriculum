@@ -1,19 +1,19 @@
 ---
 id: 657efdcf7fe23b76c0cff9ec
-title: Hatua 7
+title: Korak 7
 challengeType: 20
 dashedName: step-7
 ---
 
 # --description--
 
-Unahitaji kushughulikia herufi ndogo ambazo tayari zipo kwa kuziongeza kwenye orodha ya herufi zilizobadilishwa.
+Potrebno je da obradite mala slova koja već postoje, dodavanjem ih na spisak izmenjenih znakova.
 
-Mara moja baada ya tamko la `if` ndani ya mzunguko wa `for`, ongeza kifungu cha `else` na tumia njia ya `.append()` kuongeza `char` kwenye kigezo cha `snake_cased_char_list`.
+Nakon izjave `if` unutar opsega `for`, dodaj klauzulu `else` i koristi metodu `.append()` da dodeli `char` na parametar `snake_cased_char_list`.
 
 # --hints--
 
-Unapaswa kuongeza kifungu cha `else` ndani ya mzunguko wa `for`. Usisahau alama ya nukta mwishoni.
+Treba da dodaš deo `else` unutar petlje `for`. Nemoj zaboraviti tačku na kraju.
 
 ```js
 ({
@@ -27,7 +27,7 @@ Unapaswa kuongeza kifungu cha `else` ndani ya mzunguko wa `for`. Usisahau alama 
 })
 ```
 
-Unapaswa kutumia njia ya `.append()` kuongeza `char` kwenye kigezo cha `snake_cased_char_list`.
+Trebalo bi da koristiš putanju `.append()` za dodavanje `char` u parametar `snake_cased_char_list`.
 
 ```js
 ({

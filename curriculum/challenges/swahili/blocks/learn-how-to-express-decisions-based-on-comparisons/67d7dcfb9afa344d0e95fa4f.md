@@ -1,6 +1,6 @@
 ---
 id: 67d7dcfb9afa344d0e95fa4f
-title: Zoezi la 122
+title: Vežba 122
 challengeType: 22
 dashedName: task-122
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 

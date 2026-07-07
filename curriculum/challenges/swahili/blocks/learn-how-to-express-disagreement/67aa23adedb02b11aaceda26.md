@@ -1,50 +1,49 @@
 ---
 id: 67aa23adedb02b11aaceda26
-title: Zoezi la 8
+title: Vežba 8
 challengeType: 19
 dashedName: task-8
 lang: en-US
 ---
-
-<!-- (Audio) Anna: While furniture is important, many people mentioned that their computers need upgrades. -->
+<!-- (Audio) Anna: Iako je nameštaj važan, mnogi su spomenuli da im računari/kompjuterima treba nadogradnja. -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Ni nini muhimu zaidi, kulingana na Anna?
+Šta je najvažnije, prema Anri?
 
 ## --answers--
 
-Kuboresha kompyuta.
+Čisti računar.
 
 ---
 
-Kununua samani mpya za ofisi.
+Kupio/kupila sam novo nameštaj za kancelariju.
 
 ### --feedback--
 
-Anna anakubali kuwa samani ni muhimu lakini anasema watu wengi walitaja wanahitaji kitu kingine.
+Anna pristaje da je nameštaj važan, ali kaže da su mnogi ljudi spomenuli da im treba nešto drugo.
 
 ---
 
-Kupata ruzuku kubwa zaidi ya kazi za mbali.
+Dobiti najveću subvenciju za rad na daljinu.
 
 ### --feedback--
 
-Anna hasemi kuhusu kuongeza ruzuku, bali jinsi watu wanavyotaka kuitumia.
+Anna govori o povećanju subvencija, već o tome kako ljudi žele da ih koriste.
 
 ---
 
-Kubadilisha maswali ya utafiti.
+Menjajte istraživačka pitanja.
 
 ### --feedback--
 
-Anna hakutaja chochote kuhusu maswali ya utafiti.
+Anna nije spomenula ništa o istraživačkim pitanjima.
 
 ## --video-solution--
 
@@ -52,11 +51,11 @@ Anna hakutaja chochote kuhusu maswali ya utafiti.
 
 # --explanation--
 
-`computer upgrade` inamaanisha kuboresha kompyuta kwa kuongeza au kubadilisha sehemu kama kumbukumbu zaidi (RAM), processor yenye kasi zaidi, au skrini bora. Kwa mfano:
+`computer upgrade` To znači nadogradnju računara dodavanjem ili zamjenom komponenti kao što su veći RAM, brži procesor ili bolji ekran. Primer:
 
-- `I need a computer upgrade to run the latest software.` - Kompyuta ya mzungumzaji kwa sasa haina nguvu ya kutosha, hivyo wanahitaji bora zaidi.
+- `I need a computer upgrade to run the latest software.` - Sistem za zvučnike trenutno nema dovoljno snage, pa je potreban bolji.
 
-- `After the computer upgrade, everything runs much faster.` - Utendaji wa mfumo uliboreshwa baada ya kusasisha au kubadilisha sehemu.
+- `After the computer upgrade, everything runs much faster.` - Performanse sistema su poboljšane nakon ažuriranja ili izmene komponenti.
 
 # --scene--
 

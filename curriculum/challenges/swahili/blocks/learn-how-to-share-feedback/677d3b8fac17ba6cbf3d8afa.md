@@ -1,16 +1,15 @@
 ---
 id: 677d3b8fac17ba6cbf3d8afa
-title: Zoezi la 3
+title: Vežba 3
 challengeType: 22
 dashedName: task-3
 lang: en-US
 ---
-
-<!-- (Audio) Bob: I want to start by saying that you've done a great job with your QA work. -->
+<!-- (Audio) Bob: Želim da počnem tako što kažem da si odlično uradio posao sa svojim QA radom. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Hii ni aina ya `-ing` ya kitenzi `say`, inayotumika baada ya kiambishi `by` kuonyesha njia ya kuanza.
+Ovo je vrsta `-ing` glagola `say`, koja se koristi nakon afiksa `by` za pokazivanje načina početka.
 
 ---
 
@@ -32,17 +31,17 @@ Hii ni aina ya `-ing` ya kitenzi `say`, inayotumika baada ya kiambishi `by` kuon
 
 ### --feedback--
 
-Hii inasimama kwa `Quality Assurance`, ikimaanisha mchakato wa kuhakikisha bidhaa zinakidhi viwango vinavyotakiwa.
+Ovo označava `Quality Assurance`, što znači proces osiguravanja da proizvodi ispunjavaju potrebne standarde.
 
 # --explanation--
 
-Kitenzi kinapofuata kiambishi, lazima kiwe katika aina ya `-ing` (gerund). Katika sentensi hii, `saying` inafuata kiambishi `by`, ikionyesha njia ambayo Bob anatumia kuanza kauli yake. Kwa mfano:
+Kada glagol prati afiks, mora biti u vrsti `-ing` (gerundijum). U ovoj rečenici, `saying` prati afiks `by`, pokazujući način na koji Bob koristi da počne sa svojim izjavom. Primer:
 
-`She improved her skills by practicing regularly.` - Hapa, `practicing` inafuata kiambishi `by`, ikionyesha jinsi alivyoboresha ujuzi wake.
+`She improved her skills by practicing regularly.` - Ovde, `practicing` prati prefiks `by`, pokazujući kako je unapredio svoje znanje.
 
-Bob anamsifu Jessica kwa kazi yake katika `QA`. `QA` inasimama kwa `Quality Assurance`. Inahusu mchakato wa kuhakikisha bidhaa au huduma zinakidhi viwango maalum vya ubora na zinafanya kazi ipasavyo. Mfano mwingine:
+Bob hvali Jessiku za njen posao u `QA`. `QA` odnosi se na `Quality Assurance`. Radi se o procesu osiguravanja da proizvodi ili usluge ispunjavaju specifične standarde kvaliteta i funkcionišu kako treba. Drug primer:
 
-`The QA team identified several bugs during testing.` - Hii ina maana kwamba watu wanaohusika kuhakikisha ubora wa programu ni mzuri waliweza kugundua hitilafu katika programu kabla ya kutolewa kwake.
+`The QA team identified several bugs during testing.` - Ovo znači da su osobe odgovorne za osiguranje kvaliteta softvera mogle otkriti greške u programu pre nego što je objavljen.
 
 # --scene--
 

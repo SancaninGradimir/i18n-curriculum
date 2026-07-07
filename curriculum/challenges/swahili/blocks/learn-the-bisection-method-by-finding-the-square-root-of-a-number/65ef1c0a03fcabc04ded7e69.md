@@ -1,19 +1,17 @@
 ---
 id: 65ef1c0a03fcabc04ded7e69
-title: Hatua 12
+title: Korak 12
 challengeType: 20
 dashedName: step-12
 ---
 
 # --description--
 
-Ndani ya mzunguko wa for, hesabu nambari ya katikati ya kipindi kinachoanzia `low` hadi `high`. Weka thamani hii katika kigezo `mid`.
+Unutar ciklusa for, izračunajte srednju vrednost perioda koji počinje od `low` do `high`. Postavite ovu vrednost u parametar `mid`.
 
-Pia, hesabu mraba wa nambari ya katikati (`mid`) na uhifadhi katika kigezo `square_mid`.
-    
-# --hints--
+Takođe, izračunajte kvadrat srednjeg broja (`mid`) i sačuvajte u parametar `square_mid`.# --hints--
 
-Unapaswa kuondoa neno kuu la `pass`.
+Trebalo bi da uklonite glavnu reč `pass`.
 
 ```js
 ({
@@ -27,7 +25,7 @@ Unapaswa kuondoa neno kuu la `pass`.
 
 ```
 
-Unapaswa kutangaza kigezo `mid` na kuweka thamani `(low + high) / 2` ndani ya mwili wa mzunguko wa `for`.
+Trebalo bi da deklarišete parametar `mid` i postavite vrednost `(low + high) / 2` unutar tela ciklusa `for`.
 
 ```js
 ({
@@ -44,7 +42,7 @@ Unapaswa kutangaza kigezo `mid` na kuweka thamani `(low + high) / 2` ndani ya mw
 })
 ```
 
-Unapaswa kutangaza kigezo `square_mid` na kuweka thamani `mid**2` ndani ya mwili wa mzunguko wa for.
+Trebalo bi da deklarišete parametar `square_mid` i postavite vrednost `mid**2` unutar tela petlje for.
 
 ```js
 ({ test: () => assert(runPython(`_Node(_code).find_function("square_root_bisection").find_ifs()[1].find_bodies()[2].find_for_loops()[0].find_bodies()[0].find_variable("square_mid").is_equivalent("square_mid = mid**2")`)) })

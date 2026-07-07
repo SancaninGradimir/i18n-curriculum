@@ -1,16 +1,15 @@
 ---
 id: 68443eddeab5bb2d7d6e44bf
-title: Zoezi la 45
+title: Vežba 45
 challengeType: 22
 dashedName: task-45
 lang: en-US
 ---
-
-<!-- (Audio) Bob: Last, where should we set up the break room? -->
+<!-- (Audio) Bob: Na kraju, gde bismo trebali [set] u [break] sobi? -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kupanga au kuandaa kitu kwa ajili ya matumizi.
+Ovaj izraz od dve reči znači organizovati ili pripremiti nešto za upotrebu.
 
 ---
 
@@ -32,17 +31,17 @@ Usemi huu wa maneno mawili unamaanisha kupanga au kuandaa kitu kwa ajili ya matu
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unahusu sehemu ambapo wafanyakazi wanaweza kupumzika kutoka kazini.
+Ovaj dvoredični izraz odnosi se na mesto gde zaposleni mogu da odmore od posla.
 
 # --explanation--
 
-`Set up` inamaanisha kuandaa au kupanga kitu kwa ajili ya matumizi. Kwa mfano:
+`Set up` to znači pripremati ili organizovati nešto za upotrebu. Na primer:
 
-`We need to set up the new computers before the meeting.` – Hii inamaanisha kuvitayarisha.
+`We need to set up the new computers before the meeting.` – Ovo znači pripremiti ih.
 
-`Break room` ni sehemu katika ofisi ambapo watu hupumzika, kula, au kupumzika. Kwa mfano:
+`Break room` je oblast u kancelariji gde ljudi odmaraju, jedu ili se opuštaju. Na primer:
 
-`Let's meet in the break room after lunch.` – Hii inahusu nafasi iliyotengwa kwa ajili ya kupumzika.
+`Let's meet in the break room after lunch.` – Ovo se tiče prostora koji je namenjen za odmor.
 
 # --scene--
 

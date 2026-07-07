@@ -1,24 +1,23 @@
 ---
 id: 67adad520eb3ba05f8a1af1b
-title: Zoezi la 33
+title: Vežba 33
 challengeType: 19
 dashedName: task-33
 lang: en-US
 ---
-
-<!-- (Audio) Bob: So maybe we should focus on both. Find a balance between comfort and technology to ensure everyone has what they need. -->
+<!-- (Audio) Bob: Pa možda bismo trebali da se fokusiramo na oba. Pronaći ravnotežu između udobnosti i tehnologije kako bismo osigurali da svako ima ono što mu treba. -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na ujibu swali lililopo hapa chini.
+Slušaj audio snimak i odgovori na pitanje koje je navedeno ispod.
 
 # --questions--
 
 ## --text--
 
-Anna anapaswa kusema nini ili kuonyesha anakubaliana na Bob?
+Šta bi Anna trebala da kaže ili pokaže da se slaže sa Bobom?
 
 ## --answers--
 
@@ -30,7 +29,7 @@ ENd6da13d0
 
 ### --feedback--
 
-Usemi huu unaonyesha mkanganyiko, lakini Anna anahitaji kuonyesha anakubaliana na wazo la Bob.
+Ova izjava pokazuje zbunjenost, ali Ana mora da pokaže da pristaje na ideju Boba.
 
 ---
 
@@ -46,7 +45,7 @@ ENc50c4990
 
 # --explanation--
 
-`That makes sense` ni njia ya kawaida ya kuonyesha makubaliano. Watu hutumia usemi huu katika mazungumzo wanapokubali au kuelewa pendekezo. Kwa mfano:
+`That makes sense` To je uobičajen način pokazivanja saglasnosti. Ljudi koriste ovu frazu u razgovorima kada pristanu ili razume predlog. Na primer:
 
 - **Msanidi programu:** `We should optimize the code before adding new features to avoid performance issues.`
 

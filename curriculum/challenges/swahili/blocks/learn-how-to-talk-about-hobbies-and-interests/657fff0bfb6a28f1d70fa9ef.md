@@ -1,18 +1,17 @@
 ---
 id: 657fff0bfb6a28f1d70fa9ef
-title: Zoezi la 80
+title: Vežba 80
 challengeType: 22
 dashedName: task-80
 lang: en-US
 ---
-
-<!-- (Audio) Tom: Thanks for the invite, Sarah. I appreciate it, but I'm not really into sci-fi. -->
+<!-- (Audio) Tom: Hvala na pozivanju for, Sara. Cijenim to, ali nisam baš zainteresovan za naučanu fantastiku. -->
 
 # --description--
 
-`I appreciate it, but...` hutumika kuonyesha shukrani kwa ofa au ishara huku ukikataa kwa heshima au kueleza kikomo au upendeleo binafsi.
+`I appreciate it, but...` Koristi se za izražavanje zahvalnosti na ponudi ili gestu dok se pristojno odbija, ili kada treba da se navede ograničenje ili lična preferencija.
 
-Kwa mfano, ikiwa rafiki yako anatoa kusaidia na changamoto ya kuandika programu, na unashukuru lakini unataka kujaribu mwenyewe kwanza, unaweza kusema, `I appreciate it, but I want to give it a shot by myself first`.
+Na primer, ako ti prijatelj ponudi pomoć sa izazovom kodiranja/programiranja, i zahvalan si, ali želiš da prvo sam pokušaš, možeš reći, `I appreciate it, but I want to give it a shot by myself first`.
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ Kwa mfano, ikiwa rafiki yako anatoa kusaidia na changamoto ya kuandika programu,
 
 ### --feedback--
 
-Neno hili hutumika mara nyingi kuonyesha shukrani au kuthamini.
+Ova reč se često koristi da bi se pokazala zahvalnost ili pažnja.
 
 ---
 
@@ -34,7 +33,7 @@ Neno hili hutumika mara nyingi kuonyesha shukrani au kuthamini.
 
 ### --feedback--
 
-Neno hili hutumika kuanzisha usemi au kifungu kinachopingana na kile kilichotajwa awali.
+Ova reč se koristi za uvođenje izraza ili klauzule koja je protivrečna onome što je prethodno pomenuto.
 
 # --scene--
 

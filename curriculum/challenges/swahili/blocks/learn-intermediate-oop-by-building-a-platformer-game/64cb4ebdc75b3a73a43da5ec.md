@@ -1,45 +1,45 @@
 ---
 id: 64cb4ebdc75b3a73a43da5ec
-title: Hatua 108
+title: Korak 108
 challengeType: 0
 dashedName: step-108
 ---
 
 # --description--
 
-Tengeneza usemi wa `if` unaokagua kama `isCheckpointCollisionDetectionActive` ni kweli.
+Kreiraj izjavu za `if` koja proverava da li `isCheckpointCollisionDetectionActive` je tačno.
 
-Ndani ya usemi wa `if`, ongeza `setTimeout()` inayochukua kitendakazi cha mwitiko na ucheleweshaji wa milisekunde 2000.
+Unutar opsega `if`, dodaj `setTimeout()` koja uzima funkciju povratnog poziva i kašnjenje od 2000 milisekundi.
 
-Kwa kitendakazi cha mwitiko, inapaswa kuweka sifa ya `checkpointScreen` `style.display` kuwa `"none"`.
+Za funkciju poziva, treba postaviti atribut `checkpointScreen` `style.display` na `"none"`.
 
 # --hints--
 
-Unapaswa kuwa na usemi wa `if` unaokagua kama `isCheckpointCollisionDetectionActive` ni kweli.
+Trebalo bi da ima izraz od `if` koji proverava da li `isCheckpointCollisionDetectionActive` je tačno.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{/s);
 ```
 
-Unapaswa kuwa na kitendakazi cha `setTimeout()` ndani ya usemi wa `if`.
+Trebalo bi da imaš funkciju `setTimeout()` unutar izraza `if`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(/s);
 ```
 
-Kitendakazi chako cha `setTimeout()` kinapaswa kuwa na kitendakazi cha mwitiko kama hoja ya kwanza.
+Tvoja funkcija za `setTimeout()` treba da ima funkciju povratnog poziva kao prvi argument.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>/s);
 ```
 
-Kitendakazi chako cha `setTimeout()` kinapaswa kuwa na ucheleweshaji wa milisekunde 2000 kama hoja ya pili.
+Tvoja funkcija `setTimeout()` bi trebalo da ima kašnjenje od 2000 milisekundi kao drugi argument.
 
 ```js
 assert.match(code, /\s*setTimeout\s*\(\s*\(\s*\)\s*=>[^,]*,\s*2000\s*\)/s);
 ```
 
-Kitendakazi chako cha mwitiko kinapaswa kuweka sifa ya `checkpointScreen` `style.display` kuwa `"none"`.
+Funkcija povratnog poziva mora da postavi svojstvo `checkpointScreen` `style.display` na `"none"`.
 
 ```js
 assert.match(code, /\s*if\s*\(\s*isCheckpointCollisionDetectionActive\s*\)\s*{\s*setTimeout\s*\(\s*\(\s*\)\s*=>\s*(\(\s*checkpointScreen\.style\.display\s*=\s*("|')none\2\s*\)|\{\s*checkpointScreen\.style\.display\s*=\s*("|')none\3\s*;?\s*\}|\s*checkpointScreen\.style\.display\s*=\s*("|')none\4\s*)\s*,\s*2000\s*\)\s*;?\s*}/s);

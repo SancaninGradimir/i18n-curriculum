@@ -11,7 +11,7 @@ lang: en-US
 
 # --instructions--
 
-Slušaj audio snimak i odgovori na pitanje koje je navedeno ispod.
+Slušajte audio snimak i odgovorite na pitanje koje je navedeno ispod.
 
 # --questions--
 

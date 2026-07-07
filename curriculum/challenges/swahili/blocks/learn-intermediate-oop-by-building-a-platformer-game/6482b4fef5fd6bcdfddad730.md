@@ -1,19 +1,19 @@
 ---
 id: 6482b4fef5fd6bcdfddad730
-title: Hatua 12
+title: Korak 12
 challengeType: 0
 dashedName: step-12
 ---
 
 # --description--
 
-Hatua inayofuata ni kufafanua baadhi ya sifa za mchezaji mkuu wa mchezo.
+Sledeći korak je definisanje nekih karakteristika glavnog lika u igri.
 
-Anza kwa kuunda `class` mpya inayoitwa `Player`.
+Počnite kreiranjem `class` novog nazvanog `Player`.
 
 # --hints--
 
-`Player` inapaswa kuwa darasa la vitu.
+`Player` Trebalo bi da bude klasa objekata.
 
 ```js
 assert(
@@ -21,13 +21,13 @@ assert(
 );
 ```
 
-Neno kuu la `class` linapaswa kutumika.
+Glavna reč za `class` mora se koristiti.
 
 ```js
 assert.match(code, /^\s*class/m);
 ```
 
-Unapaswa kuunda darasa la vitu jipya linaloitwa `Player`
+Trebalo bi da kreirate novu klasu objekata nazvanu `Player`
 
 ```js
 assert.match(code, /class\s+Player\s*{\s*}\s*/);

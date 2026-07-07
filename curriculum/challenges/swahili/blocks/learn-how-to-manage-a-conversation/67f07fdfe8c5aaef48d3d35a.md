@@ -1,22 +1,21 @@
 ---
 id: 67f07fdfe8c5aaef48d3d35a
-title: Zoezi la 130
+title: Vežba 130
 challengeType: 19
 dashedName: task-130
 lang: en-US
 ---
-
 <!-- READING -->
 
 # --instructions--
 
-Soma maandishi na ujibu swali lililopo hapa chini.
+Pročitajte tekst i odgovorite na pitanje koje se nalazi ispod.
 
 # --questions--
 
 ## --text--
 
-Baada ya mazungumzo na Sarah, Brian anaamua kumwandikia Bob, kutoka uongozi, kumjulisha kuhusu hali ilivyo.
+Nakon razgovora sa Sarah, Brian odlučuje da napiše Bobu, iz menadžmenta, kako bi ga obavestio o situaciji.
 
 `Subject: Quick Update – Resources, Integration Issues, and Training`
 
@@ -36,7 +35,7 @@ Baada ya mazungumzo na Sarah, Brian anaamua kumwandikia Bob, kutoka uongozi, kum
 
 `Brian`
 
-Kulingana na mstari wa `Subject`, kwa nini Brian aliandika barua pepe hii?
+Prema liniji `Subject`, zašto je Brian napisao ovaj e-mail?
 
 ## --answers--
 
@@ -44,7 +43,7 @@ Kutoa taarifa kuhusu maendeleo ya timu na kuomba taarifa.
 
 ---
 
-Kukumbusha uongozi kuhusu mkutano wao wa mwisho.
+Podsjećanje rukovodstva na njihovom zadnjem sastanku.
 
 ### --feedback--
 
@@ -52,19 +51,19 @@ Hakuna maelezo kuhusu mkutano uliopita kati ya Brian na uongozi.
 
 ---
 
-Kuwaambia uongozi kwamba mradi umekaribia kukamilika.
+Obavestiti menadžment da je projekat skoro završen.
 
 ### --feedback--
 
-Barua pepe inasema bado kuna changamoto, hivyo mradi bado haujakaribia kukamilika.
+Email kaže da i dalje postoje izazovi, pa projekat još uvek nije blizu završetka.
 
 ---
 
-Kumuuliza Sarah kuhusu muunganisho mpya wa programu.
+Pita Sarah za novu aplikacionu konekciju.
 
 ### --feedback--
 
-Brian tayari alizungumza na Sarah. Sasa anashiriki taarifa hiyo na uongozi.
+Brian je već razgovarao sa Sarah. Sada deli te informacije sa menadžmentom/rukovodstvom.
 
 ## --video-solution--
 
@@ -72,4 +71,4 @@ Brian tayari alizungumza na Sarah. Sasa anashiriki taarifa hiyo na uongozi.
 
 # --explanation--
 
-Mstari wa `Subject` kawaida huleta mada ambazo zitatatuliwa katika sehemu kuu ya ujumbe. Soma mstari huu ili kupata jibu sahihi la swali hili.
+Linija `Subject` obično donosi teme koje će biti rešene u glavnom delu poruke. Pročitajte ovu liniju kako biste pronašli tačan odgovor na ovo pitanje.

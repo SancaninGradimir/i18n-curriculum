@@ -1,16 +1,15 @@
 ---
 id: 679d2dc229e6ceeadff4ed48
-title: Zoezi la 92
+title: Vežba 92
 challengeType: 22
 dashedName: task-92
 lang: en-US
 ---
-
-<!-- (Audio) James: Do you think we need to update the software again? If we do, it might delay other projects. -->
+<!-- (Audio) James: Misliš li da treba ponovo da ažuriramo softver? Ako do, to bi moglo odložiti druge projekte. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili hutumika kuepuka kurudia kitenzi `update` kutoka kwenye sentensi iliyotangulia.
+Ova reč se koristi za izbegavanje ponavljanja glagola `update` iz prethodne rečenice.
 
 ---
 
@@ -32,17 +31,17 @@ Neno hili hutumika kuepuka kurudia kitenzi `update` kutoka kwenye sentensi iliyo
 
 ### --feedback--
 
-Neno hili linamaanisha kuchelewesha au kufanya jambo lifanyike baadaye kuliko ilivyopangwa.
+Ova reč znači odlaganje ili učinjavanje da nešto bude urađeno kasnije nego što je planirano.
 
 # --explanation--
 
-Badala ya kusema `If we update the software, it might delay other projects.`, James alilifupisha kuwa `If we do`. Neno `do` hutumika mara nyingi kuepuka kurudia kitenzi au usemi kamili ulio tumika kwenye sentensi iliyotangulia. Kwa mfano:
+Umesto da kaže `If we update the software, it might delay other projects.`, James je skratio na `If we do`. Reč `do` se često koristi da bi se izbeglo ponavljanje glagola ili celokupnog izraza koji je korišćen u prethodnoj rečenici. Na primer:
 
-`She wants to join the meeting, and if she does, she'll need the link.` - Badala ya kusema `if she joins the meeting`, unaweza kutumia `does` kuibadilisha na kwa njia hii unaweza kuepuka kurudia.
+`She wants to join the meeting, and if she does, she'll need the link.` - Umesto da kažete `if she joins the meeting`, možete koristiti `does` da ga promenite i na ovaj način možete izbeći ponavljanje.
 
-`To delay` linamaanisha kufanya jambo lifanyike baadaye kuliko ilivyopangwa. Kwa mfano:
+`To delay` to znači da se nešto dešava kasnije nego što je planirano. Na primer:
 
-`The flight was delayed due to bad weather.` - Hii inamaanisha ndege ilicheleweshwa na haikuondoka kwa wakati.
+`The flight was delayed due to bad weather.` - Ovo znači da je let odložen i nije pol उड़ाo na vrijeme.
 
 # --scene--
 

@@ -1,50 +1,49 @@
 ---
 id: 657fb5afeeba2de5d01dda0e
-title: Zoezi la 81
+title: Vežba 81
 challengeType: 19
 dashedName: task-81
 lang: en-US
 ---
-
-<!-- (Audio) Tom: Thanks for the invite, Sarah. I appreciate it, but I'm not really into sci-fi. -->
+<!-- (Audio) Tom: Hvala na pozivanju for, Sara. Cijenim to, ali nisam baš zainteresovan za naučanu fantastiku. -->
 
 # --description--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Tom anajibu vipi mwaliko wa Sarah wa mkataba wa sayansi ya kubuni (sci-fi)?
+Kako Tom reaguje na poziv Sare vezan za ugovor o naučnoj fantastici (sci-fi)?
 
 ## --answers--
 
-Anakubali mara moja.
+Prihvata odmah.
 
 ### --feedback--
 
-Tom hakubali mwaliko. Anataja kutokuwepo kwa hamu yake katika sayansi ya kubuni.
+Tom ne prihvaća poziv. Spominje nedostatak interesa za nauku o dizajnu.
 
 ---
 
-Anakataa kwa heshima.
+Odbija sa poštovanjem.
 
 ---
 
-Anaonyesha kutokuwa na hamu.
+Pokazuje nedostatak interesa.
 
 ### --feedback--
 
-Ingawa Tom anaonyesha kutokuwepo kwa hamu, jibu lake ni zaidi kuhusu kukataa mwaliko kwa heshima badala ya kuonyesha tu kutokuwa na hamu.
+Iako Tom pokazuje nedostatak interesa, njegov odgovor je više o odbijanju poziva sa poštovanjem nego samo pokazivanju nedostatka interesa.
 
 ---
 
-Anapuuzia mwaliko.
+Ignoriše pozivnicu.
 
 ### --feedback--
 
-Tom anakubali mwaliko na kujibu, hivyo haumpuuzii.
+Tom prihvata poziv i odgovara, pa ga ne ignoriše.
 
 ## --video-solution--
 

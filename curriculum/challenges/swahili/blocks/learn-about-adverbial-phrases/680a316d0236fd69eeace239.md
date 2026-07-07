@@ -9,7 +9,7 @@ lang: en-US
 
 # --instructions--
 
-Slušajte audio odgovor na pitanje ispod.
+Slušaj audio odgovor na pitanje dole.
 
 # --questions--
 

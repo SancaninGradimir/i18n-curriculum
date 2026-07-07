@@ -1,30 +1,30 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Jinsi taarifa za masharti na opereta za kimantiki zinavyofanya kazi
+title: Kako funkcionišu uslovi i odredbe za kriptografiju (ili: za matematičku/kriptografsku mašinu)
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---
 
 # --description--
 
-Taarifa za masharti, au masharti, hukuruhusu kudhibiti mtiririko wa programu yako kulingana na kama masharti fulani ni kweli au si kweli.
+Uslovne izjave, ili uslovi, omogućavaju vam da kontrolišete tok vašeg programa u zavisnosti od toga da li su određeni uslovi istiniti ili netačni.
 
-Lakini kabla hatujaingia katika yote hayo, hebu tuangalie vipengele vya msingi vya taarifa za masharti, kuanzia na opereta za kulinganisha. Opereta za kulinganisha ni opereta zinazokuruhusu kulinganisha thamani mbili au zaidi, na kurudisha thamani ya thamani ya kweli au siyo kweli.
+Ali pre nego što uđemo u sve to, hajde da pogledamo osnovne elemente uslovnih izjava, počevši od operatora poređenja. Operatori poređenja su operateri koji vam omogućavaju da uporedite dve ili više vrednosti i vrate vrednost tačno ili netačno.
 
-Katika funzo lililopita, ulijifunza kwamba thamani za kweli au siyo kweli ni mojawapo ya aina za data katika Python, na zinaweza kuwa tu `True` au `False`.
+U prethodnoj lekciji, naučili ste da vrednosti tačno ili netačno su jedna od vrsta podataka u Python, i mogu biti samo `True` ili `False`.
 
-Hapa kuna jedwali lenye opereta za kulinganisha katika Python:
+Ovde postoji tabela sa operatorima za poređenje u Python:
 
-| Operator | Jina | Maelezo |
+| Operator | Ime | Opis |
 | --- | --- | --- |
-| `==` | Sawa | Hukagua kama thamani mbili ni sawa |
-| `!=` | Sio sawa | Hukagua kama thamani mbili si sawa |
-| `>` | Kubwa kuliko | Hukagua kama thamani upande wa kushoto ni kubwa kuliko thamani upande wa kulia |
-| `<` | Ndogo kuliko | Hukagua kama thamani upande wa kushoto ni ndogo kuliko thamani upande wa kulia |
-| `>=` | Kubwa kuliko au sawa na | Hukagua kama thamani upande wa kushoto ni kubwa kuliko au sawa na thamani upande wa kulia |
-| `<=` | Ndogo kuliko au sawa na | Hukagua kama thamani upande wa kushoto ni ndogo kuliko au sawa na thamani upande wa kulia |
+| `==` | Jednako | Proverava da li su dve vrednosti jednake |
+| `!=` | Nejednako | Proverava da li dve vrednosti nisu jednake |
+| `>` | Veće od | Proverava da li je vrednost na levoj strani veća od vrednosti na desnoj strani |
+| `<` | Manje od | Proverava da li je vrednost na levoj strani manja od vrednosti na desnoj strani |
+| `>=` | Veće ili jednako | Proverava da li je vrednost na levoj strani veća ili jednaka vrednosti na desnoj strani |
+| `<=` | Manje ili jednako | Proverava da li je vrednost na levoj strani manja ili jednaka vrednosti na desnoj strani |
 
-Hapa kuna baadhi ya usemi wa kihesabu unaotathmini kuwa `True` au `False`:
+Evo nekih matematičkih izraza koji evaluiraju na `True` ili `False`:
 
 ```python
 print(3 > 4) # False
@@ -36,24 +36,24 @@ print(3 >= 4) # False
 print(3 <= 4) # True
 ```
 
-Opereta hizi zinaweza kutumika katika masharti kulinganisha thamani na kuendesha msimbo fulani kulingana na kama taarifa ya masharti inatathmini kuwa `True` au `False`.
+Ove operete mogu se koristiti u uslovima poređenja vrednosti i izvršavanja određenog koda, zavisno od toga da li izjava o uslovu procenjuje na `True` ili `False`.
 
-Katika Python, taarifa ya masharti ya msingi kabisa ni taarifa ya `if`. Hapa ni sintaksia ya msingi:
+U Python, informacija o apsolutnim osnovnim uslovima je informacija o `if`. Ovde je osnovna sintaksa:
 
 ```python
 if condition:
     pass # Code to execute if condition is True
 ```
 
-* Taarifa za `if` huanza na neno kuu la `if`.
+* Informacije za `if` počinju sa glavnom rečju od `if`.
     
-* `condition` ni usemi wa kihesabu unaotathmini kuwa `True` au `False`, ukifuatiwa na nukta mbili (`:`).
+* `condition` je matematički izraz koji procenjuje na `True` ili `False`, praćen dve tačke (`:`).
 
-* Mwili wa taarifa ya `if` ni kundi la taarifa zinazohusiana pamoja. Katika Python, kiwango cha kuingizwa (indentation) ndicho kinachobainisha kundi la msimbo.
+* Telo deklaracije `if` je grupa povezanih izjava. U Python, nivo uvlačenja (indentation) određuje grupu koda.
     
-Katika mfano hapo juu, mwili wa taarifa ya `if` una taarifa ya `pass`. Wakati taarifa ya `pass` inatekelezwa, hakuna kinachotokea. Hili ni neno kuu maalum linaloweza kutumika kama kiwakilishi cha msimbo wa baadaye na ni muhimu wakati mabano ya msimbo tupu hayaruhusiwi.
+U gornjem primeru, telo deklaracije `if` sadrži deklaraciju `pass`. Kada se izvrši deklaracija `pass`, ništa se ne dešava. Ovo je specijalna ključna reč koja se može koristiti kao zamena za budući kod i važna je kada nisu dozvoljene prazne vitičaste zagradi.
 
-Msimbo ndani ya mwili wa taarifa ya `if` unatekelezwa tu wakati hali inapotathminiwa kuwa `True`. Kwa mfano:
+Kod unutar tela izveštaja `if` se izvršava samo kada je uslov procenjen kao `True`. Primer:
 
 ```python
 age = 18
@@ -62,9 +62,9 @@ if age >= 18:
     print('You are an adult') # You are an adult
 ```
 
-Angalia kuingizwa kabla ya `print('You are an adult')`. Wakati lugha nyingine za programu hutumia herufi kama mabano ya mviringo kuainisha mabano ya msimbo, na hutumia kuingizwa tu kwa ajili ya urahisi wa kusoma, katika Python mabano ya msimbo huamuliwa kwa kuingizwa.
+Proverite ubacivanje pre `print('You are an adult')`. Dok druge programski jezike koriste znakove poput vitičastih zagrada za definisanje kodnih zagrada, i koriste ubacivanje samo radi čitljivosti, u Python kodne zagrade se određuju ubacivanjem.
 
-Msimbo ufuatao ungeleta `IndentationError`, ambayo ni njia ya Python kuashiria kwamba kuingizwa kunahitajika sehemu fulani ya msimbo:
+Sledeći kod ukazuje na `IndentationError`, što je način za Python da se ukazuje da je potrebno uneti deo koda:
 
 ```py
 age = 18
@@ -73,11 +73,11 @@ if age >= 18:
 print('You are an adult') # IndentationError: expected an indented block after 'if' statement on line 3
 ```
 
-Ingawa unaweza kutumia idadi yoyote ya nafasi (mradi tu unakuwa thabiti) kuamua kila kiwango cha kuingizwa, mwongozo wa mtindo wa Python unashauri kutumia nafasi nne.
+Iako možete koristiti bilo koji broj razmaka (pod uslovom da je projekat stabilan) za određivanje svakog nivoa unosa, vodič stila Python savetuje korišćenje četiri razmaka.
 
-Mabano pia hupatikana katika mizunguko na vitendakazi, ambavyo utajifunza kuhusu katika masomo yajayo.
+Elementi se takođe mogu pronaći u krugovima i komponentama, o čemu ćete naučiti na narednim lekcijama.
 
-Kurudi kwenye mfano wetu, ikiwa `age` ni chochote chini ya `18`, hakuna kinachochapishwa kwenye terminali:
+Vratite se na naš primer, ako je `age` bilo šta manje od `18`, ništa se ne ispisuje na terminalu:
 
 ```python
 age = 12
@@ -86,7 +86,7 @@ if age >= 18:
     print('You are an adult') # Nothing shows up in the terminal
 ```
 
-Lakini vipi ikiwa pia unataka kuchapisha kitu ikiwa `age` ni chini ya `18`? Hapo ndipo kifungu cha `else` kinapoingia. Kifungu cha `else` hufanya kazi wakati hali ya `if` ni si kweli. Hapa ni sintaksia ya taarifa ya `if…else`:
+Ali šta ako želiš da odštampa nešto ako je `age` manje od `18`? Tamo ulazi klauzula `else`. Klauzula `else` radi kada uslov `if` nije istinit. Ovo je sintaksa deklaracije `if…else`:
 
 ```python
 if condition:
@@ -95,7 +95,7 @@ else:
    pass # Code to execute if condition is False
 ```
 
-Kwa mfano:
+Na primer:
 
 ```python
 age = 12
@@ -106,7 +106,7 @@ else:
     print('You are not an adult yet') # You are not an adult yet
 ```
 
-Kumbuka huwezi kuweka taarifa yoyote kati ya block ya `if` na kifungu cha `else`. Msimbo ufuatao ungeleta `SyntaxError`:
+Zapamtite da ne možete umetnuti nikakve podatke između bloka `if` i sekcije `else`. Sledeći kod bi doveo do `SyntaxError`:
 
 ```python
 age = 12
@@ -118,9 +118,9 @@ else: # SyntaxError: invalid syntax
     print('You are not an adult yet')
 ```
 
-Huenda kuna hali ambapo unataka kuzingatia masharti mengi. Ili kufanya hivyo, Python inakuwezesha kuongeza taarifa yako ya if kwa neno kuu la `elif` (else if).
+Možda postoji situacija u kojoj želite uzeti u obzir mnogo uslova. Da biste to uradili, Python vam omogućava da dodate vaše informacije za if za glavnu reč/ključ `elif` (else if).
 
-Hapa ni sintaksia:
+Ovo je sintaksa:
 
 ```python
 if condition1:
@@ -131,7 +131,7 @@ else:
    pass # Code to execute if all conditions are False
 ```
 
-Kwa mfano:
+Na primer:
 
 ```python
 age = 12
@@ -144,7 +144,7 @@ else:
     print('You are a child') # You are a child
 ```
 
-Kumbuka unaweza kutumia vifungu vya `elif` kadri unavyotaka:
+Zapamti da možeš koristiti sekcije `elif` kada god poželiš:
 
 ```python
 age = 2
@@ -163,41 +163,41 @@ else:
     print('You are a toddler or an infant') # You are a toddler or an infant
 ```
 
-Sasa unapoelewa jinsi opereta za kulinganisha na taarifa za masharti zinavyofanya kazi katika Python, unaweza kuanza kuandika programu zinazofanya maamuzi kulingana na mantiki na ingizo. Iwe unalinganisha thamani au kuzunguka kupitia masharti mengi, zana hizi ni msingi wa kuandika msimbo unaojibadilisha kulingana na kifaa. 
+Sada kada razumete kako operateri za poređenje i uslovne izjave funkcionišu u Python, možete početi da pišete programe koji donose odluke na osnovu logike i unosa. Bilo da poredite vrednosti ili prolazite kroz mnogo uslova, ovi alati su osnova za pisanje koda koji se prilagođava uređaju.
 
 # --questions--
 
 ## --text--
 
-Opereta za kulinganisha hufanya nini?
+Šta radi operator za poređenje?
 
 ## --answers--
 
-Fanya mahesabu ya kihesabu na thamani za boolean
+Izvršite aritmetičke proračune i vrednosti booleana
 
 ### --feedback--
 
-Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo ni `True` au `False`.
+Ovi operateri proveravaju stvari kao što je jednakost ili koja vrednost je veća, i rezultat je `True` ili `False`.
 
 ---
 
-Badilisha mfuatano wa herufi kuwa thamani za boolean.
+Promeni niz znakova u vrednosti tipa bool.
 
 ### --feedback--
 
-Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo ni `True` au `False`.
+Ove operacije proveravaju stvari kao što je jednakost ili koja vrednost je veća, a rezultat je `True` ili `False`.
 
 ---
 
-Linganishwa thamani mbili na kurudisha thamani ya thamani ya kweli au siyo kweli.
+Uporedi dve vrednosti i vrati vrednost Tačno ili Netačno.
 
 ---
 
-Tengeneza mizunguko na marudio.
+Generiši kola i ponavljanja.
 
 ### --feedback--
 
-Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo ni `True` au `False`.
+Opereta hizi proverava da li je u pitanju jednakost ili koja je veća vrednost, a rezultati su `True` ili `False`.
 
 ## --video-solution--
 
@@ -205,7 +205,7 @@ Opereta hizi hukagua mambo kama usawa au ni thamani gani kubwa zaidi, na matokeo
 
 ## --text--
 
-Matokeo ya msimbo ufuatao yatakuwa yapi?
+Šta će biti rezultat sledećeg koda?
 
 ```python
 age = 12
@@ -220,31 +220,31 @@ else:
 
 ## --answers--
 
-`You are an adult` itachapishwa kwenye konsoli.
+`You are an adult` To će biti ispisano na konzoli.
 
 ### --feedback--
 
-Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
+Pregledaj poslednji deo lekcije za tačan odgovor.
 
 ---
 
-`You are a teenager` itachapishwa kwenye konsoli.
+`You are a teenager` Biće ispisano na konzolu.
 
 ### --feedback--
 
-Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
+Proveri poslednji deo lekcije za tačan odgovor.
 
 ---
 
-`You are a child` itachapishwa kwenye konsoli.
+`You are a child` Biće ispisano na konzolu.
 
 ---
 
-Hitilafu itachapishwa kwenye konsoli.
+Greška će biti ispisana na konzoli.
 
 ### --feedback--
 
-Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
+Pregledajte poslednji deo lekcije za tačan odgovor.
 
 ## --video-solution--
 
@@ -252,7 +252,7 @@ Kagua sehemu ya mwisho ya funzo kwa jibu sahihi.
 
 ## --text--
 
-Usemi wa kihesabu `3 >= 4` utatathminiwa kuwa nini?
+Matematički izraz `3 >= 4` na šta će biti evaluiran?
 
 ## --answers--
 
@@ -260,7 +260,7 @@ Usemi wa kihesabu `3 >= 4` utatathminiwa kuwa nini?
 
 ### --feedback--
 
-3 si kubwa kuliko au sawa na 4.
+3 nije veće ili jednako od 4.
 
 ---
 
@@ -268,7 +268,7 @@ Usemi wa kihesabu `3 >= 4` utatathminiwa kuwa nini?
 
 ### --feedback--
 
-3 si kubwa kuliko au sawa na 4.
+3 nije veće ili jednako od 4.
 
 ---
 
@@ -276,7 +276,7 @@ Usemi wa kihesabu `3 >= 4` utatathminiwa kuwa nini?
 
 ### --feedback--
 
-3 si kubwa kuliko au sawa na 4.
+3 je veće od ili jednako 4.
 
 ---
 

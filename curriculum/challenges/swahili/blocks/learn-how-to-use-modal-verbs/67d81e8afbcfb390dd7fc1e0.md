@@ -1,24 +1,23 @@
 ---
 id: 67d81e8afbcfb390dd7fc1e0
-title: Zoezi la 133
+title: Vežba 133
 challengeType: 19
 dashedName: task-133
 lang: en-US
 ---
-
-<!-- (audio) Lisa: Have you checked which files were compromised? -->
+<!-- (audio) Lisa: Da li ste proverili koje su datoteke bile kompromitovane? -->
 
 <!-- SPEAKING -->
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
 ## --text--
 
-Jake bado hajakagua hilo na anasema timu inapaswa kuwa makini na jambo lingine. Angesema nini?  
+Jake još uvek nije proverio to i kaže da tim treba da bude oprezan oko nečega drugog. Šta bi rekao?
 
 ## --answers--
 
@@ -38,7 +37,7 @@ EN4ec0b91b
 
 ### --feedback--
 
-Jake bado hajakagua, kwa hivyo hangeweza kuthibitisha hili.
+Jake još nije proverio, pa ne bi mogao da to potvrdi.
 
 ## --video-solution--
 
@@ -46,11 +45,11 @@ Jake bado hajakagua, kwa hivyo hangeweza kuthibitisha hili.
 
 # --explanation--
 
-Kuhakikisha usalama wa mifumo muhimu kawaida huwa kipaumbele cha kwanza kabla ya kutathmini mafaili binafsi.
+Osiguravanje bezbednosti kritičnih sistema obično je prvi prioritet pre procenjivanja ličnih fajlova.
 
-`Not yet.` ina maana Jake bado hajakagua mafaili yaliyoharibika.
+`Not yet.` to znači da Jake još uvek nije pregledao oštećene fajlove.
 
-`We should focus on the critical systems first.` ina maana badala ya kuangalia mafaili, timu inapaswa kipaumbele kulinda sehemu muhimu za mfumo.
+`We should focus on the critical systems first.` umesto pregleda fajlova, tim treba da prioritetizira zaštitu kritičnih delova sistema.
 
 # --scene--
 

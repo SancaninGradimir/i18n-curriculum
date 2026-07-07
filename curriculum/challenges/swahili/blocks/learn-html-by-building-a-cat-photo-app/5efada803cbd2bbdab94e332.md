@@ -1,23 +1,23 @@
 ---
 id: 5efada803cbd2bbdab94e332
-title: Hatua 31
+title: Korak 31
 challengeType: 0
 dashedName: step-31
 ---
 
 # --description--
 
-Ndani ya kipengele cha `figure` ulichojiongeza, panga ndani kipengele cha `img` chenye sifa ya kipengele cha `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Unutar elementa sa `figure` koji je dodan, postavite unutar elementa `img` koji ima svojstvo elementa `src` postavljeno na `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 # --hints--
 
-Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
+Vaš drugi element `figure` treba da ima etiketu za otključavanje. Etikete za otključavanje imaju ovu sintaksu: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('figure').length >= 2);
 ```
 
-Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Vaš drugi element `figure` bi trebalo da ima zatvarajući tag. Zatvarajući tagovi su `/` odmah nakon karaktera `<`.
 
 ```js
 assert(code.match(/<\/figure>/g).length >= 2);
@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Ingawa umeweka sifa ya kipengele cha `src` ya picha mpya kuwa URL sahihi, inashauriwa kila mara kuzunguka thamani ya sifa ya kipengele na alama za nukuu.
+Iako ste postavili atribut za element `src` nove slike kao URL tačan, savetuje se uvek da vrednost atributa elementa obuhvatite navodnicima.
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.freecodecamp\.org\/curriculum\/cat-photo-app\/cats\.jpg/);

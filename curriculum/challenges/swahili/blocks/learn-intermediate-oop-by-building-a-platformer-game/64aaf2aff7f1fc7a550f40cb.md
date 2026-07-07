@@ -1,26 +1,26 @@
 ---
 id: 64aaf2aff7f1fc7a550f40cb
-title: Hatua 36
+title: Korak 36
 challengeType: 0
 dashedName: step-36
 ---
 
 # --description--
 
-Sasa ni wakati wa kuona mchezaji wako mpya akichorwa kwenye skrini.
+Sada je vreme da vidiš svog novog igrača kako se pojavljuje na ekranu.
 
-Anza kwa kuunda kitendakazi cha mshale tupu kinachoitwa `startGame`.
+Počni kreiranjem prazne strelične funkcije koja se zove `startGame`.
 
 # --hints--
 
 
-`startGame` inapaswa kuwa kitendakazi
+`startGame` treba da bude funkcija
 
 ```js
 assert.isFunction(startGame);
 ```
 
-`startGame` inapaswa kuwa kitendakazi cha mshale
+`startGame` Trebalo bi da bude funkcija strele
 
 
 ```js

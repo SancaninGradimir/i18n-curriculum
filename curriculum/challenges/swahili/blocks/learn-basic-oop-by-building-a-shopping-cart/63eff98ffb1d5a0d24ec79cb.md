@@ -9,7 +9,7 @@ dashedName: step-26
 
 Još niste napisali kod za generisanje HTML, ali ako je proizvod već dodan u korpu korisnika, biće odgovarajuća funkcija koja vam je potrebna.
 
-Koristite `.getElementById()` da pronađete odgovarajući element - postavljate ćete vrednost `id` na `product-count-for-id${product.id}`, pa koristite template izraz za pretraživanje te vrednosti.
+Koristite `.getElementById()` da pronađete odgovarajući element - postavićete vrednost `id` na `product-count-for-id${product.id}`, pa koristite template izraz za pretraživanje te vrednosti.
 
 Unesite vaš upit za pretragu u parametar `currentProductCountSpan`.
 

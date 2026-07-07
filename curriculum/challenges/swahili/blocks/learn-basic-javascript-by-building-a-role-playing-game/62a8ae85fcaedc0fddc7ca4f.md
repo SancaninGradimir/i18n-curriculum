@@ -44,7 +44,7 @@ assert.equal(locations[1]["button text"][1], "Buy weapon (30 gold)");
 assert.equal(locations[1]["button text"][2], "Go to town square");
 ```
 
-Drugi element za `locations` treba da ima svojstvo `button functions`, koje je niz podataka.
+Drugi element za `locations` treba da ima svojstvo `button functions`, koji je niz podataka.
 
 ```js
 assert.isArray(locations[1]["button functions"]);

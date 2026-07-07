@@ -11,7 +11,7 @@ lang: en-US
 
 # --instructions--
 
-Slušajte audio odgovor na pitanje ispod.
+Slušaj audio odgovor na pitanje dole.
 
 # --questions--
 
@@ -45,7 +45,7 @@ Ovaj odgovor ne odgovara zahtevu zato što Jake nema problema sa diskutovanjem p
 
 # --explanation-- 
 
-Jessica pita, `Do you have any ideas?`, što je način da se nekoga pozove da podeli svoje misli ili mišljenje.
+Jessica pita, `Do you have any ideas?`, šta je način da se nekoga pozove da podeli svoje misli ili mišljenje.
 
 `Sure, Jessica` je način da pokažeš da si spreman za diskusiju problema. Drugi primer:
 

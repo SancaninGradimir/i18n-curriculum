@@ -1,16 +1,15 @@
 ---
 id: 6710e0e2cafeeb09e6cb2d8f
-title: Zoezi la 55
+title: Vežba 55
 challengeType: 22
 dashedName: task-55
 lang: en-US
 ---
-
-<!-- (Audio) Linda: Well, during the project, I was working closely with the development team, and we were constantly updating the user interface based on user feedback. -->
+<!-- (Audio) Linda: Pa, tokom projekta, radila sam u uskoj saradnji sa razvojnim timom i stalno smo ažurirali korisnički interfejs na osnovu povratnih informacija korisnika. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la mtu wa kwanza wingi.
+Ovo je glagolski afiks koji se koristi za kreiranje `Past Continuous` u formu množine prvog lica.
 
 ---
 
@@ -32,7 +31,7 @@ Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la
 
 ### --feedback--
 
-Huu ni kitenzi kikuu katika `Past Continuous`, kinachoelezea tendo la kufanya kazi.
+Ovo je glavni glagol u `Past Continuous`, koji opisuje radnju.
 
 ---
 
@@ -40,7 +39,7 @@ Huu ni kitenzi kikuu katika `Past Continuous`, kinachoelezea tendo la kufanya ka
 
 ### --feedback--
 
-Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la mtu wa kwanza wingi.
+Ovo je sufiksni glagol koji se koristi za kreiranje `Past Continuous` u oblik prve osobe množine.
 
 ---
 
@@ -48,15 +47,15 @@ Huu ni kitenzi kiambatisho kinachotumika kuunda `Past Continuous` katika umbo la
 
 ### --feedback--
 
-Huu ni kitenzi kikuu katika `Past Continuous`, kinachoelezea tendo linaloendelea la kuboresha au kusasisha kitu.
+Ovo je glavni glagol u `Past Continuous`, koji opisuje tekući čin poboljšanja ili ažuriranja nečega.
 
 # --explanation--
 
-Wakati wa `Past Continuous` hutumika kuelezea matendo yaliyoendelea wakati fulani katika zamani. Wakati sentensi mbili za `Past Continuous` zinapotumika pamoja, mara nyingi huonyesha matendo yanayotokea kwa wakati mmoja au yanayotokea sambamba.
+Upotreba `Past Continuous` koristi se za opis radnji koje su trajnile u određenom trenutku u prošlosti. Kada se dve rečenice `Past Continuous` koriste zajedno, često pokazuju radnje koje se dešavaju istovremeno ili paralelno.
 
-Katika sentensi hii, Linda anaelezea jinsi yeye na timu yake walivyokuwa wakifanya kazi na kusasisha kiolesura cha mtumiaji kwa kuendelea wakati wote wa mradi. Hii inaonyesha matendo mawili yanayotokea kwa wakati mmoja katika zamani, yakitoa muktadha au historia kwa kila mmoja. Kwa mfano:
+U ovoj rečenici, Linda objašnjava kako je ona i njen tim radili i ažurirali korisnički interfejs tokom celog projekta. Ovo pokazuje dve radnje koje su se desile istovremeno u prošlosti, dajući kontekst ili istoriju za svaku od njih. Na primer:
 
-`While I was preparing the report, they were testing the new features.` - Hii ina maana kuwa tendo la mimi kuandaa ripoti na kupima vipengele vipya lilitokea kwa wakati mmoja.
+`While I was preparing the report, they were testing the new features.` - To znači da je moja akcija pripreme izveštaja i testiranja novih funkcija nastupila istovremeno.
 
 # --scene--
 

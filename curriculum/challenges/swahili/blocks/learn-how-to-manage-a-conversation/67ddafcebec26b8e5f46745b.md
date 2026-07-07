@@ -1,6 +1,6 @@
 ---
 id: 67ddafcebec26b8e5f46745b
-title: Zoezi la 31
+title: Vežba 31
 challengeType: 22
 dashedName: task-31
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Hii ina maana ya pamoja na kitu kingine au tofauti na kile kilichotajwa tayari.
+Da li ovo znači zajedno sa nečim drugim, ili je drugačije od onoga što je već navedeno/spomenuto.
 
 # --explanation--
 

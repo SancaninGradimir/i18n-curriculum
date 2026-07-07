@@ -1,17 +1,17 @@
 ---
 id: 65ca0dfaea3f4112afde6e26
-title: Hatua 52
+title: Korak 52
 challengeType: 20
 dashedName: step-52
 ---
 
 # --description--
 
-Bado ukiwa ndani ya blokki ya `if`, ongeza `key` ya nodi ya sasa kwenye orodha ya `result`.
+Dok si unutar bloka `if`, dodaj `key` trenutnog čvora u listu `result`.
 
 # --hints--
 
-Unapaswa kuongeza `node.key` kwenye orodha ya `result`.
+Trebalo bi da dodaš `node.key` na listu `result`.
 
 ```js
 assert.match(code, /result\.append\(\s*node\.key\s*\)/);

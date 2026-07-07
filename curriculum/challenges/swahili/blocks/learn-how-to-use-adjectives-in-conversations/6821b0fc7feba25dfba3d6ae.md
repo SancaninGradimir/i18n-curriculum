@@ -1,22 +1,21 @@
 ---
 id: 6821b0fc7feba25dfba3d6ae
-title: Zoezi la 105
+title: Vežba 105
 challengeType: 19
 dashedName: task-105
 lang: en-US
 ---
-
 <!-- READING -->
 
 # --instructions--
 
-Soma maandishi na ujibu swali lililopo hapa chini.
+Pročitajte tekst i odgovorite na pitanje koje se nalazi ispod.
 
 # --questions--
 
 ## --text--
 
-Baada ya kupokea maoni kutoka kwa Alice na kufanya maboresho, Jake alimalizia maelezo yake hivi:
+Nakon što je primio povratne informacije od Alice i napravivši izmene, Jake je završio svoje objašnjenje ovako:
 
 `In today's fast-changing world, startups need a robust and secure way to protect their data. GuardianTech is not just helpful, it's an essential and critical solution for your digital environment.`
 
@@ -28,35 +27,35 @@ Baada ya kupokea maoni kutoka kwa Alice na kufanya maboresho, Jake alimalizia ma
 
 `In short, GuardianTech is a unique cybersecurity solution. It gives you everything you need — now and in the future — to stay protected, grow safely, and succeed.`
 
-Kwa nini GuardianTech inafafanuliwa kama `cost-effective`?
+Zašto GuardianTech se definiše kao `cost-effective`?
 
 ## --answers--
 
-Inapatikana tu kwa makampuni makubwa yenye bajeti kubwa.
+Dostupno je samo za velike kompanije sa velikim budžetima.
 
 ### --feedback--
 
-Jake anazungumzia startups, si makampuni yenye bajeti kubwa.
+Jake priča o startapovima, a ne o kompanijama sa velikim budžetima.
 
 ---
 
-Inajumuisha matangazo mengi ya bure.
+Sadrži mnogo besplatnih oglasa.
 
 ### --feedback--
 
-Maelezo hayawezi kutaja masoko au matangazo.
+Ovi detalji ne mogu da spominju tržišta ili oglase.
 
 ---
 
-Inatoa ulinzi imara bila gharama kubwa.
+Obezbeđuje snažnu zaštitu bez visokih troškova.
 
 ---
 
-Inachukua nafasi ya huduma kwa wateja.
+Zamenjuje uslugu za klijente.
 
 ### --feedback--
 
-Maandishi hayajawahi kusema inachukua nafasi ya huduma.
+Tekstovi nikada ne kažu da zamenjuje uslugu.
 
 ## --video-solution--
 
@@ -64,8 +63,8 @@ Maandishi hayajawahi kusema inachukua nafasi ya huduma.
 
 # --explanation--
 
-Ili kupata jibu, angalia sentensi kuhusu GuardianTech kuwa `cost-effective`.
+Da biste dobili odgovor, pogledajte rečenicu o GuardianTech koja je `cost-effective`.
 
-Maelezo yanaeleza inatoa `high-quality protection without a big price tag`, ambayo inamaanisha thamani imara kwa gharama ndogo.
+Opis objašnjava da pruža `high-quality protection without a big price tag`, što znači stabilnu vrednost po niskim troškovima.
 
-Tafuta chaguo linaloonyesha hili.
+Pronađi opciju koja pokazuje ovo.

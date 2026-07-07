@@ -7,13 +7,13 @@ dashedName: step-20
 
 # --description--
 
-Element `div` se koristi pre svega za namenu organizovanja strukture, za razliku od drugih elemenata sadržaja koje ste do sada koristili. Dodajte element `div` unutar elementa `body`, a zatim premestite sve ostale elemente u novi `div`.
+Element `div` se koristi pre svega za namenu organizovanja strukture, za razliku od drugih elementa sadržaja koje ste do sada koristili. Dodajte element `div` unutar elementa `body`, a zatim premestite sve ostale elemente u novi `div`.
 
 Unutar oznake otvaranja za `div`, dodaj atribut elementu `id` sa vrednošću `menu`.
 
 # --hints--
 
-Mekanizam za otvaranje `<div>` mora imati svojstvo elementa `id` postavljeno na `menu`.
+Mehanizam za otvaranje `<div>` mora imati svojstvo elementa `id` postavljeno na `menu`.
 
 ```js
 assert.strictEqual(document.querySelector('div')?.id, 'menu');

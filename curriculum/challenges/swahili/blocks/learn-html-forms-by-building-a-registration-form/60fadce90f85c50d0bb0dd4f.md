@@ -1,17 +1,17 @@
 ---
 id: 60fadce90f85c50d0bb0dd4f
-title: Hatua 47
+title: Korak 47
 challengeType: 0
 dashedName: step-47
 ---
 
 # --description--
 
-Ili kutoa nafasi kidogo kati ya vipengele vya `fieldset`, chagua vipengele hivyo na uwape `border-bottom` ya `3px solid #3b3b4f`.
+Da biste stvorili mali razmak između elemenata za `fieldset`, izaberite te elemente i dodelite im `border-bottom` za `3px solid #3b3b4f`.
 
 # --hints--
 
-Unapaswa kuwapa vipengele vya `fieldset` `border-bottom` ya `3px solid #3b3b4f`.
+Treba da im date elemente od `fieldset` `border-bottom` iz `3px solid #3b3b4f`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('fieldset')?.borderBottom, '3px solid rgb(59, 59, 79)');

@@ -1,6 +1,6 @@
 ---
 id: 679cebb26c5d61aaed58b4db
-title: Zoezi la 79
+title: Vežba 79
 challengeType: 19
 dashedName: task-79
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na jibu swali lililopo hapa chini.
+Slušajte audio odgovor na pitanje ispod.
 
 # --questions--
 
@@ -24,11 +24,11 @@ Anajua hasa tatizo ni nini.
 
 ### --feedback--
 
-James anasema wazi kwamba hakusikia chochote.
+James otvoreno kaže da ništa nije čuo.
 
 ---
 
-Hajui chochote kuhusu hilo.
+Ti ne znaš ništa o tome.
 
 ---
 
@@ -60,7 +60,7 @@ Majibu mafupi yenye vitenzi vya msaada hurudia kitenzi cha msaada kutoka kwenye 
 
 - `Will she be here on time?` → `Yes, she will.`
 
-Majibu mafupi hufanya majibu yaonekane ya asili na kamili huku yakiepuka kurudia sentensi kamili.
+Kratki odgovori čine da odgovori izgledaju prirodni i potpuni, istovremeno izbegavajući ponavljanje celih rečenica.
 
 # --scene--
 

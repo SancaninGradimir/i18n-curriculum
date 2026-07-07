@@ -1,20 +1,19 @@
 ---
 id: 679bacd4af7be22f71bb43ee
-title: Zoezi la 65
+title: Vežba 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
 ---
-
 <!-- REVIEW -->
 
 # --description--
 
-Huu ni ukaguzi wa mazungumzo yote uliyosoma sasa hivi.
+Ovo je pregled svih razgovora koje ste upravo pročitali.
 
 # --instructions--
 
-Andika maneno au misemo ifuatayo mahali sahihi:
+Napišite sledeće reči ili rečenice na pravo mesto:
 
 `deadlines`, `debating`, `disagreement`, `healthy`, `keeping things on track`, `lose motivation`, `make progress`, `perspectives`, na `strong opinions`.
 
@@ -45,7 +44,7 @@ Andika maneno au misemo ifuatayo mahali sahihi:
 
 ### --feedback--
 
-Usemi huu unahusu imani thabiti au kali kuhusu mada fulani.
+Ovaj izraz se tiče čvrstog ili jakog uverenja o određenoj temi.
 
 ---
 
@@ -53,7 +52,7 @@ Usemi huu unahusu imani thabiti au kali kuhusu mada fulani.
 
 ### --feedback--
 
-Usemi huu unamaanisha kusonga mbele au kuboresha hali fulani.
+Ovaj izraz znači napredovati ili poboljšati određenu situaciju.
 
 ---
 
@@ -61,7 +60,7 @@ Usemi huu unamaanisha kusonga mbele au kuboresha hali fulani.
 
 ### --feedback--
 
-Neno hili linamaanisha lenye manufaa au zuri kwa hali fulani.
+Ova reč znači korisno ili dobro za određenu situaciju.
 
 ---
 
@@ -69,7 +68,7 @@ Neno hili linamaanisha lenye manufaa au zuri kwa hali fulani.
 
 ### --feedback--
 
-Neno hili linahusu kuwa na maoni tofauti au mitazamo tofauti.
+Ovo se odnosi na imanje različitih mišljenja ili različitih perspektiva.
 
 ---
 
@@ -77,7 +76,7 @@ Neno hili linahusu kuwa na maoni tofauti au mitazamo tofauti.
 
 ### --feedback--
 
-Neno hili linahusu tarehe au nyakati maalum ambazo kazi lazima zikamilishwe.
+Ovaj termin se odnosi na određene datume ili rokove do kojih mora biti završen posao.
 
 ---
 
@@ -85,7 +84,7 @@ Neno hili linahusu tarehe au nyakati maalum ambazo kazi lazima zikamilishwe.
 
 ### --feedback--
 
-Neno hili linahusu mitazamo tofauti au njia tofauti za kufikiria jambo fulani.
+Ovo se odnosi na različite perspektive ili različite načine razmišljanja o nečemu.
 
 ---
 
@@ -93,7 +92,7 @@ Neno hili linahusu mitazamo tofauti au njia tofauti za kufikiria jambo fulani.
 
 ### --feedback--
 
-Neno hili linahusu kujadili mitazamo tofauti, mara nyingine kwa kina.
+Ovo se tiče diskutovanja različitih gledišta, ponekad i duboko.
 
 ---
 
@@ -101,7 +100,7 @@ Neno hili linahusu kujadili mitazamo tofauti, mara nyingine kwa kina.
 
 ### --feedback--
 
-Usemi huu unamaanisha kuacha kuhisi msukumo au shauku kuhusu jambo fulani.
+Ova fraza znači prestati da se osećaš motivaciju ili strast u vezi nečega.
 
 ---
 
@@ -109,4 +108,4 @@ Usemi huu unamaanisha kuacha kuhisi msukumo au shauku kuhusu jambo fulani.
 
 ### --feedback--
 
-Usemi huu unamaanisha kudumisha makini na kuhakikisha maendeleo yanaendelea.
+Ovaj izraz znači održavati pažnju i osigurati da napredovanje nastavlja.

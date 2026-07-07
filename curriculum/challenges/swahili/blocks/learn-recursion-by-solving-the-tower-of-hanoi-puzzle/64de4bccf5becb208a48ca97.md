@@ -1,23 +1,23 @@
 ---
 id: 64de4bccf5becb208a48ca97
-title: Hatua 13
+title: Korak 13
 challengeType: 20
 dashedName: step-13
 ---
 
 # --description--
 
-Katika fumbo la Tower of Hanoi, unaweza kutambua nguzo tatu kulingana na madhumuni yao:
+U zagonetki Tower of Hanoi, možete identifikovati tri stubja u zavisnosti od njihove namene:
 
-- Nguzo ya kwanza ni chanzo, ambapo diski zote zimewekwa juu ya kila moja mwanzoni mwa mchezo.
-- Nguzo ya pili ni nguzo ya msaada, na husaidia katika kusogeza diski kwenda kwenye nguzo lengwa.
-- Nguzo ya tatu ni lengwa, ambapo diski zote zinapaswa kuwekwa kwa mpangilio mwishoni mwa mchezo.
+- Prva stuba je izvor, gde su svi diskovi postavljeni na početku igre.
+- Druga stuba je podržavna stuba, i pomaže u pomeranju diskova ka ciljnoj stubi.
+- Treća stuba je cilj, gde svi diskovi moraju biti postavljeni po redosledu na kraju igre.
 
-Kwa sasa, kitendakazi cha `move()` hakichukui vigezo vyovyote. Badilisha tamko la kitendakazi ili ichukue vigezo 4: `n`, `source`, `auxiliary`, na `target`. Kisha, pita `NUMBER_OF_DISKS` na mfuatano wa herufi `'A'`, `'B'`, na `'C'` kama hoja kwenye wito wa kitendakazi chako. Mpangilio ni muhimu.
+Trenutno, funkcija za `move()` ne prima nikakve parametre. Izmenite deklaraciju funkcije tako da prima 4 parametra: `n`, `source`, `auxiliary`, i `target`. Zatim, prosledite `NUMBER_OF_DISKS` i niz slova `'A'`, `'B'`, i `'C'` kao argumente u pozivu vaše funkcije. Redosled je važan.
 
 # --hints--
 
-Kitendakazi chako cha `move()` kinapaswa kuwa na `n`, `source`, `auxiliary`, na `target` kama vigezo. Mpangilio ni muhimu.
+Vaša funkcija `move()` mora imati `n`, `source`, `auxiliary`, na `target` kao parametre. Red je važan.
 
 ```js
 ({ test: () => assert(runPython(`
@@ -27,7 +27,7 @@ Kitendakazi chako cha `move()` kinapaswa kuwa na `n`, `source`, `auxiliary`, na 
 })
 ```
 
-Unapaswa kupitisha `NUMBER_OF_DISKS` na mfuatano wa herufi `'A'`, `'B'`, na `'C'` kwa `move()`. Mpangilio ni muhimu.
+Treba da prođete kroz `NUMBER_OF_DISKS` i niz slova `'A'`, `'B'`, na `'C'` za `move()`. Redosled je važan.
 
 ```js
 ({test: () => assert.match(code, /^move\(\s*NUMBER_OF_DISKS\s*,\s*('|")A\1\s*,\s*('|")B\2\s*,\s*('|")C\3\s*\)/m)

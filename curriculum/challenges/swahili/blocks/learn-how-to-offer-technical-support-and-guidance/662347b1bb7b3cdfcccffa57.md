@@ -1,6 +1,6 @@
 ---
 id: 662347b1bb7b3cdfcccffa57
-title: Zoezi la 50
+title: Vežbanje od 50
 challengeType: 22
 dashedName: task-50
 lang: en-US
@@ -34,7 +34,7 @@ Ni wakati uliopita wa `to hear`, unaoonyesha Brian alifahamishwa kuhusu zoezi la
 
 ### --feedback--
 
-Inahusu tendo la kurekebisha au kutatua hitilafu katika programu.
+Radi se o procesu popravljanja ili rešavanja greške u aplikaciji.
 
 ---
 

@@ -1,26 +1,25 @@
 ---
 id: 6482b07e8a3dcacbbbfa43f6
-title: Hatua 9
+title: Korak 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-Katika mchezo, mchezaji atapata fursa ya kuvuka vituo tofauti vya ukaguzi. Utahitaji kufuatilia hali ya kugongana na vituo hivyo.
+U igri, igrač će imati priliku da prođe kroz različite kontrolne stanice. Biće vam potrebno da pratite status kolizije sa tim stanicama.
 
-Tumia `let` kuunda kigezo kipya kinachoitwa `isCheckpointCollisionDetectionActive` na weka thamani yake kuwa `true`. 
+Koristi `let` da kreiraš novi parametar pod nazivom `isCheckpointCollisionDetectionActive` i postavi mu vrednost `true`.
 
 # --hints--
 
-Unapaswa kutumia neno kuu la `let` kutangaza kigezo chako cha `isCheckpointCollisionDetectionActive`.
+Trebalo bi da koristiš glavnu reč `let` za deklarisanje svog parametra `isCheckpointCollisionDetectionActive`.
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive/);
 ```
 
-
-Unapaswa kuweka thamani ya `true` kwa `isCheckpointCollisionDetectionActive` 
+Trebalo bi da postavite vrednost `true` za `isCheckpointCollisionDetectionActive`
 
 ```js
 assert.match(code, /let\s+isCheckpointCollisionDetectionActive\s*=\s*true/);

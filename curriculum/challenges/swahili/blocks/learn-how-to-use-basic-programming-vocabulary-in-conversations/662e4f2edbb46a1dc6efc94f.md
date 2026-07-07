@@ -1,18 +1,17 @@
 ---
 id: 662e4f2edbb46a1dc6efc94f
-title: Zoezi la 37
+title: Vežba 37
 challengeType: 22
 dashedName: task-37
 lang: en-US
 ---
-
-<!-- (Audio) Tom: Don't worry. Debugging is a common challenge for programmers. -->
+<!-- (Audio) Tom: Ne brini. Debagovanje je uobičajni izazov for programerima. -->
 
 # --description--
 
-`Common` hutumika kuelezea jambo linalotokea mara kwa mara au linaloshirikishwa sana na watu wengi. Kwa mfano, `Colds are a common illness during the winter.` Hii ina maana ni tatizo la kiafya la kawaida ambalo watu wengi hukumbana nalo wakati huo wa mwaka.
+`Common` Koristi se za opis stvari koje se dešavaju često ili što je uobičajeno među velikim brojem ljudi. Na primer, `Colds are a common illness during the winter.` To znači da je to uobičajen zdravstveni problem s kojim se mnogo ljudi susreće u ovom periodu godine.
 
-`Challenge` linahusu zoezi au hali inayohitaji juhudi maalum kufanikisha kwa sababu ni ngumu. Kwa mfano, `Learning to ride a bike was a big challenge for her at first.` Sentensi hii inaelezea jinsi kujifunza kuendesha baiskeli kulivyokuwa na changamoto mwanzoni.
+`Challenge` Odnosi se na vežbu ili situaciju koja zahteva poseban napor za postizanje jer je teška. Na primer, `Learning to ride a bike was a big challenge for her at first.` Ova rečenica opisuje kako je učenje vožnje bicikla bilo izazovno na početku.
 
 # --fillInTheBlank--
 
@@ -26,7 +25,7 @@ lang: en-US
 
 ### --feedback--
 
-Kivumishi hiki kinaelezea jambo linalotokea mara kwa mara au ni la kawaida miongoni mwa kundi.
+Ovaj pridev opisuje nešto što se dešava često ili je uobičajeno unutar grupe.
 
 ---
 
@@ -34,7 +33,7 @@ Kivumishi hiki kinaelezea jambo linalotokea mara kwa mara au ni la kawaida miong
 
 ### --feedback--
 
-Nomino hii inahusu zoezi au tatizo gumu linalohitaji juhudi kutatua au kushinda.
+Ovo se odnosi na vežbu ili težak problem koji zahteva napor da bi se rešio ili savladao.
 
 # --scene--
 

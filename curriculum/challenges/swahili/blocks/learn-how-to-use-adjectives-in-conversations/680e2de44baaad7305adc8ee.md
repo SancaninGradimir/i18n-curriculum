@@ -1,6 +1,6 @@
 ---
 id: 680e2de44baaad7305adc8ee
-title: Zoezi la 46
+title: Vežba 46
 challengeType: 22
 dashedName: task-46
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,13 +24,13 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Maneno haya matatu pamoja hutumika kwa heshima kuuliza kama mpango au pendekezo unakubalika. Herufi ya kwanza ya neno la kwanza imeandikwa kwa herufi kubwa.
+Ove tri reči zajedno se koriste za ljubazno pitanje da li je plan ili predlog prihvatljiv. Prvo slovo prve reči je napisano velikim slovom.
 
 # --explanation--
 
-`Does that work` ni njia ya heshima ya kuangalia kama pendekezo au mpangilio unafaa kwa mtu. Kwa mfano:
+`Does that work` To je uvaž način da se proveri da li predlog ili podešavanje odgovara nekome. Na primer:
 
-`We can meet at 3 PM. Does that work for you?` – Hii huuliza kama wakati ni mzuri au unaofaa kwa mtu mwingine.
+`We can meet at 3 PM. Does that work for you?` – Ovo pita da li je vreme dobro ili odgovarajuće za nekoga drugog.
 
 # --scene--
 

@@ -1,16 +1,15 @@
 ---
 id: 657e5fa49b69deff5e9bff8e
-title: Zoezi la 105
+title: Vežba 105
 challengeType: 22
 dashedName: task-105
 lang: en-US
 ---
-
-<!-- (audio) James: Absolutely. If you see any security breaches or incidents, you have to report them immediately. -->
+<!-- (audio) James: Apsolutno. Ako primetite bilo kakve sigurnosne proboje ili incidente, morate ih odmah da prijavite. -->
 
 # --description--
 
-Sikiliza sauti na ukamilishe sentensi ifuatayo.
+Slušajte audio i dovršite sledeću rečenicu.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi ifuatayo.
 
 ### --feedback--
 
-Maneno haya mawili yadhihirisha wajibu wa kufanya jambo fulani.
+Ove dve reči ukazuju na obavezu da se nešto učini.
 
 ---
 
@@ -32,7 +31,7 @@ Maneno haya mawili yadhihirisha wajibu wa kufanya jambo fulani.
 
 ### --feedback--
 
-Neno hili linamaanisha mara moja, bila kuchelewa.
+Ova reč znači odmah, bez kašnjenja.
 
 # --scene--
 

@@ -1,31 +1,31 @@
 ---
 id: 60fad6dfcc0d930a59becf12
-title: Hatua 43
+title: Korak 43
 challengeType: 0
 dashedName: step-43
 ---
 
 # --description--
 
-HTML ya fomu ya usajili imemalizika. Sasa, unaweza kuiboresha kidogo.
+HTML Formular za registraciju je završen. Sada ga možete malo poboljšati.
 
-Anza kwa kuongeza `Tahoma` kama fonti na ukubwa wa fonti wa `16px` katika kichaguzi cha `body`.
+Počnite dodavanjem `Tahoma` kao font i veličinu fonta od `16px` u selectoru za `body`.
 
 # --hints--
 
-Unapaswa kutumia sifa ya `font-family` kubadilisha fonti.
+Morate da koristite svojstvo od `font-family` za menjanje fonta.
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-Unapaswa kuweka sifa ya `font-family` kuwa `Tahoma`.
+Trebalo bi da postaviš vrednost za `font-family` na `Tahoma`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-Unapaswa kuweka sifa ya `font-size` kuwa `16px`.
+Trebalo bi da postaviš vrednost za `font-size` na `16px`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');

@@ -1,16 +1,15 @@
 ---
 id: 67b9becbb4fd3b0d7fc2411e
-title: Zoezi la 65
+title: Vežba 65
 challengeType: 22
 dashedName: task-65
 lang: en-US
 ---
-
-<!-- (Audio) David: It seems like it could lead to a lot of delays and miscommunication. -->
+<!-- (Audio) David: Čini se da bi to moglo dovesti do mnogo kašnjenja i nesporazuma. -->
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +23,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili linahusu mambo kuchukua muda mrefu kuliko ilivyotarajiwa.
+Ovo se odnosi na stvari koje traju duže nego što je očekivano.
 
 ---
 
@@ -32,13 +31,13 @@ Neno hili linahusu mambo kuchukua muda mrefu kuliko ilivyotarajiwa.
 
 ### --feedback--
 
-Neno hili linahusu kutoelewana kunakosababishwa na taarifa zisizo wazi au zisizo sahihi.
+Ovaj termin se odnosi na nesporazume uzrokovane nejasnim ili netačnim informacijama.
 
 # --explanation--
 
-David ana wasiwasi kwamba kazi ya mbali isiyo ya wakati mmoja inaweza kusababisha `delays` (majibu na maendeleo ya polepole) na `miscommunication` (watu kutoelewana).
+David je bio zabrinut da rad od kuće, koji nije u realnom vremenu, može izazvati `delays` (odgovori i spor napredovanje) i `miscommunication` (nerazumevanje ljudi).
 
-Kwa kuwa wafanyakazi hufanya kazi kwa nyakati tofauti, ujumbe unaweza kuchukua muda mrefu kujibiwa, na kutoelewana kunaweza kutokea ikiwa mawasiliano hayako wazi.
+Pošto zaposleni rade u različito vrijeme, poruka može potrajati dugo da se odgovori, a nesporazum može nastati ako komunikacija nije jasna.
 
 # --scene--
 

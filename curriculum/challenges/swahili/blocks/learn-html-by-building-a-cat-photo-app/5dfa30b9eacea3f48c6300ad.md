@@ -1,15 +1,15 @@
 ---
 id: 5dfa30b9eacea3f48c6300ad
-title: Hatua 17
+title: Korak 17
 challengeType: 0
 dashedName: step-17
 ---
 
 # --description--
 
-Katika hatua zilizopita ulitumia kipengele cha nanga kubadilisha maandishi kuwa kiungo. Aina nyingine za maudhui pia zinaweza kubadilishwa kuwa kiungo kwa kuzipanga ndani ya lebo za nanga.
+U prethodnim koracima koristili ste funkciju sidra da pretvorite tekst u hiperlink. Drugi tipovi sadržaja takođe mogu biti konvertovani u link postavljanjem unutar anchor oznaka.
 
-Hapa kuna mfano wa kubadilisha picha kuwa kiungo:
+Evo primera kako da se slika konvertuje u link:
 
 ```html
 <a href="example-link">
@@ -17,11 +17,11 @@ Hapa kuna mfano wa kubadilisha picha kuwa kiungo:
 </a>
 ```
 
-Badilisha picha kuwa kiungo kwa kuizunguka na lebo muhimu za kipengele. Tumia `https://freecatphotoapp.com` kama thamani ya sifa ya `href` ya nanga.
+Promeni sliku u komponentu okružujući je sa ključnim atributima komponente. Koristi `https://freecatphotoapp.com` kao vrednost atributa `href` ankora.
 
 # --hints--
 
-Unapaswa kuwa na kipengele cha `img` chenye thamani ya `src` ya `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Huenda ulifuta kwa bahati mbaya.
+Trebalo bi da imaš element sa vrednošću `img` koji je `src` od `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. Možda si ga slučajno izbrisao/la.
 
 ```js
 assert(
@@ -31,37 +31,37 @@ assert(
 );
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
+Vaš anker element (`a`) treba da ima otvarajući tag. Otvoreći tagovi imaju ovu sintaksu: `<elementName>`.
 
 ```js
 assert(document.querySelectorAll('a').length >= 2);
 ```
 
-Unakosa lebo ya kufunga (`a`) baada ya picha.
+Nema trake za spajanje (`a`) nakon slike.
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuwa na lebo ya kufunga. Lebo za kufunga zina `/` mara tu baada ya herufi ya `<`.
+Vaš ankorni element (`a`) treba da ima zatvarajući tag. Zatvarajući tagovi se nalaze `/` odmah nakon slova/karaktera `<`.
 
 ```js
 assert(code.match(/<\/a>/g).length >= 2);
 ```
 
-Unapaswa kuongeza lebo moja tu ya kufunga ya nanga (`a`). Tafadhali futa ziingizo zozote ziingine.
+Treba da dodate samo jednu zatvarajuću oznaku sidra/anchor-a (`a`). Molimo vas da obrišete sve ostale unose.
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-Kipengele chako cha nanga (`a`) hakina sifa ya `href`. Angalia kama kuna nafasi baada ya jina la lebo ya kufungua na/au kama kuna nafasi kabla ya majina yote ya sifa.
+Jangkirni element (`a`) nema svojstvo `href`. Proverite da li postoji razmak nakon imena otvarajuće oznake i/ili da li postoji razmak pre svih imena svojstava.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuunganisha na `https://freecatphotoapp.com`. Huenda umesahau URL au kuna makosa ya tahajia.
+Tvoj jangkorni element (`a`) mora se povezati sa `https://freecatphotoapp.com`. Možda ste zaboravili URL ili postoje greške u pravopisu.
 
 ```js
 assert(
@@ -70,13 +70,13 @@ assert(
 );
 ```
 
-Kipengele chako cha nanga (`a`) hakina sifa ya `href`. Angalia kama kuna nafasi baada ya jina la lebo ya kufungua na/au kama kuna nafasi kabla ya majina yote ya sifa.
+Anker element ne (`a`) nema atribut `href`. Proverite da li postoji razmak nakon imena otvaranja i/ili da li postoji razmak pre svih imena atributa.
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-Kipengele chako cha nanga (`a`) kinapaswa kuunganisha na `https://freecatphotoapp.com`. Huenda umesahau URL au kuna makosa ya tahajia.
+Tvoj anker element (`a`) treba da se poveže sa `https://freecatphotoapp.com`. Možda ste zaboravili URL ili postoje pravopisne greške.
 
 ```js
 assert.equal(
@@ -85,7 +85,7 @@ assert.equal(
 );
 ```
 
-Kipengele chako cha `img` kinapaswa kupangwa ndani ya kipengele cha nanga (`a`). Kipengele kizima cha `img` kinapaswa kuwa ndani ya lebo za kufungua na kufunga za kipengele cha nanga (`a`).
+Tvoj element `img` treba da bude postavljen unutar jangernog elementa (`a`). Ceo element `img` treba da bude unutar otvarajućih i zatvarajućih tagova jangernog elementa (`a`).
 
 ```js
 assert(document.querySelector('img').parentNode.nodeName === 'A');

@@ -1,6 +1,6 @@
 ---
 id: 67acaebb95dabb0ee05500f7
-title: Zoezi la 21
+title: Vežba 21
 challengeType: 22
 dashedName: task-21
 lang: en-US
@@ -10,7 +10,7 @@ lang: en-US
 
 # --instructions--
 
-Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
+Poslušaj zvuk i dovrši rečenicu ispod.
 
 # --fillInTheBlank--
 
@@ -24,7 +24,7 @@ Sikiliza sauti na ukamilishe sentensi iliyo hapa chini.
 
 ### --feedback--
 
-Neno hili linamaanisha kikwazo au kitu kinachochelewesha maendeleo.
+Ova reč znači prepreka ili nešto što usporava napredak.
 
 # --explanation--
 

@@ -9,7 +9,7 @@ dashedName: step-17
 
 `button1` je parametar koji neće dobiti novu vrednost. Ako parametru nije dodeljena nova vrednost, bolja je praksa koristiti glavni termin `const` umesto glavnog termina `let`. Ovo će obavestiti JavaScript da izbaci grešku ako slučajno pokušate dodeliti novu vrednost.
 
-Promeni svoj parametar `button1` sa glavnom reči `const`.
+Promeni svoj parametar `button1` u glavni pojam `const`.
 
 # --hints--
 
