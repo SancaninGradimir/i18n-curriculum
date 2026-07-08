@@ -20,15 +20,15 @@ Koja je glavna razlika između rešavanja jednostavne trigonometrijske jednačin
 
 Možete rešiti jednačine sa sinusa i kosinusa samo korišćenjem kalkulatora, a ne jednačinu tangensa.
 
-[No Swahili text provided.]
+---
 
 Upotreba kalkulatora pruža samo procjenjiva rješenja, dok bez kalkulatora uvek dobijate pravi rezultat.
 
-[No Swahili text provided.]
+---
 
 Da bi se izračunalo bez kalkulatora, potrebno je pomnožiti sve uglove sa 2.
 
-[No Swahili text provided.]
+---
 
 Korišćenje kalkulatora ne uključuje korišćenje jedinčnog kruga za pronalaženje rešenja.
 

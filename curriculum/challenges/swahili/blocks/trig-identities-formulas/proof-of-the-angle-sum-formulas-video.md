@@ -20,15 +20,15 @@ Koja je formula za sinus zbira uglova?
 
 $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$
 
-[No Swahili text provided.]
+---
 
 $\cos(a + b) = \cos(a)\cos(b) - \sin(a)\sin(b)$
 
-[No Swahili text provided.]
+---
 
 $\tan(a + b) = \frac{\tan(a) + \tan(b)}{1 - \tan(a)\tan(b)}$
 
-[No Swahili text provided.]
+---
 
 $\sin(a + b) = \sin(a)\cos(b) - \cos(a)\sin(c)$
 

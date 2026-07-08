@@ -23,11 +23,11 @@ Selektori svojstava elementa za CSS, za šta se koriste?
 
 Postavljanje stilova za elemente u zavisnosti od imena njihove etikete.
 
-[No Swahili text provided.]
+---
 
 Postavljanje stilova elemenata na osnovu naziva klase predmeta.
 
-[No Swahili text provided.]
+---
 
 Postavljanje stilova za elemente u odnosu na njihov roditeljski element.
 
@@ -53,13 +53,13 @@ Koji/Koja je među sljedećim koji nije izabran ovim selektorom CSS?
 <img src="img1.jpg" title="clematis flower" width="150" height="113">
 ```
 
-[No Swahili text provided.]
+---
 
 ```html
 <img src="img2.jpg" title="flower" width="150" height="113">
 ```
 
-[No Swahili text provided.]
+---
 
 ```html
 <img src="img2.jpg" title="FLOWERS of flower" width="150" height="113">
@@ -83,13 +83,13 @@ Koji je selektor za CSS koji odgovara svim elementima `p` sa atributom `lang` po
 p[lang-="fr"] { color: blue; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 p[lang~="fr"] { color: blue; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 p[lang=="fr"] { color: blue; }
@@ -113,13 +113,13 @@ Koji selektor za CSS odgovara svim elementima od `a` koji imaju atribut `href`?
 a(href) { color: green; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 a { color: green; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 a[href~=""] { color: green; }
@@ -143,13 +143,13 @@ Koji selektor CSS odgovara strukturiranim listama sa velikim rimskim brojevima?
 ol[type="a"] { border-color: black; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 ol[type="A"] { border-color: black; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 ol[type="i"] { border-color: black; }
@@ -171,11 +171,11 @@ Za šta se svojstvo `data-lang` obično koristi?
 
 Identifikujte jezik dokumenta.
 
-[No Swahili text provided.]
+---
 
 Definisanje kodovanja karaktera dokumenta.
 
-[No Swahili text provided.]
+---
 
 Postavljanje jezika elementa u skladu sa njegovim roditeljskim elementom.
 
@@ -195,13 +195,13 @@ Koji selektor za CSS treba da koristiš za postavljanje stila za elemente sa `im
 img[alt~="code"] { border: 1px solid red; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 img[alt=="code"] { border: 1px solid red; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 img[alt*="code"] { border: 1px solid red; }
@@ -225,13 +225,13 @@ Koji je selektor za CSS koji odgovara strukturiranim listama sa tipom digitalnih
 ol[type="i"] { color: purple; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 ol[type="I"] { color: purple; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 ol[type="a"] { color: purple; }
@@ -255,13 +255,13 @@ Koji od sledećih selektora za CSS biste koristili da postavite stil za elemente
 a[href] a[title] { text-decoration: underline dotted; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 a[href]a[title] { text-decoration: underline dotted; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 a[href].[title] { text-decoration: underline dotted; }
@@ -285,13 +285,13 @@ Koji selektor za CSS bi koristio ako praviš web-stranicu za restoran i želiš 
 menu-item[data-special] { background-color: blue; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 #menu-item[data-special] { background-color: blue; }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 [data-special="menu-item"] { background-color: blue; }

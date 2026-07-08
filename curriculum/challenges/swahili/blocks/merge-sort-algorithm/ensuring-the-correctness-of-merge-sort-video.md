@@ -20,15 +20,15 @@ Koji metod se koristi u funkciji za `verify_sorted`?
 
 rekurzija
 
-[No Swahili text provided.]
+---
 
 dinamičko programiranje
 
-[No Swahili text provided.]
+---
 
 iteracija
 
-[No Swahili text provided.]
+---
 
 povratno praćenje
 

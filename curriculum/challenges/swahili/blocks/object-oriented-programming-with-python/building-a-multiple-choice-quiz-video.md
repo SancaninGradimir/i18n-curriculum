@@ -20,15 +20,15 @@ Koji od sledećih je tačan način da se import klasa `Question` iz modula `Ques
 
 `Question import`
 
-[No Swahili text provided.]
+---
 
 `from Question`
 
-[No Swahili text provided.]
+---
 
 `from Question import Question`
 
-[No Swahili text provided.]
+---
 
 `import Question.py`
 

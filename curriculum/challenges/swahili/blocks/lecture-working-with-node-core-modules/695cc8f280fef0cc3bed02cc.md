@@ -170,7 +170,7 @@ Streamovi za Request, Response, Event, i Error.
 
 Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
-[No Swahili text provided.]
+---
 
 Streamovi za Readable, Editable, Duplex i Transform.
 
@@ -178,7 +178,7 @@ Streamovi za Readable, Editable, Duplex i Transform.
 
 Razmislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
-[No Swahili text provided.]
+---
 
 Streamovi za Podatke, Datoteke, HTTP, u Buffer.
 
@@ -186,7 +186,7 @@ Streamovi za Podatke, Datoteke, HTTP, u Buffer.
 
 Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
-[No Swahili text provided.]
+---
 
 Streamovi za Readable, Writable, Duplex i Transform.
 
@@ -202,7 +202,7 @@ Streamovi za Readable, Writable, Duplex i Transform.
 
 Moduli `stream` koristeći Readable i Writable klase.
 
-[No Swahili text provided.]
+---
 
 Moduli ya `http`.
 
@@ -210,7 +210,7 @@ Moduli ya `http`.
 
 Fikiria moduli inayotoa madarasa ya msingi kwa kuunda streams maalum.
 
-[No Swahili text provided.]
+---
 
 Moduli `fs` koristeći `createReadStream()` i `createWriteStream()`.
 
@@ -218,7 +218,7 @@ Moduli `fs` koristeći `createReadStream()` i `createWriteStream()`.
 
 Zamislite kako Node.js obrađuje čitanje, pisanje i modifikovanje podataka.
 
-[No Swahili text provided.]
+---
 
 Modul događaja.
 
@@ -242,11 +242,11 @@ Ni matukio gani unaweza kutumia kwenye writable stream kujua wakati streaming im
 
 Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
 
-[No Swahili text provided.]
+---
 
 `finish` na `error`.
 
-[No Swahili text provided.]
+---
 
 `start` na `stop`.
 
@@ -254,7 +254,7 @@ Fikiria matukio ya writable stream yanayoashiria kukamilika na kushindwa.
 
 Razmislite o događajima *writable stream*-a koji signaliziraju završetak i neuspeh.
 
-[No Swahili text provided.]
+---
 
 `done` i `fail`.
 

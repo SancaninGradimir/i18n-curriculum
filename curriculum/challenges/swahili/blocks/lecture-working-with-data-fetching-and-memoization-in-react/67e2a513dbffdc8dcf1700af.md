@@ -1,6 +1,6 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: "Ni Nini `useOptimistic` Hook, na Inafanya Kazi Gani?"
+title: Ni Nini `useOptimistic` Hook, na Inafanya Kazi Gani?
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
@@ -221,11 +221,11 @@ Omogućava komponenti da dohvati podatke sa servera pre prikazivanja UI-ja.
 
 Ovaj Hook osigurava da UI prikaže očekivane promene pre nego što operacija async bude završena.
 
-[No Swahili text provided.]
+---
 
 Pomaže u upravljanju optimističkim ažuriranjima tako što ažurira UI odmah dok čeka operaciju async, kao odgovor servera.
 
-[No Swahili text provided.]
+---
 
 Omogućava direktno rukovanje greškama i vraćanje stanja za zahteve API koji su neuspešni u aplikacijama React.
 
@@ -233,7 +233,7 @@ Omogućava direktno rukovanje greškama i vraćanje stanja za zahteve API koji s
 
 Ovaj hook osigurava da UI prikazuje očekivane promene pre završetka operacije async.
 
-[No Swahili text provided.]
+---
 
 Poboljšava ažuriranja stanja kombinovanjem zajedno radi poboljšanja performansi.
 
@@ -253,7 +253,7 @@ Da li se kuka `useOptimistic` razlikuje u stanju učitavanja?
 
 Stanje učitavanja prikazuje mrežnu strukturu korisničkog interfejsa dok čeka odgovor, dok `useOptimistic` ažurira korisnički interfejs odmah na osnovu očekivanih rezultata.
 
-[No Swahili text provided.]
+---
 
 Stanje učitavanja menja podatke servera samo kada `useOptimistic` ažurira korisnički interfejs (UI) klijenta.
 
@@ -261,7 +261,7 @@ Stanje učitavanja menja podatke servera samo kada `useOptimistic` ažurira kori
 
 Ažuriram korisnički interfejs pre nego što čak ni on ne zna za zahtjev.
 
-[No Swahili text provided.]
+---
 
 Hook `useOptimistic` se koristi za obradu grešaka, dok je stanje učitavanja samo za prikazivanje spinnera.
 
@@ -269,7 +269,7 @@ Hook `useOptimistic` se koristi za obradu grešaka, dok je stanje učitavanja sa
 
 Moj ažurira UI prije nego što server čak sazna o zahtjevu.
 
-[No Swahili text provided.]
+---
 
 Sve je u redu, ali `useOptimistic` vrši direktan pokušaj za neuspešne zahtjeve.
 
@@ -293,7 +293,7 @@ const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFuncti
 
 Implementira preliminarno ažuriranje pre nego što se stvarni status promeni, pružajući glatko korisničko iskustvo.
 
-[No Swahili text provided.]
+---
 
 Dobijanje stvarnog stanja sa servera i ažuriranje interfejsa korisnika (UI) odgovarajuće.
 
@@ -301,7 +301,7 @@ Dobijanje stvarnog stanja sa servera i ažuriranje interfejsa korisnika (UI) odg
 
 Ova funkcija ažurira UI pre nego što se stvarni status promeni.
 
-[No Swahili text provided.]
+---
 
 Izmenjuje stvarni i privremeni status nakon prijema odgovora sa servera.
 
@@ -309,7 +309,7 @@ Izmenjuje stvarni i privremeni status nakon prijema odgovora sa servera.
 
 Ova funkcija ažurira UI pre nego što se stvarni status promeni.
 
-[No Swahili text provided.]
+---
 
 Potvrđuje podatke servera pre primene ažuriranja za korisnički interfejs (UI).
 

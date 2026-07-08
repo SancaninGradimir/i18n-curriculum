@@ -20,15 +20,15 @@ Koji od sledećih nije primer poznatog model algoritma?
 
 Algoritam indeksiranja baze podataka (DIA)
 
-[No Swahili text provided.]
+---
 
 Hierarchical Navigable Small World (HNSW)
 
-[No Swahili text provided.]
+---
 
 Inverzni indeks fajlova (IVF)
 
-[No Swahili text provided.]
+---
 
 Lokalno osetljivo hešovanje (LSH)
 

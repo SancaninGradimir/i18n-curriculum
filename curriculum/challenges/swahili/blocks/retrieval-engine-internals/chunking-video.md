@@ -20,15 +20,15 @@ Da li je [SI] među sledećim uobičajen način za deljenje delova?
 
 Deljenje komadi jednake veličine
 
-[No Swahili text provided.]
+---
 
 Deljenje delova po smislu
 
-[No Swahili text provided.]
+---
 
 Razdvajanje komada agentima
 
-[No Swahili text provided.]
+---
 
 Deljenje delova prema cilju
 

@@ -20,15 +20,15 @@ U ovom videu, će vam biti objašnjena razlika između metoda klase objekata i m
 
 Metoda koja radi samo sa međunarodnim parametrima i nema veze sa klasom objekata ili njihovim instancama.
 
-[No Swahili text provided.]
+---
 
 Metoda koja se može pozvati samo u primeru klase i ne može dobiti atribute te klase.
 
-[No Swahili text provided.]
+---
 
 Metoda koja se automatski izvršava kada se nešto obriše.
 
-[No Swahili text provided.]
+---
 
 Putanja povezana sa samom klasom objekata, umesto primera klase objekata.
 

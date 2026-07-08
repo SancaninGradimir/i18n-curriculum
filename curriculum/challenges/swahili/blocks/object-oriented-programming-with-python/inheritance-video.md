@@ -20,15 +20,15 @@ U ovom videu, naučićete o nasleđivanju u objektno orijentisanom programiranju
 
 Ovo je mesto gde klasa objekata ponovo koristi kod iz funkcije.
 
-[No Swahili text provided.]
+---
 
 Ovo je mesto gde klasa stvari kreira kopiju druge klase.
 
-[No Swahili text provided.]
+---
 
 Ovo je mesto gde klasa nasleđuje svojstva i ponašanja iz druge klase.
 
-[No Swahili text provided.]
+---
 
 Ovo je mesto gde klasa skriva svoje metode i atribute od drugih klasa.
 

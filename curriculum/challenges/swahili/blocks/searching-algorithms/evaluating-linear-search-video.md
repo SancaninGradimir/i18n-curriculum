@@ -20,15 +20,15 @@ Koje su dve metrike efikasnosti?
 
 Kompleksnost linije i prostora
 
-[No Swahili text provided.]
+---
 
 Složenost vremena i prostora
 
-[No Swahili text provided.]
+---
 
 Teškoća ponavljanja i prostora
 
-[No Swahili text provided.]
+---
 
 Složenost binarnog i prostora
 

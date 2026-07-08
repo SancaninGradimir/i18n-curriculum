@@ -28,7 +28,7 @@ class Student:
         return f"Hello, my name is {self.name} and I am {self.age} years old."
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 class Student:
@@ -40,7 +40,7 @@ class Student:
         return f"Hello, my name is {self.name} and I am {self.age} years old."
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 class Student:
@@ -52,7 +52,7 @@ class Student:
         self.pass
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 class Student:

@@ -23,11 +23,11 @@ Nije ni jedna od sljedećih vrijednosti za atribut `position`?
 
 `fixed`
 
-[No Swahili text provided.]
+---
 
 `absolute`
 
-[No Swahili text provided.]
+---
 
 `relative`
 
@@ -45,11 +45,11 @@ Koja je glavna svrha svojstva `float` u CSS?
 
 Floats se koriste za uklanjanje elementa iz njegovog normalnog toka na stranici i postavljanje ga direktno u gornji desni deo web stranice.
 
-[No Swahili text provided.]
+---
 
 Floats se koriste za uklanjanje elementa iz normalnog toka na stranici i postavljanje ga iznad njegovog kontejnera.
 
-[No Swahili text provided.]
+---
 
 Floats se koriste da uklone element iz normalnog toka na stranici i postavi ga direktno u donji desni deo veb stranice.
 
@@ -75,7 +75,7 @@ Koji od sledećih primera uzrokuje da element kutije/kontejnera skače na lijevu
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box {
@@ -87,7 +87,7 @@ Koji od sledećih primera uzrokuje da element kutije/kontejnera skače na lijevu
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box {
@@ -121,11 +121,11 @@ Funkcija svojstva `clear` je lipljiva?
 
 Koristi se za određivanje da li je element potreban za premeštanje ispod stranice.
 
-[No Swahili text provided.]
+---
 
 Koristi se za određivanje da li je element potrebno potpuno ukloniti sa stranice.
 
-[No Swahili text provided.]
+---
 
 Koristi se za određivanje da li je potrebno zatvoriti element na stranici.
 
@@ -143,11 +143,11 @@ Koje je svojstvo CSS koje se koristi za kontrolisanje vertikalnog rasporeda elem
 
 `position`
 
-[No Swahili text provided.]
+---
 
 `bg-green`
 
-[No Swahili text provided.]
+---
 
 `float`
 
@@ -171,7 +171,7 @@ Koja je ispravna sintaksa za poređenje među sledećim?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .relative {
@@ -181,7 +181,7 @@ Koja je ispravna sintaksa za poređenje među sledećim?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .relative {
@@ -211,11 +211,11 @@ Koji je atribut CSS koji koristiš da zadržiš element na određenom mestu na s
 
 `position: no-scroll;`
 
-[No Swahili text provided.]
+---
 
 `position: relative;`
 
-[No Swahili text provided.]
+---
 
 `display: block;`
 
@@ -233,11 +233,11 @@ Koji je atribut CSS koji koristiš da zadržiš element na određenom mestu na s
 
 Absolutno pozicioniranje se koristi za određivanje da li element treba biti premješten ispod sadržaja koji preskače tok.
 
-[No Swahili text provided.]
+---
 
 Apsolutno pozicioniranje se koristi za postavljanje elementa unutar normalnog toka dokumenta.
 
-[No Swahili text provided.]
+---
 
 Apsolutno poravnanje se koristi za kontrolu vertikalnog rasporeda elemenata sa specifičnim pozicioniranjem koji su na stranici.
 
@@ -255,11 +255,11 @@ Koje svojstvo među sledećim je važeće svojstvo koje možete koristiti za aps
 
 `right`
 
-[No Swahili text provided.]
+---
 
 `bottom`
 
-[No Swahili text provided.]
+---
 
 `top`
 
@@ -277,11 +277,11 @@ Koja je glavna razlika između relativnog i apsolutnog poređenja?
 
 Apsolutno pozicioniranje postavlja element na fiksnoj poziciji, dok relativno pozicioniranje uklanja element iz normalnog toka dokumenta.
 
-[No Swahili text provided.]
+---
 
 Relativno usklađivanje postavlja element na trajno mesto, dok apsolutno usklađivanje uklanja element iz normalnog toka dokumenta.
 
-[No Swahili text provided.]
+---
 
 Apsolutno upoređivanje ubacuje element u normalan tok dokumenta, dok relativno upoređivanje uklanja element iz normalnog toka dokumenta.
 
@@ -308,7 +308,7 @@ Koji primer iz sledećih pokazuje kako postaviti kutiju u gornji levi ugao stran
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box {
@@ -321,7 +321,7 @@ Koji primer iz sledećih pokazuje kako postaviti kutiju u gornji levi ugao stran
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box {
@@ -357,11 +357,11 @@ Koja metoda poravnanja omogućava elementu da se pričvrsti samo za određenu po
 
 Poređenje float-a.
 
-[No Swahili text provided.]
+---
 
 Fiksno poravnanje
 
-[No Swahili text provided.]
+---
 
 Apsolutna korespondencija.
 
@@ -388,7 +388,7 @@ Kakav je tačan primer korišćenja *sticky* upoređivanja/matching-a?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box {
@@ -401,7 +401,7 @@ Kakav je tačan primer korišćenja *sticky* upoređivanja/matching-a?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box {
@@ -436,11 +436,11 @@ Koja je razlika između sticky i fiksne sinkronizacije?
 
 Sticky elementi se mogu koristiti samo u tabelarnom rasporedu, dok fiksni elementi mogu se koristiti u bilo kom tipu rasporeda od CSS.
 
-[No Swahili text provided.]
+---
 
 Sticky elementi će ostati na istoj poziciji dok se fiksni elementi pričvršćuju za određeni deo, a zatim će se ponašati kao relativni elementi.
 
-[No Swahili text provided.]
+---
 
 Fixed elementi će biti postavljeni na osnovu njihove uobičajene pozicije, dok se sticky elementi samo pričvršćuju za određenu sekciju i ponašaju kao relativni elementi.
 
@@ -458,11 +458,11 @@ Koja je poteškoća `clearfix` da reši kada radiš sa floatovima?
 
 `clearfix` pomoglo da se reši problem elemenata koji su programirani za preskakanje, uklanjajući ih iz normalnog protoka dokumenta i postavljajući ih na fiksnu poziciju na stranici.
 
-[No Swahili text provided.]
+---
 
 `clearfix` Pomaže da reši problem elemenata koji su postavljeni da preskoče, jer se ne prilagođavaju uređaju u rasporedu za telefone i tablete.
 
-[No Swahili text provided.]
+---
 
 `clearfix` Pomaže u rešavanju problema elemenata koji su namenjeni za preskakanje ili nestajanje sa stranice.
 
@@ -487,7 +487,7 @@ Koji je tačan primer za korišćenje `clearfix` hak?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .clearfix::after {
@@ -498,7 +498,7 @@ Koji je tačan primer za korišćenje `clearfix` hak?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .clearfix::before {
@@ -527,11 +527,11 @@ Koji je tačan primer za korišćenje `clearfix` hak?
 
 Koristi se za uklanjanje elementa iz njegovog standardnog toka na stranici i postavljanje ga direktno u gornji desni deo web stranice.
 
-[No Swahili text provided.]
+---
 
 Ovo vam omogućava da uklonite element iz standardnog toka dokumenta i da ga izolujete od drugih elemenata.
 
-[No Swahili text provided.]
+---
 
 Ovo omogućava elementu da ostane fiksiran samo na određnoj poziciji kada skrolujete stranicu preko određenog dela.
 
@@ -555,7 +555,7 @@ Koji od navedenih primera postavlja navigacionu traku (navbar) na vrh stranice k
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .navbar {
@@ -564,7 +564,7 @@ Koji od navedenih primera postavlja navigacionu traku (navbar) na vrh stranice k
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .navbar {
@@ -594,11 +594,11 @@ Koja od sledećih je validna vrednost atributa za `z-index`?
 
 `12.0`
 
-[No Swahili text provided.]
+---
 
 `none`
 
-[No Swahili text provided.]
+---
 
 `up`
 
@@ -616,11 +616,11 @@ Koja od sljedećih je podrazumevana vrijednost svojstva `position`?
 
 `inherit`
 
-[No Swahili text provided.]
+---
 
 `initial`
 
-[No Swahili text provided.]
+---
 
 `relative`
 
@@ -640,11 +640,11 @@ Koja je vrednost `position` koja omogućava podešavanje položaja elementa za `
 
 `position: absolute;`
 
-[No Swahili text provided.]
+---
 
 `position: static;`
 
-[No Swahili text provided.]
+---
 
 `position: fixed;`
 
@@ -662,11 +662,11 @@ Kako se funkcija sa `position: sticky;` ponaša u početku?
 
 Radiće kao element od `fixed` do pozicije skrolovanja stranice kada se ona dostigne.
 
-[No Swahili text provided.]
+---
 
 Izvlači se svaki put iz uobičajenog protoka dokumenata.
 
-[No Swahili text provided.]
+---
 
 Deluje kao element `absolute` unutar svog roditeljskog elementa.
 
@@ -693,7 +693,7 @@ Koji od sljedećih primjera pokazuje ispravnu i efikasnu upotrebu atributa `z-in
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box-one {
@@ -706,7 +706,7 @@ Koji od sljedećih primjera pokazuje ispravnu i efikasnu upotrebu atributa `z-in
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .box-one {
@@ -742,11 +742,11 @@ Zašto se svojstvo `z-index` koristi u CSS?
 
 Postavite nivo dodavanja stranica.
 
-[No Swahili text provided.]
+---
 
 Kontrolisati konzistentnost jednakosti komponenti unutar promenljivog kontejnera.
 
-[No Swahili text provided.]
+---
 
 Definiše razmak između sadržaja elementa i njegove granice.
 
@@ -764,11 +764,11 @@ Kada koristiš `top: 10%;` za funkciju sa `position: fixed;`, `10%` se računa n
 
 Dužina samog elementa.
 
-[No Swahili text provided.]
+---
 
 Dužina kontejnera njegovog/njegovoj roditelja.
 
-[No Swahili text provided.]
+---
 
 Širina vidnog polja.
 
@@ -791,7 +791,7 @@ Koji primer koda koristi atribut `z-index` za postavljanje elementa na vrh drugo
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .overlay {
@@ -801,7 +801,7 @@ Koji primer koda koristi atribut `z-index` za postavljanje elementa na vrh drugo
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .overlay {
@@ -831,11 +831,11 @@ Koja je svojstvo CSS koje se koristi za određivanje da li element treba da bude
 
 `float`
 
-[No Swahili text provided.]
+---
 
 `overflow`
 
-[No Swahili text provided.]
+---
 
 `display`
 
@@ -853,11 +853,11 @@ Gde ćemo postaviti element sa `position: relative;` i `bottom: 25px;`?
 
 Pomerić će se za 25px dole od svoje uobičajene pozicije.
 
-[No Swahili text provided.]
+---
 
 Preмести se 25px udesno od svoje normalne pozicije.
 
-[No Swahili text provided.]
+---
 
 Postaviti na 25 piksela od dna vidljivog područja.
 
@@ -875,11 +875,11 @@ Svojstvo `z-index` da li će se odnositi samo na elemente koji imaju svojstvo CS
 
 Vrednost `float` različita od `none`.
 
-[No Swahili text provided.]
+---
 
 Vrednost `display` od `inline-block`.
 
-[No Swahili text provided.]
+---
 
 Skup `background-color`.
 
@@ -897,11 +897,11 @@ Kakav će biti rezultat korišćenjem `float: right;` za logo u zaglavlju?
 
 Logo će biti poravnat desno, ali će ostati u normalnom toku dokumenta, sprečavajući da drugi sadržaj obavija oko njega.
 
-[No Swahili text provided.]
+---
 
 Nembo će biti uklonjen iz toka i postavljen sa desne strane cele površine pregledača, a ne u njegov kontejner.
 
-[No Swahili text provided.]
+---
 
 Nembo će biti standardni blok element koji zauzima punu širinu zaglavlja i gura druge elemente ispod sebe.
 
@@ -924,7 +924,7 @@ Koji je kod za CSS koji će postaviti element kada bude preklopljen preko vidlji
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .header {
@@ -933,7 +933,7 @@ Koji je kod za CSS koji će postaviti element kada bude preklopljen preko vidlji
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .header {
@@ -961,11 +961,11 @@ Koja je specifična svrha `clear: both;` u CSS?
 
 Brisanje atributa `float` sa samog elementa, vraćanjem u normalan tok dokumenta.
 
-[No Swahili text provided.]
+---
 
 Briše sve atribute za `clear` naslijeđene od roditelja, vraćajući normalno ponašanje skakanja.
 
-[No Swahili text provided.]
+---
 
 Briše samo elemente koji su namenjeni za pomeranje u desnu stranu, dozvoljavajući elementima namenjenim za pomeranje u levu stranu da ostanu nepromenjene.
 
@@ -994,11 +994,11 @@ Za sledeći kod, `.child`, gde će biti postavljen?
 
 Postaviće se 10px od vrha elementa `.parent`, jer je poravnanje `absolute` uvek bazirano na direktnom roditelju.
 
-[No Swahili text provided.]
+---
 
 Ostaje na svojoj uobičajenoj poziciji od static jer je vrednost `absolute` nije validna bez atributa `z-index`.
 
-[No Swahili text provided.]
+---
 
 Biće postavljeno 10px od vrha prozora pretraživača, ostajući fiksirano čak i kada korisnik skroluje stranicu.
 
@@ -1024,11 +1024,11 @@ Koja će promena imati sledeći kod za element `.box`?
 
 Element će ostati u svom normalnom toku, ali će biti pomeren za 50px od vrha i leve strane, što će gurati druge elemente dalje.
 
-[No Swahili text provided.]
+---
 
 Element će biti trajno postavljen u vidljivo područje i ostaje 50px od vrha i 50px od leve strane, čak i kada se stranica skroluje.
 
-[No Swahili text provided.]
+---
 
 Element će se postaviti u zavisnosti od svoje početne pozicije, pomerajući se za 50 piksela dole i 50 piksela desno bez izlaska iz protoka dokumenta.
 
@@ -1046,11 +1046,11 @@ Koji od vrednosti `position` potpuno uklanja element iz normalnog protoka dokume
 
 `position: static;`
 
-[No Swahili text provided.]
+---
 
 `position: relative;`
 
-[No Swahili text provided.]
+---
 
 `position: inherit;`
 
@@ -1077,7 +1077,7 @@ Za elemente ``.parent`` i ``.child``, koji je kod `CSS` koji postavlja ``.child`
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .parent {
@@ -1090,7 +1090,7 @@ Za elemente ``.parent`` i ``.child``, koji je kod `CSS` koji postavlja ``.child`
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .parent {
@@ -1126,11 +1126,11 @@ Koja je razlika između `static` i `relative`?
 
 Pazmanje od `static` uklanja element iz toka dokumenta, dok pazmanje od `relative` postavlja ga u tok.
 
-[No Swahili text provided.]
+---
 
 Element sa `position: static;` može se prebaciti na parametre `top` i `left`, kada `position: relative;` ne može.
 
-[No Swahili text provided.]
+---
 
 Poravnanje za `static` je za elemente na nivou bloka, dok poravnanje za `relative` je samo za inline elemente.
 
@@ -1153,7 +1153,7 @@ Koji je kod CSS koji čini da slika klizi ulevo, omogućavajući drugim sadržaj
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .image {
@@ -1161,7 +1161,7 @@ Koji je kod CSS koji čini da slika klizi ulevo, omogućavajući drugim sadržaj
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .image {
@@ -1187,11 +1187,11 @@ Koji je kod CSS koji čini da slika klizi ulevo, omogućavajući drugim sadržaj
 
 Podudarnost za `absolute` je bazirana na vidljivom području, dok je podudarnost za `fixed` bazirana na roditeljskom elementu sa posebnim statusom.
 
-[No Swahili text provided.]
+---
 
 Podudarnost `absolute` ubacuje element unutar standardnog toka dokumenta, dok podudarnost `fixed` uklanja iz toka.
 
-[No Swahili text provided.]
+---
 
 Sve je postavljeno u skladu sa vidljivim područjem, ali elementi `fixed` će se skrolovati sa stranicom kada elementi `absolute` neće se skrolovati.
 
@@ -1209,11 +1209,11 @@ Koje od vrednosti za `position` ubacuje element u normalan tok dokumenta i spre�
 
 `position: relative;`
 
-[No Swahili text provided.]
+---
 
 `position: absolute;`
 
-[No Swahili text provided.]
+---
 
 `position: fixed;`
 

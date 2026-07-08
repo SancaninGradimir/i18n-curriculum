@@ -20,15 +20,15 @@ U ovom videu, videćete kako binarni i linearni algoritmi pretrage funkcionišu 
 
 Linearna pretraga je trajala pola vremena binarne pretrage.
 
-[No Swahili text provided.]
+---
 
 Binarna pretraga je trajala polovinu vremena linearnog pretraživanja da bi se završila.
 
-[No Swahili text provided.]
+---
 
 Oba algoritma su trajala isto vreme da bi se završila.
 
-[No Swahili text provided.]
+---
 
 Oba algoritma su naišla na grešku i nije prikazano nijedno rezultata.
 

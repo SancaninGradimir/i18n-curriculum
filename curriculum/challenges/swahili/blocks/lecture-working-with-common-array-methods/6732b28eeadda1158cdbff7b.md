@@ -88,11 +88,11 @@ console.log(arr.includes(3, 3));
 
 Drugi parametar `includes()` opisuje početnu poziciju za pretraživanje.
 
-[No Swahili text provided.]
+---
 
 `false`
 
-[No Swahili text provided.]
+---
 
 `undefined`
 
@@ -100,7 +100,7 @@ Drugi parametar `includes()` opisuje početnu poziciju za pretraživanje.
 
 Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
 
-[No Swahili text provided.]
+---
 
 Ovo će nam otpasti kosu.
 
@@ -129,11 +129,11 @@ console.log(arr.includes("C"));
 
 Zapamtite da `includes()` ima osetljivost na mala i velika slova prilikom obrade niza znakova.
 
-[No Swahili text provided.]
+---
 
 `false`
 
-[No Swahili text provided.]
+---
 
 `undefined`
 
@@ -141,7 +141,7 @@ Zapamtite da `includes()` ima osetljivost na mala i velika slova prilikom obrade
 
 Zapamtite da `includes()` ima osetljivost na mala i velika slova prilikom obrade niza karaktera.
 
-[No Swahili text provided.]
+---
 
 Ovo će nam otpasti kosu.
 
@@ -170,11 +170,11 @@ console.log(arr.includes("3"));
 
 Putanja `includes()` koristi strogu jednakost (`===`) za poređenje.
 
-[No Swahili text provided.]
+---
 
 `false`
 
-[No Swahili text provided.]
+---
 
 `undefined`
 
@@ -182,7 +182,7 @@ Putanja `includes()` koristi strogu jednakost (`===`) za poređenje.
 
 Putanja `includes()` koristi strogu jednakost (`===`) za poređenje.
 
-[No Swahili text provided.]
+---
 
 Ovo će nam otpasti kosu.
 

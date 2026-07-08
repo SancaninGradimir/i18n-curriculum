@@ -20,15 +20,15 @@ Kako funkcioniše algoritam za selektivno sortiranje?
 
 Traži element koji je veoma mali (ili veoma veliki) iz neuređenog dela i premesta ga u uređeni deo.
 
-[No Swahili text provided.]
+---
 
 Podešava susedne elemente sve dok se ceo spisak ne organizuje.
 
-[No Swahili text provided.]
+---
 
 Mešamo listu nasumično dok se ne poređani.
 
-[No Swahili text provided.]
+---
 
 Podeljuje listu na dva dela, organizuje svaki deo iterativno i spaja te delove.
 

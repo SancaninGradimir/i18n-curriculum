@@ -20,15 +20,15 @@ U ovom videu će vam biti objašnjeno o modelima ulaza.
 
 Model koji komprimuje tekstualne fajlove radi njihovo smanjenje kako bi se omogućilo brže preuzimanje.
 
-[No Swahili text provided.]
+---
 
 Sistem koji direktno prevodi tekst iz jednog jezika u drugi.
 
-[No Swahili text provided.]
+---
 
 Model koji uzima tekst i konvertuje ga u vektor brojeva koji predstavljaju značenje.
 
-[No Swahili text provided.]
+---
 
 Model koji generiše slike na osnovu pisanih opisa.
 

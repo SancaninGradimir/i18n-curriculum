@@ -20,15 +20,15 @@ Koje su tri funkcije koje će biti korišćene u ovoj implementaciji sortiranja 
 
 `merge_sort`, `split` na `merge`
 
-[No Swahili text provided.]
+---
 
 `merge_sort`, `insert` na `delete`
 
-[No Swahili text provided.]
+---
 
 `sort`, `combine` na `partition`
 
-[No Swahili text provided.]
+---
 
 `search`, `split` na `merge`
 

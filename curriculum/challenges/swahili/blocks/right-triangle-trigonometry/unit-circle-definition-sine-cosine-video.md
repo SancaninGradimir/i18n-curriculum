@@ -20,15 +20,15 @@ U ovom videu, naučićete kako da koristite jedinčni krug da pronađete sin i k
 
 Krug sa brojem nula.
 
-[No Swahili text provided.]
+---
 
 Krug sa krugom broja 1.
 
-[No Swahili text provided.]
+---
 
 Krug broj 2.
 
-[No Swahili text provided.]
+---
 
 Krug sa krugom od broja 0.5.
 

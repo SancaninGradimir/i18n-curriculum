@@ -23,11 +23,11 @@ Koje od sledećih informacija o funkcionalnostima nadvišnog mosta JavaScript su
 
 Funkcije višegrdišta mogu značajno povećati čitljivost i održivost koda omogućavanjem programskih funkcionalnih metoda.
 
-[No Swahili text provided.]
+---
 
 Funkcije višegrade, kao što su map, filter i reduce, su moćna sredstva za upravljanje nizovima podataka, ali nisu ekskluzivni za funkcionalno programiranje.
 
-[No Swahili text provided.]
+---
 
 Funkcije višeg nivoa mogu stvoriti poteškoće u razumevanju koda, ali takođe mogu rezultirati rešenjima sa većom ekspresivnošću i konciznošću.
 
@@ -45,11 +45,11 @@ Sve funkcije u JavaScript, uključujući one koje ne pozivaju niti vraćaju drug
 
 Funkcija koja kreira nove parametre.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja radi samo sa nizom znakova.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja direktno generiše komentare koda.
 
@@ -78,11 +78,11 @@ const mapRes = numbers.map(num => {
 
 `forEachRes` ni `undefined` na `mapRes` ni `[1,2,3,4,5]`
 
-[No Swahili text provided.]
+---
 
 `forEachRes` ni `0` na `mapRes` ni `[1,2,3,4,5]`
 
-[No Swahili text provided.]
+---
 
 `forEachRes` ni `5` na `mapRes` ni `[1,2,3,4,5]`
 
@@ -104,11 +104,11 @@ const mapRes = numbers.map(num => {
 
 Elementi koji nisu pouzdani za sortiranje niza podataka, stoga je greška.
 
-[No Swahili text provided.]
+---
 
 Poziv za vraćanje nije dostupan, stoga greška.
 
-[No Swahili text provided.]
+---
 
 ```js
 [empty, 'a', 'b', undefined, { '20': 5 }]
@@ -130,11 +130,11 @@ Ili izaberete funkciju odgovora u JavaScript?
 
 Funkcija koja se poziva jednom nakon izjave.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja se naziva u specifičnom kontekstu.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja vraća drugu funkciju.
 
@@ -152,11 +152,11 @@ Funkcija koja se prosleđuje kao argument drugoj funkciji, kako bi bila izvršen
 
 Istinitostna vrednost koja ukazuje da li postoje elementi koji zadovoljavaju uslov.
 
-[No Swahili text provided.]
+---
 
 Redovi podataka sa svim atributima su smanjeni/filtrirani pomoću definisane funkcije okidača.
 
-[No Swahili text provided.]
+---
 
 Reda vrednosti tačno ili netačno.
 
@@ -174,11 +174,11 @@ Putanja `sort()` šta radi ako nije dostupan komparator tokom sortiranja brojeva
 
 Popunjava prazan prostor sa `null`.
 
-[No Swahili text provided.]
+---
 
 Obnavlja red specijalnih znakova.
 
-[No Swahili text provided.]
+---
 
 Sleže redove u opadajućem redosledu.
 
@@ -196,11 +196,11 @@ Koja je svrha putanje za `some()` u JavaScript?
 
 Napravite novi red sa rezultatima funkcije primenjenom na svaki element.
 
-[No Swahili text provided.]
+---
 
 Prolazak kroz red podataka bez izbacivanja rezultata.
 
-[No Swahili text provided.]
+---
 
 Agregovati red podataka u jednu vrednost prema funkciji agregacije.
 
@@ -220,13 +220,13 @@ Koji je od sledećih validan primer serijskog spajanja?
 Math.random();
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 array.push(1).pop();
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 console.log('Hello');
@@ -256,11 +256,11 @@ numbers.forEach(function(number) {
 
 `2 4 8 10`
 
-[No Swahili text provided.]
+---
 
 `null null null null`
 
-[No Swahili text provided.]
+---
 
 `1 2 4 5`
 
@@ -278,11 +278,11 @@ Koja je prednost serijskog povezivanja rute?
 
 Poboljšava performanse smanjenjem vremena izvršavanja funkcija.
 
-[No Swahili text provided.]
+---
 
 Uklanja potrebu za kratkoročnim parametrima, ali može povećati potrošnju memorije u nekim slučajevima.
 
-[No Swahili text provided.]
+---
 
 Omogući upravljanje greškama i popravku grešaka sa većom lakoćom.
 
@@ -300,11 +300,11 @@ Kako možete sortirati listu stavki po specifičnim kriterijumima koristeći met
 
 Put za `sort` ne može da organizuje stvari.
 
-[No Swahili text provided.]
+---
 
 Koristi putanju `reverse` nakon podešavanja.
 
-[No Swahili text provided.]
+---
 
 Promeni stvar u niz slova i rasporedi ih.
 
@@ -322,11 +322,11 @@ Kada se povezuju sekvencijalne rute, koja je uobičajena karakteristika za pobol
 
 Koristi nekoliko puteva u nizu.
 
-[No Swahili text provided.]
+---
 
 Izbegavajte povezivanje putanja koje vraćaju samo osnovne vrednosti.
 
-[No Swahili text provided.]
+---
 
 Koristi samo interne puteve.
 
@@ -344,11 +344,11 @@ Koji je gubitak koji se može desiti korišćenjem sekvencijalnog povezivanja vi
 
 Neka se kod izvršava sporo.
 
-[No Swahili text provided.]
+---
 
 Korišćenje komentara je onemogućeno.
 
-[No Swahili text provided.]
+---
 
 Naterati fajl da bude veći.
 
@@ -366,11 +366,11 @@ Koji način ćeš koristiti da proverićeš da li su svi elementi u nizu sekvenc
 
 `some()`
 
-[No Swahili text provided.]
+---
 
 `everyInstance()`
 
-[No Swahili text provided.]
+---
 
 `filter()`
 
@@ -394,11 +394,11 @@ filteredArray[0].id = 4;
 
 `[{ id: 1 }, { id: 2 }, { id: 3 }]`
 
-[No Swahili text provided.]
+---
 
 `[{ id: 1 }]`
 
-[No Swahili text provided.]
+---
 
 `[{ id: 4 }, { id: 2 }, { id: 3 }]`
 
@@ -419,11 +419,11 @@ const shortWords = words.filter(word => word.length <= 5);
 
 `[]`
 
-[No Swahili text provided.]
+---
 
 `['pear', 'kiwi']`
 
-[No Swahili text provided.]
+---
 
 `['apple', 'banana']`
 
@@ -441,11 +441,11 @@ Koja je svrha pružanja početne vrednosti kao argumenta putem `reduce()`?
 
 Postavljanje visine reda sa podacima.
 
-[No Swahili text provided.]
+---
 
 Kontrolisati broj ponavljanja.
 
-[No Swahili text provided.]
+---
 
 Specificirati tip vrednosti koji je vraćen od strane funkcije.
 
@@ -463,11 +463,11 @@ Da li putanja `map` može biti korišćena za stvari koje nisu red podataka?
 
 Da, može se koristiti za sve.
 
-[No Swahili text provided.]
+---
 
 Da, ali samo za stvari sa numeričkim karakteristikama.
 
-[No Swahili text provided.]
+---
 
 Zavisi od verzije JavaScript.
 
@@ -485,11 +485,11 @@ Koja je glavna svrha putanje `map` u JavaScript?
 
 Preuređivanje redova i vraćanje novih redova uz održavanje originalnog rasporeda.
 
-[No Swahili text provided.]
+---
 
 Filtrisanje elemenata iz niza i uklanjanje ili dodavanje elemenata u zavisnosti od uslova.
 
-[No Swahili text provided.]
+---
 
 Pronaći specifičan element u nizu i vratiti njegovo predstavljanje zajedno sa elementom.
 

@@ -20,15 +20,15 @@ Koji uslov mora biti tačan da bi binarna pretraga funkcionisala?
 
 Podaci bi trebalo da imaju unos ispod 1.000.
 
-[No Swahili text provided.]
+---
 
 Podaci bi trebalo da imaju više od 1.000 unosa.
 
-[No Swahili text provided.]
+---
 
 Podaci bi trebalo da budu neorganizovani.
 
-[No Swahili text provided.]
+---
 
 Podaci bi trebali biti organizovani.
 

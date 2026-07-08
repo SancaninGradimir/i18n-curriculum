@@ -20,15 +20,15 @@ Kada je vreme izvršenja funkcije `split` tokom izvršavanja merge sort-a?
 
 `O(k log)`
 
-[No Swahili text provided.]
+---
 
 `O(log n)`
 
-[No Swahili text provided.]
+---
 
 `O(k n)`
 
-[No Swahili text provided.]
+---
 
 `O(k log n)`
 

@@ -20,15 +20,15 @@ Koji sortirujući algoritam bi koristili ako žele da efikasno pretraže veliku,
 
 linearna pretraga
 
-[No Swahili text provided.]
+---
 
 pretraga binarnom deljenjem
 
-[No Swahili text provided.]
+---
 
 pretraživanje zakačišta (ili beam search)
 
-[No Swahili text provided.]
+---
 
 dinamički pretraga
 

@@ -20,15 +20,15 @@ Zašto se druga jednačina u prvom primeru naziva identitet?
 
 Funkcija njegovog tangensa i kotangensa je jednaka.
 
-[No Swahili text provided.]
+---
 
 Njegov kosinus i sekans su jednaki.
 
-[No Swahili text provided.]
+---
 
 Drži sve vrednosti za parametar.
 
-[No Swahili text provided.]
+---
 
 Ne drži nikakvu vrednost parametra.
 

@@ -20,15 +20,15 @@ Koja je funkcija `def __init__(self):` unutar klase objekata?
 
 Predstavlja funkciju za pozivanje metode.
 
-[No Swahili text provided.]
+---
 
 Objašnjava vrstu klase objekata.
 
-[No Swahili text provided.]
+---
 
 Omogućava klasama da naslede metode iz druge klase.
 
-[No Swahili text provided.]
+---
 
 Predstavlja način za inicijalizaciju.
 

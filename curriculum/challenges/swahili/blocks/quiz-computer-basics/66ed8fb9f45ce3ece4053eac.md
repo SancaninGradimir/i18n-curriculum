@@ -23,11 +23,11 @@ Koja je komponenta računara koja se koristi za povezivanje drugih internih delo
 
 Proces (CPU)
 
-[No Swahili text provided.]
+---
 
 Fotografska kartica
 
-[No Swahili text provided.]
+---
 
 Sjećanje
 
@@ -45,11 +45,11 @@ matična ploča
 
 Alati za uređivanje podešavanja pretraživača i upravljanje korisničkim profilima.
 
-[No Swahili text provided.]
+---
 
 Alati za blokiranje oglasa i poboljšanje performansi veb stranica.
 
-[No Swahili text provided.]
+---
 
 Program za upravljanje dodacima i ekstenzijama pretraživača.
 
@@ -67,11 +67,11 @@ Koja ISP konekcija je obično najbrža?
 
 DSL
 
-[No Swahili text provided.]
+---
 
 Satelit
 
-[No Swahili text provided.]
+---
 
 Kablo
 
@@ -89,11 +89,11 @@ Koji od sledećih nije siguran način prilikom prijavljivanja na nalog?
 
 Koristeći skener otisaka prsta ili lica.
 
-[No Swahili text provided.]
+---
 
 Kreiranje lozinke koja je dugačka i složena kao `@ppl3_+B@nana34823`.
 
-[No Swahili text provided.]
+---
 
 Podesiti dvofaktorsku autentikaciju (2FA).
 
@@ -111,11 +111,11 @@ Koji od sljedećih nije web pretraživač?
 
 Safari
 
-[No Swahili text provided.]
+---
 
 Opera
 
-[No Swahili text provided.]
+---
 
 Microsoft Edge
 
@@ -133,11 +133,11 @@ Kada treba da urediš deo koda, na šta se najviše oslanjaš iz sledećeg?
 
 Node Package Manager
 
-[No Swahili text provided.]
+---
 
 Microsoft Edge
 
-[No Swahili text provided.]
+---
 
 GitHub
 
@@ -155,11 +155,11 @@ Koji od sledećih se koristi posebno za upravljanje fajlovima sačuvanim na inte
 
 Dropbox
 
-[No Swahili text provided.]
+---
 
 Microsoft OneDrive
 
-[No Swahili text provided.]
+---
 
 Google Drive
 
@@ -177,11 +177,11 @@ Windows File Explorer
 
 Postavljanje podvučene linije ili donje crte između reči.
 
-[No Swahili text provided.]
+---
 
 Korišćenje doslednog stila camelCase.
 
-[No Swahili text provided.]
+---
 
 Postaviti broj verzije na kraju dokumenta kao `summaryReport_v2.docx`.
 
@@ -199,11 +199,11 @@ Koristi imena koja ne opisuju kao `file1.txt`.
 
 Vrsta programa koji upravlja web fajlovima i bazom podataka.
 
-[No Swahili text provided.]
+---
 
 Fizička lokacija mrežne usluge u centru podataka.
 
-[No Swahili text provided.]
+---
 
 Nema među ostalim opcijama.
 
@@ -221,11 +221,11 @@ Koja je način za slanje fajla u Kante za smeće (Recycle Bin/Trash)?
 
 Sve ostale opcije.
 
-[No Swahili text provided.]
+---
 
 Pritisnite dugme `Backspace` na tastaturi.
 
-[No Swahili text provided.]
+---
 
 Premestiti fajl u mapu Arhivirano.
 
@@ -243,11 +243,11 @@ Desni klik na njega i odaberite opciju Brisanje/Premještanje u smeće.
 
 Mrežni protokol koji se koristi za prenos fajlova između uređaja.
 
-[No Swahili text provided.]
+---
 
 Trajni uređaj za skladištenje koji se koristi za čuvanje fajlova i programa.
 
-[No Swahili text provided.]
+---
 
 Komponenta računara odgovorna za generisanje slika i prikazivanje crteža/grafike.
 
@@ -265,11 +265,11 @@ Koja vrsta fajla bi bila najprikladnija za pisanje fajla `README`?
 
 `.php`
 
-[No Swahili text provided.]
+---
 
 `.html`
 
-[No Swahili text provided.]
+---
 
 `.json`
 
@@ -287,11 +287,11 @@ Koja vrsta fajla bi bila najprikladnija za pisanje fajla `README`?
 
 Platforma kreirana za razlaganje i hostovanje web aplikacija.
 
-[No Swahili text provided.]
+---
 
 Vrsta uređaja koji se koristi za merenje i regulisanje električnih kola.
 
-[No Swahili text provided.]
+---
 
 Sistem za kontrolu verzija pomažu programerima da prate promene izvornog koda tokom razvoja aplikacije.
 
@@ -309,11 +309,11 @@ Koji program vam omogućava da gledate online sadržaje?
 
 Prikaz sadržaja mreže
 
-[No Swahili text provided.]
+---
 
 Ulje za pretragu
 
-[No Swahili text provided.]
+---
 
 Sajt
 
@@ -331,11 +331,11 @@ Koji program prikazuje veb stranice povezane sa korisničkim pitanjem/temom?
 
 Traži stranicu
 
-[No Swahili text provided.]
+---
 
 Pregledač internet-a
 
-[No Swahili text provided.]
+---
 
 Sajt
 
@@ -353,11 +353,11 @@ Je li to skup web stranica pod jednim domenom?
 
 Web pregledač
 
-[No Swahili text provided.]
+---
 
 Mrežna veza
 
-[No Swahili text provided.]
+---
 
 Istraživačko ulje
 
@@ -375,11 +375,11 @@ Da biste pronašli tačnu frazu, morate kombinovati vaš pretraživački pojam s
 
 Obični ugljohi
 
-[No Swahili text provided.]
+---
 
 Palice
 
-[No Swahili text provided.]
+---
 
 Znakovi za crtežača
 
@@ -397,11 +397,11 @@ Koji je način za instaliranje internet pretraživača?
 
 Koristi paket menadžera.
 
-[No Swahili text provided.]
+---
 
 Preuzmite ga direktno sa sajta.
 
-[No Swahili text provided.]
+---
 
 Korišćenje prodavnice aplikacija kao Microsoft Store.
 
@@ -419,11 +419,11 @@ Koji format iz navedenih ne čuva kvalitet slike nakon kompresije?
 
 Sve ostale opcije.
 
-[No Swahili text provided.]
+---
 
 PNG
 
-[No Swahili text provided.]
+---
 
 SVG
 
@@ -441,11 +441,11 @@ Koja komponenta/koji deo iz navedenog se nalazi u soketu na matičnoj ploči?
 
 Putanja
 
-[No Swahili text provided.]
+---
 
 Tastatura
 
-[No Swahili text provided.]
+---
 
 Hard disk (HDD)
 
@@ -465,11 +465,11 @@ Koja od sljedećih je osnovni dio računara?
 
 Administrator reči
 
-[No Swahili text provided.]
+---
 
 Upravnik rada
 
-[No Swahili text provided.]
+---
 
 Administrator memorije
 
@@ -487,11 +487,11 @@ Koji je tip prikazačkog uređaja koji se koristi za računar?
 
 Kućica za prikaz računara
 
-[No Swahili text provided.]
+---
 
 Uređaj koji se može uključiti i isključiti, koristi se u prezentacijama PowerPoint-a
 
-[No Swahili text provided.]
+---
 
 Puca laserski zrakopjev
 
@@ -509,11 +509,11 @@ Kakva je vrsta ISP-a?
 
 Satelit
 
-[No Swahili text provided.]
+---
 
 Optičko vlakno
 
-[No Swahili text provided.]
+---
 
 Dial-up
 
@@ -531,11 +531,11 @@ Koji je najbolji način imenovanja fajlova za web aplikaciju?
 
 Korišćenje posebnih slova.
 
-[No Swahili text provided.]
+---
 
 Upotrebiti razmak za razdvajanje reči.
 
-[No Swahili text provided.]
+---
 
 Koristiti opšte reči.
 
@@ -553,11 +553,11 @@ Koji je tip fajla koji se najčešće koristi prilikom rada sa mrežnim aplikaci
 
 `.xls`
 
-[No Swahili text provided.]
+---
 
 `.aud`
 
-[No Swahili text provided.]
+---
 
 `.doc`
 
@@ -575,11 +575,11 @@ Koji je uobičajeni tip fajla za video?
 
 `.vid`
 
-[No Swahili text provided.]
+---
 
 `.mp3`
 
-[No Swahili text provided.]
+---
 
 `.wav`
 
@@ -597,11 +597,11 @@ Koja vrsta fajla se najviše koristi za slike?
 
 `.pix`
 
-[No Swahili text provided.]
+---
 
 `.ppg`
 
-[No Swahili text provided.]
+---
 
 `.gfi`
 
@@ -619,11 +619,11 @@ Microsoft Edge je pregledač za internet podrazumevan za koji operativni sistem?
 
 Linux
 
-[No Swahili text provided.]
+---
 
 macOS
 
-[No Swahili text provided.]
+---
 
 Unix
 
@@ -641,11 +641,11 @@ Windows
 
 Deo hard diska računara.
 
-[No Swahili text provided.]
+---
 
 Napredni program koji je korišćen samo od strane akademskih istraživača.
 
-[No Swahili text provided.]
+---
 
 Alat za pronalaženje mrežnih komponenti.
 
@@ -663,11 +663,11 @@ Koja od sledećih nije vrsta pretraživača?
 
 Google Chrome
 
-[No Swahili text provided.]
+---
 
 Mozilla Firefox
 
-[No Swahili text provided.]
+---
 
 Microsoft Edge
 
@@ -685,11 +685,11 @@ Koji od sljedećih nije usluga za upravljanje bazom podataka u oblaku?
 
 GitHub
 
-[No Swahili text provided.]
+---
 
 GitLab
 
-[No Swahili text provided.]
+---
 
 Bitbucket
 
@@ -707,11 +707,11 @@ Koja od sljedećih nije glavni dio uključenog razvojnog okruženja?
 
 Alat za pisanje.
 
-[No Swahili text provided.]
+---
 
 Alat za merenje koda.
 
-[No Swahili text provided.]
+---
 
 Alat za popravku kodnih grešaka.
 
@@ -729,11 +729,11 @@ Koji je najbolji način za imenovanje fajlova?
 
 Kreiranje skripte koja koristi iste imena fajlova za sve projekte.
 
-[No Swahili text provided.]
+---
 
 Daj glavnom fajlu ime koje je isto kao naziv foldera u kojem se nalazi.
 
-[No Swahili text provided.]
+---
 
 Korišćenje sekvence jedinstvenih brojeva na kraju imena fajla.
 
@@ -751,11 +751,11 @@ Koja je ugrađena putanja koju koristiš za pretraživanje fajlova na tvom raču
 
 Google ili Firefox
 
-[No Swahili text provided.]
+---
 
 Istraživačko ulje
 
-[No Swahili text provided.]
+---
 
 GitHub
 
@@ -773,11 +773,11 @@ Koji je uobičajen metod za pretraživanje po tipovima fajlova?
 
 `site:`
 
-[No Swahili text provided.]
+---
 
 `typeof:`
 
-[No Swahili text provided.]
+---
 
 `type:`
 
@@ -795,11 +795,11 @@ Koja je zadajna stranica za veb sajt?
 
 `styles.css`
 
-[No Swahili text provided.]
+---
 
 `main.html`
 
-[No Swahili text provided.]
+---
 
 `home.html`
 
@@ -817,11 +817,11 @@ Koji menadžer fajlova možete koristiti za kreiranje, premeštanje i brisanje f
 
 Google ili Bing
 
-[No Swahili text provided.]
+---
 
 Windows ili macOS
 
-[No Swahili text provided.]
+---
 
 Findex au Firefox
 
@@ -839,11 +839,11 @@ Git Šta je to?
 
 Centralno mesto za skladištenje izvornog koda.
 
-[No Swahili text provided.]
+---
 
 Alat za dodavanje, ispravljanje i brisanje biblioteka i zavisnosti projekata.
 
-[No Swahili text provided.]
+---
 
 Usluga za čuvanje baze podataka u oblaku.
 
@@ -861,11 +861,11 @@ Sistem kontrole verzija pomaže u praćenju promena i saradnji sa drugima.
 
 Trajno mesto za skladištenje podataka.
 
-[No Swahili text provided.]
+---
 
 Metoda gubljenja podataka po sekvenci.
 
-[No Swahili text provided.]
+---
 
 Proces koji se koristi za generisanje lozinke.
 
@@ -883,11 +883,11 @@ Koji je format fajla koji se koristi za kompresovanje fajlova?
 
 `TTF`
 
-[No Swahili text provided.]
+---
 
 `MOV`
 
-[No Swahili text provided.]
+---
 
 `ZAP`
 

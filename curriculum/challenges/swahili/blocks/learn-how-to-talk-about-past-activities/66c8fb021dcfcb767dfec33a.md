@@ -43,7 +43,9 @@ Jeste li već nekada rešavali ovaj problem mnogo puta ranije?
 
 ### --feedback--
 
-Zamislite da Linda govori o rešavanju ovog konkretnog problema ili sličnog problema.## --video-solution--
+Zamislite da Linda govori o rešavanju ovog konkretnog problema ili sličnog problema.
+
+## --video-solution--
 
 3
 

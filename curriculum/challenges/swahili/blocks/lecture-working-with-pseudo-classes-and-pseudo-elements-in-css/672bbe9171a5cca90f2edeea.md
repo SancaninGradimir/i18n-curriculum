@@ -174,7 +174,7 @@ Omogućava crteže i izmene stila.
 
 Razmislite kako možete sarađivati sa korisnicima koristeći samo CSS.
 
-[No Swahili text provided.]
+---
 
 Omogućava menjanje strukture DOM u realnom vremenu.
 
@@ -182,11 +182,11 @@ Omogućava menjanje strukture DOM u realnom vremenu.
 
 Razmislite kako možete da sarađujete sa korisnicima koristeći CSS samo.
 
-[No Swahili text provided.]
+---
 
 Dostavlja komentare korisniku bez zavisnosti od JavaScript.
 
-[No Swahili text provided.]
+---
 
 Omogućava vam da postavite stil za poslednji element u listi.
 
@@ -210,7 +210,7 @@ Izaberite element kada je onemogućen.
 
 Razmislite kako forme obrađuju izbor korisnika.
 
-[No Swahili text provided.]
+---
 
 Izaberite element dok ga pregledavate.
 
@@ -218,11 +218,11 @@ Izaberite element dok ga pregledavate.
 
 Razmislite kako forme obrađuju izbor korisnika.
 
-[No Swahili text provided.]
+---
 
 Postavlja stilove za elemente kao što su polje za označavanje ili radio dugme koja su odabrana.
 
-[No Swahili text provided.]
+---
 
 Primjenjuje stil za element kada primi fokus.
 
@@ -246,11 +246,11 @@ Selektuje element kada ga mišem pređete.
 
 Zamislite kako korisnici navigiraju po obrascima koristeći tastaturu.
 
-[No Swahili text provided.]
+---
 
 Postavlja se stil kada element dobije fokus, obično putem navigacije tastaturom ili klikom.
 
-[No Swahili text provided.]
+---
 
 Izaberite polje nakon slanja forme.
 
@@ -258,7 +258,7 @@ Izaberite polje nakon slanja forme.
 
 Razmislite kako korisnici navigiraju po formularima koristeći tastaturu.
 
-[No Swahili text provided.]
+---
 
 Postavlja stil za element kada se isključuje.
 

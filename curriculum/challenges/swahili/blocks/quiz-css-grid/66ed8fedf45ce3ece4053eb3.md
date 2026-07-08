@@ -23,11 +23,11 @@ CSS Šta je Grid?
 
 Način korišćenja za prikazivanje tabela na internetu.
 
-[No Swahili text provided.]
+---
 
 Način postavljanja slika u mozaičnom (tile) rasporedu.
 
-[No Swahili text provided.]
+---
 
 Način za prikazivanje granica oko elemenata HTML.
 
@@ -45,11 +45,11 @@ Koji je ispravan način/metoda među sledećim za kreiranje alata mrežne strukt
 
 `display: grid-area;`
 
-[No Swahili text provided.]
+---
 
 `grid: grid-template;`
 
-[No Swahili text provided.]
+---
 
 `grid-template: set;`
 
@@ -67,11 +67,11 @@ Koji je ispravan način/metoda među sledećim za kreiranje alata mrežne strukt
 
 Podešavate dve redne i tri kolone za mrežni alat.
 
-[No Swahili text provided.]
+---
 
 Podesite sve redove mrežnog rasporeda da imaju fiksnu visinu.
 
-[No Swahili text provided.]
+---
 
 Kreiraj alat za dvoredni mrežni raspored.
 
@@ -89,11 +89,11 @@ Postavlja broj redova u mrežni raspored (grid layout).
 
 Odredite veličinu i poziciju ćelije mreže u mrežnom rasporedu.
 
-[No Swahili text provided.]
+---
 
 Generiše alat za kreiranje novih mrežnih linija.
 
-[No Swahili text provided.]
+---
 
 Definišite veličinu podrazumevane linije u alatki za mrežu.
 
@@ -111,11 +111,11 @@ Funkcija `minmax()`, šta radi?
 
 Prebacuje između prve i druge vrednosti, u zavisnosti od trenutne pozicije.
 
-[No Swahili text provided.]
+---
 
 Izračunaj prosek dva unosa.
 
-[No Swahili text provided.]
+---
 
 Postavlja minimalnu veličinu elementa za pregledač koji radi u režimu punog ekrana.
 
@@ -133,11 +133,11 @@ Koje su kratke opise karakteristika za `column-gap` i `row-gap`?
 
 `gap-column-row`
 
-[No Swahili text provided.]
+---
 
 `gutters`
 
-[No Swahili text provided.]
+---
 
 `grid-gap`
 
@@ -155,11 +155,11 @@ Koja je razlika između otvorene mreže i potpuno otvorene mreže?
 
 Otvorene mreže koriste svojstvo ya `grid-template-columns` dok potpuno otvorene mreže koriste svojstvo ya `grid-template-rows`.
 
-[No Swahili text provided.]
+---
 
 Potpuno otvorene mreže koriste atribut `grid-template-columns` dok potpuno otvorene mreže koriste atribut `grid-template-rows`.
 
-[No Swahili text provided.]
+---
 
 Otvorene mreže koriste svojstva `grid-template-columns` ili `grid-template-rows` za kreiranje redova kada se linije i kolone automatski kreiraju u potpuno otvorene mreže.
 
@@ -177,11 +177,11 @@ Koji od sledećih elemenata predstavlja deo prostora unutar grid kontejnera?
 
 `fractional`
 
-[No Swahili text provided.]
+---
 
 `frac`
 
-[No Swahili text provided.]
+---
 
 `f`
 
@@ -199,11 +199,11 @@ Koji od sledećih elemenata predstavlja deo prostora unutar grid kontejnera?
 
 Redovi i kolone.
 
-[No Swahili text provided.]
+---
 
 Granice elementa mreže.
 
-[No Swahili text provided.]
+---
 
 Linije gde se stvaraju redovi i mrežne linije.
 
@@ -221,11 +221,11 @@ Linije koje svaki deo mreže počinje i završava.
 
 Dodaj novi mrežni element/komponentu kao dete korišćenog elementa.
 
-[No Swahili text provided.]
+---
 
 Poravnajte tekst unutar ćelije mreže vertikalno.
 
-[No Swahili text provided.]
+---
 
 Postavlja dva reda za alat mrežice.
 
@@ -243,11 +243,11 @@ Možete li kreirati četiri reda iste širine?
 
 `grid-template-columns: repeat(4);`
 
-[No Swahili text provided.]
+---
 
 `grid-template-columns: repeat(1, 4);`
 
-[No Swahili text provided.]
+---
 
 `grid-template-columns: repeat(1fr, 4);`
 
@@ -265,11 +265,11 @@ Možete li kreirati četiri reda iste širine?
 
 Koristi se za određivanje mesta gde komad počinje na liniji u gridškom alatu.
 
-[No Swahili text provided.]
+---
 
 Koristi se za stvaranje razmaka između putanja unutar uređaja.
 
-[No Swahili text provided.]
+---
 
 Koristi se za ponavljanje dela u spisku ruta.
 
@@ -287,11 +287,11 @@ Koristi se za imenovanje elemenata koje raspoređujete na mreži.
 
 Kontrolišite raspored prikazanih elemenata mreže.
 
-[No Swahili text provided.]
+---
 
 Promenite poziciju između elemenata mreže.
 
-[No Swahili text provided.]
+---
 
 Podesite element da se poravna na grid/mrežu direktno.
 
@@ -321,7 +321,7 @@ Koji je tačan način korišćenja funkcije/svojstva za `grid-template-areas`?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .container {
@@ -337,7 +337,7 @@ Koji je tačan način korišćenja funkcije/svojstva za `grid-template-areas`?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .container {
@@ -381,7 +381,7 @@ Koji je ispravan način za rad sa svojstvom od `grid-auto-flow`?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .social-icons {
@@ -392,7 +392,7 @@ Koji je ispravan način za rad sa svojstvom od `grid-auto-flow`?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .social-icons {
@@ -424,11 +424,11 @@ Koji od sledećih nije važeći atribut mreže?
 
 `gap`
 
-[No Swahili text provided.]
+---
 
 `grid-column`
 
-[No Swahili text provided.]
+---
 
 `grid-template-columns`
 
@@ -446,11 +446,11 @@ Koji od ovih svojstava se može koristiti za centriranje elemenata unutar elemen
 
 `allow-items`
 
-[No Swahili text provided.]
+---
 
 `set-items`
 
-[No Swahili text provided.]
+---
 
 `center-items`
 
@@ -468,11 +468,11 @@ Koja vrednost među sledećim je pravilna za korišćenje sa atributom `grid-aut
 
 `grid-auto-columns: unset-grid;`
 
-[No Swahili text provided.]
+---
 
 `grid-auto-columns: revert-grid;`
 
-[No Swahili text provided.]
+---
 
 `grid-auto-columns: set-content(20%);`
 
@@ -490,11 +490,11 @@ Koja vrednost među sledećim je pravilna za korišćenje sa atributom `grid-aut
 
 Redovi i kolone.
 
-[No Swahili text provided.]
+---
 
 Linije koje možete animirati kretanjem elemenata mreže.
 
-[No Swahili text provided.]
+---
 
 Linije koje svaki deo mreže počinje i završava.
 
@@ -518,7 +518,7 @@ Koji je ispravan način za korišćenje funkcije `minmax()`?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .container {
@@ -528,7 +528,7 @@ Koji je ispravan način za korišćenje funkcije `minmax()`?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .container {
@@ -560,11 +560,11 @@ Da li možete postaviti delo mreže unutar rasporeda definisanog sa `grid-templa
 
 Za direktno određivanje veličine i lokacije komada unutar mreže koristeći `grid-template-rows` i `grid-template-columns`.
 
-[No Swahili text provided.]
+---
 
 Koristeći atribut `grid-area` i navođenje početnih i krajnjih pozicija za redove i kolone.
 
-[No Swahili text provided.]
+---
 
 Postavljanjem `grid-area` i koordiniranjem jasnih pikselnih koordina.
 
@@ -582,11 +582,11 @@ Svojstvo `grid-auto-rows` šta kontroliše?
 
 Dužina jasno definisanih linija.
 
-[No Swahili text provided.]
+---
 
 Maksimalna širina redova grilje (ili mreže).
 
-[No Swahili text provided.]
+---
 
 Razmaci između linija.
 
@@ -604,11 +604,11 @@ Koja funkcija biste koristili da napravite da mrežni deo kruži oko mnogo linij
 
 `grid-row-span`
 
-[No Swahili text provided.]
+---
 
 `row-span`
 
-[No Swahili text provided.]
+---
 
 `span-rows`
 
@@ -626,11 +626,11 @@ Koja funkcija biste koristili da napravite da mrežni deo kruži oko mnogo linij
 
 Linije koje se generišu automatski da odgovaraju sadržaju.
 
-[No Swahili text provided.]
+---
 
 Linije identifikovane od strane jedinice `fr`.
 
-[No Swahili text provided.]
+---
 
 Linije dodate za `grid-auto-flow`.
 
@@ -648,11 +648,11 @@ Koja je vrednost `grid-auto-flow` da novi elementi popune red prvo?
 
 `row`
 
-[No Swahili text provided.]
+---
 
 `vertical`
 
-[No Swahili text provided.]
+---
 
 `row dense`
 
@@ -670,11 +670,11 @@ Koja je vrednost `grid-auto-flow` da novi elementi popune red prvo?
 
 Kreirati nevidljive linije direktno.
 
-[No Swahili text provided.]
+---
 
 Menjajte jedinicu za `fr`.
 
-[No Swahili text provided.]
+---
 
 Postavljanje vrednosti za `z-index`.
 
@@ -692,11 +692,11 @@ Kako se može napraviti komad mreže da počne sa reda 2 i završi na redu 4?
 
 `grid-column: 2 / span 4;`
 
-[No Swahili text provided.]
+---
 
 `grid-column: start 2 / end 4;`
 
-[No Swahili text provided.]
+---
 
 `grid-column: from 2 to 4;`
 
@@ -714,11 +714,11 @@ Učinak od `grid-template-columns: 1fr 2fr 1fr` je šta?
 
 Napravite tri reda jednake širine.
 
-[No Swahili text provided.]
+---
 
 Učinite srednji red tri puta širim nego ostali.
 
-[No Swahili text provided.]
+---
 
 Naterujem sve redove da imaju širinu samo od `1fr`.
 
@@ -741,7 +741,7 @@ Kako možete kreirati grid sa 3 reda koji imaju istu širinu kao razmak od `20px
 } 
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .container {
@@ -750,7 +750,7 @@ Kako možete kreirati grid sa 3 reda koji imaju istu širinu kao razmak od `20px
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 .container {
@@ -779,11 +779,11 @@ Kako možete kreirati grid sa 3 reda koji imaju istu širinu kao razmak od `20px
 
 Tri reda koji ne mogu da padnu ispod `100px`.
 
-[No Swahili text provided.]
+---
 
 Tri reda za `100px` stabilne.
 
-[No Swahili text provided.]
+---
 
 Tri linije sa najvišom dužinom od `1fr`.
 
@@ -801,11 +801,11 @@ Koje informacije o nejasnim mrežama su istinite?
 
 Neprišćene mreže ne poštuju svojstvo `gap`.
 
-[No Swahili text provided.]
+---
 
 Nedefinisana struktura mora biti definisana pomoću `grid-template-areas`.
 
-[No Swahili text provided.]
+---
 
 Nejasna linija može se kreirati samo korišćenjem svojstva `grid-auto-flow`.
 
@@ -823,11 +823,11 @@ Nedefinisane linije nastaju kada sadržaj ne odgovara jasno definisanim redovima
 
 Postavlja veličinu elemenata mrežice direktno u skladu sa dostupnim prostorom.
 
-[No Swahili text provided.]
+---
 
 Kontrolišite podešavanja redova i linija mrežnog panela.
 
-[No Swahili text provided.]
+---
 
 Prilagođava raspored elemenata mreže unutar kontejnera.
 
@@ -851,11 +851,11 @@ CSS Kako ovo radi?
 
 Kreira redove za `150px` fiksne koje nadmašuju veličinu kontejnera.
 
-[No Swahili text provided.]
+---
 
 Kreiraj redove koji imaju širinu od `1fr` samo bez obzira na sadržaj.
 
-[No Swahili text provided.]
+---
 
 Kreirajte jedan red za svaki `150px` postojeće širine.
 
@@ -873,11 +873,11 @@ Da li možete kreirati nepravilne postavke mreže?
 
 Korišćenje jedinica `fr` samo.
 
-[No Swahili text provided.]
+---
 
 Kada se kombinuju različite jedinice dužine u `grid-template-columns`.
 
-[No Swahili text provided.]
+---
 
 Za postavljanje `grid-asymmetric: true`.
 
@@ -895,11 +895,11 @@ Za određivanje različitih veličina za svaku liniju.
 
 Neka deo kruži po redu 2.
 
-[No Swahili text provided.]
+---
 
 Uklanjanje po pikselu 2.
 
-[No Swahili text provided.]
+---
 
 Postavite počevši od druge vertikalne mrežne linije.
 
@@ -917,11 +917,11 @@ Koji atribut biste koristili da kontrolišete ponašanje prelivanja u mrežnim l
 
 `grid-overflow`
 
-[No Swahili text provided.]
+---
 
 `track-sizing`
 
-[No Swahili text provided.]
+---
 
 `fit-content`
 
@@ -948,11 +948,11 @@ Koji će biti rezultat sledećeg koda?
 
 Kontejner će biti u tri reda jednake širine, i dve linije, svaka dužine `150px`.
 
-[No Swahili text provided.]
+---
 
 Kontejner će biti u tri reda, svi sa širinom `100px`, i dva poprečna reza (linije) dužine `150px`.
 
-[No Swahili text provided.]
+---
 
 Kontejner će imati dvije linije, svaka sa dužinom od `1fr`.
 
@@ -970,11 +970,11 @@ Možete li napraviti da deo mreže okruži sve postojeće linije?
 
 `grid-row: full;`
 
-[No Swahili text provided.]
+---
 
 `grid-row: auto / -1;`
 
-[No Swahili text provided.]
+---
 
 `grid-row: 1 / span infinite;`
 
@@ -992,11 +992,11 @@ Koja svojstvo kontroliše poravnanje elemenata mreže duž pravca linije?
 
 `justify-items`
 
-[No Swahili text provided.]
+---
 
 `place-items`
 
-[No Swahili text provided.]
+---
 
 `align-content`
 
@@ -1014,11 +1014,11 @@ Kako možete osigurati da deo mreže ostane u prvom redu, bez obzira na promene 
 
 `grid-column: fixed;`
 
-[No Swahili text provided.]
+---
 
 `grid-column: first;`
 
-[No Swahili text provided.]
+---
 
 `grid-lock: column;`
 

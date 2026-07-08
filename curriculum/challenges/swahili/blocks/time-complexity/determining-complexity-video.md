@@ -20,15 +20,15 @@ Koja je najgora vremenska složenost za binarnu pretragu?
 
 `O(n)`
 
-[No Swahili text provided.]
+---
 
 `O(log n)`
 
-[No Swahili text provided.]
+---
 
 `O(1)`
 
-[No Swahili text provided.]
+---
 
 `O(n log n)`
 

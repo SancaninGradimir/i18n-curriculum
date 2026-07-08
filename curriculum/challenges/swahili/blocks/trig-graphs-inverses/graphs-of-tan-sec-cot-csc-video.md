@@ -20,15 +20,15 @@ Koji bi bio smer kada je ugao nula za prvi primer dijagrama prikazanog u videu?
 
 1
 
-[No Swahili text provided.]
+---
 
 2
 
-[No Swahili text provided.]
+---
 
 0
 
-[No Swahili text provided.]
+---
 
 -1
 

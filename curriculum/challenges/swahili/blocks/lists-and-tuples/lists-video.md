@@ -25,15 +25,15 @@ print(friends[-1])
 
 `"Kevin"`
 
-[No Swahili text provided.]
+---
 
 `"Jim"`
 
-[No Swahili text provided.]
+---
 
 `"Karen"`
 
-[No Swahili text provided.]
+---
 
 `Error`
 

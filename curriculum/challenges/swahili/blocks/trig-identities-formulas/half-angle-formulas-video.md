@@ -20,15 +20,15 @@ Formula za poluugao za $\cos\left(\frac{\theta}{2}\right)$ je koja?
 
 $\cos\left(\frac{\theta}{2}\right) = \frac{1 + \cos(\theta)}{2}$
 
-[No Swahili text provided.]
+---
 
 $\cos\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 + \cos(\theta)}{2}}$
 
-[No Swahili text provided.]
+---
 
 $\cos\left(\frac{\theta}{2}\right) = \pm\sqrt{\frac{1 - \cos(\theta)}{2}}$
 
-[No Swahili text provided.]
+---
 
 $\cos\left(\frac{\theta}{2}\right) = \sqrt{1 - \cos^2(\theta)}$
 

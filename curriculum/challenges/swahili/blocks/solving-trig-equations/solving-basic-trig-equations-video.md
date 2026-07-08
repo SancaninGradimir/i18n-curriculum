@@ -20,15 +20,15 @@ Koja je bila korak bio u rešavanju trigonometrijskog jednačine u prvom primeru
 
 Razlaganje kosinus funkcije.
 
-[No Swahili text provided.]
+---
 
 Povećajte nivo funkcije kosinus.
 
-[No Swahili text provided.]
+---
 
 Smanite vrednost kosinus funkcije.
 
-[No Swahili text provided.]
+---
 
 Promeniti kosinus funkciju i sinus funkciju.
 

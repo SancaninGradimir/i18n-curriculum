@@ -20,15 +20,15 @@ Koje je ime algoritma spomenutog u videu?
 
 Optička pretraga
 
-[No Swahili text provided.]
+---
 
 Linearna pretraga
 
-[No Swahili text provided.]
+---
 
 Lista poveznih elemenata Pretraga
 
-[No Swahili text provided.]
+---
 
 Pretraga Triade
 

@@ -20,15 +20,15 @@ U ovom videu, naučićete o osnovnim trigonometrijskim funkcijama, uključujući
 
 Sa suprotne strane
 
-[No Swahili text provided.]
+---
 
 Naspram hipotenuze
 
-[No Swahili text provided.]
+---
 
 Hipotenuz preko nasuprotne stranice
 
-[No Swahili text provided.]
+---
 
 Strana na hipotenuzi
 

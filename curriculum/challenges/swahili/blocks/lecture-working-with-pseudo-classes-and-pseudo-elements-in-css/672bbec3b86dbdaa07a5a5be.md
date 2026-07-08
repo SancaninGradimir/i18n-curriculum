@@ -194,7 +194,7 @@ Koji je to lažni kurs koji radi kao `:is()`, ali ne povećava nikakve veštine 
 
 Ovaj veštački stil je dobar za korišćenje širokih, neupadljivih uzoraka.
 
-[No Swahili text provided.]
+---
 
 `:has()`
 
@@ -202,11 +202,11 @@ Ovaj veštački stil je dobar za korišćenje širokih, neupadljivih uzoraka.
 
 Ova veštačka klasa je dobra za korišćenje širokih, neinvazivnih stilova.
 
-[No Swahili text provided.]
+---
 
 `:where()`
 
-[No Swahili text provided.]
+---
 
 `:empty`
 
@@ -230,11 +230,11 @@ Zar nijedan od ovih nije lažni profesionalni kurs?
 
 Pseudo-funkcionalna klasa koristi standardne zagrade i prima argumente unutar nje.
 
-[No Swahili text provided.]
+---
 
 `:first-child`
 
-[No Swahili text provided.]
+---
 
 `:has()`
 
@@ -242,7 +242,7 @@ Pseudo-funkcionalna klasa koristi standardne zagrade i prima argumente unutar nj
 
 Funkcionalna klasa koristi standardne zagrade i prihvata deklaracije unutar sebe.
 
-[No Swahili text provided.]
+---
 
 `:where()`
 
@@ -266,7 +266,7 @@ Ni darasa gani la bandia linalofaa kwa hali ambapo unataka kutumia mitindo kwa k
 
 Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
-[No Swahili text provided.]
+---
 
 `:is()`
 
@@ -274,11 +274,11 @@ Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
-[No Swahili text provided.]
+---
 
 `:not()`
 
-[No Swahili text provided.]
+---
 
 `:where()`
 

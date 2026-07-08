@@ -20,15 +20,15 @@ Kako radi Bogosort algoritam?
 
 Periodično menja susjedne elemente po predvidljivom redosledu sve dok nisu raspoređeni.
 
-[No Swahili text provided.]
+---
 
 Deli list na dva dela, organizuje svako po ponavljajućem obrascu, a zatim ih spaja.
 
-[No Swahili text provided.]
+---
 
 Mešamo listu nasumično dok ga ne poređate nasumično.
 
-[No Swahili text provided.]
+---
 
 Izabira najmanji element i postavlja ih u redosled, kao selection sort.
 

@@ -20,15 +20,15 @@ Koja je Pitagorejeva identiteta za trigonometrijske funkcije?
 
 Za svaki ugao, sinus kvadrat ugla minus kosinus kvadrat ugla je jednako 1.
 
-[No Swahili text provided.]
+---
 
 Za bilo koji ugao, sinus ugla zajedno sa kosinusom ugla je jednak 1.
 
-[No Swahili text provided.]
+---
 
 Za bilo koji ugao, kvadrat sinusa ugla plus kvadrat kosinusa ugla je jednak 1.
 
-[No Swahili text provided.]
+---
 
 Za bilo koji ugao, kvadrat tangensa ugla plus kvadrat kosinusa ugla je jednak 1.
 

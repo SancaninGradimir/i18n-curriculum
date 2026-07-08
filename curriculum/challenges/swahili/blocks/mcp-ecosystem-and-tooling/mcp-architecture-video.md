@@ -20,15 +20,15 @@ Za šta se deo resursa MCP servera koristi?
 
 Ovo se koristi za pokretanje LLM-ova i obradu pitanja veštačke inteligencije u realnom vremenu.
 
-[No Swahili text provided.]
+---
 
 Ovaj deo obrađuje mrežnu konekciju i autentifikaciju identiteta korisnika za server.
 
-[No Swahili text provided.]
+---
 
 Ovo se koristi za praćenje performansi servera i generisanje sistemskih logova.
 
-[No Swahili text provided.]
+---
 
 Ovo se koristi za skladištenje i upravljanje resursima ili podacima kojima aplikacije veštačke inteligencije mogu pristupiti.
 

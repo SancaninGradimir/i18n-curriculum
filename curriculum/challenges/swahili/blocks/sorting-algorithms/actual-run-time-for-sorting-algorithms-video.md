@@ -20,15 +20,15 @@ U ovom videu, ćete videti stvarno vreme izvršavanja algoritama merge sort, qui
 
 Quicksort na merge sort bili su adekvatni za svoje vreme.
 
-[No Swahili text provided.]
+---
 
 Quicksort je bio malo sporiji u sortiranju brojeva od merge sort-a.
 
-[No Swahili text provided.]
+---
 
 Quicksort je bio malo brži u sortiranju brojeva od merge sort-a.
 
-[No Swahili text provided.]
+---
 
 Quicksort na merge sort sve su bile povezane i nisu pružile nikakvu informaciju.
 

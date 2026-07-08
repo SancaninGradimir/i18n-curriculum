@@ -20,15 +20,15 @@ Kako mogu da pronađem dijagram funkcije koji vraća na prethodno stanje?
 
 Transformišite graf početne funkcije linijom $y = 2x$, a zatim i linijom $y = x$.
 
-[No Swahili text provided.]
+---
 
 Transformišite graf početne funkcije po liniji $y = x$, a zatim i po liniji $y = -x$.
 
-[No Swahili text provided.]
+---
 
 Odraziti originalni graf funkcije preko linije $y = x$.
 
-[No Swahili text provided.]
+---
 
 Transformujte grafik originalne funkcije linijom $y = -x$.
 

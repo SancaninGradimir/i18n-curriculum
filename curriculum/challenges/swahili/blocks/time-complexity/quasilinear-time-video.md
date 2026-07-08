@@ -20,15 +20,15 @@ Koji od sledećih je tačan način za predstavljanje vremenske složenosti quasi
 
 `O(n log n)`
 
-[No Swahili text provided.]
+---
 
 `O(log n)`
 
-[No Swahili text provided.]
+---
 
 `O(n n)`
 
-[No Swahili text provided.]
+---
 
 `O(n log)`
 

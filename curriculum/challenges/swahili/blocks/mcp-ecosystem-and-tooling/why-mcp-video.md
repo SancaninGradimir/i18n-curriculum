@@ -20,15 +20,15 @@ MCP šta upravlja?
 
 Model Kaskadni Protokol
 
-[No Swahili text provided.]
+---
 
 Protokol kontrole modela
 
-[No Swahili text provided.]
+---
 
 Model Context Protocol
 
-[No Swahili text provided.]
+---
 
 Protokol komunikacije modela
 

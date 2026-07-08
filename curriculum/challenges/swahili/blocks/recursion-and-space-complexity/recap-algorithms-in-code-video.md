@@ -20,15 +20,15 @@ Koji od sljedećih treba da bude tačno kada je reč o algoritmima?
 
 Trebalo bi uvek koristiti veliki deo dostupne memorije.
 
-[No Swahili text provided.]
+---
 
 Ne smete ponavljati nijedan korak, čak ni ako je potrebno.
 
-[No Swahili text provided.]
+---
 
 Trebalo bi da se završi u neograničenom roku.
 
-[No Swahili text provided.]
+---
 
 Trebalo bi da daje slučajne rezultate svaki put kada se pokrene.
 

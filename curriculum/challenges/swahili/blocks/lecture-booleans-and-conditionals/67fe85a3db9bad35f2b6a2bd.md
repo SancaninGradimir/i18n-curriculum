@@ -1,6 +1,6 @@
 ---
 id: 67fe85a3db9bad35f2b6a2bd
-title: Kako funkcionišu uslovi i odredbe za kriptografiju (ili: za matematičku/kriptografsku mašinu)
+title: "Kako funkcionišu uslovi i odredbe za kriptografiju (ili: za matematičku/kriptografsku mašinu)"
 challengeType: 19
 dashedName: how-do-conditional-statements-and-logical-operators-work
 ---

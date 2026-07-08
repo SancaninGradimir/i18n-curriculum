@@ -103,7 +103,7 @@ Koja od sledećih je podrazumevana vrednost svojstva `box-sizing` u mnogim pregl
 
 `content-box`
 
-[No Swahili text provided.]
+---
 
 `border-box`
 
@@ -111,7 +111,7 @@ Koja od sledećih je podrazumevana vrednost svojstva `box-sizing` u mnogim pregl
 
 Razmotrite podrazumevano ponašanje za veličinu elemenata.
 
-[No Swahili text provided.]
+---
 
 `padding-box`
 
@@ -119,7 +119,7 @@ Razmotrite podrazumevano ponašanje za veličinu elemenata.
 
 Razmislite o podrazumevanom ponašanju za veličinu elemenata.
 
-[No Swahili text provided.]
+---
 
 `margin-box`
 
@@ -143,7 +143,7 @@ Otežava proračune.
 
 Razmislite kako model `border-box` obrađuje `padding` i `border` unutar `width` i `height` definisanih.
 
-[No Swahili text provided.]
+---
 
 Omogućava precizniju kontrolu parametara elementa.
 
@@ -151,11 +151,11 @@ Omogućava precizniju kontrolu parametara elementa.
 
 Razmislite kako primer `border-box` obrađuje `padding` i `border` unutar `width` i `height`.
 
-[No Swahili text provided.]
+---
 
 Osigurava da komponente održavaju navedene specifikacije bez obzira na promene u `padding` ili `border`.
 
-[No Swahili text provided.]
+---
 
 Poboljšava sinhronizaciju pretraživača.
 
@@ -179,11 +179,11 @@ Ukupna veličina `width` elementa, uključujući `padding`, `border` i `margin`.
 
 Razmotrite odnos između područja sadržaja i ukupnih dimenzija elementa u primeru `content-box`.
 
-[No Swahili text provided.]
+---
 
 Ukubwa wa `width` wa eneo la maudhui tu.
 
-[No Swahili text provided.]
+---
 
 Veličina `width` od `border`.
 
@@ -191,7 +191,7 @@ Veličina `width` od `border`.
 
 Razmislite o odnosu između područja sadržaja i ukupnih dimenzija elementa u primeru `content-box`.
 
-[No Swahili text provided.]
+---
 
 Veličina `width` od `padding`.
 

@@ -20,15 +20,15 @@ Koja je vremenska složenost za merge sort?
 
 eksponencijalni
 
-[No Swahili text provided.]
+---
 
 linearan
 
-[No Swahili text provided.]
+---
 
 kvadratni
 
-[No Swahili text provided.]
+---
 
 constant
 

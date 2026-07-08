@@ -20,15 +20,15 @@ Koji od tri dela je za MCP uslugu?
 
 CPU, GPU, na RAM
 
-[No Swahili text provided.]
+---
 
 Korisnici, Dopuštenje, i Rekordi
 
-[No Swahili text provided.]
+---
 
 Resursi, Oprema, Uputstva
 
-[No Swahili text provided.]
+---
 
 Ulaz, Izlaz, i Mreža
 

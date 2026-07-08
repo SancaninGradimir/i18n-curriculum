@@ -20,15 +20,15 @@ U ovom videu ćete naučiti kako da izmerite efikasnost algoritma.
 
 Napomena koja se koristi za izračunavanje adrese memorije parametara u programu.
 
-[No Swahili text provided.]
+---
 
 Stvarno vreme izvršavanja programa, mereno u sekundama.
 
-[No Swahili text provided.]
+---
 
 Metoda za pronalaženje grešaka u velikim softverskim sistemima.
 
-[No Swahili text provided.]
+---
 
 Definicija teorije kompleksnosti algoritama kao funkcije veličine.
 

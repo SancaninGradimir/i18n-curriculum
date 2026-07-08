@@ -20,15 +20,15 @@ Kakav je oblik drugog crteža prikazanog u videu?
 
 Dijagram sekansa.
 
-[No Swahili text provided.]
+---
 
 Crtež tangente.
 
-[No Swahili text provided.]
+---
 
 Sinusoidalni crtež.
 
-[No Swahili text provided.]
+---
 
 Graf kosekansa.
 

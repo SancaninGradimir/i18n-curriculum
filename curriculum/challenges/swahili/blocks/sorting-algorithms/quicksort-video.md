@@ -20,15 +20,15 @@ Koja metoda se koristi u quicksort algoritmu?
 
 rekurzija
 
-[No Swahili text provided.]
+---
 
 Iteracija sa ugniježđenim petljama
 
-[No Swahili text provided.]
+---
 
 hešovanje
 
-[No Swahili text provided.]
+---
 
 dinamičko programiranje
 

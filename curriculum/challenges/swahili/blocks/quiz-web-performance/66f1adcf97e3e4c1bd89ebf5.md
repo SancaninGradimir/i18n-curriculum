@@ -23,11 +23,11 @@ Koja je glavna razlika između stvarnih performansi i prikazanih performansi u r
 
 Stvarna performansa zavisi od broja zahteva za HTTP koje šalje pretraživač, dok zapažena performansa zavisi od brzine prikazivanja CSS.
 
-[No Swahili text provided.]
+---
 
 Stvarni učinak se tiče samo vremena učitavanja, dok se percipirani učinak odnosi na vidljive elemente kao što su grafici i indikatori učitavanja.
 
-[No Swahili text provided.]
+---
 
 Stvarni učinak obuhvata samo vreme obrade na strani servera, dok je vidljivi učinak samo sa strane klijenta.
 
@@ -45,11 +45,11 @@ Koji metrika najbolje pokazuje kako se sadržaj brzo pojavljuje na veb stranici?
 
 Vreme do interaktivnosti (TTI)
 
-[No Swahili text provided.]
+---
 
 Vreme učitavanja stranice (PLT)
 
-[No Swahili text provided.]
+---
 
 Last Contentful Paint (LCP)
 
@@ -67,11 +67,11 @@ Koji od sledećih nije način za smanjenje vremena učitavanja stranice?
 
 Unapređenje materijala za medije.
 
-[No Swahili text provided.]
+---
 
 Koristi keš memoriju pretraživača.
 
-[No Swahili text provided.]
+---
 
 Smanjite veličinu i optimizujte fajlove.
 
@@ -89,11 +89,11 @@ Koristiti samo JPEG fajlove.
 
 Vreme je od trenutka kada korisnik traži stranicu do trenutka kada može da interaktuje sa formularom na toj stranici.
 
-[No Swahili text provided.]
+---
 
 Treba vreme da se sve slike i crteži pripreme za upotrebu.
 
-[No Swahili text provided.]
+---
 
 Ovo je vreme potrebno za učitavanje svih CSS i crteža od JavaScript na ekran.
 
@@ -111,11 +111,11 @@ First Contentful Paint (FCP) šta meri?
 
 Ukupno vreme za učitavanje svih fajlova JavaScript na stranicu.
 
-[No Swahili text provided.]
+---
 
 Kašnjenje pre nego što korisnik može da interaguje sa bilo kojim elementima na stranici.
 
-[No Swahili text provided.]
+---
 
 Vreme koje je potrebno za potpuno učitavanje svih tabela stilova i korišćenje ih.
 
@@ -133,11 +133,11 @@ Koji od sledećih nije alat koji se često koristi za merenje performansi?
 
 Chrome DevTools
 
-[No Swahili text provided.]
+---
 
 Svetionik
 
-[No Swahili text provided.]
+---
 
 WebPageTest
 
@@ -155,11 +155,11 @@ Za šta se koriste Performance Web API-ji?
 
 Koristi se za testiranje performansi crteža CSS samo.
 
-[No Swahili text provided.]
+---
 
 Koristi se za ubrzanje performansi web stranice direktno.
 
-[No Swahili text provided.]
+---
 
 Pruža detaljnu tabelu pokazatelja performansi za korisnika.
 
@@ -177,11 +177,11 @@ Koja strategija može efikasno poboljšati vidljive performanse?
 
 Korišćenjem velike slike za poboljšanje ukupnog vizuelnog kvaliteta.
 
-[No Swahili text provided.]
+---
 
 Učitati stilove CSS na kraju ili dati prioritet prikazivanju sadržaja.
 
-[No Swahili text provided.]
+---
 
 Učitati sve skripte unapred kako bi se osiguralo da su spremne kada su potrebne.
 
@@ -199,11 +199,11 @@ Koja od sledećih stavki se tiče vremena koje zahtev prolazi između klijenta i
 
 renderovanje
 
-[No Swahili text provided.]
+---
 
 INP
 
-[No Swahili text provided.]
+---
 
 CDN
 
@@ -221,11 +221,11 @@ Da li CSS utiče na performanse stranice?
 
 Sistem sprečava izvršavanje nepotrebnih JavaScript.
 
-[No Swahili text provided.]
+---
 
 Smanjuje veličinu fajlova sa fotografijama.
 
-[No Swahili text provided.]
+---
 
 Poboljšava učitavanje slika korišćenjem lazy loading-a.
 
@@ -243,11 +243,11 @@ Koji od sledećih pokazuje vreme kada glavni niti su blokirani teškim radom Jav
 
 Izvorni redosled
 
-[No Swahili text provided.]
+---
 
 Bounce rate
 
-[No Swahili text provided.]
+---
 
 WebPageTest
 
@@ -265,11 +265,11 @@ Kada merite Interaction to Next Paint (INP), šta se meri?
 
 Vreme potrebno za učitavanje stranice sa svim stilovima i slikama nakon interakcije korisnika.
 
-[No Swahili text provided.]
+---
 
 Kašnjenje između interakcije korisnika i sposobnosti pregledača za beleženje unosa podataka korisnika.
 
-[No Swahili text provided.]
+---
 
 Vreme između izvršavanja JavaScript u pretraživaču za ponovno prikazivanje sadržaja stranice.
 
@@ -287,11 +287,11 @@ Koji od sledećih API-ja vam daje vremenske mjerenje sa visokom preciznošću (u
 
 `performance.delay()`
 
-[No Swahili text provided.]
+---
 
 `performance.previous()`
 
-[No Swahili text provided.]
+---
 
 `performance.next()`
 
@@ -309,11 +309,11 @@ Koja od sledećih API-ja vam daje pregled svakog koraka učitavanja stranice, od
 
 Vremenski okvir dozvole API
 
-[No Swahili text provided.]
+---
 
 Performansni tekst API
 
-[No Swahili text provided.]
+---
 
 Izvršiti vremensko određivanje API
 
@@ -339,7 +339,7 @@ const observer = new PermitObserve((list) => {
 observer.observe({ type: "longtask", buffered: true });
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const observer = new PerformObserver((list) => {  
@@ -351,7 +351,7 @@ const observer = new PerformObserver((list) => {
 observer.observe({ type: "longtask", buffered: true });
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const observer = new PermitObserver((list) => {  
@@ -385,11 +385,11 @@ Kako lazy loading slika poboljšava performanse stranice?
 
 Osigurava da se sve slike učitaju odmah za bolje korisničko iskustvo.
 
-[No Swahili text provided.]
+---
 
 Smanjuje veličinu fajlova slika kako bi se ubrzalo učitavanje.
 
-[No Swahili text provided.]
+---
 
 Učitavaju se slike unapred kako bi se sprečilo bilo kakvo kašnjenje pri učitavanju.
 
@@ -407,11 +407,11 @@ Odlaže učitavanje nepotrebnih slika dok ne dođu u vidokrug.
 
 To uključuje razdvajanje vašeg koda React u module koji obavljaju samo kritične funkcije.
 
-[No Swahili text provided.]
+---
 
 Uključuje razdvajanje vašeg koda od HTML u samo nebitne funkcionalne module.
 
-[No Swahili text provided.]
+---
 
 Uključuje razdvajanje vašeg koda CSS u module koji obavljaju kritične i nekritične funkcije.
 
@@ -431,13 +431,13 @@ Koja je od sledećih metoda ispravan način za učitavanje slika sa lazy load-om
 <img src="placeholder.jpg" lazy="loading">
 ```
 
-[No Swahili text provided.]
+---
 
 ```html
 <img src="placeholder.jpg" load="lazy">
 ```
 
-[No Swahili text provided.]
+---
 
 ```html
 <img src="placeholder.jpg" lazy="load">
@@ -459,11 +459,11 @@ Koja od sljedećih NIJE način za poboljšanje INP-a?
 
 Smanjite opterećenje glavnih niti deljenjem dugotrajnih zadataka JavaScript.
 
-[No Swahili text provided.]
+---
 
 Poboljšanje hendlera događaja.
 
-[No Swahili text provided.]
+---
 
 Kašnjenje ili učitavanje teških lenjih resursa.
 
@@ -481,11 +481,11 @@ Zašto je energetska efikasnost važan aspekt performansi mreže?
 
 Poboljšajte ukupnu vizuelnu privlačnost web stranice.
 
-[No Swahili text provided.]
+---
 
 Smanjuje broj JavaScript koji se koristi na web stranici.
 
-[No Swahili text provided.]
+---
 
 Smanjuje broj fajlova za CSS koji su potrebni i omogućava da vaš CSS radi brže.
 

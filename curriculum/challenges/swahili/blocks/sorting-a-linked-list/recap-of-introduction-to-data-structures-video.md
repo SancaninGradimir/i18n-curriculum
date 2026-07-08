@@ -20,15 +20,15 @@ Koje je ime strukture podataka u Python koja liči na nizove podataka i može sk
 
 tuples
 
-[No Swahili text provided.]
+---
 
 liste
 
-[No Swahili text provided.]
+---
 
 rečnici
 
-[No Swahili text provided.]
+---
 
 skupovi
 

@@ -1,6 +1,6 @@
 ---
 id: 672bccae6e556cd81cef6af2
-title: "Je, Margin Collapsing ni Nini, na Inafanya Kazi Vipi?"
+title: Je, Margin Collapsing ni Nini, na Inafanya Kazi Vipi?
 challengeType: 19
 dashedName: what-is-margin-collapsing
 ---
@@ -130,11 +130,11 @@ Samo granice jednakosti.
 
 Zamislite koje ivice (gore, dole, levo, desno) su pogođene ovim svojstvom.
 
-[No Swahili text provided.]
+---
 
 Samo vertikalne ivice.
 
-[No Swahili text provided.]
+---
 
 Profile za sve horizontalne i vertikalne rubove.
 
@@ -142,7 +142,7 @@ Profile za sve horizontalne i vertikalne rubove.
 
 Zamislite koje ivice (gore, dole, levo, desno) su utječene ovim svojstvom.
 
-[No Swahili text provided.]
+---
 
 Obrici za elevaciju.
 
@@ -166,7 +166,7 @@ Kingo se generalizuje.
 
 Razmisli o kojoj je strani "pobedi" kada dođe do kolizije.
 
-[No Swahili text provided.]
+---
 
 Mala strana se koristi.
 
@@ -174,11 +174,11 @@ Mala strana se koristi.
 
 Zamislite koju stranu „pobedi“ kada dođe do sukoba.
 
-[No Swahili text provided.]
+---
 
 Koristi se velika strana.
 
-[No Swahili text provided.]
+---
 
 Koristi se prosek obe ivice.
 
@@ -202,7 +202,7 @@ Dodavanje `border` roditelju.
 
 Razmislite koji su faktori koji čine razdvajanje između roditelja i deteta.
 
-[No Swahili text provided.]
+---
 
 Postaviti `padding-top: 1px;` za roditelja.
 
@@ -210,7 +210,7 @@ Postaviti `padding-top: 1px;` za roditelja.
 
 Razmislite o kriterijumima koji određuju razmak između roditeljskog i detinjeg obala.
 
-[No Swahili text provided.]
+---
 
 Koristi `display: inline-block;` za dete.
 
@@ -218,7 +218,7 @@ Koristi `display: inline-block;` za dete.
 
 Razmislite koji su kriterijumi koji formiraju razdvajanje između granica roditelja i deteta.
 
-[No Swahili text provided.]
+---
 
 Da stavi `margin-top: 0;` za dete.
 

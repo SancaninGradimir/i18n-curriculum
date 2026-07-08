@@ -20,15 +20,15 @@ Koja je glavna funkcija Inspektora MCP-a?
 
 Sekcija koja skladišti setove podataka i unose za prijem.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja automatski generiše promptove za AI aplikacije.
 
-[No Swahili text provided.]
+---
 
 Alat koji se koristi za treniranje novog LLM-a direktno na MCP serveru.
 
-[No Swahili text provided.]
+---
 
 Uređaji koji se koriste za proveru i pronalaženje grešaka na serverima i klijentima MCP-a.
 

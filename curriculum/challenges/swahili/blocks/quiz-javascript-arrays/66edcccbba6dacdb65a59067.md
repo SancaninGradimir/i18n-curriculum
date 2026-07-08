@@ -28,11 +28,11 @@ console.log(numbers[10]);
 
 `[1, 2, 3]`
 
-[No Swahili text provided.]
+---
 
 `null`
 
-[No Swahili text provided.]
+---
 
 `10`
 
@@ -53,14 +53,14 @@ const developers = ["Jessica", "Naomi", "Tom"];
 developers[1]
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
 developers[2]
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const developers = ["Jessica", "Naomi", "Tom"];
@@ -90,11 +90,11 @@ console.log(index);
 
 2
 
-[No Swahili text provided.]
+---
 
 3
 
-[No Swahili text provided.]
+---
 
 -1
 
@@ -112,11 +112,11 @@ console.log(index);
 
 Koristi se za podelu sekvence karaktera u niz manjih segmenata.
 
-[No Swahili text provided.]
+---
 
 Koristi se za dodavanje ili uklanjanje elemenata iz bilo kog dela niza podataka.
 
-[No Swahili text provided.]
+---
 
 Koristi se za dodavanje elemenata na kraj niza podataka i vraća novu dužinu.
 
@@ -134,11 +134,11 @@ Prikuplja preostale elemente iz reda podataka i postavlja ih u novi red.
 
 Koristi se za spajanje svih elemenata niza podataka u jedan niz znakova/string.
 
-[No Swahili text provided.]
+---
 
 Koristi se za proveru da li niz podataka ima određenu vrednost.
 
-[No Swahili text provided.]
+---
 
 Koristi se za uklanjanje poslednjeg elementa iz niza podataka i vraćanje tog uklonjenog elementa.
 
@@ -162,11 +162,11 @@ console.log(arr2);
 
 `[4, 5, 1, 2, 3]`
 
-[No Swahili text provided.]
+---
 
 `[1, 2, [3, 4, 5]]`
 
-[No Swahili text provided.]
+---
 
 `[1, 2, 3]`
 
@@ -190,11 +190,11 @@ console.log(colors);
 
 `["red", "blue", "green", "yellow"]`
 
-[No Swahili text provided.]
+---
 
 `["red", "blue", "yellow"]`
 
-[No Swahili text provided.]
+---
 
 `["red", "yellow"]`
 
@@ -218,11 +218,11 @@ console.log(slicedArr);
 
 `["apple", "banana"]`
 
-[No Swahili text provided.]
+---
 
 `["cherry", "date"]`
 
-[No Swahili text provided.]
+---
 
 `["apple", "cherry"]`
 
@@ -240,11 +240,11 @@ Koja funkcija vraća prvu instancu određene karakteristike u nizu podataka?
 
 `firstIndex()`
 
-[No Swahili text provided.]
+---
 
 `lastIndex()`
 
-[No Swahili text provided.]
+---
 
 `searchIndex()`
 
@@ -262,11 +262,11 @@ Koja se metoda koristi za uklanjanje prvog elementa iz niza podataka i vraćanje
 
 `pop()`
 
-[No Swahili text provided.]
+---
 
 `slice()`
 
-[No Swahili text provided.]
+---
 
 `splice()`
 
@@ -284,11 +284,11 @@ Koja se metoda koristi za uklanjanje prvog elementa iz niza podataka i vraćanje
 
 Spaja elemente niza podataka u niz znakova.
 
-[No Swahili text provided.]
+---
 
 Dodaje element na početak reda podataka.
 
-[No Swahili text provided.]
+---
 
 Uklanja element iz niza podataka.
 
@@ -314,11 +314,11 @@ console.log(fruits);
 
 `["apple", "banana", "cherry", "apple", "orange"]`
 
-[No Swahili text provided.]
+---
 
 `["apple", "banana", "cherry"]`
 
-[No Swahili text provided.]
+---
 
 `["cherry", 'apple']`
 
@@ -336,11 +336,11 @@ console.log(fruits);
 
 Koristi se za podelu sekvence karaktera u niz manjih segmenata.
 
-[No Swahili text provided.]
+---
 
 Koristi se za spajanje svih elemenata niza podataka u jedan niz znakova/string.
 
-[No Swahili text provided.]
+---
 
 Koristi se za dodavanje ili uklanjanje elemenata iz bilo kog dela niza podataka.
 
@@ -358,11 +358,11 @@ Koji od sledećih načina se koristi za konverziju reda podataka na njegovo mest
 
 `reversed()`
 
-[No Swahili text provided.]
+---
 
 `reverseArr()`
 
-[No Swahili text provided.]
+---
 
 `reversing()`
 
@@ -380,11 +380,11 @@ Koji od sledećih načina se koristi za konverziju reda podataka na njegovo mest
 
 Niz podataka koji sadrži samo elemente tipa *object literals*.
 
-[No Swahili text provided.]
+---
 
 Niz podataka sa fiksnom dužinom.
 
-[No Swahili text provided.]
+---
 
 Niz podataka decimalnih brojeva.
 
@@ -402,11 +402,11 @@ Niz redova podataka.
 
 Uvek osveži poslednji događaj komponente.
 
-[No Swahili text provided.]
+---
 
 Baciće grešku ako element nije pronađen.
 
-[No Swahili text provided.]
+---
 
 Potreban je red podataka koji je organizovan.
 
@@ -424,11 +424,11 @@ Koja od sledećih metoda NIJE metoda za red podataka?
 
 `includes()`
 
-[No Swahili text provided.]
+---
 
 `pop()`
 
-[No Swahili text provided.]
+---
 
 `push()`
 
@@ -451,11 +451,11 @@ console.log(arr.join(""));
 
 `["o", "l", "l", "e", "h"]`
 
-[No Swahili text provided.]
+---
 
 `"hello"`
 
-[No Swahili text provided.]
+---
 
 `undefined`
 
@@ -473,11 +473,11 @@ Rezultat korišćenja metode `shift()` na praznom redu će biti?
 
 `TypeError`
 
-[No Swahili text provided.]
+---
 
 `[]`
 
-[No Swahili text provided.]
+---
 
 `null`
 
@@ -495,11 +495,11 @@ Koja će putanja vratiti novi red bez menjanja prvobitnog reda?
 
 `shift()`
 
-[No Swahili text provided.]
+---
 
 `pop()`
 
-[No Swahili text provided.]
+---
 
 `push()`
 

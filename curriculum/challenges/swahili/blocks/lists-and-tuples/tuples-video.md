@@ -22,19 +22,19 @@ Koji od sljedećih načina je ispravan način za kreiranje tupa?
 coordinates = [4, 5]
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 coordinates = (4, 5)
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 coordinates = <4, 5>
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 coordinates = /4, 5/

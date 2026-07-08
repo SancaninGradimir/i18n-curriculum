@@ -20,15 +20,15 @@ U ovom videu, biće predstavljen koncept RAG.
 
 Dohvaćanje-pojačano generisanje
 
-[No Swahili text provided.]
+---
 
 Rekurzivno generisanje pažnje
 
-[No Swahili text provided.]
+---
 
 Rekurentna adversijalna generacija
 
-[No Swahili text provided.]
+---
 
 Generisanje Odgovora Akcije
 

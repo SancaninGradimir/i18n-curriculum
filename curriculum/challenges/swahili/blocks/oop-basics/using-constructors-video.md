@@ -27,7 +27,7 @@ class Dog:
         print(f"{self.name} says: Woof!")
 ```
 
-[No Swahili text provided.]
+---
 
 ```py
 class Dog:
@@ -38,7 +38,7 @@ class Dog:
         print(f"{self.name} says: Woof!")
 ```
 
-[No Swahili text provided.]
+---
 
 ```py
 class Dog:
@@ -49,7 +49,7 @@ class Dog:
         print(f"{self.name} says: Woof!")
 ```
 
-[No Swahili text provided.]
+---
 
 ```py
 class Dog:

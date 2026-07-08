@@ -20,15 +20,15 @@ U ovom videu, naučićete šta je algoritam.
 
 Sistem specijalnih funkcija za JavaScript.
 
-[No Swahili text provided.]
+---
 
 Merenje grešaka koje se najčešće koristi.
 
-[No Swahili text provided.]
+---
 
 Skup koraka za završavanje vežbe.
 
-[No Swahili text provided.]
+---
 
 Posebna vrsta kompajlera.
 

@@ -20,15 +20,15 @@ Ko je kreirao ovaj kurs?
 
 Kuća na drvetu
 
-[No Swahili text provided.]
+---
 
 CodeAcademy
 
-[No Swahili text provided.]
+---
 
 Boot.dev
 
-[No Swahili text provided.]
+---
 
 Odin Projekat
 

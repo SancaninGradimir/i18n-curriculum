@@ -20,15 +20,15 @@ MCP šta je?
 
 Programski jezik koji se koristi posebno za razvoj AI-ja.
 
-[No Swahili text provided.]
+---
 
 Platforma u oblaku za pokretanje aplikacija za veštačku inteligenciju.
 
-[No Swahili text provided.]
+---
 
 Skup standarda koji opisuju kako aplikacije veštačke inteligencije mogu sarađivati.
 
-[No Swahili text provided.]
+---
 
 Vrsta modela mašinskog učenja za predviđanje cena akcija.
 

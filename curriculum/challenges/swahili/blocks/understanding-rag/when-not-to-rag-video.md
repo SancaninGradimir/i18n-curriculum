@@ -20,15 +20,15 @@ Kakvo je drugo rešenje za to da se od AI-ja dobiju dobre odgovore kada RAG nije
 
 Ujednačiti primer
 
-[No Swahili text provided.]
+---
 
 Pokreni lint
 
-[No Swahili text provided.]
+---
 
 Inženjerstvo instrukcija
 
-[No Swahili text provided.]
+---
 
 Uputstva po redosledu
 

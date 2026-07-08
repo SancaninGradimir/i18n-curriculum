@@ -20,15 +20,15 @@ U ovom videu, naučićete više o algoritmu merge sort i videćete kako da se po
 
 Spaja dve male liste u jednu organizovanu listu.
 
-[No Swahili text provided.]
+---
 
 Podeljuje listu u manje liste.
 
-[No Swahili text provided.]
+---
 
 Izaberite najveći element sa liste.
 
-[No Swahili text provided.]
+---
 
 Invertovanje redosleda liste.
 

@@ -23,11 +23,11 @@ Svrha atributa `transform` u CSS jeste?
 
 Menjajte izgled elementa.
 
-[No Swahili text provided.]
+---
 
 Koristiti vizuelni prikaz teksta.
 
-[No Swahili text provided.]
+---
 
 Postavite dimenzije elementa.
 
@@ -45,11 +45,11 @@ Da li karakteristika CSS `animation-direction` utiče na crteže?
 
 Objašnjava kako se crtež treba ponoviti.
 
-[No Swahili text provided.]
+---
 
 Postavljam vremenski okvir za crteže.
 
-[No Swahili text provided.]
+---
 
 Objašnjava brzinu crteža.
 
@@ -67,11 +67,11 @@ Koja je karakteristika CSS koja uzrokuje da se crtež izvrši tri puta?
 
 `animation-repeat: 3`
 
-[No Swahili text provided.]
+---
 
 `animation-loop: 3`
 
-[No Swahili text provided.]
+---
 
 `animation-delay: 3`
 
@@ -89,11 +89,11 @@ Koja je funkcija za period CSS koja čini da crteži rade konstantnom brzinom od
 
 `ease`
 
-[No Swahili text provided.]
+---
 
 `ease-in`
 
-[No Swahili text provided.]
+---
 
 `ease-in-out`
 
@@ -111,11 +111,11 @@ Koja je funkcija za period CSS koja čini da crteži rade konstantnom brzinom od
 
 Boje za mešavinu boja CSS.
 
-[No Swahili text provided.]
+---
 
 Roze za ciklus CSS.
 
-[No Swahili text provided.]
+---
 
 Merenja elementa.
 
@@ -133,11 +133,11 @@ Svrha funkcije za `translateX()` u CSS je šta?
 
 Promeni vidljivost elementa.
 
-[No Swahili text provided.]
+---
 
 Promeni elementni ciklus.
 
-[No Swahili text provided.]
+---
 
 Promeni poziciju vertikalnog elementa.
 
@@ -155,11 +155,11 @@ Ko od sljedećih NIJE problem koji može nastati sa crteža CSS?
 
 Može uzrokovati neprijatnost ili štetu određenim korisnicima.
 
-[No Swahili text provided.]
+---
 
 Korisnici mogu to smatrati uznemirujućim.
 
-[No Swahili text provided.]
+---
 
 Prekomerna upotreba može uzrokovati loše performanse.
 
@@ -177,11 +177,11 @@ Gde je kanun za ata `@keyframes` postavljen?
 
 Unutar elementa `body` datoteke HTML.
 
-[No Swahili text provided.]
+---
 
 Unutar elementa `head` datoteke HTML.
 
-[No Swahili text provided.]
+---
 
 Unutar definicije klase objekata CSS.
 
@@ -199,11 +199,11 @@ Koja je karakteristika CSS koja vam omogućava da pauzirate i nastavite crteže?
 
 `animation-timing-function`
 
-[No Swahili text provided.]
+---
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-direction`
 
@@ -221,11 +221,11 @@ Koja vrednost treba da se postavi za atribut `animation-name` u CSS?
 
 Okviri po sekundama.
 
-[No Swahili text provided.]
+---
 
 Vremenska funkcija za crteže.
 
-[No Swahili text provided.]
+---
 
 Odlaganje pre početka grafike za sekunde.
 
@@ -254,11 +254,11 @@ Kako pravilo za `@keyframe` funkcioniše za nacrtovani element?
 
 Promeni komponentu za ugao od 90 stepeni u smeru kazaljke na satu.
 
-[No Swahili text provided.]
+---
 
 Promeni boju elementa u plavu.
 
-[No Swahili text provided.]
+---
 
 Promeni veličinu elementa u 50% od originalne veličine, a zatim u 100% od originalne veličine.
 
@@ -276,11 +276,11 @@ Koji je atribut CSS koji objašnjava kako crteži kreću tokom vremena?
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-fill-mode`
 
-[No Swahili text provided.]
+---
 
 `animation-iteration-count`
 
@@ -300,13 +300,13 @@ Koje svojstvo CSS se koristi da pokaže da crteži bi trebalo da traju 5 sekundi
 animation-name: 5s;
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 animation-delay: 5s;
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 animation-timing-function: 5s;
@@ -342,11 +342,11 @@ animation-duration: 5s;
 
 Mesto za početak crteža.
 
-[No Swahili text provided.]
+---
 
 Mesto za kraj crteža.
 
-[No Swahili text provided.]
+---
 
 Brzina crtanja.
 
@@ -364,11 +364,11 @@ Mesto u sredini crteža.
 
 Element će se premestiti za 200px ulevo.
 
-[No Swahili text provided.]
+---
 
 Element će se pomeriti 200px dole.
 
-[No Swahili text provided.]
+---
 
 Element će se okretati za 200 stepeni po časovnom smeru.
 
@@ -386,11 +386,11 @@ Kako će crteži raditi ako `animation-iteration-count` bude `infinite`?
 
 Plesaj jednom, a onda stani.
 
-[No Swahili text provided.]
+---
 
 Zaustaviće se nakon prvog ciklusa.
 
-[No Swahili text provided.]
+---
 
 To će stajati nakon tri kruga.
 
@@ -408,11 +408,11 @@ Koji element od `@keyframes` pokazuje početno mesto za crteže?
 
 `50%`
 
-[No Swahili text provided.]
+---
 
 `25%`
 
-[No Swahili text provided.]
+---
 
 `100%`
 
@@ -430,11 +430,11 @@ Koje atribute se mogu postaviti koristeći kratki atribut od `animation` za CSS?
 
 Samo ime za crteže.
 
-[No Swahili text provided.]
+---
 
 Ime na sredini crteža.
 
-[No Swahili text provided.]
+---
 
 Ime, vreme, i kašnjenje sa crtežima.
 
@@ -452,11 +452,11 @@ Koje svojstvo CSS se koristi za izvršavanje crteža definisanih pravilom umetno
 
 `animation-duration`
 
-[No Swahili text provided.]
+---
 
 `apply`
 
-[No Swahili text provided.]
+---
 
 `translate`
 
@@ -474,11 +474,11 @@ Koja je funkcija CSS koja dozvoljava postavljanje kašnjenja pre nego što crte�
 
 `animation-fill-mode`
 
-[No Swahili text provided.]
+---
 
 `animation-timing-function`
 
-[No Swahili text provided.]
+---
 
 `animation-iteration-count`
 
@@ -498,11 +498,11 @@ Svojstvo od CSS `animation-delay`, šta radi?
 
 Postavljam vremenski okvir za crteže.
 
-[No Swahili text provided.]
+---
 
 Objašnjava funkciju vremena.
 
-[No Swahili text provided.]
+---
 
 Opisuje pravac crteža.
 
@@ -520,11 +520,11 @@ Koja je karakteristika crteža koja objašnjava kako element treba da bude ukra�
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-direction`
 
-[No Swahili text provided.]
+---
 
 `animation-iteration-count`
 
@@ -542,11 +542,11 @@ Zašto crteži CSS treba koristiti umereno?
 
 Mnoge grafike za CSS mogu uzrokovati pokvariti stilove i nestaljive stilove u različitim pregledačima.
 
-[No Swahili text provided.]
+---
 
 Mnogi rezultati za CSS mogu uzrokovati nisko rangiranje ili potpun nedostatak u rezultatima pretraživača.
 
-[No Swahili text provided.]
+---
 
 Mnoge šeme od CSS će uzrokovati da server odmah padne i povećati sigurnosne rizike.
 
@@ -564,11 +564,11 @@ Koje svojstvo crteža određuje da li će biti prikazani ispred, iza ili razmenj
 
 `animation-fill-mode`
 
-[No Swahili text provided.]
+---
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-timing-function`
 
@@ -586,11 +586,11 @@ Koji je medijski upit CSS detektuje da li je korisnik tražio crteže ili male p
 
 `reduce-motion`
 
-[No Swahili text provided.]
+---
 
 `min-motion-preference`
 
-[No Swahili text provided.]
+---
 
 `motion-preferences`
 
@@ -608,11 +608,11 @@ Koji atribut određuje koliko puta se ponavlja `animation`?
 
 `animation-duration`
 
-[No Swahili text provided.]
+---
 
 `animation-count`
 
-[No Swahili text provided.]
+---
 
 `animation-delay`
 
@@ -630,11 +630,11 @@ Koji je princip CSS koji se koristi za definisanje koraka i stilova crteža u ra
 
 `@style`
 
-[No Swahili text provided.]
+---
 
 `@transition`
 
-[No Swahili text provided.]
+---
 
 `@transform`
 
@@ -652,11 +652,11 @@ U okviru media upita `reduced‑motion`, koje promene koraka su prikazane?
 
 `animation: none;`
 
-[No Swahili text provided.]
+---
 
 `transition: remove;`
 
-[No Swahili text provided.]
+---
 
 `animation-play-state: paused;`
 
@@ -674,11 +674,11 @@ U okviru media upita `reduced‑motion`, koje promene koraka su prikazane?
 
 Koliko puta se crteži ponavljaju.
 
-[No Swahili text provided.]
+---
 
 Postaviti rok za završetak crteža.
 
-[No Swahili text provided.]
+---
 
 Kontrolisanje smjera crteža.
 
@@ -696,11 +696,11 @@ Kakva je dobra funkcionalnost pri radu sa crtežima?
 
 Koristi mnogo sjajnih boja i brzi pokreti da privuče pogled.
 
-[No Swahili text provided.]
+---
 
 Izbegavajte testiranje dizajna na uređajima ili sa različitim veličinama ekrana.
 
-[No Swahili text provided.]
+---
 
 Nacrtajte slike da traju što duže moguće ili da ih korisnici gledaju.
 
@@ -718,11 +718,11 @@ Zašto se deklaracija `!important` koristi u pravilima CSS?
 
 Sprečiti učitavanje drugih media queries.
 
-[No Swahili text provided.]
+---
 
 Ograničavanje stilova za element prvog deteta.
 
-[No Swahili text provided.]
+---
 
 Olako učiniti pronalaženje greške CSS.
 
@@ -740,11 +740,11 @@ Osigurati da ova pravila imaju prioritet nad ostalim stilovima.
 
 Crteži su zaustavljeni.
 
-[No Swahili text provided.]
+---
 
 Crteži nastavljaju se bez kraja.
 
-[No Swahili text provided.]
+---
 
 Uzorci menjaju smer svaki ciklus.
 
@@ -762,11 +762,11 @@ Koje svojstvo CSS se koristi za prikaz koliko vremena bi crtež trebalo da traje
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-timing-function`
 
-[No Swahili text provided.]
+---
 
 `animation-iteration-count`
 
@@ -784,11 +784,11 @@ Koje svojstvo CSS se koristi za prikaz koliko vremena bi crtež trebalo da traje
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-timing-function`
 
-[No Swahili text provided.]
+---
 
 `animation-direction`
 
@@ -806,11 +806,11 @@ Pravilo za `@keyframes`, šta objašnjava?
 
 Funkcija vremena crteža.
 
-[No Swahili text provided.]
+---
 
 Podrazumevano stanje elementa.
 
-[No Swahili text provided.]
+---
 
 Media queries za crteže.
 
@@ -839,11 +839,11 @@ Kako pravilo za `@keyframe` funkcioniše za nacrtovani element?
 
 Promeni veličinu elementa od 0% do 100%.
 
-[No Swahili text provided.]
+---
 
 Promeni element od leve ka desnoj strani.
 
-[No Swahili text provided.]
+---
 
 Promeni boju teksta u crnu.
 
@@ -861,11 +861,11 @@ U pravilu važnog okvira, `100%` šta predstavlja?
 
 Početak crteža.
 
-[No Swahili text provided.]
+---
 
 Centralno mesto.
 
-[No Swahili text provided.]
+---
 
 Funkcija za smanjenje brzine.
 
@@ -883,11 +883,11 @@ Koja funkcija kontroliše brzinu `animation` tokom svog perioda?
 
 `animation-duration`
 
-[No Swahili text provided.]
+---
 
 `animation-delay`
 
-[No Swahili text provided.]
+---
 
 `animation-iteration-count`
 
@@ -905,11 +905,11 @@ Koja funkcija kontroliše brzinu `animation` tokom svog perioda?
 
 Morate da zavisite potpuno od JavaScript za sve crteže.
 
-[No Swahili text provided.]
+---
 
 Dodavanje mnogo i snažnih ilustracija radi efekta.
 
-[No Swahili text provided.]
+---
 
 Sastoji se samo od snažnih, brzih i iznenađujućih efekata.
 
@@ -936,7 +936,7 @@ Koja je tačna sintaksa za pomeranje elementa sa leve strane?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 @keyframes slide-in {
@@ -949,7 +949,7 @@ Koja je tačna sintaksa za pomeranje elementa sa leve strane?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 @keyframes slide-in {

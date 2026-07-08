@@ -24,7 +24,7 @@ class Dog:
         print("Woof!")
 ```
 
-[No Swahili text provided.]
+---
 
 ```py
 class Dog:
@@ -32,7 +32,7 @@ class Dog:
         print("Woof!")
 ```
 
-[No Swahili text provided.]
+---
 
 ```py
 class Dog:
@@ -40,7 +40,7 @@ class Dog:
         print("Woof!")
 ```
 
-[No Swahili text provided.]
+---
 
 ```py
 class Dog:

@@ -20,15 +20,15 @@ U ovom videu ćete naučiti kako da koristite MCP servere.
 
 Morate da rukujete poverenjem, tajnošću podataka, ovlašćenjima i autentikacijom identiteta.
 
-[No Swahili text provided.]
+---
 
 Treba vam samo da se brinete o brzini obrade i potrošnji memorije servera.
 
-[No Swahili text provided.]
+---
 
 Morate osigurati da server pokreće najnoviju verziju vašeg LLM-a lokalno.
 
-[No Swahili text provided.]
+---
 
 Morate osigurati da server ima dovoljno diskovnog prostora za privremene logove.
 

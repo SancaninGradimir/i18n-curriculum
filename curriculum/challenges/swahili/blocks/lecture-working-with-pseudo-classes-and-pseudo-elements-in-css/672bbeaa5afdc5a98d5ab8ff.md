@@ -130,7 +130,7 @@ Kada korisnik klikne na jedan od navigacionih linkova, pozadinska boja odgovaraj
 
 Zamislite kako možete istaknuti određeni deo prilikom navigacije kroz interne linkove na stranici.
 
-[No Swahili text provided.]
+---
 
 `:focus`
 
@@ -138,11 +138,11 @@ Zamislite kako možete istaknuti određeni deo prilikom navigacije kroz interne 
 
 Razmislite kako možete istaknuti određeni deo dok pretražujete pomoću internih linkova stranice.
 
-[No Swahili text provided.]
+---
 
 `:target`
 
-[No Swahili text provided.]
+---
 
 `:checked`
 
@@ -166,11 +166,11 @@ Kada dekorisać elemente u skladu sa njihovim vezama/povezanjima.
 
 Razmislite kako možete prilagoditi linkove i ciljane komponente na osnovu interakcije korisnika.
 
-[No Swahili text provided.]
+---
 
 Prilikom primene stilova na osnovu toga da li je link kliknut ili element trenutno fokusiran.
 
-[No Swahili text provided.]
+---
 
 Kada se prilagođavaju elementi u skladu sa svojstvima roditeljskog elementa.
 
@@ -178,7 +178,7 @@ Kada se prilagođavaju elementi u skladu sa svojstvima roditeljskog elementa.
 
 Razmislite kako možete stilizovati ciljane linkove i elemente na osnovu interakcije korisnika.
 
-[No Swahili text provided.]
+---
 
 Prilikom izmene rasporeda web stranice putem direktnih promena.
 
@@ -202,11 +202,11 @@ Ni darasa gani la bandia lililoundwa kulenga viungo vinavyoelekeza kwenye hati i
 
 Zamislite veštačku klasu dizajniranu da razlikuje unutrašnje i spoljašnje organe, iako još uvek nije podržana.
 
-[No Swahili text provided.]
+---
 
 `:local-link`
 
-[No Swahili text provided.]
+---
 
 `:visited`
 
@@ -214,7 +214,7 @@ Zamislite veštačku klasu dizajniranu da razlikuje unutrašnje i spoljašnje or
 
 Zamislite veštačku strukturu namenjenu za razlikovanje unutrašnjih i spoljašnjih organa, iako još uvek nije potkrepljena.
 
-[No Swahili text provided.]
+---
 
 `:target`
 

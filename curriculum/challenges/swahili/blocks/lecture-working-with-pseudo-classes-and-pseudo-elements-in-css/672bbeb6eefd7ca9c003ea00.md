@@ -304,7 +304,7 @@ p:only-of-type {
 
 Zamislite kako vam ove veštačke klase pomažu da stilizujete prvi i poslednji pojavljivanje određene oznake, kao što su `p` ili `h1`.
 
-[No Swahili text provided.]
+---
 
 `:first-of-type` na `:last-of-type` zote huchagua tukio la kwanza la kipengele lakini katika sehemu tofauti za hati.
 
@@ -312,11 +312,11 @@ Zamislite kako vam ove veštačke klase pomažu da stilizujete prvi i poslednji 
 
 Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
 
-[No Swahili text provided.]
+---
 
 `:first-of-type` selektuje prvi događaj specifičnog tipa elementa unutar svog roditelja, dok `:last-of-type` selektuje poslednji događaj istog tipa elementa unutar svog roditelja.
 
-[No Swahili text provided.]
+---
 
 `:last-of-type` koristi stilove za prvi i poslednji elementi unutar dokumenta, dok `:last-of-type` koristi stilove za sve elemente određene vrste.
 
@@ -340,11 +340,11 @@ Zamislite kako ove veštačke klase vam pomažu da stilizujete prvo i poslednje 
 
 Zamislite kako vam ove dve veštačke klase pomažu da stilizujete/strukturirate prvi i poslednji elementi unutar jednog roditeljskog kontejnera.
 
-[No Swahili text provided.]
+---
 
 `:first-child` cilja na prvi element unutar svog roditeljskog elementa, dok `:last-child` cilja na poslednji element unutar istog roditelja.
 
-[No Swahili text provided.]
+---
 
 `:first-child` cilja na prvi element specifičnog tipa unutar svog roditelja, dok `:last-child` cilja na poslednji element različitog tipa unutar svog roditelja.
 
@@ -352,7 +352,7 @@ Zamislite kako vam ove dve veštačke klase pomažu da stilizujete/strukturirate
 
 Zamislite kako vam ove dve veštačke klase pomažu da stilizujete prvi i poslednji element unutar jednog roditeljskog kontejnera.
 
-[No Swahili text provided.]
+---
 
 `:first-child` selektuje prvi i poslednji element unutar roditelja, dok `:last-child` selektuje sve ostale elemente.
 
@@ -372,7 +372,7 @@ Koji je lažni selektor koji vam omogućava da ciljate elemente koji nemaju poto
 
 `:empty`
 
-[No Swahili text provided.]
+---
 
 `:first-child`
 
@@ -380,7 +380,7 @@ Koji je lažni selektor koji vam omogućava da ciljate elemente koji nemaju poto
 
 Razmislite kako možete dekorisati elemente koji nemaju sadržaj.
 
-[No Swahili text provided.]
+---
 
 `:last-child`
 
@@ -388,7 +388,7 @@ Razmislite kako možete dekorisati elemente koji nemaju sadržaj.
 
 Zamisli kako možeš da stilizuješ elemente koji nemaju sadržaj.
 
-[No Swahili text provided.]
+---
 
 `:only-of-type`
 

@@ -20,15 +20,15 @@ Koji je ispravan način za prikazivanje `"Hello World"` na konzoli?
 
 `print("Hello World")`
 
-[No Swahili text provided.]
+---
 
 `printf("Hello World")`
 
-[No Swahili text provided.]
+---
 
 `prints("Hello World")`
 
-[No Swahili text provided.]
+---
 
 `printing("Hello World")`
 

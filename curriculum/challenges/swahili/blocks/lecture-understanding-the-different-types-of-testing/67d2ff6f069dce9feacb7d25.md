@@ -1,6 +1,6 @@
 ---
 id: 67d2ff6f069dce9feacb7d25
-title: "Je, upimaji wa ulinganifu ni nini?"
+title: Je, upimaji wa ulinganifu ni nini?
 challengeType: 19
 dashedName: what-is-compatibility-testing
 ---
@@ -41,7 +41,7 @@ Osigurati da vaši programi nemaju greške pristupa.
 
 Vratite se na početak lekcije gde je ovo diskutovano.
 
-[No Swahili text provided.]
+---
 
 Osigurajte da vaši programi nemaju linting greške i probleme sa strukturom.
 
@@ -49,11 +49,11 @@ Osigurajte da vaši programi nemaju linting greške i probleme sa strukturom.
 
 Vratite se na početak lekcije gde je ovo diskutovano.
 
-[No Swahili text provided.]
+---
 
 Osigurati da vaši programi funkcionišu u različitim računarskim okruženjima.
 
-[No Swahili text provided.]
+---
 
 Osigurati da vaše aplikacije rade samo na različitim Linux distribucijama.
 
@@ -77,7 +77,7 @@ Ekvivalentnost procesora (CPU)
 
 Razmislite kako će program da radi/funkcioniše sa starijim verzijama.
 
-[No Swahili text provided.]
+---
 
 Sinhronizacija dostupnosti
 
@@ -85,7 +85,7 @@ Sinhronizacija dostupnosti
 
 Razmislite kako će aplikacija funkcionisati sa starijim verzijama.
 
-[No Swahili text provided.]
+---
 
 Prednje poravnanje
 
@@ -93,7 +93,7 @@ Prednje poravnanje
 
 Razmislite kako će program da radi/funkcioniše sa starijim verzijama.
 
-[No Swahili text provided.]
+---
 
 Stražnje poravnanje
 
@@ -113,11 +113,11 @@ Sistemi operaterizacije mobilnih uređaja
 
 Ovaj moj izbor se tiče memorije računara.
 
-[No Swahili text provided.]
+---
 
 Veličina RAM-a
 
-[No Swahili text provided.]
+---
 
 Konfiguracija uređaja
 
@@ -125,7 +125,7 @@ Konfiguracija uređaja
 
 Ovo odabrano iz opcija se tiče memorije računara.
 
-[No Swahili text provided.]
+---
 
 Mrežno okruženje
 

@@ -68,11 +68,11 @@ Boje pomenute po imenu omogućavaju vam da kreirate mešavinu boja.
 
 Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
 
-[No Swahili text provided.]
+---
 
 Boje navedene po imenu su jednostavne za pisanje i čine kod čitljivijim.
 
-[No Swahili text provided.]
+---
 
 Nazivane boje pružaju širiji raspon izbora boja od heks kodova.
 
@@ -80,7 +80,7 @@ Nazivane boje pružaju širiji raspon izbora boja od heks kodova.
 
 Razmislite o jednostavnosti i čitljivosti boja koje su nazvane po imenu.
 
-[No Swahili text provided.]
+---
 
 Imenovane boje su najprecizniji način za definisanje boja u web dizajnu.
 
@@ -104,11 +104,11 @@ Kada vam je potrebno kreirati brzi primer strukture/dizajna.
 
 Razmislite o granicama boja navedenih po imenu u najsloženijim strukturama.
 
-[No Swahili text provided.]
+---
 
 Ako ima dizajn koji zahteva specifičnu nijansu ili dubinu boje.
 
-[No Swahili text provided.]
+---
 
 Ako ima dizajn koji koristi samo primarne boje.
 
@@ -116,7 +116,7 @@ Ako ima dizajn koji koristi samo primarne boje.
 
 Razmislite o granicama boja navedenih po imenu u najkompleksnijim dizajnovima.
 
-[No Swahili text provided.]
+---
 
 Kada sarađujete sa drugima na jednostavnom projektu.
 
@@ -140,7 +140,7 @@ Koja od sljedećih je primjer boje pomenut po imenu u CSS?
 
 Boje pomenute po imenu su opisne reči, a ne brojevi.
 
-[No Swahili text provided.]
+---
 
 `rgb(255, 99, 71)`
 
@@ -148,11 +148,11 @@ Boje pomenute po imenu su opisne reči, a ne brojevi.
 
 Boje pomenute po nazivu su opisne reči, a ne brojevi.
 
-[No Swahili text provided.]
+---
 
 `tomato`
 
-[No Swahili text provided.]
+---
 
 `hsl(120, 100%, 50%)`
 

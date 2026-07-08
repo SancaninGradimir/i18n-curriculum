@@ -20,15 +20,15 @@ Kosinus od 45 stepeni za pravougli trougao sa hipotenuzom dužine 5 je koliko?
 
 $\frac{\sqrt{3}}{2}$
 
-[No Swahili text provided.]
+---
 
 $\frac{\sqrt{5}}{5}$
 
-[No Swahili text provided.]
+---
 
 $\frac{1}{\sqrt{2}}$
 
-[No Swahili text provided.]
+---
 
 $\frac{\sqrt{2}}{2}$
 

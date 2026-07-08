@@ -20,15 +20,15 @@ Koja je namena funkcije `merge` u ovoj implementaciji merge sort-a?
 
 Cilj je podeliti povezanu listu na manje liste radi iterativnog sortiranja.
 
-[No Swahili text provided.]
+---
 
 Cilj je odabrati čvor iz svake liste bez sortiranja i spajanja ih.
 
-[No Swahili text provided.]
+---
 
 Svrha je spajati dve povezane liste, sortirati podatke sadržane u čvorovima i vratiti novu spojenu listu.
 
-[No Swahili text provided.]
+---
 
 Cilj je ponovo organizovati čvorove u spojenu listu u obrnutom redosledu i vratiti rezultate.
 

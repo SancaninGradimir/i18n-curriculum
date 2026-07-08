@@ -20,15 +20,15 @@ Koji među sledećim nije OOP koncept?
 
 Enkapsulacija
 
-[No Swahili text provided.]
+---
 
 Polimorfizam
 
-[No Swahili text provided.]
+---
 
 Rekurzija
 
-[No Swahili text provided.]
+---
 
 Apstraktne klase
 

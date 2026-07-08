@@ -23,21 +23,21 @@ color = input("Enter a color: ")
 print(Roses are + color)
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 color = input("Enter a color: ")
 print("Roses are " + "color")
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 color = input("Enter a color: ")
 print("Roses are " + color)
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 color = prompt("Enter a color: ")

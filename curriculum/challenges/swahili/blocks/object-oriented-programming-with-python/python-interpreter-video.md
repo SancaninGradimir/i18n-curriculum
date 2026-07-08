@@ -20,15 +20,15 @@ U ovom videu, naučićete kako da radite sa prevodiocem Python.
 
 Ovo je program koji čita i izvršava kod Python.
 
-[No Swahili text provided.]
+---
 
 Ovo je programa koja prevodi Python u Java ili C++.
 
-[No Swahili text provided.]
+---
 
 Ovo je biblioteka koja čuva funkcije za Python.
 
-[No Swahili text provided.]
+---
 
 Ovo je program koji generiše kod Python u vaše ime.
 

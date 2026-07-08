@@ -20,15 +20,15 @@ Koja od sledećih tema NIJE pokrivena u ovom kursu?
 
 Chunking
 
-[No Swahili text provided.]
+---
 
 Binarna pretraga
 
-[No Swahili text provided.]
+---
 
 RAG
 
-[No Swahili text provided.]
+---
 
 VectorDB
 

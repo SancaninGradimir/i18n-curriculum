@@ -20,15 +20,15 @@ Kada možeš da koristiš binarni algoritam za pretraživanje umesto linearnog a
 
 Pošto lista nije organizovana i često se menja.
 
-[No Swahili text provided.]
+---
 
 Kada je potrebno da proverite svaki element jedan po drugom.
 
-[No Swahili text provided.]
+---
 
 Kada znate da tražite kroz veliku listu sortiranih rezultata.
 
-[No Swahili text provided.]
+---
 
 Kada je skup podataka veoma mali i performanse nisu bitne.
 

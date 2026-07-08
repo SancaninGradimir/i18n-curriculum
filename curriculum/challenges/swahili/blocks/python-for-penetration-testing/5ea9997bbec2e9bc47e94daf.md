@@ -20,11 +20,11 @@ Koja komponenta iz sledećih čini objekat soketa?
 
 `socket.bind((host, port))`
 
-[No Swahili text provided.]
+---
 
 `socket.gethostbyname()`
 
-[No Swahili text provided.]
+---
 
 `socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
 

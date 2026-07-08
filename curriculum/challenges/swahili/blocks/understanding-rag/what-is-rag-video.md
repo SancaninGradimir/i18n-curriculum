@@ -20,15 +20,15 @@ Kako funkcioniše deo za dohvaćanje informacija u RAG sistemu?
 
 Generiše novi kontekst pre odgovaranja na pitanje.
 
-[No Swahili text provided.]
+---
 
 Uzima informacije iz treniranih podataka jezičnog modela kako bi pružio kontekst za jezični model.
 
-[No Swahili text provided.]
+---
 
 Izvlači povezane dokumente iz baze znanja kako bi pružio kontekst, na primer za jezik.
 
-[No Swahili text provided.]
+---
 
 Dohvata povezane dokumente sa mreže/interneta da pruži kontekst, na primer za jezik.
 

@@ -23,11 +23,11 @@ Zašto je važno imati dobar balans nijansi boja na vašoj veb stranici?
 
 Da bi se stranica učinila svetlijim bojama.
 
-[No Swahili text provided.]
+---
 
 Da bi se zadovoljili zahtevi optimizacije pretraživačkih motora (SEO).
 
-[No Swahili text provided.]
+---
 
 Da bi se ključni elementi stranice bolje istakli/videli.
 
@@ -45,11 +45,11 @@ Koji alat iz sledećih vam omogućava da unesete boje pozadine i prednjeg plana 
 
 TPGi Analizator kontrasta boje
 
-[No Swahili text provided.]
+---
 
 Figma
 
-[No Swahili text provided.]
+---
 
 Canva
 
@@ -67,11 +67,11 @@ Koji od sledećih alata vam omogućava da izaberete boje pozadine i prednjeg pla
 
 Figma
 
-[No Swahili text provided.]
+---
 
 Canva
 
-[No Swahili text provided.]
+---
 
 WebAIM-ov prover kontrasta boja
 
@@ -89,11 +89,11 @@ Zašto nije moguće koristiti `display: none` i `visibility: hidden` da sakrije 
 
 Ove metode čine skriveni sadržaj dostupan samo asistivnim tehnologijama, kao što je čitač ekrana.
 
-[No Swahili text provided.]
+---
 
 Ovi načini skrivaju sadržaj samo dok korisnik ne prevede mišem preko tog sadržaja.
 
-[No Swahili text provided.]
+---
 
 Ove metode ne rade sa nekim pregledačima.
 
@@ -111,11 +111,11 @@ Ove metode uklanjaju sadržaj iz stabla pristupačnosti i onemogućavaju čitač
 
 Vizuelni odnos/proporcije rasporeda web stranice.
 
-[No Swahili text provided.]
+---
 
 Struktura koja se koristi od strane čitača ekrana za čitanje tekstualnog sadržaja veb stranice.
 
-[No Swahili text provided.]
+---
 
 Kopija drva od DOM.
 
@@ -137,7 +137,7 @@ img {
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 img {
@@ -145,7 +145,7 @@ img {
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 img {
@@ -171,11 +171,11 @@ Koji od vrednosti `scroll-behavior` ukazuje ponašanje pregledača za stabilnost
 
 `auto`
 
-[No Swahili text provided.]
+---
 
 `inherit`
 
-[No Swahili text provided.]
+---
 
 `revert`
 
@@ -193,11 +193,11 @@ Koja je karakteristika među sledećim koja se koristi za otkrivanje preferencij
 
 `prefers-contrast`
 
-[No Swahili text provided.]
+---
 
 `display-mode`
 
-[No Swahili text provided.]
+---
 
 `animation`
 
@@ -215,11 +215,11 @@ Koji od sledećih je problem pristupa/dostupnosti za svojstvo `placeholder` u el
 
 Tekst naslovnika sprečava čitače ekrana da pročitaju tekst etikete polja za unos.
 
-[No Swahili text provided.]
+---
 
 Tekst zamenača sprečava čitače ekrana da pročitaju vrednost unosa.
 
-[No Swahili text provided.]
+---
 
 Napisi skraćenica su previše mali za čitanje.
 
@@ -237,11 +237,11 @@ Svojstvo `hidden`, šta radi?
 
 Skriv sadržaj i prikazuj kada se miša pređe preko njega.
 
-[No Swahili text provided.]
+---
 
 Skriva sadržaj samo sa stabla pristupa.
 
-[No Swahili text provided.]
+---
 
 Sakrij sadržaj za pregled, ali se sadržaj nalazi na grani pristupačnosti.
 

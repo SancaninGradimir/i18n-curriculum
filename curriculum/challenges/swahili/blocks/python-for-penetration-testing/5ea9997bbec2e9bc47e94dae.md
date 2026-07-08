@@ -20,11 +20,11 @@ Koji kod editor i koji okvir preporučujete za razvoj alata za penetracijsko tes
 
 Atom za proširenje atom-python-run.
 
-[No Swahili text provided.]
+---
 
 VSCode na ekstenziji Python kompanije Microsoft.
 
-[No Swahili text provided.]
+---
 
 Sublime Text u paketu Anaconda.
 

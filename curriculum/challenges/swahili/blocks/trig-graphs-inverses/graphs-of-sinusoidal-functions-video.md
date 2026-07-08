@@ -20,15 +20,15 @@ U ovom videu, naučićete o grafikama sinusaoidnih funkcija.
 
 Povezano sa tangensom i kotangensom.
 
-[No Swahili text provided.]
+---
 
 Povezano sa sekansom i kosekansom.
 
-[No Swahili text provided.]
+---
 
 Povezano sa tangensom i sekansom.
 
-[No Swahili text provided.]
+---
 
 Povezano sa sinusom i kosinusom.
 

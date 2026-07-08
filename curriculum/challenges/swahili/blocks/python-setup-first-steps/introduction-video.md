@@ -20,15 +20,15 @@ Koji je razlog za učenje Python?
 
 Potrebno je da naučite pre bilo kog drugog programskog jezika.
 
-[No Swahili text provided.]
+---
 
 To je jedan od najpopularnijih programskih jezika koji se koriste u sektoru.
 
-[No Swahili text provided.]
+---
 
 To je programski jezik sa najbržom brzinom za sve vrste programa.
 
-[No Swahili text provided.]
+---
 
 Koristi se samo za kompleksne igre.
 

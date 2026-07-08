@@ -20,15 +20,15 @@ Da li je među sledećim poznatim problemima primer algoritma eksponencijalnog n
 
 Putnik prodavnica (or) Prodavac putnika
 
-[No Swahili text provided.]
+---
 
 Algoritam Dijkstre
 
-[No Swahili text provided.]
+---
 
 Merge Sort
 
-[No Swahili text provided.]
+---
 
 Fibonaccijev niz
 

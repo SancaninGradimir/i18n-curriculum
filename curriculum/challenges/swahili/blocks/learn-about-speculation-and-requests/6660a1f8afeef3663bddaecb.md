@@ -1,6 +1,6 @@
 ---
 id: 6660a1f8afeef3663bddaecb
-title: Dialog 1: Trebalo je da primetite to
+title: "Dialog 1: Trebalo je da primetite to"
 challengeType: 21
 dashedName: dialogue-1-should-have-noticed-that
 lang: en-US

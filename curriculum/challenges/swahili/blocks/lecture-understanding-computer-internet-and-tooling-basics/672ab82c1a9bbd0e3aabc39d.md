@@ -1,6 +1,6 @@
 ---
 id: 672ab82c1a9bbd0e3aabc39d
-title: "Kako efikasno raditi sa tastaturom, mišem i drugim uređajima za pokazivanje?"
+title: Kako efikasno raditi sa tastaturom, mišem i drugim uređajima za pokazivanje?
 challengeType: 19
 dashedName: how-to-effectively-work-with-your-keyboard-mouse-and-other-pointing-devices
 ---

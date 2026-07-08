@@ -20,15 +20,15 @@ U ovom videu, naučićete o ekstrakciji značenja.
 
 Samo za datoteke koje sadrže doslovno napisanu reč, bez obzira na kontekst ili značenje.
 
-[No Swahili text provided.]
+---
 
 Sistem koji konvertuje svaki upit za pretraživanje u nasumične oznake i vraća datoteke sa više odgovarajućih oznaka.
 
-[No Swahili text provided.]
+---
 
 Metoda pretraživanja koja sortira rezultate po abecednom redosledu na osnovu dužine reči i popularnosti, umesto relevantnosti.
 
-[No Swahili text provided.]
+---
 
 Obrada fajlova uzimanjem u obzir značenje reči, a ne samo upoređivanjem ključnih reči.
 

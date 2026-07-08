@@ -56,11 +56,11 @@ Koja je karakteristika u fajlu `tsconfig.json` koja utiče na to kako kompajler 
 
 Ova karakteristika je nešto sa opcijama kompajlera.
 
-[No Swahili text provided.]
+---
 
 `compilerOptions`
 
-[No Swahili text provided.]
+---
 
 `exclude`
 
@@ -68,7 +68,7 @@ Ova karakteristika je nešto sa opcijama kompajlera.
 
 Ovaj atribut je nešto sa opcijama kompajlera.
 
-[No Swahili text provided.]
+---
 
 `lib`
 
@@ -92,7 +92,7 @@ On proverava samo tipove koji mogu imati null.
 
 Ova opcija omogućava različite provere, uključujući obradu tipova koji mogu imati null.
 
-[No Swahili text provided.]
+---
 
 Preporučuje se korišćenje CommonJS modula.
 
@@ -100,11 +100,11 @@ Preporučuje se korišćenje CommonJS modula.
 
 Ova opcija omogućava različite inspekcije, uključujući rukovanje tipovima koji mogu imati null.
 
-[No Swahili text provided.]
+---
 
 Menja nekoliko opcija za proveru tipa.
 
-[No Swahili text provided.]
+---
 
 Pruža fajlove za testiranje van snimanja/unosa.
 
@@ -128,7 +128,7 @@ Koje fajlove treba napisati/navesti.
 
 Možete koristiti ovo da uklonite test kod tokom registracije.
 
-[No Swahili text provided.]
+---
 
 Pružiti listu dodatnih biblioteka za uvoz.
 
@@ -136,11 +136,11 @@ Pružiti listu dodatnih biblioteka za uvoz.
 
 Možete koristiti ovo da uklonite test kod iz registracije.
 
-[No Swahili text provided.]
+---
 
 Zaboravili ste neke fajlove tokom registracije.
 
-[No Swahili text provided.]
+---
 
 Objašnjenje direktorijuma rezultata za prevedene fajlove.
 

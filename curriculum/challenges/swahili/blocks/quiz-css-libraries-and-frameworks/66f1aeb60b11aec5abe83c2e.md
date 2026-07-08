@@ -23,11 +23,11 @@ Da bi prošao kratki test, moraš tačno odgovoriti na najmanje 9 od 10 pitanja 
 
 Alat za ispravljanje grešaka CSS.
 
-[No Swahili text provided.]
+---
 
 Alat za analizu fajlova CSS.
 
-[No Swahili text provided.]
+---
 
 Organizujte strukturu fajlova za CSS.
 
@@ -45,11 +45,11 @@ Koji od navedenog predstavlja popularan operativni model za CSS koji se fokusira
 
 Šablon CSS
 
-[No Swahili text provided.]
+---
 
 Učitavanje CSS
 
-[No Swahili text provided.]
+---
 
 Minimalan CSS
 
@@ -67,11 +67,11 @@ Da li je prisutna/postoji [Hasara] za sisteme funkcionisanja CSS?
 
 Vrlo malo delova.
 
-[No Swahili text provided.]
+---
 
 Nema opcija za detaljnije pregledavanje.
 
-[No Swahili text provided.]
+---
 
 Poboljšanje podrške pretraživača.
 
@@ -89,11 +89,11 @@ SCSS zašto ne radi?
 
 Super Cascading Style Sheets.
 
-[No Swahili text provided.]
+---
 
 Strukturirani CSS.
 
-[No Swahili text provided.]
+---
 
 Jednostavan CSS.
 
@@ -111,11 +111,11 @@ Koja od sledećih karakteristika pripada Sass-u?
 
 Komentari
 
-[No Swahili text provided.]
+---
 
 Analizirati CSS.
 
-[No Swahili text provided.]
+---
 
 CSS unutar linije.
 
@@ -137,7 +137,7 @@ Koji je ispravan način za korišćenje klasa usluga u Tailwind-u CSS?
 </button>
 ```
 
-[No Swahili text provided.]
+---
 
 ```html
 <button class="blue text font-size hover round-btn margin-full">
@@ -145,7 +145,7 @@ Koji je ispravan način za korišćenje klasa usluga u Tailwind-u CSS?
 </button>
 ```
 
-[No Swahili text provided.]
+---
 
 
 ```html
@@ -173,11 +173,11 @@ Koje su dve vrste radnih sistema za CSS?
 
 Operativni sistemi za CSS koji ciljaju tablete prvenstveno, i operativni sistemi za CSS zavisne od komponenti.
 
-[No Swahili text provided.]
+---
 
 Radni sistemi za CSS koji prioritetizuju usluge i radni sistemi za CSS koji se sporo učitavaju.
 
-[No Swahili text provided.]
+---
 
 Sistemi rada za CSS male i sistemi rada za CSS usmereni na uslugu.
 
@@ -195,11 +195,11 @@ Koja je ekstenzija fajla za SCSS?
 
 `.sass`
 
-[No Swahili text provided.]
+---
 
 `.scsss`
 
-[No Swahili text provided.]
+---
 
 `.css`
 
@@ -223,7 +223,7 @@ header {
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 >primary-color: #3498eb;
@@ -233,7 +233,7 @@ header {
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 ?primary-color: #3498eb;
@@ -269,7 +269,7 @@ Koji je ispravan način za definisanje mixina?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 >mixin center-flex {
@@ -279,7 +279,7 @@ Koji je ispravan način za definisanje mixina?
 }
 ```
 
-[No Swahili text provided.]
+---
 
 ```css
 mixin center-flex {

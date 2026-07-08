@@ -20,15 +20,15 @@ Koja funkcija se koristi za konverziju sekvence slova u kompletan broj?
 
 `convert()`
 
-[No Swahili text provided.]
+---
 
 `str()`
 
-[No Swahili text provided.]
+---
 
 `integer()`
 
-[No Swahili text provided.]
+---
 
 `int()`
 

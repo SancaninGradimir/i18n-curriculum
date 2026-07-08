@@ -23,11 +23,11 @@ Vrednost return putem `includes()` je?
 
 Ako se podstring znakova pronađe unutar niza, ta funkcija vraća taj niz. Inače, vraća `undefined`.
 
-[No Swahili text provided.]
+---
 
 Ako je podstring znakova pronađen unutar sekvence, ta funkcija vraća `true`. Inače, vraća prazan string.
 
-[No Swahili text provided.]
+---
 
 Ako je mali deo sekvence karaktera pronađen unutar sekvence, ta funkcija vraća tu sekvencu. Inače, vraća `null`.
 
@@ -45,11 +45,11 @@ Koja opcija prikazuje unos vrednosti sekvence slova?
 
 `"Hello, " + user + "!"`
 
-[No Swahili text provided.]
+---
 
 `"Hello, $user!"`
 
-[No Swahili text provided.]
+---
 
 `` `Zdravo, {user}!` ``
 
@@ -67,11 +67,11 @@ Da li je neko od ovih svojstvo za započinjanje novog reda (znak za novi red)?
 
 `\newline`
 
-[No Swahili text provided.]
+---
 
 `\new`
 
-[No Swahili text provided.]
+---
 
 `\line`
 
@@ -89,11 +89,11 @@ Koja informacija među ovim je tačna o sekvenci slova?
 
 Niz karaktera je promenljiv i može se promeniti nakon kreiranja.
 
-[No Swahili text provided.]
+---
 
 Niz znakova su neprimitivni tipovi podataka (non primitive data types).
 
-[No Swahili text provided.]
+---
 
 Sekvenca slova može se kreirati koristeći samo jedan navodnik.
 
@@ -111,11 +111,11 @@ Niz karaktera je nepromenljiv (immutable).
 
 Američki standardni kod for Informacije o internetu
 
-[No Swahili text provided.]
+---
 
 Napredni sistematski kod for Interna razmena
 
-[No Swahili text provided.]
+---
 
 Automatski standardni kod for Interna informacija
 
@@ -133,11 +133,11 @@ Koji metod među ovim uzima deo niza znakova i vraća novi niz?
 
 `trim()`
 
-[No Swahili text provided.]
+---
 
 `indexOf()`
 
-[No Swahili text provided.]
+---
 
 `prompt()`
 
@@ -155,11 +155,11 @@ Svrha puta `prompt()` je li?
 
 Prikazuje poruku u konzoli.
 
-[No Swahili text provided.]
+---
 
 Prikazuje opreznu kutiju sa porukom.
 
-[No Swahili text provided.]
+---
 
 Prikazuje okvir za potvrdu sa porukom.
 
@@ -180,14 +180,14 @@ const developer = "Jessica";
 developer[3];
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const developer = "Jessica";
 developer[-1];
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const developer = "Jessica";
@@ -211,11 +211,11 @@ Kako dobiti ASCII vrednost prvog slova u nizu karaktera `"hello"`?
 
 `"hello".charCode(0)`
 
-[No Swahili text provided.]
+---
 
 `"hello".codeAt(0)`
 
-[No Swahili text provided.]
+---
 
 `"hello".getCharIndex(0)`
 
@@ -233,11 +233,11 @@ Koja metoda se može koristiti za dobijanje karaktera koji odgovara ASCII vredno
 
 `toASCII()`
 
-[No Swahili text provided.]
+---
 
 `toChar()`
 
-[No Swahili text provided.]
+---
 
 `toCode()`
 
@@ -258,14 +258,14 @@ const organization = "freeCodeCamp";
 console.log(organization.indexOf("e"));
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const organization = "freeCodeCamp";
 console.log(organization.indexOf("f"));
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 const organization = "freeCodeCamp";
@@ -289,11 +289,11 @@ Možete li proveriti da li niz znakova `"JavaScript"` sadrži `"Script"`?
 
 `"JavaScript".has("Script")`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".contains("Script")`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".exists("Script")`
 
@@ -311,11 +311,11 @@ Koja od ovih uzima podstring iz niza znakova `"Script"` iz niza znakova `"JavaSc
 
 `"JavaScript".find(5)`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".extract(4)`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".cut(5)`
 
@@ -333,11 +333,11 @@ Da li možete da promenite niz slova `"JavaScript"` u velika slova?
 
 `"JavaScript".upper()`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".toUpper()`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".convertUpper()`
 
@@ -355,11 +355,11 @@ Da li možete da promenite niz slova `"JavaScript"` u mala slova?
 
 `"JavaScript".lower()`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".toLower()`
 
-[No Swahili text provided.]
+---
 
 `"JavaScript".convertLower()`
 
@@ -377,11 +377,11 @@ Koja od ovoga će promeniti `"dogs"` u `"cats"` u nizu karaktera `"I love dogs"`
 
 `"I love dogs".slice("dogs", "cats")`
 
-[No Swahili text provided.]
+---
 
 `"I love dogs".replaceWith("dogs", "cats")`
 
-[No Swahili text provided.]
+---
 
 `"I love dogs".find("dogs", "cats")`
 
@@ -399,11 +399,11 @@ Koji metod se koristi za ponavljanje niza slova određen broj puta?
 
 `times()`
 
-[No Swahili text provided.]
+---
 
 `repeatTimes()`
 
-[No Swahili text provided.]
+---
 
 `repeatNumber()`
 
@@ -421,11 +421,11 @@ Koji sledeći kod će vratiti: `"abc".repeat(3)`?
 
 `"abcabc"`
 
-[No Swahili text provided.]
+---
 
 `"abcabcabcabc"`
 
-[No Swahili text provided.]
+---
 
 It will throw an error.
 
@@ -443,11 +443,11 @@ Koji metod pronalazi prazne prostore u početku i na kraju niza znakova?
 
 `strip()`
 
-[No Swahili text provided.]
+---
 
 `removeWhitespace()`
 
-[No Swahili text provided.]
+---
 
 `trimWhitespace()`
 
@@ -467,13 +467,13 @@ Koja je ispravna sintaksa za izbegavanje navodnika?
 "She said, ?"Hello!?""
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 "She said, ."Hello!.""
 ```
 
-[No Swahili text provided.]
+---
 
 ```js
 "She said, //"Hello!//""

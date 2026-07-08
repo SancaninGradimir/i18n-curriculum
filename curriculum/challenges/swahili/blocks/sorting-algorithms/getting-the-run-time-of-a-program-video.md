@@ -20,15 +20,15 @@ Koja je Unix komanda koju nastavnik koristi za pokretanje programa i proveru vre
 
 `check`
 
-[No Swahili text provided.]
+---
 
 `run`
 
-[No Swahili text provided.]
+---
 
 `time`
 
-[No Swahili text provided.]
+---
 
 `set`
 

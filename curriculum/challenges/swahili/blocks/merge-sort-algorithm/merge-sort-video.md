@@ -20,15 +20,15 @@ Koji je algoritam koji se koristi za algoritma poređivanja konekcija?
 
 Hramatski
 
-[No Swahili text provided.]
+---
 
 Dinamičko programiranje
 
-[No Swahili text provided.]
+---
 
 Podeli i osvoji
 
-[No Swahili text provided.]
+---
 
 Vrati se
 

@@ -20,15 +20,15 @@ Koju komandu profesor koristi u videu da preusmeri izlaz programa u drugi fajl u
 
 `>`
 
-[No Swahili text provided.]
+---
 
 `<<`
 
-[No Swahili text provided.]
+---
 
 `|`
 
-[No Swahili text provided.]
+---
 
 `?`
 

@@ -26,15 +26,15 @@ print(friends.index("Oscar"))
 
 4
 
-[No Swahili text provided.]
+---
 
 1
 
-[No Swahili text provided.]
+---
 
 2
 
-[No Swahili text provided.]
+---
 
 3
 

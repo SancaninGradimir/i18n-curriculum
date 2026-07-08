@@ -20,15 +20,15 @@ Koja od sljedećih nije primjer klijentske karakteristike za MCP?
 
 Koreni
 
-[No Swahili text provided.]
+---
 
 Uzorkovanje
 
-[No Swahili text provided.]
+---
 
 Observabilnost
 
-[No Swahili text provided.]
+---
 
 Izvlačenje
 

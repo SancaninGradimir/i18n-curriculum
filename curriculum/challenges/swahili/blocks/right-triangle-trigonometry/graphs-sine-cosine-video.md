@@ -20,15 +20,15 @@ U ovom videu ćete naučiti o grafovima sinusa i kosinusa.
 
 Vertikalna udaljenost između najvišeg vrha/vrhunca i ekvatora.
 
-[No Swahili text provided.]
+---
 
 Horizontalna udaljenost između dva uzastopna vršnjašta
 
-[No Swahili text provided.]
+---
 
 Nagib grafa sinusa ili kosinusa na maksimumu.
 
-[No Swahili text provided.]
+---
 
 Visinska razlika između dva niska vrha.
 

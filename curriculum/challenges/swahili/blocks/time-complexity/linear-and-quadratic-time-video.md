@@ -20,15 +20,15 @@ U ovom videu ćete naučiti o linearnom i kvadratnom vremenu.
 
 Operacija pokrenuta prvoj snagom.
 
-[No Swahili text provided.]
+---
 
 Operacija izvedena trećom snagom.
 
-[No Swahili text provided.]
+---
 
 Operacija povišena sa drugom moći.
 
-[No Swahili text provided.]
+---
 
 Operacija povećana za deset puta.
 

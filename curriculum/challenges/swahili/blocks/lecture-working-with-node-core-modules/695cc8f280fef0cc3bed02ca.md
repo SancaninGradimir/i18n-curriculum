@@ -134,7 +134,7 @@ Koja je razlika između `path.dirname()` i `path.extname()` u Node.js?
 
 Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya faili.
 
-[No Swahili text provided.]
+---
 
 `dirname()` inarudisha njia kamili ya faili, wakati `extname()` inarudisha jina la saraka.
 
@@ -142,11 +142,11 @@ Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya fai
 
 Makini je ipi koja obrađuje direktorijume i ipi koja obrađuje ekstenzije fajlova.
 
-[No Swahili text provided.]
+---
 
 `dirname()` inarudisha jina la saraka la njia, wakati `extname()` inarudisha kiendelezi cha faili.
 
-[No Swahili text provided.]
+---
 
 `dirname()` na `extname()` zote hurejesha thamani ile ile lakini kwa miundo tofauti.
 
@@ -170,11 +170,11 @@ Koji je način ``path`` koji kreira punu putanju fajla iz objekta sa parametrima
 
 Razmisli šta je suprotno od `parse()`.
 
-[No Swahili text provided.]
+---
 
 `path.format()`
 
-[No Swahili text provided.]
+---
 
 `path.resolve()`
 
@@ -182,7 +182,7 @@ Razmisli šta je suprotno od `parse()`.
 
 Razmisli šta je suprotno od `parse()`.
 
-[No Swahili text provided.]
+---
 
 `path.join()`
 
@@ -202,7 +202,7 @@ Međunarodni standardi za Node.js `__filename` i `__dirname`, šta obezbeđuju p
 
 Puni put trenutne datoteke i direktorijuma koji sadrži tu datoteku.
 
-[No Swahili text provided.]
+---
 
 Ime trenutnog modula i njegova zavisnost.
 
@@ -210,7 +210,7 @@ Ime trenutnog modula i njegova zavisnost.
 
 Razmislite o parametrima koji vam daju pune putanje do fajlova i direktorijuma direktno bez korišćenja Path modula.
 
-[No Swahili text provided.]
+---
 
 Putanja do instalacionog direktorijuma Node.js.
 
@@ -218,7 +218,7 @@ Putanja do instalacionog direktorijuma Node.js.
 
 Razmislite o kojim parametrima dobijate pune putanje do fajlova i direktorijuma direktno, bez korišćenja path modula.
 
-[No Swahili text provided.]
+---
 
 URL mrežnog servera koji se koristi uz njegovo ime domaćina.
 

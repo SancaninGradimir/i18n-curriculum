@@ -20,15 +20,15 @@ Koji od sljedećih je tačan način za predstavljanje složenosti vremena u Big 
 
 `O(n)`
 
-[No Swahili text provided.]
+---
 
 `O(1)`
 
-[No Swahili text provided.]
+---
 
 `O(C)`
 
-[No Swahili text provided.]
+---
 
 `O(0)`
 

@@ -23,7 +23,7 @@ while len(values) > 1:
     values.pop()
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 for i in range(len(values)):
@@ -31,14 +31,14 @@ for i in range(len(values)):
         values[i] -= 1
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 for i in range(len(values)):
     values[i] += 1
 ```
 
-[No Swahili text provided.]
+---
 
 ```python
 if len(values) <= 1:

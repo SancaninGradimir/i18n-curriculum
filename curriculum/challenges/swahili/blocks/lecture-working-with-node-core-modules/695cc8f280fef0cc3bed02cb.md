@@ -113,11 +113,11 @@ Zaustavlja proces kada se pojavi specifično upozorenje.
 
 Zamislite kako Node.js rukuje specifičnim upozorenjem putem događaja.
 
-[No Swahili text provided.]
+---
 
 Izaziva poseban događaj upozorenja koji ga može obraditi primaoca upozorenja.
 
-[No Swahili text provided.]
+---
 
 Piše grešku i odmah zaustavlja proces.
 
@@ -125,7 +125,7 @@ Piše grešku i odmah zaustavlja proces.
 
 Razmislite kako Node.js obrađuje specifično upozorenje kroz događaje.
 
-[No Swahili text provided.]
+---
 
 Ponovo pokreće proces Node.js nakon prikazivanja upozorenja.
 
@@ -145,7 +145,7 @@ Da li koristi procesni modul?
 
 Da bih to direktno spomenuo/la, jer je međunarodna stvar.
 
-[No Swahili text provided.]
+---
 
 Da biste ga omogućili u konfiguracionoj datoteci Node.js.
 
@@ -153,7 +153,7 @@ Da biste ga omogućili u konfiguracionoj datoteci Node.js.
 
 Razmislite zašto možete dobiti proces bilo gde bez konfiguracije.
 
-[No Swahili text provided.]
+---
 
 Ručno instaliranje korišćenjem npm-a pre spominjanja.
 
@@ -161,7 +161,7 @@ Ručno instaliranje korišćenjem npm-a pre spominjanja.
 
 Razmislite zašto možete dobiti proces bilo gde bez konfiguracije.
 
-[No Swahili text provided.]
+---
 
 Za uvoz korišćenjem require('process') pre svake upotrebe.
 
@@ -185,7 +185,7 @@ Postavljanje parametara okruženja za aplikaciju.
 
 Razmislite kako Node.js se odnosi na promene životnog ciklusa tokom izvršavanja.
 
-[No Swahili text provided.]
+---
 
 Kreiranje novih procesa za paralelno izvršavanje.
 
@@ -193,11 +193,11 @@ Kreiranje novih procesa za paralelno izvršavanje.
 
 Razmislite kako Node.js se odnosi na promene životnog ciklusa tokom izvršavanja.
 
-[No Swahili text provided.]
+---
 
 Slušati i reagovati tokom kritičnih faza životnog ciklusa, kao što su greške, kvarovi ili sistemski signali.
 
-[No Swahili text provided.]
+---
 
 Upravljanje putanjama fajlova i prilogima u sistemu.
 

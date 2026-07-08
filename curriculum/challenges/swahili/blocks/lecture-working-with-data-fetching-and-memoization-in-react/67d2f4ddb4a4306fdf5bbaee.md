@@ -1,6 +1,6 @@
 ---
 id: 67d2f4ddb4a4306fdf5bbaee
-title: "Šta je Memoization, i kako funkcioniše Hook useMemo?"
+title: Šta je Memoization, i kako funkcioniše Hook useMemo?
 challengeType: 19
 dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 ---
@@ -136,7 +136,7 @@ Memoizacija šta je u React?
 
 Metoda koja sačuvava vrednost i funkcionalnosti radi sprečavanja nepotrebnih proračuna.
 
-[No Swahili text provided.]
+---
 
 Metoda koja omogućava upravljanje delimičnim ažuriranjima stanja radi sprečavanja nepotrebnih proračuna.
 
@@ -144,7 +144,7 @@ Metoda koja omogućava upravljanje delimičnim ažuriranjima stanja radi spreča
 
 Pomaže u poboljšanju performansi čuvanjem prethodno izračunatih rezultata.
 
-[No Swahili text provided.]
+---
 
 Proces poređenja Virtual DOM sa DOM stvarnog.
 
@@ -152,7 +152,7 @@ Proces poređenja Virtual DOM sa DOM stvarnog.
 
 Pomaže u poboljšanju performansi čuvanjem prethodno izračunatih rezultata.
 
-[No Swahili text provided.]
+---
 
 Način rukovanja sporednim efektima u funkcionalskim oblastima.
 
@@ -176,11 +176,11 @@ Izračunate vrednosti su funkcionalni elementi, dok su reference funkcija rezult
 
 Moj je rezultat funkcije, drugi je samo indikator te funkcije.
 
-[No Swahili text provided.]
+---
 
 Izračunate vrednosti su rezultati izvršavanja funkcije, dok su reference na funkcije funkcionalni objekti u memoriji.
 
-[No Swahili text provided.]
+---
 
 Vrednosti izračunate i reference zaposlenika su iste.
 
@@ -188,7 +188,7 @@ Vrednosti izračunate i reference zaposlenika su iste.
 
 Ovo je rezultat funkcije, a drugo je samo indikator te funkcije.
 
-[No Swahili text provided.]
+---
 
 Registrar za funkcije čuva izračunate vrednosti.
 
@@ -212,7 +212,7 @@ Koja je od ovih alata koje React pruža za memoizaciju?
 
 Alati za memoizaciju se fokusiraju na skladištenje vrednosti i funkcije, dok ova opcija rukuje nuspojavama.
 
-[No Swahili text provided.]
+---
 
 `useMemo`
 
@@ -220,7 +220,7 @@ Alati za memoizaciju se fokusiraju na skladištenje vrednosti i funkcije, dok ov
 
 Alati za memoizaciju fokusiraju se na skladištenje vrednosti i funkcija, dok ova opcija obrađuje sporedne efekte.
 
-[No Swahili text provided.]
+---
 
 `useCallback`
 
@@ -228,7 +228,7 @@ Alati za memoizaciju fokusiraju se na skladištenje vrednosti i funkcija, dok ov
 
 Alati za memoizaciju fokusiraju se na skladištenje vrednosti i funkcije, dok ova opcija obrađuje sporedne efekte.
 
-[No Swahili text provided.]
+---
 
 `useEffect`
 

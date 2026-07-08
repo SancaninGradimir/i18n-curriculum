@@ -20,15 +20,15 @@ U ovom videu, ćete pregledati kako funkcije rade ponavljanjem.
 
 Vrsta beskonačnog kruga.
 
-[No Swahili text provided.]
+---
 
 Samopozivajući akter.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja se izvršava samo jednom, a zatim prestaje.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja automatski obrađuje podatke.
 

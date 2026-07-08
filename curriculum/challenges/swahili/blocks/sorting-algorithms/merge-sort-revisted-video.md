@@ -20,15 +20,15 @@ Koja je glavna razlika između algoritama merge sort-a i quicksort-a?
 
 Merge sort periodično menja sosedne elemente sve dok ih ne sortiraju.
 
-[No Swahili text provided.]
+---
 
 Quicksort deli listu oko pivota i sortira rekurzivno obrađujući manje delove, dok Merge Sort deli listu na pola i spaja sortirovane polovine.
 
-[No Swahili text provided.]
+---
 
 Merge sort koristi hash tabelu za brojanje elemenata, dok quicksort koristi deque da ponovno sortiraju elemente.
 
-[No Swahili text provided.]
+---
 
 Quicksort uvek koristi ciklus od while za poretke, dok merge sort koristi ciklus od for.
 

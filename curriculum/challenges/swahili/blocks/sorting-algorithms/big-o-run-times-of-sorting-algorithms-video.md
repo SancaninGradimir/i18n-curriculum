@@ -20,15 +20,15 @@ Koja je najgora situacija/najgori slučaj za quicksort?
 
 vreme linije
 
-[No Swahili text provided.]
+---
 
 Vreme linije
 
-[No Swahili text provided.]
+---
 
 stabilan period
 
-[No Swahili text provided.]
+---
 
 trajanje uzdizanja
 

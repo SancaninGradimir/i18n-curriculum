@@ -20,15 +20,15 @@ U ovom videu, naučićete o protokolu JSON-RPC.
 
 Protokol komunikacije između klijenta i servera korišćenjem poruka JSON.
 
-[No Swahili text provided.]
+---
 
 Protokol za skladištenje velikih skupova podataka u vektorskoj bazi podataka.
 
-[No Swahili text provided.]
+---
 
 Struktura fajla za obradu i kompresiju težina AI modela.
 
-[No Swahili text provided.]
+---
 
 Jezik simbola koji se koristi za stilizovanje veb stranica i delova korisničkog interfejsa.
 

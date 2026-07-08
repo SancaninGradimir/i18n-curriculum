@@ -23,11 +23,11 @@ Koje su dve važne karakteristike koje moraju postojati u problemu da bi adaptiv
 
 Brzo vreme izvršavanja i niska potrošnja memorije
 
-[No Swahili text provided.]
+---
 
 Sposobnost ponavljanja i ciklusi ponavljanja
 
-[No Swahili text provided.]
+---
 
 Sekvencijalna obrada i paralelni računar
 
@@ -45,11 +45,11 @@ Koja je glavna razlika između metoda memoizacije i tabulacije u dinamičkom pro
 
 Memoizacija koristi hash tabele dok tabulacija koristi nizove podataka, što čini proces efikasnijim.
 
-[No Swahili text provided.]
+---
 
 Memoizacija je brža, ali troši više memorije i ciklusa procesora (CPU) od tabulacije.
 
-[No Swahili text provided.]
+---
 
 Memoizacija može rešiti probleme lakše od tabulacije.
 
@@ -67,11 +67,11 @@ Zašto neefikasna rekurzivna rešenja za dinamičke probleme imaju eksponencijal
 
 Zato što koristi eksponencijalnu količinu memorije za skladištenje parametara.
 
-[No Swahili text provided.]
+---
 
 Zato što zahtevaju eksponencijalnu obradu podataka.
 
-[No Swahili text provided.]
+---
 
 Zato što moraju proveriti sve moguće kombinacije ulaza.
 
@@ -89,11 +89,11 @@ Jer svaki ponovljeni poziv se često razdvaja/ogranačava, uzrokujući ponavljaj
 
 Algoritmi moraju da koriste najbolju postojeću strukturu podataka.
 
-[No Swahili text provided.]
+---
 
 Rešenje mora smanjiti težinu i prostor istovremeno.
 
-[No Swahili text provided.]
+---
 
 Problem mora imati jedno jedinstveno i najbolje rešenje.
 
@@ -111,11 +111,11 @@ Kada implementirate memoizaciju, šta se dešava kada funkcija bude pozvana sa p
 
 Funkcija ponovno računa rezultate da bi osigurala tačnost.
 
-[No Swahili text provided.]
+---
 
 Funkcija koja izračunava prosečnu vrednost starih i novih rezultata sa većom tačnošću.
 
-[No Swahili text provided.]
+---
 
 Greška je bacena jer se ne dozvoljava reversna kalkulacija.
 
@@ -133,11 +133,11 @@ Koja je glavna prednost korišćenja tabulacije umesto memorizacije?
 
 Tabulacija uvek zahteva manje memorije od memoizacije.
 
-[No Swahili text provided.]
+---
 
 Tabulacija može rešiti širi spektar problema.
 
-[No Swahili text provided.]
+---
 
 Tabulacija je uvek lakša za implementaciju i razumevanje.
 
@@ -155,11 +155,11 @@ U rešenju donji-kaversoj dinamike, zašto se bazni slučajevi inicijalizuju prv
 
 Da efikasno alocira memoriju za strukturu podataka.
 
-[No Swahili text provided.]
+---
 
 Preventovanje beskonačnih petlji u algoritmu.
 
-[No Swahili text provided.]
+---
 
 Poboljšanje vremenske složenosti algoritma.
 
@@ -177,11 +177,11 @@ Kako adaptivni program menja nivo težine problema koji pokazuju ponavljajuće p
 
 Od polinoma do logaritamskih funkcija za efikasno rešavanje problema.
 
-[No Swahili text provided.]
+---
 
 Od kvadratnog do linearnog za poboljšanje struktura kola.
 
-[No Swahili text provided.]
+---
 
 Od linear do constant uz korišćenje hash tabela.
 
@@ -199,11 +199,11 @@ Koje promene obično pravi program koji se menja kako bi postigao optimalnu slo�
 
 Odbija čitanje koda radi brze implementacije.
 
-[No Swahili text provided.]
+---
 
 Zahteva više kompleksnih algoritama koje je teško održavati.
 
-[No Swahili text provided.]
+---
 
 Smanjuje obim rešivih problema.
 
@@ -221,11 +221,11 @@ U kojem stanju je dinamički program HAIFAI pravi metod za algoritma?
 
 Kada je problem potreban da pronađe najbolje rešenje.
 
-[No Swahili text provided.]
+---
 
 Kada se problem može podeliti na manje probleme.
 
-[No Swahili text provided.]
+---
 
 Kompleksnost prostora mora biti smanjena.
 

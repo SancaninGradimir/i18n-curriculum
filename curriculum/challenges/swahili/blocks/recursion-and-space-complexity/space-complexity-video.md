@@ -20,15 +20,15 @@ U ovom videu ćete naučiti o složenosti prostora.
 
 Količina memorije koju algoritam koristi u zavisnosti od veličine ulaza.
 
-[No Swahili text provided.]
+---
 
 Vreme/trajanje koje algoritam zahteva za pokretanje/izvršavanje.
 
-[No Swahili text provided.]
+---
 
 Broj procesa (CPU) koje koriste algoritmi.
 
-[No Swahili text provided.]
+---
 
 Broj ulaznih elemenata koje algoritam može da obradi u jednu sekundu.
 

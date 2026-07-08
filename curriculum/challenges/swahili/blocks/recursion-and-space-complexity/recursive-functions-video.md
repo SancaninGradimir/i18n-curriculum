@@ -20,15 +20,15 @@ Koja je ključna karakteristika koju sve ponavljajuće operacije moraju imati?
 
 Mora da pokrene beskonačan ciklus.
 
-[No Swahili text provided.]
+---
 
 Ne smete koristiti nikakve parametre.
 
-[No Swahili text provided.]
+---
 
 Osnovni slučaj.
 
-[No Swahili text provided.]
+---
 
 Mora uvek da ispiše rezultate.
 

@@ -20,15 +20,15 @@ Koliko pokušaja su Britney i John koristili da bi pogutovali tačan broj?
 
 1
 
-[No Swahili text provided.]
+---
 
 6
 
-[No Swahili text provided.]
+---
 
 3
 
-[No Swahili text provided.]
+---
 
 2
 

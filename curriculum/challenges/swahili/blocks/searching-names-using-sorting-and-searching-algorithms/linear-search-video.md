@@ -20,15 +20,15 @@ Kada se može koristiti linearna pretraga umesto binarne pretrage?
 
 Pošto je lista vrlo velika i već je organizovana.
 
-[No Swahili text provided.]
+---
 
 Ako vam je potreban logaritamski složenost vremena.
 
-[No Swahili text provided.]
+---
 
 Ako znate da lista nije sortirana.
 
-[No Swahili text provided.]
+---
 
 Kada možete da ponovljeno podelite skup podataka na pola.
 

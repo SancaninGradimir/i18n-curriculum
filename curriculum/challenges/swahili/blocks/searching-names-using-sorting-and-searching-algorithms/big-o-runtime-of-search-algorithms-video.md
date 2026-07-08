@@ -20,15 +20,15 @@ Koja je vremenska složenost Big O za linearnu pretragu?
 
 `O(n)`
 
-[No Swahili text provided.]
+---
 
 `O(n + n)`
 
-[No Swahili text provided.]
+---
 
 `O(1)`
 
-[No Swahili text provided.]
+---
 
 `O(log n)`
 

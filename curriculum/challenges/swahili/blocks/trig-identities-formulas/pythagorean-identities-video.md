@@ -20,15 +20,15 @@ Koji od sledećih je primer Pitagorinog identiteta?
 
 $\sec^2(x) + \tan^2(x) = 1$
 
-[No Swahili text provided.]
+---
 
 $\tan^2(x) + 1 = \sec^2(x)$
 
-[No Swahili text provided.]
+---
 
 $\csc^2(x) + \cot^2(x) = 1$
 
-[No Swahili text provided.]
+---
 
 $\cot^2(x) - 1 = \csc^2(x)$
 

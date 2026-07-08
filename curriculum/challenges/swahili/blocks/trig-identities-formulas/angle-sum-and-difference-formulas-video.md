@@ -20,15 +20,15 @@ Koja je stvarna vrednost $\sin(105°)$?
 
 $\tan(60° + 45°) = \frac{\tan(60°) + \tan(45°)}{1 - \tan(60°)\tan(45°)}$
 
-[No Swahili text provided.]
+---
 
 $\cos(15°) = \cos(60°-45°) = \cos(60°)\cos(45°) + \sin(60°)\sin(45°) = \frac{1}{2} \cdot \frac{\sqrt{2}}{2} + \frac{\sqrt{3}}{2} \cdot \frac{\sqrt{2}}{2} = \frac{\sqrt{6} + \sqrt{2}}{4}$
 
-[No Swahili text provided.]
+---
 
 $\sin(60°-45°) = \sin(60°)\cos(45°) - \cos(60°)\sin(45°)$
 
-[No Swahili text provided.]
+---
 
 $\sin(60° + 45°) = \sin(60°)\cos(45°) + \cos(60°)\sin(45°) = \frac{\sqrt{3}}{2} \cdot \frac{\sqrt{2}}{2} + \frac{1}{2} \cdot \frac{\sqrt{2}}{2} = \frac{\sqrt{6} + \sqrt{2}}{4}$
 
