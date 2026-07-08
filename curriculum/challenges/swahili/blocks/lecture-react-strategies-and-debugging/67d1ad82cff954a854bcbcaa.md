@@ -1,23 +1,23 @@
 ---
 id: 67d1ad82cff954a854bcbcaa
-title: "Je, Prop Drilling ni Nini?"
+title: Šta je Prop Drilling?
 challengeType: 19
 dashedName: what-is-prop-drilling
 ---
 
 # --description--
 
-Prop drilling ni njia ya msingi kabisa ya usimamizi wa state katika programu za React. Inaonekana rahisi, lakini inaweza kuwa ngumu haraka, na ni vigumu sana kuipanua.
+Prop drilling je veoma osnovan način za upravljanje stanjem u aplikacijama React. Izgleda lako, ali može brzo postati teško i veoma je teško ga proširiti.
 
-Tuchunguze ni nini prop drilling, kwa nini ni tatizo, na mbadala mzuri wa kutumia kadri programu inavyokua.
+Istražimo šta je prop drilling, zašto predstavlja problem i dobre alternative koje koristiti kako program raste.
 
-Prop drilling ni mchakato wa kupitisha vigezo kutoka sehemu ya mzazi hadi sehemu za watoto zilizopangwa ndani kwa kina, hata wakati baadhi ya sehemu za watoto hazihitaji vigezo hivyo.
+Prop drilling je proces prosljeđivanja parametara od roditeljske komponente do ugnježdene detske komponente, čak i kada neke detske komponente ne zahtevaju te parametre.
 
 Kwa mfano, sema una sehemu tatu zinazoitwa `Parent`, `Child`, na `Grandchild`. Ikiwa unataka kutumia data fulani katika sehemu ya `Grandchild`, lakini data hiyo iko katika sehemu ya `Parent`, unahitaji kuipitisha kutoka sehemu ya `Parent` hadi `Child`, kisha kutoka `Child` hadi `Grandchild`.
 
 Au kama data iko hata juu zaidi katika mnyororo, data hiyo inaweza kuhitajika kupitishwa hadi sehemu ya `Parent` pia.
 
-Hapa, data ninayotaka kuonyesha ni mfuatano wa herufi `Hello, Prop Drilling!`. Imepewa thamani katika kigezo `greeting` katika sehemu ya mzizi `App`:
+Ovde, podaci koje želim da prikažem su niz znakova `Hello, Prop Drilling!`. Dodeljena je vrednost parametru `greeting` u korenskom delu `App`:
 
 ```jsx
 import "./App.css";
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-Unaweza kuona sehemu ya `Parent` pia inapokea kigezo `greeting` kama thamani ya prop `greeting`. Hapa sehemu ya `Parent` inakipitisha ndani ya sehemu ya `Child` kama thamani ya prop nyingine `greeting` katika `Child`:
+Možete videti komponentu `Parent` koja takođe prima parametar `greeting` kao vrednost propp-a `greeting`. Ovde komponenta `Parent` ga prosleđuje unutar komponente `Child` kao vrednost drugog propp-a `greeting` u `Child`:
 
 ```jsx
 import Child from "./Child";
@@ -66,13 +66,13 @@ const Grandchild = ({ greeting }) => {
 export default Grandchild;
 ```
 
-Kwenye kivinjari, utaona ukurasa wenye kipengele kimoja cha `h1` chenye maandishi `Hello, Prop Drilling!`.
+U pretraživaču, videćete stranicu sa jednim elementom od `h1` sa tekstom `Hello, Prop Drilling!`.
 
 Mwanzo, prop drilling huenda haionekani kama tatizo kubwa. Lakini kadri programu yako inavyokua, huwa vigumu kuelewa, kutafuta makosa, na kuitunza.
 
-Ikiwa unahitaji kupitisha vigezo, jaribu kuviweka vyote katika sehemu moja ya mzazi. Njia hii ya kuweka data zote muhimu mahali pamoja huitwa "chanzo kimoja cha ukweli".
+Ako vam je potrebno da prosledite parametre, pokušajte sve postaviti na jednom roditeljskom mestu. Ovaj način skladištenja svih važnih podataka na jednom mestu naziva se "jedinstveni izvor istine".
 
-Kwa mfano, sema unataka kuongeza `response` mpya kuambatana na `greeting`, na unataka kutumia zote mbili katika sehemu ya `Grandchild`. Kwa kuwa `greeting` tayari iko katika sehemu ya `App`, ni busara kuweka `response` hapo pia, na kuzipitisha zote mbili mnyororo:
+Na primer, recimo da želite dodati novi `response` uz `greeting`, i da želite koristiti oba u sekciji `Grandchild`. Pošto je `greeting` već u sekciji `App`, preporučuje se da postavite i `response` tamo takođe, i proširite obe kroz lanac:
 
 ```jsx
 function App() {
@@ -102,45 +102,45 @@ const Grandchild = ({ greeting, response }) => {
 export default App;
 ```
 
-Kwenye kivinjari, utaona ukurasa wenye kipengele cha `h1` chenye maandishi `Hello, Prop Drilling!` na kipengele cha `h2` chenye maandishi `I'm not here to play!`.
+U pretraživaču, videćete stranicu sa elementom `h1` sa tekstom `Hello, Prop Drilling!` i elementom `h2` sa tekstom `I'm not here to play!`.
 
-Ili kuepuka prop drilling, hasa katika programu kubwa na ngumu, fikiria kutumia Context API au maktaba za usimamizi wa state kama Redux na Redux Toolkit, Zustand, Recoil, na nyinginezo.
+Da biste izbegli prop drilling, posebno u velikim i složenim aplikacijama, razmislite o korišćenju Context API ili biblioteka za upravljanje stanjem kao što su Redux na Redux Toolkit, Zustand, Recoil, i drugih.
 
-Utajifunza zaidi kuhusu hizi katika mafundisho yajayo.
+Saznajte više o ovim u narednim lekcijama.
 
 # --questions--
 
 ## --text--
 
-Je, prop hupitiaje kutoka kwa mzazi hadi sehemu ya mtoto wa mtoto?
+Da li prop se prenosi od roditelja do unuka?
 
 ## --answers--
 
-Kwa kuainisha prop ndani ya sehemu ya mtoto wa mtoto.
+Za definisanje prop-a unutar sekcije/dela unuka.
 
 ### --feedback--
 
-Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
+Prop mora proći kroz deo deteta pre nego što stigne do unuka.
 
 ---
 
-Kwa kuipitisha kutoka kwa mzazi hadi mtoto, kisha kutoka mtoto hadi mtoto wa mtoto.
+Prenoseći ga/je od roditelja ka detetu, a zatim od deteta ka unuku.
 
 ---
 
-Kwa kutumia hook ya `useEffect` kupata prop kwa njia ya mabadiliko.
+Korišćenjem hook-a `useEffect` da se dobije prop promenama.
 
 ### --feedback--
 
-Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
+Prop mora da prođe kroz deo deteta pre nego što stigne do unuka.
 
 ---
 
-Kwa kutumia hook ya `useState` katika sehemu ya mtoto wa mtoto.
+Koristeći hook `useState` u sekciji unuka.
 
 ### --feedback--
 
-Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
+Prop mora proći kroz deo deteta pre nego što stigne do unuka.
 
 ## --video-solution--
 
@@ -148,35 +148,35 @@ Prop lazima ipitie sehemu ya mtoto kabla haijafika kwa mtoto wa mtoto.
 
 ## --text--
 
-Prop drilling ni nini katika React?
+Šta je Prop drilling u React?
 
 ## --answers--
 
-Kupitisha vigezo moja kwa moja kwa sehemu zinazohitaji tu.
+Prosleđujte parametre direktno samo onim delovima koji ih zahtevaju.
 
 ### --feedback--
 
-Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
+Dešava se kada parametri prolaze kroz mnogo nivoa bez razloga.
 
 ---
 
-Kutumia context kushirikisha state kati ya sehemu.
+Korišćenjem konteksta za deljenje stanja između komponenti.
 
 ### --feedback--
 
-Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
+Nastaje kada parametri prolaze kroz više nivoa bez razloga.
 
 ---
 
-Kupitisha vigezo kutoka kwa mzazi hadi sehemu za watoto zilizopangwa ndani kwa kina.
+Prosleđivanje parametara od roditeljskog elementa do ugnježdenih detetovskih sekcija.
 
 ---
 
-Kupitia ndani ya state ya sehemu kwa kutumia hooks.
+Kroz stanje komponente korišćenjem hookova.
 
 ### --feedback--
 
-Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
+To se dešava kada parametri prolaze kroz mnogo nivoa bez razloga.
 
 ## --video-solution--
 
@@ -184,35 +184,35 @@ Hutokea wakati vigezo vinapitishwa kupitia ngazi nyingi bila sababu.
 
 ## --text--
 
-Kwa nini prop drilling huonekana kama tatizo katika programu kubwa?
+Zašto prop drilling izgleda kao problem u velikim programima?
 
 ## --answers--
 
-Hufanya iwe rahisi kusimamia state.
+To olakšava upravljanje stanjem.
 
 ### --feedback--
 
-Kupitisha vigezo vingi kupitia sehemu nyingi kunaweza kufanya msimbo kuwa mchafu.
+Prosljeđivanje previše parametara kroz više delova može učiniti kod neurednim (ili komplikovanim).
 
 ---
 
-Huboresha utendaji kwa kupunguza kuonyesha tena.
+Poboljšava performanse smanjenjem ponovnog prikaza.
 
 ### --feedback--
 
-Kupitisha vigezo vingi kupitia sehemu nyingi kunaweza kufanya msimbo kuwa mchafu.
+Prosleđivanje mnogo parametara kroz više delova može učiniti kod neurednim.
 
 ---
 
-Hufanya msimbo kuwa mgumu kusoma, kutafuta makosa, na kuitunza.
+Čini kod teškim za čitanje, pronalaženje grešaka i održavanje.
 
 ---
 
-Hutoa hitaji la maktaba za usimamizi wa state.
+Pruža biblioteku za upravljanje stanjem.
 
 ### --feedback--
 
-Kupitisha vigezo vingi kupitia sehemu nyingi kunaweza kufanya msimbo kuwa mchafu.
+Prosljeđivanje previše parametara kroz više mesta može učiniti kod nečitanim.
 
 ## --video-solution--
 
