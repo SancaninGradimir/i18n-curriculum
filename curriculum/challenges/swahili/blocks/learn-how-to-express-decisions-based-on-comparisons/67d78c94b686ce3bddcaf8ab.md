@@ -36,7 +36,7 @@ Neno hili kwa wingi linahusu ratiba au tarehe za mwisho za kumaliza mradi.
 
 # --explanation--
 
-`Save us time` inamaanisha kupunguza muda unaohitajika kumaliza jambo fulani, na kufanya mchakato kuwa wa ufanisi zaidi. Kwa mfano:
+`Save us time` znači smanjiti vreme potrebno za završetak nečega i učiniti proces efikasnijim. Na primer:
 
 `Using automation tools can save us time on repetitive tasks.` – Hii inamaanisha zana za automatisering husaidia kumaliza kazi kwa haraka zaidi.
 

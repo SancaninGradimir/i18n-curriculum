@@ -39,9 +39,9 @@ Ovo se tiče određenog koraka, ili dela procesa, ili projekta.
 
 `We need to decide which tools to use for the project.` – Ovo znači odabir alata nakon razmatranja opcija.
 
-`phase` inahusu sehemu moja au hatua katika mchakato mkubwa zaidi. Kwa mfano:
+`phase` se odnosi na jedan deo ili korak u većem procesu. Na primer:
 
-`We just finished the testing phase of the software.` – Hii inamaanisha hatua ya majaribio katika mchakato wa ukuzaji imekamilika.
+`We just finished the testing phase of the software.` – To znači da je faza testiranja softvera završena.
 
 # --scene--
 

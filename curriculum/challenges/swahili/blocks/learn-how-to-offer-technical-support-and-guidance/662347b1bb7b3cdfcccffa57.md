@@ -42,7 +42,7 @@ Radi se o procesu popravljanja ili rešavanja greške u aplikaciji.
 
 ### --feedback--
 
-Inahusu mchakato wa kuthibitisha utambulisho wa mtumizi katika moduli ya programu.
+Odnosi se na proces potvrde identiteta korisnika u modulu aplikacije.
 
 # --scene--
 

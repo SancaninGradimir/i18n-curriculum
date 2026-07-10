@@ -1,6 +1,6 @@
 ---
 id: 695cc8f280fef0cc3bed02cb
-title: Moduli ya mchakato ni nini na inafanya kazi vipi?
+title: Šta je modul process i kako funkcioniše?
 challengeType: 19
 dashedName: what-is-the-process-module-and-how-does-it-work
 ---
@@ -11,7 +11,7 @@ dashedName: what-is-the-process-module-and-how-does-it-work
 
 Kada izvršite komandu kao `node script.js` u terminalu, Node.js pokreće proces, koji je kontinuiran primer programa Node koji izvršava fajl `script.js`. Ovaj proces ima svoju memoriju, svoje okruženje i kontekst izvršavanja.
 
-Mchakato wa sasa unawekwa wazi kimataifa kupitia moduli ya `process`, kwa hivyo hata huitaji kuimporti. Kadri tu unavyokuwa na Node.js imewekwa, basi unaweza kuitumia popote.
+Trenutni proces je globalno dostupan preko modula `process`, tako da ga nije potrebno uvoziti. Sve dok imate instaliran Node.js, možete ga koristiti bilo gde.
 
 Moduli ya `process` inaweka wazi vigezo na njia ili upate taarifa fulani kuhusu muktadha wa sasa wa utekelezaji.
 
@@ -60,7 +60,7 @@ console.log(process.cwd());
 
 Događaji procesa su ključna karakteristika Node.js koja omogućava vašem programu da reaguje u kritičnim tačkama njegovog životnog ciklusa, kao što je pri pokretanju, susretu sa greškom ili primanju sistemskog signala.
 
-Tukio la `exit`, kwa mfano, hufanyika kabla mchakato wa Node.js haujakamilika:
+Događaj `exit`, na primer, pokreće se neposredno pre nego što se Node.js proces završi:
 
 ```js
 process.on("exit", (code) => {
@@ -78,7 +78,7 @@ process.on("uncaughtException", (err) => {
 });
 ```
 
-Mwishowe, tukio la `warning` huchochewa wakati Node.js inatoa onyo la mchakato:
+Na kraju, događaj `warning` se pokreće kada Node.js izda upozorenje procesa:
 
 ```js
 process.on("warning", (warning) => {
