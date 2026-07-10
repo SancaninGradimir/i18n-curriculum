@@ -651,7 +651,7 @@ Koji selektor cilja na elemente paragrafa komponente `div`?
 
 #### --text--
 
-`margin` huweka sifa za mtindo wapi?
+Svojstvo `margin` postavlja svojstva stila za koju oblast?
 
 #### --distractors--
 
@@ -717,7 +717,7 @@ Ne možete uzeti celu dostupnu širinu jer vam je to onemogućeno.
 
 #### --text--
 
-Ni tamko gani NI SI SAHIHI unapotumia thamani ya `inline-block`?
+Koja tvrdnja NIJE tačna kada se koristi vrednost `inline-block`?
 
 #### --distractors--
 
@@ -783,7 +783,7 @@ Koja osobina prati naziv selektora klase objekata?
 
 #### --text--
 
-Ni ipi NI SI SAHIHI kuhusu vipengele vya ngazi ya mstari mmoja?
+Šta NIJE tačno za inline elemente?
 
 #### --distractors--
 

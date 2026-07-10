@@ -12,7 +12,7 @@ Poslednji izazov bio je jednostavan primer JSX-a, ali JSX može da predstavlja i
 
 Važno je znati o ugnježdjenom JSX-u da on mora da vrati samo jedan element.
 
-Sehemu hii moja ya mzazi itazunguka ngazi zote nyingine za sehemu zilizopangwa ndani.
+Ova roditeljska komponenta obuhvataće sve ostale ugnježdene komponente.
 
 Na primer, nekoliko JSX elemenata napisano kao braća bez roditeljskog elementa koji ih obuhvata neće biti obrađeno/renderovano.
 

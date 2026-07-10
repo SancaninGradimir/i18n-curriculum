@@ -22,15 +22,15 @@ Vrednost svojstva `box-sizing` je `content-box` podrazumevano, ali možete odabr
 Da biste razumeli kako modeli funkcionišu, morate shvatiti četiri glavna koncepta iz primjera kutije CSS. Hajde da brzo pregledamo.
 
 - Eneo la maudhui ni nafasi inayochukuliwa na maudhui ya kipengele.
-- Nafasi ya ndani ni nafasi kati ya eneo la maudhui na mpaka.
-- Mpaka ni mstari unaozunguka eneo la maudhui na nafasi ya ndani.
-- Ukingo ni nafasi nje ya mpaka inayotenganisha kipengele na vipengele vingine.
+- Unutrašnji razmak (`padding`) je prostor između oblasti sadržaja i ivice.
+- Ivica (`border`) je linija koja okružuje oblast sadržaja i unutrašnji razmak.
+- Margina (`margin`) je prostor izvan ivice koji razdvaja element od drugih elemenata.
 
-Katika mfano wa `content-box`, upana na urefu unaoweka kwa kipengele huamua vipimo vya eneo la maudhui, lakini havijumuishi nafasi ya ndani, mpaka, au ukingo. Tumia `content-box` unapohitaji udhibiti sahihi wa eneo la maudhui. Unapoweka `width` na `height`, unakuwa umeweka ukubwa wa maudhui yenyewe tu.
+U primeru `content-box`, širina i visina koje postaviš za element određuju dimenzije oblasti sadržaja, ali ne uključuju unutrašnji razmak, ivicu niti marginu. Koristi `content-box` kada ti je potrebna precizna kontrola nad oblašću sadržaja. Kada postaviš `width` i `height`, određuješ samo veličinu samog sadržaja.
 
 Da biste dobili ukupnu širinu elementa, morate dodati unutrašnji padding sa leve i desne strane, kao i levu i desnu granicu. Slično tome, ukupna visina elementa može se dobiti sabiranjem visine sadržaja, gornjeg i donjeg unutrašnjeg padding-a, i gornje i donje granice.
 
-Kwa mfano, hapa tuna kichaguzi cha aina ya CSS kwa vipengele vyote vya `div`.
+Na primer, ovde imamo CSS selektor tipa za sve `div` elemente.
 
 :::interactive_editor
 
@@ -50,9 +50,9 @@ div {
 
 :::
 
-Katika kesi hii, ikiwa `content-box` itatumika eneo la maudhui litakuwa 300px kwa 200px. Ukubwa wa jumla unaonyeshwa unajumuisha nafasi ya ndani na mipaka — kwa mfano, upana wa jumla = 300px (maudhui) + 40px (nafasi ya ndani) + 8px (mipaka) = 348px; urefu wa jumla unahesabiwa kwa njia ile ile.
+U ovom slučaju, ako se koristi `content-box`, oblast sadržaja biće veličine 300px × 200px. Ukupna prikazana veličina uključuje unutrašnji razmak i ivice — na primer, ukupna širina = 300px (sadržaj) + 40px (unutrašnji razmak) + 8px (ivice) = 348px; ukupna visina računa se na isti način.
 
-Nzuri! Sasa hebu tuchunguze `border-box`. Ni tofauti kwa sababu upana na urefu unaoweka unajumuisha maudhui ya kipengele, nafasi ya ndani, na mpaka (lakini si ukingo wake). Tumia `border-box` unapotaka ukubwa wa jumla wa kipengele ubaki thabiti hata kama nafasi ya ndani au mipaka itabadilika — hii mara nyingi husaidia katika mipangilio inayojibadilisha kulingana na kifaa.
+Odlično! Sada hajde da pogledamo `border-box`. On se razlikuje po tome što širina i visina koje postaviš uključuju sadržaj elementa, unutrašnji razmak i ivicu (ali ne i marginu). Koristi `border-box` kada želiš da ukupna veličina elementa ostane ista čak i ako se promene unutrašnji razmak ili ivice — to često pomaže pri izradi responzivnih rasporeda.
 
 Za `border-box`, unutrašnji razmak i granice uključeni su u definisanu veličinu elementa. `width` i `height` postavljaju se kao ukupne dimenzije elementa: sadržaj + unutrašnji razmak + granica; ivice nisu uključene.
 
@@ -125,7 +125,7 @@ Razmislite o podrazumevanom ponašanju za veličinu elemenata.
 
 ### --feedback--
 
-Fikiria tabia ya chaguo-msingi kwa ukubwa wa vipengele.
+Razmisli o podrazumevanom ponašanju određivanja veličine elemenata.
 
 ## --video-solution--
 

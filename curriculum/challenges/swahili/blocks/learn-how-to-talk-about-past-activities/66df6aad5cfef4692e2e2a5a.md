@@ -26,7 +26,7 @@ Slušajte audio i dovršite sledeću rečenicu.
 
 ### --feedback--
 
-Neno linaloonyesha matendo mawili yanayotokea kwa wakati mmoja au tendo moja linalotegemea tendo jingine.
+Reč koja označava dve radnje koje se dešavaju istovremeno ili radnju koja zavisi od druge radnje.
 
 ---
 
@@ -54,7 +54,7 @@ Termin koji znači prolaziti ili navigirati kroz nešto, kao što je veb stranic
 
 # --explanation--
 
-`As` linaweza kutumika kumaanisha "wakati" au "mara", likionyesha kuwa tendo moja litafanyika wakati tendo jingine linaendelea. Kwa mfano:
+`As` može da znači „dok“ ili „kada“, pokazujući da se jedna radnja odvija dok druga traje. Na primer:
 
 - `As I was walking home, they called me.` - Walikupigia simu wakati ulipokuwa unarudi nyumbani.
 

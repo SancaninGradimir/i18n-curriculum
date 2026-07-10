@@ -10,9 +10,9 @@ lang: en-US
 
 # --description--
 
-`To affect` ina maana ya kuwa na athari au kuathiri kitu fulani. Katika programu, `affecting` sehemu ya mfumo ina maana kwamba mabadiliko katika eneo moja yanaweza kuathiri jinsi maeneo mengine yanavyofanya kazi.
+`To affect` znači imati uticaj ili delovati na nešto. U programiranju, `affecting` deo sistema znači da promene u jednom delu mogu uticati na način rada drugih delova.
 
-Kwa mfano, `Changing the database structure could affect the application's performance` inaonyesha kwamba marekebisho yanaweza kuathiri utendaji.
+Na primer, `Changing the database structure could affect the application's performance` pokazuje da izmene mogu uticati na performanse.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ Kwa mfano, `Changing the database structure could affect the application's perfo
 
 ### --feedback--
 
-Katika muktadha huu, inahusu athari inayoweza kutokea kutokana na mabadiliko ya Sophie kwenye sehemu nyingine za mfumo.
+U ovom kontekstu, odnosi se na mogući uticaj koji Sophiene promene mogu imati na druge delove sistema.
 
 ---
 
@@ -34,7 +34,7 @@ Katika muktadha huu, inahusu athari inayoweza kutokea kutokana na mabadiliko ya 
 
 ### --feedback--
 
-Hizi ni shughuli mbalimbali au vipengele vya mfumo ambavyo vinaweza kuathiriwa na mabadiliko hayo.
+Ovo su različite aktivnosti ili delovi sistema koji mogu biti pogođeni tim promenama.
 
 # --scene--
 

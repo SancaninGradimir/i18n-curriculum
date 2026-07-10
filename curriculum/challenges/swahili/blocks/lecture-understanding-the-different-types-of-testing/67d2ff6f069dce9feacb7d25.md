@@ -7,17 +7,17 @@ dashedName: what-is-compatibility-testing
 
 # --description--
 
-Unapojenga programu za mtandao kwa kiwango kikubwa, utahitaji kufikiria zaidi ya mazingira yako binafsi ya kompyuta. Je, programu hizi zitafanya kazi vipi kwenye vifaa mbalimbali, mifumo ya uendeshaji, na vivinjari? Hapa ndipo upimaji wa ulinganifu unapoingia.
+Kada pravite veb aplikacije velikog obima, moraćete da razmišljate šire od sopstvenog računarskog okruženja. Kako će ove aplikacije raditi na različitim uređajima, operativnim sistemima i pregledačima? Tu na scenu stupa testiranje kompatibilnosti.
 
 Cilj kompatibilnog testiranja je da se vidi kako vaše aplikacije rade dobro u različitim računarskim okruženjima. Ovo daje timovima mogućnost otkrivanja grešaka pre nego što stignu do produkcije i pomoći će u glatkom lansiranju proizvoda.
 
-Aina tofauti za upimaji wa ulinganifu ni pamoja na ulinganifu wa nyuma na wa mbele, upimaji wa vifaa, mifumo ya uendeshaji, mitandao, vivinjari, na vifaa vya mkononi.
+Različiti tipovi testiranja kompatibilnosti uključuju povratnu i buduću kompatibilnost, testiranje hardvera, operativnih sistema, mreža, pregledača i mobilnih uređaja.
 
-Tuchunguze kila aina kwa undani zaidi kwa kuanza na ulinganifu wa nyuma na wa mbele. Ulinganifu wa nyuma unahusu wakati programu za sasa zina ulinganifu na matoleo ya awali. Ulinganifu wa mbele ni wakati programu na mifumo zitakavyofanya kazi na matoleo ya baadaye ya programu hiyo yenyewe.
+Pogledajmo detaljnije svaki tip, počevši od povratne i buduće kompatibilnosti. Povratna kompatibilnost odnosi se na to kada trenutne aplikacije rade sa prethodnim verzijama. Buduća kompatibilnost znači da će aplikacije i sistemi raditi sa budućim verzijama samog softvera.
 
-Aina inayofuata ya upimaji ni kwa ajili ya vifaa. Upimaji wa ulinganifu wa vifaa unazingatia uwezo wa programu kufanya kazi ipasavyo katika usanidi tofauti wa vifaa. Hii ni pamoja na aina tofauti za prosesa, kumbukumbu, hifadhi, na kadi za picha.
+Sledeći tip testiranja odnosi se na hardver. Testiranje kompatibilnosti hardvera proverava sposobnost aplikacije da pravilno radi u različitim hardverskim konfiguracijama. To uključuje različite vrste procesora, memorije, skladišta i grafičkih kartica.
 
-Aina nyingine ya upimaji wa ulinganifu ni kwa mifumo ya uendeshaji. Hutaki kubuni programu inayofanya kazi vizuri kwenye vifaa vya Mac lakini ina hitilafu kwenye Windows au kinyume chake. Pia unahitaji kuzingatia usambazaji wa Linux kama Ubuntu na Fedora.
+Drugi tip testiranja kompatibilnosti odnosi se na operativne sisteme. Ne želite da napravite aplikaciju koja dobro radi na Mac uređajima, ali ima greške na Windows-u ili obrnuto. Takođe morate uzeti u obzir Linux distribucije kao što su Ubuntu i Fedora.
 
 Sljedeći faza testiranja je testiranje mrežne kompatibilnosti. Imaćete korisnike koji rade sa različitim brzinama mreže, protokolima, sigurnosnim podešavanjima i više. Stoga, razvojni timovi će morati da budu pažljivi u svim ovim različitim uslovima tokom testiranja.
 

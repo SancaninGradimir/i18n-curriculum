@@ -21,7 +21,7 @@ Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, 
 
 **Priča korisnika #3:** Kada unesem tekst u polje `#editor`, polje `#preview` se ažurira kada kucam kako bi prikazalo sadržaj u tekstualnom području.
 
-**Hadithi ya mtumiaji #4:** Ninapoingiza markdown yenye ladha ya GitHub kwenye kipengele cha `#editor`, maandishi yanaonyeshwa kama HTML kwenye kipengele cha `#preview` ninapoandika (KUNGA: Huna haja ya kuchambua Markdown mwenyewe - unaweza import maktaba ya Marked kwa hili: <https://cdnjs.com/libraries/marked>).
+**Korisnička priča #4:** Kada unesem GitHub Flavored Markdown u element `#editor`, tekst se prikazuje kao HTML u elementu `#preview` dok kucam (NAPOMENA: Ne morate sami da parsirate Markdown – možete uvesti biblioteku Marked za to: <https://cdnjs.com/libraries/marked>).
 
 **Priča korisnika #5:** Kada se moj pregledač Markdown-a pokrene prvi put, podrazumevani tekst u polju `#editor` bi trebalo da sadrži validan Markdown koji predstavlja najmanje jedan od sledećih elemenata: element naslova sekcije (veličina H1), podnaslov sekcije (veličina H2), link, inline kod, kodni isječak, element liste, citat sekcije, sliku i tekst sa podebljanjem.
 

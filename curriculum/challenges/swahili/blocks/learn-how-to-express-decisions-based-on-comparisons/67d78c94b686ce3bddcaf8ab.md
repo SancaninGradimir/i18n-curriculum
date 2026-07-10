@@ -24,7 +24,7 @@ Slušajte audio i dovršite sledeću rečenicu.
 
 ### --feedback--
 
-Maneno haya matatu pamoja yanamaanisha kupunguza muda unaohitajika kumaliza zoezi.
+Ovaj izraz od tri reči znači smanjiti vreme potrebno za završetak zadatka.
 
 ---
 
@@ -32,17 +32,17 @@ Maneno haya matatu pamoja yanamaanisha kupunguza muda unaohitajika kumaliza zoez
 
 ### --feedback--
 
-Neno hili kwa wingi linahusu ratiba au tarehe za mwisho za kumaliza mradi.
+Ova reč u množini odnosi se na rasporede ili rokove za završetak projekta.
 
 # --explanation--
 
 `Save us time` znači smanjiti vreme potrebno za završetak nečega i učiniti proces efikasnijim. Na primer:
 
-`Using automation tools can save us time on repetitive tasks.` – Hii inamaanisha zana za automatisering husaidia kumaliza kazi kwa haraka zaidi.
+`Using automation tools can save us time on repetitive tasks.` – To znači da alati za automatizaciju pomažu da se ponavljajući zadaci završe brže.
 
-`Timelines` zinahusu ratiba au tarehe za mwisho zinazoonyesha lini sehemu tofauti za mradi zinapaswa kumalizika. Kwa mfano:
+`Timelines` se odnose na rasporede ili rokove koji pokazuju kada različite faze projekta treba da budu završene. Na primer:
 
-`We need to adjust our timelines to finish the project on schedule.` – Hii inamaanisha kubadilisha tarehe za mwisho ili kuhakikisha mradi unamalizika kwa wakati. 
+`We need to adjust our timelines to finish the project on schedule.` – To znači da treba da prilagodimo rokove kako bismo završili projekat na vreme.
 
 # --scene--
 

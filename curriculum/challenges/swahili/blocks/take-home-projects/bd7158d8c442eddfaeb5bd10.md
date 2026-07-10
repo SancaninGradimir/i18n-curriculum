@@ -12,7 +12,7 @@ dashedName: show-the-local-weather
 
 **Serija #1:** Pogledajte kod projekta primera. Naučite sami.
 
-**Sera #2:** Timiza hadithi za mtumiaji zilizo hapa chini na upite mitihani yote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+**Pravilo #2:** Ispunite korisničke priče navedene u nastavku i prođite sve testove. Koristite bilo koju biblioteku ili API koji su vam potrebni. Dodajte svoj lični stil.
 
 **Korisnička priča:** Mogu da vidim vremenske prilike na svojoj trenutnoj lokaciji.
 
@@ -24,7 +24,7 @@ dashedName: show-the-local-weather
 
 Kada završiš zadatak, zalijepi link svog projekta na CodePen i klikni na dugme "Završio sam ovaj izazov".
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushirikisha kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Povratne informacije o svom projektu možete dobiti tako što ćete ga podeliti na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forumu</a>.
 
 # --solutions--
 

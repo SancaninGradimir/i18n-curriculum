@@ -16,7 +16,7 @@ Slušajte audio odgovor na pitanje ispod.
 
 ## --text--
 
-Anna anafikiri nini kuhusu mawazo ya James, na anapendekeza nini?
+Šta Anna misli o Jamesovim idejama i šta predlaže?
 
 ## --answers--
 
@@ -52,7 +52,7 @@ Anna ne preporučuje zaustavljanje; pomaže Jamesovim mislima i želi da prati i
 
 # --explanation--
 
-Anna anakubaliana na njia ya James, akisema `That makes sense`, ambayo inaonyesha anaelewa na kuunga mkono mawazo yake. Pia anapendekeza `keeping in touch to monitor progress`, kuonyesha nia yake ya kufuatilia maendeleo ili kuhakikisha wanatimiza malengo yao ya ufikikaji.
+Anna se slaže sa Jamesovim pristupom, govoreći `That makes sense`, što pokazuje da razume i podržava njegove ideje. Takođe predlaže `keeping in touch to monitor progress`, pokazujući želju da prati napredak kako bi bili sigurni da ispunjavaju ciljeve pristupačnosti.
 
 # --scene--
 

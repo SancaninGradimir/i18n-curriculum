@@ -7,7 +7,7 @@ dashedName: challenge-135
 
 # --description--
 
-Kutolewa mfuatano wa herufi unaowakilisha mstari wa somo la barua pepe, amua ni mara ngapi barua pepe hiyo imetumwa tena au kujibiwa.
+Dat je niz znakova koji predstavlja liniju predmeta email poruke, odredi koliko puta je taj email prosleđen ili na njega odgovoreno.
 
 Radi vaše udobnosti, obratite pažnju na e-mail koji je ponovo poslat ili odgovoren ako sekvenca karaktera sadrži jedan od sledećih znakova (bez obzira na to da li su slova velika ili mala):
 
@@ -15,7 +15,7 @@ Radi vaše udobnosti, obratite pažnju na e-mail koji je ponovo poslat ili odgov
 - `"fwd:"`
 - `"re:"`
 
-Rudisha jumla ya mara alama hizi zilipotokea.
+Vrati ukupan broj pojavljivanja ovih oznaka.
 
 # --hints--
 

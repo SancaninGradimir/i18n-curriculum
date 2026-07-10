@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-Kipengele cha `li` kinatumika kuunda kipengee cha orodha katika orodha iliyopangwa au isiyopangwa.
+Element `li` se koristi za kreiranje stavke liste u uređenoj ili neuređenoj listi.
 
-Hapa kuna mfano wa vipengee vya orodha katika orodha isiyopangwa:
+Evo primera stavki liste u neuređenoj listi:
 
 ```html
 <ul>
@@ -18,7 +18,7 @@ Hapa kuna mfano wa vipengee vya orodha katika orodha isiyopangwa:
 </ul>
 ```
 
-Ndani ya kipengele cha `ul`, panga ndani vipengee vitatu vya orodha kuonyesha vitu vitatu vinavyopendwa na paka:
+Unutar `ul` elementa, ugnjezdi tri stavke liste koje prikazuju tri omiljene stvari mačke:
 
 `catnip`
 
@@ -28,7 +28,7 @@ Ndani ya kipengele cha `ul`, panga ndani vipengee vitatu vya orodha kuonyesha vi
 
 # --hints--
 
-Unapaswa kuwa na vipengele vitatu vya `li`. Kila kipengele cha `li` kinapaswa kuwa na lebo yake ya kufungua na lebo ya kufunga.
+Treba da imaš tri `li` elementa. Svaki `li` element treba da ima svoju početnu i završnu oznaku.
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
@@ -46,7 +46,7 @@ assert.deepStrictEqual(
 );
 ```
 
-Vipengele vitatu vya `li` vinapaswa kuwekwa kati ya lebo ya kufungua na lebo ya kufunga ya kipengele cha `ul`.
+Tri `li` elementa treba da budu postavljena između početne i završne oznake `ul` elementa.
 
 ```js
 assert.lengthOf(

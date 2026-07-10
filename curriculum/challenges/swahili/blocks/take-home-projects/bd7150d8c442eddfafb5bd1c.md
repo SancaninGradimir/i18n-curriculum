@@ -20,15 +20,15 @@ Dopunite korisničke priče ispod i prođite sve testove. Koristite bilo koju bi
 
 **Priča korisnika:** Moj prijatelj kasnije može otići na isti web sajt, da napiše ime sobe u koju sam ja ušao, i pridruži se toj sobi, a zatim ući u video razgovor sa mnom.
 
-**Hadithi ya mtumiaji:** Ikiwa nitaandika jina la chumba, na tayari kuna watu wawili katika chumba hicho, nitapokea taarifa kwamba chumba kimejaa.
+**Korisnička priča:** Ako unesem ime sobe, a u toj sobi su već dve osobe, dobiću obaveštenje da je soba puna.
 
 **Priča korisnika:** Svako može kreirati ili se pridružiti bilo kojoj sobi. Može postojati bilo koji broj soba, ali sve moraju imati jedinstvena imena.
 
 **Priča korisnika:** Mogu izabrati da sprečim veb stranici pristup mikrofonu i kameri. Ako odlučim da ne dozvolim, ili ako postoji neki drugi problem sa drajverom, videću poruku o grešci koja kaže da je ovo važno.
 
-**Hadithi ya mtumiaji:** Ninapochagua kughairi hatua ya kuingiza jina la chumba, au ikiwa sitaandika jina lolote, au nitatoa nafasi tu, itaniuliza tena kuandika jina halali la chumba.
+**Korisnička priča:** Ako otkažem unos imena sobe, ne unesem ništa ili unesem samo razmake, biće zatraženo da ponovo unesem važeće ime sobe.
 
-**Hadithi ya mtumiaji:** Ikiwa mmoja wa watu wawili walioko chumbani atakatika, wanaweza kuunganishwa tena kwenye chumba hicho na kuendelea kuzungumza.
+**Korisnička priča:** Ako se jedna od dve osobe u sobi diskonektuje, može ponovo da se poveže u istu sobu i nastavi razgovor.
 
 Čim završite izvršavanje ovih korisničkih priča, unesite URL vašeg onlajn programa i, opcionalno, vašu bazu podataka GitHub. Zatim kliknite na dugme "Završio sam ovaj izazov".
 

@@ -47,7 +47,7 @@ assert.strictEqual(
 );
 ```
 
-Kipengele cha `img` cha Cats kinapaswa kuwa na sifa ya kipengele `alt` yenye thamani `Two tabby kittens sleeping together on a couch.`
+Element `img` sa mačkama treba da ima atribut `alt` sa vrednošću `Two tabby kittens sleeping together on a couch.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

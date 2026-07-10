@@ -37,7 +37,7 @@ Ovaj konektor povezuje srodne teme ili predmete.
 
 `Ask about` znači tražiti informacije vezane za određenu temu. Na primer:
 
-`I asked about the new feature.` – Ulitaka taarifa kuhusu kipengele.
+`I asked about the new feature.` – Tražio si informacije o novoj funkcionalnosti.
 
 `Can I ask you about...` je pristojan način za postavljanje pitanja kada vam treba informacija ili pomoć. Pokazuje da tražite dozvolu za razgovor o određenoj temi. Na primer:
 

@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-Ndani ya `tr` ya tatu, ongeza kipengele cha `th` chenye maandishi `Credit The outstanding balance on our credit card.`. Zungusha maandishi hayo, isipokuwa `Credit `, ndani ya kipengele cha `span` chenye sifa ya `class` iliyowekwa kuwa `description`.
+Unutar trećeg elementa `tr` dodaj element `th` sa tekstom `Credit Nepodmireni dug na našoj kreditnoj kartici.` Obuhvati sav tekst osim `Credit ` elementom `span` čiji je atribut `class` postavljen na `description`.
 
-Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kwa mpangilio: `$50`, `$50`, na `$75`. Toa sifa ya `td` yenye thamani ya `class` kwa kipengele cha tatu cha `current`.
+Ispod toga dodaj tri elementa `td` i postavi im sledeći tekst (redom): `$50`, `$50` i `$75`. Trećem elementu `td` postavi atribut `class` na `current`.
 
 # --hints--
 
@@ -46,7 +46,7 @@ assert.strictEqual(
 );
 ```
 
-Kipengele chako cha `span` kinapaswa kuwa na sifa ya kipengele ya `class` iliyowekwa kuwa `description`.
+Tvoj element `span` treba da ima atribut `class` postavljen na `description`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -84,7 +84,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[1]?.textContent.trim(), '$50');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na maandishi ya `$75`.
+Tvoj treći element `td` treba da sadrži tekst `$75`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];
@@ -93,7 +93,7 @@ const tableRow = tbody?.querySelectorAll('tr')?.[2];
 assert.strictEqual(tableRow?.querySelectorAll('td')?.[2]?.textContent.trim(), '$75');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na `class` iliyowekwa kuwa `current`.
+Tvoj treći element `td` treba da ima atribut `class` postavljen na `current`.
 
 ```js
 const table = document.querySelectorAll('table')?.[1];

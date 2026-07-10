@@ -8,7 +8,7 @@ dashedName: build-an-image-search-abstraction-layer
 
 # --description--
 
-Napravi kompletan program koji ti omogućava pretraživanje slika kao što je ovo: JavaScript inayokuwezesha kutafuta picha kama hii: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> i pregledavanje nedavne istorije pretrage kao što je ovo: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>. Koristi svoj omiljeni web-konstruktor da završiš ovaj projekat.
+Napravite kompletan program koji omogućava pretragu slika kao što je ova: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/query/lolcats%20funny?page=10</a> i pregled nedavne istorije pretrage kao što je ova: <a href="https://image-search-abstraction-layer.freecodecamp.rocks/recent/" target="_blank" rel="noopener noreferrer nofollow">https://image-search-abstraction-layer.freecodecamp.rocks/recent/</a>. Koristite svoj omiljeni veb razvojni okvir da završite ovaj projekat.
 
 Evo specifičnih priča korisnika koje morate implementirati za ovaj projekat:
 

@@ -7,13 +7,13 @@ dashedName: what-is-margin-collapsing
 
 # --interactive--
 
-Margin collapsing ni dhana msingi katika CSS ambayo mara nyingi huwatatiza wanaoanza katika ukuzaji wa mtandao.
+Collapsing margina je osnovni CSS koncept koji često zbunjuje početnike u veb razvoju.
 
 Ova karakteristika nastaje kada vertikalne ivice susednih elemenata interaguju, stvarajući samo jednu ivicu koja je jednaka najvećoj od dve te ivice.
 
-Kuelewa margin collapsing ni muhimu kwa udhibiti sahihi wa nafasi na mpangilio katika muundo wa mtandao. Hivyo, tuangalie jinsi margin collapsing inavyofanya kazi na kuchunguza baadhi ya hali za kawaida ambapo hutokea.
+Razumevanje collapsing margina je važno za pravilnu kontrolu razmaka i rasporeda u veb dizajnu. Zato hajde da pogledamo kako funkcioniše i istražimo neke uobičajene situacije u kojima se javlja.
 
-Katika CSS, wakati kingo mbili za wima zinapokutana, zitagongana, hii inamaanisha badala ya kujumlishwa, kando kubwa ndilo linalotawala na kuamua nafasi kati ya vipengele. Tabia hii inahusu tu kingo za wima (juu na chini) na si za usawa (kushoto na kulia). Hapa kuna mfano wa kuelezea dhana hii:
+U CSS-u, kada se dve vertikalne margine dodirnu, one se spajaju. To znači da se umesto sabiranja primenjuje veća margina, koja određuje razmak između elemenata. Ovo ponašanje važi samo za vertikalne margine (gornju i donju), a ne za horizontalne (levu i desnu). Evo primera koji objašnjava ovaj koncept:
 
 :::interactive_editor
 
@@ -37,9 +37,9 @@ Katika CSS, wakati kingo mbili za wima zinapokutana, zitagongana, hii inamaanish
 
 U ovom primeru, možete pretpostaviti da je ukupni prostor između `.box1` i `.box2` od 50 piksela (20 piksela plus 30). Međutim, zbog kolaps margina, stvarni prostor će biti od 30 piksela, što je veći razmak između ta dva.
 
-Kama tulivyoona katika mfano uliopita, kingo za vipengele vinavyopakana zitagongana. Hii ni kesi rahisi kabisa ya margin collapsing. Tuchunguze zaidi hali ambapo margin collapsing inaweza kutokea.
+Kao što smo videli u prethodnom primeru, margine susednih elemenata se spajaju. To je najjednostavniji slučaj collapsing margina. Pogledajmo još neke situacije u kojima može doći do njihovog spajanja.
 
-Kingo pia zinaweza kugongana kati ya kipengele mzazi na mtoto wake wa kwanza au wa mwisho. Ikiwa hakuna mpaka, nafasi ya ndani, maudhui ndani ya mstari, au utulivu wa kuwatenganisha kingo za mzazi na mtoto, zitagongana.
+Margine se takođe mogu spojiti između roditeljskog elementa i njegovog prvog ili poslednjeg deteta. Ako nema ivice, unutrašnjeg razmaka, sadržaja u liniji ili razmaka koji ih razdvaja, njihove margine će se spojiti.
 
 :::interactive_editor
 
@@ -64,7 +64,7 @@ Kingo pia zinaweza kugongana kati ya kipengele mzazi na mtoto wake wa kwanza au 
 
 U ovom slučaju, možete pretpostaviti da dete ima prostor od 70 piksela odozgo (pikseli 40 plus 30). Međutim, ivice se sudaraju sa većom stranom od 40 piksela, i ona je korišćena.
 
-Kama kipengele hakina maudhui, nafasi ya ndani, au mpaka, kingo zake za juu na chini zinaweza kugongana na kuwa kando moja.
+Ako element nema sadržaj, unutrašnji razmak ili ivicu, njegove gornja i donja margina mogu se spojiti u jednu marginu.
 
 :::interactive_editor
 
@@ -86,9 +86,9 @@ Kama kipengele hakina maudhui, nafasi ya ndani, au mpaka, kingo zake za juu na c
 
 :::
 
-Katika mfano huu, kingo za juu na chini za `empty-block` zinagongana na kuwa kando moja ya pikseli 20, kubwa zaidi kati ya hizo mbili.
+U ovom primeru, gornja i donja margina elementa `empty-block` spajaju se u jednu marginu od 20 piksela, odnosno veću od te dve vrednosti.
 
-Hapa kuna mfano wa kuzuia mgongano kwa kutumia nafasi ya ndani:
+Evo primera kako sprečiti spajanje margina pomoću unutrašnjeg razmaka:
 
 :::interactive_editor
 

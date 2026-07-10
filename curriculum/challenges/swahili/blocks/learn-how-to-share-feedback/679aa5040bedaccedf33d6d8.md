@@ -27,7 +27,7 @@ Zato što bi učinilo odluke brže.
 
 ### --feedback--
 
-Brian hasemi kwamba makubaliano ni ya manufaa.
+Brian ne kaže da je saglasnost uvek korisna.
 
 ---
 
@@ -43,7 +43,7 @@ Kwa sababu hakuna mtu angegawisha maoni yao.
 
 ### --feedback--
 
-Brian hasemi kuhusu watu kukataa kugawisha maoni yao.
+Brian ne govori o tome da ljudi odbijaju da dele svoja mišljenja.
 
 ## --video-solution--
 
@@ -51,7 +51,7 @@ Brian hasemi kuhusu watu kukataa kugawisha maoni yao.
 
 # --explanation--
 
-Muundo `if + verb in the Simple Past` ukifuatiwa na `might` katika kifungu cha matokeo hutumika kuelezea hali ya dhana yenye matokeo yanayowezekana. Kwa mfano:
+Obrazac `if + Simple Past`, praćen glagolom `might` u glavnoj rečenici, koristi se za izražavanje hipotetičke situacije sa mogućom posledicom. Na primer:
 
 `If you studied more, you might pass the exam.` - Ovo znači da postoji mogućnost prolaska ako neko nauči više.
 

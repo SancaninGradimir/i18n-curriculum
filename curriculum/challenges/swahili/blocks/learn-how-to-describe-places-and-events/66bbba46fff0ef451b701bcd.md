@@ -46,7 +46,7 @@ Da, ali samo na kratko vrijeme zato što ima svoje probleme.
 
 ### --feedback--
 
-Sarah haweka kikomo cha muda; anasema tu kwamba hana shughuli.
+Sarah ne navodi vremensko ograničenje; samo kaže da trenutno nije zauzeta.
 
 ## --video-solution--
 
@@ -54,9 +54,9 @@ Sarah haweka kikomo cha muda; anasema tu kwamba hana shughuli.
 
 # --explanation--
 
-Badala ya kusema moja kwa moja kwamba yuko huru, Sarah anatumia aina hasi `I'm not busy` kuonyesha kwamba ana wakati wa kusaidia.
+Umesto da direktno kaže da je slobodna, Sarah koristi negativan oblik `I'm not busy` kako bi pokazala da ima vremena da pomogne.
 
-Hii ni njia ya heshima na isiyo ya moja kwa moja ya kutoa upatikanaji kwa Kiingereza, inayotumika sana kufanya mazungumzo kuwa na adabu zaidi.
+Ovo je učtiv i indirektan način da se na engleskom jeziku pokaže dostupnost, koji se često koristi kako bi razgovor zvučao ljubaznije.
 
 Njegova sledeća rečenica, `What's the problem?`, potvrđuje da je spreman da pomogne pozivanjem Toma da objasni problem.
 

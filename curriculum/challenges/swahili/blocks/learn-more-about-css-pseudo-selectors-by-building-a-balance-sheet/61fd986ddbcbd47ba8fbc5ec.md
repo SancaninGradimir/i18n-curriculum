@@ -9,11 +9,11 @@ dashedName: step-23
 
 Unutar trećeg `tr`, dodaj element sa `th` koji ima tekst `Credit The outstanding balance on our credit card.`. Umoteriš taj tekst, osim `Credit `, unutar elementa sa `span` koji ima atribut `class` postavljen na `description`.
 
-Ongeza vipengele vitatu vya `td` chini ya hicho, na uwape maandishi yafuatayo kwa mpangilio: `$50`, `$50`, na `$75`. Toa sifa ya `td` yenye thamani ya `class` kwa kipengele cha tatu cha `current`.
+Dodaj tri elementa `td` ispod njega i dodeli im sledeći tekst redom: `$50`, `$50` i `$75`. Trećem elementu `td` dodaj atribut `class` sa vrednošću `current`.
 
 # --hints--
 
-`tr` yako ya tatu inapaswa kuwa na kipengele cha `th`.
+Tvoj treći element `tr` treba da sadrži element `th`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelector('th'));
@@ -49,7 +49,7 @@ Prvi deo vašeg `td` treba da sadrži tekst `$50`.
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[0]?.textContent === '$50');
 ```
 
-Kipengele chako cha pili cha `td` kinapaswa kuwa na maandishi ya `$50`.
+Tvoj drugi element `td` treba da sadrži tekst `$50`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[1]?.textContent === '$50');
@@ -61,7 +61,7 @@ Vaš treći element od `td` mora imati tekst `$75`.
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.textContent === '$75');
 ```
 
-Kipengele chako cha tatu cha `td` kinapaswa kuwa na sifa ya `class` iliyowekwa kuwa `current`.
+Tvoj treći element `td` treba da ima atribut `class` postavljen na `current`.
 
 ```js
 assert(document.querySelectorAll('table')?.[1]?.querySelector('tbody')?.querySelectorAll('tr')?.[2]?.querySelectorAll('td')?.[2]?.classList?.contains('current'));

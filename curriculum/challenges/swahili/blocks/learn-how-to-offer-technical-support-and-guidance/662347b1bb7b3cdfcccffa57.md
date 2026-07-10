@@ -6,13 +6,13 @@ dashedName: task-50
 lang: en-US
 ---
 
-<!-- (Audio) Brian: Sophie, I heard you're working on fixing that bug in the user authentication module. Need any help? -->
+<!-- (Audio) Brian: Sophie, čuo sam da radiš na popravljanju greške u modulu za autentifikaciju korisnika. Da li ti treba pomoć? -->
 
 # --description--
 
-`Heard` ni wakati uliopita wa kitenzi `to hear`, ambalo lina maana ya kupata taarifa kuhusu jambo kupitia masikio au kufahamishwa kuhusu jambo fulani. Kwa mfano, `I heard the news yesterday` ina maana ulipata taarifa za habari siku iliyopita.
+`Heard` je prošlo vreme glagola `to hear`, koji znači dobiti informaciju o nečemu putem sluha ili biti obavešten o nečemu. Na primer, `I heard the news yesterday` znači da si dobio informaciju o vestima prethodnog dana.
 
-`authentication module` katika muktadha wa programu ni sehemu ya mfumo inayohusika na kuthibitisha utambulisho wa watumizi. Mara nyingi hutumika katika mifumo ya kuingia (login). Kwa mfano, `The authentication module checks the username and password` ina maana inathibitisha sifa za mtumizi.
+`authentication module` u kontekstu programiranja je deo sistema odgovoran za proveru identiteta korisnika. Često se koristi u sistemima za prijavljivanje (login). Na primer, `The authentication module checks the username and password` znači da proverava korisničke podatke.
 
 # --fillInTheBlank--
 
@@ -26,7 +26,7 @@ lang: en-US
 
 ### --feedback--
 
-Ni wakati uliopita wa `to hear`, unaoonyesha Brian alifahamishwa kuhusu zoezi la Sophie.
+To je prošlo vreme glagola `to hear`, koje pokazuje da je Brian dobio informaciju o Sophienom zadatku.
 
 ---
 

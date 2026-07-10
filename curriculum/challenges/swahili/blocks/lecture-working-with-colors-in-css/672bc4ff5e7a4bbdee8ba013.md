@@ -24,7 +24,7 @@ p {
 
 :::
 
-Katika mfano huu, tunatumia rangi iliyotajwa kwa jina `red` kupamba maandishi katika aya.
+U ovom primeru koristimo imenovanu boju `red` za stilizovanje teksta u pasusu.
 
 Boje navedene po imenu u CSS su kolekcija od 140 standardnih imena boja kao što su `red`, `blue`, `yellow`, `aqua`, `fuchsia`, `black`, itd. Ova imena su laka za upotrebu i čine vaš kod čitljivijim, a takođe opisuju sebe.
 
@@ -48,7 +48,7 @@ h1 {
 
 U ovom primeru, tekst zaglavlja sekcije će biti obojen tamno plavom bojom, a pozadina će imati svetlo sivu boju. Čitljivost koda je poboljšana jer navedene boje pružaju brzo razumevanje nameravanog stila.
 
-Rangi zilizotajwa kwa jina katika CSS ni rahisi lakini zina mipaka, kwa kuwa kuna chaguzi 140 tu zinazopatikana. Huenda zisitoe kivuli sahihi kinachohitajika kwa miundo ya kina zaidi.
+Imenovane boje u CSS-u su jednostavne za korišćenje, ali imaju ograničenja, jer postoji samo 140 dostupnih boja. Možda neće pružiti tačnu nijansu potrebnu za složenije dizajne.
 
 Boje pomenute po imenu u CSS su dobar način za brzo i razumljivo korišćenje boja. Iako su važne za osnovne strukture, kreiranje primera i poboljšanje čitljivosti koda, njihov ograničen opseg čini ih neprikladnim za složene strukture koje zahtevaju preciznu kontrolu boja.
 
@@ -58,7 +58,7 @@ Da biste razumeli snagu i granice boja koje su nazvane, možete odlučiti kada j
 
 ## --text--
 
-Ni faida gani kuu ya kutumia rangi zilizotajwa kwa jina katika CSS?
+Koja je glavna prednost korišćenja imenovanih boja u CSS-u?
 
 ## --answers--
 
@@ -66,7 +66,7 @@ Boje pomenute po imenu omogućavaju vam da kreirate mešavinu boja.
 
 ### --feedback--
 
-Fikiria kuhusu urahisi na usomaji wa rangi zilizotajwa kwa jina.
+Razmisli o jednostavnosti i čitljivosti imenovanih boja.
 
 ---
 

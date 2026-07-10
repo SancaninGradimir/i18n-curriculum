@@ -49,7 +49,7 @@ ENc50c4990
 
 - **Msanidi programu:** `We should optimize the code before adding new features to avoid performance issues.`
 
-- **Msimamizi:** `That makes sense. A slow app will frustrate users.` - Mtu huyu anakubaliana na anaelewa kwa nini kuboresha msimbo kwanza ni wazo zuri.
+- **Menadžer:** `That makes sense. A slow app will frustrate users.` — To ima smisla. Spora aplikacija će frustrirati korisnike.
 
 # --scene--
 

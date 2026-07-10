@@ -16,23 +16,23 @@ Merenja zahtevaju kreiranje ose korišćenjem D3 atributa ose, koji stvara marke
 
 **Priče korisnika:**
 
-1. Chati yako inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `g` cha mhimili wa x chenye `id="x-axis"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `g` cha mhimili wa y chenye `id="y-axis"` inayolingana.
-1. Mhimili yote miwili inapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `circle` kwa kila nukta ya data chenye `class="dot"` inayowakilisha data.
-1. Kila `.dot` inapaswa kuwa na sifa za `data-xvalue` na `data-yvalue` zenye thamani za `year` na `time`. Kwa `data-xvalue`, nambari kamili (miaka kamili) au vitu vya tarehe vinakubalika kwa tathmini ya kipimo. Kwa `data-yvalue` (dakika), tumia vitu vya tarehe.
-1. Sifa za `.dot` za vipengele vya `data-xvalue` zinapaswa kuendana na mpangilio wa data iliyotolewa.
-1. Sifa za `.dot` za vipengele vya `data-yvalue` zinapaswa kuendana na mpangilio wa data iliyotolewa.
-1. Kila kipengele cha `.dot` kinapaswa kuendana na thamani inayolingana kwenye mhimili wa x.
-1. Kila kipengele cha `.dot` kinapaswa kuendana na thamani inayolingana kwenye mhimili wa y.
-1. Inapaswa kuwepo na lebo nyingi za alama za kupigia kwenye mhimili wa y zenye muundo wa wakati wa `%M:%S`.
-1. Inapaswa kuwepo na lebo nyingi za alama za kupigia kwenye mhimili wa x zinazoonyesha mwaka.
-1. Eneo la lebo za mhimili wa x linapaswa kuwa ndani ya eneo la data halisi ya mhimili wa x.
-1. Eneo la lebo za mhimili wa y linapaswa kuwa ndani ya eneo la data halisi ya mhimili wa y.
-1. Inapaswa kuwepo na hadithi zenye maandishi ya maelezo yenye `id="legend"`.
-1. Unapaswa kuweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
-1. Kidokezo chako cha muda kinapaswa kuwa na sifa ya `data-year` inayolingana na `data-xvalue` ya eneo linalofanya kazi.
+1. Vaš grafikon treba da ima naslov sa odgovarajućim `id="title"`.
+1. Vaš grafikon treba da ima `g` element za x-osu sa odgovarajućim `id="x-axis"`.
+1. Vaš grafikon treba da ima `g` element za y-osu sa odgovarajućim `id="y-axis"`.
+1. Obe ose treba da imaju više oznaka podeoka, pri čemu svaka ima odgovarajući `class="tick"`.
+1. Vaš grafikon treba da ima po jedan `circle` element za svaku tačku podataka sa `class="dot"` koji predstavlja podatke.
+1. Svaki `.dot` treba da ima atribute `data-xvalue` i `data-yvalue` sa vrednostima `year` i `time`. Za `data-xvalue` prihvatljivi su celi brojevi (godine) ili Date objekti za potrebe testiranja. Za `data-yvalue` (minute) koristite Date objekte.
+1. Atributi `data-xvalue` elemenata `.dot` treba da odgovaraju redosledu dostavljenih podataka.
+1. Atributi `data-yvalue` elemenata `.dot` treba da odgovaraju redosledu dostavljenih podataka.
+1. Svaki `.dot` element treba da odgovara odgovarajućoj vrednosti na x-osi.
+1. Svaki `.dot` element treba da odgovara odgovarajućoj vrednosti na y-osi.
+1. Treba da postoji više oznaka podeoka na y-osi formatiranih kao vreme u formatu `%M:%S`.
+1. Treba da postoji više oznaka podeoka na x-osi koje prikazuju godinu.
+1. Oblast oznaka x-ose treba da bude unutar stvarne oblasti podataka x-ose.
+1. Oblast oznaka y-ose treba da bude unutar stvarne oblasti podataka y-ose.
+1. Treba da postoji legenda sa opisnim tekstom i `id="legend"`.
+1. Trebalo bi da možete da pređete mišem preko oblasti i vidite tooltip sa `id="tooltip"` koji prikazuje dodatne informacije o toj oblasti.
+1. Vaš tooltip treba da ima atribut `data-year` koji odgovara `data-xvalue` vrednosti aktivne oblasti.
 
 # --before-all--
 

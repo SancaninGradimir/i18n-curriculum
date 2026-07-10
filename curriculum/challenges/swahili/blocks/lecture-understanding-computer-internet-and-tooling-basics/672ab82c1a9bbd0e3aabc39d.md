@@ -23,11 +23,11 @@ Drugi savet je da postavite miš na istu visinu kao tastatura. Ne želite da se�
 
 Takođe bi trebalo da paziš na svoju opštu držanju kada sediš pred računarom dugo vremena. Sedeti savijen ka računaru i stavljanje zapešća u neprirodnu poziciju na tastaturi može izazvati zdravstvene probleme dugoročno.
 
-Ingawa kudumisha mkao mzuri ni muhimu, ergonomics ya kisasa inasisitiza umuhimu wa mwendo na kukaa kwa mabadiliko. Mwili wa binadamu umeundwa kwa ajili ya mwendo, na kukaa katika mkao wowote wa kudumu, hata mkao wa moja kwa moja, kwa muda mrefu kunaweza kuweka shinikizo endelevu kwenye mgongo. Kuchukua mapumziko ya mara kwa mara, kubadilisha mkao wako siku nzima, na kudumisha mkao wa asili wa kifundo cha mkono kunaweza kusaidia kuboresha mzunguko wa damu, kupunguza uchovu, na kuunga mkono afya ya mgongo kwa muda mrefu.
+Iako je održavanje pravilnog držanja važno, savremena ergonomija naglašava značaj kretanja i promene položaja. Ljudsko telo je stvoreno za kretanje, a dugotrajno zadržavanje bilo kog položaja, čak i uspravnog, može stvarati stalan pritisak na kičmu. Pravljenje redovnih pauza, menjanje položaja tokom dana i održavanje prirodnog položaja ručnih zglobova može poboljšati cirkulaciju, smanjiti umor i dugoročno doprineti zdravlju kičme.
 
-Ushauri wa mwisho ni kutumia njia za mkato za kibodi inapowezekana kusaidia kupunguza kuandika. Kuna njia nyingi za mkato zinazopatikana kwa kazi kama kuvinjari mtandao, kuvinjari mfumo wako wa uendeshaji, kufanya kazi ndani ya mhariri wa msimbo, na zaidi. Kwa hivyo, ni vyema kufanya utafiti kuhusu baadhi ya njia hizi za mkato za kibodi na kuanza kuzitumia katika matumizi yako ya kila siku ya kompyuta.
+Poslednji savet je da koristiš prečice na tastaturi kad god je to moguće kako bi smanjio količinu kucanja. Postoji mnogo prečica za zadatke kao što su pregledanje interneta, korišćenje operativnog sistema, rad u uređivaču koda i drugo. Zato vredi istražiti neke od tih prečica i početi da ih koristiš u svakodnevnom radu na računaru.
 
-Unapoendelea kutumia panya na kibodi yako kwa miradi ya uandishi wa msimbo na shughuli nyingine zijazo, kumbuka kuweka haya maelekezo ya kiafya akilini.
+Dok budeš nastavljao da koristiš miš i tastaturu za programiranje i druge aktivnosti, imaj ove savete za očuvanje zdravlja na umu.
 
 # --questions--
 

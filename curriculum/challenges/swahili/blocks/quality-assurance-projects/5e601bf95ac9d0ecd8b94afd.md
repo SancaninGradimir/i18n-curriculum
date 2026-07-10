@@ -17,18 +17,18 @@ Jenga programu kamili ya JavaScript inayofanya kazi kama hii: <a href="https://s
 
 - Mantiq ya fumbo yote inaweza kuwekwa ndani ya `/controllers/sudoku-solver.js`
   - Kitendakazi cha `validate` kinapaswa kuchukua mfuatano wa herufi wa fumbo uliotolewa na kukagua kama una herufi halali 81 kwa ajili ya ingizo.
-  - Njia za `check` zinapaswa kuthibitisha dhidi ya hali *ya sasa* ya ubao.
-  - Kitendakazi cha `solve` kinapaswa kushughulikia kutatua fumbo lolote halali lililotolewa, si tu ingizo za mtihani na suluhisho. Unatarajiwa kuandika mantiq ya kutatua hili.
-- Mantiq yote ya njia za maelekezo inaweza kuwekwa ndani ya `/routes/api.js`
-- Tazama faili la `puzzle-strings.js` katika `/controllers` kwa fumbo za mfano ambazo programu yako inapaswa kutatua
-- Ili kuendesha mitihani ya changamoto kwenye ukurasa huu, weka `NODE_ENV` kuwa `test` bila nukuu katika faili la `.env`
-- Ili kuendesha mitihani kwenye konsoli, tumia amri `npm run test`.
+Check metode treba da proveravaju u odnosu na *trenutno* stanje table.
+Funkcija `solve` treba da rešava bilo koju ispravnu Sudoku zagonetku, a ne samo test primere i njihova rešenja. Očekuje se da sami napišete logiku za rešavanje.
+Sva logika API ruta može da se nalazi u `/routes/api.js`.
+Pogledajte datoteku `puzzle-strings.js` u direktorijumu `/controllers` za primere zagonetki koje vaša aplikacija treba da rešava.
+Da biste pokrenuli testove za ovaj izazov, postavite `NODE_ENV` na `test` (bez navodnika) u datoteci `.env`.
+Da biste pokrenuli testove u konzoli, koristite komandu `npm run test`.
 
 Napišite sledeće ispite u `tests/1_unit-tests.js`:
 
--   Mantiq inashughulikia mfuatano wa fumbo halali wa herufi 81
--   Mantiq inashughulikia mfuatano wa fumbo wenye herufi zisizo halali (si 1-9 au `.`)
--   Mantiq inashughulikia mfuatano wa fumbo usio na urefu wa herufi 81
+Logika treba da obrađuje ispravan string zagonetke od 81 karaktera.
+Logika treba da obrađuje string zagonetke sa neispravnim karakterima (nisu `1-9` ili `.`).
+Logika treba da obrađuje string zagonetke koji nema dužinu od 81 karaktera.
 -   Mantiq inashughulikia kuweka halali kwa safu
 -   Mantiq inashughulikia kuweka batili kwa safu
 -   Mantiq inashughulikia kuweka halali kwa nguzo
@@ -58,7 +58,7 @@ Napišite sledeće ispite u `tests/2_functional-tests.js`
 
 # --hints--
 
-Unapaswa kutoa mradi wako mwenyewe, si URL ya mfano.
+Možete poslati svoj projekat, nije neophodno da koristite primer URL.
 
 ```js
   const url = code;
@@ -82,7 +82,7 @@ Možete `POST` `/api/solve` i podatke forme koji sadrže `puzzle`, koji će biti
   assert.equal(parsed.solution, output);
 ```
 
-Ikiwa kitu kilichowasilishwa kwa `/api/solve` kinakosa `puzzle`, thamani iliyorejeshwa itakuwa `{ error: 'Required field missing' }`
+Ako zahtev za `/api/solve` ne sadrži polje `puzzle`, treba vratiti `{ error: 'Required field missing' }`.
 
 ```js
   const input =
@@ -98,7 +98,7 @@ Ikiwa kitu kilichowasilishwa kwa `/api/solve` kinakosa `puzzle`, thamani iliyore
   assert.equal(parsed.error, output);
 ```
 
-Ikiwa fumbo lililowasilishwa kwa `/api/solve` lina thamani zisizo nambari au nukta, thamani iliyorejeshwa itakuwa `{ error: 'Invalid characters in puzzle' }`
+Ako zagonetka poslata na `/api/solve` sadrži neispravne karaktere (nisu brojevi ili `.`), treba vratiti `{ error: 'Invalid characters in puzzle' }`.
 
 ```js
   const input =

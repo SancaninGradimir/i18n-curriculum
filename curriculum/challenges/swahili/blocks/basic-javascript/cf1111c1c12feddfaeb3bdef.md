@@ -46,13 +46,13 @@ Napravite `if` iskaz unutar funkcije koji vraca `Yes, that was true` ako je prom
 assert(typeof trueOrFalse === 'function');
 ```
 
-`trueOrFalse(true)` inapaswa kurudisha mfuatano wa herufi
+`trueOrFalse(true)` treba da vrati string
 
 ```js
 assert(typeof trueOrFalse(true) === 'string');
 ```
 
-`trueOrFalse(false)` inapaswa kurudisha mfuatano wa herufi
+`trueOrFalse(false)` treba da vrati string
 
 ```js
 assert(typeof trueOrFalse(false) === 'string');

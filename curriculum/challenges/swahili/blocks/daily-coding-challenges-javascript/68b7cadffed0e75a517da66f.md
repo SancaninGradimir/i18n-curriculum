@@ -1,13 +1,13 @@
 ---
 id: 68b7cadffed0e75a517da66f
-title: "Zoezi la 50: Neno refu zaidi"
+title: "Vežba 50: Najduža reč"
 challengeType: 28
 dashedName: challenge-50
 ---
 
 # --description--
 
-Ukitoa sentensi, rudisha neno refu zaidi katika sentensi hiyo.
+Ako je data rečenica, vrati najdužu reč u toj rečenici.
 
 - Ignorišite interpunkcijske znakove (`.`) prilikom određivanja dužine reči.
 - Ako više reči ima istu dužinu kao najduža reč, vratite prvu naiđenu reč.
@@ -26,7 +26,7 @@ assert.equal(getLongestWord("coding is fun"), "coding");
 assert.equal(getLongestWord("Coding challenges are fun and educational."), "educational");
 ```
 
-`getLongestWord("This sentence has multiple long words.")` inapaswa kurudisha `"sentence"`.
+`getLongestWord("This sentence has multiple long words.")` treba da vrati `"sentence"`.
 
 ```js
 assert.equal(getLongestWord("This sentence has multiple long words."), "sentence");

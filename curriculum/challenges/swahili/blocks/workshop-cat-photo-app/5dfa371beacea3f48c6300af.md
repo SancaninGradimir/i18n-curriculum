@@ -48,7 +48,7 @@ assert.equal(
 );
 ```
 
-Inapaswa kuwepo kipengele cha `h2` chenye maandishi ya `Cat Lists` juu ya kipengele cha `h3` cha mwisho kilichopangwa ndani ya kipengele cha `section` cha mwisho. Huenda umefuta kipengele cha `h2` kwa bahati mbaya.
+Treba da postoji `h2` element sa tekstom `Cat Lists` iznad poslednjeg `h3` elementa koji se nalazi unutar poslednjeg `section` elementa. Možda si slučajno obrisao `h2` element.
 
 ```js
 const secondSectionLastElemNode = document.querySelectorAll('main > section')[1]

@@ -16,19 +16,19 @@ Grafici zahtevaju da se osa kreira korišćenjem D3 ose svojstva, što stvara ma
 
 **Priče korisnika:**
 
-1. Chati yako inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `g` mhimili wa x chenye `id="x-axis"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `g` mhimili wa y chenye `id="y-axis"` inayolingana.
-1. Mhimili yote miwili inapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
-1. Chati yako inapaswa kuwa na kipengele cha `rect` kwa kila nukta ya data chenye `class="bar"` inayonyesha data.
-1. Kila `.bar` inapaswa kuwa na sifa za `data-date` na `data-gdp` zenye thamani za `date` na `GDP`.
-1. Sifa za `.bar` za vipengele vya `data-date` zinapaswa kuendana na mpangilio wa data iliyotolewa.
-1. Sifa za `.bar` za vipengele vya `data-gdp` zinapaswa kuendana na mpangilio wa data iliyotolewa.
-1. Kila urefu wa kipengele cha `.bar` unapaswa kuwakilisha kwa usahihi `GDP` inayolingana ya data.
-1. Sifa ya `data-date` na kipengele chake cha `.bar` vinapaswa kuendana na thamani inayolingana kwenye mhimili wa x.
-1. Sifa ya `data-gdp` na kipengele chake cha `.bar` vinapaswa kuendana na thamani inayolingana kwenye mhimili wa y.
-1. Unapaswa kuweza kupeleka kipanya juu ya eneo na kuona kidokezo cha muda chenye `id="tooltip"` kinachoonyesha taarifa zaidi kuhusu eneo hilo.
-1. Kidokezo chako cha muda kinapaswa kuwa na sifa ya `data-date` inayolingana na `data-date` ya eneo linalofanya kazi.
+1. Tvoj grafikon treba da ima naslov sa odgovarajućim `id="title"`.
+1. Tvoj grafikon treba da ima `g` element za x-osu sa odgovarajućim `id="x-axis"`.
+1. Tvoj grafikon treba da ima `g` element za y-osu sa odgovarajućim `id="y-axis"`.
+1. Obe ose treba da imaju više oznaka podeoka, pri čemu svaka ima odgovarajuću klasu `class="tick"`.
+1. Tvoj grafikon treba da ima po jedan element `rect` za svaku tačku podataka sa klasom `class="bar"` koji predstavlja podatke.
+1. Svaki element `.bar` treba da ima atribute `data-date` i `data-gdp` sa vrednostima `date` i `GDP`.
+1. Atributi `data-date` elemenata `.bar` treba da odgovaraju redosledu dostavljenih podataka.
+1. Atributi `data-gdp` elemenata `.bar` treba da odgovaraju redosledu dostavljenih podataka.
+1. Visina svakog elementa `.bar` treba tačno da predstavlja odgovarajuću vrednost `GDP`.
+1. Atribut `data-date` i njegov element `.bar` treba da odgovaraju odgovarajućoj vrednosti na x-osi.
+1. Atribut `data-gdp` i njegov element `.bar` treba da odgovaraju odgovarajućoj vrednosti na y-osi.
+1. Trebalo bi da možeš da pređeš mišem preko stubca i vidiš opis (tooltip) sa `id="tooltip"` koji prikazuje dodatne informacije o tom stubcu.
+1. Tvoj tooltip treba da ima atribut `data-date` koji odgovara `data-date` atributu aktivnog stubca.
 
 # --before-all--
 

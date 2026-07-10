@@ -1,6 +1,6 @@
 ---
 id: 691f7773cddba1caf1bf5ecc
-title: "Zoezi la 133: Saa za mwanga wa mchana"
+title: "Vežba 133: Sati dnevnog svetla"
 challengeType: 28
 dashedName: challenge-133
 ---

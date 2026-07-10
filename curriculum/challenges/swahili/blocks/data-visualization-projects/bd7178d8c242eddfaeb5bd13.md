@@ -37,7 +37,7 @@ Možete koristiti HTML, JavaScript, CSS, sa D3 SVG bibliotekom za prikaz. Grafic
 
 **Priča korisnika #12:** Vidim da raspon oznaka Y-oseča je unutar raspona stvarnih podataka Y-oseča.
 
-**Hadithi ya mtumiaji #13:** Naona hadithi yenye maandishi ya maelezo yenye `id="legend"`.
+**Korisnička priča #13:** Vidim legendu sa opisnim tekstom koja ima `id="legend"`.
 
 **Priča korisnika #14:** Mogu preći mišem preko područja i videti privremeni tooltip sa `id="tooltip"` koji prikazuje više informacija o tom području.
 
@@ -47,7 +47,7 @@ Ovo je skup podataka koji će vam zatrebati za završetak ovog projekta: `https:
 
 Možete izgraditi svoj projekat sa <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">koristeći ovaj CodePen šablon</a> i klikom na `Save` da kreirate svoj Pen. Ili možete koristiti ovaj CDN link da pokrenete demonstraciju u bilo kom okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Kada završiš, pošalji URL svog funkcionalnog projekta sa svim uspešno položenim testovima.
 
 # --solutions--
 

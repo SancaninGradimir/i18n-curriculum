@@ -1,15 +1,15 @@
 ---
 id: 67e2a513dbffdc8dcf1700af
-title: Ni Nini `useOptimistic` Hook, na Inafanya Kazi Gani?
+title: Šta je hook `useOptimistic` i kako funkcioniše?
 challengeType: 19
 dashedName: what-is-the-useoptimistic-hook-and-how-does-it-work
 ---
 
 # --description--
 
-Toleo za hivi karibuni za React zilianzisha sehemu za seva na vitendo vya seva ili kuhamisha baadhi ya majukumu ya kuonyesha na mantiki kwa seva.
+Novije verzije React-a uvele su serverske komponente i serverske akcije kako bi deo renderovanja i logike premestile na server.
 
-Pamoja na masasisho hayo, React iliongeza hook mpya iitwayo `useOptimistic` ili kuweka UI zikiwa zinajibadilisha kulingana na kifaa wakati zinaposubiri kitendo cha async kukamilika nyuma ya pazia.
+Pored tih ažuriranja, React je dodao novi hook pod nazivom `useOptimistic` kako bi korisnički interfejs ostao responzivan dok se asinhrona akcija izvršava u pozadini.
 
 Iako se često koristi za dohvaćanje podataka sa servera, nije ograničen samo na to. Ovaj *hook* je generalno važan za rukovanje operacijama async, osiguravajući da korisnički interfejs (UI) ostane glatok i interaktivan dok se akcija odvija.
 
@@ -23,15 +23,15 @@ Evo osnovne sintakse za hook `useOptimistic`:
 const [optimisticState, addOptimistic] = useOptimistic(actualState, updateFunction);
 ```
 
-- `optimisticState` ni hali ya muda ambayo husasishwa mara moja kwa ajili ya uzoefu bora wa mtumiaji.
+- `optimisticState` je privremeno stanje koje se odmah ažurira radi boljeg korisničkog iskustva.
 
-- `addOptimistic` ni kitendakazi kinachotekeleza sasisho la matumaini kabla ya hali halisi kubadilika.
+- `addOptimistic` je funkcija koja primenjuje optimističko ažuriranje pre nego što se stvarno stanje promeni.
 
 - `actualState` je stvarna vrednost stanja koja proističe iz akcije, kao što je dohvaćanje podataka sa servera.
 
-- `updateFunction` ni kitendakazi kinachoamua jinsi hali ya matumaini inavyopaswa kusasishwa inapoitwa.
+- `updateFunction` je funkcija koja određuje kako treba ažurirati optimističko stanje kada se pozove.
 
-Kwa mtazamo wa kwanza, inaweza kuonekana kama hook ya `useOptimistic` ni njia nyingine tu ya kushughulikia hali za upakiaji katika React. Lakini ni zaidi ya hapo.
+Na prvi pogled može izgledati da je hook `useOptimistic` samo još jedan način za upravljanje stanjima učitavanja u React-u. Međutim, on pruža mnogo više od toga.
 
 Stanje učitavanja kontrolera je kao što ćete videti spiner, poruku ili drugi indikator u korisničkom interfejsu dok se nešto dešava iza kulisa.
 

@@ -16,11 +16,11 @@ Slušajte audio odgovor na pitanje ispod.
 
 ## --text--
 
-James anajua nini kuhusu tatizo la sasisho la hivi karibuni?
+Šta James zna o problemu sa najnovijim ažuriranjem?
 
 ## --answers--
 
-Anajua hasa tatizo ni nini.
+On tačno zna u čemu je problem.
 
 ### --feedback--
 
@@ -52,7 +52,7 @@ James anasema kwamba hakusikia chochote.
 
 # --explanation--
 
-Majibu mafupi yenye vitenzi vya msaada hurudia kitenzi cha msaada kutoka kwenye swali kuthibitisha au kukataa jambo fulani. Katika kesi hii, Maria anauliza, `Did you hear anything?`, na James anajibu, `No, I didn't.` badala ya kusema tu `No.` Hapa kuna mifano mingine:
+Kratki odgovori sa pomoćnim glagolima ponavljaju pomoćni glagol iz pitanja kako bi potvrdili ili negirali tvrdnju. U ovom slučaju Maria pita `Did you hear anything?`, a James odgovara `No, I didn't.` umesto samo `No.` Evo još nekoliko primera:
 
 - `Are you coming to the meeting?` → `Yes, I am.`
 

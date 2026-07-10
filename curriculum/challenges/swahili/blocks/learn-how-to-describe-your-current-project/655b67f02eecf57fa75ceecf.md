@@ -29,7 +29,7 @@ Ovaj glagol `stay` se koristi da pokaže preostanak u nekim uslovima ili pod odr
 
 ### --feedback--
 
-Ovaj glagol pokazuje da Sophie pruža pomoć ili asistenciju svom timu efikasno. Kinaishia kwa `-ing`.
+Ovaj glagol pokazuje da Sofi pruža pomoć ili podršku svom timu. Završava se na `-ing`.
 
 ---
 

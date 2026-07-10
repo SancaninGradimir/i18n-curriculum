@@ -13,9 +13,9 @@ Kada izvršite komandu kao `node script.js` u terminalu, Node.js pokreće proces
 
 Trenutni proces je globalno dostupan preko modula `process`, tako da ga nije potrebno uvoziti. Sve dok imate instaliran Node.js, možete ga koristiti bilo gde.
 
-Moduli ya `process` inaweka wazi vigezo na njia ili upate taarifa fulani kuhusu muktadha wa sasa wa utekelezaji.
+Modul `process` izlaže promenljive i metode koje ti omogućavaju da dobiješ informacije o trenutnom okruženju izvršavanja.
 
-`process.env` inakupa taarifa kuhusu mazingira ya sasa ambayo Node inaendesha. Hii daima hurudisha kitu kikubwa chenye vigezo vingi, kwa hivyo hivi ndivyo unavyoweza kupata baadhi ya taarifa muhimu moja kwa moja:
+`process.env` pruža informacije o trenutnom okruženju u kojem se Node izvršava. Uvek vraća veliki objekat sa mnogo promenljivih, pa ovako možeš direktno da pristupiš nekim važnim informacijama:
 
 ```js
 // Gets all environment variables available to the current Node.js process

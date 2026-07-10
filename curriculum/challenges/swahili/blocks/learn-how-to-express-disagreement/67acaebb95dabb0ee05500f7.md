@@ -28,11 +28,11 @@ Ova reč znači prepreka ili nešto što usporava napredak.
 
 # --explanation--
 
-`setback` ni kitu kinachochelewesha au kuzuia maendeleo. Kompyuta polepole au zisizofanya kazi vizuri zinaweza kufanya kazi zichukue muda mrefu, na kupunguza ufanisi. Kwa mfano:
+`Setback` je nešto što usporava ili ometa napredak. Spori ili nepouzdani računari mogu produžiti trajanje zadataka i smanjiti efikasnost. Na primer:
 
-- `The project faced a setback due to a critical bug.` - Mradi ulichelewa au ukaathirika kwa sababu ya tatizo kubwa la programu.
+- `The project faced a setback due to a critical bug.` — Projekat je pretrpeo zastoj zbog kritične greške.
 
-- `Losing important data was a major setback for the team.` - Kupoteza data kulileta matatizo na kuchelewesha kazi ya timu.
+- `Losing important data was a major setback for the team.` — Gubitak važnih podataka bio je veliki zastoj za tim.
 
 # --scene--
 

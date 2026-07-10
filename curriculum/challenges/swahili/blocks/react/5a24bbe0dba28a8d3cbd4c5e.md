@@ -8,7 +8,7 @@ dashedName: add-comments-in-jsx
 
 # --description--
 
-JSX ni sintaksia inayotafsiriwa kuwa JavaScript halali. Wakati mwingine, kwa ajili ya urahisi wa kusoma, unaweza kuhitaji kuongeza maoni katika msimbo wako. Kama lugha nyingi za programu, JSX ina njia yake ya kufanya hivyo.
+JSX je sintaksa koja se prevodi u ispravan JavaScript. Ponekad ćeš, radi lakšeg čitanja, želeti da dodaš komentare u kod. Kao i mnogi programski jezici, JSX ima svoj način za to.
 
 Da biste stavili komentare unutar JSX-a, koristite sintaksu `{/* */}` oko teksta komentara.
 
@@ -24,7 +24,7 @@ Element za `JSX` mora da vrati element za `div`.
 assert(JSX.type === 'div');
 ```
 
-Kipengele cha `div` kinapaswa kuwa na lebo ya `h1` kama kipengele cha kwanza.
+Element `div` treba da sadrži oznaku `h1` kao prvi element.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');

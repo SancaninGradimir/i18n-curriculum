@@ -13,9 +13,9 @@ Istražimo šta je prop drilling, zašto predstavlja problem i dobre alternative
 
 Prop drilling je proces prosljeđivanja parametara od roditeljske komponente do ugnježdene detske komponente, čak i kada neke detske komponente ne zahtevaju te parametre.
 
-Kwa mfano, sema una sehemu tatu zinazoitwa `Parent`, `Child`, na `Grandchild`. Ikiwa unataka kutumia data fulani katika sehemu ya `Grandchild`, lakini data hiyo iko katika sehemu ya `Parent`, unahitaji kuipitisha kutoka sehemu ya `Parent` hadi `Child`, kisha kutoka `Child` hadi `Grandchild`.
+Na primer, pretpostavimo da imaš tri komponente pod nazivom `Parent`, `Child` i `Grandchild`. Ako želiš da koristiš određene podatke u komponenti `Grandchild`, ali se ti podaci nalaze u komponenti `Parent`, moraš da ih proslediš iz komponente `Parent` u `Child`, a zatim iz `Child` u `Grandchild`.
 
-Au kama data iko hata juu zaidi katika mnyororo, data hiyo inaweza kuhitajika kupitishwa hadi sehemu ya `Parent` pia.
+Ako se podaci nalaze još više u hijerarhiji, možda će biti potrebno da se proslede i do komponente `Parent`.
 
 Ovde, podaci koje želim da prikažem su niz znakova `Hello, Prop Drilling!`. Dodeljena je vrednost parametru `greeting` u korenskom delu `App`:
 
@@ -44,7 +44,7 @@ const Parent = ({ greeting }) => {
 export default Parent;
 ```
 
-Na hapa sehemu ya `Child` inakipitisha hadi sehemu ya `Grandchild`:
+A ovako ih komponenta `Child` prosleđuje komponenti `Grandchild`:
 
 ```jsx
 import Grandchild from "./Grandchild";
@@ -56,7 +56,7 @@ const Child = ({ greeting }) => {
 export default Child;
 ```
 
-Na hatimaye sehemu ya `Grandchild` inapokea salamu na kuitumia kama maudhui ya kipengele cha `h1`:
+I na kraju, komponenta `Grandchild` prima pozdrav i koristi ga kao sadržaj elementa `h1`:
 
 ```jsx
 const Grandchild = ({ greeting }) => {
@@ -68,7 +68,7 @@ export default Grandchild;
 
 U pretraživaču, videćete stranicu sa jednim elementom od `h1` sa tekstom `Hello, Prop Drilling!`.
 
-Mwanzo, prop drilling huenda haionekani kama tatizo kubwa. Lakini kadri programu yako inavyokua, huwa vigumu kuelewa, kutafuta makosa, na kuitunza.
+U početku, prop drilling možda ne deluje kao veliki problem. Međutim, kako aplikacija raste, postaje sve teže razumeti kod, otklanjati greške i održavati ga.
 
 Ako vam je potrebno da prosledite parametre, pokušajte sve postaviti na jednom roditeljskom mestu. Ovaj način skladištenja svih važnih podataka na jednom mestu naziva se "jedinstveni izvor istine".
 

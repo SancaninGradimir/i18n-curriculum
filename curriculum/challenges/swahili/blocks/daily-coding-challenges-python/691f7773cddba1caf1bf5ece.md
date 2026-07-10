@@ -14,7 +14,7 @@ Radi jednostavnosti, imajte na umu da je e-mail ponovo poslat ili odgovoren ako 
 - `"fwd:"`
 - `"re:"`
 
-Rudisha jumla ya mara alama hizi zilipotokea.
+Vrati ukupan broj pojavljivanja ovih simbola.
 
 # --hints--
 

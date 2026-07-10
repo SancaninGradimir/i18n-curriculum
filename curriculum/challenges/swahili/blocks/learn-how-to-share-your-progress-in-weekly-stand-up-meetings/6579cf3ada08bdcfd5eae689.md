@@ -31,7 +31,7 @@ Sophie traži pomoć, nije neophodno da Bob sam reši taj problem.
 
 ---
 
-Anatoa msaada kwa Bob kuhusu tatizo fulani
+Pruža Bobu pomoć u vezi sa određenim problemom.
 
 ### --feedback--
 
@@ -43,7 +43,7 @@ Razgovaramo o budućem projektu
 
 ### --feedback--
 
-Ombi la Sophie linahusu tatizo la sasa la kuandika programu analokumbana nalo, siyo mradi wa baadaye.
+Sophien zahtev se odnosi na trenutni problem sa programiranjem sa kojim se suočava, a ne na budući projekat.
 
 ## --video-solution--
 

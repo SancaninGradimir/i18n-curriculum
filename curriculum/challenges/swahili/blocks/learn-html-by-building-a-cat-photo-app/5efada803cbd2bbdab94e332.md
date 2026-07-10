@@ -23,13 +23,13 @@ Vaš drugi element `figure` bi trebalo da ima zatvarajući tag. Zatvarajući tag
 assert(code.match(/<\/figure>/g).length >= 2);
 ```
 
-Kipengele cha `figure` cha pili kinapaswa kuwepo juu ya lebo ya kufunga ya kipengele cha `section` cha pili. Umeviweka kwa mpangilio usio sahihi.
+Drugi element `figure` treba da bude iznad završne oznake drugog elementa `section`. Postavio si ih pogrešnim redosledom.
 
 ```js
 assert.strictEqual(document.querySelectorAll('main > section')?.[1]?.lastElementChild?.nodeName, 'FIGURE');
 ```
 
-Unapaswa kuwa na kipengele cha `img` cha tatu kilichopangwa ndani ya kipengele cha `figure`.
+Treba da imaš treći element `img` unutar elementa `figure`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +38,7 @@ assert(
 );
 ```
 
-Picha ya tatu inapaswa kuwa na sifa ya kipengele cha `src` iliyowekwa kuwa `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
+Treća slika treba da ima atribut `src` postavljen na `https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg`.
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];

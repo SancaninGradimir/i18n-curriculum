@@ -98,7 +98,7 @@ Drugi parametar `includes()` opisuje početnu poziciju za pretraživanje.
 
 ### --feedback--
 
-Kigezo cha pili cha `includes()` kinaelezea nafasi ya kuanzia kwa ajili ya utafutaji.
+Drugi argument metode `includes()` određuje početnu poziciju za pretragu.
 
 ---
 

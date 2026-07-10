@@ -11,7 +11,7 @@ lang: en-US
 
 # --description--
 
-Sikiliza Maria na jibu swali.
+Poslušajte Mariju i odgovorite na pitanje.
 
 # --questions--
 
@@ -25,7 +25,7 @@ Imati veliki tim
 
 ### --feedback--
 
-Fikiria ni nini hasa kinachowafanya timu kuwa na motisha zaidi, si ukubwa wa timu tu.
+Razmislite o tome šta tačno čini tim motivisanijim, a ne samo o njegovoj veličini.
 
 ---
 
@@ -33,11 +33,11 @@ Kupumzika kwa muda mrefu
 
 ### --feedback--
 
-Fikiria kama mapumziko yameelezwa kama njia ya kuongeza motisha.
+Razmislite da li su pauze pomenute kao način za povećanje motivacije.
 
 ---
 
-Kuona timu ikiwa na msukumo
+Videti motivisan tim.
 
 ---
 
@@ -45,7 +45,7 @@ Rešiti probleme brzo
 
 ### --feedback--
 
-Fikiria kama kasi ya kutatua matatizo ndiyo Maria anayoangazia kama chanzo cha motisha.
+Razmislite da li Marija ističe brzinu rešavanja problema kao izvor motivacije.
 
 ## --video-solution--
 

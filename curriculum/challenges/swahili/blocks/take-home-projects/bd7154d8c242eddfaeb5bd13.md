@@ -10,7 +10,7 @@ dashedName: build-the-game-of-life
 
 **Cilj:** Izgradite program koji je funkcionalno sličan ovome: <a href="https://codepen.io/freeCodeCamp/full/BpwMZv/" target="_blank" rel="noopener noreferrer nofollow">https://codepen.io/freeCodeCamp/full/BpwMZv/</a>.
 
-Mchezo wa Maisha ni automaton ya seli iliyoundwa na mwanahesabu Mwingereza John Horton Conway. Ni <em>mchezo usio na mchezaji</em>, maana yake mabadiliko yake hutegemea hali yake ya awali, bila hitaji la ingizo zaidi. Unashirikiana na Mchezo wa Maisha kwa kuunda usanidi wa awali na kuangalia jinsi unavyobadilika.
+Igra života je ćelijski automat koji je osmislio engleski matematičar John Horton Conway. To je <em>igra bez igrača</em>, što znači da njen razvoj zavisi od početnog stanja, bez potrebe za daljim unosom. Sa Igrom života komunicirate tako što kreirate početnu konfiguraciju i posmatrate kako se ona razvija.
 
 Svet igre života je beskonačna, dvodimenzionalna mreža sa pravougaono ćelijama, svaka u kojem od dva moguća stanja: popunjena ili prazna. Svaka ćelija komunicira sa svojim osam suseda, koji su ćelijama vertikalno, horizontalno ili dijagonalno.
 
@@ -21,7 +21,7 @@ Svaki korak vremena, sledeće promene se dešavaju:
 - Svaka živa ćelija sa više od tri komšije umire, kao da je zbog previše ljudi.
 - Svaka mrtva ćelija sa tačno tri komšije pretvara se u živu ćeliju, kao da je zbog reprodukcije.
 
-Timiza hadithi za mtumiaji zilizo hapa chini na upite vipimo vyote. Tumia maktaba au API yoyote unayohitaji. Toa mtindo wako binafsi.
+Ispunite korisničke priče navedene u nastavku i prođite sve testove. Koristite bilo koju biblioteku ili API koji su vam potrebni. Dodajte svoj lični stil.
 
 **Scenario korisnika:** Kada prvi put pristupim igri, sistem će inicijalizovati dasku nasumično i početi da se igra.
 

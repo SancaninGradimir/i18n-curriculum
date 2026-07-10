@@ -35,11 +35,11 @@ Bob nije spomenuo ništa o zaključavanju ili da zadnja vrata zahtevaju popravke
 
 ---
 
-Kwamba chumba cha seva kinahitaji kusafishwa.
+Da serversku sobu treba očistiti.
 
 ### --feedback--
 
-Hakuna mazungumzo kuhusu usafi katika sentensi ya Bob.
+U Bobovoj izjavi nema razgovora o čistoći.
 
 ---
 

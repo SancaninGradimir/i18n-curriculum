@@ -32,7 +32,7 @@ Ova reč se koristi za razgovor o postojanju nečega ili da bi se reklo da nešt
 
 ### --feedback--
 
-Neno hili linahusu tatizo au ugumu unaohitaji kutatuliwa au kurekebishwa.
+Ova reč se odnosi na problem ili poteškoću koju treba rešiti ili ispraviti.
 
 ---
 
@@ -40,7 +40,7 @@ Neno hili linahusu tatizo au ugumu unaohitaji kutatuliwa au kurekebishwa.
 
 ### --feedback--
 
-Kitenzi hiki kinaonyesha uhusiano au muunganiko kati ya vitu viwili.
+Ovaj glagol označava vezu ili povezivanje između dve stvari.
 
 ---
 
@@ -54,11 +54,11 @@ Ova dvoslovna fraza se odnosi na način na koji programi ili veb sajtovi reaguju
 
 `There's a problem with` Koristi se za opisivanje da nešto ne radi kako treba. To znači da postoji problem ili poteškoća povezana sa nečim. Na primer:
 
-`There's a problem with the network.` – Hii inamaanisha mtandao haufanyi kazi ipasavyo.
+`There's a problem with the network.` – To znači da mreža ne radi ispravno.
 
-`Event handling` inahusu jinsi programu au tovuti zinavyosimamia matendo ya mtumizi kama kubofya, kubonyeza funguo za kibodi, au kusogeza panya. Kwa mfano:
+`Event handling` se odnosi na način na koji program ili veb-sajt obrađuje korisničke radnje, kao što su klik mišem, pritisak na taster ili pomeranje miša. Na primer:
 
-`There's an issue with event handling.` - Hii inamaanisha programu haijibu ipasavyo matendo ya mtumizi.
+`There's an issue with event handling.` – To znači da program ne reaguje ispravno na korisničke radnje.
 
 # --scene--
 

@@ -9,7 +9,7 @@ lang: en-US
 
 # --description--
 
-Kwa `take` inaweza kumaanisha mambo tofauti kulingana na hali. Katika muktadha wa kujifunza, `take` inamaanisha kuhudhuria au kushiriki darasa la vitu au kozi. Kwa mfano:
+Za `take` može imati različita značenja u zavisnosti od situacije. U kontekstu učenja, `take` znači pohađati ili učestvovati na času ili kursu. Na primer:
 
 - `I take online lessons at 7.` - Hapa, `take` inamaanisha kuhudhuria mafundisho.
 
@@ -29,7 +29,7 @@ Dakle, kada kažeš `take lessons` ili `take a course`, misliš na pridruživanj
 
 ### --feedback--
 
-Kitenzi hiki kinaelezea tendo la kushiriki mafundisho.
+Ovaj glagol opisuje radnju učestvovanja u lekcijama.
 
 ---
 

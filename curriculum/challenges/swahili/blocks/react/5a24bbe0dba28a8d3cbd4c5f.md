@@ -8,11 +8,11 @@ dashedName: render-html-elements-to-the-dom
 
 # --description--
 
-Sada ste naučili da je JSX jednostavan alat za pisanje HTML koji se čita unutar JavaScript. Koristeći React, možemo prikazati ovaj JSX direktno na HTML DOM koristeći renderujući API od React poznat kao ReactDOM.
+Sada si naučio da je JSX jednostavan način za pisanje HTML-a unutar JavaScript-a. Koristeći React, možemo prikazati taj JSX direktno u HTML DOM-u pomoću React-ovog API-ja za renderovanje poznatog kao `ReactDOM`.
 
 ReactDOM pruža jednostavan način za prikazivanje komponenti od React u DOM, što izgleda ovako: `ReactDOM.render(componentToRender, targetNode)`, gde je prvi argument komponenta za React ili deo koji želite prikazati, a drugi argument je čvor od DOM u kojem želite da prikažete taj deo.
 
-Kama unavyotarajia, `ReactDOM.render()` lazima iitwe baada ya tamko la vipengele vya JSX, kama vile unavyotakiwa kutangaza vigezo kabla ya kuvitumia.
+Kao što očekuješ, `ReactDOM.render()` mora biti pozvan nakon deklaracije JSX elemenata, isto kao što promenljive moraš deklarisati pre njihove upotrebe.
 
 # --instructions--
 
@@ -26,7 +26,7 @@ Stabilno `JSX` mora da vrati funkcionalnost od `div`.
 assert(JSX.type === 'div');
 ```
 
-`div` inapaswa kuwa na lebo ya `h1` kama kipengele cha kwanza.
+`div` treba da sadrži oznaku `h1` kao svoj prvi element.
 
 ```js
 assert(JSX.props.children[0].type === 'h1');
@@ -38,7 +38,7 @@ assert(JSX.props.children[0].type === 'h1');
 assert(JSX.props.children[1].type === 'p');
 ```
 
-Kipengele cha JSX kilichotolewa kinapaswa kuonyeshwa kwenye nodi ya DOM yenye kitambulisho `challenge-node`.
+Zadati JSX element treba da bude prikazan u DOM čvoru sa identifikatorom `challenge-node`.
 
 ```js
 assert(

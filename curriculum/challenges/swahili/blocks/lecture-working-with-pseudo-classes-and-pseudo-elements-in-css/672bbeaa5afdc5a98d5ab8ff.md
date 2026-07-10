@@ -7,7 +7,7 @@ dashedName: what-are-examples-of-location-pseudo-classes
 
 # --interactive--
 
-Darasa la bandia la eneo hutumika kwa ajili ya kupamba viungo na vipengele vinavyolengwa ndani ya hati ya sasa. Hutoa njia ya kutumia mitindo kulingana na kama kiungo kimebofyanwa au kama kipengele kiko makini kwa sasa.
+Pseudo-klase lokacije koriste se za stilizovanje veza i ciljanih elemenata unutar trenutnog dokumenta. Omogućavaju primenu stilova u zavisnosti od toga da li je veza posećena ili je element trenutno ciljan.
 
 Mifano ya darasa la bandia la eneo ni:
 
@@ -17,9 +17,9 @@ Mifano ya darasa la bandia la eneo ni:
 - `:local-link`
 - `:target`
 
-Tuchunguze kwa undani kila moja ya darasa la bandia haya.
+Pogledajmo detaljnije svaku od ovih pseudo-klasa.
 
-Darasa la bandia la `:link` linakuwezesha kulenga viungo vyote ambavyo havijabofyanwa kwenye ukurasa wa mtandao. Unaweza kulitumia kupamba viungo tofauti kabla mtumizi hajavibofya. Kwa mfano, unaweza kutaka kufanya viungo vyote visivyobofyanwa kuwa buluu au rangi kuu ya tovuti yako:
+Pseudo-klasa `:link` omogućava ti da ciljaš sve neposjećene veze na veb stranici. Možeš je koristiti za drugačije stilizovanje veza pre nego što ih korisnik poseti. Na primer, možeš sve neposjećene veze obojiti plavom ili glavnom bojom sajta:
 
 :::interactive_editor
 
@@ -55,11 +55,11 @@ a:visited {
 
 :::
 
-Darasa la bandia la `:visited` husaidia watumizi kutofautisha kati ya viungo ambavyo wamevitembelea na ambavyo hawajavitembelea.
+Pseudo-klasa `:visited` pomaže korisnicima da razlikuju posećene od neposjećenih veza.
 
-Darasa la bandia la `:any-link` ni mchanganyiko wa madarasa ya bandia ya `:link` na `:visited`. Hivyo linalingana na kipengele chochote cha nanga chenye sifa ya `href`, bila kujali kama kimebofyanwa au la.
+Pseudo-klasa `:any-link` predstavlja kombinaciju pseudo-klasa `:link` i `:visited`. Zato odgovara svakom elementu sidra (`a`) koji ima atribut `href`, bez obzira na to da li je veza posećena ili ne.
 
-Hapa kuna mfano wa kubadilisha rangi ya kiungo kwa darasa la bandia la `:any-link` kuwa `crimson`:
+Evo primera u kome pseudo-klasa `:any-link` menja boju veze u `crimson`:
 
 :::interactive_editor
 
@@ -76,7 +76,7 @@ a:any-link {
 
 :::
 
-Darasa la bandia la `:local-link` linalenga viungo vinavyoelekeza kwenye hati ile ile. Linaweza kuwa na manufaa unapotaka kutofautisha viungo vya ndani na viungo vya nje. Kwa sasa, hakuna kivinjari kinachounga mkono darasa la bandia la `:local-link`.
+Pseudo-klasa `:local-link` cilja veze koje vode ka istom dokumentu. Može biti korisna kada želiš da razlikuješ interne od eksternih veza. Trenutno nijedan pregledač ne podržava pseudo-klasu `:local-link`.
 
 Sintetička klasa ``:target`` selektuje element koji odgovara ID-u trenutnog elementa `URL`, na primer, ``#section1``. Vrlo je važno za stranice sa internom navigacijom.
 
@@ -184,7 +184,7 @@ Prilikom izmene rasporeda web stranice putem direktnih promena.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na mwingiliano wa mtumizi.
+Razmisli kako možeš stilizovati veze i ciljane elemente u zavisnosti od interakcije korisnika.
 
 ## --video-solution--
 
@@ -192,7 +192,7 @@ Fikiria jinsi unavyoweza kupamba viungo na vipengele vilivyolengwa kulingana na 
 
 ## --text--
 
-Ni darasa gani la bandia lililoundwa kulenga viungo vinavyoelekeza kwenye hati ile ile lakini halijaungwa mkono na kivinjari chochote kwa sasa?
+Koja je pseudo-klasa namenjena ciljanju veza koje vode ka istom dokumentu, ali trenutno nije podržana ni u jednom pregledaču?
 
 ## --answers--
 

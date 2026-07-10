@@ -22,13 +22,13 @@ Implementirajte korisničke priče navedene ispod i prođite sve testove. Korist
 
 **Priča korisnika:** Mogu obrisati ove recepte.
 
-**Hadithi ya mtumiaji:** Mapishi yote mapya ninayoongeza yatahifadhiwa katika hifadhidata ya kivinjari changu. Ikiwa nionyesha upya ukurasa, mapishi haya bado yatakuwepo.
+**Korisnička priča:** Svi novi recepti koje dodam biće sačuvani u skladištu pregledača. Ako osvežim stranicu, ti recepti će i dalje biti dostupni.
 
-**Kidokezo:** Unapaswa kuweka kiambishi awali kwenye funguo zako za hifadhidata ya kivinjari kwenye CodePen, yaani `_username_recipes`
+**Savet:** Trebalo bi da dodate prefiks ključevima u skladištu pregledača na CodePen-u, npr. `_username_recipes`.
 
-Ukiisha, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada završite, uključite link do svog projekta na CodePen-u i kliknite na dugme „Završio/la sam ovaj izazov“.
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Povratne informacije o svom projektu možete dobiti tako što ćete ga podeliti na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forumu</a>.
 
 # --solutions--
 

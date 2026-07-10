@@ -13,13 +13,13 @@ Dopuni priče korisnika ispod i prođi sve testove. Koristi bilo koju biblioteku
 
 Možete koristiti HTML, JavaScript, CSS, u D3 biblioteci za prikaz SVG-a. Grafici zahtevaju da se osa kreira korišćenjem D3 ose svojstva (axis property), koje automatski generiše oznake (ticks) duž ose. Ove oznake su neophodne za ispravno funkcionisanje grafikona u D3 jer se njihove pozicije koriste za određivanje poravnanja elemenata na grafikonu. Informacije o kreiranju osa ćete pronaći na <https://d3js.org/d3-axis>. Potrebni komponenti za DOM traže se tokom svakog grafikona. Ako koristite sistem prednje funkcije (frontend function system) (npr. Vue), rezultati grafikona mogu biti netačni za dinamički sadržaj. Očekujemo da ćemo ovo uskoro moći podržati, ali ovi sistemi trenutno nisu podržani za projekte u D3-u.
 
-**Hadithi ya mtumiaji #1:** Chati yangu inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
+**Korisnička priča #1:** Moj grafikon treba da ima naslov sa odgovarajućim `id="title"`.
 
 **Priča korisnika #2:** Moj grafikon bi trebalo da ima funkciju za `g` na odgovarajućoj x-osi sa `id="x-axis"`.
 
 **Priča korisnika #3:** Moj chat bi trebalo da ima element sa `g` za Y-osu sa odgovarajućim `id="y-axis"`.
 
-**Hadithi ya mtumiaji #4:** Mihimili yote miwili inapaswa kuwa na lebo nyingi za alama za kupigia, kila moja ikiwa na `class="tick"` inayolingana.
+**Korisnička priča #4:** Obe ose treba da imaju više oznaka sa odgovarajućom `class="tick"`.
 
 **Priča korisnika #5:** Moj grafikon bi trebalo da ima element `rect` za svaku tačku podataka sa `class="bar"` koja prikazuje te podatke.
 
@@ -43,7 +43,7 @@ Ovo je set podataka koji će vam trebati da završite ovaj projekat: `https://ra
 
 Možete izgraditi svoj projekat koristeći ovaj CodePen šablon<a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">kutumia kiolezo hiki cha CodePen</a> i klikom `Save` da kreirate sopstveni „pen“. Ili možete koristiti ovaj CDN link za pokretanje testova u bilo kom okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`.
 
-Ukiisha, wasilisha URL ya mradi wako unaofanya kazi na mitihani yote imepitwa.
+Kada završiš, pošalji URL svog funkcionalnog projekta sa svim uspešno položenim testovima.
 
 # --solutions--
 

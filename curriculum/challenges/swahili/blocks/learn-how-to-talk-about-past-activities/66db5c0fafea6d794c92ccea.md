@@ -22,7 +22,7 @@ Kako funkcionišu ažurirane karakteristike?
 
 ## --answers--
 
-Havifanyi kazi ipasavyo kwenye vifaa vyote, na hii imeleta tofauti kubwa.
+Ne rade ispravno na svim uređajima, i to je napravilo veliku razliku.
 
 ### --feedback--
 
@@ -34,7 +34,7 @@ Potrebno mu je više prilagođavanja da bi funkcionisao kako treba, a ovo nije n
 
 ### --feedback--
 
-Linda hakutaja haja ya marekebisho zaidi.
+Linda nije pomenula potrebu za dodatnim izmenama.
 
 ---
 
@@ -42,11 +42,11 @@ Stvaraju nove probleme na korisničkom interfejsu, i ovo je donelo veliku razlik
 
 ### --feedback--
 
-Linda hakusema kuwa marekebisho yalisababisha matatizo mapya.
+Linda nije rekla da su izmene izazvale nove probleme.
 
 ---
 
-Vinafanya kazi vizuri na marekebisho yameleta tofauti kubwa.
+Rade dobro i izmene su napravile veliku razliku.
 
 ## --video-solution--
 
@@ -54,11 +54,11 @@ Vinafanya kazi vizuri na marekebisho yameleta tofauti kubwa.
 
 # --explanation--
 
-Ili kujua kama kitu kinafanya kazi vizuri, tafuta maneno au misemo inayoonyesha matokeo mazuri au maboresho.
+Da bi utvrdio da li nešto dobro funkcioniše, potraži reči ili izraze koji ukazuju na pozitivne rezultate ili poboljšanja.
 
 Linda anatumia usemi `have already made a big difference`.
 
-`Made a big difference` inaashiria mabadiliko muhimu au yanayoonekana. Wakati kitu kina `made a big difference` katika muktadha mzuri, kawaida ina maana kuwa mabadiliko hayo ni ya msaada au yenye ufanisi.
+`Made a big difference` označava značajnu ili primetnu promenu. Kada se ovaj izraz koristi u pozitivnom kontekstu, obično znači da su promene bile korisne ili efikasne.
 
 Dakle, odgovor Linde pokazuje da ažurirani elementi dobro funkcionišu i poboljšali su stanje.
 

@@ -10,12 +10,12 @@ dashedName: review-dom-manipulation-and-click-events-with-javascript
 ## Raditi sa DOM i API za mrežu
 
 - **API**: API (Application Programming Interface) ni seti ya sheria na itifaki zinazoruhusu programu za kompyuta kuwasiliana na kubadilishana data kwa ufanisi.
-- **Web API**: API za mtandao zimeundwa mahsusi kwa programu za mtandao. Aina hizi za API mara nyingi hugawanywa katika makundi mawili makuu: API za kivinjari na API za wahusika wengine.
-- **API za kivinjari**: API hizi zinaweka wazi data kutoka kwa kivinjari. Kama msanidi programu wa mtandao, unaweza kupata upatikanaji na kuendesha data hii kwa kutumia JavaScript.
-- **API za wahusika wengine**: Hizi hazijajengwa ndani ya kivinjari kwa chaguo-msingi. Lazima upate msimbo wao kwa njia fulani. Kawaida, zitakuwa na nyaraka za kina zinazoelezea jinsi ya kutumia huduma zao. Mfano ni API ya Google Maps, ambayo unaweza kuitumia kuonyesha ramani za mwingiliano kwenye tovuti yako.
-- **DOM**: DOM inasimama kwa Document Object Model. Ni kiolesura cha programu kinachokuwezesha kuingiliana na nyaraka za HTML. Kwa DOM, unaweza kuongeza, kubadilisha, au kufuta vipengele kwenye ukurasa wa mtandao. Mzizi wa mti wa DOM ni kipengele cha `html`. Ni kontena la ngazi ya juu kwa maudhui yote ya hati ya HTML. Nodi zote nyingine ni mzao wa nodi hii ya mzizi. Kisha, chini ya nodi ya mzizi, tunapata nodi nyingine katika mfuatano wa ngazi. Nodi ya mzazi ni kipengele kinachojumuisha vipengele vingine. Nodi ya mtoto ni kipengele kilichomo ndani ya kipengele kingine.
-- **Kiolesura cha `navigator`**: Hiki hutoa taarifa kuhusu mazingira ya kivinjari, kama mfuatano wa user agent, jukwaa, na toleo la kivinjari. Mfuatano wa user agent ni mfuatano wa maandishi unaotambulisha kivinjari na mfumo wa uendeshaji unaotumika.
-- **Kiolesura cha `window`**: Huu unawakilisha dirisha la kivinjari linalojumuisha hati ya DOM. Hutoa njia na sifa za kuingiliana na dirisha la kivinjari, kama kubadilisha ukubwa wa dirisha, kufungua madirisha mapya, na kuvinjari URL tofauti.
+- **Web API**: API-ji za veb su posebno dizajnirani za veb aplikacije. Ove vrste API-ja se često dele u dve glavne kategorije: API-ji pregledača i API-ji trećih strana.
+- **API-ji pregledača**: Ovi API-ji omogućavaju pristup podacima iz pregledača. Kao veb programer, možete pristupiti ovim podacima i upravljati njima koristeći JavaScript.
+- **API-ji trećih strana**: Oni nisu ugrađeni u pregledač po podrazumevanim podešavanjima. Njihov kod morate dobiti na neki način. Obično imaju detaljnu dokumentaciju koja objašnjava kako se koriste njihove usluge. Primer je Google Maps API, koji možete koristiti za prikaz interaktivnih mapa na vašem sajtu.
+- **DOM**: DOM je skraćenica za Document Object Model. To je programski interfejs koji omogućava interakciju sa HTML dokumentima. Pomoću DOM-a možete dodavati, menjati ili brisati elemente na veb stranici. Koren DOM stabla je element `html`. On je kontejner najvišeg nivoa za sav sadržaj HTML dokumenta. Svi ostali čvorovi su potomci ovog korenog čvora. Ispod korenog čvora nalaze se drugi čvorovi u hijerarhijskom nizu. Roditeljski čvor je element koji sadrži druge elemente. Dete čvor je element koji se nalazi unutar drugog elementa.
+- **`navigator` interfejs**: Obezbeđuje informacije o okruženju pregledača, kao što su user agent string, platforma i verzija pregledača. User agent string je tekstualni niz koji identifikuje pregledač i operativni sistem koji se koristi.
+- **`window` interfejs**: Predstavlja prozor pregledača koji uključuje DOM dokument. Obezbeđuje metode i svojstva za interakciju sa prozorom pregledača, kao što su promena veličine prozora, otvaranje novih prozora i navigacija ka različitim URL adresama.
 
 ## Raditi sa putanjama `querySelector()`, `querySelectorAll()` na `getElementById()`
 
@@ -465,7 +465,7 @@ const animation = square.animate(
 
 ## API za platno za crtanje
 
-- **Definicija**: API za platno za crtež je moćan alat koji vam omogućava crtanje unutar vašeg fajla sa JavaScript. Da biste radili sa API za platno za crtež, prvo morate pružiti element od `canvas` u HTML. Ovaj element funkcioniše kao površina za crtanje koja se može kontrolisati metodama i svojstvima interfejsa u API za platno za crtež. API ima interfejs poput `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` i `TextMetrics` koji imaju metode i svojstva koja možete koristiti za kreiranje crteža u vašem fajlu sa JavaScript.
+- **Definicija**: Canvas API za crtanje je moćan alat koji vam omogućava crtanje unutar JavaScript fajla. Da biste radili sa Canvas API-jem za crtanje, prvo morate obezbediti `canvas` element u HTML-u. Ovaj element funkcioniše kao površina za crtanje kojom se može upravljati metodama i svojstvima interfejsa Canvas API-ja. API ima interfejse kao što su `HTMLCanvasElement`, `CanvasRenderingContext2D`, `CanvasGradient`, `CanvasPattern` i `TextMetrics`, koji imaju metode i svojstva koja možete koristiti za kreiranje crteža u vašem JavaScript fajlu.
 
 :::interactive_editor
 

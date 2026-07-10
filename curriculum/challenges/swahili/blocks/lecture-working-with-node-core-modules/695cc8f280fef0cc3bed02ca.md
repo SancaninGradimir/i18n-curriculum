@@ -15,13 +15,13 @@ Kada koristite modul za `path`, ga možete dovesti (import) na ovaj način:
 const path = require("path");
 ```
 
-Tuchunguze baadhi ya njia ambazo moduli ya `path` inatoa na jinsi zinavyofanya kazi.
+Pogledajmo neke od metoda koje nudi modul `path` i kako oni funkcionišu.
 
-Kwanza, unapaswa kujua kuhusu vigezo vya kimataifa vya Node.js `__filename` na `__dirname`, vinavyojulikana pia kama vigezo vya "common JS". Huhitaji moduli ya `path` kupata upatikanaji wake, ndiyo maana huitwa vigezo vya kimataifa.
+Prvo treba da znaš za Node.js globalne promenljive `__filename` i `__dirname`, poznate i kao CommonJS promenljive. Nije ti potreban modul `path` da bi im pristupio, zbog čega se nazivaju globalnim promenljivama.
 
-`__filename` ni njia kamili ya faili ya sasa na `__dirname` ni njia kamili ya saraka inayoshikilia faili ya sasa.
+`__filename` predstavlja apsolutnu putanju do trenutne datoteke, a `__dirname` apsolutnu putanju do direktorijuma koji sadrži tu datoteku.
 
-Kwa mfano, nina faili la `script.js` ambalo kwa sasa ninafanya kazi nalo. Hivi ndivyo njia hizo mbili zinavyorudisha:
+Na primer, imam datoteku `script.js` na kojoj trenutno radim. Evo šta ove dve promenljive vraćaju:
 
 ```js
 console.log(__filename);
@@ -31,19 +31,19 @@ console.log(__dirname);
 // /Users/user/Desktop/fCC/script-code/node/node-path
 ```
 
-Pia unapaswa kujua kuhusu njia za jamaa na njia kamili.
+Takođe treba da znaš razliku između relativnih i apsolutnih putanja.
 
 Relativna putanja pokazuje na datoteku ili fasciklu u odnosu na vaš trenutni radni direktorijum. Na primer, `./assets/src/text-files`.
 
-Njia kamili, kwa upande mwingine, hutoa anwani kamili ya faili au folda kutoka mzizi wa mfumo wako, kama `/Users/johndoe/projects/app/assets/src/text-files.`
+Apsolutna putanja, s druge strane, daje punu adresu datoteke ili fascikle počevši od korena sistema, na primer `/Users/johndoe/projects/app/assets/src/text-files`.
 
-Njia ya `basename()` inaonyesha sehemu ya mwisho ya faili, yaani, jina la faili:
+Metod `basename()` vraća poslednji deo putanje, odnosno ime datoteke:
 
 ```js
 console.log(path.basename(__filename)); // script.js
 ```
 
-`dirname()` inarudisha jina la saraka la njia:
+`dirname()` vraća naziv direktorijuma putanje:
 
 ```js
 console.log(path.dirname(__dirname)); // node-path
@@ -128,7 +128,7 @@ Koja je razlika između `path.dirname()` i `path.extname()` u Node.js?
 
 ## --answers--
 
-`dirname()` huondoa kiendelezi cha faili, wakati `extname()` huondoa jina la saraka.
+`dirname()` uklanja ekstenziju datoteke, dok `extname()` uklanja naziv direktorijuma.
 
 ### --feedback--
 
@@ -136,7 +136,7 @@ Makini ni ipi inayoshughulikia saraka na ipi inayoshughulikia viendelezi vya fai
 
 ---
 
-`dirname()` inarudisha njia kamili ya faili, wakati `extname()` inarudisha jina la saraka.
+`dirname()` vraća punu putanju do datoteke, dok `extname()` vraća naziv direktorijuma.
 
 ### --feedback--
 
@@ -144,11 +144,11 @@ Makini je ipi koja obrađuje direktorijume i ipi koja obrađuje ekstenzije fajlo
 
 ---
 
-`dirname()` inarudisha jina la saraka la njia, wakati `extname()` inarudisha kiendelezi cha faili.
+`dirname()` vraća naziv direktorijuma putanje, dok `extname()` vraća ekstenziju datoteke.
 
 ---
 
-`dirname()` na `extname()` zote hurejesha thamani ile ile lakini kwa miundo tofauti.
+`dirname()` i `extname()` oba vraćaju istu vrednost, ali u različitim formatima.
 
 ### --feedback--
 

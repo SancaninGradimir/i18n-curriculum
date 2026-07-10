@@ -9,7 +9,7 @@ lang: en-US
 
 # --description--
 
-Katika sehemu hii ya mazungumzo, Brian anazungumzia jinsi mazungumzo yalivyomfanya ahisi na anashukuru Maria kwa kushiriki mtazamo wake.
+U ovom delu razgovora, Brajan govori o tome kako se osećao nakon razgovora i zahvaljuje Mariji što je podelila svoje mišljenje.
 
 # --fillInTheBlank--
 

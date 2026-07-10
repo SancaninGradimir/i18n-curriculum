@@ -31,7 +31,7 @@ Ova fraza od tri reči koristi se da pokaže zahvalnost i cenjenje za primanje v
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kuchagua kitu, hasa baada ya kuzingatia chaguzi tofauti.
+Ovaj izraz od dve reči znači izabrati nešto, naročito nakon razmatranja različitih opcija.
 
 ---
 
@@ -47,9 +47,9 @@ Ovaj dvosložni izraz odnosi se na nešto što je važnije ili hitnije.
 
 `It's good to know that the software is easy to use.` - To znači da govornik ceni što je program lak za korišćenje.
 
-`Go with` inamaanisha kuchagua kitu, kawaida baada ya kufikiria au kulinganisha. Kwa mfano:
+`Go with` znači izabrati nešto, obično nakon razmišljanja ili poređenja. Na primer:
 
-`After much discussion, we went with the cheaper option.` - Hii ina maana umechagua chaguo la bei nafuu zaidi baada ya kuzingatia chaguzi tofauti.
+`After much discussion, we went with the cheaper option.` – To znači da ste nakon mnogo razgovora izabrali jeftiniju opciju.
 
 `Top priority` To znači da je nešto izuzetno važno uzeti u obzir ili na šta treba obratiti pažnju. Često se koristi u kontekstu posla ili odluka. Na primer:
 

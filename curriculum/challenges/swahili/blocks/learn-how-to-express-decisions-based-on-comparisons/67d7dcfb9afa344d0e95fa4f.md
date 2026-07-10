@@ -24,7 +24,7 @@ Slušajte audio i dovršite sledeću rečenicu.
 
 ### --feedback--
 
-Usemi huu wa maneno mawili unamaanisha kusababisha au kuleta matokeo ya jambo fulani kutokea.  
+Ovaj izraz od dve reči znači izazvati ili dovesti do toga da se nešto dogodi.
 
 ---
 
@@ -32,17 +32,17 @@ Usemi huu wa maneno mawili unamaanisha kusababisha au kuleta matokeo ya jambo fu
 
 ### --feedback--
 
-Hii inamaanisha kufanya jambo kuchukua muda mrefu zaidi kuliko ilivyotarajiwa.  
+To znači učiniti da nešto traje duže nego što je očekivano.
 
 # --explanation--
 
-`Lead to` inamaanisha kusababisha jambo fulani kutokea au kuleta matokeo fulani. Kwa mfano:
+`Lead to` znači prouzrokovati da se nešto dogodi ili dovesti do određenog ishoda. Na primer:
 
-`Poor planning can lead to missed deadlines.` – Hii inamaanisha kwamba kama mipango haifanyiwi vizuri, tarehe za mwisho zinaweza kutoshindikana kufikiwa.  
+`Poor planning can lead to missed deadlines.` – To znači da loše planiranje može dovesti do propuštanja rokova.
 
-`Delay` inamaanisha kufanya jambo kuchukua muda mrefu zaidi kuliko ilivyotarajiwa au kulichelewesha. Kwa mfano:
+`Delay` znači učiniti da nešto traje duže nego što je očekivano ili odložiti ga. Na primer:
 
-`The software release was delayed due to unexpected bugs.` – Hii inamaanisha uzinduzi ulicheleweshwa kwa sababu ya matatizo ya kiufundi.  
+`The software release was delayed due to unexpected bugs.` – To znači da je objavljivanje softvera odloženo zbog neočekivanih grešaka.
 
 # --scene--
 

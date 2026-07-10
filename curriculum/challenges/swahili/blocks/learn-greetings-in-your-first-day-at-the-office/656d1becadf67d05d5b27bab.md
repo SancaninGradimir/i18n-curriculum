@@ -19,7 +19,7 @@ Kao što ste naučili o glagolu `he`, glagoli poput `she` koriste se za referisa
 
 - Brian: `But it's true. She's the person to go to if you need help.`
 
-Ovde, `she` se koristi kada Brian spominje Sophie. Umjesto da ponavlja ime Sophie, Brian koristi glagol `she` kako bi razgovor bio tečan i izbjegao ponavljanje.
+Ovde se `she` koristi kada Brian govori o Sophie. Umesto da ponavlja njeno ime, Brian koristi zamenicu `she` kako bi razgovor bio prirodniji i izbegao ponavljanje.
 
 # --questions--
 

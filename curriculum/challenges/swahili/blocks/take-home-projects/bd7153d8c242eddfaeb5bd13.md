@@ -20,11 +20,11 @@ Završite korisničke priče ispod i prođite sve testove/specifikacije. Koristi
 
 **Priča korisnika:** Mogu se kretati bilo gde unutar granica mape, ali ne mogu da prođem pored neprijatelja dok ih ne pobedim.
 
-**Hadithi ya mtumiaji:** Sehemu kubwa ya ramani imefichwa. Ninapochukua hatua, nafasi zote zilizo ndani ya idadi fulani ya nafasi kutoka kwangu zinafunuliwa.
+**Korisnička priča:** Veći deo mape je sakriven. Kada napravim potez, otkrivaju se sva polja koja se nalaze unutar određenog rastojanja od mene.
 
 **Hadithi ya mtumiaji:** Ninapomshinda adui, adui huyo huondoka na ninapata XP, ambayo hatimaye huongeza ngazi yangu.
 
-**Hadithi ya mtumiaji:** Ninapopigana na adui, tunachukua zamu kuumizana hadi mmoja wetu apoteze. Mimi huumiza kulingana na ngazi yangu na silaha yangu. Adui huumiza kulingana na ngazi yake. Uumizaji ni wa bahati nasibu ndani ya kiwango fulani.
+**Korisnička priča:** Kada se borim protiv neprijatelja, naizmenično nanosimo štetu dok jedan od nas ne bude poražen. Ja nanosim štetu u zavisnosti od svog nivoa i oružja. Neprijatelj nanosi štetu u zavisnosti od svog nivoa. Količina štete je nasumična u okviru određenog opsega.
 
 **Priča korisnika:** Kada ga pronađem i pobedim bossa, ja pobeđujem.
 

@@ -1,13 +1,13 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: Ni mifano gani ya darasa la bandia la kitendakazi?
+title: Koji su primeri funkcionalnih pseudo-klasa?
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --interactive--
 
-Darasa la bandia la kitendakazi linakuwezesha kuchagua vipengele kulingana na masharti au uhusiano tata zaidi. Tofauti na darasa la bandia la kawaida ambalo hulenga vipengele kulingana na hali, kwa mfano, `:hover`, `:focus`, darasa la bandia la kitendakazi linakubali hoja ndani ya mabano ya kawaida, ndio maana linaitwa "darasa la bandia la kitendakazi".
+Funkcionalne pseudo-klase omogućavaju izbor elemenata na osnovu složenijih uslova ili odnosa. Za razliku od običnih pseudo-klasa koje ciljaju elemente prema njihovom stanju, kao što su `:hover` ili `:focus`, funkcionalne pseudo-klase prihvataju argumente unutar zagrada, zbog čega se nazivaju „funkcionalne pseudo-klase“.
 
 Mifano ya darasa la bandia la kitendakazi ni:
 
@@ -16,9 +16,9 @@ Mifano ya darasa la bandia la kitendakazi ni:
 - `:has()`
 - `:not()`
 
-Tuchunguze kwa undani kila moja ya darasa la bandia la kitendakazi kwa mifano.
+Pogledajmo detaljnije svaku od funkcionalnih pseudo-klasa kroz primere.
 
-Darasa la bandia la `:is()` ni muhimu unapotaka kupamba kundi la vipengele vinavyoshiriki baadhi, lakini siyo sifa zote. Kwa mfano, unaweza kutaka kupamba aina tofauti za vitufe kwenye tovuti yako, ikiwa ni pamoja na vipengele vya `button`, viungo vilivyopambwa kama vitufe, na vipengele vya `input` vyenye aina `submit` na `reset`. Hapa kuna mfano unaowakilisha hilo. Bila kitendakazi cha `:is()`, ungehitaji kuandika kichaguzi tata kama hiki:
+Pseudo-klasa `:is()` korisna je kada želiš da stilizuješ grupu elemenata koji dele neka, ali ne sva svojstva. Na primer, možda želiš da stilizuješ različite vrste dugmadi na svom sajtu, uključujući elemente `button`, veze stilizovane kao dugmad i elemente `input` tipa `submit` i `reset`. Evo primera. Bez funkcije `:is()` morao bi da napišeš složen selektor poput ovog:
 
 :::interactive_editor
 
@@ -59,7 +59,7 @@ input[type='reset']:hover {
 
 :::
 
-Kwa kutumia kitendakazi cha `:is()`, unaweza kuandika kichaguzi kifupi na kinachoweza kueleweka kama hiki:
+Pomoću funkcije `:is()` možeš napisati kraći i čitljiviji selektor, poput ovog:
 
 :::interactive_editor
 
@@ -94,7 +94,7 @@ Kwa kutumia kitendakazi cha `:is()`, unaweza kuandika kichaguzi kifupi na kinach
 
 :::
 
-Darasa la bandia la `:where()` hufanya kazi kama `:is()`, lakini haliongezi umahiri wa kichaguzi chako. Hii inafanya iwe bora kwa kutumia mitindo bila kuathiri umahiri wa sheria nyingine.
+Pseudo-klasa `:where()` radi slično kao `:is()`, ali ne povećava specifičnost selektora. Zbog toga je pogodna za primenu stilova bez uticaja na specifičnost drugih pravila.
 
 Na primer, možete koristiti funkciju `:where()` da ponovo postavite `margin` i `padding` za elemente zaglavlja sekcije. Ovo osigurava da resetovanje ne utiče na specifične stilove koje možete koristiti kasnije. Evo primera toga:
 
@@ -120,9 +120,9 @@ Na primer, možete koristiti funkciju `:where()` da ponovo postavite `margin` i 
 
 :::
 
-Kupamba kipengele cha mzazi kulingana na hali za watoto wake ilikuwa changamoto hapo awali hadi darasa la bandia la `:has()` lilipotambulishwa. Linakuwezesha kutumia mitindo kwa kipengele cha mzazi kulingana na uwepo au hali ya vipengele vya watoto wake.
+Stilizovanje roditeljskog elementa na osnovu stanja njegove dece ranije je bilo izazovno, sve dok nije uvedena pseudo-klasa `:has()`. Ona omogućava primenu stilova na roditeljski element na osnovu prisustva ili stanja njegovih potomaka.
 
-Kwa mfano, CSS ifuatayo itatumika tu kwa kipengele chochote cha `article` ambacho kina `h2` ndani yake:
+Na primer, sledeći CSS primeniće se samo na element `article` koji sadrži element `h2`:
 
 :::interactive_editor
 
@@ -148,7 +148,7 @@ article:has(h2) {
 
 :::
 
-Darasa la bandia la `:not()` ni bora kwa hali ambapo unataka kutumia mitindo kwa kundi la vipengele, ukiondoa moja au zaidi ya vipengele maalum. Katika CSS ifuatayo, kitufe chochote ambacho si kitufe cha msingi kitakuwa na rangi ya kijivu ya nyuma:
+Pseudo-klasa `:not()` idealna je kada želiš da primeniš stilove na grupu elemenata, osim jednog ili više određenih elemenata. U sledećem CSS primeru, svako dugme koje nije primarno imaće sivu pozadinu:
 
 :::interactive_editor
 
@@ -248,7 +248,7 @@ Funkcionalna klasa koristi standardne zagrade i prihvata deklaracije unutar sebe
 
 ### --feedback--
 
-Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani yake.
+Funkcionalne pseudo-klase koriste zagrade i prihvataju argumente unutar njih.
 
 ## --video-solution--
 
@@ -256,7 +256,7 @@ Darasa la bandia la kitendakazi hutumia mabano ya kawaida na hukubali hoja ndani
 
 ## --text--
 
-Ni darasa gani la bandia linalofaa kwa hali ambapo unataka kutumia mitindo kwa kundi la vipengele bila moja au mbili kuingizwa?
+Koja je pseudo-klasa najpogodnija kada želiš da stilizuješ grupu elemenata, izuzimajući jedan ili dva?
 
 ## --answers--
 
@@ -264,7 +264,7 @@ Ni darasa gani la bandia linalofaa kwa hali ambapo unataka kutumia mitindo kwa k
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
+Razmisli kako možeš da izuzmeš određene elemente iz stilizovanja.
 
 ---
 
@@ -272,7 +272,7 @@ Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
+Razmisli kako možeš da izuzmeš određene elemente iz stilizovanja.
 
 ---
 
@@ -284,7 +284,7 @@ Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
 
 ### --feedback--
 
-Fikiria jinsi unavyoweza kuondoa vipengele maalum kutoka kupambwa.
+Razmisli kako možeš da izuzmeš određene elemente iz stilizovanja.
 
 ## --video-solution--
 

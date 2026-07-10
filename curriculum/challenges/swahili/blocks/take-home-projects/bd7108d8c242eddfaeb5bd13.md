@@ -16,11 +16,11 @@ Završite korisničke priče ispod i prođite sve testove. Koristite bilo koju b
 
 **Priča korisnika:** Mogu da razumem veličinu meteorita upoređivanjem, gledajući kako je prikazan na mapi.
 
-**Hadithi ya mtumiaji:** Naweza kupeleka kipanya juu ya alama ya data ya meteorite kupata data zaidi.
+**Korisnička priča:** Mogu da pređem mišem preko oznake meteorita kako bih video više podataka.
 
 **Napomena:** Ovde je skup podataka koji možete koristiti za izgradnju ovoga: <https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json>
 
-Ukipomaliza, jumuisha kiungo cha mradi wako kwenye CodePen na bofya kitufe cha "Nimemaliza changamoto hii".
+Kada završite, uključite link do svog projekta na CodePen-u i kliknite na dugme „Završio/la sam ovaj izazov“.
 
 Možete dobiti povratne informacije o vašem projektu deljenjem ga na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">platformu freeCodeCamp-a</a>.
 

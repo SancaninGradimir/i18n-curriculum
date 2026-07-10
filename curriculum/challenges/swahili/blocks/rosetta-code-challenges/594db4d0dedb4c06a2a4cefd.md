@@ -8,10 +8,10 @@ dashedName: babbage-problem
 
 # --description--
 
-Charles Babbage, akitazama mbele kwa aina za matatizo ambayo Mashine yake ya Uchambuzi (Analytical Engine) ingekuwa na uwezo wa kuyatatua, alitoa mfano huu:
+Charles Babbage je, razmišljajući unapred o vrstama problema koje bi njegov Analitički stroj mogao da rešava, dao sledeći primer:
 
 <blockquote>
-  Ni nambari kamili chanya ndogo kabisa ambayo mraba wake unaishia na tarakimu 269,696?
+Koji je najmanji pozitivan ceo broj čiji se kvadrat završava ciframa 269696?
   <footer style='margin-left: 2em;'>Babbage, barua kwa Lord Bowden, 1837; angalia Hollingdale na Tootill, <i>Electronic Computers</i>, toleo la pili, 1970, uk. 125.</footer>
 </blockquote>
 
@@ -31,7 +31,7 @@ Implementiraj funkciju koja vraća najmanji ceo broj koji rešava Babbageov prob
 assert(typeof babbage === 'function');
 ```
 
-`babbage(99736, 269696)` haipaswi kurudisha 99736 (kuna jibu ndogo zaidi).
+`babbage(99736, 269696)` ne treba da vrati 99736 (postoji manje rešenje).
 
 ```js
 const babbageAns = 99736;

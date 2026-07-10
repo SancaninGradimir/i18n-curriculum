@@ -11,7 +11,7 @@ lang: en-US
 
 Reč `date` se može koristiti u različitim kontekstima. Iako često odnosi na romantični sastanak između dve osobe, takođe može značiti samo sastanak ili događaj koji je organizovan između prijatelja ili kolega sa posla. Na primer:
 
-`Let's set a date for our next meeting.` - Hapa, `date` inatumika kwa njia isiyo ya kimapenzi, ikimaanisha kuchagua siku ya mkutano.
+`Let's set a date for our next meeting.` – Ovde se `date` koristi u nekonvencionalnom, neromantičnom značenju i označava određivanje datuma sastanka.
 
 # --fillInTheBlank--
 
@@ -25,7 +25,7 @@ Reč `date` se može koristiti u različitim kontekstima. Iako često odnosi na 
 
 ### --feedback--
 
-Neno hili linaelezea aina ya shughuli iliyopangwa, likionyesha kuwa ni matembezi ya baiskeli.
+Ova reč opisuje vrstu planirane aktivnosti i pokazuje da je u pitanju vožnja bicikla.
 
 ---
 

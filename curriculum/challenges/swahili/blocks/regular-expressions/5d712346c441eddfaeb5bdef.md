@@ -1,6 +1,6 @@
 ---
 id: 5d712346c441eddfaeb5bdef
-title: Linganisha nambari zote
+title: Pronađi sve brojeve
 challengeType: 1
 forumTopicId: 18181
 dashedName: match-all-numbers
@@ -8,13 +8,13 @@ dashedName: match-all-numbers
 
 # --description--
 
-Umejifunza njia za mkato za mifumo ya kawaida ya mfuatano wa herufi kama herufi na nambari. Mfumo mwingine wa kawaida ni kutafuta tu tarakimu au nambari.
+Naučio si prečice za uobičajene klase znakova kao što su slova i brojevi. Još jedan čest obrazac je pronalaženje samo cifara.
 
-Njia ya mkato ya kutafuta herufi za tarakimu ni `\d`, kwa herufi ndogo `d`. Hii ni sawa na darasa la herufi `[0-9]`, ambalo linatafuta herufi moja ya nambari yoyote kati ya sifuri na tisa.
+Prečica za pronalaženje cifara je `\d`, malim slovom `d`. To je isto što i klasa znakova `[0-9]`, koja pronalazi bilo koju pojedinačnu cifru od nule do devet.
 
 # --instructions--
 
-Tumia darasa la herufi la njia ya mkato `\d` kuhesabu ni tarakimu ngapi zipo katika vichwa vya filamu. Nambari zilizoandikwa kwa maneno ("sita" badala ya 6) hazihesabiwi.
+Upotrebi prečicu `\d` da izbrojiš koliko se cifara nalazi u naslovima filmova. Brojevi napisani rečima („šest“ umesto 6) ne računaju se.
 
 # --hints--
 
@@ -30,31 +30,31 @@ Vaša uobičajena izjava treba da koristi globalnu zastavicu.
 assert(numRegex.global);
 ```
 
-Usemi wako wa kawaida unapaswa kupata tarakimu 1 katika mfuatano `9`.
+Regularni izraz treba da pronađe 1 cifru u nizu `9`.
 
 ```js
 assert('9'.match(numRegex).length == 1);
 ```
 
-Usemi wako wa kawaida unapaswa kupata tarakimu 2 katika mfuatano `Catch 22`.
+Regularni izraz treba da pronađe 2 cifre u nizu `Catch 22`.
 
 ```js
 assert('Catch 22'.match(numRegex).length == 2);
 ```
 
-Usemi wako wa kawaida unapaswa kupata tarakimu 3 katika mfuatano `101 Dalmatians`.
+Regularni izraz treba da pronađe 3 cifre u nizu `101 Dalmatians`.
 
 ```js
 assert('101 Dalmatians'.match(numRegex).length == 3);
 ```
 
-Usemi wako wa kawaida unapaswa kupata tarakimu 0 katika mfuatano `One, Two, Three`.
+Regularni izraz treba da pronađe 0 cifara u nizu `One, Two, Three`.
 
 ```js
 assert('One, Two, Three'.match(numRegex) == null);
 ```
 
-Usemi wako wa kawaida unapaswa kupata tarakimu 2 katika mfuatano `21 Jump Street`.
+Regularni izraz treba da pronađe 2 cifre u nizu `21 Jump Street`.
 
 ```js
 assert('21 Jump Street'.match(numRegex).length == 2);

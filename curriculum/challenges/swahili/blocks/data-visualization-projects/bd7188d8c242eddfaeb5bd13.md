@@ -13,13 +13,13 @@ Završi korisničke priče ispod i prođi kroz sve specifikacije. Koristi bilo k
 
 Možete koristiti HTML, JavaScript, CSS, sa D3 bibliotekom za crtanje SVG. Potrebne komponente za DOM pretražuju se tokom svakog testa. Ako koristite sistem prednje funkcije (kao što je Vue), rezultati testa mogu biti netačni za dinamički sadržaj. Očekujemo da ćemo ovo uskoro podržati, ali ovi sistemi trenutno nisu podržani za D3 projekte.
 
-**Hadithi ya mtumiaji #1:** Ramani yangu ya joto inapaswa kuwa na kichwa chenye `id="title"` inayolingana.
+**Korisnička priča #1:** Moja mapa toplote treba da ima naslov sa odgovarajućim `id="title"`.
 
-**Hadithi ya mtumiaji #2:** Ramani yangu ya joto inapaswa kuwa na maelezo yenye `id="description"` inayolingana.
+**Korisnička priča #2:** Moja mapa toplote treba da ima opis sa odgovarajućim `id="description"`.
 
-**Hadithi ya mtumiaji #3:** Ramani yangu ya joto inapaswa kuwa na mhimili wa x wenye `id="x-axis"` inayolingana.
+**Korisnička priča #3:** Moja mapa toplote treba da ima x-osu sa odgovarajućim `id="x-axis"`.
 
-**Hadithi ya mtumiaji #4:** Ramani yangu ya joto inapaswa kuwa na mhimili wa y wenye `id="y-axis"` inayolingana.
+**Korisnička priča #4:** Moja mapa toplote treba da ima y-osu sa odgovarajućim `id="y-axis"`.
 
 **Priča korisnika #5:** Moja mapa toplote bi trebalo da ima komponente sa `rect` koje imaju `class="cell"` i predstavljaju podatke.
 
@@ -37,7 +37,7 @@ Možete koristiti HTML, JavaScript, CSS, sa D3 bibliotekom za crtanje SVG. Potre
 
 **Priča korisnika #12:** Moja toplinska karta treba da ima mnogo oznaka markera na X osi sa godinama između 1754 i 2015.
 
-**Hadithi ya mtumiaji #13:** Ramani yangu ya joto inapaswa kuwa na lebo yenye `id="legend"` inayolingana.
+**Korisnička priča #13:** Moja mapa toplote treba da ima legendu sa odgovarajućim `id="legend"`.
 
 **Priča korisnika #14:** Moja oznaka bi trebalo da ima elemente `rect`.
 
@@ -51,7 +51,7 @@ Evo skupa podataka koji će vam trebati za završetak ovog projekta: `https://ra
 
 Možete izgraditi svoj projekat koristeći <a href='https://codepen.io/pen?template=MJjpwO' target="_blank" rel="noopener noreferrer nofollow">koristeći ovaj CodePen šablon</a> i klikom na `Save` da kreirate svoj Pen. Ili možete koristiti ovu CDN vezu da pokrenete demo u bilo kom okruženju koje preferirate: `https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js`
 
-Ukiisha kumaliza, wasilisha URL ya mradi wako unaofanya kazi na vipimo vyote vikipita.
+Kada završiš, pošalji URL svog funkcionalnog projekta sa svim uspešno položenim testovima.
 
 # --solutions--
 

@@ -13,7 +13,7 @@ dashedName: build-a-javascript-calculator
 
 Dopunite korisničke priče ispod i pokrijte sve specifikacije. Koristite bilo koju biblioteku ili API koja vam je potrebna. Pružite svoj stil.
 
-Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, i jQuery da završite ovaj projekat. Preporučuje se korišćenje *front-end* okvira (kao što je React na primer) jer se ovaj deo bavi učenjem *front-end* okvira. Ostale tehnologije koje nisu pomenute gore nisu preporučene, i njihova upotreba je na vaš rizik. Planiramo da podržimo druge *front-end* okvire kao što su Angular i Vue, ali trenutno nisu podržani. Prihvatitićemo i pokušati da popravimo sve izveštaje o greškama koji koriste tehnologiju preporučenu za ovaj projekat. Uživajte u kodiranju!
+Možete koristiti bilo koju kombinaciju HTML-a, JavaScript-a, CSS-a, Bootstrap-a, SASS-a, React-a, Redux-a i jQuery-ja da završite ovaj projekat. Preporučuje se korišćenje *front-end* okvira (kao što je React) jer se ovaj deo bavi učenjem *front-end* okvira. Ostale tehnologije koje nisu navedene iznad nisu preporučene i koristite ih na sopstveni rizik. Planiramo da podržimo i druge *front-end* okvire kao što su Angular i Vue, ali oni trenutno nisu podržani. Prihvatićemo i pokušati da ispravimo sve prijavljene greške koje koriste preporučene tehnologije za ovaj projekat. Uživajte u kodiranju!
 
 **Priča korisnika #1:** Moj kalkulator bi trebalo da ima klikabilni element sa `=` (znak jednakosti) i `id="equals"` koji odgovara.
 

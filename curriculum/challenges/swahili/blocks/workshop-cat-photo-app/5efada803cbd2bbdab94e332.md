@@ -11,7 +11,7 @@ Unutar elementa za `figure` koji je dodat, postavite unutar elementa `img` koji 
 
 # --hints--
 
-Kipengele chako cha `figure` cha pili kinapaswa kuwa na lebo ya kufungua. Lebo za kufungua zina sintaksia hii: `<elementName>`.
+Vaš drugi `figure` element treba da ima početnu oznaku. Početne oznake imaju ovu sintaksu: `<elementName>`.
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);

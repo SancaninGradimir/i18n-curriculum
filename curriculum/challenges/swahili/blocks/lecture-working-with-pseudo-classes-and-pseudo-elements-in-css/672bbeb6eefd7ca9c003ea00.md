@@ -1,6 +1,6 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: Ni mifano gani ya darasa la bandia la muundo wa mti?
+title: Koji su primeri pseudo-klasa za strukturu stabla?
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
@@ -9,7 +9,7 @@ dashedName: what-are-examples-of-tree-structural-pseudo-classes
 
 Pseudo-klasa za strukturu drveta omogućava vam da ciljate i stilizujete elemente na osnovu njihove pozicije unutar stabla dokumenta. Stablo dokumenta se odnosi na hijerarhijsku strukturu elemenata u dokumentu HTML.
 
-Hapa kuna orodha ya madarasa ya bandia ya muundo wa mti:
+Evo liste pseudo-klasa za strukturu stabla:
 
 - `:root`
 - `:empty`
@@ -25,7 +25,7 @@ Hapa kuna orodha ya madarasa ya bandia ya muundo wa mti:
 
 Detaljno analizirajmo svaku veštačku klasu strukture drveta, praćenu primerima.
 
-Darasa la bandia la `:root` kawaida ni kipengele cha mzizi `html`. Linakusaidia kulenga ngazi ya juu kabisa katika hati ili uweze kutumia mtindo wa kawaida kwa hati nzima.
+Pseudo-klasa `:root` obično predstavlja korenski element `html`. Omogućava ti da ciljaš najviši nivo dokumenta kako bi primenio zajedničke stilove na ceo dokument.
 
 :::interactive_editor
 
@@ -44,7 +44,7 @@ Darasa la bandia la `:root` kawaida ni kipengele cha mzizi `html`. Linakusaidia 
 
 :::
 
-Darasa la bandia la `:root` pia hutumika sana katika kuweka vigezo vya CSS:
+Pseudo-klasa `:root` se takođe često koristi za definisanje CSS promenljivih:
 
 ```css
 :root {
@@ -54,9 +54,9 @@ Darasa la bandia la `:root` pia hutumika sana katika kuweka vigezo vya CSS:
 }
 ```
 
-Kwa vigezo vya CSS, unapata kuhifadhi thamani na kuzitumia tena katika karatasi yako ya mtindo. Utajifunza zaidi kuhusu haya baadaye.
+CSS promenljive omogućavaju čuvanje vrednosti i njihovo ponovno korišćenje u stilovima. Više o njima naučićeš kasnije.
 
-Vipengele vilivyo tupu, yaani vipengele visivyo na watoto isipokuwa nafasi tupu, pia vinajumuishwa katika mti wa hati. Ndiyo maana kuna darasa la bandia la `:empty` la kulenga vipengele tupu. Kwa mfano, msimbo huu wa HTML una vitu viwili vya orodha tupu. Kwa darasa la bandia la `:empty`, unaweza kupamba vitu vya orodha tupu kwa njia tofauti:
+Prazni elementi, odnosno elementi bez dece osim praznih razmaka, takođe su deo stabla dokumenta. Zato postoji pseudo-klasa `:empty` za ciljanje praznih elemenata. Na primer, ovaj HTML sadrži dve prazne stavke liste. Pomoću pseudo-klase `:empty` možeš ih stilizovati drugačije:
 
 :::interactive_editor
 
@@ -102,9 +102,9 @@ Najveći broj aktivnosti za obavljanje sa praznim stavkama liste je možda da uo
 
 :::
 
-`:nth-child(n)` inakuwezesha kuchagua vipengele kulingana na nafasi yao ndani ya mzazi, wakati `:nth-last-child(n)` inakuwezesha kuchagua vipengele kwa kuhesabu kutoka mwisho. `n` inaweza kuwa nambari maalum au neno kama `odd` au `even`. Hii ni muhimu sana katika kupamba seli za jedwali kulingana na nafasi: hata na isiyo hata.
+`:nth-child(n)` omogućava izbor elemenata prema njihovom položaju unutar roditelja, dok `:nth-last-child(n)` bira elemente brojeći od kraja. `n` može biti određeni broj ili vrednosti poput `odd` ili `even`. Ovo je posebno korisno za stilizovanje ćelija tabele na osnovu njihovog položaja.
 
-Hapa kuna mfano wa HTML wa jedwali la bei za matunda. CSS inatumia darasa la bandia la `:nth-child` kulenga seli za jedwali kulingana na nafasi za isiyo hata na hata:
+Evo primera HTML tabele sa cenama voća. CSS koristi pseudo-klasu `:nth-child` da cilja ćelije tabele na neparnim i parnim pozicijama:
 
 :::interactive_editor
 
@@ -306,11 +306,11 @@ Zamislite kako vam ove veštačke klase pomažu da stilizujete prvi i poslednji 
 
 ---
 
-`:first-of-type` na `:last-of-type` zote huchagua tukio la kwanza la kipengele lakini katika sehemu tofauti za hati.
+I `:first-of-type` i `:last-of-type` biraju prvo ili poslednje pojavljivanje određenog tipa elementa u odgovarajućem kontekstu dokumenta.
 
 ### --feedback--
 
-Fikiria jinsi madarasa haya ya bandia yanavyokusaidia kupamba tukio la kwanza na la mwisho la lebo fulani, kama `p` au `h1`.
+Razmisli kako ti ove pseudo-klase mogu pomoći da stilizuješ prvo i poslednje pojavljivanje određenog elementa, poput `p` ili `h1`.
 
 ---
 

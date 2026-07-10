@@ -24,11 +24,11 @@ dashedName: build-a-light-bright-app
 
 **Priča korisnika:** Mogu da kliknem na dugme 'Reset' da obrišem najnoviju boju.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kitufe cha 'Reset All' kuondoa rangi zote kutoka kwenye miduara.
+**Korisnička priča:** Mogu da kliknem na dugme „Reset All“ kako bih uklonio sve boje sa krugova.
 
 Nakon što završiš, uključi link svog projekta na CodePen i klikni na dugme "Završio sam ovaj izazov".
 
-Unaweza kupata maoni kuhusu mradi wako kwa kuushiriki kwenye <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">jukwaa la freeCodeCamp</a>.
+Povratne informacije o svom projektu možete dobiti tako što ćete ga podeliti na <a href="https://forum.freecodecamp.org/c/project-feedback/409" target="_blank" rel="noopener noreferrer nofollow">freeCodeCamp forumu</a>.
 
 # --solutions--
 

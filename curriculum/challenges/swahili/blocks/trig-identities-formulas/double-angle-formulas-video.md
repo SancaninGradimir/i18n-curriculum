@@ -1,6 +1,6 @@
 ---
 id: 699e78398f18cf77dfce5c1c
-title: Fomula za pembe mara mbili
+title: Formule za dvostruki ugao
 challengeType: 11
 videoId: QMaQImbBe0M
 dashedName: double-angle-formulas
@@ -8,13 +8,13 @@ dashedName: double-angle-formulas
 
 # --description--
 
-Katika video hii, utafundishwa kuhusu fomula za pembe mara mbili.
+U ovom videu naučićeš formule za dvostruki ugao.
 
 # --questions--
 
 ## --text--
 
-Ni fomula gani ya pembe mara mbili kwa $\sin(2\theta)$?
+Koja je formula za dvostruki ugao za $\sin(2\theta)$?
 
 ## --answers--
 

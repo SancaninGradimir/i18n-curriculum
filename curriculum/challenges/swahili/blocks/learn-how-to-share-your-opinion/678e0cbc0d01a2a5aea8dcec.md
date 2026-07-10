@@ -28,7 +28,7 @@ Jake hakutaja bei au gharama kama sababu ya kupendelea Visual Studio Code.
 
 ---
 
-Kwa sababu ni polepole na haina usalama.
+Zato što je spor i nije bezbedan.
 
 ### --feedback--
 
@@ -36,15 +36,15 @@ Sababu ya Jake kupendelea Visual Studio Code haijumuishi masuala ya kasi au usal
 
 ---
 
-Kwa sababu ni ngumu kutumia na ina vipengele vichache.
+Zato što je težak za korišćenje i ima malo funkcija.
 
 ### --feedback--
 
-Jake anaelezea Visual Studio Code kwa njia chanya, bila kutaja kuwa ni vigumu kutumia au haina vipengele vya kutosha.
+Jake opisuje Visual Studio Code na pozitivan način i ne kaže da je težak za korišćenje niti da mu nedostaju funkcije.
 
 ---
 
-Kwa sababu ni nyepesi na ina vipengele bora vya usalama.
+Zato što je lagan i ima odlične bezbednosne funkcije.
 
 ## --video-solution--
 
@@ -52,13 +52,13 @@ Kwa sababu ni nyepesi na ina vipengele bora vya usalama.
 
 # --explanation--
 
-Sikiliza maneno muhimu yanayoelezea upendeleo wa Jake.  
+Obrati pažnju na ključne reči koje opisuju Jakeove razloge.
 
-`Lightweight` – Hii ina maana Visual Studio Code haitumii rasilimali nyingi za mfumo.  
+`Lightweight` – To znači da Visual Studio Code ne koristi mnogo sistemskih resursa.
 
-`Security features` – Hii inaonyesha kuwa Jake anathamini jinsi chombo kinavyosaidia kulinda dhidi ya hatari zinazoweza kutokea.  
+`Security features` – To pokazuje da Jake ceni način na koji alat pomaže u zaštiti od mogućih bezbednosnih pretnji.
 
-Maneno haya muhimu yanakusaidia kuona kuwa Jake anapendelea Visual Studio Code kwa sababu ni nyepesi na ina vipengele imara vya usalama.
+Ove ključne reči pokazuju da Jake preferira Visual Studio Code zato što je lagan i ima snažne bezbednosne funkcije.
 
 # --scene--
 

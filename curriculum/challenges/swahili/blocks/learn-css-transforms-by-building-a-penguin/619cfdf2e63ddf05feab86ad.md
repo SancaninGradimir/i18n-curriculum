@@ -17,7 +17,7 @@ Trebalo bi mu dati osobinu `.face` od `top`.
 assert.notEmpty(new __helpers.CSSHelp(document).getStyle('.face')?.top);
 ```
 
-Unapaswa kumpa `.face` sifa ya `top` yenye thamani ya `--fcc-expected--`, lakini nilipata `--fcc-actual--`.
+Trebalo bi da dodelite `.face` svojstvo `top` sa vrednošću `--fcc-expected--`, ali sam dobio `--fcc-actual--`.
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('.face')?.top, '15%');

@@ -13,7 +13,7 @@ dashedName: build-a-random-quote-machine
 
 Dovršite korisničke priče ispod i prođite sve testove. Koristite bilo koju biblioteku ili API što vam je potrebno. Dostavite svoj stil.
 
-Možete koristiti bilo koju kombinaciju HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, i jQuery za dovršavanje ovog projekta. Preporučuje se korišćenje *front-end* okvira (poput React, na primer) jer je ovaj deo o učenju *front-end* okvira. Druge tehnologije koje nisu spomenute iznad nisu preporučene i njihova upotreba je na vaš rizik. Planiramo da podržimo druge *front-end* okvire kao što su Angular i Vue, ali trenutno nisu podržani. Prihvatićemo i pokušati da popravimo sve izveštaje o greškama koji koriste tehnologiju preporučenu za ovaj projekat. Sretno kodiranje!
+Možete koristiti bilo koju kombinaciju HTML-a, JavaScript-a, CSS-a, Bootstrap-a, SASS-a, React-a, Redux-a i jQuery-ja da završite ovaj projekat. Preporučuje se korišćenje *front-end* okvira (kao što je React) jer je ovaj deo namenjen učenju *front-end* okvira. Druge tehnologije koje nisu navedene iznad nisu preporučene i koristite ih na sopstveni rizik. Planiramo da podržimo i druge *front-end* okvire kao što su Angular i Vue, ali oni trenutno nisu podržani. Prihvatićemo i pokušati da ispravimo sve prijavljene greške koje koriste preporučene tehnologije za ovaj projekat. Srećno sa kodiranjem!
 
 **Priča korisnika #1:** Vidim pokrivajući element sa `id="quote-box"` koji odgovara.
 

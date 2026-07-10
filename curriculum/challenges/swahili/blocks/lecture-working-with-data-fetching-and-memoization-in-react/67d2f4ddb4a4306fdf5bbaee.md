@@ -7,7 +7,7 @@ dashedName: what-is-memoization-and-how-does-the-usememo-hook-work
 
 # --description--
 
-Kadiri programu yako ya React inavyokua, upitishaji upya usiohitajika na mahesabu ghali yanaweza kupunguza utendaji, na kusababisha masasisho ya UI kuwa polepole na matumizi ya rasilimali kuongezeka.
+Kako vaša React aplikacija raste, nepotrebna ponovna renderovanja i skupe kalkulacije mogu usporiti performanse, što dovodi do sporijeg ažuriranja korisničkog interfejsa i veće potrošnje resursa.
 
 Ovo može biti problem posebno u aplikacijama koje imaju složeno upravljanje stanjem, velike liste, funkcije koje zahtevaju intenzivne proračune i mnogo sekcija sa jednim roditeljem.
 
@@ -19,7 +19,7 @@ Za pojašnjenje, memoizacija je tehnika za poboljšanje performansi gde se rezul
 
 Proces memoizacije odvija se na ovaj način:
 
-- Hifadhi matokeo ya wito wa vitendakazi pamoja na hoja zake za ingizo.
+- Sačuvajte rezultate poziva funkcije zajedno sa njenim ulaznim argumentima.
 
 - Pre izvršavanja funkcije, proverite da li rezultati za trenutne argumente već postoje u skladištu.
 

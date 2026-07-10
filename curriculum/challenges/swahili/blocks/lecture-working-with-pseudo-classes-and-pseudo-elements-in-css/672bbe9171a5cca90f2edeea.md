@@ -15,7 +15,7 @@ Ove pseudo-klase uključuju `:hover`, `:active`, `:focus`, i `:visited`, među o
 
 Neka pregledamo neke veštačke klase korisničkog ponašanja koje imamo i da vidimo kako funkcionišu.
 
-Darasa la bandia la `:active` linaweka mitindo wakati kipengele kinapowashwa na mtumizi. Kwa mfano, mtumizi anapobofya kitufe au kiungo, hutoa maoni ya kuona mara moja, kuonyesha watumizi kuwa vitendo vyao vinatambuliwa.
+Pseudo-klasa `:active` primenjuje stilove kada korisnik aktivira element. Na primer, kada korisnik klikne na dugme ili vezu, pruža trenutnu vizuelnu povratnu informaciju koja pokazuje da je radnja prepoznata.
 
 :::interactive_editor
 
@@ -51,9 +51,9 @@ Pseudo-klasa za `:hover` se aktivira kada korisnik pređe mišem ili drugim poka
 
 :::
 
-Darasa la bandia la `:focus` linaweka mitindo wakati kipengele kinapopata makini, kawaida kupitia urambazaji wa kibodi au mtumizi anapobofya sehemu ya ingizo ya fomu. Hii si kwa ajili ya maoni tu bali pia ni muhimu kwa Ufikikaji. Inahakikisha watumizi wanaotegemea sana kibodi wanaweza kutambua kwa urahisi kipengele wanachoshirikiana nacho.
+Pseudo-klasa `:focus` primenjuje stilove kada element dobije fokus, obično putem tastature ili kada korisnik klikne na polje za unos. Ovo nije važno samo zbog vizuelne povratne informacije već i zbog pristupačnosti, jer korisnicima koji koriste tastaturu olakšava da vide sa kojim elementom rade.
 
-Hapa kuna mfano wa sehemu ya ingizo inayopata makini inapobofya au kupelekwa kupitia kibodi:
+Evo primera polja za unos koje dobija fokus kada se klikne na njega ili kada se do njega dođe pomoću tastature:
 
 :::interactive_editor
 
@@ -73,7 +73,7 @@ input:focus {
 
 :::
 
-Darasa la bandia la `:visited` linawalenga viungo ambavyo mtumizi amevitembelea. Hii inaweza kusaidia watumizi kutofautisha kati ya kurasa walizotembelea na zile ambazo bado hawajatembelea. Hapa kuna mfano wa kubadilisha rangi ya maandishi ya nanga kuwa cyan wakati kiungo kimebofyanwa:
+Pseudo-klasa `:visited` cilja veze koje je korisnik već posetio. To pomaže korisnicima da razlikuju posećene od neposjećenih stranica. Evo primera u kome se boja teksta veze menja u `cyan` nakon što je veza posećena:
 
 :::interactive_editor
 
@@ -90,7 +90,7 @@ a:visited {
 
 :::
 
-Darasa la bandia la `:checked` katika CSS linakuwezesha kuweka mitindo kwa vipengele vya fomu kama kisanduku cha kuchagua na kitufe cha radio wakati vimechaguliwa (vimekaguliwa). Darasa hili la bandia ni muhimu kwa kubinafsisha muonekano wa vipengele hivi ili kuboresha uzoefu wa mtumizi, ingawa vivinjari hutoa mitindo ya msingi kwao.
+Pseudo-klasa `:checked` u CSS-u omogućava stilizovanje elemenata obrasca, kao što su polja za potvrdu i radio dugmad, kada su označeni. Ova pseudo-klasa je korisna za prilagođavanje njihovog izgleda i poboljšanje korisničkog iskustva, iako pregledači već imaju podrazumevane stilove.
 
 Ovo je primer čekmarke za saglasnost sa uslovima na veb stranici.
 
@@ -228,7 +228,7 @@ Primjenjuje stil za element kada primi fokus.
 
 ### --feedback--
 
-Fikiria jinsi fomu zinavyoshughulikia uchaguzi wa mtumizi.
+Razmisli kako obrasci obrađuju korisničke izbore.
 
 ## --video-solution--
 

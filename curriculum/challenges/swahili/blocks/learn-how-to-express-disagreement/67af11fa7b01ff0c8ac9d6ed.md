@@ -15,7 +15,7 @@ Pročitajte tekst i odgovorite na pitanje koje je navedeno/nalazi se ispod.
 
 ## --text--
 
-Baada ya kukagua matokeo ya utafiti kuhusu ruzuku ya kazi ya mbali, Bob aliamua kuandika makala:
+Nakon pregleda rezultata istraživanja o dodatku za rad na daljinu, Bob je odlučio da napiše članak:
 
 `The Remote Work Stipend Debate: Comfort or Productivity?`
 
@@ -29,11 +29,11 @@ Baada ya kukagua matokeo ya utafiti kuhusu ruzuku ya kazi ya mbali, Bob aliamua 
 
 `As remote work grows, companies need to support their workers in the best way possible. A well-equipped home office isn't just a nice extra — it's key to doing great work.`
 
-Kwa nini baadhi ya wafanyakazi wanapendelea kutumia ruzuku hiyo kwa samani za ofisi?
+Zašto neki zaposleni više vole da koriste taj dodatak za kancelarijski nameštaj?
 
 ## --answers--
 
-Kwa sababu hawapendi kufanya kazi kwa mbali.
+Zato što ne vole rad na daljinu.
 
 ### --feedback--
 

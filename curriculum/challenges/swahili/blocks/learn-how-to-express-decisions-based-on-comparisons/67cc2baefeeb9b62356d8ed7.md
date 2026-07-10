@@ -47,7 +47,7 @@ Napišite sledeće reči ili izraze na odgovarajuće mesto:
 
 ### --feedback--  
 
-Kivumishi hiki cha kulinganisha kinaelezea kitu kinachozidi kingine kwa ubora.
+Ovaj komparativni pridev opisuje nešto što je bolje od nečeg drugog.
 
 ---
 

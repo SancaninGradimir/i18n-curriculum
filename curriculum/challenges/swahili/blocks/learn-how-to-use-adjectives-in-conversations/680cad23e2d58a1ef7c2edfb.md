@@ -24,7 +24,7 @@ Slušajte audio i dovršite sledeću rečenicu.
 
 ### --feedback--
 
-Neno hili hutumika kuonyesha vitu maalum vilivyo karibu na msemaji.
+Ova reč se koristi za označavanje određenih stvari koje se nalaze blizu govornika.
 
 ---
 
@@ -36,9 +36,9 @@ Ova složena reč znači nešto što može da rukuje velikom količinom posla, s
 
 # --explanation--
 
-`High-capacity` linaelezea kitu kilichoundwa kushughulikia au kuhifadhi kiasi kikubwa ikilinganishwa na matoleo ya kawaida. Kwa mfano:
+`High-capacity` opisuje nešto što je napravljeno da može da obradi ili skladišti znatno veću količinu od standardnih verzija. Na primer:
 
-`We installed high-capacity batteries in the new devices.` – Hii ina maana betri zinaweza kuhifadhi nguvu zaidi na kudumu kwa muda mrefu, jambo ambalo ni muhimu katika vifaa vya teknolojia.
+`We installed high-capacity batteries in the new devices.` – To znači da baterije mogu da skladište više energije i da traju duže, što je važno za tehnološke uređaje.
 
 # --scene--
 

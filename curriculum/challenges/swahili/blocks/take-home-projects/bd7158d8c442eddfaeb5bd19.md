@@ -18,7 +18,7 @@ Završite korisničke priče ispod i prođite sve testove. Koristite bilo koje b
 
 **Priča korisnika:** Mogu pretraživati članke Wikipedije u okviru za pretragu i videti rezultirajuće članke Wikipedije.
 
-**Hadithi ya mtumiaji:** Naweza kubofya kitufe kuona maingizo ya Wikipedia ya bahati nasibu.
+**Korisnička priča:** Mogu da kliknem na dugme kako bih dobio nasumični unos sa Wikipedije.
 
 Kada dobijete zadatak, uključite link svog projekta na CodePen i kliknite na dugme "Završio sam ovaj izazov".
 

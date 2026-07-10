@@ -12,7 +12,7 @@ Slucajni brojevi su korisni za kreiranje slucajnog ponasanja.
 
 JavaScript ima funkciju `Math.random()` koja generise slucajan decimalni broj izmedju `0` (ukljucivo) i `1` (iskljucivo). Dakle, `Math.random()` moze da vrati `0`, ali nikad ne moze da vrati `1`.
 
-**Napomena:** Kao i u <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Cuvanje vrednosti pomocu operatora dodele</a>, svi pozivi funkcija ce biti razreseni pre nego sto se `return` izvrsi, pa mozemo direktno `return`-ovati vrednost funkcije `Math.random()`.
+**Napomena:** Kao i u <a href="/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator" target="_blank" rel="noopener noreferrer nofollow">Čuvanje vrednosti pomoću operatora dodele</a>, svi pozivi funkcija biće izvršeni pre nego što se izvrši `return`, pa možemo direktno vratiti vrednost funkcije `Math.random()`.
 
 # --instructions--
 
