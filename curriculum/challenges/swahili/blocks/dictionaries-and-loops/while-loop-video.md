@@ -1,6 +1,6 @@
 ---
 id: 474c23ec0df6e7af920e0526
-title: Mzunguko wa while
+title: While petlja
 challengeType: 11
 videoId: s6yz4Ew8dwQ
 dashedName: while-loop

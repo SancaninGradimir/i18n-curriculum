@@ -1,6 +1,6 @@
 ---
 id: a4cfb218d22efcfa7cc49d80
-title: Kitendakazi cha nguvu za mwinuko
+title: Eksponencijalna funkcija
 challengeType: 11
 videoId: KLDvy0wFFX4
 dashedName: exponent-functions

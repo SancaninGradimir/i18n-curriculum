@@ -1,6 +1,6 @@
 ---
 id: 030401977064585ddd4c7746
-title: Mizunguko ya for
+title: For petlje
 challengeType: 11
 videoId: x13V1UMMQeI
 dashedName: for-loops

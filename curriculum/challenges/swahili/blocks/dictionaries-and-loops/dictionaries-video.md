@@ -1,6 +1,6 @@
 ---
 id: 3625fbc38b9428ae98d98f23
-title: Kamusi
+title: Rečnici
 challengeType: 11
 videoId: FBfYADu3CIo
 dashedName: dictionaries
